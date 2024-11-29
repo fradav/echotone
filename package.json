@@ -1,0 +1,37 @@
+{
+  "name": "example-basic",
+  "dependencies": {
+    "@ark-ui/solid": "^4.5.1",
+    "@solid-primitives/intersection-observer": "^2.1.6",
+    "@solidjs/meta": "^0.29.4",
+    "@solidjs/router": "^0.15.0",
+    "@solidjs/start": "^1.0.10",
+    "@unpic/placeholder": "^0.1.2",
+    "@unpic/solid": "^0.0.49",
+    "hyphen": "^1.10.6",
+    "hyphenopoly": "^6.0.0",
+    "solid-js": "^1.9.2",
+    "solid-lorem": "^0.0.1",
+    "solid-mason": "^0.1.7",
+    "tailwindcss": "^3.4.14",
+    "vinxi": "^0.4.3"
+  },
+  "engines": {
+    "node": ">=18"
+  },
+  "scripts": {
+    "dev": "vinxi dev",
+    "build": "vinxi build",
+    "start": "vinxi start",
+    "version": "vinxi version"
+  },
+  "trustedDependencies": [
+    "@parcel/watcher"
+  ],
+  "type": "module",
+  "devDependencies": {
+    "@types/hyphen": "^1.6.7",
+    "autoprefixer": "^10.4.20",
+    "sass": "^1.80.6"
+  }
+}

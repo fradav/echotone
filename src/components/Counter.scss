@@ -1,0 +1,21 @@
+.increment {
+  font-family: inherit;
+  font-size: inherit;
+  padding: 1em 2em;
+  color: #047842;
+  background-color: rgba(18, 109, 228, 0.1);
+  border-radius: 2em;
+  border: 2px solid rgba(250, 231, 231, 0.543);
+  outline: none;
+  width: 200px;
+  font-variant-numeric: tabular-nums;
+  cursor: pointer;
+}
+
+.increment:focus {
+  border: 2px solid #464008;
+}
+
+.increment:active {
+  background-color: rgba(68, 107, 158, 0.2);
+}

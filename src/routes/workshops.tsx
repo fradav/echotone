@@ -1,0 +1,29 @@
+import { Title } from "@solidjs/meta";
+import { Lorem } from "solid-lorem";
+
+export default function Home() {
+  return (
+    <main>
+      <Title>Ateliers</Title>
+      <h1>Ateliers</h1>
+
+      <p>La Photogravure sur film photopolymère est une technique de gravure non-toxique. C’est une technique contemporaine qui permet de transférer des images sur une plaque d’aluminium recouverte d’un film photosensible pour ensuite l'estamper sur du papier.
+      </p>
+
+      <p>Séances hebdomadaires : le vendredi de 14h à 17h. Coordonné par Loïc Peyrani, (fournitures non comprises), 10€ les 3 heures.
+      </p>
+
+      <p>+ d’infos 06 21 86 33 20
+      </p>
+
+      <p>Cet atelier s’adresse aux personnes adultes de tous niveaux. Le travail est réalisé à partir de photographies ou documents numériques de bonne qualité à apporter sur une clé USB, penser à se munir d’un tablier. L’atelier propose l'apprentissage de la photogravure sur film photopolymère : De la prise en main du film photosensible au tirage d'une image, ainsi que la réalisation des contretypes numériques (négatifs jet d'encre) adaptés à ce procédé. Cette technique alliant l'immédiateté du numérique à la patience du tirage de la photographie argentique et de la gravure laisse une place importante à l'expérimentation.
+      </p>
+
+      <h1>Stages</h1>
+
+      <h2>Fichiers à télécharger pour l’année 2025
+      </h2>
+
+    </main>
+  );
+}
