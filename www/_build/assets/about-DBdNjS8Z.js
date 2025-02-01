@@ -1,1 +1,0 @@
-import{w as r,j as a,x as n,T as o}from"./index-BNyokGjM.js";var i=n("<main><h1>About");function m(){return(()=>{var t=i(),e=t.firstChild;return r(t,a(o,{children:"About"}),e),t})()}export{m as default};

@@ -1,0 +1,1 @@
+import{w as t,h as a,x as n,T as o}from"./index-DTVa-pX3.js";import{L as i}from"./index-x9l6dOy1.js";var l=n("<main><h1>Magasin");function p(){return(()=>{var e=l(),r=e.firstChild;return t(e,a(o,{children:"Échotone / Magasin"}),r),t(e,a(i,{count:20}),null),e})()}export{p as default};
