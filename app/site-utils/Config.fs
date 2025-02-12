@@ -19,12 +19,11 @@ module Conf =
         if File.Exists(__SOURCE_DIRECTORY__ + "/../../.env-secret.local") then
             DotEnv.Load(DotEnvOptions(envFilePaths = [ __SOURCE_DIRECTORY__ + "/../../.env-secret.local" ]))
 
-        System.Environment.GetEnvironmentVariable
-
-    let getToken () = DotEnv.Read()["TOKEN"]
+        System.Environment.GetEnvironmentVariable("CLIENT_SECRET")
 
     let refreshToken () =
         let envVars = getConfig ()
+        let secret = loadSecret ()
 
         http {
             config_useBaseUrl envVars["BASE_URL"]
@@ -34,13 +33,20 @@ module Conf =
             formUrlEncoded
                 [ "grant_type", "client_credentials"
                   "client_id", envVars["CLIENT_ID"]
-                  "client_secret", envVars["CLIENT_SECRET"] ]
+                  "client_secret", secret ]
         }
         |> Request.send
         |> Response.deserializeJson
         |> (fun x -> (x?access_token).GetString())
         |> (sprintf "TOKEN=%s\n")
         |> writeTextToFile (Path.Combine(sourceDir, ".env"))
+
+    let getToken () =
+        if not (File.Exists(Path.Combine(sourceDir, ".env"))) then
+            refreshToken ()
+
+        DotEnv.Read()["TOKEN"]
+
 
     let fsReadyHttp () =
         let envVars = getConfig ()
