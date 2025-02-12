@@ -41,6 +41,9 @@ jobs:
       - run: |
           dotnet tool restore
           dotnet paket restore
+          cd oxpecker
+          npm install
+          cd ..
           dotnet run build
       # commit the changes
       - name: commit changes
