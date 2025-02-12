@@ -29,7 +29,7 @@ let initTargets () =
 
     Target.create "refreshImages" (fun _ -> Gen.refreshAssets ())
 
-    Target.create "run" (fun _ ->
+    Target.create "dev" (fun _ ->
         let result =
             DotNet.exec (withWorkingDirectory "oxpecker") "fable" "watch --noCache --extension .jsx --run vite"
 
@@ -39,6 +39,16 @@ let initTargets () =
     Target.create "build" (fun _ ->
         let result =
             DotNet.exec (withWorkingDirectory "oxpecker") "fable" "--noCache --extension .jsx --run vite build"
+
+        if not result.OK then
+            failwith "fable build failed")
+
+    Target.create "buildDev" (fun _ ->
+        let result =
+            DotNet.exec
+                (withWorkingDirectory "oxpecker")
+                "fable"
+                "--noCache --extension .jsx --run vite build --mode development"
 
         if not result.OK then
             failwith "fable build failed")

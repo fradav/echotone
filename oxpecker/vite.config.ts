@@ -1,20 +1,26 @@
+/// <reference types="vite/client" />
 import { defineConfig } from 'vite'
 import solidPlugin from 'vite-plugin-solid';
 
 // https://vitejs.dev/config/
-export default defineConfig({
+export default defineConfig(({ mode }) => ({
     clearScreen: false,
     publicDir: '../docs',
+    // prefix all relative links with "echotone" if in production mode
+    base: mode === 'production' ? '/echotone/' : '/',
     build: {
         outDir: '../docs',
         emptyOutDir: false,
+        // make the build output without the hash in the filename
+        manifest: false,
         rollupOptions: {
             output: {
-                // make output files index.js, index.css
-                chunkFileNames: 'index.js',
-                assetFileNames: 'index.css'
+                entryFileNames: '[name].js',
+                chunkFileNames: '[name].js',
+                assetFileNames: '[name].[ext]'
             }
         }
+
     },
     server: {
         watch: {
@@ -28,4 +34,4 @@ export default defineConfig({
     plugins: [
         solidPlugin()
     ],
-})
+}))
