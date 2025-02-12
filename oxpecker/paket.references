@@ -1,0 +1,4 @@
+group Solid
+    Fable.Core
+    Fable.Browser.Dom
+    Oxpecker.Solid

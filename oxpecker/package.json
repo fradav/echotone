@@ -1,0 +1,15 @@
+{
+  "private": "true",
+  "type": "module",
+  "scripts": {
+    "start": "dotnet fable watch --noCache --extension .jsx --run vite",
+    "build": "dotnet fable --noCache --extension .jsx --run vite build"
+  },
+  "dependencies": {
+    "solid-js": "^1.9.4"
+  },
+  "devDependencies": {
+    "vite": "^5.4.14",
+    "vite-plugin-solid": "^2.11.1"
+  }
+}

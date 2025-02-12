@@ -1,0 +1,30 @@
+source https://api.nuget.org/v3/index.json
+
+storage: none
+
+
+group Site
+    source https://api.nuget.org/v3/index.json
+    
+    storage: none
+
+    nuget FsHttp
+    nuget dotenv.net
+    nuget FSharp.Data
+
+group Build
+    source https://api.nuget.org/v3/index.json
+
+    storage: none
+
+    nuget Fake.Core.Target
+    nuget Fake.DotNet.Cli
+    nuget Fake.JavaScript.Npm
+
+group Solid
+    source https://api.nuget.org/v3/index.json
+
+    storage: none
+    nuget Fable.Core
+    nuget Fable.Browser.Dom
+    nuget Oxpecker.Solid

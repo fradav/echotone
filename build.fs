@@ -1,0 +1,51 @@
+﻿open Fake.Core
+open Fake.Core.TargetOperators
+open Fake.DotNet
+open Fake.DotNet.DotNet.Options
+open Site
+
+
+let runOrDefault initTargets defaultTarget args =
+    let execContext = Context.FakeExecutionContext.Create false "build.fsx" []
+    Context.setExecutionContext (Context.RuntimeContext.Fake execContext)
+    initTargets () |> ignore
+
+    try
+        match args with
+        | [| target |] -> Target.runOrDefault target
+        | _ -> Target.runOrDefault defaultTarget
+
+        0
+    with e ->
+        printfn "%A" e
+        1
+
+let initTargets () =
+    Target.create "validate" (fun _ -> Conf.validateOrRefresh ())
+
+    Target.create "refreshToken" (fun _ -> Conf.refreshToken ())
+
+    Target.create "refreshJsons" (fun _ -> Conf.refreshJsons ())
+
+    Target.create "refreshImages" (fun _ -> Gen.refreshAssets ())
+
+    Target.create "run" (fun _ ->
+        let result =
+            DotNet.exec (withWorkingDirectory "oxpecker") "fable" "watch --noCache --extension .jsx --run vite"
+
+        if not result.OK then
+            failwith "fable watch failed")
+
+    Target.create "build" (fun _ ->
+        let result =
+            DotNet.exec (withWorkingDirectory "oxpecker") "fable" "--noCache --extension .jsx --run vite build"
+
+        if not result.OK then
+            failwith "fable build failed")
+
+    "validate" ==> "refreshJsons" ==> "refreshImages" ==> "build"
+
+
+[<EntryPoint>]
+let main args =
+    runOrDefault initTargets "validate" args
