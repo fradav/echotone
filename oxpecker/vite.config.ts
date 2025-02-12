@@ -4,6 +4,18 @@ import solidPlugin from 'vite-plugin-solid';
 // https://vitejs.dev/config/
 export default defineConfig({
     clearScreen: false,
+    publicDir: '../docs',
+    build: {
+        outDir: '../docs',
+        emptyOutDir: false,
+        rollupOptions: {
+            output: {
+                // make output files index.js, index.css
+                chunkFileNames: 'index.js',
+                assetFileNames: 'index.css'
+            }
+        }
+    },
     server: {
         watch: {
             ignored: [
