@@ -1,0 +1,2612 @@
+{
+  "total": 40,
+  "items": [
+    {
+      "id": "f5e5f4e3-ae13-42d3-ab4f-5bc13e974afb",
+      "parentId": "3008632b-aa20-4178-9b8c-69a75f19a6e9",
+      "fileName": "logo-occitanie.svg",
+      "fileHash": "tzncNNIs0vYNT0j50p/g69guTmWQ2rwoZQ513jKJ2qY=",
+      "isProtected": false,
+      "slug": "logo-occitanie.svg",
+      "mimeType": "image/svg\u002Bxml",
+      "fileType": "svg",
+      "metadataText": "800x800, 9.6 kB",
+      "editToken": "eyJhIjoiZWNob3RvbmUiLCJpIjoiZjVlNWY0ZTMtYWUxMy00MmQzLWFiNGYtNWJjMTNlOTc0YWZiIiwidSI6Imh0dHBzOi8vbGFhYi5kZG5zLm5ldDozODA4MC8ifQ==",
+      "metadata": {
+        "svgWidth": 800,
+        "svgHeight": 800,
+        "pixelWidth": 800,
+        "pixelHeight": 800,
+        "viewBox": "0 0 1700.8 800"
+      },
+      "tags": [
+        "type/svg",
+        "image"
+      ],
+      "fileSize": 9804,
+      "fileVersion": 0,
+      "type": "Unknown",
+      "createdBy": "subject:6798dad0167d31fb8ec7cc74",
+      "lastModifiedBy": "subject:6798dad0167d31fb8ec7cc74",
+      "created": "2025-02-08T14:40:49Z",
+      "lastModified": "2025-02-08T14:40:49Z",
+      "version": 0,
+      "isImage": false,
+      "pixelWidth": 800,
+      "pixelHeight": 800,
+      "_links": {
+        "self": {
+          "href": "/api/apps/echotone/assets/f5e5f4e3-ae13-42d3-ab4f-5bc13e974afb",
+          "method": "GET"
+        },
+        "update": {
+          "href": "/api/apps/echotone/assets/f5e5f4e3-ae13-42d3-ab4f-5bc13e974afb",
+          "method": "PUT"
+        },
+        "move": {
+          "href": "/api/apps/echotone/assets/f5e5f4e3-ae13-42d3-ab4f-5bc13e974afb/parent",
+          "method": "PUT"
+        },
+        "upload": {
+          "href": "/api/apps/echotone/assets/f5e5f4e3-ae13-42d3-ab4f-5bc13e974afb/content",
+          "method": "PUT"
+        },
+        "delete": {
+          "href": "/api/apps/echotone/assets/f5e5f4e3-ae13-42d3-ab4f-5bc13e974afb",
+          "method": "DELETE"
+        },
+        "content": {
+          "href": "/api/assets/echotone/f5e5f4e3-ae13-42d3-ab4f-5bc13e974afb/logo-occitanie.svg",
+          "method": "GET"
+        },
+        "content/slug": {
+          "href": "/api/assets/echotone/logo-occitanie.svg",
+          "method": "GET"
+        }
+      }
+    },
+    {
+      "id": "046538cf-3917-4143-a225-260c699fa081",
+      "parentId": "3008632b-aa20-4178-9b8c-69a75f19a6e9",
+      "fileName": "logo-ganges.jpg",
+      "fileHash": "C29OWpIdOIm/Oap\u002BixuOPhvnOM\u002B6teTWYKMh/FHZEdg=",
+      "isProtected": false,
+      "slug": "logo-ganges.jpg",
+      "mimeType": "image/jpeg",
+      "fileType": "jpg",
+      "metadataText": "260x260px, 20.6 kB",
+      "editToken": "eyJhIjoiZWNob3RvbmUiLCJpIjoiMDQ2NTM4Y2YtMzkxNy00MTQzLWEyMjUtMjYwYzY5OWZhMDgxIiwidSI6Imh0dHBzOi8vbGFhYi5kZG5zLm5ldDozODA4MC8ifQ==",
+      "metadata": {
+        "pixelWidth": 260,
+        "pixelHeight": 260,
+        "imageQuality": 98,
+        "description": "JFIF File"
+      },
+      "tags": [
+        "type/jpg",
+        "image",
+        "image/small"
+      ],
+      "fileSize": 21141,
+      "fileVersion": 0,
+      "type": "Image",
+      "createdBy": "subject:6798dad0167d31fb8ec7cc74",
+      "lastModifiedBy": "subject:6798dad0167d31fb8ec7cc74",
+      "created": "2025-02-08T14:13:50Z",
+      "lastModified": "2025-02-08T14:13:50Z",
+      "version": 0,
+      "isImage": true,
+      "pixelWidth": 260,
+      "pixelHeight": 260,
+      "_links": {
+        "self": {
+          "href": "/api/apps/echotone/assets/046538cf-3917-4143-a225-260c699fa081",
+          "method": "GET"
+        },
+        "update": {
+          "href": "/api/apps/echotone/assets/046538cf-3917-4143-a225-260c699fa081",
+          "method": "PUT"
+        },
+        "move": {
+          "href": "/api/apps/echotone/assets/046538cf-3917-4143-a225-260c699fa081/parent",
+          "method": "PUT"
+        },
+        "upload": {
+          "href": "/api/apps/echotone/assets/046538cf-3917-4143-a225-260c699fa081/content",
+          "method": "PUT"
+        },
+        "delete": {
+          "href": "/api/apps/echotone/assets/046538cf-3917-4143-a225-260c699fa081",
+          "method": "DELETE"
+        },
+        "content": {
+          "href": "/api/assets/echotone/046538cf-3917-4143-a225-260c699fa081/logo-ganges.jpg",
+          "method": "GET"
+        },
+        "content/slug": {
+          "href": "/api/assets/echotone/logo-ganges.jpg",
+          "method": "GET"
+        }
+      }
+    },
+    {
+      "id": "cb8fdd55-c38b-4852-9ccc-e45d8fa6e0bb",
+      "parentId": "3008632b-aa20-4178-9b8c-69a75f19a6e9",
+      "fileName": "logo-drac-occitanie.png",
+      "fileHash": "vsufQDD7/Bi1nTl6vlF91Y4SGhs6SbvU3Yh4STn2Ryc=",
+      "isProtected": false,
+      "slug": "logo-drac-occitanie.png",
+      "mimeType": "image/png",
+      "fileType": "png",
+      "metadataText": "360x140px, 63.8 kB",
+      "editToken": "eyJhIjoiZWNob3RvbmUiLCJpIjoiY2I4ZmRkNTUtYzM4Yi00ODUyLTljY2MtZTQ1ZDhmYTZlMGJiIiwidSI6Imh0dHBzOi8vbGFhYi5kZG5zLm5ldDozODA4MC8ifQ==",
+      "metadata": {
+        "pixelWidth": 360,
+        "pixelHeight": 140,
+        "description": "PNG File"
+      },
+      "tags": [
+        "type/png",
+        "image",
+        "image/small"
+      ],
+      "fileSize": 65346,
+      "fileVersion": 0,
+      "type": "Image",
+      "createdBy": "subject:6798dad0167d31fb8ec7cc74",
+      "lastModifiedBy": "subject:6798dad0167d31fb8ec7cc74",
+      "created": "2025-02-08T14:13:50Z",
+      "lastModified": "2025-02-08T14:13:50Z",
+      "version": 0,
+      "isImage": true,
+      "pixelWidth": 360,
+      "pixelHeight": 140,
+      "_links": {
+        "self": {
+          "href": "/api/apps/echotone/assets/cb8fdd55-c38b-4852-9ccc-e45d8fa6e0bb",
+          "method": "GET"
+        },
+        "update": {
+          "href": "/api/apps/echotone/assets/cb8fdd55-c38b-4852-9ccc-e45d8fa6e0bb",
+          "method": "PUT"
+        },
+        "move": {
+          "href": "/api/apps/echotone/assets/cb8fdd55-c38b-4852-9ccc-e45d8fa6e0bb/parent",
+          "method": "PUT"
+        },
+        "upload": {
+          "href": "/api/apps/echotone/assets/cb8fdd55-c38b-4852-9ccc-e45d8fa6e0bb/content",
+          "method": "PUT"
+        },
+        "delete": {
+          "href": "/api/apps/echotone/assets/cb8fdd55-c38b-4852-9ccc-e45d8fa6e0bb",
+          "method": "DELETE"
+        },
+        "content": {
+          "href": "/api/assets/echotone/cb8fdd55-c38b-4852-9ccc-e45d8fa6e0bb/logo-drac-occitanie.png",
+          "method": "GET"
+        },
+        "content/slug": {
+          "href": "/api/assets/echotone/logo-drac-occitanie.png",
+          "method": "GET"
+        }
+      }
+    },
+    {
+      "id": "08261a14-63a2-442b-bbe6-bd009bc5eb8a",
+      "parentId": "00000000-0000-0000-0000-000000000000",
+      "fileName": "Performance-Nicolas-Bralet-extrait2.mp4",
+      "fileHash": "4su8ehDUcywYnpdEdokkMcAIY2Dke0hvY79pxbOnNNg=",
+      "isProtected": false,
+      "slug": "performance-nicolas-bralet-extrait2.mp4",
+      "mimeType": "video/mp4",
+      "fileType": "mp4",
+      "metadataText": "193.5 MB",
+      "editToken": "eyJhIjoiZWNob3RvbmUiLCJpIjoiMDgyNjFhMTQtNjNhMi00NDJiLWJiZTYtYmQwMDliYzVlYjhhIiwidSI6Imh0dHBzOi8vbGFhYi5kZG5zLm5ldDozODA4MC8ifQ==",
+      "metadata": {},
+      "tags": [
+        "type/mp4"
+      ],
+      "fileSize": 202938163,
+      "fileVersion": 0,
+      "type": "Unknown",
+      "createdBy": "subject:6798dad0167d31fb8ec7cc74",
+      "lastModifiedBy": "subject:6798dad0167d31fb8ec7cc74",
+      "created": "2025-01-29T14:20:27Z",
+      "lastModified": "2025-01-29T14:20:27Z",
+      "version": 0,
+      "isImage": false,
+      "_links": {
+        "self": {
+          "href": "/api/apps/echotone/assets/08261a14-63a2-442b-bbe6-bd009bc5eb8a",
+          "method": "GET"
+        },
+        "update": {
+          "href": "/api/apps/echotone/assets/08261a14-63a2-442b-bbe6-bd009bc5eb8a",
+          "method": "PUT"
+        },
+        "move": {
+          "href": "/api/apps/echotone/assets/08261a14-63a2-442b-bbe6-bd009bc5eb8a/parent",
+          "method": "PUT"
+        },
+        "upload": {
+          "href": "/api/apps/echotone/assets/08261a14-63a2-442b-bbe6-bd009bc5eb8a/content",
+          "method": "PUT"
+        },
+        "delete": {
+          "href": "/api/apps/echotone/assets/08261a14-63a2-442b-bbe6-bd009bc5eb8a",
+          "method": "DELETE"
+        },
+        "content": {
+          "href": "/api/assets/echotone/08261a14-63a2-442b-bbe6-bd009bc5eb8a/performance-nicolas-bralet-extrait2.mp4",
+          "method": "GET"
+        },
+        "content/slug": {
+          "href": "/api/assets/echotone/performance-nicolas-bralet-extrait2.mp4",
+          "method": "GET"
+        }
+      }
+    },
+    {
+      "id": "0e1213c4-45ee-4bd5-9ef8-92c45afbfaff",
+      "parentId": "00000000-0000-0000-0000-000000000000",
+      "fileName": "Performance-Nicolas-Bralet-extrait1.mp4",
+      "fileHash": "911DgHvq7UrJw/WmdEpBha4wMaZx55Zfp5//UQoIrbs=",
+      "isProtected": false,
+      "slug": "performance-nicolas-bralet-extrait1.mp4",
+      "mimeType": "video/mp4",
+      "fileType": "mp4",
+      "metadataText": "155.6 MB",
+      "editToken": "eyJhIjoiZWNob3RvbmUiLCJpIjoiMGUxMjEzYzQtNDVlZS00YmQ1LTllZjgtOTJjNDVhZmJmYWZmIiwidSI6Imh0dHBzOi8vbGFhYi5kZG5zLm5ldDozODA4MC8ifQ==",
+      "metadata": {},
+      "tags": [
+        "type/mp4"
+      ],
+      "fileSize": 163142941,
+      "fileVersion": 0,
+      "type": "Unknown",
+      "createdBy": "subject:6798dad0167d31fb8ec7cc74",
+      "lastModifiedBy": "subject:6798dad0167d31fb8ec7cc74",
+      "created": "2025-01-29T14:18:59Z",
+      "lastModified": "2025-01-29T14:18:59Z",
+      "version": 0,
+      "isImage": false,
+      "_links": {
+        "self": {
+          "href": "/api/apps/echotone/assets/0e1213c4-45ee-4bd5-9ef8-92c45afbfaff",
+          "method": "GET"
+        },
+        "update": {
+          "href": "/api/apps/echotone/assets/0e1213c4-45ee-4bd5-9ef8-92c45afbfaff",
+          "method": "PUT"
+        },
+        "move": {
+          "href": "/api/apps/echotone/assets/0e1213c4-45ee-4bd5-9ef8-92c45afbfaff/parent",
+          "method": "PUT"
+        },
+        "upload": {
+          "href": "/api/apps/echotone/assets/0e1213c4-45ee-4bd5-9ef8-92c45afbfaff/content",
+          "method": "PUT"
+        },
+        "delete": {
+          "href": "/api/apps/echotone/assets/0e1213c4-45ee-4bd5-9ef8-92c45afbfaff",
+          "method": "DELETE"
+        },
+        "content": {
+          "href": "/api/assets/echotone/0e1213c4-45ee-4bd5-9ef8-92c45afbfaff/performance-nicolas-bralet-extrait1.mp4",
+          "method": "GET"
+        },
+        "content/slug": {
+          "href": "/api/assets/echotone/performance-nicolas-bralet-extrait1.mp4",
+          "method": "GET"
+        }
+      }
+    },
+    {
+      "id": "0cd504ab-b973-4216-9a73-83b6a487e988",
+      "parentId": "00000000-0000-0000-0000-000000000000",
+      "fileName": "07-inauguration.png",
+      "fileHash": "ZCGyVSSfgbAbrrXZllfqnPHo5RGbrPC/0/o26DovVCM=",
+      "isProtected": false,
+      "slug": "07-inauguration.png",
+      "mimeType": "image/png",
+      "fileType": "png",
+      "metadataText": "1560x1562px, 2.8 MB",
+      "editToken": "eyJhIjoiZWNob3RvbmUiLCJpIjoiMGNkNTA0YWItYjk3My00MjE2LTlhNzMtODNiNmE0ODdlOTg4IiwidSI6Imh0dHBzOi8vbGFhYi5kZG5zLm5ldDozODA4MC8ifQ==",
+      "metadata": {
+        "pixelWidth": 1560,
+        "pixelHeight": 1562,
+        "description": "PNG File"
+      },
+      "tags": [
+        "type/png",
+        "image",
+        "image/large"
+      ],
+      "fileSize": 2892525,
+      "fileVersion": 0,
+      "type": "Image",
+      "createdBy": "subject:6798df7c5b784ee7b7cb52e1",
+      "lastModifiedBy": "subject:6798df7c5b784ee7b7cb52e1",
+      "created": "2025-01-29T12:45:28Z",
+      "lastModified": "2025-01-29T12:45:28Z",
+      "version": 0,
+      "isImage": true,
+      "pixelWidth": 1560,
+      "pixelHeight": 1562,
+      "_links": {
+        "self": {
+          "href": "/api/apps/echotone/assets/0cd504ab-b973-4216-9a73-83b6a487e988",
+          "method": "GET"
+        },
+        "update": {
+          "href": "/api/apps/echotone/assets/0cd504ab-b973-4216-9a73-83b6a487e988",
+          "method": "PUT"
+        },
+        "move": {
+          "href": "/api/apps/echotone/assets/0cd504ab-b973-4216-9a73-83b6a487e988/parent",
+          "method": "PUT"
+        },
+        "upload": {
+          "href": "/api/apps/echotone/assets/0cd504ab-b973-4216-9a73-83b6a487e988/content",
+          "method": "PUT"
+        },
+        "delete": {
+          "href": "/api/apps/echotone/assets/0cd504ab-b973-4216-9a73-83b6a487e988",
+          "method": "DELETE"
+        },
+        "content": {
+          "href": "/api/assets/echotone/0cd504ab-b973-4216-9a73-83b6a487e988/07-inauguration.png",
+          "method": "GET"
+        },
+        "content/slug": {
+          "href": "/api/assets/echotone/07-inauguration.png",
+          "method": "GET"
+        }
+      }
+    },
+    {
+      "id": "d0350086-80cc-4708-b10b-0b59061e21e7",
+      "parentId": "00000000-0000-0000-0000-000000000000",
+      "fileName": "04-inauguration.jpg",
+      "fileHash": "/W1qS5f5VBx/PxgmyqevEZymhQRg38xEBpa2D6E446c=",
+      "isProtected": false,
+      "slug": "04-inauguration.jpg",
+      "mimeType": "image/jpeg",
+      "fileType": "jpg",
+      "metadataText": "3000x4000px, 3.5 MB",
+      "editToken": "eyJhIjoiZWNob3RvbmUiLCJpIjoiZDAzNTAwODYtODBjYy00NzA4LWIxMGItMGI1OTA2MWUyMWU3IiwidSI6Imh0dHBzOi8vbGFhYi5kZG5zLm5ldDozODA4MC8ifQ==",
+      "metadata": {
+        "pixelWidth": 3000,
+        "pixelHeight": 4000,
+        "latitude": 43.93421099972222,
+        "longitude": 3.705655,
+        "created": "2024-05-31T21:46:23",
+        "imageQuality": 95,
+        "description": "JFIF File"
+      },
+      "tags": [
+        "type/jpg",
+        "image",
+        "image/large"
+      ],
+      "fileSize": 3699174,
+      "fileVersion": 0,
+      "type": "Image",
+      "createdBy": "subject:6798df7c5b784ee7b7cb52e1",
+      "lastModifiedBy": "subject:6798df7c5b784ee7b7cb52e1",
+      "created": "2025-01-29T12:45:27Z",
+      "lastModified": "2025-01-29T12:45:27Z",
+      "version": 0,
+      "isImage": true,
+      "pixelWidth": 3000,
+      "pixelHeight": 4000,
+      "_links": {
+        "self": {
+          "href": "/api/apps/echotone/assets/d0350086-80cc-4708-b10b-0b59061e21e7",
+          "method": "GET"
+        },
+        "update": {
+          "href": "/api/apps/echotone/assets/d0350086-80cc-4708-b10b-0b59061e21e7",
+          "method": "PUT"
+        },
+        "move": {
+          "href": "/api/apps/echotone/assets/d0350086-80cc-4708-b10b-0b59061e21e7/parent",
+          "method": "PUT"
+        },
+        "upload": {
+          "href": "/api/apps/echotone/assets/d0350086-80cc-4708-b10b-0b59061e21e7/content",
+          "method": "PUT"
+        },
+        "delete": {
+          "href": "/api/apps/echotone/assets/d0350086-80cc-4708-b10b-0b59061e21e7",
+          "method": "DELETE"
+        },
+        "content": {
+          "href": "/api/assets/echotone/d0350086-80cc-4708-b10b-0b59061e21e7/04-inauguration.jpg",
+          "method": "GET"
+        },
+        "content/slug": {
+          "href": "/api/assets/echotone/04-inauguration.jpg",
+          "method": "GET"
+        }
+      }
+    },
+    {
+      "id": "856102d1-0db2-4c07-baf7-d2425ffd4a52",
+      "parentId": "00000000-0000-0000-0000-000000000000",
+      "fileName": "08-inauguration.png",
+      "fileHash": "8FMvayDwxli0LMIaonR4NetpoRPHTobfscYgbvFwr\u002Bw=",
+      "isProtected": false,
+      "slug": "08-inauguration.png",
+      "mimeType": "image/png",
+      "fileType": "png",
+      "metadataText": "1298x1416px, 3.3 MB",
+      "editToken": "eyJhIjoiZWNob3RvbmUiLCJpIjoiODU2MTAyZDEtMGRiMi00YzA3LWJhZjctZDI0MjVmZmQ0YTUyIiwidSI6Imh0dHBzOi8vbGFhYi5kZG5zLm5ldDozODA4MC8ifQ==",
+      "metadata": {
+        "pixelWidth": 1298,
+        "pixelHeight": 1416,
+        "description": "PNG File"
+      },
+      "tags": [
+        "type/png",
+        "image",
+        "image/large"
+      ],
+      "fileSize": 3428198,
+      "fileVersion": 0,
+      "type": "Image",
+      "createdBy": "subject:6798df7c5b784ee7b7cb52e1",
+      "lastModifiedBy": "subject:6798df7c5b784ee7b7cb52e1",
+      "created": "2025-01-29T12:45:26Z",
+      "lastModified": "2025-01-29T12:45:26Z",
+      "version": 0,
+      "isImage": true,
+      "pixelWidth": 1298,
+      "pixelHeight": 1416,
+      "_links": {
+        "self": {
+          "href": "/api/apps/echotone/assets/856102d1-0db2-4c07-baf7-d2425ffd4a52",
+          "method": "GET"
+        },
+        "update": {
+          "href": "/api/apps/echotone/assets/856102d1-0db2-4c07-baf7-d2425ffd4a52",
+          "method": "PUT"
+        },
+        "move": {
+          "href": "/api/apps/echotone/assets/856102d1-0db2-4c07-baf7-d2425ffd4a52/parent",
+          "method": "PUT"
+        },
+        "upload": {
+          "href": "/api/apps/echotone/assets/856102d1-0db2-4c07-baf7-d2425ffd4a52/content",
+          "method": "PUT"
+        },
+        "delete": {
+          "href": "/api/apps/echotone/assets/856102d1-0db2-4c07-baf7-d2425ffd4a52",
+          "method": "DELETE"
+        },
+        "content": {
+          "href": "/api/assets/echotone/856102d1-0db2-4c07-baf7-d2425ffd4a52/08-inauguration.png",
+          "method": "GET"
+        },
+        "content/slug": {
+          "href": "/api/assets/echotone/08-inauguration.png",
+          "method": "GET"
+        }
+      }
+    },
+    {
+      "id": "ac06c5dc-1e70-4075-98c9-65ed4225b68e",
+      "parentId": "00000000-0000-0000-0000-000000000000",
+      "fileName": "01-inauguration.png",
+      "fileHash": "LapIibvPpfCWuJiPrVXRhhMp1YJI\u002BQ3nAnfiCiMyLEY=",
+      "isProtected": false,
+      "slug": "01-inauguration.png",
+      "mimeType": "image/png",
+      "fileType": "png",
+      "metadataText": "1562x1445px, 3.5 MB",
+      "editToken": "eyJhIjoiZWNob3RvbmUiLCJpIjoiYWMwNmM1ZGMtMWU3MC00MDc1LTk4YzktNjVlZDQyMjViNjhlIiwidSI6Imh0dHBzOi8vbGFhYi5kZG5zLm5ldDozODA4MC8ifQ==",
+      "metadata": {
+        "pixelWidth": 1562,
+        "pixelHeight": 1445,
+        "created": "2024-11-28T17:07:54\u002B00:00",
+        "description": "PNG File"
+      },
+      "tags": [
+        "type/png",
+        "image",
+        "image/large"
+      ],
+      "fileSize": 3654056,
+      "fileVersion": 0,
+      "type": "Image",
+      "createdBy": "subject:6798df7c5b784ee7b7cb52e1",
+      "lastModifiedBy": "subject:6798df7c5b784ee7b7cb52e1",
+      "created": "2025-01-29T12:45:25Z",
+      "lastModified": "2025-01-29T12:45:25Z",
+      "version": 0,
+      "isImage": true,
+      "pixelWidth": 1562,
+      "pixelHeight": 1445,
+      "_links": {
+        "self": {
+          "href": "/api/apps/echotone/assets/ac06c5dc-1e70-4075-98c9-65ed4225b68e",
+          "method": "GET"
+        },
+        "update": {
+          "href": "/api/apps/echotone/assets/ac06c5dc-1e70-4075-98c9-65ed4225b68e",
+          "method": "PUT"
+        },
+        "move": {
+          "href": "/api/apps/echotone/assets/ac06c5dc-1e70-4075-98c9-65ed4225b68e/parent",
+          "method": "PUT"
+        },
+        "upload": {
+          "href": "/api/apps/echotone/assets/ac06c5dc-1e70-4075-98c9-65ed4225b68e/content",
+          "method": "PUT"
+        },
+        "delete": {
+          "href": "/api/apps/echotone/assets/ac06c5dc-1e70-4075-98c9-65ed4225b68e",
+          "method": "DELETE"
+        },
+        "content": {
+          "href": "/api/assets/echotone/ac06c5dc-1e70-4075-98c9-65ed4225b68e/01-inauguration.png",
+          "method": "GET"
+        },
+        "content/slug": {
+          "href": "/api/assets/echotone/01-inauguration.png",
+          "method": "GET"
+        }
+      }
+    },
+    {
+      "id": "1829f3b6-85c6-48f8-a20d-324ba4ea9599",
+      "parentId": "00000000-0000-0000-0000-000000000000",
+      "fileName": "05-inauguration.png",
+      "fileHash": "0z0cLBogMTP07DUeXF\u002BQpB85NqkoyIKf4WcRtgnkkiA=",
+      "isProtected": false,
+      "slug": "05-inauguration.png",
+      "mimeType": "image/png",
+      "fileType": "png",
+      "metadataText": "1560x1556px, 2.3 MB",
+      "editToken": "eyJhIjoiZWNob3RvbmUiLCJpIjoiMTgyOWYzYjYtODVjNi00OGY4LWEyMGQtMzI0YmE0ZWE5NTk5IiwidSI6Imh0dHBzOi8vbGFhYi5kZG5zLm5ldDozODA4MC8ifQ==",
+      "metadata": {
+        "pixelWidth": 1560,
+        "pixelHeight": 1556,
+        "description": "PNG File"
+      },
+      "tags": [
+        "type/png",
+        "image",
+        "image/large"
+      ],
+      "fileSize": 2394265,
+      "fileVersion": 0,
+      "type": "Image",
+      "createdBy": "subject:6798df7c5b784ee7b7cb52e1",
+      "lastModifiedBy": "subject:6798df7c5b784ee7b7cb52e1",
+      "created": "2025-01-29T12:45:24Z",
+      "lastModified": "2025-01-29T12:45:24Z",
+      "version": 0,
+      "isImage": true,
+      "pixelWidth": 1560,
+      "pixelHeight": 1556,
+      "_links": {
+        "self": {
+          "href": "/api/apps/echotone/assets/1829f3b6-85c6-48f8-a20d-324ba4ea9599",
+          "method": "GET"
+        },
+        "update": {
+          "href": "/api/apps/echotone/assets/1829f3b6-85c6-48f8-a20d-324ba4ea9599",
+          "method": "PUT"
+        },
+        "move": {
+          "href": "/api/apps/echotone/assets/1829f3b6-85c6-48f8-a20d-324ba4ea9599/parent",
+          "method": "PUT"
+        },
+        "upload": {
+          "href": "/api/apps/echotone/assets/1829f3b6-85c6-48f8-a20d-324ba4ea9599/content",
+          "method": "PUT"
+        },
+        "delete": {
+          "href": "/api/apps/echotone/assets/1829f3b6-85c6-48f8-a20d-324ba4ea9599",
+          "method": "DELETE"
+        },
+        "content": {
+          "href": "/api/assets/echotone/1829f3b6-85c6-48f8-a20d-324ba4ea9599/05-inauguration.png",
+          "method": "GET"
+        },
+        "content/slug": {
+          "href": "/api/assets/echotone/05-inauguration.png",
+          "method": "GET"
+        }
+      }
+    },
+    {
+      "id": "dd880b05-f435-432f-98b7-9890aecf681a",
+      "parentId": "00000000-0000-0000-0000-000000000000",
+      "fileName": "09-inauguration.png",
+      "fileHash": "veYE9DbqDF8t7TEUOdZw4tgLp/6KO0X/MGq6Rrzv8o4=",
+      "isProtected": false,
+      "slug": "09-inauguration.png",
+      "mimeType": "image/png",
+      "fileType": "png",
+      "metadataText": "1334x1412px, 2.2 MB",
+      "editToken": "eyJhIjoiZWNob3RvbmUiLCJpIjoiZGQ4ODBiMDUtZjQzNS00MzJmLTk4YjctOTg5MGFlY2Y2ODFhIiwidSI6Imh0dHBzOi8vbGFhYi5kZG5zLm5ldDozODA4MC8ifQ==",
+      "metadata": {
+        "pixelWidth": 1334,
+        "pixelHeight": 1412,
+        "description": "PNG File"
+      },
+      "tags": [
+        "type/png",
+        "image",
+        "image/large"
+      ],
+      "fileSize": 2348934,
+      "fileVersion": 0,
+      "type": "Image",
+      "createdBy": "subject:6798df7c5b784ee7b7cb52e1",
+      "lastModifiedBy": "subject:6798df7c5b784ee7b7cb52e1",
+      "created": "2025-01-29T12:45:22Z",
+      "lastModified": "2025-01-29T12:45:22Z",
+      "version": 0,
+      "isImage": true,
+      "pixelWidth": 1334,
+      "pixelHeight": 1412,
+      "_links": {
+        "self": {
+          "href": "/api/apps/echotone/assets/dd880b05-f435-432f-98b7-9890aecf681a",
+          "method": "GET"
+        },
+        "update": {
+          "href": "/api/apps/echotone/assets/dd880b05-f435-432f-98b7-9890aecf681a",
+          "method": "PUT"
+        },
+        "move": {
+          "href": "/api/apps/echotone/assets/dd880b05-f435-432f-98b7-9890aecf681a/parent",
+          "method": "PUT"
+        },
+        "upload": {
+          "href": "/api/apps/echotone/assets/dd880b05-f435-432f-98b7-9890aecf681a/content",
+          "method": "PUT"
+        },
+        "delete": {
+          "href": "/api/apps/echotone/assets/dd880b05-f435-432f-98b7-9890aecf681a",
+          "method": "DELETE"
+        },
+        "content": {
+          "href": "/api/assets/echotone/dd880b05-f435-432f-98b7-9890aecf681a/09-inauguration.png",
+          "method": "GET"
+        },
+        "content/slug": {
+          "href": "/api/assets/echotone/09-inauguration.png",
+          "method": "GET"
+        }
+      }
+    },
+    {
+      "id": "fbc048ba-53d2-4951-80cd-48a38d2a08d8",
+      "parentId": "00000000-0000-0000-0000-000000000000",
+      "fileName": "06-inauguration.png",
+      "fileHash": "qxWmPkddCPp6KRolK6vreec\u002BcoDDi5V44ep9wLxc6tM=",
+      "isProtected": false,
+      "slug": "06-inauguration.png",
+      "mimeType": "image/png",
+      "fileType": "png",
+      "metadataText": "1306x1414px, 2.4 MB",
+      "editToken": "eyJhIjoiZWNob3RvbmUiLCJpIjoiZmJjMDQ4YmEtNTNkMi00OTUxLTgwY2QtNDhhMzhkMmEwOGQ4IiwidSI6Imh0dHBzOi8vbGFhYi5kZG5zLm5ldDozODA4MC8ifQ==",
+      "metadata": {
+        "pixelWidth": 1306,
+        "pixelHeight": 1414,
+        "description": "PNG File"
+      },
+      "tags": [
+        "type/png",
+        "image",
+        "image/large"
+      ],
+      "fileSize": 2496798,
+      "fileVersion": 0,
+      "type": "Image",
+      "createdBy": "subject:6798df7c5b784ee7b7cb52e1",
+      "lastModifiedBy": "subject:6798df7c5b784ee7b7cb52e1",
+      "created": "2025-01-29T12:45:21Z",
+      "lastModified": "2025-01-29T12:45:21Z",
+      "version": 0,
+      "isImage": true,
+      "pixelWidth": 1306,
+      "pixelHeight": 1414,
+      "_links": {
+        "self": {
+          "href": "/api/apps/echotone/assets/fbc048ba-53d2-4951-80cd-48a38d2a08d8",
+          "method": "GET"
+        },
+        "update": {
+          "href": "/api/apps/echotone/assets/fbc048ba-53d2-4951-80cd-48a38d2a08d8",
+          "method": "PUT"
+        },
+        "move": {
+          "href": "/api/apps/echotone/assets/fbc048ba-53d2-4951-80cd-48a38d2a08d8/parent",
+          "method": "PUT"
+        },
+        "upload": {
+          "href": "/api/apps/echotone/assets/fbc048ba-53d2-4951-80cd-48a38d2a08d8/content",
+          "method": "PUT"
+        },
+        "delete": {
+          "href": "/api/apps/echotone/assets/fbc048ba-53d2-4951-80cd-48a38d2a08d8",
+          "method": "DELETE"
+        },
+        "content": {
+          "href": "/api/assets/echotone/fbc048ba-53d2-4951-80cd-48a38d2a08d8/06-inauguration.png",
+          "method": "GET"
+        },
+        "content/slug": {
+          "href": "/api/assets/echotone/06-inauguration.png",
+          "method": "GET"
+        }
+      }
+    },
+    {
+      "id": "7859c212-a7e7-4200-92a1-ac292cc67e78",
+      "parentId": "00000000-0000-0000-0000-000000000000",
+      "fileName": "02-inauguration.png",
+      "fileHash": "0FmNZ60zSEFuhpRhZgmFnTtu692Y3upwAbXB\u002BGxKZFI=",
+      "isProtected": false,
+      "slug": "02-inauguration.png",
+      "mimeType": "image/png",
+      "fileType": "png",
+      "metadataText": "1018x1220px, 1.7 MB",
+      "editToken": "eyJhIjoiZWNob3RvbmUiLCJpIjoiNzg1OWMyMTItYTdlNy00MjAwLTkyYTEtYWMyOTJjYzY3ZTc4IiwidSI6Imh0dHBzOi8vbGFhYi5kZG5zLm5ldDozODA4MC8ifQ==",
+      "metadata": {
+        "pixelWidth": 1018,
+        "pixelHeight": 1220,
+        "description": "PNG File"
+      },
+      "tags": [
+        "type/png",
+        "image",
+        "image/large"
+      ],
+      "fileSize": 1733333,
+      "fileVersion": 0,
+      "type": "Image",
+      "createdBy": "subject:6798df7c5b784ee7b7cb52e1",
+      "lastModifiedBy": "subject:6798df7c5b784ee7b7cb52e1",
+      "created": "2025-01-29T12:45:19Z",
+      "lastModified": "2025-01-29T12:45:19Z",
+      "version": 0,
+      "isImage": true,
+      "pixelWidth": 1018,
+      "pixelHeight": 1220,
+      "_links": {
+        "self": {
+          "href": "/api/apps/echotone/assets/7859c212-a7e7-4200-92a1-ac292cc67e78",
+          "method": "GET"
+        },
+        "update": {
+          "href": "/api/apps/echotone/assets/7859c212-a7e7-4200-92a1-ac292cc67e78",
+          "method": "PUT"
+        },
+        "move": {
+          "href": "/api/apps/echotone/assets/7859c212-a7e7-4200-92a1-ac292cc67e78/parent",
+          "method": "PUT"
+        },
+        "upload": {
+          "href": "/api/apps/echotone/assets/7859c212-a7e7-4200-92a1-ac292cc67e78/content",
+          "method": "PUT"
+        },
+        "delete": {
+          "href": "/api/apps/echotone/assets/7859c212-a7e7-4200-92a1-ac292cc67e78",
+          "method": "DELETE"
+        },
+        "content": {
+          "href": "/api/assets/echotone/7859c212-a7e7-4200-92a1-ac292cc67e78/02-inauguration.png",
+          "method": "GET"
+        },
+        "content/slug": {
+          "href": "/api/assets/echotone/02-inauguration.png",
+          "method": "GET"
+        }
+      }
+    },
+    {
+      "id": "c7b47afc-f9d7-4348-94cd-f6f8e78de0ec",
+      "parentId": "00000000-0000-0000-0000-000000000000",
+      "fileName": "03-inauguration.png",
+      "fileHash": "IOeWJt4ZLDvnfw4V18EyP595PKSY1urUnAh1kY27AMQ=",
+      "isProtected": false,
+      "slug": "03-inauguration.png",
+      "mimeType": "image/png",
+      "fileType": "png",
+      "metadataText": "1324x1252px, 1.1 MB",
+      "editToken": "eyJhIjoiZWNob3RvbmUiLCJpIjoiYzdiNDdhZmMtZjlkNy00MzQ4LTk0Y2QtZjZmOGU3OGRlMGVjIiwidSI6Imh0dHBzOi8vbGFhYi5kZG5zLm5ldDozODA4MC8ifQ==",
+      "metadata": {
+        "pixelWidth": 1324,
+        "pixelHeight": 1252,
+        "description": "PNG File"
+      },
+      "tags": [
+        "type/png",
+        "image",
+        "image/large"
+      ],
+      "fileSize": 1149240,
+      "fileVersion": 0,
+      "type": "Image",
+      "createdBy": "subject:6798df7c5b784ee7b7cb52e1",
+      "lastModifiedBy": "subject:6798df7c5b784ee7b7cb52e1",
+      "created": "2025-01-29T12:45:18Z",
+      "lastModified": "2025-01-29T12:45:18Z",
+      "version": 0,
+      "isImage": true,
+      "pixelWidth": 1324,
+      "pixelHeight": 1252,
+      "_links": {
+        "self": {
+          "href": "/api/apps/echotone/assets/c7b47afc-f9d7-4348-94cd-f6f8e78de0ec",
+          "method": "GET"
+        },
+        "update": {
+          "href": "/api/apps/echotone/assets/c7b47afc-f9d7-4348-94cd-f6f8e78de0ec",
+          "method": "PUT"
+        },
+        "move": {
+          "href": "/api/apps/echotone/assets/c7b47afc-f9d7-4348-94cd-f6f8e78de0ec/parent",
+          "method": "PUT"
+        },
+        "upload": {
+          "href": "/api/apps/echotone/assets/c7b47afc-f9d7-4348-94cd-f6f8e78de0ec/content",
+          "method": "PUT"
+        },
+        "delete": {
+          "href": "/api/apps/echotone/assets/c7b47afc-f9d7-4348-94cd-f6f8e78de0ec",
+          "method": "DELETE"
+        },
+        "content": {
+          "href": "/api/assets/echotone/c7b47afc-f9d7-4348-94cd-f6f8e78de0ec/03-inauguration.png",
+          "method": "GET"
+        },
+        "content/slug": {
+          "href": "/api/assets/echotone/03-inauguration.png",
+          "method": "GET"
+        }
+      }
+    },
+    {
+      "id": "13810421-d0ad-4ed4-8289-80a48f8a942d",
+      "parentId": "00000000-0000-0000-0000-000000000000",
+      "fileName": "10-inauguration.jpg",
+      "fileHash": "LOTfLjWRDWOh97MyKEvM61NsKajzIO6QKcsvdJPskLA=",
+      "isProtected": false,
+      "slug": "10-inauguration.jpg",
+      "mimeType": "image/jpeg",
+      "fileType": "jpg",
+      "metadataText": "2500x1875px, 663.3 kB",
+      "editToken": "eyJhIjoiZWNob3RvbmUiLCJpIjoiMTM4MTA0MjEtZDBhZC00ZWQ0LTgyODktODBhNDhmOGE5NDJkIiwidSI6Imh0dHBzOi8vbGFhYi5kZG5zLm5ldDozODA4MC8ifQ==",
+      "metadata": {
+        "pixelWidth": 2500,
+        "pixelHeight": 1875,
+        "latitude": 43.93426629972222,
+        "longitude": 3.7058097997222226,
+        "created": "2024-05-31T21:33:50",
+        "imageQuality": 89,
+        "description": "JFIF File"
+      },
+      "tags": [
+        "type/jpg",
+        "image",
+        "image/large"
+      ],
+      "fileSize": 679172,
+      "fileVersion": 0,
+      "type": "Image",
+      "createdBy": "subject:6798df7c5b784ee7b7cb52e1",
+      "lastModifiedBy": "subject:6798df7c5b784ee7b7cb52e1",
+      "created": "2025-01-29T12:45:17Z",
+      "lastModified": "2025-01-29T12:45:17Z",
+      "version": 0,
+      "isImage": true,
+      "pixelWidth": 2500,
+      "pixelHeight": 1875,
+      "_links": {
+        "self": {
+          "href": "/api/apps/echotone/assets/13810421-d0ad-4ed4-8289-80a48f8a942d",
+          "method": "GET"
+        },
+        "update": {
+          "href": "/api/apps/echotone/assets/13810421-d0ad-4ed4-8289-80a48f8a942d",
+          "method": "PUT"
+        },
+        "move": {
+          "href": "/api/apps/echotone/assets/13810421-d0ad-4ed4-8289-80a48f8a942d/parent",
+          "method": "PUT"
+        },
+        "upload": {
+          "href": "/api/apps/echotone/assets/13810421-d0ad-4ed4-8289-80a48f8a942d/content",
+          "method": "PUT"
+        },
+        "delete": {
+          "href": "/api/apps/echotone/assets/13810421-d0ad-4ed4-8289-80a48f8a942d",
+          "method": "DELETE"
+        },
+        "content": {
+          "href": "/api/assets/echotone/13810421-d0ad-4ed4-8289-80a48f8a942d/10-inauguration.jpg",
+          "method": "GET"
+        },
+        "content/slug": {
+          "href": "/api/assets/echotone/10-inauguration.jpg",
+          "method": "GET"
+        }
+      }
+    },
+    {
+      "id": "a3ad9ced-9ccf-4791-b48b-69be8b1bdb2d",
+      "parentId": "00000000-0000-0000-0000-000000000000",
+      "fileName": "15-Dorota-Buczkowska.jpg",
+      "fileHash": "OXXs1aO7HUBHoApr2VdMo8JQNZWXIgozQyKc35qGh2o=",
+      "isProtected": false,
+      "slug": "15-dorota-buczkowska.jpg",
+      "mimeType": "image/jpeg",
+      "fileType": "jpg",
+      "metadataText": "4000x3000px, 5.5 MB",
+      "editToken": "eyJhIjoiZWNob3RvbmUiLCJpIjoiYTNhZDljZWQtOWNjZi00NzkxLWI0OGItNjliZThiMWJkYjJkIiwidSI6Imh0dHBzOi8vbGFhYi5kZG5zLm5ldDozODA4MC8ifQ==",
+      "metadata": {
+        "pixelWidth": 4000,
+        "pixelHeight": 3000,
+        "created": "2024-10-26T17:41:22",
+        "imageQuality": 98,
+        "description": "JFIF File"
+      },
+      "tags": [
+        "type/jpg",
+        "image",
+        "image/large"
+      ],
+      "fileSize": 5763307,
+      "fileVersion": 0,
+      "type": "Image",
+      "createdBy": "subject:6798df7c5b784ee7b7cb52e1",
+      "lastModifiedBy": "subject:6798df7c5b784ee7b7cb52e1",
+      "created": "2025-01-29T12:40:43Z",
+      "lastModified": "2025-01-29T12:40:43Z",
+      "version": 0,
+      "isImage": true,
+      "pixelWidth": 4000,
+      "pixelHeight": 3000,
+      "_links": {
+        "self": {
+          "href": "/api/apps/echotone/assets/a3ad9ced-9ccf-4791-b48b-69be8b1bdb2d",
+          "method": "GET"
+        },
+        "update": {
+          "href": "/api/apps/echotone/assets/a3ad9ced-9ccf-4791-b48b-69be8b1bdb2d",
+          "method": "PUT"
+        },
+        "move": {
+          "href": "/api/apps/echotone/assets/a3ad9ced-9ccf-4791-b48b-69be8b1bdb2d/parent",
+          "method": "PUT"
+        },
+        "upload": {
+          "href": "/api/apps/echotone/assets/a3ad9ced-9ccf-4791-b48b-69be8b1bdb2d/content",
+          "method": "PUT"
+        },
+        "delete": {
+          "href": "/api/apps/echotone/assets/a3ad9ced-9ccf-4791-b48b-69be8b1bdb2d",
+          "method": "DELETE"
+        },
+        "content": {
+          "href": "/api/assets/echotone/a3ad9ced-9ccf-4791-b48b-69be8b1bdb2d/15-dorota-buczkowska.jpg",
+          "method": "GET"
+        },
+        "content/slug": {
+          "href": "/api/assets/echotone/15-dorota-buczkowska.jpg",
+          "method": "GET"
+        }
+      }
+    },
+    {
+      "id": "869c0d71-3164-4df2-9810-19eb9397a4e9",
+      "parentId": "00000000-0000-0000-0000-000000000000",
+      "fileName": "03-Dorota-Buczkowska.jpg",
+      "fileHash": "s4TH8X3arm6ZL5BaGRrEgUFZseet7079iTRbOg2lH\u002Bg=",
+      "isProtected": false,
+      "slug": "03-dorota-buczkowska.jpg",
+      "mimeType": "image/jpeg",
+      "fileType": "jpg",
+      "metadataText": "4000x3000px, 5.4 MB",
+      "editToken": "eyJhIjoiZWNob3RvbmUiLCJpIjoiODY5YzBkNzEtMzE2NC00ZGYyLTk4MTAtMTllYjkzOTdhNGU5IiwidSI6Imh0dHBzOi8vbGFhYi5kZG5zLm5ldDozODA4MC8ifQ==",
+      "metadata": {
+        "pixelWidth": 4000,
+        "pixelHeight": 3000,
+        "created": "2024-10-26T17:42:07",
+        "imageQuality": 98,
+        "description": "JFIF File"
+      },
+      "tags": [
+        "type/jpg",
+        "image",
+        "image/large"
+      ],
+      "fileSize": 5665149,
+      "fileVersion": 0,
+      "type": "Image",
+      "createdBy": "subject:6798df7c5b784ee7b7cb52e1",
+      "lastModifiedBy": "subject:6798df7c5b784ee7b7cb52e1",
+      "created": "2025-01-29T12:40:42Z",
+      "lastModified": "2025-01-29T12:40:42Z",
+      "version": 0,
+      "isImage": true,
+      "pixelWidth": 4000,
+      "pixelHeight": 3000,
+      "_links": {
+        "self": {
+          "href": "/api/apps/echotone/assets/869c0d71-3164-4df2-9810-19eb9397a4e9",
+          "method": "GET"
+        },
+        "update": {
+          "href": "/api/apps/echotone/assets/869c0d71-3164-4df2-9810-19eb9397a4e9",
+          "method": "PUT"
+        },
+        "move": {
+          "href": "/api/apps/echotone/assets/869c0d71-3164-4df2-9810-19eb9397a4e9/parent",
+          "method": "PUT"
+        },
+        "upload": {
+          "href": "/api/apps/echotone/assets/869c0d71-3164-4df2-9810-19eb9397a4e9/content",
+          "method": "PUT"
+        },
+        "delete": {
+          "href": "/api/apps/echotone/assets/869c0d71-3164-4df2-9810-19eb9397a4e9",
+          "method": "DELETE"
+        },
+        "content": {
+          "href": "/api/assets/echotone/869c0d71-3164-4df2-9810-19eb9397a4e9/03-dorota-buczkowska.jpg",
+          "method": "GET"
+        },
+        "content/slug": {
+          "href": "/api/assets/echotone/03-dorota-buczkowska.jpg",
+          "method": "GET"
+        }
+      }
+    },
+    {
+      "id": "03869147-78d7-4aeb-877d-7532fbd6f0fd",
+      "parentId": "00000000-0000-0000-0000-000000000000",
+      "fileName": "05-Dorota-Buczkowska.jpg",
+      "fileHash": "6VBCWcj\u002B08HPZVlvfoBZ\u002BmQqSQPOmJF/LhXYxnUOm1s=",
+      "isProtected": false,
+      "slug": "05-dorota-buczkowska.jpg",
+      "mimeType": "image/jpeg",
+      "fileType": "jpg",
+      "metadataText": "4000x3000px, 5.5 MB",
+      "editToken": "eyJhIjoiZWNob3RvbmUiLCJpIjoiMDM4NjkxNDctNzhkNy00YWViLTg3N2QtNzUzMmZiZDZmMGZkIiwidSI6Imh0dHBzOi8vbGFhYi5kZG5zLm5ldDozODA4MC8ifQ==",
+      "metadata": {
+        "pixelWidth": 4000,
+        "pixelHeight": 3000,
+        "created": "2024-10-26T17:17:26",
+        "imageQuality": 98,
+        "description": "JFIF File"
+      },
+      "tags": [
+        "type/jpg",
+        "image",
+        "image/large"
+      ],
+      "fileSize": 5785221,
+      "fileVersion": 0,
+      "type": "Image",
+      "createdBy": "subject:6798df7c5b784ee7b7cb52e1",
+      "lastModifiedBy": "subject:6798df7c5b784ee7b7cb52e1",
+      "created": "2025-01-29T12:40:41Z",
+      "lastModified": "2025-01-29T12:40:41Z",
+      "version": 0,
+      "isImage": true,
+      "pixelWidth": 4000,
+      "pixelHeight": 3000,
+      "_links": {
+        "self": {
+          "href": "/api/apps/echotone/assets/03869147-78d7-4aeb-877d-7532fbd6f0fd",
+          "method": "GET"
+        },
+        "update": {
+          "href": "/api/apps/echotone/assets/03869147-78d7-4aeb-877d-7532fbd6f0fd",
+          "method": "PUT"
+        },
+        "move": {
+          "href": "/api/apps/echotone/assets/03869147-78d7-4aeb-877d-7532fbd6f0fd/parent",
+          "method": "PUT"
+        },
+        "upload": {
+          "href": "/api/apps/echotone/assets/03869147-78d7-4aeb-877d-7532fbd6f0fd/content",
+          "method": "PUT"
+        },
+        "delete": {
+          "href": "/api/apps/echotone/assets/03869147-78d7-4aeb-877d-7532fbd6f0fd",
+          "method": "DELETE"
+        },
+        "content": {
+          "href": "/api/assets/echotone/03869147-78d7-4aeb-877d-7532fbd6f0fd/05-dorota-buczkowska.jpg",
+          "method": "GET"
+        },
+        "content/slug": {
+          "href": "/api/assets/echotone/05-dorota-buczkowska.jpg",
+          "method": "GET"
+        }
+      }
+    },
+    {
+      "id": "82545d53-2385-4090-bfcd-d173aae57fb8",
+      "parentId": "00000000-0000-0000-0000-000000000000",
+      "fileName": "04-Dorota-Buczkowska.jpg",
+      "fileHash": "W4xRv2XyVJRTNhquEYGV8s1CET0BoN\u002BPcfIWQzU21zI=",
+      "isProtected": false,
+      "slug": "04-dorota-buczkowska.jpg",
+      "mimeType": "image/jpeg",
+      "fileType": "jpg",
+      "metadataText": "4000x3000px, 5.3 MB",
+      "editToken": "eyJhIjoiZWNob3RvbmUiLCJpIjoiODI1NDVkNTMtMjM4NS00MDkwLWJmY2QtZDE3M2FhZTU3ZmI4IiwidSI6Imh0dHBzOi8vbGFhYi5kZG5zLm5ldDozODA4MC8ifQ==",
+      "metadata": {
+        "pixelWidth": 4000,
+        "pixelHeight": 3000,
+        "created": "2024-10-26T17:17:46",
+        "imageQuality": 98,
+        "description": "JFIF File"
+      },
+      "tags": [
+        "type/jpg",
+        "image",
+        "image/large"
+      ],
+      "fileSize": 5584624,
+      "fileVersion": 0,
+      "type": "Image",
+      "createdBy": "subject:6798df7c5b784ee7b7cb52e1",
+      "lastModifiedBy": "subject:6798df7c5b784ee7b7cb52e1",
+      "created": "2025-01-29T12:40:41Z",
+      "lastModified": "2025-01-29T12:40:41Z",
+      "version": 0,
+      "isImage": true,
+      "pixelWidth": 4000,
+      "pixelHeight": 3000,
+      "_links": {
+        "self": {
+          "href": "/api/apps/echotone/assets/82545d53-2385-4090-bfcd-d173aae57fb8",
+          "method": "GET"
+        },
+        "update": {
+          "href": "/api/apps/echotone/assets/82545d53-2385-4090-bfcd-d173aae57fb8",
+          "method": "PUT"
+        },
+        "move": {
+          "href": "/api/apps/echotone/assets/82545d53-2385-4090-bfcd-d173aae57fb8/parent",
+          "method": "PUT"
+        },
+        "upload": {
+          "href": "/api/apps/echotone/assets/82545d53-2385-4090-bfcd-d173aae57fb8/content",
+          "method": "PUT"
+        },
+        "delete": {
+          "href": "/api/apps/echotone/assets/82545d53-2385-4090-bfcd-d173aae57fb8",
+          "method": "DELETE"
+        },
+        "content": {
+          "href": "/api/assets/echotone/82545d53-2385-4090-bfcd-d173aae57fb8/04-dorota-buczkowska.jpg",
+          "method": "GET"
+        },
+        "content/slug": {
+          "href": "/api/assets/echotone/04-dorota-buczkowska.jpg",
+          "method": "GET"
+        }
+      }
+    },
+    {
+      "id": "23b57748-fd81-4dbc-8ce3-72628f72c1c3",
+      "parentId": "00000000-0000-0000-0000-000000000000",
+      "fileName": "02-Dorota-Buczkowska.jpg",
+      "fileHash": "EsVGbuM4xqjdNs5lMbNP7Ecfl54Ci5IYwZws4/Ye8IE=",
+      "isProtected": false,
+      "slug": "02-dorota-buczkowska.jpg",
+      "mimeType": "image/jpeg",
+      "fileType": "jpg",
+      "metadataText": "3000x4000px, 6.1 MB",
+      "editToken": "eyJhIjoiZWNob3RvbmUiLCJpIjoiMjNiNTc3NDgtZmQ4MS00ZGJjLThjZTMtNzI2MjhmNzJjMWMzIiwidSI6Imh0dHBzOi8vbGFhYi5kZG5zLm5ldDozODA4MC8ifQ==",
+      "metadata": {
+        "pixelWidth": 3000,
+        "pixelHeight": 4000,
+        "latitude": 51.113187099722225,
+        "longitude": 17.005392799722223,
+        "created": "2024-10-26T17:04:59",
+        "imageQuality": 98,
+        "description": "JFIF File"
+      },
+      "tags": [
+        "type/jpg",
+        "image",
+        "image/large"
+      ],
+      "fileSize": 6384469,
+      "fileVersion": 0,
+      "type": "Image",
+      "createdBy": "subject:6798df7c5b784ee7b7cb52e1",
+      "lastModifiedBy": "subject:6798df7c5b784ee7b7cb52e1",
+      "created": "2025-01-29T12:40:40Z",
+      "lastModified": "2025-01-29T12:40:40Z",
+      "version": 0,
+      "isImage": true,
+      "pixelWidth": 3000,
+      "pixelHeight": 4000,
+      "_links": {
+        "self": {
+          "href": "/api/apps/echotone/assets/23b57748-fd81-4dbc-8ce3-72628f72c1c3",
+          "method": "GET"
+        },
+        "update": {
+          "href": "/api/apps/echotone/assets/23b57748-fd81-4dbc-8ce3-72628f72c1c3",
+          "method": "PUT"
+        },
+        "move": {
+          "href": "/api/apps/echotone/assets/23b57748-fd81-4dbc-8ce3-72628f72c1c3/parent",
+          "method": "PUT"
+        },
+        "upload": {
+          "href": "/api/apps/echotone/assets/23b57748-fd81-4dbc-8ce3-72628f72c1c3/content",
+          "method": "PUT"
+        },
+        "delete": {
+          "href": "/api/apps/echotone/assets/23b57748-fd81-4dbc-8ce3-72628f72c1c3",
+          "method": "DELETE"
+        },
+        "content": {
+          "href": "/api/assets/echotone/23b57748-fd81-4dbc-8ce3-72628f72c1c3/02-dorota-buczkowska.jpg",
+          "method": "GET"
+        },
+        "content/slug": {
+          "href": "/api/assets/echotone/02-dorota-buczkowska.jpg",
+          "method": "GET"
+        }
+      }
+    },
+    {
+      "id": "993bdae7-5e4b-4950-8359-9029eea5f2a2",
+      "parentId": "00000000-0000-0000-0000-000000000000",
+      "fileName": "14-Dorota-Buczkowska.jpg",
+      "fileHash": "8ZQxaUka0rYIpNHzB76Hsh3h3K2t2uJV/5NBHC0NQ/U=",
+      "isProtected": false,
+      "slug": "14-dorota-buczkowska.jpg",
+      "mimeType": "image/jpeg",
+      "fileType": "jpg",
+      "metadataText": "3000x4000px, 5.7 MB",
+      "editToken": "eyJhIjoiZWNob3RvbmUiLCJpIjoiOTkzYmRhZTctNWU0Yi00OTUwLTgzNTktOTAyOWVlYTVmMmEyIiwidSI6Imh0dHBzOi8vbGFhYi5kZG5zLm5ldDozODA4MC8ifQ==",
+      "metadata": {
+        "pixelWidth": 3000,
+        "pixelHeight": 4000,
+        "created": "2024-10-26T17:39:21",
+        "imageQuality": 98,
+        "description": "JFIF File"
+      },
+      "tags": [
+        "type/jpg",
+        "image",
+        "image/large"
+      ],
+      "fileSize": 5939895,
+      "fileVersion": 0,
+      "type": "Image",
+      "createdBy": "subject:6798df7c5b784ee7b7cb52e1",
+      "lastModifiedBy": "subject:6798df7c5b784ee7b7cb52e1",
+      "created": "2025-01-29T12:40:40Z",
+      "lastModified": "2025-01-29T12:40:40Z",
+      "version": 0,
+      "isImage": true,
+      "pixelWidth": 3000,
+      "pixelHeight": 4000,
+      "_links": {
+        "self": {
+          "href": "/api/apps/echotone/assets/993bdae7-5e4b-4950-8359-9029eea5f2a2",
+          "method": "GET"
+        },
+        "update": {
+          "href": "/api/apps/echotone/assets/993bdae7-5e4b-4950-8359-9029eea5f2a2",
+          "method": "PUT"
+        },
+        "move": {
+          "href": "/api/apps/echotone/assets/993bdae7-5e4b-4950-8359-9029eea5f2a2/parent",
+          "method": "PUT"
+        },
+        "upload": {
+          "href": "/api/apps/echotone/assets/993bdae7-5e4b-4950-8359-9029eea5f2a2/content",
+          "method": "PUT"
+        },
+        "delete": {
+          "href": "/api/apps/echotone/assets/993bdae7-5e4b-4950-8359-9029eea5f2a2",
+          "method": "DELETE"
+        },
+        "content": {
+          "href": "/api/assets/echotone/993bdae7-5e4b-4950-8359-9029eea5f2a2/14-dorota-buczkowska.jpg",
+          "method": "GET"
+        },
+        "content/slug": {
+          "href": "/api/assets/echotone/14-dorota-buczkowska.jpg",
+          "method": "GET"
+        }
+      }
+    },
+    {
+      "id": "553e5766-2acb-4f6c-9cb5-a731075a5179",
+      "parentId": "00000000-0000-0000-0000-000000000000",
+      "fileName": "10-Dorota-Buczkowska.jpg",
+      "fileHash": "l7zwYfapShATyVArjmigSmeCsmGWQqdP9pUDbL8y0lA=",
+      "isProtected": false,
+      "slug": "10-dorota-buczkowska.jpg",
+      "mimeType": "image/jpeg",
+      "fileType": "jpg",
+      "metadataText": "4000x3000px, 5.2 MB",
+      "editToken": "eyJhIjoiZWNob3RvbmUiLCJpIjoiNTUzZTU3NjYtMmFjYi00ZjZjLTljYjUtYTczMTA3NWE1MTc5IiwidSI6Imh0dHBzOi8vbGFhYi5kZG5zLm5ldDozODA4MC8ifQ==",
+      "metadata": {
+        "pixelWidth": 4000,
+        "pixelHeight": 3000,
+        "created": "2024-10-26T17:25:22",
+        "imageQuality": 98,
+        "description": "JFIF File"
+      },
+      "tags": [
+        "type/jpg",
+        "image",
+        "image/large"
+      ],
+      "fileSize": 5462635,
+      "fileVersion": 0,
+      "type": "Image",
+      "createdBy": "subject:6798df7c5b784ee7b7cb52e1",
+      "lastModifiedBy": "subject:6798df7c5b784ee7b7cb52e1",
+      "created": "2025-01-29T12:40:39Z",
+      "lastModified": "2025-01-29T12:40:39Z",
+      "version": 0,
+      "isImage": true,
+      "pixelWidth": 4000,
+      "pixelHeight": 3000,
+      "_links": {
+        "self": {
+          "href": "/api/apps/echotone/assets/553e5766-2acb-4f6c-9cb5-a731075a5179",
+          "method": "GET"
+        },
+        "update": {
+          "href": "/api/apps/echotone/assets/553e5766-2acb-4f6c-9cb5-a731075a5179",
+          "method": "PUT"
+        },
+        "move": {
+          "href": "/api/apps/echotone/assets/553e5766-2acb-4f6c-9cb5-a731075a5179/parent",
+          "method": "PUT"
+        },
+        "upload": {
+          "href": "/api/apps/echotone/assets/553e5766-2acb-4f6c-9cb5-a731075a5179/content",
+          "method": "PUT"
+        },
+        "delete": {
+          "href": "/api/apps/echotone/assets/553e5766-2acb-4f6c-9cb5-a731075a5179",
+          "method": "DELETE"
+        },
+        "content": {
+          "href": "/api/assets/echotone/553e5766-2acb-4f6c-9cb5-a731075a5179/10-dorota-buczkowska.jpg",
+          "method": "GET"
+        },
+        "content/slug": {
+          "href": "/api/assets/echotone/10-dorota-buczkowska.jpg",
+          "method": "GET"
+        }
+      }
+    },
+    {
+      "id": "51297029-7bf5-4447-8e5a-90df4e1d7cb0",
+      "parentId": "00000000-0000-0000-0000-000000000000",
+      "fileName": "12-Dorota-Buczkowska.jpg",
+      "fileHash": "JNGmcz09AGBUWxZc9isQHmaqvMRdMhVSHcHCrYpymwg=",
+      "isProtected": false,
+      "slug": "12-dorota-buczkowska.jpg",
+      "mimeType": "image/jpeg",
+      "fileType": "jpg",
+      "metadataText": "4000x3000px, 5.1 MB",
+      "editToken": "eyJhIjoiZWNob3RvbmUiLCJpIjoiNTEyOTcwMjktN2JmNS00NDQ3LThlNWEtOTBkZjRlMWQ3Y2IwIiwidSI6Imh0dHBzOi8vbGFhYi5kZG5zLm5ldDozODA4MC8ifQ==",
+      "metadata": {
+        "pixelWidth": 4000,
+        "pixelHeight": 3000,
+        "created": "2024-10-26T17:37:30",
+        "imageQuality": 98,
+        "description": "JFIF File"
+      },
+      "tags": [
+        "type/jpg",
+        "image",
+        "image/large"
+      ],
+      "fileSize": 5314321,
+      "fileVersion": 0,
+      "type": "Image",
+      "createdBy": "subject:6798df7c5b784ee7b7cb52e1",
+      "lastModifiedBy": "subject:6798df7c5b784ee7b7cb52e1",
+      "created": "2025-01-29T12:40:38Z",
+      "lastModified": "2025-01-29T12:40:38Z",
+      "version": 0,
+      "isImage": true,
+      "pixelWidth": 4000,
+      "pixelHeight": 3000,
+      "_links": {
+        "self": {
+          "href": "/api/apps/echotone/assets/51297029-7bf5-4447-8e5a-90df4e1d7cb0",
+          "method": "GET"
+        },
+        "update": {
+          "href": "/api/apps/echotone/assets/51297029-7bf5-4447-8e5a-90df4e1d7cb0",
+          "method": "PUT"
+        },
+        "move": {
+          "href": "/api/apps/echotone/assets/51297029-7bf5-4447-8e5a-90df4e1d7cb0/parent",
+          "method": "PUT"
+        },
+        "upload": {
+          "href": "/api/apps/echotone/assets/51297029-7bf5-4447-8e5a-90df4e1d7cb0/content",
+          "method": "PUT"
+        },
+        "delete": {
+          "href": "/api/apps/echotone/assets/51297029-7bf5-4447-8e5a-90df4e1d7cb0",
+          "method": "DELETE"
+        },
+        "content": {
+          "href": "/api/assets/echotone/51297029-7bf5-4447-8e5a-90df4e1d7cb0/12-dorota-buczkowska.jpg",
+          "method": "GET"
+        },
+        "content/slug": {
+          "href": "/api/assets/echotone/12-dorota-buczkowska.jpg",
+          "method": "GET"
+        }
+      }
+    },
+    {
+      "id": "ea68e14e-6aa5-4702-bd56-dbf079d5ca07",
+      "parentId": "00000000-0000-0000-0000-000000000000",
+      "fileName": "06-Dorota-Buczkowska.jpg",
+      "fileHash": "ox1gE0Q0B/QCo81MZmYpX14gpJGr17/qxlWTt4hKzHw=",
+      "isProtected": false,
+      "slug": "06-dorota-buczkowska.jpg",
+      "mimeType": "image/jpeg",
+      "fileType": "jpg",
+      "metadataText": "4000x3000px, 5 MB",
+      "editToken": "eyJhIjoiZWNob3RvbmUiLCJpIjoiZWE2OGUxNGUtNmFhNS00NzAyLWJkNTYtZGJmMDc5ZDVjYTA3IiwidSI6Imh0dHBzOi8vbGFhYi5kZG5zLm5ldDozODA4MC8ifQ==",
+      "metadata": {
+        "pixelWidth": 4000,
+        "pixelHeight": 3000,
+        "created": "2024-10-26T17:18:17",
+        "imageQuality": 98,
+        "description": "JFIF File"
+      },
+      "tags": [
+        "type/jpg",
+        "image",
+        "image/large"
+      ],
+      "fileSize": 5270087,
+      "fileVersion": 0,
+      "type": "Image",
+      "createdBy": "subject:6798df7c5b784ee7b7cb52e1",
+      "lastModifiedBy": "subject:6798df7c5b784ee7b7cb52e1",
+      "created": "2025-01-29T12:40:38Z",
+      "lastModified": "2025-01-29T12:40:38Z",
+      "version": 0,
+      "isImage": true,
+      "pixelWidth": 4000,
+      "pixelHeight": 3000,
+      "_links": {
+        "self": {
+          "href": "/api/apps/echotone/assets/ea68e14e-6aa5-4702-bd56-dbf079d5ca07",
+          "method": "GET"
+        },
+        "update": {
+          "href": "/api/apps/echotone/assets/ea68e14e-6aa5-4702-bd56-dbf079d5ca07",
+          "method": "PUT"
+        },
+        "move": {
+          "href": "/api/apps/echotone/assets/ea68e14e-6aa5-4702-bd56-dbf079d5ca07/parent",
+          "method": "PUT"
+        },
+        "upload": {
+          "href": "/api/apps/echotone/assets/ea68e14e-6aa5-4702-bd56-dbf079d5ca07/content",
+          "method": "PUT"
+        },
+        "delete": {
+          "href": "/api/apps/echotone/assets/ea68e14e-6aa5-4702-bd56-dbf079d5ca07",
+          "method": "DELETE"
+        },
+        "content": {
+          "href": "/api/assets/echotone/ea68e14e-6aa5-4702-bd56-dbf079d5ca07/06-dorota-buczkowska.jpg",
+          "method": "GET"
+        },
+        "content/slug": {
+          "href": "/api/assets/echotone/06-dorota-buczkowska.jpg",
+          "method": "GET"
+        }
+      }
+    },
+    {
+      "id": "c4c0091d-376d-4105-ad08-aff9bbc5c393",
+      "parentId": "00000000-0000-0000-0000-000000000000",
+      "fileName": "11-Dorota-Buczkowska.jpg",
+      "fileHash": "oFX2ZHJtOCVyNLYRghT1QIJUxyvc9rpzVtn6/Z9lkL8=",
+      "isProtected": false,
+      "slug": "11-dorota-buczkowska.jpg",
+      "mimeType": "image/jpeg",
+      "fileType": "jpg",
+      "metadataText": "3000x4000px, 4.9 MB",
+      "editToken": "eyJhIjoiZWNob3RvbmUiLCJpIjoiYzRjMDA5MWQtMzc2ZC00MTA1LWFkMDgtYWZmOWJiYzVjMzkzIiwidSI6Imh0dHBzOi8vbGFhYi5kZG5zLm5ldDozODA4MC8ifQ==",
+      "metadata": {
+        "pixelWidth": 3000,
+        "pixelHeight": 4000,
+        "created": "2024-10-26T17:30:13",
+        "imageQuality": 98,
+        "description": "JFIF File"
+      },
+      "tags": [
+        "type/jpg",
+        "image",
+        "image/large"
+      ],
+      "fileSize": 5093073,
+      "fileVersion": 0,
+      "type": "Image",
+      "createdBy": "subject:6798df7c5b784ee7b7cb52e1",
+      "lastModifiedBy": "subject:6798df7c5b784ee7b7cb52e1",
+      "created": "2025-01-29T12:40:37Z",
+      "lastModified": "2025-01-29T12:40:37Z",
+      "version": 0,
+      "isImage": true,
+      "pixelWidth": 3000,
+      "pixelHeight": 4000,
+      "_links": {
+        "self": {
+          "href": "/api/apps/echotone/assets/c4c0091d-376d-4105-ad08-aff9bbc5c393",
+          "method": "GET"
+        },
+        "update": {
+          "href": "/api/apps/echotone/assets/c4c0091d-376d-4105-ad08-aff9bbc5c393",
+          "method": "PUT"
+        },
+        "move": {
+          "href": "/api/apps/echotone/assets/c4c0091d-376d-4105-ad08-aff9bbc5c393/parent",
+          "method": "PUT"
+        },
+        "upload": {
+          "href": "/api/apps/echotone/assets/c4c0091d-376d-4105-ad08-aff9bbc5c393/content",
+          "method": "PUT"
+        },
+        "delete": {
+          "href": "/api/apps/echotone/assets/c4c0091d-376d-4105-ad08-aff9bbc5c393",
+          "method": "DELETE"
+        },
+        "content": {
+          "href": "/api/assets/echotone/c4c0091d-376d-4105-ad08-aff9bbc5c393/11-dorota-buczkowska.jpg",
+          "method": "GET"
+        },
+        "content/slug": {
+          "href": "/api/assets/echotone/11-dorota-buczkowska.jpg",
+          "method": "GET"
+        }
+      }
+    },
+    {
+      "id": "f4ca3db9-6301-4fd3-ba0d-4ccf9b4951af",
+      "parentId": "00000000-0000-0000-0000-000000000000",
+      "fileName": "01-Dorota-Buczkowska.jpg",
+      "fileHash": "2X\u002BEMKUjdvnIeM0qngwHGui/VDDkkJfLQlFJM0sGsS4=",
+      "isProtected": false,
+      "slug": "01-dorota-buczkowska.jpg",
+      "mimeType": "image/jpeg",
+      "fileType": "jpg",
+      "metadataText": "3000x4000px, 5.3 MB",
+      "editToken": "eyJhIjoiZWNob3RvbmUiLCJpIjoiZjRjYTNkYjktNjMwMS00ZmQzLWJhMGQtNGNjZjliNDk1MWFmIiwidSI6Imh0dHBzOi8vbGFhYi5kZG5zLm5ldDozODA4MC8ifQ==",
+      "metadata": {
+        "pixelWidth": 3000,
+        "pixelHeight": 4000,
+        "latitude": 51.1129523,
+        "longitude": 17.005640599722224,
+        "created": "2024-10-26T17:04:12",
+        "imageQuality": 98,
+        "description": "JFIF File"
+      },
+      "tags": [
+        "type/jpg",
+        "image",
+        "image/large"
+      ],
+      "fileSize": 5517781,
+      "fileVersion": 0,
+      "type": "Image",
+      "createdBy": "subject:6798df7c5b784ee7b7cb52e1",
+      "lastModifiedBy": "subject:6798df7c5b784ee7b7cb52e1",
+      "created": "2025-01-29T12:40:37Z",
+      "lastModified": "2025-01-29T12:40:37Z",
+      "version": 0,
+      "isImage": true,
+      "pixelWidth": 3000,
+      "pixelHeight": 4000,
+      "_links": {
+        "self": {
+          "href": "/api/apps/echotone/assets/f4ca3db9-6301-4fd3-ba0d-4ccf9b4951af",
+          "method": "GET"
+        },
+        "update": {
+          "href": "/api/apps/echotone/assets/f4ca3db9-6301-4fd3-ba0d-4ccf9b4951af",
+          "method": "PUT"
+        },
+        "move": {
+          "href": "/api/apps/echotone/assets/f4ca3db9-6301-4fd3-ba0d-4ccf9b4951af/parent",
+          "method": "PUT"
+        },
+        "upload": {
+          "href": "/api/apps/echotone/assets/f4ca3db9-6301-4fd3-ba0d-4ccf9b4951af/content",
+          "method": "PUT"
+        },
+        "delete": {
+          "href": "/api/apps/echotone/assets/f4ca3db9-6301-4fd3-ba0d-4ccf9b4951af",
+          "method": "DELETE"
+        },
+        "content": {
+          "href": "/api/assets/echotone/f4ca3db9-6301-4fd3-ba0d-4ccf9b4951af/01-dorota-buczkowska.jpg",
+          "method": "GET"
+        },
+        "content/slug": {
+          "href": "/api/assets/echotone/01-dorota-buczkowska.jpg",
+          "method": "GET"
+        }
+      }
+    },
+    {
+      "id": "ba9eb01e-d558-46ad-938a-93f1f5b1db0e",
+      "parentId": "00000000-0000-0000-0000-000000000000",
+      "fileName": "08-Dorota-Buczkowska.jpg",
+      "fileHash": "LgZ3vfo3qoJPgbkaqbwsOnHoc/G/ToFA99H1hkJ5sBQ=",
+      "isProtected": false,
+      "slug": "08-dorota-buczkowska.jpg",
+      "mimeType": "image/jpeg",
+      "fileType": "jpg",
+      "metadataText": "3000x4000px, 4.3 MB",
+      "editToken": "eyJhIjoiZWNob3RvbmUiLCJpIjoiYmE5ZWIwMWUtZDU1OC00NmFkLTkzOGEtOTNmMWY1YjFkYjBlIiwidSI6Imh0dHBzOi8vbGFhYi5kZG5zLm5ldDozODA4MC8ifQ==",
+      "metadata": {
+        "pixelWidth": 3000,
+        "pixelHeight": 4000,
+        "created": "2024-10-26T17:19:52",
+        "imageQuality": 98,
+        "description": "JFIF File"
+      },
+      "tags": [
+        "type/jpg",
+        "image",
+        "image/large"
+      ],
+      "fileSize": 4536221,
+      "fileVersion": 0,
+      "type": "Image",
+      "createdBy": "subject:6798df7c5b784ee7b7cb52e1",
+      "lastModifiedBy": "subject:6798df7c5b784ee7b7cb52e1",
+      "created": "2025-01-29T12:40:36Z",
+      "lastModified": "2025-01-29T12:40:36Z",
+      "version": 0,
+      "isImage": true,
+      "pixelWidth": 3000,
+      "pixelHeight": 4000,
+      "_links": {
+        "self": {
+          "href": "/api/apps/echotone/assets/ba9eb01e-d558-46ad-938a-93f1f5b1db0e",
+          "method": "GET"
+        },
+        "update": {
+          "href": "/api/apps/echotone/assets/ba9eb01e-d558-46ad-938a-93f1f5b1db0e",
+          "method": "PUT"
+        },
+        "move": {
+          "href": "/api/apps/echotone/assets/ba9eb01e-d558-46ad-938a-93f1f5b1db0e/parent",
+          "method": "PUT"
+        },
+        "upload": {
+          "href": "/api/apps/echotone/assets/ba9eb01e-d558-46ad-938a-93f1f5b1db0e/content",
+          "method": "PUT"
+        },
+        "delete": {
+          "href": "/api/apps/echotone/assets/ba9eb01e-d558-46ad-938a-93f1f5b1db0e",
+          "method": "DELETE"
+        },
+        "content": {
+          "href": "/api/assets/echotone/ba9eb01e-d558-46ad-938a-93f1f5b1db0e/08-dorota-buczkowska.jpg",
+          "method": "GET"
+        },
+        "content/slug": {
+          "href": "/api/assets/echotone/08-dorota-buczkowska.jpg",
+          "method": "GET"
+        }
+      }
+    },
+    {
+      "id": "cd75922b-b667-4881-b9f1-0b142c2d9a72",
+      "parentId": "00000000-0000-0000-0000-000000000000",
+      "fileName": "07-Dorota-Buczkowska.jpg",
+      "fileHash": "vew6vBvncL/DRSc\u002BXGNITBsHwE6Nycf6VH5M\u002BOaM2EE=",
+      "isProtected": false,
+      "slug": "07-dorota-buczkowska.jpg",
+      "mimeType": "image/jpeg",
+      "fileType": "jpg",
+      "metadataText": "3000x4000px, 4.4 MB",
+      "editToken": "eyJhIjoiZWNob3RvbmUiLCJpIjoiY2Q3NTkyMmItYjY2Ny00ODgxLWI5ZjEtMGIxNDJjMmQ5YTcyIiwidSI6Imh0dHBzOi8vbGFhYi5kZG5zLm5ldDozODA4MC8ifQ==",
+      "metadata": {
+        "pixelWidth": 3000,
+        "pixelHeight": 4000,
+        "created": "2024-10-26T17:20:53",
+        "imageQuality": 98,
+        "description": "JFIF File"
+      },
+      "tags": [
+        "type/jpg",
+        "image",
+        "image/large"
+      ],
+      "fileSize": 4628877,
+      "fileVersion": 0,
+      "type": "Image",
+      "createdBy": "subject:6798df7c5b784ee7b7cb52e1",
+      "lastModifiedBy": "subject:6798df7c5b784ee7b7cb52e1",
+      "created": "2025-01-29T12:40:36Z",
+      "lastModified": "2025-01-29T12:40:36Z",
+      "version": 0,
+      "isImage": true,
+      "pixelWidth": 3000,
+      "pixelHeight": 4000,
+      "_links": {
+        "self": {
+          "href": "/api/apps/echotone/assets/cd75922b-b667-4881-b9f1-0b142c2d9a72",
+          "method": "GET"
+        },
+        "update": {
+          "href": "/api/apps/echotone/assets/cd75922b-b667-4881-b9f1-0b142c2d9a72",
+          "method": "PUT"
+        },
+        "move": {
+          "href": "/api/apps/echotone/assets/cd75922b-b667-4881-b9f1-0b142c2d9a72/parent",
+          "method": "PUT"
+        },
+        "upload": {
+          "href": "/api/apps/echotone/assets/cd75922b-b667-4881-b9f1-0b142c2d9a72/content",
+          "method": "PUT"
+        },
+        "delete": {
+          "href": "/api/apps/echotone/assets/cd75922b-b667-4881-b9f1-0b142c2d9a72",
+          "method": "DELETE"
+        },
+        "content": {
+          "href": "/api/assets/echotone/cd75922b-b667-4881-b9f1-0b142c2d9a72/07-dorota-buczkowska.jpg",
+          "method": "GET"
+        },
+        "content/slug": {
+          "href": "/api/assets/echotone/07-dorota-buczkowska.jpg",
+          "method": "GET"
+        }
+      }
+    },
+    {
+      "id": "5f0d4c81-6956-4520-aeec-1c586a68d02b",
+      "parentId": "00000000-0000-0000-0000-000000000000",
+      "fileName": "13-Dorota-Buczkowska.jpg",
+      "fileHash": "ItB3tXeOo4qRoiAvY9s4ZOAopAym8ArZBEFVukzpCt4=",
+      "isProtected": false,
+      "slug": "13-dorota-buczkowska.jpg",
+      "mimeType": "image/jpeg",
+      "fileType": "jpg",
+      "metadataText": "3000x3745px, 4 MB",
+      "editToken": "eyJhIjoiZWNob3RvbmUiLCJpIjoiNWYwZDRjODEtNjk1Ni00NTIwLWFlZWMtMWM1ODZhNjhkMDJiIiwidSI6Imh0dHBzOi8vbGFhYi5kZG5zLm5ldDozODA4MC8ifQ==",
+      "metadata": {
+        "pixelWidth": 3000,
+        "pixelHeight": 3745,
+        "created": "2024-10-26T17:34:24",
+        "imageQuality": 98,
+        "description": "JFIF File"
+      },
+      "tags": [
+        "type/jpg",
+        "image",
+        "image/large"
+      ],
+      "fileSize": 4153650,
+      "fileVersion": 0,
+      "type": "Image",
+      "createdBy": "subject:6798df7c5b784ee7b7cb52e1",
+      "lastModifiedBy": "subject:6798df7c5b784ee7b7cb52e1",
+      "created": "2025-01-29T12:40:35Z",
+      "lastModified": "2025-01-29T12:40:35Z",
+      "version": 0,
+      "isImage": true,
+      "pixelWidth": 3000,
+      "pixelHeight": 3745,
+      "_links": {
+        "self": {
+          "href": "/api/apps/echotone/assets/5f0d4c81-6956-4520-aeec-1c586a68d02b",
+          "method": "GET"
+        },
+        "update": {
+          "href": "/api/apps/echotone/assets/5f0d4c81-6956-4520-aeec-1c586a68d02b",
+          "method": "PUT"
+        },
+        "move": {
+          "href": "/api/apps/echotone/assets/5f0d4c81-6956-4520-aeec-1c586a68d02b/parent",
+          "method": "PUT"
+        },
+        "upload": {
+          "href": "/api/apps/echotone/assets/5f0d4c81-6956-4520-aeec-1c586a68d02b/content",
+          "method": "PUT"
+        },
+        "delete": {
+          "href": "/api/apps/echotone/assets/5f0d4c81-6956-4520-aeec-1c586a68d02b",
+          "method": "DELETE"
+        },
+        "content": {
+          "href": "/api/assets/echotone/5f0d4c81-6956-4520-aeec-1c586a68d02b/13-dorota-buczkowska.jpg",
+          "method": "GET"
+        },
+        "content/slug": {
+          "href": "/api/assets/echotone/13-dorota-buczkowska.jpg",
+          "method": "GET"
+        }
+      }
+    },
+    {
+      "id": "9d01f3d7-127d-4859-8e7b-8b9df1501c72",
+      "parentId": "00000000-0000-0000-0000-000000000000",
+      "fileName": "09-Dorota-Buczkowska.jpg",
+      "fileHash": "GE6TcP8CQCgu/wbsxm1N2MJ1CHgbreD72eUI8dcMsC4=",
+      "isProtected": false,
+      "slug": "09-dorota-buczkowska.jpg",
+      "mimeType": "image/jpeg",
+      "fileType": "jpg",
+      "metadataText": "2918x4000px, 4.2 MB",
+      "editToken": "eyJhIjoiZWNob3RvbmUiLCJpIjoiOWQwMWYzZDctMTI3ZC00ODU5LThlN2ItOGI5ZGYxNTAxYzcyIiwidSI6Imh0dHBzOi8vbGFhYi5kZG5zLm5ldDozODA4MC8ifQ==",
+      "metadata": {
+        "pixelWidth": 2918,
+        "pixelHeight": 4000,
+        "created": "2024-10-26T17:24:17",
+        "imageQuality": 98,
+        "description": "JFIF File"
+      },
+      "tags": [
+        "type/jpg",
+        "image",
+        "image/large"
+      ],
+      "fileSize": 4434878,
+      "fileVersion": 0,
+      "type": "Image",
+      "createdBy": "subject:6798df7c5b784ee7b7cb52e1",
+      "lastModifiedBy": "subject:6798df7c5b784ee7b7cb52e1",
+      "created": "2025-01-29T12:40:34Z",
+      "lastModified": "2025-01-29T12:40:34Z",
+      "version": 0,
+      "isImage": true,
+      "pixelWidth": 2918,
+      "pixelHeight": 4000,
+      "_links": {
+        "self": {
+          "href": "/api/apps/echotone/assets/9d01f3d7-127d-4859-8e7b-8b9df1501c72",
+          "method": "GET"
+        },
+        "update": {
+          "href": "/api/apps/echotone/assets/9d01f3d7-127d-4859-8e7b-8b9df1501c72",
+          "method": "PUT"
+        },
+        "move": {
+          "href": "/api/apps/echotone/assets/9d01f3d7-127d-4859-8e7b-8b9df1501c72/parent",
+          "method": "PUT"
+        },
+        "upload": {
+          "href": "/api/apps/echotone/assets/9d01f3d7-127d-4859-8e7b-8b9df1501c72/content",
+          "method": "PUT"
+        },
+        "delete": {
+          "href": "/api/apps/echotone/assets/9d01f3d7-127d-4859-8e7b-8b9df1501c72",
+          "method": "DELETE"
+        },
+        "content": {
+          "href": "/api/assets/echotone/9d01f3d7-127d-4859-8e7b-8b9df1501c72/09-dorota-buczkowska.jpg",
+          "method": "GET"
+        },
+        "content/slug": {
+          "href": "/api/assets/echotone/09-dorota-buczkowska.jpg",
+          "method": "GET"
+        }
+      }
+    },
+    {
+      "id": "eb63596c-b1cb-421e-8522-9b3d6586c850",
+      "parentId": "00000000-0000-0000-0000-000000000000",
+      "fileName": "02-Maxime-Chanson.jpg",
+      "fileHash": "zk3SSkk8KAR/eRtcjU8z4FDIxxeA99S7sBsNoGT\u002Bb5E=",
+      "isProtected": false,
+      "slug": "02-maxime-chanson.jpg",
+      "mimeType": "image/jpeg",
+      "fileType": "jpg",
+      "metadataText": "4624x3472px, 4.7 MB",
+      "editToken": "eyJhIjoiZWNob3RvbmUiLCJpIjoiZWI2MzU5NmMtYjFjYi00MjFlLTg1MjItOWIzZDY1ODZjODUwIiwidSI6Imh0dHBzOi8vbGFhYi5kZG5zLm5ldDozODA4MC8ifQ==",
+      "metadata": {
+        "pixelWidth": 4624,
+        "pixelHeight": 3472,
+        "latitude": 43.61759722222222,
+        "longitude": 3.8846055555555554,
+        "created": "2024-03-18T10:09:59",
+        "imageQuality": 96,
+        "description": "JFIF File"
+      },
+      "tags": [
+        "type/jpg",
+        "image",
+        "image/large"
+      ],
+      "fileSize": 4924127,
+      "fileVersion": 0,
+      "type": "Image",
+      "createdBy": "subject:6798df7c5b784ee7b7cb52e1",
+      "lastModifiedBy": "subject:6798df7c5b784ee7b7cb52e1",
+      "created": "2025-01-29T12:33:41Z",
+      "lastModified": "2025-01-29T12:33:41Z",
+      "version": 0,
+      "isImage": true,
+      "pixelWidth": 4624,
+      "pixelHeight": 3472,
+      "_links": {
+        "self": {
+          "href": "/api/apps/echotone/assets/eb63596c-b1cb-421e-8522-9b3d6586c850",
+          "method": "GET"
+        },
+        "update": {
+          "href": "/api/apps/echotone/assets/eb63596c-b1cb-421e-8522-9b3d6586c850",
+          "method": "PUT"
+        },
+        "move": {
+          "href": "/api/apps/echotone/assets/eb63596c-b1cb-421e-8522-9b3d6586c850/parent",
+          "method": "PUT"
+        },
+        "upload": {
+          "href": "/api/apps/echotone/assets/eb63596c-b1cb-421e-8522-9b3d6586c850/content",
+          "method": "PUT"
+        },
+        "delete": {
+          "href": "/api/apps/echotone/assets/eb63596c-b1cb-421e-8522-9b3d6586c850",
+          "method": "DELETE"
+        },
+        "content": {
+          "href": "/api/assets/echotone/eb63596c-b1cb-421e-8522-9b3d6586c850/02-maxime-chanson.jpg",
+          "method": "GET"
+        },
+        "content/slug": {
+          "href": "/api/assets/echotone/02-maxime-chanson.jpg",
+          "method": "GET"
+        }
+      }
+    },
+    {
+      "id": "a56df0d3-64de-4f97-9d1c-4652af2edbfc",
+      "parentId": "00000000-0000-0000-0000-000000000000",
+      "fileName": "01-Maxime-Chanson.jpg",
+      "fileHash": "z8L/uP4M7UlloxnRqlwEKxvYDXuvcjL7nCStc5dg7io=",
+      "isProtected": false,
+      "slug": "01-maxime-chanson.jpg",
+      "mimeType": "image/jpeg",
+      "fileType": "jpg",
+      "metadataText": "3472x4624px, 4.8 MB",
+      "editToken": "eyJhIjoiZWNob3RvbmUiLCJpIjoiYTU2ZGYwZDMtNjRkZS00Zjk3LTlkMWMtNDY1MmFmMmVkYmZjIiwidSI6Imh0dHBzOi8vbGFhYi5kZG5zLm5ldDozODA4MC8ifQ==",
+      "metadata": {
+        "pixelWidth": 3472,
+        "pixelHeight": 4624,
+        "latitude": 43.61759444444444,
+        "longitude": 3.884602777777778,
+        "created": "2024-03-18T09:53:18",
+        "imageQuality": 96,
+        "description": "JFIF File"
+      },
+      "tags": [
+        "type/jpg",
+        "image",
+        "image/large"
+      ],
+      "fileSize": 4997562,
+      "fileVersion": 0,
+      "type": "Image",
+      "createdBy": "subject:6798df7c5b784ee7b7cb52e1",
+      "lastModifiedBy": "subject:6798df7c5b784ee7b7cb52e1",
+      "created": "2025-01-29T12:33:40Z",
+      "lastModified": "2025-01-29T12:33:40Z",
+      "version": 0,
+      "isImage": true,
+      "pixelWidth": 3472,
+      "pixelHeight": 4624,
+      "_links": {
+        "self": {
+          "href": "/api/apps/echotone/assets/a56df0d3-64de-4f97-9d1c-4652af2edbfc",
+          "method": "GET"
+        },
+        "update": {
+          "href": "/api/apps/echotone/assets/a56df0d3-64de-4f97-9d1c-4652af2edbfc",
+          "method": "PUT"
+        },
+        "move": {
+          "href": "/api/apps/echotone/assets/a56df0d3-64de-4f97-9d1c-4652af2edbfc/parent",
+          "method": "PUT"
+        },
+        "upload": {
+          "href": "/api/apps/echotone/assets/a56df0d3-64de-4f97-9d1c-4652af2edbfc/content",
+          "method": "PUT"
+        },
+        "delete": {
+          "href": "/api/apps/echotone/assets/a56df0d3-64de-4f97-9d1c-4652af2edbfc",
+          "method": "DELETE"
+        },
+        "content": {
+          "href": "/api/assets/echotone/a56df0d3-64de-4f97-9d1c-4652af2edbfc/01-maxime-chanson.jpg",
+          "method": "GET"
+        },
+        "content/slug": {
+          "href": "/api/assets/echotone/01-maxime-chanson.jpg",
+          "method": "GET"
+        }
+      }
+    },
+    {
+      "id": "a86eec7d-eb7f-43f2-b9c4-81d159c59752",
+      "parentId": "00000000-0000-0000-0000-000000000000",
+      "fileName": "03-Maxime-Chanson.jpg",
+      "fileHash": "31m1DGHk66Le2abH40JE\u002Bpo36tgOWGhTgEhvblJ/1xQ=",
+      "isProtected": false,
+      "slug": "03-maxime-chanson.jpg",
+      "mimeType": "image/jpeg",
+      "fileType": "jpg",
+      "metadataText": "4624x3472px, 4.7 MB",
+      "editToken": "eyJhIjoiZWNob3RvbmUiLCJpIjoiYTg2ZWVjN2QtZWI3Zi00M2YyLWI5YzQtODFkMTU5YzU5NzUyIiwidSI6Imh0dHBzOi8vbGFhYi5kZG5zLm5ldDozODA4MC8ifQ==",
+      "metadata": {
+        "pixelWidth": 4624,
+        "pixelHeight": 3472,
+        "latitude": 43.61759166666667,
+        "longitude": 3.8846083333333334,
+        "created": "2024-03-18T10:18:43",
+        "imageQuality": 96,
+        "description": "JFIF File"
+      },
+      "tags": [
+        "type/jpg",
+        "image",
+        "image/large"
+      ],
+      "fileSize": 4924627,
+      "fileVersion": 0,
+      "type": "Image",
+      "createdBy": "subject:6798df7c5b784ee7b7cb52e1",
+      "lastModifiedBy": "subject:6798df7c5b784ee7b7cb52e1",
+      "created": "2025-01-29T12:33:39Z",
+      "lastModified": "2025-01-29T12:33:39Z",
+      "version": 0,
+      "isImage": true,
+      "pixelWidth": 4624,
+      "pixelHeight": 3472,
+      "_links": {
+        "self": {
+          "href": "/api/apps/echotone/assets/a86eec7d-eb7f-43f2-b9c4-81d159c59752",
+          "method": "GET"
+        },
+        "update": {
+          "href": "/api/apps/echotone/assets/a86eec7d-eb7f-43f2-b9c4-81d159c59752",
+          "method": "PUT"
+        },
+        "move": {
+          "href": "/api/apps/echotone/assets/a86eec7d-eb7f-43f2-b9c4-81d159c59752/parent",
+          "method": "PUT"
+        },
+        "upload": {
+          "href": "/api/apps/echotone/assets/a86eec7d-eb7f-43f2-b9c4-81d159c59752/content",
+          "method": "PUT"
+        },
+        "delete": {
+          "href": "/api/apps/echotone/assets/a86eec7d-eb7f-43f2-b9c4-81d159c59752",
+          "method": "DELETE"
+        },
+        "content": {
+          "href": "/api/assets/echotone/a86eec7d-eb7f-43f2-b9c4-81d159c59752/03-maxime-chanson.jpg",
+          "method": "GET"
+        },
+        "content/slug": {
+          "href": "/api/assets/echotone/03-maxime-chanson.jpg",
+          "method": "GET"
+        }
+      }
+    },
+    {
+      "id": "dd42a1f8-b92e-420b-89c7-85b7b4d80742",
+      "parentId": "00000000-0000-0000-0000-000000000000",
+      "fileName": "04-Maxime-Chanson.jpg",
+      "fileHash": "Qub/V2fXYY/M82ClbmwJ9A\u002B\u002BmSjMLcArqj3Af2GqK2U=",
+      "isProtected": false,
+      "slug": "04-maxime-chanson.jpg",
+      "mimeType": "image/jpeg",
+      "fileType": "jpg",
+      "metadataText": "4624x3472px, 4.5 MB",
+      "editToken": "eyJhIjoiZWNob3RvbmUiLCJpIjoiZGQ0MmExZjgtYjkyZS00MjBiLTg5YzctODViN2I0ZDgwNzQyIiwidSI6Imh0dHBzOi8vbGFhYi5kZG5zLm5ldDozODA4MC8ifQ==",
+      "metadata": {
+        "pixelWidth": 4624,
+        "pixelHeight": 3472,
+        "latitude": 43.617580555555556,
+        "longitude": 3.8846583333333333,
+        "created": "2024-03-18T10:19:20",
+        "imageQuality": 96,
+        "description": "JFIF File"
+      },
+      "tags": [
+        "type/jpg",
+        "image",
+        "image/large"
+      ],
+      "fileSize": 4666254,
+      "fileVersion": 0,
+      "type": "Image",
+      "createdBy": "subject:6798df7c5b784ee7b7cb52e1",
+      "lastModifiedBy": "subject:6798df7c5b784ee7b7cb52e1",
+      "created": "2025-01-29T12:33:39Z",
+      "lastModified": "2025-01-29T12:33:39Z",
+      "version": 0,
+      "isImage": true,
+      "pixelWidth": 4624,
+      "pixelHeight": 3472,
+      "_links": {
+        "self": {
+          "href": "/api/apps/echotone/assets/dd42a1f8-b92e-420b-89c7-85b7b4d80742",
+          "method": "GET"
+        },
+        "update": {
+          "href": "/api/apps/echotone/assets/dd42a1f8-b92e-420b-89c7-85b7b4d80742",
+          "method": "PUT"
+        },
+        "move": {
+          "href": "/api/apps/echotone/assets/dd42a1f8-b92e-420b-89c7-85b7b4d80742/parent",
+          "method": "PUT"
+        },
+        "upload": {
+          "href": "/api/apps/echotone/assets/dd42a1f8-b92e-420b-89c7-85b7b4d80742/content",
+          "method": "PUT"
+        },
+        "delete": {
+          "href": "/api/apps/echotone/assets/dd42a1f8-b92e-420b-89c7-85b7b4d80742",
+          "method": "DELETE"
+        },
+        "content": {
+          "href": "/api/assets/echotone/dd42a1f8-b92e-420b-89c7-85b7b4d80742/04-maxime-chanson.jpg",
+          "method": "GET"
+        },
+        "content/slug": {
+          "href": "/api/assets/echotone/04-maxime-chanson.jpg",
+          "method": "GET"
+        }
+      }
+    },
+    {
+      "id": "e20598ba-c8d9-4147-80f2-d22fd78c9200",
+      "parentId": "00000000-0000-0000-0000-000000000000",
+      "fileName": "05-Maxime-Chanson.jpg",
+      "fileHash": "XRDV5FpucgtDqsLBgZOK26rnEysnzWCUSQOIOR2MpHE=",
+      "isProtected": false,
+      "slug": "05-maxime-chanson.jpg",
+      "mimeType": "image/jpeg",
+      "fileType": "jpg",
+      "metadataText": "4624x3472px, 4.4 MB",
+      "editToken": "eyJhIjoiZWNob3RvbmUiLCJpIjoiZTIwNTk4YmEtYzhkOS00MTQ3LTgwZjItZDIyZmQ3OGM5MjAwIiwidSI6Imh0dHBzOi8vbGFhYi5kZG5zLm5ldDozODA4MC8ifQ==",
+      "metadata": {
+        "pixelWidth": 4624,
+        "pixelHeight": 3472,
+        "latitude": 43.61759444444444,
+        "longitude": 3.8846,
+        "created": "2024-03-18T11:47:03",
+        "imageQuality": 96,
+        "description": "JFIF File"
+      },
+      "tags": [
+        "type/jpg",
+        "image",
+        "image/large"
+      ],
+      "fileSize": 4596968,
+      "fileVersion": 0,
+      "type": "Image",
+      "createdBy": "subject:6798df7c5b784ee7b7cb52e1",
+      "lastModifiedBy": "subject:6798df7c5b784ee7b7cb52e1",
+      "created": "2025-01-29T12:33:38Z",
+      "lastModified": "2025-01-29T12:33:38Z",
+      "version": 0,
+      "isImage": true,
+      "pixelWidth": 4624,
+      "pixelHeight": 3472,
+      "_links": {
+        "self": {
+          "href": "/api/apps/echotone/assets/e20598ba-c8d9-4147-80f2-d22fd78c9200",
+          "method": "GET"
+        },
+        "update": {
+          "href": "/api/apps/echotone/assets/e20598ba-c8d9-4147-80f2-d22fd78c9200",
+          "method": "PUT"
+        },
+        "move": {
+          "href": "/api/apps/echotone/assets/e20598ba-c8d9-4147-80f2-d22fd78c9200/parent",
+          "method": "PUT"
+        },
+        "upload": {
+          "href": "/api/apps/echotone/assets/e20598ba-c8d9-4147-80f2-d22fd78c9200/content",
+          "method": "PUT"
+        },
+        "delete": {
+          "href": "/api/apps/echotone/assets/e20598ba-c8d9-4147-80f2-d22fd78c9200",
+          "method": "DELETE"
+        },
+        "content": {
+          "href": "/api/assets/echotone/e20598ba-c8d9-4147-80f2-d22fd78c9200/05-maxime-chanson.jpg",
+          "method": "GET"
+        },
+        "content/slug": {
+          "href": "/api/assets/echotone/05-maxime-chanson.jpg",
+          "method": "GET"
+        }
+      }
+    },
+    {
+      "id": "5dfc89a4-e4e0-4239-ac39-85154a0c8ffa",
+      "parentId": "00000000-0000-0000-0000-000000000000",
+      "fileName": "04-JAA-Occitanie.jpg",
+      "fileHash": "E/WFt2uO9YE86w2WiJ1jBfmU32dG9VxLaZh2i1/YJNQ=",
+      "isProtected": false,
+      "slug": "04-jaa-occitanie.jpg",
+      "mimeType": "image/jpeg",
+      "fileType": "jpg",
+      "metadataText": "4000x3000px, 4.3 MB",
+      "editToken": "eyJhIjoiZWNob3RvbmUiLCJpIjoiNWRmYzg5YTQtZTRlMC00MjM5LWFjMzktODUxNTRhMGM4ZmZhIiwidSI6Imh0dHBzOi8vbGFhYi5kZG5zLm5ldDozODA4MC8ifQ==",
+      "metadata": {
+        "pixelWidth": 4000,
+        "pixelHeight": 3000,
+        "latitude": 43.9342708,
+        "longitude": 3.7058102,
+        "created": "2024-10-20T17:02:40",
+        "imageQuality": 94,
+        "description": "JFIF File"
+      },
+      "tags": [
+        "type/jpg",
+        "image",
+        "image/large"
+      ],
+      "fileSize": 4504474,
+      "fileVersion": 0,
+      "type": "Image",
+      "createdBy": "subject:6798df7c5b784ee7b7cb52e1",
+      "lastModifiedBy": "subject:6798df7c5b784ee7b7cb52e1",
+      "created": "2025-01-29T12:30:51Z",
+      "lastModified": "2025-01-29T12:30:51Z",
+      "version": 0,
+      "isImage": true,
+      "pixelWidth": 4000,
+      "pixelHeight": 3000,
+      "_links": {
+        "self": {
+          "href": "/api/apps/echotone/assets/5dfc89a4-e4e0-4239-ac39-85154a0c8ffa",
+          "method": "GET"
+        },
+        "update": {
+          "href": "/api/apps/echotone/assets/5dfc89a4-e4e0-4239-ac39-85154a0c8ffa",
+          "method": "PUT"
+        },
+        "move": {
+          "href": "/api/apps/echotone/assets/5dfc89a4-e4e0-4239-ac39-85154a0c8ffa/parent",
+          "method": "PUT"
+        },
+        "upload": {
+          "href": "/api/apps/echotone/assets/5dfc89a4-e4e0-4239-ac39-85154a0c8ffa/content",
+          "method": "PUT"
+        },
+        "delete": {
+          "href": "/api/apps/echotone/assets/5dfc89a4-e4e0-4239-ac39-85154a0c8ffa",
+          "method": "DELETE"
+        },
+        "content": {
+          "href": "/api/assets/echotone/5dfc89a4-e4e0-4239-ac39-85154a0c8ffa/04-jaa-occitanie.jpg",
+          "method": "GET"
+        },
+        "content/slug": {
+          "href": "/api/assets/echotone/04-jaa-occitanie.jpg",
+          "method": "GET"
+        }
+      }
+    },
+    {
+      "id": "6b519d90-64e0-42a1-8486-87fbc0d6bab8",
+      "parentId": "00000000-0000-0000-0000-000000000000",
+      "fileName": "02-JAA-Occitanie.jpg",
+      "fileHash": "wPFNTD5MmjmklDcfDIQAIAxwQBY2IaqxELqNfgdbuiI=",
+      "isProtected": false,
+      "slug": "02-jaa-occitanie.jpg",
+      "mimeType": "image/jpeg",
+      "fileType": "jpg",
+      "metadataText": "4000x3000px, 4.3 MB",
+      "editToken": "eyJhIjoiZWNob3RvbmUiLCJpIjoiNmI1MTlkOTAtNjRlMC00MmExLTg0ODYtODdmYmMwZDZiYWI4IiwidSI6Imh0dHBzOi8vbGFhYi5kZG5zLm5ldDozODA4MC8ifQ==",
+      "metadata": {
+        "pixelWidth": 4000,
+        "pixelHeight": 3000,
+        "latitude": 43.93425599972222,
+        "longitude": 3.7057777997222225,
+        "created": "2024-10-20T17:02:27",
+        "imageQuality": 94,
+        "description": "JFIF File"
+      },
+      "tags": [
+        "type/jpg",
+        "image",
+        "image/large"
+      ],
+      "fileSize": 4528578,
+      "fileVersion": 0,
+      "type": "Image",
+      "createdBy": "subject:6798df7c5b784ee7b7cb52e1",
+      "lastModifiedBy": "subject:6798df7c5b784ee7b7cb52e1",
+      "created": "2025-01-29T12:30:50Z",
+      "lastModified": "2025-01-29T12:30:50Z",
+      "version": 0,
+      "isImage": true,
+      "pixelWidth": 4000,
+      "pixelHeight": 3000,
+      "_links": {
+        "self": {
+          "href": "/api/apps/echotone/assets/6b519d90-64e0-42a1-8486-87fbc0d6bab8",
+          "method": "GET"
+        },
+        "update": {
+          "href": "/api/apps/echotone/assets/6b519d90-64e0-42a1-8486-87fbc0d6bab8",
+          "method": "PUT"
+        },
+        "move": {
+          "href": "/api/apps/echotone/assets/6b519d90-64e0-42a1-8486-87fbc0d6bab8/parent",
+          "method": "PUT"
+        },
+        "upload": {
+          "href": "/api/apps/echotone/assets/6b519d90-64e0-42a1-8486-87fbc0d6bab8/content",
+          "method": "PUT"
+        },
+        "delete": {
+          "href": "/api/apps/echotone/assets/6b519d90-64e0-42a1-8486-87fbc0d6bab8",
+          "method": "DELETE"
+        },
+        "content": {
+          "href": "/api/assets/echotone/6b519d90-64e0-42a1-8486-87fbc0d6bab8/02-jaa-occitanie.jpg",
+          "method": "GET"
+        },
+        "content/slug": {
+          "href": "/api/assets/echotone/02-jaa-occitanie.jpg",
+          "method": "GET"
+        }
+      }
+    },
+    {
+      "id": "8b25f26d-c892-46f9-b714-4715ea3c6f15",
+      "parentId": "00000000-0000-0000-0000-000000000000",
+      "fileName": "03-JAA-Occitanie.jpg",
+      "fileHash": "pcOeqmjMh/RgQ4m125EUEYMO1JXuZR5iIueDAHh4KME=",
+      "isProtected": false,
+      "slug": "03-jaa-occitanie.jpg",
+      "mimeType": "image/jpeg",
+      "fileType": "jpg",
+      "metadataText": "4000x3000px, 4 MB",
+      "editToken": "eyJhIjoiZWNob3RvbmUiLCJpIjoiOGIyNWYyNmQtYzg5Mi00NmY5LWI3MTQtNDcxNWVhM2M2ZjE1IiwidSI6Imh0dHBzOi8vbGFhYi5kZG5zLm5ldDozODA4MC8ifQ==",
+      "metadata": {
+        "pixelWidth": 4000,
+        "pixelHeight": 3000,
+        "latitude": 43.933984699999996,
+        "longitude": 3.7055297997222225,
+        "created": "2024-10-18T17:28:55",
+        "imageQuality": 94,
+        "description": "JFIF File"
+      },
+      "tags": [
+        "type/jpg",
+        "image",
+        "image/large"
+      ],
+      "fileSize": 4150062,
+      "fileVersion": 0,
+      "type": "Image",
+      "createdBy": "subject:6798df7c5b784ee7b7cb52e1",
+      "lastModifiedBy": "subject:6798df7c5b784ee7b7cb52e1",
+      "created": "2025-01-29T12:30:50Z",
+      "lastModified": "2025-01-29T12:30:50Z",
+      "version": 0,
+      "isImage": true,
+      "pixelWidth": 4000,
+      "pixelHeight": 3000,
+      "_links": {
+        "self": {
+          "href": "/api/apps/echotone/assets/8b25f26d-c892-46f9-b714-4715ea3c6f15",
+          "method": "GET"
+        },
+        "update": {
+          "href": "/api/apps/echotone/assets/8b25f26d-c892-46f9-b714-4715ea3c6f15",
+          "method": "PUT"
+        },
+        "move": {
+          "href": "/api/apps/echotone/assets/8b25f26d-c892-46f9-b714-4715ea3c6f15/parent",
+          "method": "PUT"
+        },
+        "upload": {
+          "href": "/api/apps/echotone/assets/8b25f26d-c892-46f9-b714-4715ea3c6f15/content",
+          "method": "PUT"
+        },
+        "delete": {
+          "href": "/api/apps/echotone/assets/8b25f26d-c892-46f9-b714-4715ea3c6f15",
+          "method": "DELETE"
+        },
+        "content": {
+          "href": "/api/assets/echotone/8b25f26d-c892-46f9-b714-4715ea3c6f15/03-jaa-occitanie.jpg",
+          "method": "GET"
+        },
+        "content/slug": {
+          "href": "/api/assets/echotone/03-jaa-occitanie.jpg",
+          "method": "GET"
+        }
+      }
+    },
+    {
+      "id": "67ef408d-d649-4293-b4a5-a883dbd68a0b",
+      "parentId": "00000000-0000-0000-0000-000000000000",
+      "fileName": "05-JAA-Occitanie.jpg",
+      "fileHash": "N86JCgdIkUBrOW99PVUknmIo0uJTNrnAxkcxAmOscKQ=",
+      "isProtected": false,
+      "slug": "05-jaa-occitanie.jpg",
+      "mimeType": "image/jpeg",
+      "fileType": "jpg",
+      "metadataText": "4000x3000px, 3.4 MB",
+      "editToken": "eyJhIjoiZWNob3RvbmUiLCJpIjoiNjdlZjQwOGQtZDY0OS00MjkzLWI0YTUtYTg4M2RiZDY4YTBiIiwidSI6Imh0dHBzOi8vbGFhYi5kZG5zLm5ldDozODA4MC8ifQ==",
+      "metadata": {
+        "pixelWidth": 4000,
+        "pixelHeight": 3000,
+        "latitude": 43.934361599999995,
+        "longitude": 3.7056288000000004,
+        "created": "2024-11-08T14:39:50",
+        "imageQuality": 95,
+        "description": "JFIF File"
+      },
+      "tags": [
+        "type/jpg",
+        "image",
+        "image/large"
+      ],
+      "fileSize": 3597788,
+      "fileVersion": 0,
+      "type": "Image",
+      "createdBy": "subject:6798df7c5b784ee7b7cb52e1",
+      "lastModifiedBy": "subject:6798df7c5b784ee7b7cb52e1",
+      "created": "2025-01-29T12:30:49Z",
+      "lastModified": "2025-01-29T12:30:49Z",
+      "version": 0,
+      "isImage": true,
+      "pixelWidth": 4000,
+      "pixelHeight": 3000,
+      "_links": {
+        "self": {
+          "href": "/api/apps/echotone/assets/67ef408d-d649-4293-b4a5-a883dbd68a0b",
+          "method": "GET"
+        },
+        "update": {
+          "href": "/api/apps/echotone/assets/67ef408d-d649-4293-b4a5-a883dbd68a0b",
+          "method": "PUT"
+        },
+        "move": {
+          "href": "/api/apps/echotone/assets/67ef408d-d649-4293-b4a5-a883dbd68a0b/parent",
+          "method": "PUT"
+        },
+        "upload": {
+          "href": "/api/apps/echotone/assets/67ef408d-d649-4293-b4a5-a883dbd68a0b/content",
+          "method": "PUT"
+        },
+        "delete": {
+          "href": "/api/apps/echotone/assets/67ef408d-d649-4293-b4a5-a883dbd68a0b",
+          "method": "DELETE"
+        },
+        "content": {
+          "href": "/api/assets/echotone/67ef408d-d649-4293-b4a5-a883dbd68a0b/05-jaa-occitanie.jpg",
+          "method": "GET"
+        },
+        "content/slug": {
+          "href": "/api/assets/echotone/05-jaa-occitanie.jpg",
+          "method": "GET"
+        }
+      }
+    },
+    {
+      "id": "a94f31e5-3836-4bfe-a9b6-9fc92851cb8e",
+      "parentId": "00000000-0000-0000-0000-000000000000",
+      "fileName": "01-JAA-Occitanie.jpg",
+      "fileHash": "PjZxETwXin/\u002B3K4ls42Dre2hgX5RYfIgslzXwVEmpCU=",
+      "isProtected": false,
+      "slug": "01-jaa-occitanie.jpg",
+      "mimeType": "image/jpeg",
+      "fileType": "jpg",
+      "metadataText": "4000x3000px, 3.7 MB",
+      "editToken": "eyJhIjoiZWNob3RvbmUiLCJpIjoiYTk0ZjMxZTUtMzgzNi00YmZlLWE5YjYtOWZjOTI4NTFjYjhlIiwidSI6Imh0dHBzOi8vbGFhYi5kZG5zLm5ldDozODA4MC8ifQ==",
+      "metadata": {
+        "pixelWidth": 4000,
+        "pixelHeight": 3000,
+        "latitude": 43.93427069972222,
+        "longitude": 3.7058059,
+        "created": "2024-10-20T17:02:07",
+        "imageQuality": 94,
+        "description": "JFIF File"
+      },
+      "tags": [
+        "type/jpg",
+        "image",
+        "image/large"
+      ],
+      "fileSize": 3841352,
+      "fileVersion": 0,
+      "type": "Image",
+      "createdBy": "subject:6798df7c5b784ee7b7cb52e1",
+      "lastModifiedBy": "subject:6798df7c5b784ee7b7cb52e1",
+      "created": "2025-01-29T12:30:49Z",
+      "lastModified": "2025-01-29T12:30:49Z",
+      "version": 0,
+      "isImage": true,
+      "pixelWidth": 4000,
+      "pixelHeight": 3000,
+      "_links": {
+        "self": {
+          "href": "/api/apps/echotone/assets/a94f31e5-3836-4bfe-a9b6-9fc92851cb8e",
+          "method": "GET"
+        },
+        "update": {
+          "href": "/api/apps/echotone/assets/a94f31e5-3836-4bfe-a9b6-9fc92851cb8e",
+          "method": "PUT"
+        },
+        "move": {
+          "href": "/api/apps/echotone/assets/a94f31e5-3836-4bfe-a9b6-9fc92851cb8e/parent",
+          "method": "PUT"
+        },
+        "upload": {
+          "href": "/api/apps/echotone/assets/a94f31e5-3836-4bfe-a9b6-9fc92851cb8e/content",
+          "method": "PUT"
+        },
+        "delete": {
+          "href": "/api/apps/echotone/assets/a94f31e5-3836-4bfe-a9b6-9fc92851cb8e",
+          "method": "DELETE"
+        },
+        "content": {
+          "href": "/api/assets/echotone/a94f31e5-3836-4bfe-a9b6-9fc92851cb8e/01-jaa-occitanie.jpg",
+          "method": "GET"
+        },
+        "content/slug": {
+          "href": "/api/assets/echotone/01-jaa-occitanie.jpg",
+          "method": "GET"
+        }
+      }
+    }
+  ],
+  "_links": {
+    "self": {
+      "href": "/api/apps/echotone/assets",
+      "method": "GET"
+    },
+    "create": {
+      "href": "/api/apps/echotone/assets",
+      "method": "POST"
+    },
+    "tags/rename": {
+      "href": "/api/apps/echotone/assets/tags/tag",
+      "method": "PUT"
+    },
+    "tags": {
+      "href": "/api/apps/echotone/assets/tags",
+      "method": "GET"
+    }
+  }
+}

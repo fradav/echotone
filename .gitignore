@@ -431,5 +431,4 @@ FodyWeavers.xsd
 
 .vscode/
 .paket
-data
 fable_modules

@@ -1,0 +1,100 @@
+{
+  "total": 1,
+  "items": [
+    {
+      "id": "47e608ef-74da-42bf-932b-c75243170e15",
+      "createdBy": "subject:6798dad0167d31fb8ec7cc74",
+      "lastModifiedBy": "subject:6798dad0167d31fb8ec7cc74",
+      "data": {
+        "content": {
+          "fr": {
+            "schemaId": "2bd4ee39-8e6e-4128-9f08-a049cce49f23",
+            "title": "Informations pratiques",
+            "short": "Quelques informations pratiques, comment nous contacter",
+            "text": "\u003Cp class=\u0022p3\u0022\u003E\u0026Eacute;CHOTONE, 6 rue des maquisards, 34190 GANGES\u003C/p\u003E\n\u003Cp class=\u0022p3\u0022\u003EEntr\u0026eacute;e libre et gratuite, accessible aux PMR\u003C/p\u003E\n\u003Cp class=\u0022p3\u0022\u003EOuvertures sur le temps de la programmation et 7 jours sur 7 sur rdv\u003C/p\u003E\n\u003Cp class=\u0022p3\u0022\u003E\u0026Agrave; pieds \u0026agrave; deux minutes du centre-ville\u003C/p\u003E\n\u003Cp class=\u0022p3\u0022\u003EEn bus\u0026nbsp;: ligne 608 \u0026ndash; Entre Montpellier (station Occitanie) et le Vigan \u0026ndash; Arr\u0026ecirc;t Mairie.\u003C/p\u003E\n\u003Cp class=\u0022p4\u0022\u003E\u003Cspan class=\u0022s2\u0022\u003ELigne 140 \u0026ndash; Entre N\u0026icirc;mes et le Vigan \u0026ndash; Arr\u0026ecirc;t Mairie. Lien horaires 2025\u0026nbsp;: \u003Ca href=\u0022https://storage.googleapis.com/is-wp-90-prod/uploads-preprod/2024/10/30-FH-140-092024.pdf\u0022\u003E\u003Cspan class=\u0022s3\u0022\u003Ehttps://storage.googleapis.com/is-wp-90-prod/uploads-preprod/2024/10/30-FH-140-092024.pdf\u003C/span\u003E\u003C/a\u003E\u003C/span\u003E\u003C/p\u003E\n\u003Cp class=\u0022p1\u0022\u003ENOUS CONTACTER\u003C/p\u003E\n\u003Cp class=\u0022p4\u0022\u003E\u003Cspan class=\u0022s1\u0022\u003E\u003Ca href=\u0022mailto:contact@echotone.space\u0022\u003Econtact@echotone.space\u003C/a\u003E\u003C/span\u003E\u003C/p\u003E\n\u003Cp class=\u0022p1\u0022\u003ENOUS SOUTENIR\u003C/p\u003E\n\u003Cp class=\u0022p3\u0022\u003EEn adh\u0026eacute;rant\u0026nbsp;! Plusieurs formules\u0026nbsp;s\u0026rsquo;offre \u0026agrave; vous:\u003C/p\u003E\n\u003Cp class=\u0022p3\u0022\u003EAdh\u0026eacute;sion simple\u0026nbsp;: 2 \u0026euro; / Le Tampon d\u0026rsquo;adh\u0026eacute;sion\u0026nbsp;(\u0026agrave; placer sur le document de votre choix): comprends un acc\u0026egrave;s \u0026agrave; la buvette de l\u0026rsquo;association ouverte sur le temps des \u0026eacute;v\u0026egrave;nements et l\u0026rsquo;acc\u0026egrave;s aux ateliers.\u003C/p\u003E\n\u003Cp class=\u0022p3\u0022\u003EAdh\u0026eacute;sion \u002B badge r\u0026eacute;alis\u0026eacute;e par un.e artiste : 5 \u0026euro;\u003C/p\u003E\n\u003Cp class=\u0022p3\u0022\u003EAdh\u0026eacute;sion \u002B risographie\u0026nbsp;r\u0026eacute;alis\u0026eacute;e par un.e artiste : 30 \u0026euro;\u003C/p\u003E\n\u003Cp class=\u0022p3\u0022\u003EAdh\u0026eacute;sion \u002B photogravure\u0026nbsp;r\u0026eacute;alis\u0026eacute;e par un.e artiste : 50 \u0026euro;\u003C/p\u003E\n\u003Cp class=\u0022p3\u0022\u003EAdh\u0026eacute;sion \u0026agrave; prix libre\u0026nbsp;: temps privil\u0026eacute;gi\u0026eacute; de rencontres avec l\u0026rsquo;\u0026eacute;quipe et les artistes\u003C/p\u003E",
+            "tags": null,
+            "locations": [
+              {
+                "location": {
+                  "latitude": 43.93361239416565,
+                  "longitude": 3.7055872817705855
+                }
+              }
+            ],
+            "temporal": [],
+            "schemaName": "unit"
+          },
+          "en": {
+            "schemaId": "2bd4ee39-8e6e-4128-9f08-a049cce49f23",
+            "title": "Informations pratiques",
+            "short": "Quelques informations pratiques, comment nous contacter",
+            "text": "\u003Cp class=\u0022p3\u0022\u003E\u0026Eacute;CHOTONE, 6 rue des maquisards, 34190 GANGES\u003C/p\u003E\n\u003Cp class=\u0022p3\u0022\u003EEntr\u0026eacute;e libre et gratuite, accessible aux PMR\u003C/p\u003E\n\u003Cp class=\u0022p3\u0022\u003EOuvertures sur le temps de la programmation et 7 jours sur 7 sur rdv\u003C/p\u003E\n\u003Cp class=\u0022p3\u0022\u003E\u0026Agrave; pieds \u0026agrave; deux minutes du centre-ville\u003C/p\u003E\n\u003Cp class=\u0022p3\u0022\u003EEn bus\u0026nbsp;: ligne 608 \u0026ndash; Entre Montpellier (station Occitanie) et le Vigan \u0026ndash; Arr\u0026ecirc;t Mairie.\u003C/p\u003E\n\u003Cp class=\u0022p4\u0022\u003E\u003Cspan class=\u0022s2\u0022\u003ELigne 140 \u0026ndash; Entre N\u0026icirc;mes et le Vigan \u0026ndash; Arr\u0026ecirc;t Mairie. Lien horaires 2025\u0026nbsp;: \u003Ca href=\u0022https://storage.googleapis.com/is-wp-90-prod/uploads-preprod/2024/10/30-FH-140-092024.pdf\u0022\u003E\u003Cspan class=\u0022s3\u0022\u003Ehttps://storage.googleapis.com/is-wp-90-prod/uploads-preprod/2024/10/30-FH-140-092024.pdf\u003C/span\u003E\u003C/a\u003E\u003C/span\u003E\u003C/p\u003E\n\u003Cp class=\u0022p1\u0022\u003ENOUS CONTACTER\u003C/p\u003E\n\u003Cp class=\u0022p4\u0022\u003E\u003Cspan class=\u0022s1\u0022\u003E\u003Ca href=\u0022mailto:contact@echotone.space\u0022\u003Econtact@echotone.space\u003C/a\u003E\u003C/span\u003E\u003C/p\u003E\n\u003Cp class=\u0022p1\u0022\u003ENOUS SOUTENIR\u003C/p\u003E\n\u003Cp class=\u0022p3\u0022\u003EEn adh\u0026eacute;rant\u0026nbsp;! Plusieurs formules\u0026nbsp;s\u0026rsquo;offre \u0026agrave; vous:\u003C/p\u003E\n\u003Cp class=\u0022p3\u0022\u003EAdh\u0026eacute;sion simple\u0026nbsp;: 2 \u0026euro; / Le Tampon d\u0026rsquo;adh\u0026eacute;sion\u0026nbsp;(\u0026agrave; placer sur le document de votre choix): comprends un acc\u0026egrave;s \u0026agrave; la buvette de l\u0026rsquo;association ouverte sur le temps des \u0026eacute;v\u0026egrave;nements et l\u0026rsquo;acc\u0026egrave;s aux ateliers.\u003C/p\u003E\n\u003Cp class=\u0022p3\u0022\u003EAdh\u0026eacute;sion \u002B badge r\u0026eacute;alis\u0026eacute;e par un.e artiste : 5 \u0026euro;\u003C/p\u003E\n\u003Cp class=\u0022p3\u0022\u003EAdh\u0026eacute;sion \u002B risographie\u0026nbsp;r\u0026eacute;alis\u0026eacute;e par un.e artiste : 30 \u0026euro;\u003C/p\u003E\n\u003Cp class=\u0022p3\u0022\u003EAdh\u0026eacute;sion \u002B photogravure\u0026nbsp;r\u0026eacute;alis\u0026eacute;e par un.e artiste : 50 \u0026euro;\u003C/p\u003E\n\u003Cp class=\u0022p3\u0022\u003EAdh\u0026eacute;sion \u0026agrave; prix libre\u0026nbsp;: temps privil\u0026eacute;gi\u0026eacute; de rencontres avec l\u0026rsquo;\u0026eacute;quipe et les artistes\u003C/p\u003E",
+            "tags": null,
+            "locations": [
+              {
+                "location": {
+                  "latitude": 43.93361239416565,
+                  "longitude": 3.7055872817705855
+                }
+              }
+            ],
+            "temporal": [],
+            "schemaName": "unit"
+          }
+        }
+      },
+      "created": "2025-01-27T14:48:39Z",
+      "lastModified": "2025-01-27T15:32:03Z",
+      "status": "Published",
+      "statusColor": "#4bb958",
+      "editToken": "eyJhIjoiZWNob3RvbmUiLCJzIjoiY29udGFjdCIsImkiOiI0N2U2MDhlZi03NGRhLTQyYmYtOTMyYi1jNzUyNDMxNzBlMTUiLCJ1IjoiaHR0cHM6Ly9sYWFiLmRkbnMubmV0OjM4MDgwLyJ9",
+      "schemaId": "47e608ef-74da-42bf-932b-c75243170e15",
+      "schemaName": "contact",
+      "schemaDisplayName": "Informations pratiques",
+      "isDeleted": false,
+      "version": 5,
+      "_links": {
+        "self": {
+          "href": "/api/content/echotone/contact/47e608ef-74da-42bf-932b-c75243170e15",
+          "method": "GET"
+        },
+        "previous": {
+          "href": "/api/content/echotone/contact/47e608ef-74da-42bf-932b-c75243170e15/4",
+          "method": "GET"
+        },
+        "draft/create": {
+          "href": "/api/content/echotone/contact/47e608ef-74da-42bf-932b-c75243170e15/draft",
+          "method": "POST"
+        }
+      }
+    }
+  ],
+  "statuses": [
+    {
+      "status": "Archived",
+      "color": "#eb3142"
+    },
+    {
+      "status": "Draft",
+      "color": "#8091a5"
+    },
+    {
+      "status": "Published",
+      "color": "#4bb958"
+    }
+  ],
+  "_links": {
+    "self": {
+      "href": "/api/content/echotone/contact",
+      "method": "GET"
+    },
+    "create": {
+      "href": "/api/content/echotone/contact",
+      "method": "POST"
+    },
+    "create/publish": {
+      "href": "/api/content/echotone/contact?publish=True",
+      "method": "POST"
+    }
+  }
+}

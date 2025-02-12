@@ -1,0 +1,86 @@
+{
+  "total": 1,
+  "items": [
+    {
+      "id": "1ba61cb3-3ce4-45fa-90d2-f7b2a5b510c8",
+      "createdBy": "subject:6798dad0167d31fb8ec7cc74",
+      "lastModifiedBy": "subject:6798dad0167d31fb8ec7cc74",
+      "data": {
+        "content": {
+          "fr": {
+            "schemaId": "2bd4ee39-8e6e-4128-9f08-a049cce49f23",
+            "title": "\u00C0 propos",
+            "short": "Ce que nous sommes",
+            "text": "\u003Cp\u003EG\u00E9r\u00E9 par des artistes, \u00C9chotone est un espace d\u00E9di\u00E9 \u00E0 la recherche artistique. Chaque ann\u00E9e, l\u2019espace accueille jusqu\u2019\u00E0 trois r\u00E9sidences d\u2019artistes et une r\u00E9sidence de critique d\u2019art qui sont men\u00E9es sur un temps long (allant d\u2019un \u00E0 trois ans). Chaque r\u00E9sident est accompagn\u00E9 selon les besoins de son projet.\u003C/p\u003E\u003Cp\u003EL\u2019espace d\u2019une superficie totale de 130m2 est \u00E9quip\u00E9 d\u2019une grande salle d\u00E9di\u00E9e \u00E0 l\u2019exp\u00E9rimentation et \u00E9v\u00E8nements de 70 m2 et de 4m de haut. Compl\u00E9t\u00E9 par une verri\u00E8re de 15m2 \u00E9quip\u00E9 d\u2019une presse professionnelle, d\u2019un laboratoire d\u00E9di\u00E9 \u00E0 la pratique des proc\u00E9d\u00E9s photographiques anciens, comme la photogravure sur photopolym\u00E8re (insolation, agrandisseur couleur et N\u0026amp;B, presse pour tirage), ainsi qu\u2019une autre partie, d\u00E9di\u00E9e \u00E0 la chimie (alambic, micro-distillateur, presse \u00E0 huile).\u003C/p\u003E\u003Cp\u003E\u00C9chotone est \u00E9galement le quartier-g\u00E9n\u00E9ral de deux associations : le LAAB, Laboratoire Associatif d\u2019Art et de Botanique, cr\u00E9\u00E9 en 2007, dont la recherche collective est d\u00E9di\u00E9e \u00E0 l\u2019expressivit\u00E9 du vivant et la plateforme de recensement des espaces-projets : artist-run-spaces.org. Cette derni\u00E8re, initi\u00E9e en 2013 porte une r\u00E9flexion sur l\u2019archive et la dimension plastique des espaces d\u00E9di\u00E9s \u00E0 l\u2019art.\u003C/p\u003E\u003Ch2\u003E\u00C9quipe\u003C/h2\u003E\u003Cul\u003E\u003Cli\u003E\u003Cp\u003ESabrina Issa et Fran\u00E7ois-David Collin / Propri\u00E9taires et co-responsable de l\u2019espace\u003C/p\u003E\u003C/li\u003E\u003Cli\u003E\u003Cp\u003EAnna Kerekes, Anna Olszewska, Lo\u00EFc Peyrani / Coordination et suivi artistique et technique de la recherche.\u003C/p\u003E\u003C/li\u003E\u003C/ul\u003E\u003Ch2\u003EHorizontalit\u00E9\u0301 de fonctionnement\u003C/h2\u003E\u003Cp\u003EBien qu\u2019il y est des responsabilit\u00E9s diff\u00E9rentes engag\u00E9es dans ce projet d\u2019espace d\u2019art, nous fonctionnons sur la base d\u2019\u00E9changes et de discussion, en pr\u00EAtant une attention collective et partag\u00E9es aux int\u00E9r\u00EAts, avis et id\u00E9es de chacun. C\u2019est un fonctionnement de type organique que nous exp\u00E9rimentons d\u00E9j\u00E0\u0300 au sein du LAAB ou d\u2019artist-run-space.org\u003C/p\u003E\u003Ch2\u003EPartenaires\u003C/h2\u003E\u003Cp\u003EDRAC \u003Cimg alt=\u0022\u0022 src=\u0022https://laab.ddns.net:38080/api/assets/echotone/cb8fdd55-c38b-4852-9ccc-e45d8fa6e0bb/logo-drac-occitanie.png\u0022 title=\u0022logo-drac-occitanie.png\u0022 resizable=\u0022false\u0022\u003E \u003C/p\u003E\u003Cp\u003ER\u00E9gion Occitanie \u003Cimg alt=\u0022\u0022 src=\u0022https://laab.ddns.net:38080/api/assets/echotone/f5e5f4e3-ae13-42d3-ab4f-5bc13e974afb/logo-occitanie.svg\u0022 title=\u0022logo-occitanie.svg\u0022 resizable=\u0022false\u0022\u003E \u003C/p\u003E\u003Cp\u003EMarie de Ganges \u003Cimg alt=\u0022\u0022 src=\u0022https://laab.ddns.net:38080/api/assets/echotone/046538cf-3917-4143-a225-260c699fa081/logo-ganges.jpg\u0022 title=\u0022logo-ganges.jpg\u0022 resizable=\u0022false\u0022\u003E \u003C/p\u003E",
+            "tags": null,
+            "temporal": [],
+            "locations": [],
+            "schemaName": "unit"
+          },
+          "en": {
+            "schemaId": "2bd4ee39-8e6e-4128-9f08-a049cce49f23",
+            "title": "About",
+            "short": null,
+            "text": null,
+            "tags": null,
+            "temporal": [],
+            "locations": [],
+            "schemaName": "unit"
+          }
+        }
+      },
+      "created": "2025-01-27T14:37:02Z",
+      "lastModified": "2025-02-08T14:42:16Z",
+      "status": "Published",
+      "statusColor": "#4bb958",
+      "editToken": "eyJhIjoiZWNob3RvbmUiLCJzIjoiYWJvdXQiLCJpIjoiMWJhNjFjYjMtM2NlNC00NWZhLTkwZDItZjdiMmE1YjUxMGM4IiwidSI6Imh0dHBzOi8vbGFhYi5kZG5zLm5ldDozODA4MC8ifQ==",
+      "schemaId": "1ba61cb3-3ce4-45fa-90d2-f7b2a5b510c8",
+      "schemaName": "about",
+      "schemaDisplayName": "\u00C0 propos",
+      "isDeleted": false,
+      "version": 6,
+      "_links": {
+        "self": {
+          "href": "/api/content/echotone/about/1ba61cb3-3ce4-45fa-90d2-f7b2a5b510c8",
+          "method": "GET"
+        },
+        "previous": {
+          "href": "/api/content/echotone/about/1ba61cb3-3ce4-45fa-90d2-f7b2a5b510c8/5",
+          "method": "GET"
+        },
+        "draft/create": {
+          "href": "/api/content/echotone/about/1ba61cb3-3ce4-45fa-90d2-f7b2a5b510c8/draft",
+          "method": "POST"
+        }
+      }
+    }
+  ],
+  "statuses": [
+    {
+      "status": "Archived",
+      "color": "#eb3142"
+    },
+    {
+      "status": "Draft",
+      "color": "#8091a5"
+    },
+    {
+      "status": "Published",
+      "color": "#4bb958"
+    }
+  ],
+  "_links": {
+    "self": {
+      "href": "/api/content/echotone/about",
+      "method": "GET"
+    },
+    "create": {
+      "href": "/api/content/echotone/about",
+      "method": "POST"
+    },
+    "create/publish": {
+      "href": "/api/content/echotone/about?publish=True",
+      "method": "POST"
+    }
+  }
+}
