@@ -21,6 +21,10 @@ concurrency:
   group: "pages"
   cancel-in-progress: false
 
+# import secret repository CLIENT_SECRET
+env:
+  CLIENT_SECRET: ${{ secrets.CLIENT_SECRET }}
+
 jobs:
   # Single deploy job since we're just deploying
   deploy:

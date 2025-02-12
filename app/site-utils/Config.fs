@@ -24,6 +24,9 @@ module Conf =
     let refreshToken () =
         let envVars = getConfig ()
         let secret = loadSecret ()
+        // check if secret is empty
+        if System.String.IsNullOrEmpty(secret) then
+            failwith "CLIENT_SECRET not found"
 
         http {
             config_useBaseUrl envVars["BASE_URL"]
