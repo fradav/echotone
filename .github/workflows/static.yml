@@ -48,8 +48,8 @@ jobs:
       # commit the changes
       - name: commit changes
         run: |
-          git config --local user.email
-          git config --local user.name
+          git config --local user.email "fradav@gmail.com"
+          git config --local user.name "François-David Collin"
           git add .
           git commit -m "[skip ci] Deploy static content"
       # push the changes
