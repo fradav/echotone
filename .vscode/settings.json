@@ -1,4 +1,4 @@
 {
-    "livePreview.serverRoot": "www",
+    "livePreview.serverRoot": "docs",
     "svg.preview.background": "transparent",
 }
