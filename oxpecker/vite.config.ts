@@ -5,11 +5,11 @@ import solidPlugin from 'vite-plugin-solid';
 // https://vitejs.dev/config/
 export default defineConfig(({ mode }) => ({
     clearScreen: false,
-    publicDir: '../docs',
+    publicDir: '../public',
     // prefix all relative links with "echotone" if in production mode
     base: mode === 'production' ? '/echotone/' : '/',
     build: {
-        outDir: '../docs',
+        outDir: '../public',
         emptyOutDir: false,
         // make the build output without the hash in the filename
         manifest: false,

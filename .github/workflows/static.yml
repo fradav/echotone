@@ -40,26 +40,30 @@ jobs:
         uses: actions/setup-dotnet@v1
         with:
           dotnet-version: '9.0.x'
+      - name: êstup bun
+        uses: oven-sh/setup-bun@v2
       - name: Build
         run: |
           dotnet tool restore
           dotnet paket restore
-          cd oxpecker
-          npm install
-          cd ..
+          bun install --cwd oxpecker
           dotnet run build
       # commit the changes
       - name: Commit and push changes
         run: |
           git config --local user.email "fradav@gmail.com"
           git config --local user.name "François-David Collin"
-          sed -i '/\/docs\/index\.\*/d'  .gitignore
-          git add -A ':!.gitignore' 
+          git add -A 
           if git diff-index --quiet HEAD --; then
             echo "No changes to commit."
           else
             git commit -m "[skip ci] Deploy static content"
             git push origin main
+            git checkout gh-pages
+            git checkout main -- public/index.*
+            git add public/index.*
+            git commit -m "[skip ci] Deploy static content/gh-pages"
+            git push origin `git subtree split --prefix public gh-pages`:gh-pages
           fi
 
         

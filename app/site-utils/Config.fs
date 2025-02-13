@@ -11,13 +11,15 @@ module Conf =
     let writeTextToFile (path: string) (content: string) = File.WriteAllText(path, content)
 
     let sourceDir = Path.Combine(__SOURCE_DIRECTORY__, "..", "..")
+    let secretPath = Path.Combine(sourceDir, ".env-secret.local")
+    let envPath = Path.Combine(sourceDir, ".env-app")
 
     let getConfig () =
-        DotEnv.Read(DotEnvOptions(envFilePaths = [ Path.Combine(sourceDir, ".env-app") ]))
+        DotEnv.Read(DotEnvOptions(envFilePaths = [ envPath ]))
 
     let loadSecret () =
-        if File.Exists(__SOURCE_DIRECTORY__ + "/../../.env-secret.local") then
-            DotEnv.Load(DotEnvOptions(envFilePaths = [ __SOURCE_DIRECTORY__ + "/../../.env-secret.local" ]))
+        if File.Exists(secretPath) then
+            DotEnv.Load(DotEnvOptions(envFilePaths = [ secretPath ]))
 
         System.Environment.GetEnvironmentVariable("CLIENT_SECRET")
 
@@ -28,17 +30,23 @@ module Conf =
         if System.String.IsNullOrEmpty(secret) then
             failwith "CLIENT_SECRET not found"
 
-        http {
-            config_useBaseUrl envVars["BASE_URL"]
-            POST "/identity-server/connect/token"
-            body
+        let response =
+            http {
+                config_useBaseUrl envVars["BASE_URL"]
+                POST "/identity-server/connect/token"
+                body
 
-            formUrlEncoded
-                [ "grant_type", "client_credentials"
-                  "client_id", envVars["CLIENT_ID"]
-                  "client_secret", secret ]
-        }
-        |> Request.send
+                formUrlEncoded
+                    [ "grant_type", "client_credentials"
+                      "client_id", envVars["CLIENT_ID"]
+                      "client_secret", secret ]
+            }
+            |> Request.send
+
+        if response.statusCode <> HttpStatusCode.OK then
+            failwith "Failed to get token"
+
+        response
         |> Response.deserializeJson
         |> (fun x -> (x?access_token).GetString())
         |> (sprintf "TOKEN=%s\n")
