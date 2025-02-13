@@ -64,8 +64,9 @@ jobs:
           fi
           git fetch origin gh-pages:gh-pages
           git checkout gh-pages
-          mv public/index.* .
-          git add index.*
+          mv public/index.html .
+          mv public/assets .
+          git add index.html assets
           if git diff --cached --quiet; then
             echo "No changes to commit to gh-pages."
           else
