@@ -55,7 +55,7 @@ jobs:
           git config --local user.email "fradav@gmail.com"
           git config --local user.name "François-David Collin"
           git add -A 
-          if git diff-index --quiet HEAD --; then
+          if git diff --cached --quiet; then
             echo "No changes to commit to main."
           else
             git commit -m "[skip ci] Deploy static content"
@@ -65,7 +65,7 @@ jobs:
           git checkout gh-pages
           mv public/index.* .
           git add index.*
-          if git diff-index --quiet HEAD --; then
+          if git diff --cached --quiet; then
             echo "No changes to commit to gh-pages."
           else
             git commit -m "Deploy static content/gh-pages"
