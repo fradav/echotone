@@ -60,6 +60,7 @@ jobs:
           else
             git commit -m "[skip ci] Deploy static content"
             git push origin main
+            git subtree push --prefix public origin gh-pages
           fi
           git fetch origin gh-pages:gh-pages
           git checkout gh-pages
@@ -69,7 +70,6 @@ jobs:
             echo "No changes to commit to gh-pages."
           else
             git commit -m "Deploy static content/gh-pages"
-            git pull origin gh-pages
-            git push origin `git subtree split --prefix public gh-pages`:gh-pages
+            git push origin gh-pages
           fi
         
