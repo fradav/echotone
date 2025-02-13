@@ -432,3 +432,4 @@ FodyWeavers.xsd
 .vscode/
 .paket
 fable_modules
+/oxpecker/src/**/*.jsx
