@@ -53,8 +53,7 @@ jobs:
         run: |
           git config --local user.email "fradav@gmail.com"
           git config --local user.name "François-David Collin"
-          sed -i '' '/docs\/index\.\*/d' .gitignore
-          sed -i '' '/\/docs\/index\.\*/d'  .gitignore 
+          sed -i '/\/docs\/index\.\*/d'  .gitignore 
           if git diff-index --quiet HEAD --; then
             echo "No changes to commit."
           else
