@@ -1,3 +1,4 @@
 group Site
     FsHttp
     FSharp.Data
+    AWSSDK.S3

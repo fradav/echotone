@@ -24,6 +24,9 @@ concurrency:
 # import secret repository CLIENT_SECRET
 env:
   CLIENT_SECRET: ${{ secrets.CLIENT_SECRET }}
+  BASE_URL: ${{ secrets.BASE_URL }}
+  S3_ACCESS_KEY_ID: ${{ secrets.S3_ACCESS_KEY_ID }}
+  S3_SECRET_ACCESS_KEY: ${{ secrets.S3_SECRET_ACCESS_KEY }}
 
 jobs:
   # Single deploy job since we're just deploying
@@ -34,9 +37,6 @@ jobs:
     steps:
       - name: Checkout
         uses: actions/checkout@v4
-        with:
-          lfs: true
-
       - name: Setup dotnet
         uses: actions/setup-dotnet@v1
         with:

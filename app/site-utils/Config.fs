@@ -4,6 +4,7 @@ open System.IO
 open System.Net
 open FsHttp
 open dotenv.net
+open System
 
 module Conf =
     open System.Text.Json
@@ -21,25 +22,28 @@ module Conf =
         if File.Exists(secretPath) then
             DotEnv.Load(DotEnvOptions(envFilePaths = [ secretPath ]))
 
-        System.Environment.GetEnvironmentVariable("CLIENT_SECRET")
+        {| baseURL = Environment.GetEnvironmentVariable("BASE_URL")
+           clientSecret = Environment.GetEnvironmentVariable("CLIENT_SECRET")
+           s3AccessKeyId = Environment.GetEnvironmentVariable("S3_ACCESS_KEY_ID")
+           s3SecretAccessKey = Environment.GetEnvironmentVariable("S3_SECRET_ACCESS_KEY") |}
 
     let refreshToken () =
         let envVars = getConfig ()
         let secret = loadSecret ()
         // check if secret is empty
-        if System.String.IsNullOrEmpty(secret) then
+        if System.String.IsNullOrEmpty(secret.clientSecret) then
             failwith "CLIENT_SECRET not found"
 
         let response =
             http {
-                config_useBaseUrl envVars["BASE_URL"]
+                config_useBaseUrl secret.baseURL
                 POST "/identity-server/connect/token"
                 body
 
                 formUrlEncoded
                     [ "grant_type", "client_credentials"
                       "client_id", envVars["CLIENT_ID"]
-                      "client_secret", secret ]
+                      "client_secret", secret.clientSecret ]
             }
             |> Request.send
 
@@ -61,10 +65,11 @@ module Conf =
 
     let fsReadyHttp () =
         let envVars = getConfig ()
+        let secret = loadSecret ()
         let token = getToken ()
 
         http {
-            config_useBaseUrl envVars["BASE_URL"]
+            config_useBaseUrl secret.baseURL
             AuthorizationBearer token
         }
 
