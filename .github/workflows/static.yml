@@ -60,13 +60,13 @@ jobs:
           else
             git commit -m "[skip ci] Deploy static content"
             git push origin main
-            git subtree push --prefix public origin gh-pages
+            git subtree split --branch gh-pages --prefix public/
           fi
-          git fetch origin gh-pages:gh-pages
           git checkout gh-pages
           mv public/index.html .
-          mv public/assets .
-          git add index.html assets
+          mkdir -p assets
+          mv public/assets/index-* assets
+          git add index.html assets/index-*
           if git diff --cached --quiet; then
             echo "No changes to commit to gh-pages."
           else
