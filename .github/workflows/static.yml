@@ -54,6 +54,7 @@ jobs:
         run: |
           git config --local user.email "fradav@gmail.com"
           git config --local user.name "François-David Collin"
+          git fetch origin gh-pages
           git add -A 
           if git diff --cached --quiet; then
           echo "No changes to commit to main."
@@ -62,12 +63,11 @@ jobs:
           git push origin main
           git subtree split --branch gh-pages --prefix public/
           fi
-          git fetch origin gh-pages
           git checkout gh-pages
           mv public/index.html .
           mkdir -p assets
           mv public/assets/index-* assets
-          git add index.html assets/index-*
+          git add -f index.html assets/index-*
           if git diff --cached --quiet; then
             echo "No changes to commit to gh-pages."
           else
