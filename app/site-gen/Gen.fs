@@ -138,6 +138,17 @@ module Gen =
             | Ok _ -> getS3AssetUrl s3 slug
             | Error _ -> Error "upload failed"
 
+    let refreshS3links () =
+        let s3 = getS3Client ()
+
+        Json.JsonSerializer.Deserialize<Map<string, string>>(Path.Combine(dataDir, "s3.json"))
+        |> Map.map (fun slug url ->
+            match getS3AssetUrl s3 slug with
+            | Ok newUrl -> slug, newUrl
+            | Error _ -> slug, url)
+        |> Conf.Serialize
+        |> Conf.writeTextToFile (Path.Combine(dataDir, "s3.json"))
+
     let checkFile (asset: AssetsT.Item) =
         if not (Directory.Exists(assetsDir)) then
             Directory.CreateDirectory(assetsDir) |> ignore

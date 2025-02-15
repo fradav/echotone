@@ -1,4 +1,6 @@
 {
+  "name": "oxpecker-frontend",
+  "version": "0.1.0",
   "private": "true",
   "type": "module",
   "scripts": {
@@ -6,11 +8,16 @@
     "build": "dotnet fable --noCache --extension .jsx --run vite build"
   },
   "dependencies": {
+    "@solidjs/router": "^0.15.3",
     "solid-js": "^1.9.4"
   },
   "devDependencies": {
-    "@types/node": "^22.13.2",
+    "@types/fs-extra": "^11.0.4",
+    "@types/node": "^22.13.4",
+    "autoprefixer": "^10.4.20",
     "fs-extra": "^11.3.0",
+    "sass-embedded": "^1.85.0",
+    "scss-reset": "^1.4.6",
     "vite": "^5.4.14",
     "vite-plugin-solid": "^2.11.1"
   }

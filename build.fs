@@ -29,9 +29,14 @@ let initTargets () =
 
     Target.create "refreshImages" (fun _ -> Gen.refreshAssets ())
 
+    Target.create "refreshS3Links" (fun _ -> Gen.refreshS3links ())
+
     Target.create "dev" (fun _ ->
         let result =
-            DotNet.exec (withWorkingDirectory "oxpecker") "fable" "watch --noCache --extension .jsx --run vite"
+            DotNet.exec
+                (withWorkingDirectory "oxpecker")
+                "fable"
+                "watch --verbose --noCache --extension .jsx --run vite"
 
         if not result.OK then
             failwith "fable watch failed")
@@ -53,7 +58,15 @@ let initTargets () =
         if not result.OK then
             failwith "fable build failed")
 
-    "validate" ==> "refreshJsons" ==> "refreshImages" ==> "build"
+    "validate" ==> "refreshJsons" |> ignore
+
+    "refreshJsons" ==> "refreshImages" |> ignore
+
+    "refreshJsons" ==> "refreshImages" |> ignore
+
+    "refreshImages" ==> "build" |> ignore
+
+    "refreshImages" ==> "buildDev" |> ignore
 
 
 [<EntryPoint>]

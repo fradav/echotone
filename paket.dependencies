@@ -29,3 +29,4 @@ group Solid
     nuget Fable.Core
     nuget Fable.Browser.Dom
     nuget Oxpecker.Solid
+    nuget Fable.JsonProvider

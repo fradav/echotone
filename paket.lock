@@ -810,6 +810,8 @@ NUGET
       Fable.Core (>= 3.2.8) - restriction: >= netstandard2.0
       FSharp.Core (>= 4.7.2) - restriction: >= netstandard2.0
     Fable.Core (4.3)
+    Fable.JsonProvider (1.1.1)
+      FSharp.Core (>= 6.0.1) - restriction: >= netstandard2.0
     FSharp.Core (9.0.201) - restriction: >= netstandard2.0
     Oxpecker.Solid (0.4.3)
       Fable.Browser.Dom (>= 2.18) - restriction: >= net8.0
