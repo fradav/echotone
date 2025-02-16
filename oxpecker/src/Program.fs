@@ -9,7 +9,7 @@ importAll "./index.scss"
 
 // import import.meta.env.MODE from vite config
 
-[<Global("import.meta.env.VITE_BASE_URL")>]
+[<Global("import.meta.env.BASE_URL")>]
 let baseR: string = jsNative
 
 printfn "baseR: %s" baseR

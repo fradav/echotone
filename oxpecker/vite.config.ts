@@ -18,6 +18,7 @@ logger.warn = (msg, options) => {
 export default defineConfig(({ mode }) => ({
   clearScreen: false,
   customLogger: logger,
+  base: mode === 'production' ? '/echotone/' : '/',
   publicDir: '../public',
   build: {
     outDir: '../public',
