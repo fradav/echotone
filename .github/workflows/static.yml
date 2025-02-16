@@ -61,9 +61,9 @@ jobs:
           else
           git commit -m "[skip ci] Deploy static content"
           git push origin main
-          git subtree split --branch gh-pages --prefix public/
           fi
           git checkout gh-pages
+          git pull origin gh-pages
           mv public/index.html .
           mkdir -p assets
           mv public/assets/index-* assets
