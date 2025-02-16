@@ -19,7 +19,6 @@ export default defineConfig(({ mode }) => ({
   clearScreen: false,
   customLogger: logger,
   publicDir: '../public',
-  base: mode === 'production' ? '/echotone/' : '/',
   build: {
     outDir: '../public',
     // Do not empty the outDir automatically.

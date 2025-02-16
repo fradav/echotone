@@ -66,6 +66,7 @@ jobs:
           git pull origin gh-pages
           mv public/index.html .
           mkdir -p assets
+          rm -f assets/index-*
           mv public/assets/index-* assets
           git add -f index.html assets/index-*
           if git diff --cached --quiet; then
