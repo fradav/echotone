@@ -146,7 +146,7 @@ module Gen =
             match getS3AssetUrl s3 slug with
             | Ok newUrl -> slug, newUrl
             | Error _ -> slug, url)
-        |> Conf.Serialize
+        |> Conf.Serialize Conf.jsonOptions
         |> Conf.writeTextToFile (Path.Combine(dataDir, "s3.json"))
 
     let checkFile (asset: AssetsT.Item) =
@@ -208,7 +208,7 @@ module Gen =
 
         AssetsT.GetSample().Items
         |> Seq.fold refreshAsset mapS3
-        |> Conf.Serialize
+        |> Conf.Serialize Conf.jsonOptions
         |> Conf.writeTextToFile (Path.Combine(dataDir, "s3.json"))
 
         let fromSite = AssetsT.GetSample().Items |> Seq.map _.Slug |> Set.ofSeq

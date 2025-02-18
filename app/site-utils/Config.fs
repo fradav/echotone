@@ -5,9 +5,11 @@ open System.Net
 open FsHttp
 open dotenv.net
 open System
+open System.Text.Json
+open System.Text.Json.Serialization
+open System.Text.RegularExpressions
 
 module Conf =
-    open System.Text.Json
 
     let writeTextToFile (path: string) (content: string) = File.WriteAllText(path, content)
 
@@ -88,8 +90,59 @@ module Conf =
 
     let jsonOptions = JsonSerializerOptions(WriteIndented = true)
 
-    let Serialize (data: 'a) =
-        JsonSerializer.Serialize(data, jsonOptions)
+    let tranformTextPropertyJsonElement (transform: string -> string) (element: JsonElement) =
+
+        let rec tranformRec (element: JsonElement) =
+            match element.ValueKind with
+            | JsonValueKind.Object ->
+                let properties =
+                    element.EnumerateObject()
+                    |> Seq.map (fun property ->
+                        let value =
+                            if property.Name = "text" && property.Value.ValueKind = JsonValueKind.String then
+                                let text = transform (property.Value.GetString())
+                                JsonDocument.Parse(JsonSerializer.SerializeToUtf8Bytes(text)).RootElement
+                            else
+                                tranformRec property.Value
+
+                        (property.Name, value))
+                    |> Map.ofSeq
+
+                JsonDocument.Parse(JsonSerializer.SerializeToUtf8Bytes(properties)).RootElement
+            | JsonValueKind.Array ->
+                let items = element.EnumerateArray() |> Seq.map tranformRec
+
+                JsonDocument.Parse(JsonSerializer.SerializeToUtf8Bytes(items)).RootElement
+            | _ -> element
+
+        tranformRec element
+
+    let escapedBaseUrl =
+        Regex.Escape($"""{loadSecret().baseURL}/api/assets/{getConfig()["APP_NAME"]}""")
+
+    let reReplaceêsquidexUrl =
+        Regex($"src=\"{escapedBaseUrl}[^\"]*(/[^/]+\")", RegexOptions.Compiled ||| RegexOptions.Multiline)
+
+    let removeSquidexUrlHref (text: string) =
+        reReplaceêsquidexUrl.Replace(text, "src=\"medias$1\"")
+
+    // default converter
+    type jsonConverter(transform: string -> string) =
+        inherit JsonConverter<JsonElement>()
+
+        override this.Read(reader: byref<Utf8JsonReader>, typeToConvert: Type, options: JsonSerializerOptions) =
+            JsonDocument.ParseValue(&reader).RootElement
+
+        override this.Write(writer: Utf8JsonWriter, value: JsonElement, options: JsonSerializerOptions) =
+            tranformTextPropertyJsonElement transform value |> _.WriteTo(writer)
+
+    let transformOptions =
+        let options = JsonSerializerOptions(WriteIndented = true)
+        options.Converters.Add(jsonConverter removeSquidexUrlHref)
+        options
+
+    let Serialize (options: JsonSerializerOptions) (data: 'a) = JsonSerializer.Serialize(data, options)
+
 
     let refreshJsons () =
         let config = getConfig ()
@@ -111,5 +164,5 @@ module Conf =
             fsReadyHttp () { GET value }
             |> Request.send
             |> Response.toJson
-            |> Serialize
+            |> Serialize transformOptions
             |> writeTextToFile (Path.Combine(dataDir, key + ".json")))

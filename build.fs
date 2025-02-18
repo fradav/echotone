@@ -64,6 +64,8 @@ let initTargets () =
 
     "refreshJsons" ==> "refreshImages" |> ignore
 
+    "refreshImages" ==> "dev" |> ignore
+
     "refreshImages" ==> "build" |> ignore
 
     "refreshImages" ==> "buildDev" |> ignore
