@@ -20,13 +20,6 @@ export default defineConfig(({ mode }) => ({
   publicDir: '../public',
   build: {
     outDir: '../public',
-    // add 404.html to the dist directory
-    rollupOptions: {
-      input: {
-        index: path.resolve(__dirname, 'index.html'),
-        '404': path.resolve(__dirname, '404.html')
-      },
-    },
     // Do not empty the outDir automatically.
     emptyOutDir: false,
   },
