@@ -4,7 +4,6 @@ import solidPlugin from 'vite-plugin-solid'
 import fs from 'fs-extra'
 import path from 'path'
 import autoprefixer from 'autoprefixer'
-
 const logger = createLogger()
 const loggerWarn = logger.warn
 
@@ -18,10 +17,16 @@ logger.warn = (msg, options) => {
 export default defineConfig(({ mode }) => ({
   clearScreen: false,
   customLogger: logger,
-  base: mode === 'production' ? '/echotone' : '/',
   publicDir: '../public',
   build: {
     outDir: '../public',
+    // add 404.html to the dist directory
+    rollupOptions: {
+      input: {
+        index: path.resolve(__dirname, 'index.html'),
+        '404': path.resolve(__dirname, '404.html')
+      },
+    },
     // Do not empty the outDir automatically.
     emptyOutDir: false,
   },

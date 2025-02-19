@@ -15,7 +15,7 @@
         "sass-embedded": "^1.85.0",
         "scss-reset": "^1.4.6",
         "vite": "^5.4.14",
-        "vite-plugin-solid": "^2.11.1",
+        "vite-plugin-solid": "^2.11.2",
       },
     },
   },
@@ -326,7 +326,7 @@
 
     "vite": ["vite@5.4.14", "", { "dependencies": { "esbuild": "^0.21.3", "postcss": "^8.4.43", "rollup": "^4.20.0" }, "optionalDependencies": { "fsevents": "~2.3.3" }, "peerDependencies": { "@types/node": "^18.0.0 || >=20.0.0", "less": "*", "lightningcss": "^1.21.0", "sass": "*", "sass-embedded": "*", "stylus": "*", "sugarss": "*", "terser": "^5.4.0" }, "optionalPeers": ["@types/node", "less", "lightningcss", "sass", "sass-embedded", "stylus", "sugarss", "terser"], "bin": { "vite": "bin/vite.js" } }, "sha512-EK5cY7Q1D8JNhSaPKVK4pwBFvaTmZxEnoKXLG/U9gmdDcihQGNzFlgIvaxezFR4glP1LsuiedwMBqCXH3wZccA=="],
 
-    "vite-plugin-solid": ["vite-plugin-solid@2.11.1", "", { "dependencies": { "@babel/core": "^7.23.3", "@types/babel__core": "^7.20.4", "babel-preset-solid": "^1.8.4", "merge-anything": "^5.1.7", "solid-refresh": "^0.6.3", "vitefu": "^1.0.4" }, "peerDependencies": { "@testing-library/jest-dom": "^5.16.6 || ^5.17.0 || ^6.*", "solid-js": "^1.7.2", "vite": "^3.0.0 || ^4.0.0 || ^5.0.0 || ^6.0.0" }, "optionalPeers": ["@testing-library/jest-dom"] }, "sha512-X9vbbK6AOOA6yxSsNl1VTuUq5y4BG9AR6Z5F/J1ZC2VO7ll8DlSCbOL+RcZXlRbxn0ptE6OI5832nGQhq4yXKQ=="],
+    "vite-plugin-solid": ["vite-plugin-solid@2.11.2", "", { "dependencies": { "@babel/core": "^7.23.3", "@types/babel__core": "^7.20.4", "babel-preset-solid": "^1.8.4", "merge-anything": "^5.1.7", "solid-refresh": "^0.6.3", "vitefu": "^1.0.4" }, "peerDependencies": { "@testing-library/jest-dom": "^5.16.6 || ^5.17.0 || ^6.*", "solid-js": "^1.7.2", "vite": "^3.0.0 || ^4.0.0 || ^5.0.0 || ^6.0.0" }, "optionalPeers": ["@testing-library/jest-dom"] }, "sha512-/OXVasW5OIRSFXnqzMgm8X3hPvf+JTbGecjQhmk7QnbDFq4hqdLssuYAWw9GsJGfzUPiMHM3ME2Y2XHPsTWmkw=="],
 
     "vitefu": ["vitefu@1.0.5", "", { "peerDependencies": { "vite": "^3.0.0 || ^4.0.0 || ^5.0.0 || ^6.0.0" }, "optionalPeers": ["vite"] }, "sha512-h4Vflt9gxODPFNGPwp4zAMZRpZR7eslzwH2c5hn5kNZ5rhnKyRJ50U+yGCdc2IRaBs8O4haIgLNGrV5CrpMsCA=="],
 

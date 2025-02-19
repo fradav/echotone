@@ -140,12 +140,12 @@ NUGET
       System.Security.AccessControl (>= 5.0) - restriction: || (&& (>= monoandroid) (< netstandard1.3)) (&& (< monoandroid) (>= netcoreapp2.0)) (>= monotouch) (&& (< net46) (< netcoreapp2.0) (>= netstandard2.0)) (>= net461) (>= netcoreapp2.1) (>= uap10.1) (>= xamarinios) (>= xamarinmac) (>= xamarintvos) (>= xamarinwatchos)
       System.Security.Principal.Windows (>= 5.0) - restriction: || (&& (>= monoandroid) (< netstandard1.3)) (&& (< monoandroid) (>= netcoreapp2.0)) (>= monotouch) (&& (< net46) (< netcoreapp2.0) (>= netstandard2.0)) (>= net461) (>= netcoreapp2.1) (>= uap10.1) (>= xamarinios) (>= xamarinmac) (>= xamarintvos) (>= xamarinwatchos)
     Mono.Posix.NETStandard (1.0) - restriction: >= netstandard2.0
-    MSBuild.StructuredLogger (2.2.386) - restriction: >= netstandard2.0
+    MSBuild.StructuredLogger (2.2.441) - restriction: >= netstandard2.0
       Microsoft.Build.Framework (>= 17.5) - restriction: >= netstandard2.0
       Microsoft.Build.Utilities.Core (>= 17.5) - restriction: >= netstandard2.0
       System.Collections.Immutable (>= 8.0) - restriction: >= netstandard2.0
-      System.Memory (>= 4.5.5) - restriction: && (< net8.0) (>= netstandard2.0)
-      System.Runtime.CompilerServices.Unsafe (>= 6.0) - restriction: && (< net8.0) (>= netstandard2.0)
+      System.Memory (>= 4.6) - restriction: && (< net8.0) (>= netstandard2.0)
+      System.Runtime.CompilerServices.Unsafe (>= 6.1) - restriction: && (< net8.0) (>= netstandard2.0)
     Newtonsoft.Json (13.0.3) - restriction: >= netstandard2.0
     NuGet.Common (6.13.1) - restriction: >= netstandard2.0
       NuGet.Frameworks (>= 6.13.1) - restriction: >= netstandard2.0
@@ -236,10 +236,10 @@ GROUP Site
 STORAGE: NONE
 NUGET
   remote: https://api.nuget.org/v3/index.json
-    AWSSDK.Core (3.7.402)
+    AWSSDK.Core (3.7.402.3)
       Microsoft.Bcl.AsyncInterfaces (>= 1.1) - restriction: && (< net35) (< netcoreapp3.1) (>= netstandard2.0)
-    AWSSDK.S3 (3.7.414.4)
-      AWSSDK.Core (>= 3.7.402 < 4.0)
+    AWSSDK.S3 (3.7.415.2)
+      AWSSDK.Core (>= 3.7.402.3 < 4.0)
     dotenv.net (3.2.1)
       System.Memory (>= 4.5.5) - restriction: || (&& (>= netstandard1.6) (< netstandard2.0)) (&& (>= netstandard2.0) (< netstandard2.1))
       System.ValueTuple (>= 4.5) - restriction: && (>= netstandard1.6) (< netstandard2.0)
@@ -809,7 +809,7 @@ NUGET
       Fable.Browser.Event (>= 1.6) - restriction: >= netstandard2.0
       Fable.Core (>= 3.2.8) - restriction: >= netstandard2.0
       FSharp.Core (>= 4.7.2) - restriction: >= netstandard2.0
-    Fable.Core (4.3)
+    Fable.Core (4.4)
     Fable.JsonProvider (1.1.1)
       FSharp.Core (>= 6.0.1) - restriction: >= netstandard2.0
     FSharp.Core (9.0.201) - restriction: >= netstandard2.0

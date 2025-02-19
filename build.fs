@@ -42,8 +42,13 @@ let initTargets () =
             failwith "fable watch failed")
 
     Target.create "build" (fun _ ->
+        let app_root = Conf.getConfig()["APP_ROOT"]
+
         let result =
-            DotNet.exec (withWorkingDirectory "oxpecker") "fable" "--noCache --extension .jsx --run vite build"
+            DotNet.exec
+                (withWorkingDirectory "oxpecker")
+                "fable"
+                $"--noCache --extension .jsx --run vite build --base={app_root}"
 
         if not result.OK then
             failwith "fable build failed")
