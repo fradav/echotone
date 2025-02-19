@@ -69,6 +69,7 @@ jobs:
           rm -f assets/index-*
           mkdir -p assets
           mv public/assets/index-* assets
+          cp index.html 404.html
           git add -f *.html assets/index-*
           if git diff --cached --quiet; then
             echo "No changes to commit to gh-pages."
