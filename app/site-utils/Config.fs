@@ -101,18 +101,17 @@ module Conf =
                         let value =
                             if property.Name = "text" && property.Value.ValueKind = JsonValueKind.String then
                                 let text = transform (property.Value.GetString())
-                                JsonDocument.Parse(JsonSerializer.SerializeToUtf8Bytes(text)).RootElement
+                                JsonSerializer.SerializeToElement(text)
                             else
                                 tranformRec property.Value
 
                         (property.Name, value))
                     |> Map.ofSeq
 
-                JsonDocument.Parse(JsonSerializer.SerializeToUtf8Bytes(properties)).RootElement
+                JsonSerializer.SerializeToElement(properties)
             | JsonValueKind.Array ->
                 let items = element.EnumerateArray() |> Seq.map tranformRec
-
-                JsonDocument.Parse(JsonSerializer.SerializeToUtf8Bytes(items)).RootElement
+                JsonSerializer.SerializeToElement(items)
             | _ -> element
 
         tranformRec element
