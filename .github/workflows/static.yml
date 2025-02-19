@@ -64,12 +64,12 @@ jobs:
           fi
           git checkout gh-pages
           git pull origin gh-pages
-          mv public/index.html .
+          mv public/*.html .
           git rm -f assets/index-*
           rm -f assets/index-*
           mkdir -p assets
           mv public/assets/index-* assets
-          git add -f index.html assets/index-*
+          git add -f *.html assets/index-*
           if git diff --cached --quiet; then
             echo "No changes to commit to gh-pages."
           else
