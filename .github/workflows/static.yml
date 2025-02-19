@@ -56,12 +56,13 @@ jobs:
           git config --local user.name "François-David Collin"
           git fetch origin gh-pages
           git add -A 
-          if git diff --cached --quiet; then
-          echo "No changes to commit to main."
+            if git diff --cached --quiet; then
+            echo "No changes to commit to main."
           else
-          git commit -m "[skip ci] Deploy static content"
-          git push origin main
+            git commit -m "[skip ci] Deploy static content"
+            git push origin main
           fi
+          git pull -s subtree gh-pages main
           git checkout gh-pages
           git pull origin gh-pages
           mv public/*.html .
