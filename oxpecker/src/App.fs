@@ -77,7 +77,7 @@ let SolidUnit (unit: Unit) : HtmlElement =
         h1 () { unit.title }
         h2 () { unit.short }
         div (innerHTML = unit.text)
-        A(href = "/", class' = "block text-right") { "Retour" }
+        A(href = "/", class' = "block text-right") { " Retour " }
     }
 
 [<SolidComponent>]

@@ -61,8 +61,8 @@ jobs:
           else
             git commit -m "[skip ci] Deploy static content"
             git push origin main
+            git subtree push --prefix public origin gh-pages
           fi
-          git subtree push --prefix public origin gh-pages
           git checkout gh-pages
           git pull origin gh-pages
           mv public/*.html .
