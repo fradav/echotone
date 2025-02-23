@@ -79,7 +79,11 @@ let navItems =
 let mapLocationToTag (slug: string) =
     try
         // remove baseR from slug
-        let slug = slug.Replace(baseR, "")
+        let slug =
+            match slug.Replace(baseR, "") with
+            | "" -> "/"
+            | s -> s
+
         navItems |> Map.pick (fun k v -> if v.slug = slug then Some k else None)
     with e ->
         printf "failed to get %s" slug
