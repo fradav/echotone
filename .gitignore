@@ -430,4 +430,4 @@ FodyWeavers.xsd
 *.sln.iml
 
 .vscode/
-.paket
+!.vscode/settings.json
