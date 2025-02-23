@@ -2,7 +2,6 @@
 open Fake.Core.TargetOperators
 open Fake.DotNet
 open Fake.DotNet.DotNet.Options
-open Fake.JavaScript
 open Site
 
 
@@ -32,10 +31,11 @@ let initTargets () =
 
     Target.create "refreshS3Links" (fun _ -> Gen.refreshS3links ())
 
-    Target.create "dev" (fun _ -> Npm.run "dev" (fun o -> { o with WorkingDirectory = "oxpecker" }))
+    Target.create "dev" (fun _ -> Shell.Exec("bun", "run dev", "oxpecker") |> ignore)
 
-    Target.create "fcm" (fun _ -> Npm.run "fcm" (fun o -> { o with WorkingDirectory = "oxpecker" }))
+    Target.create "fcm" (fun _ -> Shell.Exec("bunx", "fcm .", "oxpecker") |> ignore)
 
+    Target.create "bunInstall" (fun _ -> Shell.Exec("bun", "install", "oxpecker") |> ignore)
 
     Target.create "build" (fun _ ->
         let app_root = Conf.getConfig()["APP_ROOT"]
@@ -67,11 +67,10 @@ let initTargets () =
 
     "refreshImages" ==> "dev" |> ignore
 
-    "refreshImages" ==> "fcm" ==> "build" |> ignore
+    "refreshImages" ==> "bunInstall" ==> "fcm" ==> "build" |> ignore
 
     "refreshImages" ==> "fcm" ==> "buildDev" |> ignore
 
 
 [<EntryPoint>]
-let main args =
-    runOrDefault initTargets "validate" args
+let main args = runOrDefault initTargets "build" args

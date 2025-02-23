@@ -40,13 +40,17 @@ let slugToTitle = mapLocationToTag >> (fun tag -> navItems[tag].title)
 [<SolidComponent>]
 let Layout (rootprops: RootProps) : HtmlElement =
     let location = useLocation ()
+    let navigate = useNavigate ()
     let currentTag, setCurrentTag = location.pathname |> slugToTitle |> createSignal
 
     createEffect (fun () ->
         printfn "Location changed to %s" location.pathname
 
         if location.pathname.Length > 0 then
-            location.pathname |> slugToTitle |> setCurrentTag)
+            location.pathname |> slugToTitle |> setCurrentTag
+
+            if baseR.Length > 0 && location.pathname = baseR then
+                navigate.Invoke(baseR + "/"))
 
 
     Fragment() {

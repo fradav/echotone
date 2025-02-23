@@ -41,17 +41,14 @@ jobs:
         id: pages
         uses: actions/configure-pages@v5
       - name: Setup dotnet
-        uses: actions/setup-dotnet@v1
+        uses: actions/setup-dotnet@v4
         with:
           dotnet-version: '9.0.x'
+          cache: true
       - name: êstup bun
         uses: oven-sh/setup-bun@v2
       - name: Build
-        run: |
-          dotnet tool restore
-          dotnet paket restore
-          bun install --cwd oxpecker
-          dotnet run build
+        run: dotnet run
       # commit the changes
       - name: Commit and push changes
         run: |
