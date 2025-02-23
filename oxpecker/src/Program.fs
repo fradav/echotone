@@ -58,7 +58,7 @@ let Layout (rootprops: RootProps) : HtmlElement =
 let appRouter () =
 
     MetaProvider() {
-        Router(base' = baseR, root = Layout, explicitLinks = false) {
+        Router(url = baseR, base' = baseR, root = Layout) {
             Route(path = "/", component' = App(taggedPages Tag.Accueil))
             taggedRoute Tag.Programmation
             taggedRoute Tag.Atelier
