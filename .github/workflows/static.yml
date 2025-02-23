@@ -45,7 +45,7 @@ jobs:
         with:
           dotnet-version: '9.0.x'
           cache: true
-      - name: êstup bun
+      - name: Sstup bun
         uses: oven-sh/setup-bun@v2
       - name: Build
         run: |

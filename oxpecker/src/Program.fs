@@ -50,7 +50,7 @@ let Layout (rootprops: RootProps) : HtmlElement =
             location.pathname |> slugToTitle |> setCurrentTag
 
             if baseR.Length > 0 && location.pathname = baseR then
-                navigate.Invoke(baseR + "/"))
+                navigate.Invoke("/", createObj [ "replace", true ] :?> NavigateOptions))
 
 
     Fragment() {
