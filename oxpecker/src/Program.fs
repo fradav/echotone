@@ -43,6 +43,8 @@ let Layout (rootprops: RootProps) : HtmlElement =
     let currentTag, setCurrentTag = location.pathname |> slugToTitle |> createSignal
 
     createEffect (fun () ->
+        printfn "Location changed to %s" location.pathname
+
         if location.pathname.Length > 0 then
             location.pathname |> slugToTitle |> setCurrentTag)
 
@@ -58,7 +60,7 @@ let Layout (rootprops: RootProps) : HtmlElement =
 let appRouter () =
 
     MetaProvider() {
-        Router(base' = baseR, root = Layout, explicitLinks = true) {
+        Router(base' = baseR, root = Layout) {
             Route(path = "/", component' = App(taggedPages Tag.Accueil))
             taggedRoute Tag.Programmation
             taggedRoute Tag.Atelier
