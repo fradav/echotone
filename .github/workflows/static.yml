@@ -48,7 +48,9 @@ jobs:
       - name: êstup bun
         uses: oven-sh/setup-bun@v2
       - name: Build
-        run: dotnet run
+        run: |
+          dotnet tool restore
+          dotnet run
       # commit the changes
       - name: Commit and push changes
         run: |
