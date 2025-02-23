@@ -1,15 +1,16 @@
 /// <reference types="vite/client" />
 import { createLogger, defineConfig } from 'vite'
 import solidPlugin from 'vite-plugin-solid'
-import fs from 'fs-extra'
+import tailwindcss from '@tailwindcss/vite'
+import * as fs from 'fs-extra'
 import path from 'path'
-import autoprefixer from 'autoprefixer'
+
 const logger = createLogger()
 const loggerWarn = logger.warn
 
 logger.warn = (msg, options) => {
   // Ignore empty CSS files warning  
-  if (msg.includes('unsupported-@namespace') || msg.includes('not separate folders')) return
+  if (msg.includes('not separate folders')) return
   loggerWarn(msg, options)
 }
 
@@ -32,20 +33,20 @@ export default defineConfig(({ mode }) => ({
         const assetsDir = path.join(outDir, 'assets')
         // Empty the assets directory if it exists
         fs.emptyDirSync(assetsDir)
+        // execute the "fcm" command
+
+
+
       }
     },
+    tailwindcss(),
     solidPlugin()
   ],
   css: {
     preprocessorOptions: {
       scss: {
-        api: 'modern-compiler' // or "modern"
-      }
+        api: 'modern-compiler' // or "modern",
+      },
     },
-    postcss: {
-      plugins: [
-        autoprefixer()
-      ]
-    }
-  },
+  }
 }))

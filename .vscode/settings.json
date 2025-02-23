@@ -1,4 +1,16 @@
 {
     "livePreview.serverRoot": "public",
-    "svg.preview.background": "transparent",
+    "tailwindCSS.experimental.classRegex": [
+        "class\\'\\s*=\\s*\"([^\"]*)\""
+    ],
+    "tailwindCSS.includeLanguages": {
+        "fsharp": "html"
+    },
+    "files.associations": {
+        "*.css": "tailwindcss"
+    },
+    "[tailwindcss]": {
+        "editor.defaultFormatter": "bradlc.vscode-tailwindcss",
+        "editor.formatOnSave": true
+    },
 }

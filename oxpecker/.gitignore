@@ -1,2 +1,3 @@
 /fable_modules
 /src/**/*.jsx
+/CssModules.fs

@@ -813,6 +813,7 @@ NUGET
     Fable.JsonProvider (1.1.1)
       FSharp.Core (>= 6.0.1) - restriction: >= netstandard2.0
     FSharp.Core (9.0.201) - restriction: >= netstandard2.0
+    Microsoft.Extensions.ObjectPool (9.0.2) - restriction: >= net8.0
     Oxpecker.Solid (0.4.3)
       Fable.Browser.Dom (>= 2.18) - restriction: >= net8.0
       Fable.Core (>= 4.3) - restriction: >= net8.0
@@ -821,3 +822,6 @@ NUGET
     Oxpecker.Solid.FablePlugin (0.4.3) - restriction: >= net8.0
       Fable.AST (>= 4.5) - restriction: >= net6.0
       FSharp.Core (>= 9.0.100) - restriction: >= net6.0
+    Oxpecker.ViewEngine (1.1)
+      FSharp.Core (>= 9.0.100) - restriction: >= net8.0
+      Microsoft.Extensions.ObjectPool (>= 9.0) - restriction: >= net8.0

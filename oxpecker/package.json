@@ -5,21 +5,31 @@
   "type": "module",
   "scripts": {
     "start": "dotnet fable watch --noCache --extension .jsx --run vite",
+    "fcm": "fcm .",
+    "dev": "concurrently \"dotnet fable watch --noCache --extension .jsx --run vite\" \"nodemon -e module.scss --exec fcm\"",
     "build": "dotnet fable --noCache --extension .jsx --run vite build"
   },
   "dependencies": {
+    "@solidjs/meta": "^0.29.4",
     "@solidjs/router": "^0.15.3",
     "@solidjs/start": "^1.1.1",
     "solid-js": "^1.9.4"
   },
   "devDependencies": {
+    "@tailwindcss/vite": "^4.0.7",
     "@types/fs-extra": "^11.0.4",
     "@types/node": "^22.13.4",
     "autoprefixer": "^10.4.20",
+    "concurrently": "^9.1.2",
+    "flowbite": "^3.1.2",
+    "flowbite-typography": "^1.0.5",
     "fs-extra": "^11.3.0",
-    "sass-embedded": "^1.85.0",
+    "nodemon": "^3.1.9",
     "scss-reset": "^1.4.6",
-    "vite": "^5.4.14",
+    "tailwindcss": "^4.0.7",
+    "ts2fable": "^0.9.0-build.738",
+    "typescript": "5.1",
+    "vite": "^6.1.1",
     "vite-plugin-solid": "^2.11.2"
   }
 }
