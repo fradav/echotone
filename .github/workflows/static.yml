@@ -57,7 +57,6 @@ jobs:
         run: |
           git config --local user.email "fradav@gmail.com"
           git config --local user.name "François-David Collin"
-          git fetch origin gh-pages
           git add -A 
             if git diff --cached --quiet; then
             echo "No changes to commit to main."
