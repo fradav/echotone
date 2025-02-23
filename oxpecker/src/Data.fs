@@ -26,6 +26,11 @@ let contactJson: AboutContactT = jsNative
 [<Import("default", "../../data/pages.json")>]
 let pages: PagesT = jsNative
 
+// import import.meta.env.MODE from vite config
+[<Global("import.meta.env.BASE_URL")>]
+let baseR: string = jsNative
+
+printfn "baseR: %s" baseR
 
 let about: AboutContact = aboutJson.items |> Seq.head |> _.data.content.fr
 let contact: AboutContact = contactJson.items |> Seq.head |> _.data.content.fr
@@ -72,4 +77,10 @@ let navItems =
             cmstag = "contact" } ]
 
 let mapLocationToTag (slug: string) =
-    navItems |> Map.pick (fun k v -> if v.slug = slug then Some k else None)
+    try
+        // remove baseR from slug
+        let slug = slug.Replace(baseR, "")
+        navItems |> Map.pick (fun k v -> if v.slug = slug then Some k else None)
+    with e ->
+        printf "failed to get %s" slug
+        Tag.Accueil

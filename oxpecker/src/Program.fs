@@ -16,12 +16,6 @@ importAll "../index.css"
 // let initFlowbite: unit -> unit = import "initFlowbite" "flowbite"
 // importSideEffects "flowbite"
 
-// import import.meta.env.MODE from vite config
-[<Global("import.meta.env.BASE_URL")>]
-let baseR: string = jsNative
-
-printfn "baseR: %s" baseR
-
 [<SolidComponent>]
 let taggedRoute (tag: Tag) =
     Route(path = navItems.[tag].slug, component' = App(taggedPages tag))
@@ -64,7 +58,7 @@ let Layout (rootprops: RootProps) : HtmlElement =
 let appRouter () =
 
     MetaProvider() {
-        Router(base' = baseR, root = Layout) {
+        Router(base' = baseR, root = Layout, explicitLinks = true) {
             Route(path = "/", component' = App(taggedPages Tag.Accueil))
             taggedRoute Tag.Programmation
             taggedRoute Tag.Atelier

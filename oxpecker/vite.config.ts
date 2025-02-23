@@ -33,10 +33,6 @@ export default defineConfig(({ mode }) => ({
         const assetsDir = path.join(outDir, 'assets')
         // Empty the assets directory if it exists
         fs.emptyDirSync(assetsDir)
-        // execute the "fcm" command
-
-
-
       }
     },
     tailwindcss(),
