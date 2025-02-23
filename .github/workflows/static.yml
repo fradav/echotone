@@ -30,13 +30,16 @@ env:
 
 jobs:
   # Single deploy job since we're just deploying
-  deploy:
+  build:
     runs-on: ubuntu-latest
     # skip if the commit message contains [skip ci]
     if: ${{ !contains(github.event.head_commit.message, '[skip ci]') }}
     steps:
       - name: Checkout
         uses: actions/checkout@v4
+      - name: Setup Pages
+        id: pages
+        uses: actions/configure-pages@v5
       - name: Setup dotnet
         uses: actions/setup-dotnet@v1
         with:
@@ -62,19 +65,20 @@ jobs:
             git commit -m "[skip ci] Deploy static content"
             git push origin main
           fi
-          git checkout gh-pages
-          git pull origin gh-pages
-          mv public/*.html .
-          git rm -f assets/index-*
-          rm -f assets/index-*
-          mkdir -p assets
-          mv public/assets/index-* assets
-          cp index.html 404.html
-          git add -f *.html assets/index-*
-          if git diff --cached --quiet; then
-            echo "No changes to commit to gh-pages."
-          else
-            git commit -m "Deploy static content/gh-pages"
-            git push origin gh-pages
-          fi
-        
+          cp public/index.html public/404.html
+      - name: Upload artifact
+        uses: actions/upload-pages-artifact@v3
+        with:
+          path: ./public
+
+  # Deployment job
+  deploy:
+    environment:
+      name: github-pages
+      url: ${{ steps.deployment.outputs.page_url }}
+    runs-on: ubuntu-latest
+    needs: build
+    steps:
+      - name: Deploy to GitHub Pages
+        id: deployment
+        uses: actions/deploy-pages@v4
