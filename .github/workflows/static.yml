@@ -47,6 +47,12 @@ jobs:
           cache: true
       - name: Sstup bun
         uses: oven-sh/setup-bun@v2
+      - uses: actions/cache@v4
+        with:
+          path: ~/.bun/install/cache
+          key: ${{ runner.os }}-bun-${{ hashFiles('**/bun.lockb') }}
+          restore-keys: |
+            ${{ runner.os }}-bun-
       - name: Build
         run: |
           dotnet tool restore
