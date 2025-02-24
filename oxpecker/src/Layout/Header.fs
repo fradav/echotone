@@ -26,15 +26,7 @@ let navBarLink (tag: Tag) () : HtmlElement =
     let title = navItems[tag].title
 
     li () {
-        A(
-            href = href,
-            class' = commonclass',
-            activeClass = activeclass',
-            inactiveClass = inactiveclass',
-            end' = (href = "/")
-        ) {
-            title
-        }
+        A(href = href, class' = commonclass', activeClass = activeclass', inactiveClass = inactiveclass') { title }
     }
 
 
