@@ -3,7 +3,6 @@
 open Browser
 open Oxpecker.Solid
 open Oxpecker.Solid.Router
-open Fable.Core
 open Fable.Core.JsInterop
 open Oxpecker.Solid.Meta
 
@@ -53,7 +52,7 @@ let Layout (rootprops: RootProps) : HtmlElement =
     )
 
     Fragment() {
-        Base(href = baseR)
+        Base(href = addedTrailingSlash)
         Title() { $"Échotone - {currentTag () |> tagToTitle}" }
         rootprops.children
     }

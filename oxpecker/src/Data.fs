@@ -30,6 +30,11 @@ let pages: PagesT = jsNative
 [<Global("import.meta.env.BASE_URL")>]
 let baseR: string = jsNative
 
+let addedTrailingSlash =
+    match baseR with
+    | "/" -> baseR
+    | _ -> baseR + "/"
+
 printfn "baseR: %s" baseR
 
 let about: AboutContact = aboutJson.items |> Seq.head |> _.data.content.fr
