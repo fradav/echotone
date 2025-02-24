@@ -63,9 +63,10 @@ let Layout (rootprops: RootProps) : HtmlElement =
 // HMR doesn't work in Root for some reason
 [<SolidComponent>]
 let appRouter () =
+    let url = if baseR.Length > 0 then baseR + "/" else ""
 
     MetaProvider() {
-        Router(base' = baseR, root = Layout) {
+        Router(url = url, base' = baseR, root = Layout) {
             Route(path = "/", component' = App(taggedPages Tag.Accueil))
             taggedRoute Tag.Programmation
             taggedRoute Tag.Atelier
