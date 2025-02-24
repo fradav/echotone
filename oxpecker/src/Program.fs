@@ -50,7 +50,8 @@ let Layout (rootprops: RootProps) : HtmlElement =
             location.pathname |> slugToTitle |> setCurrentTag
 
             if baseR.Length > 0 && location.pathname = baseR then
-                navigate.Invoke("/", createObj [ "replace", true ] :?> NavigateOptions))
+                printfn "Navigating to %s, adding trailing slash" baseR
+                navigate.Invoke("/", createObj [ "resolve", true ] :?> NavigateOptions))
 
 
     Fragment() {
