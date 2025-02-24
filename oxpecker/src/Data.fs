@@ -53,7 +53,7 @@ let navItems =
     Map
         [ Tag.Accueil,
           { title = "Accueil"
-            slug = "/accueil"
+            slug = "/"
             cmstag = "accueil" }
           Tag.Programmation,
           { title = "Programmation"

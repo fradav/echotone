@@ -47,11 +47,13 @@ let Layout (rootprops: RootProps) : HtmlElement =
         let path = location.pathname
         printfn "Location changed to %s" path
 
-        if path = baseR || (path = baseR + "/") then
-            // printfn "Navigating to %s, adding trailing slash" baseR
-            navigate.Invoke(navItems[Tag.Accueil].slug))
+    // if path = baseR || (path = baseR + "/") then
+    //     // printfn "Navigating to %s, adding trailing slash" baseR
+    //     navigate.Invoke(navItems[Tag.Accueil].slug))
+    )
 
     Fragment() {
+        Base(href = baseR)
         Title() { $"Échotone - {currentTag () |> tagToTitle}" }
         rootprops.children
     }
