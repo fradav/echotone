@@ -34,22 +34,35 @@ let NotFound () : HtmlElement =
         }
     }
 
-let slugToTitle = slugToTag >> (fun tag -> navItems[tag].title)
+let slugToTag (slug: string) =
+    let rewriteSlug =
+        match slug with
+        | s when s = baseR -> "/"
+        | s when baseR <> "/" && s.StartsWith(baseR) -> s.Substring(baseR.Length)
+        | s when s <> "/" -> s
+        | _ -> "/"
+
+    try
+        navItems |> Map.pick (fun k v -> if v.slug = rewriteSlug then Some k else None)
+    with _ ->
+        printfn "failed to get %s" slug
+        Tag.Accueil
+
+let tagToTitle (tag: Tag) = navItems[tag].title
 
 [<SolidComponent>]
 let Layout (rootprops: RootProps) : HtmlElement =
     let location = useLocation ()
     let navigate = useNavigate ()
-    let currentTag, setCurrentTag = location.pathname |> slugToTag |> createSignal
+    let currentTag, setCurrentTag = createSignal Tag.Accueil
 
     createEffect (fun () ->
         let path = location.pathname
-        printfn "Location changed to %s" path
 
-        if (path = baseR + "/") then
-            // printfn "Navigating to %s, adding trailing slash" baseR
-            navigate.Invoke(baseR))
-
+        if path = (baseR + "/") then
+            navigate.Invoke("/")
+        else
+            path |> slugToTag |> setCurrentTag)
 
     Fragment() {
         Base(href = addedTrailingSlash)

@@ -80,12 +80,3 @@ let navItems =
           { title = "Informations pratiques"
             slug = "/contact"
             cmstag = "contact" } ]
-
-let slugToTag (slug: string) =
-    try
-        navItems |> Map.pick (fun k v -> if v.slug = slug then Some k else None)
-    with e ->
-        printf "failed to get %s" slug
-        Tag.Accueil
-
-let tagToTitle (tag: Tag) = navItems[tag].title
