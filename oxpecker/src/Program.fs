@@ -35,27 +35,25 @@ let NotFound () : HtmlElement =
         }
     }
 
-let slugToTitle = mapLocationToTag >> (fun tag -> navItems[tag].title)
+let slugToTitle = slugToTag >> (fun tag -> navItems[tag].title)
 
 [<SolidComponent>]
 let Layout (rootprops: RootProps) : HtmlElement =
     let location = useLocation ()
     let navigate = useNavigate ()
-    let currentTag, setCurrentTag = location.pathname |> slugToTitle |> createSignal
+    let currentTag, setCurrentTag = location.pathname |> slugToTag |> createSignal
 
     createEffect (fun () ->
-        printfn "Location changed to %s" location.pathname
+        let path = location.pathname
+        printfn "Location changed to %s" path
 
-        if location.pathname.Length > 0 then
-            location.pathname |> slugToTitle |> setCurrentTag
 
-            if baseR.Length > 0 && location.pathname = baseR then
-                printfn "Navigating to %s, adding trailing slash" baseR
-                navigate.Invoke("/", createObj [ "resolve", true ] :?> NavigateOptions))
-
+        if path = baseR then
+            // printfn "Navigating to %s, adding trailing slash" baseR
+            navigate.Invoke(navItems[Tag.Accueil].slug))
 
     Fragment() {
-        Title() { $"Échotone - {currentTag ()}" }
+        Title() { $"Échotone - {currentTag () |> tagToTitle}" }
         rootprops.children
     }
 
@@ -63,11 +61,10 @@ let Layout (rootprops: RootProps) : HtmlElement =
 // HMR doesn't work in Root for some reason
 [<SolidComponent>]
 let appRouter () =
-    let url = if baseR.Length > 0 then baseR + "/" else ""
 
     MetaProvider() {
-        Router(url = url, base' = baseR, root = Layout) {
-            Route(path = "/", component' = App(taggedPages Tag.Accueil))
+        Router(base' = baseR, root = Layout) {
+            taggedRoute Tag.Accueil
             taggedRoute Tag.Programmation
             taggedRoute Tag.Atelier
             taggedRoute Tag.Boutique

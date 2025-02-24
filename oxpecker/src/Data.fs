@@ -53,7 +53,7 @@ let navItems =
     Map
         [ Tag.Accueil,
           { title = "Accueil"
-            slug = "/"
+            slug = "/accueil"
             cmstag = "accueil" }
           Tag.Programmation,
           { title = "Programmation"
@@ -76,15 +76,11 @@ let navItems =
             slug = "/contact"
             cmstag = "contact" } ]
 
-let mapLocationToTag (slug: string) =
+let slugToTag (slug: string) =
     try
-        // remove baseR from slug
-        let slug =
-            match slug.Replace(baseR, "") with
-            | "" -> "/"
-            | s -> s
-
         navItems |> Map.pick (fun k v -> if v.slug = slug then Some k else None)
     with e ->
         printf "failed to get %s" slug
         Tag.Accueil
+
+let tagToTitle (tag: Tag) = navItems[tag].title
