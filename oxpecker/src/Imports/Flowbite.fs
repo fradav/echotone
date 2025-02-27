@@ -18,6 +18,8 @@ type [<AllowNullLiteral>] EventListenerInstance =
     abstract ``type``: string with get, set
     abstract handler: EventListenerOrEventListenerObject with get, set
 
+
+
 type [<AllowNullLiteral>] Collapse =
     inherit CollapseInterface
     abstract _instanceId: string with get, set
@@ -58,6 +60,7 @@ type [<AllowNullLiteral>] CollapseInterface =
     abstract destroy: unit -> unit
     abstract removeInstance: unit -> unit
     abstract destroyAndRemoveInstance: unit -> unit
+
 
 type [<AllowNullLiteral>] Carousel =
     inherit CarouselInterface
@@ -143,6 +146,7 @@ type [<AllowNullLiteral>] CarouselInterface =
     abstract destroy: unit -> unit
     abstract removeInstance: unit -> unit
     abstract destroyAndRemoveInstance: unit -> unit
+
 
 type [<AllowNullLiteral>] Modal =
     inherit ModalInterface
@@ -230,6 +234,7 @@ type [<AllowNullLiteral>] ModalInterface =
     abstract getAllEventListenerInstances: unit -> unit
 
 type [<AllowNullLiteral>] IExports =
+    abstract initFlowbite: unit -> unit
     abstract Collapse: CollapseStatic
     abstract initCollapses: unit -> unit
     abstract Carousel: CarouselStatic

@@ -33,8 +33,6 @@ let initTargets () =
 
     Target.create "dev" (fun _ -> Shell.Exec("bun", "run dev", "oxpecker") |> ignore)
 
-    Target.create "fcm" (fun _ -> Shell.Exec("bunx", "fcm .", "oxpecker") |> ignore)
-
     Target.create "bunInstall" (fun _ -> Shell.Exec("bun", "install", "oxpecker") |> ignore)
 
     Target.create "build" (fun _ ->
@@ -67,9 +65,9 @@ let initTargets () =
 
     "refreshImages" ==> "dev" |> ignore
 
-    "refreshImages" ==> "bunInstall" ==> "fcm" ==> "build" |> ignore
+    "refreshImages" ==> "bunInstall" ==> "build" |> ignore
 
-    "refreshImages" ==> "fcm" ==> "buildDev" |> ignore
+    "refreshImages" ==> "buildDev" |> ignore
 
 
 [<EntryPoint>]

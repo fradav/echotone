@@ -10,7 +10,9 @@ let dtsNames = [ "index"; "types"; "interface" ]
 let flowbiteLibdir =
     Path.Combine(__SOURCE_DIRECTORY__, "node_modules", "flowbite", "lib", "esm")
 
-let addedFiles = [ Path.Combine(flowbiteLibdir, "dom", "types.d.ts") ]
+let addedFiles =
+    [ Path.Combine(flowbiteLibdir, "dom", "types.d.ts")
+      Path.Combine(flowbiteLibdir, "components", "index.d.ts") ]
 
 let outputFile = Path.Combine(__SOURCE_DIRECTORY__, "src", "Imports", "Flowbite.fs")
 
@@ -32,7 +34,7 @@ cli {
 |> Command.execute
 
 let reIExports =
-    Regex(@"type \[<AllowNullLiteral>\] IExports =\n(([^\n]+\n)+)\n", RegexOptions.Multiline)
+    Regex(@"type \[<AllowNullLiteral>\] IExports =\n(([^\n]+\n)+)", RegexOptions.Multiline)
 
 let getIEexports =
     reIExports.Matches

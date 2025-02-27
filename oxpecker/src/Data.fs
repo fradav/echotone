@@ -3,6 +3,8 @@ module Data
 open Fable.JsonProvider
 open Fable.Core
 
+[<Literal>]
+let assetsJsonPath = __SOURCE_DIRECTORY__ + "/../../data/assets.json"
 
 [<Literal>]
 let aboutJsonPath = __SOURCE_DIRECTORY__ + "/../../data/about.json"
@@ -16,6 +18,43 @@ type Medias = PagesT.Items.Data.Medias
 
 type AboutContactT = Generator<aboutJsonPath>
 type AboutContact = AboutContactT.Items.Data.Content.Fr
+
+type AssetsT = Generator<assetsJsonPath>
+type Assets = AssetsT.Items
+
+[<Import("default", "../../data/assets.json")>]
+let assetsJson: AssetsT = jsNative
+
+type AssetType =
+    | Image
+    | Video
+    | Audio
+
+type Asset =
+    { slug: string
+      height: float
+      width: float
+      ``type``: AssetType }
+
+let fileTypeToAssetType (s: string) =
+    s
+    |> _.Split("/")
+    |> Array.head
+    |> function
+        | "image" -> AssetType.Image
+        | "video" -> AssetType.Video
+        | "audio" -> AssetType.Audio
+        | _ -> failwith "Unknown asset type"
+
+let mapSlugs =
+    assetsJson.items
+    |> Seq.map (fun item ->
+        item.id,
+        { slug = item.slug
+          width = item.metadata.pixelWidth
+          height = item.metadata.pixelHeight
+          ``type`` = fileTypeToAssetType item.mimeType })
+    |> Map.ofSeq
 
 [<Import("default", "../../data/about.json")>]
 let aboutJson: AboutContactT = jsNative

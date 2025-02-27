@@ -1,19 +1,17 @@
-﻿module Oxpecker
+﻿module Main
 
-open Browser
 open Oxpecker.Solid
 open Oxpecker.Solid.Router
+
 open Fable.Core.JsInterop
+open Browser
+
 open Oxpecker.Solid.Meta
 
 open Data
 open App
 
-let private classes: CssModules.src.index = importDefault "./index.module.css"
-importAll "../index.css"
-
-// let initFlowbite: unit -> unit = import "initFlowbite" "flowbite"
-// importSideEffects "flowbite"
+importSideEffects "../index.css"
 
 [<SolidComponent>]
 let taggedRoute (tag: Tag) =

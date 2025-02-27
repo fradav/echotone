@@ -10,15 +10,17 @@
     <Content Include="src\index.css" />
     <Content Include="package.json" />
     <Content Include="index.html" />
-    <Compile Include="CssModules.fs" />
+    
     <Compile Include="src\Imports\Meta.fs" />
     <Compile Include="src\Imports\Prelude.fs" />
     <Compile Include="src\Imports\Flowbite.fs" />
-    <Compile Include="src\Imports\Main.fs" />
+    <Compile Include="src\Imports\FlowbiteMain.fs" />
     <Compile Include="src\Data.fs" />
+    <Compile Include="src\Components\RawNode.fs" />
+    <Compile Include="src\Components\Masonry.fs" />
     <Compile Include="src\Layout\Header.fs" />
     <Compile Include="src\App.fs" />
-    <Compile Include="src\Program.fs" />
+    <Compile Include="src\Main.fs" />
   </ItemGroup>
   <Import Project="..\.paket\Paket.Restore.targets" />
 </Project>

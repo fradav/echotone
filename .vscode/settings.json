@@ -1,10 +1,12 @@
 {
     "livePreview.serverRoot": "public",
     "tailwindCSS.experimental.classRegex": [
-        "class\\'\\s*=\\s*\"([^\"]*)\""
+        ["classes\\s*=\\s*{([^}]*)}", "\"([^\"]*)\""],
+        "class\\'\\s*=\\s*\"([^\"]*)\"",
+        ["classList\\s*\\(?\\s*{([^}]*)}", "``([^`]*``)"]
     ],
     "tailwindCSS.includeLanguages": {
-        "fsharp": "html"
+        "fsharp": "html",
     },
     "files.associations": {
         "*.css": "tailwindcss"
