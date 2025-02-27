@@ -6,17 +6,13 @@
   </PropertyGroup>
   <ItemGroup>
     <Content Include="README.md" />
-    <Content Include="public\oxpecker-128.png" />
     <Content Include="src\index.css" />
     <Content Include="package.json" />
     <Content Include="index.html" />
-    
-    <Compile Include="src\Imports\Meta.fs" />
-    <Compile Include="src\Imports\Prelude.fs" />
-    <Compile Include="src\Imports\Flowbite.fs" />
-    <Compile Include="src\Imports\FlowbiteMain.fs" />
+
     <Compile Include="src\Data.fs" />
     <Compile Include="src\Components\RawNode.fs" />
+    <Compile Include="src\Components\Cover.fs" />
     <Compile Include="src\Components\Masonry.fs" />
     <Compile Include="src\Layout\Header.fs" />
     <Compile Include="src\App.fs" />

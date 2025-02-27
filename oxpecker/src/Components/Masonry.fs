@@ -1,58 +1,83 @@
 namespace Components
 
-open Oxpecker.Solid
+open Browser.Dom
+open Browser.MediaQueryListExtensions
 
-open Site.Imports
-open Data
+open Oxpecker.Solid
 
 [<AutoOpen>]
 module Masonry =
-    let private classes =
-        {| noCover = "w-100 bg-amber-300"
-           masonry = "flex flex-wrap justify-center gap-4 m-5"
-           slidingContainer = "relative w-[400px]"
-           slidingCover = "relative h-56 overflow-hidden rounded-lg md:h-96"
-           coverItem = "duration-1000 ease-in-out hover:blur-2xl"
-           cover = "absolute block -translate-x-1/2 -translate-y-1/2 top-1/2 left-1/2 object-fill" |}
+    let private classes = {|
+        masonry = "grid gap-4"
+        masonryColumn = "grid gap-10 place-self-center h-full"
+    |}
 
-    [<SolidComponent>]
-    let pageCoverSlugs (page: PagesT.Items) =
-        let pagemedias = page.data.medias.iv |> Seq.filter _.``in`` |> Seq.collect _.medias
+    type Breakpoint = { query: string; columns: int }
+    let private masonryBreakpoints = [|
+        {
+            query = "(min-width: 1920px)"
+            columns = 4
+        }
+        {
+            query = "(min-width: 1536px)"
+            columns = 3
+        }
+        {
+            query = "(min-width: 1280px) and (max-width: 1536px)"
+            columns = 3
+        }
+        {
+            query = "(min-width: 1024px) and (max-width: 1280px)"
+            columns = 2
+        }
+        {
+            query = "(min-width: 768px) and (max-width: 1024px)"
+            columns = 2
+        }
+        {
+            query = "(max-width: 768px)"
+            columns = 1
+        }
+    |]
 
-        let ratio =
-            pagemedias
-            |> Seq.tryHead
-            |> Option.map (fun x -> mapSlugs.[x].height / mapSlugs.[x].width)
-
-        pagemedias
-        |> List.ofSeq
-        |> function
-            | [] -> div (class' = classes.noCover) { "No cover" }
-            | medias ->
-                let height = int (400. * (ratio |> Option.defaultValue 1.0))
-
-                div(class' = classes.slidingContainer).data ("carousel", "slide") {
-                    div (class' = classes.slidingCover) {
-                        For(each = Array.ofSeq medias) {
-                            yield
-                                fun imgid index ->
-                                    div(class' = classes.coverItem)
-                                        .data("carousel-item", "")
-                                        .classList ({| hidden = true |}) {
-                                        img (
-                                            class' = classes.cover,
-                                            src = $"medias/{mapSlugs[imgid].slug}",
-                                            style = $"width = 400px; height = {height}px"
-                                        )
-                                    }
-                        }
-                    }
-                }
+    let makeMasonry<'T> (cols: int) (getH: 'T -> int) (l: 'T list) =
+        List.fold
+            (fun (heights, acc) x ->
+                let minIndex = Array.findIndex (fun x -> x = Array.min heights) heights
+                let newHeights =
+                    Array.mapi (fun i h -> if i = minIndex then h + getH x else h) heights
+                let newLists = Array.mapi (fun i ol -> if i = minIndex then x :: ol else ol) acc
+                newHeights, newLists)
+            (Array.zeroCreate cols, Array.create cols [])
+            l
+        |> snd
+        |> Array.map List.rev
 
     [<SolidComponent>]
     let Masonry (pages: Data.PagesT.Items seq) : HtmlElement =
-        onMount (fun () -> flowbite.initCarousels ())
+        let columns, setColumns = createSignal 3
 
-        div (class' = classes.masonry) {
-            For(each = Array.ofSeq pages) { yield fun (page: Data.PagesT.Items) index -> pageCoverSlugs page }
+        createEffect(fun () -> printfn "Masonry columns: %i" (columns()))
+        onMount(fun () ->
+            masonryBreakpoints
+            |> Array.iter(fun { query = query; columns = columns } ->
+                let mql = window.matchMedia(query)
+                if mql.matches then
+                    setColumns columns
+                mql.addEventListener("change", fun _ -> setColumns columns)))
+
+        // let masonryExemple =
+        //     [ 49; 378; 204; 398; 150; 400; 329; 90; 329; 500; 988; 200 ]
+        //     |> List.ofSeq
+        //     |> makeMasonry 4 id
+        //     |> printfn "%A"
+
+        div(class' = classes.masonry, style = $"grid-template-columns: repeat({columns()}, minmax(0, 1fr))") {
+            For(each = (pages |> List.ofSeq |> makeMasonry (columns()) (getMedias >> getHeight 400))) {
+                yield
+                    fun col index ->
+                        div(class' = classes.masonryColumn) {
+                            For(each = Array.ofList col) { yield fun page index -> Cover 400 page }
+                        }
+            }
         }

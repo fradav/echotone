@@ -55,3 +55,28 @@ let codeIExports = getIEexports removedImport
 let removedImportandIExports = reIExports.Replace(removedImport, "")
 
 File.WriteAllText(outputFile, removedImportandIExports + codeIExports)
+
+[ "utils", "Utils"
+  "media", "Media"
+  "intersection-observer", "IntersectionObserver"
+  "masonry", "Masonry" ]
+|> Seq.iter (fun (name, fableMod) ->
+    let solidFile =
+        Path.Combine(__SOURCE_DIRECTORY__, "node_modules", "@solid-primitives", name, "dist", "index.d.ts")
+
+    let fableFile =
+        Path.Combine(__SOURCE_DIRECTORY__, "src", "Imports", "Solid", $"{fableMod}.fs")
+
+    let args = $"ts2fable {solidFile} {fableFile} -e @solid-primitives/{name}"
+
+    printfn "args: %s" args
+
+    cli {
+        Exec "bunx"
+        Arguments args
+        WorkingDirectory __SOURCE_DIRECTORY__
+    }
+    |> Command.execute
+    |> ignore
+// let solidCode = $"type [<AllowNullLiteral>] {name} = __.Solid\n"
+)

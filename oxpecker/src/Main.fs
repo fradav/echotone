@@ -23,11 +23,11 @@ let NotFound () : HtmlElement =
     Fragment() {
         Title() { "404 - Not Found" }
 
-        main () {
+        main() {
 
-            div () {
-                h1 () { "404 - Not Found" }
-                p () { "Sorry, the page you are looking for does not exist." }
+            div() {
+                h1() { "404 - Not Found" }
+                p() { "Sorry, the page you are looking for does not exist." }
             }
         }
     }
@@ -41,7 +41,7 @@ let slugToTag (slug: string) =
         | _ -> "/"
 
     try
-        navItems |> Map.pick (fun k v -> if v.slug = rewriteSlug then Some k else None)
+        navItems |> Map.pick(fun k v -> if v.slug = rewriteSlug then Some k else None)
     with _ ->
         printfn "failed to get %s" slug
         Tag.Accueil
@@ -50,11 +50,11 @@ let tagToTitle (tag: Tag) = navItems[tag].title
 
 [<SolidComponent>]
 let Layout (rootprops: RootProps) : HtmlElement =
-    let location = useLocation ()
-    let navigate = useNavigate ()
+    let location = useLocation()
+    let navigate = useNavigate()
     let currentTag, setCurrentTag = createSignal Tag.Accueil
 
-    createEffect (fun () ->
+    createEffect(fun () ->
         let path = location.pathname
 
         if path = (baseR + "/") then
@@ -64,7 +64,7 @@ let Layout (rootprops: RootProps) : HtmlElement =
 
     Fragment() {
         Base(href = addedTrailingSlash)
-        Title() { $"Échotone - {currentTag () |> tagToTitle}" }
+        Title() { $"Échotone / {currentTag() |> tagToTitle}" }
         rootprops.children
     }
 
@@ -86,4 +86,4 @@ let appRouter () =
         }
     }
 
-render (appRouter, document.getElementById "root")
+render(appRouter, document.getElementById "root")

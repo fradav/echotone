@@ -423,15 +423,15 @@
       },
       "AWSSDK.Core": {
         "type": "Transitive",
-        "resolved": "3.7.402.3",
-        "contentHash": "VY9L2P++0+jULNNNQhM98hFfC3PBTq3VdVWY37p4Gx18ar/sJ4Xt2Mo4FbYiilT3xsrff1e2ngS+1rHAKnYvDA=="
+        "resolved": "3.7.402.8",
+        "contentHash": "ah2B+RMiIPLzGMRGq4Z8k4+uJKOhVw5MHaUF27bFrAm113qoF+PWWBdOBzIaUf6AF/luOLdnn/l1x6xIy6ZdeQ=="
       },
       "AWSSDK.S3": {
         "type": "Transitive",
-        "resolved": "3.7.415.2",
-        "contentHash": "TbfRXdRkKUqdx3NHv+cXdGPVhnxLiigBB4NPvIMQSD+OepISj1KSjcf4m2wv65TGXtR3bHXg6h0ovK0MrI05+w==",
+        "resolved": "3.7.415.7",
+        "contentHash": "e9ngQuFoPWgJ9Hn1UJN78v3MclcLPggjYWzIFjEj19DhxxduJJ+0P6vtUA7dR8yFQsK5mC+BKlywO3LQ7mLLvQ==",
         "dependencies": {
-          "AWSSDK.Core": "[3.7.402.3, 4.0.0)"
+          "AWSSDK.Core": "[3.7.402.8, 4.0.0)"
         }
       },
       "dotenv.net": {
@@ -533,8 +533,8 @@
       "sitegen": {
         "type": "Project",
         "dependencies": {
-          "AWSSDK.Core": "[3.7.402.3, )",
-          "AWSSDK.S3": "[3.7.415.2, )",
+          "AWSSDK.Core": "[3.7.402.8, )",
+          "AWSSDK.S3": "[3.7.415.7, )",
           "FSharp.Core": "[9.0.201, )",
           "FSharp.Data": "[6.4.1, )",
           "FSharp.Data.Csv.Core": "[6.4.1, )",

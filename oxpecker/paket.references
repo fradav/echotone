@@ -3,3 +3,4 @@ group Solid
     Fable.Browser.Dom
     Oxpecker.Solid
     Fable.JsonProvider
+    Fable.Browser.MediaQueryList

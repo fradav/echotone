@@ -28,5 +28,6 @@ group Solid
     storage: none
     nuget Fable.Core
     nuget Fable.Browser.Dom
-    nuget Oxpecker.Solid
     nuget Fable.JsonProvider
+    nuget Fable.Browser.MediaQueryList
+    nuget Oxpecker.Solid

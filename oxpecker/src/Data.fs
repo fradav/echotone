@@ -30,11 +30,12 @@ type AssetType =
     | Video
     | Audio
 
-type Asset =
-    { slug: string
-      height: float
-      width: float
-      ``type``: AssetType }
+type Asset = {
+    slug: string
+    height: float
+    width: float
+    ``type``: AssetType
+}
 
 let fileTypeToAssetType (s: string) =
     s
@@ -48,12 +49,14 @@ let fileTypeToAssetType (s: string) =
 
 let mapSlugs =
     assetsJson.items
-    |> Seq.map (fun item ->
+    |> Seq.map(fun item ->
         item.id,
-        { slug = item.slug
-          width = item.metadata.pixelWidth
-          height = item.metadata.pixelHeight
-          ``type`` = fileTypeToAssetType item.mimeType })
+        {
+            slug = item.slug
+            width = item.metadata.pixelWidth
+            height = item.metadata.pixelHeight
+            ``type`` = fileTypeToAssetType item.mimeType
+        })
     |> Map.ofSeq
 
 [<Import("default", "../../data/about.json")>]
@@ -88,34 +91,48 @@ type Tag =
     | Contact
 
 // cmstag is the tag used in the CMS (the same as the slug but in french)
-type navItem =
-    { title: string
-      slug: string
-      cmstag: string }
+type navItem = {
+    title: string
+    slug: string
+    cmstag: string
+}
 
 let navItems =
-    Map
-        [ Tag.Accueil,
-          { title = "Accueil"
+    Map [
+        Tag.Accueil,
+        {
+            title = "Accueil"
             slug = "/"
-            cmstag = "accueil" }
-          Tag.Programmation,
-          { title = "Programmation"
+            cmstag = "accueil"
+        }
+        Tag.Programmation,
+        {
+            title = "Programmation"
             slug = "/programmation"
-            cmstag = "programmation" }
-          Tag.Boutique,
-          { title = "Boutique"
+            cmstag = "programmation"
+        }
+        Tag.Boutique,
+        {
+            title = "Boutique"
             slug = "/shop"
-            cmstag = "boutique" }
-          Tag.Atelier,
-          { title = "Atelier"
+            cmstag = "boutique"
+        }
+        Tag.Atelier,
+        {
+            title = "Atelier"
             slug = "/workshop"
-            cmstag = "atelier" }
-          Tag.Apropos,
-          { title = "À propos"
+            cmstag = "atelier"
+        }
+        Tag.Apropos,
+        {
+            title = "À propos"
             slug = "/about"
-            cmstag = "a-propos" }
-          Tag.Contact,
-          { title = "Informations pratiques"
+            cmstag = "a-propos"
+        }
+        Tag.Contact,
+        {
+            title = "Informations pratiques"
             slug = "/contact"
-            cmstag = "contact" } ]
+            cmstag = "contact"
+        }
+    ]
