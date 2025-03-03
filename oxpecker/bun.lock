@@ -14,7 +14,7 @@
         "@tailwindcss/vite": "^4.0.9",
         "@types/fs-extra": "^11.0.4",
         "@types/hyphen": "^1.6.7",
-        "@types/node": "^22.13.5",
+        "@types/node": "^22.13.8",
         "autoprefixer": "^10.4.20",
         "fs-extra": "^11.3.0",
         "tailwindcss": "^4.0.9",
