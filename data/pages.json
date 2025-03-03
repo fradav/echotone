@@ -17,6 +17,86 @@
     {
       "_links": {
         "delete": {
+          "href": "/api/content/echotone/page/5df4da81-4790-49d6-b8fe-c1a0e9ff17d8",
+          "method": "DELETE"
+        },
+        "draft/create": {
+          "href": "/api/content/echotone/page/5df4da81-4790-49d6-b8fe-c1a0e9ff17d8/draft",
+          "method": "POST"
+        },
+        "previous": {
+          "href": "/api/content/echotone/page/5df4da81-4790-49d6-b8fe-c1a0e9ff17d8/2",
+          "method": "GET"
+        },
+        "self": {
+          "href": "/api/content/echotone/page/5df4da81-4790-49d6-b8fe-c1a0e9ff17d8",
+          "method": "GET"
+        }
+      },
+      "created": "2025-03-03T21:00:02Z",
+      "createdBy": "subject:6798df7c5b784ee7b7cb52e1",
+      "data": {
+        "id": {
+          "iv": "atelier-distillation"
+        },
+        "medias": {
+          "iv": [
+            {
+              "in": true,
+              "medias": [
+                "feae04f7-d235-484b-98c9-71fe6723488b",
+                "306ff7a3-019f-4450-bc12-606c98e918be",
+                "1344726f-7ecf-440e-b723-fc2352e15691"
+              ],
+              "schemaId": "1f4e3697-52bc-45d9-a7a8-65862c13ce4b",
+              "schemaName": "carousel"
+            }
+          ]
+        },
+        "unit": {
+          "en": {
+            "locations": [],
+            "schemaId": "2bd4ee39-8e6e-4128-9f08-a049cce49f23",
+            "schemaName": "unit",
+            "short": "D\u00E9monstration propos\u00E9e dans le cadre du Calendrier de l\u0027avent",
+            "tags": [
+              "atelier",
+              "programmation"
+            ],
+            "temporal": [],
+            "text": "\u003Cp\u003ESamedi 14 d\u00E9\u00ADcembre 2024 : 2 types de microdistillations.\u003Cbr\u003ECet e\u0301\u00ADve\u0301\u00ADne\u00ADment sur\u00ADprise est pro\u00ADpo\u00ADse\u0301 \u00E0 toutes et tous, dans le cadre du ca\u00ADlen\u00ADdrier de l\u2019avent or\u00ADga\u00ADni\u00ADse\u0301 en par\u00ADte\u00ADna\u00ADriat avec la ville de Ganges. Chaque jour, un rdv mys\u00ADt\u00E8re est don\u00ADne\u0301 dans un des lieux cultu\u00ADrels de la ville.\u003C/p\u003E",
+            "title": "Atelier distillation"
+          },
+          "fr": {
+            "locations": [],
+            "schemaId": "2bd4ee39-8e6e-4128-9f08-a049cce49f23",
+            "schemaName": "unit",
+            "short": "D\u00E9monstration propos\u00E9e dans le cadre du Calendrier de l\u0027avent",
+            "tags": [
+              "atelier",
+              "programmation"
+            ],
+            "temporal": [],
+            "text": "\u003Cp\u003ESamedi 14 d\u00E9\u00ADcembre 2024 : 2 types de microdistillations.\u003Cbr\u003ECet e\u0301\u00ADve\u0301\u00ADne\u00ADment sur\u00ADprise est pro\u00ADpo\u00ADse\u0301 \u00E0 toutes et tous, dans le cadre du ca\u00ADlen\u00ADdrier de l\u2019avent or\u00ADga\u00ADni\u00ADse\u0301 en par\u00ADte\u00ADna\u00ADriat avec la ville de Ganges. Chaque jour, un rdv mys\u00ADt\u00E8re est don\u00ADne\u0301 dans un des lieux cultu\u00ADrels de la ville.\u003C/p\u003E",
+            "title": "Atelier distillation"
+          }
+        }
+      },
+      "editToken": "eyJhIjoiZWNob3RvbmUiLCJzIjoicGFnZSIsImkiOiI1ZGY0ZGE4MS00NzkwLTQ5ZDYtYjhmZS1jMWEwZTlmZjE3ZDgiLCJ1IjoiaHR0cHM6Ly9sYWFiLmRkbnMubmV0OjM4MDgwLyJ9",
+      "id": "5df4da81-4790-49d6-b8fe-c1a0e9ff17d8",
+      "isDeleted": false,
+      "lastModified": "2025-03-03T21:52:50Z",
+      "lastModifiedBy": "subject:6798df7c5b784ee7b7cb52e1",
+      "schemaDisplayName": "Page",
+      "schemaId": "d0379b0e-294e-4df6-9b2b-257b807b1467",
+      "schemaName": "page",
+      "status": "Published",
+      "statusColor": "#4bb958",
+      "version": 3
+    },
+    {
+      "_links": {
+        "delete": {
           "href": "/api/content/echotone/page/878f8298-2802-4c04-894c-a8a9c1067b9f",
           "method": "DELETE"
         },
@@ -95,86 +175,6 @@
       "status": "Published",
       "statusColor": "#4bb958",
       "version": 1
-    },
-    {
-      "_links": {
-        "delete": {
-          "href": "/api/content/echotone/page/5df4da81-4790-49d6-b8fe-c1a0e9ff17d8",
-          "method": "DELETE"
-        },
-        "draft/create": {
-          "href": "/api/content/echotone/page/5df4da81-4790-49d6-b8fe-c1a0e9ff17d8/draft",
-          "method": "POST"
-        },
-        "previous": {
-          "href": "/api/content/echotone/page/5df4da81-4790-49d6-b8fe-c1a0e9ff17d8/1",
-          "method": "GET"
-        },
-        "self": {
-          "href": "/api/content/echotone/page/5df4da81-4790-49d6-b8fe-c1a0e9ff17d8",
-          "method": "GET"
-        }
-      },
-      "created": "2025-03-03T21:00:02Z",
-      "createdBy": "subject:6798df7c5b784ee7b7cb52e1",
-      "data": {
-        "id": {
-          "iv": "distillation"
-        },
-        "medias": {
-          "iv": [
-            {
-              "in": true,
-              "medias": [
-                "feae04f7-d235-484b-98c9-71fe6723488b",
-                "306ff7a3-019f-4450-bc12-606c98e918be",
-                "1344726f-7ecf-440e-b723-fc2352e15691"
-              ],
-              "schemaId": "1f4e3697-52bc-45d9-a7a8-65862c13ce4b",
-              "schemaName": "carousel"
-            }
-          ]
-        },
-        "unit": {
-          "en": {
-            "locations": [],
-            "schemaId": "2bd4ee39-8e6e-4128-9f08-a049cce49f23",
-            "schemaName": "unit",
-            "short": "D\u00E9monstration propos\u00E9e dans le cadre du Calendrier de l\u0027avent",
-            "tags": [
-              "atelier",
-              "programmation"
-            ],
-            "temporal": [],
-            "text": null,
-            "title": "Distillation"
-          },
-          "fr": {
-            "locations": [],
-            "schemaId": "2bd4ee39-8e6e-4128-9f08-a049cce49f23",
-            "schemaName": "unit",
-            "short": "D\u00E9monstration propos\u00E9e dans le cadre du Calendrier de l\u0027avent",
-            "tags": [
-              "atelier",
-              "programmation"
-            ],
-            "temporal": [],
-            "text": null,
-            "title": "Distillation"
-          }
-        }
-      },
-      "editToken": "eyJhIjoiZWNob3RvbmUiLCJzIjoicGFnZSIsImkiOiI1ZGY0ZGE4MS00NzkwLTQ5ZDYtYjhmZS1jMWEwZTlmZjE3ZDgiLCJ1IjoiaHR0cHM6Ly9sYWFiLmRkbnMubmV0OjM4MDgwLyJ9",
-      "id": "5df4da81-4790-49d6-b8fe-c1a0e9ff17d8",
-      "isDeleted": false,
-      "lastModified": "2025-03-03T21:36:51Z",
-      "lastModifiedBy": "subject:6798df7c5b784ee7b7cb52e1",
-      "schemaDisplayName": "Page",
-      "schemaId": "d0379b0e-294e-4df6-9b2b-257b807b1467",
-      "schemaName": "page",
-      "status": "Published",
-      "statusColor": "#4bb958",
-      "version": 2
     },
     {
       "_links": {
