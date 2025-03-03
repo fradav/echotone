@@ -17,6 +17,168 @@
     {
       "_links": {
         "delete": {
+          "href": "/api/content/echotone/page/878f8298-2802-4c04-894c-a8a9c1067b9f",
+          "method": "DELETE"
+        },
+        "draft/create": {
+          "href": "/api/content/echotone/page/878f8298-2802-4c04-894c-a8a9c1067b9f/draft",
+          "method": "POST"
+        },
+        "previous": {
+          "href": "/api/content/echotone/page/878f8298-2802-4c04-894c-a8a9c1067b9f/0",
+          "method": "GET"
+        },
+        "self": {
+          "href": "/api/content/echotone/page/878f8298-2802-4c04-894c-a8a9c1067b9f",
+          "method": "GET"
+        }
+      },
+      "created": "2025-03-03T21:41:12Z",
+      "createdBy": "subject:6798df7c5b784ee7b7cb52e1",
+      "data": {
+        "id": {
+          "iv": "atelier-monotype"
+        },
+        "medias": {
+          "iv": [
+            {
+              "in": true,
+              "medias": [
+                "a6913b9d-5d59-4920-ac65-1f1f5fb17021",
+                "67fc49c9-0e55-4c9f-9aa9-f11648c885ee",
+                "aa08bdc9-5e27-4c7a-9ce5-4cb8c539aedb",
+                "728e7893-11e2-4f52-b2bc-822f1056af86",
+                "946663ea-0113-4d24-bafd-0e07e8d198c5"
+              ],
+              "schemaId": "1f4e3697-52bc-45d9-a7a8-65862c13ce4b",
+              "schemaName": "carousel"
+            }
+          ]
+        },
+        "unit": {
+          "en": {
+            "locations": [],
+            "schemaId": "2bd4ee39-8e6e-4128-9f08-a049cce49f23",
+            "schemaName": "unit",
+            "short": "Organis\u00E9 dans le cadre du Calendrier de l\u0027avent ",
+            "tags": [
+              "atelier",
+              "programmation"
+            ],
+            "temporal": [],
+            "text": "\u003Cp\u003EMercredi 4 d\u00E9cembre 2024 : activite\u0301 de\u0301die\u0301e a\u0300 la technique du monotype de 14h a\u0300 17h. \u003Cbr\u003ECet e\u0301ve\u0301nement surprise est propose\u0301 \u00E0 toutes et tous, dans le cadre du calendrier de l\u2019avent organise\u0301 en partenariat avec la ville de Ganges. Chaque jour, un rdv myst\u00E8re est donne\u0301 dans un des lieux culturels de la ville.\u003Cbr\u003E\u003C/p\u003E",
+            "title": "Atelier Monotype"
+          },
+          "fr": {
+            "locations": [],
+            "schemaId": "2bd4ee39-8e6e-4128-9f08-a049cce49f23",
+            "schemaName": "unit",
+            "short": "Organis\u00E9 dans le cadre du Calendrier de l\u0027avent ",
+            "tags": [
+              "atelier",
+              "programmation"
+            ],
+            "temporal": [],
+            "text": "\u003Cp\u003EMercredi 4 d\u00E9cembre 2024 : activite\u0301 de\u0301die\u0301e a\u0300 la technique du monotype de 14h a\u0300 17h. \u003Cbr\u003ECet e\u0301ve\u0301nement surprise est propose\u0301 \u00E0 toutes et tous, dans le cadre du calendrier de l\u2019avent organise\u0301 en partenariat avec la ville de Ganges. Chaque jour, un rdv myst\u00E8re est donne\u0301 dans un des lieux culturels de la ville.\u003Cbr\u003E\u003C/p\u003E",
+            "title": "Atelier Monotype"
+          }
+        }
+      },
+      "editToken": "eyJhIjoiZWNob3RvbmUiLCJzIjoicGFnZSIsImkiOiI4NzhmODI5OC0yODAyLTRjMDQtODk0Yy1hOGE5YzEwNjdiOWYiLCJ1IjoiaHR0cHM6Ly9sYWFiLmRkbnMubmV0OjM4MDgwLyJ9",
+      "id": "878f8298-2802-4c04-894c-a8a9c1067b9f",
+      "isDeleted": false,
+      "lastModified": "2025-03-03T21:41:12Z",
+      "lastModifiedBy": "subject:6798df7c5b784ee7b7cb52e1",
+      "schemaDisplayName": "Page",
+      "schemaId": "d0379b0e-294e-4df6-9b2b-257b807b1467",
+      "schemaName": "page",
+      "status": "Published",
+      "statusColor": "#4bb958",
+      "version": 1
+    },
+    {
+      "_links": {
+        "delete": {
+          "href": "/api/content/echotone/page/5df4da81-4790-49d6-b8fe-c1a0e9ff17d8",
+          "method": "DELETE"
+        },
+        "draft/create": {
+          "href": "/api/content/echotone/page/5df4da81-4790-49d6-b8fe-c1a0e9ff17d8/draft",
+          "method": "POST"
+        },
+        "previous": {
+          "href": "/api/content/echotone/page/5df4da81-4790-49d6-b8fe-c1a0e9ff17d8/1",
+          "method": "GET"
+        },
+        "self": {
+          "href": "/api/content/echotone/page/5df4da81-4790-49d6-b8fe-c1a0e9ff17d8",
+          "method": "GET"
+        }
+      },
+      "created": "2025-03-03T21:00:02Z",
+      "createdBy": "subject:6798df7c5b784ee7b7cb52e1",
+      "data": {
+        "id": {
+          "iv": "distillation"
+        },
+        "medias": {
+          "iv": [
+            {
+              "in": true,
+              "medias": [
+                "feae04f7-d235-484b-98c9-71fe6723488b",
+                "306ff7a3-019f-4450-bc12-606c98e918be",
+                "1344726f-7ecf-440e-b723-fc2352e15691"
+              ],
+              "schemaId": "1f4e3697-52bc-45d9-a7a8-65862c13ce4b",
+              "schemaName": "carousel"
+            }
+          ]
+        },
+        "unit": {
+          "en": {
+            "locations": [],
+            "schemaId": "2bd4ee39-8e6e-4128-9f08-a049cce49f23",
+            "schemaName": "unit",
+            "short": "D\u00E9monstration propos\u00E9e dans le cadre du Calendrier de l\u0027avent",
+            "tags": [
+              "atelier",
+              "programmation"
+            ],
+            "temporal": [],
+            "text": null,
+            "title": "Distillation"
+          },
+          "fr": {
+            "locations": [],
+            "schemaId": "2bd4ee39-8e6e-4128-9f08-a049cce49f23",
+            "schemaName": "unit",
+            "short": "D\u00E9monstration propos\u00E9e dans le cadre du Calendrier de l\u0027avent",
+            "tags": [
+              "atelier",
+              "programmation"
+            ],
+            "temporal": [],
+            "text": null,
+            "title": "Distillation"
+          }
+        }
+      },
+      "editToken": "eyJhIjoiZWNob3RvbmUiLCJzIjoicGFnZSIsImkiOiI1ZGY0ZGE4MS00NzkwLTQ5ZDYtYjhmZS1jMWEwZTlmZjE3ZDgiLCJ1IjoiaHR0cHM6Ly9sYWFiLmRkbnMubmV0OjM4MDgwLyJ9",
+      "id": "5df4da81-4790-49d6-b8fe-c1a0e9ff17d8",
+      "isDeleted": false,
+      "lastModified": "2025-03-03T21:36:51Z",
+      "lastModifiedBy": "subject:6798df7c5b784ee7b7cb52e1",
+      "schemaDisplayName": "Page",
+      "schemaId": "d0379b0e-294e-4df6-9b2b-257b807b1467",
+      "schemaName": "page",
+      "status": "Published",
+      "statusColor": "#4bb958",
+      "version": 2
+    },
+    {
+      "_links": {
+        "delete": {
           "href": "/api/content/echotone/page/dd3c3fe6-0103-4fea-b5e8-1ea714f36308",
           "method": "DELETE"
         },
@@ -388,88 +550,6 @@
       "status": "Published",
       "statusColor": "#4bb958",
       "version": 6
-    },
-    {
-      "_links": {
-        "delete": {
-          "href": "/api/content/echotone/page/5df4da81-4790-49d6-b8fe-c1a0e9ff17d8",
-          "method": "DELETE"
-        },
-        "draft/create": {
-          "href": "/api/content/echotone/page/5df4da81-4790-49d6-b8fe-c1a0e9ff17d8/draft",
-          "method": "POST"
-        },
-        "previous": {
-          "href": "/api/content/echotone/page/5df4da81-4790-49d6-b8fe-c1a0e9ff17d8/0",
-          "method": "GET"
-        },
-        "self": {
-          "href": "/api/content/echotone/page/5df4da81-4790-49d6-b8fe-c1a0e9ff17d8",
-          "method": "GET"
-        }
-      },
-      "created": "2025-03-03T21:00:02Z",
-      "createdBy": "subject:6798df7c5b784ee7b7cb52e1",
-      "data": {
-        "id": {
-          "iv": "distillation"
-        },
-        "medias": {
-          "iv": [
-            {
-              "in": true,
-              "medias": [
-                "60ff60f5-a484-4183-83f9-8c36fe80a9b5",
-                "feae04f7-d235-484b-98c9-71fe6723488b",
-                "306ff7a3-019f-4450-bc12-606c98e918be",
-                "7ce4d610-853f-4e60-bf26-4652d6af2727",
-                "1344726f-7ecf-440e-b723-fc2352e15691"
-              ],
-              "schemaId": "1f4e3697-52bc-45d9-a7a8-65862c13ce4b",
-              "schemaName": "carousel"
-            }
-          ]
-        },
-        "unit": {
-          "en": {
-            "locations": [],
-            "schemaId": "2bd4ee39-8e6e-4128-9f08-a049cce49f23",
-            "schemaName": "unit",
-            "short": "D\u00E9monstration propos\u00E9e dans le cadre du Calendrier de l\u0027avent",
-            "tags": [
-              "atelier",
-              "programmation"
-            ],
-            "temporal": [],
-            "text": null,
-            "title": "Distillation"
-          },
-          "fr": {
-            "locations": [],
-            "schemaId": "2bd4ee39-8e6e-4128-9f08-a049cce49f23",
-            "schemaName": "unit",
-            "short": "D\u00E9monstration propos\u00E9e dans le cadre du Calendrier de l\u0027avent",
-            "tags": [
-              "atelier",
-              "programmation"
-            ],
-            "temporal": [],
-            "text": null,
-            "title": "Distillation"
-          }
-        }
-      },
-      "editToken": "eyJhIjoiZWNob3RvbmUiLCJzIjoicGFnZSIsImkiOiI1ZGY0ZGE4MS00NzkwLTQ5ZDYtYjhmZS1jMWEwZTlmZjE3ZDgiLCJ1IjoiaHR0cHM6Ly9sYWFiLmRkbnMubmV0OjM4MDgwLyJ9",
-      "id": "5df4da81-4790-49d6-b8fe-c1a0e9ff17d8",
-      "isDeleted": false,
-      "lastModified": "2025-03-03T21:00:02Z",
-      "lastModifiedBy": "subject:6798df7c5b784ee7b7cb52e1",
-      "schemaDisplayName": "Page",
-      "schemaId": "d0379b0e-294e-4df6-9b2b-257b807b1467",
-      "schemaName": "page",
-      "status": "Published",
-      "statusColor": "#4bb958",
-      "version": 1
     },
     {
       "_links": {
@@ -917,5 +997,5 @@
       "status": "Published"
     }
   ],
-  "total": 10
+  "total": 11
 }
