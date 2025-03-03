@@ -17,6 +17,98 @@
     {
       "_links": {
         "delete": {
+          "href": "/api/content/echotone/page/b9660f38-a5e1-4dda-b29c-3ebe42672945",
+          "method": "DELETE"
+        },
+        "draft/create": {
+          "href": "/api/content/echotone/page/b9660f38-a5e1-4dda-b29c-3ebe42672945/draft",
+          "method": "POST"
+        },
+        "previous": {
+          "href": "/api/content/echotone/page/b9660f38-a5e1-4dda-b29c-3ebe42672945/3",
+          "method": "GET"
+        },
+        "self": {
+          "href": "/api/content/echotone/page/b9660f38-a5e1-4dda-b29c-3ebe42672945",
+          "method": "GET"
+        }
+      },
+      "created": "2025-01-29T12:41:37Z",
+      "createdBy": "subject:6798df7c5b784ee7b7cb52e1",
+      "data": {
+        "id": {
+          "iv": "inner-the-landscape"
+        },
+        "medias": {
+          "iv": [
+            {
+              "in": true,
+              "medias": [
+                "f4ca3db9-6301-4fd3-ba0d-4ccf9b4951af",
+                "23b57748-fd81-4dbc-8ce3-72628f72c1c3",
+                "869c0d71-3164-4df2-9810-19eb9397a4e9",
+                "82545d53-2385-4090-bfcd-d173aae57fb8",
+                "03869147-78d7-4aeb-877d-7532fbd6f0fd",
+                "ea68e14e-6aa5-4702-bd56-dbf079d5ca07",
+                "cd75922b-b667-4881-b9f1-0b142c2d9a72",
+                "ba9eb01e-d558-46ad-938a-93f1f5b1db0e",
+                "9d01f3d7-127d-4859-8e7b-8b9df1501c72",
+                "553e5766-2acb-4f6c-9cb5-a731075a5179",
+                "c4c0091d-376d-4105-ad08-aff9bbc5c393",
+                "51297029-7bf5-4447-8e5a-90df4e1d7cb0",
+                "5f0d4c81-6956-4520-aeec-1c586a68d02b",
+                "993bdae7-5e4b-4950-8359-9029eea5f2a2",
+                "a3ad9ced-9ccf-4791-b48b-69be8b1bdb2d"
+              ],
+              "schemaId": "1f4e3697-52bc-45d9-a7a8-65862c13ce4b",
+              "schemaName": "carousel"
+            }
+          ]
+        },
+        "unit": {
+          "en": {
+            "locations": [],
+            "schemaId": "2bd4ee39-8e6e-4128-9f08-a049cce49f23",
+            "schemaName": "unit",
+            "short": "Exposition r\u00E9trospective de Dorota Buczkowska",
+            "tags": [
+              "programmation",
+              "accueil"
+            ],
+            "temporal": [],
+            "text": "\u003Cp\u003EVisite de l\u2019exposition r\u00E9trospective de Dorota Buczkowska,\u0022 Inner the landscape \u0022 au Museum of Contemporary art of Wroclaw.\u003C/p\u003E\u003Cp\u003E\u003C/p\u003E",
+            "title": "\u0022Inner the Landscape\u0022"
+          },
+          "fr": {
+            "locations": [],
+            "schemaId": "2bd4ee39-8e6e-4128-9f08-a049cce49f23",
+            "schemaName": "unit",
+            "short": "Exposition r\u00E9trospective de Dorota Buczkowska",
+            "tags": [
+              "programmation",
+              "accueil"
+            ],
+            "temporal": [],
+            "text": "\u003Cp\u003EVisite de l\u2019exposition r\u00E9trospective de Dorota Buczkowska,\u0022 Inner the landscape \u0022 au Museum of Contemporary art of Wroclaw.\u003C/p\u003E\u003Cp\u003E\u003C/p\u003E",
+            "title": "\u0022Inner the Landscape\u0022"
+          }
+        }
+      },
+      "editToken": "eyJhIjoiZWNob3RvbmUiLCJzIjoicGFnZSIsImkiOiJiOTY2MGYzOC1hNWUxLTRkZGEtYjI5Yy0zZWJlNDI2NzI5NDUiLCJ1IjoiaHR0cHM6Ly9sYWFiLmRkbnMubmV0OjM4MDgwLyJ9",
+      "id": "b9660f38-a5e1-4dda-b29c-3ebe42672945",
+      "isDeleted": false,
+      "lastModified": "2025-03-03T19:19:43Z",
+      "lastModifiedBy": "subject:6798df7c5b784ee7b7cb52e1",
+      "schemaDisplayName": "Page",
+      "schemaId": "d0379b0e-294e-4df6-9b2b-257b807b1467",
+      "schemaName": "page",
+      "status": "Published",
+      "statusColor": "#4bb958",
+      "version": 4
+    },
+    {
+      "_links": {
+        "delete": {
           "href": "/api/content/echotone/page/702fbd2b-1312-4ebd-b348-cc963c16ea7f",
           "method": "DELETE"
         },
@@ -256,96 +348,6 @@
       "status": "Published",
       "statusColor": "#4bb958",
       "version": 5
-    },
-    {
-      "_links": {
-        "delete": {
-          "href": "/api/content/echotone/page/b9660f38-a5e1-4dda-b29c-3ebe42672945",
-          "method": "DELETE"
-        },
-        "draft/create": {
-          "href": "/api/content/echotone/page/b9660f38-a5e1-4dda-b29c-3ebe42672945/draft",
-          "method": "POST"
-        },
-        "previous": {
-          "href": "/api/content/echotone/page/b9660f38-a5e1-4dda-b29c-3ebe42672945/2",
-          "method": "GET"
-        },
-        "self": {
-          "href": "/api/content/echotone/page/b9660f38-a5e1-4dda-b29c-3ebe42672945",
-          "method": "GET"
-        }
-      },
-      "created": "2025-01-29T12:41:37Z",
-      "createdBy": "subject:6798df7c5b784ee7b7cb52e1",
-      "data": {
-        "id": {
-          "iv": "inner-the-landscape"
-        },
-        "medias": {
-          "iv": [
-            {
-              "in": true,
-              "medias": [
-                "f4ca3db9-6301-4fd3-ba0d-4ccf9b4951af",
-                "23b57748-fd81-4dbc-8ce3-72628f72c1c3",
-                "869c0d71-3164-4df2-9810-19eb9397a4e9",
-                "82545d53-2385-4090-bfcd-d173aae57fb8",
-                "03869147-78d7-4aeb-877d-7532fbd6f0fd",
-                "ea68e14e-6aa5-4702-bd56-dbf079d5ca07",
-                "cd75922b-b667-4881-b9f1-0b142c2d9a72",
-                "ba9eb01e-d558-46ad-938a-93f1f5b1db0e",
-                "9d01f3d7-127d-4859-8e7b-8b9df1501c72",
-                "553e5766-2acb-4f6c-9cb5-a731075a5179",
-                "c4c0091d-376d-4105-ad08-aff9bbc5c393",
-                "51297029-7bf5-4447-8e5a-90df4e1d7cb0",
-                "5f0d4c81-6956-4520-aeec-1c586a68d02b",
-                "993bdae7-5e4b-4950-8359-9029eea5f2a2",
-                "a3ad9ced-9ccf-4791-b48b-69be8b1bdb2d"
-              ],
-              "schemaId": "1f4e3697-52bc-45d9-a7a8-65862c13ce4b",
-              "schemaName": "carousel"
-            }
-          ]
-        },
-        "unit": {
-          "en": {
-            "locations": [],
-            "schemaId": "2bd4ee39-8e6e-4128-9f08-a049cce49f23",
-            "schemaName": "unit",
-            "short": "Exposition r\u00E9trospective de Dorota Buczkowska",
-            "tags": [
-              "programmation"
-            ],
-            "temporal": [],
-            "text": "\u003Cp\u003EVisite de l\u2019exposition r\u00E9trospective de Dorota Buczkowska,\u0022 Inner the landscape \u0022 au Museum of Contemporary art of Wroclaw.\u003C/p\u003E\u003Cp\u003E\u003C/p\u003E",
-            "title": "\u0022Inner the Landscape\u0022"
-          },
-          "fr": {
-            "locations": [],
-            "schemaId": "2bd4ee39-8e6e-4128-9f08-a049cce49f23",
-            "schemaName": "unit",
-            "short": "Exposition r\u00E9trospective de Dorota Buczkowska",
-            "tags": [
-              "programmation"
-            ],
-            "temporal": [],
-            "text": "\u003Cp\u003EVisite de l\u2019exposition r\u00E9trospective de Dorota Buczkowska,\u0022 Inner the landscape \u0022 au Museum of Contemporary art of Wroclaw.\u003C/p\u003E\u003Cp\u003E\u003C/p\u003E",
-            "title": "\u0022Inner the Landscape\u0022"
-          }
-        }
-      },
-      "editToken": "eyJhIjoiZWNob3RvbmUiLCJzIjoicGFnZSIsImkiOiJiOTY2MGYzOC1hNWUxLTRkZGEtYjI5Yy0zZWJlNDI2NzI5NDUiLCJ1IjoiaHR0cHM6Ly9sYWFiLmRkbnMubmV0OjM4MDgwLyJ9",
-      "id": "b9660f38-a5e1-4dda-b29c-3ebe42672945",
-      "isDeleted": false,
-      "lastModified": "2025-03-02T11:07:09Z",
-      "lastModifiedBy": "subject:6798dad0167d31fb8ec7cc74",
-      "schemaDisplayName": "Page",
-      "schemaId": "d0379b0e-294e-4df6-9b2b-257b807b1467",
-      "schemaName": "page",
-      "status": "Published",
-      "statusColor": "#4bb958",
-      "version": 3
     },
     {
       "_links": {
