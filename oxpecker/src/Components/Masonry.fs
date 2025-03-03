@@ -65,13 +65,7 @@ module Masonry =
                 ) {
                 For(
                     each =
-                        (Seq.concat(
-                            seq {
-                                pages
-                                pages
-                                pages
-                            }
-                         )
+                        (Seq.concat(seq { pages })
                          |> List.ofSeq
                          |> makeMasonry (breakColumns[store.screenType]) (getMedias >> getHeight 400))
                 ) {
