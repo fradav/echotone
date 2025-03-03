@@ -29,8 +29,8 @@ module Gen =
     let options = JsonSerializerOptions(WriteIndented = true)
     options.Encoder <- System.Text.Encodings.Web.JavaScriptEncoder.UnsafeRelaxedJsonEscaping
 
-    let http = Conf.fsReadyHttp ()
-    let config = Conf.getConfig ()
+    let http = Conf.fsReadyHttp()
+    let config = Conf.getConfig()
     let appName = config["APP_NAME"]
     let s3Bucket = config["S3_BUCKET"]
 
@@ -66,7 +66,7 @@ module Gen =
     let getHashStream: Stream -> string = sha256.ComputeHash >> Convert.ToBase64String
 
     let getS3Client () =
-        let secret = Conf.loadSecret ()
+        let secret = Conf.loadSecret()
         let region = config["S3_REGION"]
 
         new AmazonS3Client(
@@ -139,18 +139,18 @@ module Gen =
             | Error _ -> Error "upload failed"
 
     let refreshS3links () =
-        let s3 = getS3Client ()
+        let s3 = getS3Client()
 
         Json.JsonSerializer.Deserialize<Map<string, string>>(Path.Combine(dataDir, "s3.json"))
-        |> Map.map (fun slug url ->
+        |> Map.map(fun slug url ->
             match getS3AssetUrl s3 slug with
             | Ok newUrl -> slug, newUrl
             | Error _ -> slug, url)
         |> Conf.Serialize Conf.jsonOptions
-        |> Conf.writeTextToFile (Path.Combine(dataDir, "s3.json"))
+        |> Conf.writeTextToFile(Path.Combine(dataDir, "s3.json"))
 
     let checkFile (asset: AssetsT.Item) =
-        if not (Directory.Exists(assetsDir)) then
+        if not(Directory.Exists(assetsDir)) then
             Directory.CreateDirectory(assetsDir) |> ignore
 
         let path = Path.Combine(assetsDir, asset.Slug)
@@ -170,12 +170,12 @@ module Gen =
         if asset.IsImage then
             let thumbnailPath = Path.Combine(thumbDir, asset.Slug)
 
-            if not (Directory.Exists(thumbDir)) then
+            if not(Directory.Exists(thumbDir)) then
                 Directory.CreateDirectory(thumbDir) |> ignore
 
             http {
                 GET href
-                query [ "width", "100"; "mode", "Max" ]
+                query [ "width", "400"; "mode", "Max" ]
             }
             |> Request.send
             |> Response.saveFile thumbnailPath
@@ -188,14 +188,14 @@ module Gen =
 
         // if asset exceeds 50MB, upload to S3
         if asset.FileSize > 50 * 1024 * 1024 then
-            let s3 = getS3Client ()
+            let s3 = getS3Client()
 
             match refreshOrUploadToS3 s3 asset with
             | Ok url ->
                 printfn "Uploaded %s to %s" asset.Slug url
                 Some url
             | Error msg -> printfn "Failed to upload %s: %s" asset.Slug msg |> Unit
-        else if not (checkFile asset) then
+        else if not(checkFile asset) then
             downloadAsset asset |> Unit
         else
             printfn "Already up-to-date %s" asset.Slug |> Unit
@@ -209,7 +209,7 @@ module Gen =
         AssetsT.GetSample().Items
         |> Seq.fold refreshAsset mapS3
         |> Conf.Serialize Conf.jsonOptions
-        |> Conf.writeTextToFile (Path.Combine(dataDir, "s3.json"))
+        |> Conf.writeTextToFile(Path.Combine(dataDir, "s3.json"))
 
         let fromSite = AssetsT.GetSample().Items |> Seq.map _.Slug |> Set.ofSeq
 
@@ -217,7 +217,7 @@ module Gen =
             Directory.GetFiles(assetsDir) |> Array.map Path.GetFileName |> Set.ofArray
 
         fromDisk - fromSite
-        |> Set.iter (fun slug ->
+        |> Set.iter(fun slug ->
             printfn "Deleting obsolete asset %s" slug
             File.Delete(Path.Combine(assetsDir, slug)))
 
@@ -228,6 +228,6 @@ module Gen =
             Directory.GetFiles(thumbDir) |> Array.map Path.GetFileName |> Set.ofArray
 
         fromDiskImages - fromSiteImages
-        |> Set.iter (fun slug ->
+        |> Set.iter(fun slug ->
             printfn "Deleting obsolete thumbnail %s" slug
             File.Delete(Path.Combine(thumbDir, slug)))

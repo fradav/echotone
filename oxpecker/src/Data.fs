@@ -2,6 +2,9 @@ module Data
 
 open Fable.JsonProvider
 open Fable.Core
+open Oxpecker.Solid
+open Browser
+open Browser.Types
 
 [<Literal>]
 let assetsJsonPath = __SOURCE_DIRECTORY__ + "/../../data/assets.json"
@@ -136,3 +139,55 @@ let navItems =
             cmstag = "contact"
         }
     ]
+
+type Sponsor = {
+    name: string
+    url: string
+    src: string
+}
+
+let sponsorsLogos =
+    assetsJson.items
+    |> Seq.filter(fun x -> x.tags |> Seq.contains "sponsor")
+    |> Seq.sortBy(fun x -> x.metadata.ordre)
+    |> Seq.map(fun x -> {
+        name = x.metadata.nom
+        src = "medias/" + x.slug
+        url = x.metadata.url
+    })
+
+
+
+type Breakpoint =
+    | Xs
+    | Sm
+    | Md
+    | Lg
+    | Xl
+    | Xxl
+
+let store, setStore = createStore {| scrolled = 0.; screenType = Xl |}
+
+let breakWidth = [| 640; 768; 1024; 1280; 1536 |]
+
+let breakColumns = Map [ Xs, 1; Sm, 1; Md, 2; Lg, 3; Xl, 3; Xxl, 4 ]
+
+let breakQueries =
+    seq {
+        yield Xs, $"(max-width: {breakWidth[0] - 1}px)"
+        for i in 0 .. (breakWidth.Length - 2) do
+            let brekppoint = breakColumns.Keys |> Seq.item i
+            yield brekppoint, $"(min-width: {breakWidth[i]}px) and (max-width: {breakWidth.[i + 1] - 1}px)"
+        yield Xxl, $"(min-width: {breakWidth.[breakWidth.Length - 1]}px)"
+    }
+
+printfn "breakQueries: %A" (List.ofSeq breakQueries)
+
+let observer =
+    IntersectionObserver.Create(fun entries _ ->
+        for entry in entries do
+            if entry.isIntersecting then
+                printfn "entry intersecting: %A" entry
+                (entry.target :?> HTMLElement).classList.remove("vignette-invisible")
+            else
+                (entry.target :?> HTMLElement).classList.add("vignette-invisible"))

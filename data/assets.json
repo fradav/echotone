@@ -21,66 +21,134 @@
     {
       "_links": {
         "content": {
-          "href": "/api/assets/echotone/f5e5f4e3-ae13-42d3-ab4f-5bc13e974afb/logo-occitanie.svg",
+          "href": "/api/assets/echotone/e39cf55b-a71a-4876-aa54-e9bc62925637/logo-drac-occitanie.svg",
           "method": "GET"
         },
         "content/slug": {
-          "href": "/api/assets/echotone/logo-occitanie.svg",
+          "href": "/api/assets/echotone/logo-drac-occitanie.svg",
           "method": "GET"
         },
         "delete": {
-          "href": "/api/apps/echotone/assets/f5e5f4e3-ae13-42d3-ab4f-5bc13e974afb",
+          "href": "/api/apps/echotone/assets/e39cf55b-a71a-4876-aa54-e9bc62925637",
           "method": "DELETE"
         },
         "move": {
-          "href": "/api/apps/echotone/assets/f5e5f4e3-ae13-42d3-ab4f-5bc13e974afb/parent",
+          "href": "/api/apps/echotone/assets/e39cf55b-a71a-4876-aa54-e9bc62925637/parent",
           "method": "PUT"
         },
         "self": {
-          "href": "/api/apps/echotone/assets/f5e5f4e3-ae13-42d3-ab4f-5bc13e974afb",
+          "href": "/api/apps/echotone/assets/e39cf55b-a71a-4876-aa54-e9bc62925637",
           "method": "GET"
         },
         "update": {
-          "href": "/api/apps/echotone/assets/f5e5f4e3-ae13-42d3-ab4f-5bc13e974afb",
+          "href": "/api/apps/echotone/assets/e39cf55b-a71a-4876-aa54-e9bc62925637",
           "method": "PUT"
         },
         "upload": {
-          "href": "/api/apps/echotone/assets/f5e5f4e3-ae13-42d3-ab4f-5bc13e974afb/content",
+          "href": "/api/apps/echotone/assets/e39cf55b-a71a-4876-aa54-e9bc62925637/content",
           "method": "PUT"
         }
       },
-      "created": "2025-02-08T14:40:49Z",
+      "created": "2025-03-01T13:39:17Z",
       "createdBy": "subject:6798dad0167d31fb8ec7cc74",
-      "editToken": "eyJhIjoiZWNob3RvbmUiLCJpIjoiZjVlNWY0ZTMtYWUxMy00MmQzLWFiNGYtNWJjMTNlOTc0YWZiIiwidSI6Imh0dHBzOi8vbGFhYi5kZG5zLm5ldDozODA4MC8ifQ==",
-      "fileHash": "tzncNNIs0vYNT0j50p/g69guTmWQ2rwoZQ513jKJ2qY=",
-      "fileName": "logo-occitanie.svg",
-      "fileSize": 9804,
+      "editToken": "eyJhIjoiZWNob3RvbmUiLCJpIjoiZTM5Y2Y1NWItYTcxYS00ODc2LWFhNTQtZTliYzYyOTI1NjM3IiwidSI6Imh0dHBzOi8vbGFhYi5kZG5zLm5ldDozODA4MC8ifQ==",
+      "fileHash": "PeIWa7nQxkmqhJ1WnfOzc9neF3RGHq8GFEx9YN\u002B0zpY=",
+      "fileName": "logo-drac-occitanie.svg",
+      "fileSize": 33176,
       "fileType": "svg",
-      "fileVersion": 0,
-      "id": "f5e5f4e3-ae13-42d3-ab4f-5bc13e974afb",
+      "fileVersion": 1,
+      "id": "e39cf55b-a71a-4876-aa54-e9bc62925637",
       "isImage": false,
       "isProtected": false,
-      "lastModified": "2025-02-08T14:40:49Z",
+      "lastModified": "2025-03-03T17:08:55Z",
       "lastModifiedBy": "subject:6798dad0167d31fb8ec7cc74",
       "metadata": {
-        "pixelHeight": 800,
-        "pixelWidth": 800,
-        "svgHeight": 800,
-        "svgWidth": 800,
-        "viewBox": "0 0 1700.8 800"
+        "nom": "Drac Occitanie",
+        "ordre": 1,
+        "pixelHeight": 978.64398,
+        "pixelWidth": 1062.3533,
+        "url": "https://www.culture.gouv.fr/regions/drac-occitanie",
+        "viewBox": "0 0 1062.3533 978.64398"
       },
-      "metadataText": "800x800, 9.6 kB",
+      "metadataText": "32.4 kB",
       "mimeType": "image/svg\u002Bxml",
-      "parentId": "3008632b-aa20-4178-9b8c-69a75f19a6e9",
-      "pixelHeight": 800,
-      "pixelWidth": 800,
-      "slug": "logo-occitanie.svg",
+      "parentId": "9ee55404-8be4-44f7-95f6-9d4a31acf2c2",
+      "pixelHeight": 978,
+      "pixelWidth": 1062,
+      "slug": "logo-drac-occitanie.svg",
       "tags": [
         "type/svg",
-        "image"
+        "image",
+        "sponsor"
       ],
       "type": "Unknown",
-      "version": 0
+      "version": 7
+    },
+    {
+      "_links": {
+        "content": {
+          "href": "/api/assets/echotone/c27c77b8-b999-4fc5-959a-e5461cf636e0/logo-de-partement-he-rault.svg",
+          "method": "GET"
+        },
+        "content/slug": {
+          "href": "/api/assets/echotone/logo-de-partement-he-rault.svg",
+          "method": "GET"
+        },
+        "delete": {
+          "href": "/api/apps/echotone/assets/c27c77b8-b999-4fc5-959a-e5461cf636e0",
+          "method": "DELETE"
+        },
+        "move": {
+          "href": "/api/apps/echotone/assets/c27c77b8-b999-4fc5-959a-e5461cf636e0/parent",
+          "method": "PUT"
+        },
+        "self": {
+          "href": "/api/apps/echotone/assets/c27c77b8-b999-4fc5-959a-e5461cf636e0",
+          "method": "GET"
+        },
+        "update": {
+          "href": "/api/apps/echotone/assets/c27c77b8-b999-4fc5-959a-e5461cf636e0",
+          "method": "PUT"
+        },
+        "upload": {
+          "href": "/api/apps/echotone/assets/c27c77b8-b999-4fc5-959a-e5461cf636e0/content",
+          "method": "PUT"
+        }
+      },
+      "created": "2025-03-02T00:39:10Z",
+      "createdBy": "subject:6798dad0167d31fb8ec7cc74",
+      "editToken": "eyJhIjoiZWNob3RvbmUiLCJpIjoiYzI3Yzc3YjgtYjk5OS00ZmM1LTk1OWEtZTU0NjFjZjYzNmUwIiwidSI6Imh0dHBzOi8vbGFhYi5kZG5zLm5ldDozODA4MC8ifQ==",
+      "fileHash": "e5V8X25oSb39HDbvH10fjKPTq5ni3bOMfbnv7AJ6JQ8=",
+      "fileName": "logo-de\u0301partement-he\u0301rault.svg",
+      "fileSize": 24982,
+      "fileType": "svg",
+      "fileVersion": 0,
+      "id": "c27c77b8-b999-4fc5-959a-e5461cf636e0",
+      "isImage": false,
+      "isProtected": false,
+      "lastModified": "2025-03-02T00:42:02Z",
+      "lastModifiedBy": "subject:6798dad0167d31fb8ec7cc74",
+      "metadata": {
+        "nom": "D\u00E9partement de l\u2019H\u00E9rault",
+        "ordre": 3,
+        "pixelHeight": 512,
+        "pixelWidth": 512,
+        "url": "https://herault.fr/",
+        "viewBox": "0 0 238.11 238.11"
+      },
+      "metadataText": "24.4 kB",
+      "mimeType": "image/svg\u002Bxml",
+      "parentId": "9ee55404-8be4-44f7-95f6-9d4a31acf2c2",
+      "pixelHeight": 512,
+      "pixelWidth": 512,
+      "slug": "logo-de-partement-he-rault.svg",
+      "tags": [
+        "type/svg",
+        "image",
+        "sponsor"
+      ],
+      "type": "Unknown",
+      "version": 1
     },
     {
       "_links": {
@@ -124,90 +192,99 @@
       "id": "046538cf-3917-4143-a225-260c699fa081",
       "isImage": true,
       "isProtected": false,
-      "lastModified": "2025-02-08T14:13:50Z",
+      "lastModified": "2025-03-02T00:38:54Z",
       "lastModifiedBy": "subject:6798dad0167d31fb8ec7cc74",
       "metadata": {
         "description": "JFIF File",
         "imageQuality": 98,
+        "nom": "Ville de Ganges",
+        "ordre": 4,
         "pixelHeight": 260,
-        "pixelWidth": 260
+        "pixelWidth": 260,
+        "url": "https://ganges.fr/"
       },
       "metadataText": "260x260px, 20.6 kB",
       "mimeType": "image/jpeg",
-      "parentId": "3008632b-aa20-4178-9b8c-69a75f19a6e9",
+      "parentId": "9ee55404-8be4-44f7-95f6-9d4a31acf2c2",
       "pixelHeight": 260,
       "pixelWidth": 260,
       "slug": "logo-ganges.jpg",
       "tags": [
         "type/jpg",
         "image",
-        "image/small"
+        "image/small",
+        "sponsor"
       ],
       "type": "Image",
-      "version": 0
+      "version": 4
     },
     {
       "_links": {
         "content": {
-          "href": "/api/assets/echotone/cb8fdd55-c38b-4852-9ccc-e45d8fa6e0bb/logo-drac-occitanie.png",
+          "href": "/api/assets/echotone/f5e5f4e3-ae13-42d3-ab4f-5bc13e974afb/logo-occitanie.svg",
           "method": "GET"
         },
         "content/slug": {
-          "href": "/api/assets/echotone/logo-drac-occitanie.png",
+          "href": "/api/assets/echotone/logo-occitanie.svg",
           "method": "GET"
         },
         "delete": {
-          "href": "/api/apps/echotone/assets/cb8fdd55-c38b-4852-9ccc-e45d8fa6e0bb",
+          "href": "/api/apps/echotone/assets/f5e5f4e3-ae13-42d3-ab4f-5bc13e974afb",
           "method": "DELETE"
         },
         "move": {
-          "href": "/api/apps/echotone/assets/cb8fdd55-c38b-4852-9ccc-e45d8fa6e0bb/parent",
+          "href": "/api/apps/echotone/assets/f5e5f4e3-ae13-42d3-ab4f-5bc13e974afb/parent",
           "method": "PUT"
         },
         "self": {
-          "href": "/api/apps/echotone/assets/cb8fdd55-c38b-4852-9ccc-e45d8fa6e0bb",
+          "href": "/api/apps/echotone/assets/f5e5f4e3-ae13-42d3-ab4f-5bc13e974afb",
           "method": "GET"
         },
         "update": {
-          "href": "/api/apps/echotone/assets/cb8fdd55-c38b-4852-9ccc-e45d8fa6e0bb",
+          "href": "/api/apps/echotone/assets/f5e5f4e3-ae13-42d3-ab4f-5bc13e974afb",
           "method": "PUT"
         },
         "upload": {
-          "href": "/api/apps/echotone/assets/cb8fdd55-c38b-4852-9ccc-e45d8fa6e0bb/content",
+          "href": "/api/apps/echotone/assets/f5e5f4e3-ae13-42d3-ab4f-5bc13e974afb/content",
           "method": "PUT"
         }
       },
-      "created": "2025-02-08T14:13:50Z",
+      "created": "2025-02-08T14:40:49Z",
       "createdBy": "subject:6798dad0167d31fb8ec7cc74",
-      "editToken": "eyJhIjoiZWNob3RvbmUiLCJpIjoiY2I4ZmRkNTUtYzM4Yi00ODUyLTljY2MtZTQ1ZDhmYTZlMGJiIiwidSI6Imh0dHBzOi8vbGFhYi5kZG5zLm5ldDozODA4MC8ifQ==",
-      "fileHash": "vsufQDD7/Bi1nTl6vlF91Y4SGhs6SbvU3Yh4STn2Ryc=",
-      "fileName": "logo-drac-occitanie.png",
-      "fileSize": 65346,
-      "fileType": "png",
+      "editToken": "eyJhIjoiZWNob3RvbmUiLCJpIjoiZjVlNWY0ZTMtYWUxMy00MmQzLWFiNGYtNWJjMTNlOTc0YWZiIiwidSI6Imh0dHBzOi8vbGFhYi5kZG5zLm5ldDozODA4MC8ifQ==",
+      "fileHash": "tzncNNIs0vYNT0j50p/g69guTmWQ2rwoZQ513jKJ2qY=",
+      "fileName": "logo-occitanie.svg",
+      "fileSize": 9804,
+      "fileType": "svg",
       "fileVersion": 0,
-      "id": "cb8fdd55-c38b-4852-9ccc-e45d8fa6e0bb",
-      "isImage": true,
+      "id": "f5e5f4e3-ae13-42d3-ab4f-5bc13e974afb",
+      "isImage": false,
       "isProtected": false,
-      "lastModified": "2025-02-08T14:13:50Z",
+      "lastModified": "2025-03-01T19:01:52Z",
       "lastModifiedBy": "subject:6798dad0167d31fb8ec7cc74",
       "metadata": {
-        "description": "PNG File",
-        "pixelHeight": 140,
-        "pixelWidth": 360
+        "nom": "La R\u00E9gion Occitanie",
+        "ordre": 2,
+        "pixelHeight": 800,
+        "pixelWidth": 800,
+        "svgHeight": 800,
+        "svgWidth": 800,
+        "url": "https://www.laregion.fr/",
+        "viewBox": "0 0 1700.8 800"
       },
-      "metadataText": "360x140px, 63.8 kB",
-      "mimeType": "image/png",
-      "parentId": "3008632b-aa20-4178-9b8c-69a75f19a6e9",
-      "pixelHeight": 140,
-      "pixelWidth": 360,
-      "slug": "logo-drac-occitanie.png",
+      "metadataText": "800x800, 9.6 kB",
+      "mimeType": "image/svg\u002Bxml",
+      "parentId": "9ee55404-8be4-44f7-95f6-9d4a31acf2c2",
+      "pixelHeight": 800,
+      "pixelWidth": 800,
+      "slug": "logo-occitanie.svg",
       "tags": [
-        "type/png",
+        "type/svg",
         "image",
-        "image/small"
+        "sponsor"
       ],
-      "type": "Image",
-      "version": 0
+      "type": "Unknown",
+      "version": 2
     },
     {
       "_links": {
@@ -2608,5 +2685,5 @@
       "version": 0
     }
   ],
-  "total": 40
+  "total": 41
 }

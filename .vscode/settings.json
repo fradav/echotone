@@ -12,7 +12,7 @@
         "*.css": "tailwindcss"
     },
     "[tailwindcss]": {
-        "editor.defaultFormatter": "bradlc.vscode-tailwindcss",
+        "editor.defaultFormatter": "numso.prettier-standard-vscode",
         "editor.formatOnSave": true
     },
 }

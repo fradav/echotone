@@ -2,16 +2,16 @@
 
 open Oxpecker.Solid
 open Oxpecker.Solid.Router
+open Oxpecker.Solid.Meta
 
 open Fable.Core.JsInterop
 open Browser
 
-open Oxpecker.Solid.Meta
 
 open Data
 open App
 
-importSideEffects "../index.css"
+// importSideEffects "../index.css"
 
 [<SolidComponent>]
 let taggedRoute (tag: Tag) =
@@ -41,7 +41,9 @@ let slugToTag (slug: string) =
         | _ -> "/"
 
     try
-        navItems |> Map.pick(fun k v -> if v.slug = rewriteSlug then Some k else None)
+        let path = rewriteSlug.Split("/")
+        printfn "path: %s" path[1]
+        navItems |> Map.pick(fun k v -> if v.slug = "/" + path[1] then Some k else None)
     with _ ->
         printfn "failed to get %s" slug
         Tag.Accueil
@@ -49,7 +51,7 @@ let slugToTag (slug: string) =
 let tagToTitle (tag: Tag) = navItems[tag].title
 
 [<SolidComponent>]
-let Layout (rootprops: RootProps) : HtmlElement =
+let Layout (props: RootProps) : HtmlElement =
     let location = useLocation()
     let navigate = useNavigate()
     let currentTag, setCurrentTag = createSignal Tag.Accueil
@@ -65,7 +67,7 @@ let Layout (rootprops: RootProps) : HtmlElement =
     Fragment() {
         Base(href = addedTrailingSlash)
         Title() { $"Échotone / {currentTag() |> tagToTitle}" }
-        rootprops.children
+        Suspense(fallback = (p() { "Loading…" })) { props.children }
     }
 
 
@@ -81,6 +83,7 @@ let appRouter () =
             taggedRoute Tag.Boutique
             Route(path = "/about", component' = App AboutP)
             Route(path = "/contact", component' = App ContactP)
+            Route(path = "/:tag/:slug", component' = App getPage)
             // Add a catch-all route
             Route(path = "*", component' = NotFound)
         }

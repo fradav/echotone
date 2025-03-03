@@ -30,4 +30,5 @@ group Solid
     nuget Fable.Browser.Dom
     nuget Fable.JsonProvider
     nuget Fable.Browser.MediaQueryList
+    nuget Fable.Browser.IntersectionObserver prerelease
     nuget Oxpecker.Solid

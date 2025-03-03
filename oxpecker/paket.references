@@ -4,3 +4,4 @@ group Solid
     Oxpecker.Solid
     Fable.JsonProvider
     Fable.Browser.MediaQueryList
+    Fable.Browser.IntersectionObserver

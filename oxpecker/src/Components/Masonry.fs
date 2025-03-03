@@ -1,44 +1,19 @@
 namespace Components
 
-open Browser.Dom
-open Browser.MediaQueryListExtensions
-
 open Oxpecker.Solid
+open Oxpecker.Solid.Router
+open Data
+open Browser.Types
+open Browser
+open Fable.Core
 
 [<AutoOpen>]
 module Masonry =
     let private classes = {|
-        masonry = "grid gap-4"
-        masonryColumn = "grid gap-10 place-self-center h-full"
+        // masonry = "mx-auto flex gap-10 justify-center mb-30"
+        // masonryColumn = "flex flex-col flex-nowrap gap-8"
+        masonry = "gap-10 duration-1000 ease-in-out"
     |}
-
-    type Breakpoint = { query: string; columns: int }
-    let private masonryBreakpoints = [|
-        {
-            query = "(min-width: 1920px)"
-            columns = 4
-        }
-        {
-            query = "(min-width: 1536px)"
-            columns = 3
-        }
-        {
-            query = "(min-width: 1280px) and (max-width: 1536px)"
-            columns = 3
-        }
-        {
-            query = "(min-width: 1024px) and (max-width: 1280px)"
-            columns = 2
-        }
-        {
-            query = "(min-width: 768px) and (max-width: 1024px)"
-            columns = 2
-        }
-        {
-            query = "(max-width: 768px)"
-            columns = 1
-        }
-    |]
 
     let makeMasonry<'T> (cols: int) (getH: 'T -> int) (l: 'T list) =
         List.fold
@@ -51,33 +26,56 @@ module Masonry =
             (Array.zeroCreate cols, Array.create cols [])
             l
         |> snd
-        |> Array.map List.rev
+        // |> Array.map List.rev
+        |> Array.collect(List.rev >> List.toArray)
+
+    // [<SolidComponent>]
+    // let Masonry (pages: Data.PagesT.Items seq) : HtmlElement =
+    //     div(class' = classes.masonry) {
+    //         For(
+    //             each =
+    //                 (pages
+    //                  |> List.ofSeq
+    //                  |> makeMasonry (breakColumns[store.screenType]) (getMedias >> getHeight 400))
+    //         ) {
+    //             yield
+    //                 fun col index ->
+    //                     div(class' = classes.masonryColumn) {
+    //                         For(each = Array.ofList col) {
+    //                             yield fun page index -> A(href = page.data.id.iv) { Vignette 300 page }
+    //                         }
+    //                     }
+    //         }
+    //     }
+
 
     [<SolidComponent>]
     let Masonry (pages: Data.PagesT.Items seq) : HtmlElement =
-        let columns, setColumns = createSignal 3
+        // Return a cleanup function for when the element is removed
 
-        createEffect(fun () -> printfn "Masonry columns: %i" (columns()))
-        onMount(fun () ->
-            masonryBreakpoints
-            |> Array.iter(fun { query = query; columns = columns } ->
-                let mql = window.matchMedia(query)
-                if mql.matches then
-                    setColumns columns
-                mql.addEventListener("change", fun _ -> setColumns columns)))
-
-        // let masonryExemple =
-        //     [ 49; 378; 204; 398; 150; 400; 329; 90; 329; 500; 988; 200 ]
-        //     |> List.ofSeq
-        //     |> makeMasonry 4 id
-        //     |> printfn "%A"
-
-        div(class' = classes.masonry, style = $"grid-template-columns: repeat({columns()}, minmax(0, 1fr))") {
-            For(each = (pages |> List.ofSeq |> makeMasonry (columns()) (getMedias >> getHeight 400))) {
-                yield
-                    fun col index ->
-                        div(class' = classes.masonryColumn) {
-                            For(each = Array.ofList col) { yield fun page index -> Cover 400 page }
-                        }
+        div(class' = "flex items-center justify-center") {
+            div(class' = classes.masonry)
+                .classList(
+                    {|
+                        ``columns-1`` = breakColumns[store.screenType] = 1
+                        ``columns-2`` = breakColumns[store.screenType] = 2
+                        ``columns-3`` = breakColumns[store.screenType] = 3
+                        ``columns-4`` = breakColumns[store.screenType] = 4
+                    |}
+                ) {
+                For(
+                    each =
+                        (Seq.concat(
+                            seq {
+                                pages
+                                pages
+                                pages
+                            }
+                         )
+                         |> List.ofSeq
+                         |> makeMasonry (breakColumns[store.screenType]) (getMedias >> getHeight 400))
+                ) {
+                    yield fun page index -> A(href = page.data.id.iv) { Vignette 350 page }
+                }
             }
         }

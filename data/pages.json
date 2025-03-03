@@ -25,7 +25,7 @@
           "method": "POST"
         },
         "previous": {
-          "href": "/api/content/echotone/page/702fbd2b-1312-4ebd-b348-cc963c16ea7f/4",
+          "href": "/api/content/echotone/page/702fbd2b-1312-4ebd-b348-cc963c16ea7f/10",
           "method": "GET"
         },
         "self": {
@@ -37,22 +37,22 @@
       "createdBy": "subject:6798df7c5b784ee7b7cb52e1",
       "data": {
         "id": {
-          "iv": null
+          "iv": "inauguration-d-echotone"
         },
         "medias": {
           "iv": [
             {
               "in": true,
               "medias": [
-                "0cd504ab-b973-4216-9a73-83b6a487e988",
-                "d0350086-80cc-4708-b10b-0b59061e21e7",
-                "856102d1-0db2-4c07-baf7-d2425ffd4a52",
                 "ac06c5dc-1e70-4075-98c9-65ed4225b68e",
-                "1829f3b6-85c6-48f8-a20d-324ba4ea9599",
-                "dd880b05-f435-432f-98b7-9890aecf681a",
-                "fbc048ba-53d2-4951-80cd-48a38d2a08d8",
                 "7859c212-a7e7-4200-92a1-ac292cc67e78",
                 "c7b47afc-f9d7-4348-94cd-f6f8e78de0ec",
+                "d0350086-80cc-4708-b10b-0b59061e21e7",
+                "1829f3b6-85c6-48f8-a20d-324ba4ea9599",
+                "fbc048ba-53d2-4951-80cd-48a38d2a08d8",
+                "0cd504ab-b973-4216-9a73-83b6a487e988",
+                "856102d1-0db2-4c07-baf7-d2425ffd4a52",
+                "dd880b05-f435-432f-98b7-9890aecf681a",
                 "13810421-d0ad-4ed4-8289-80a48f8a942d"
               ],
               "schemaId": "1f4e3697-52bc-45d9-a7a8-65862c13ce4b",
@@ -60,7 +60,10 @@
             },
             {
               "in": null,
-              "medias": null,
+              "medias": [
+                "08261a14-63a2-442b-bbe6-bd009bc5eb8a",
+                "0e1213c4-45ee-4bd5-9ef8-92c45afbfaff"
+              ],
               "schemaId": "1f4e3697-52bc-45d9-a7a8-65862c13ce4b",
               "schemaName": "carousel"
             }
@@ -96,14 +99,14 @@
       "editToken": "eyJhIjoiZWNob3RvbmUiLCJzIjoicGFnZSIsImkiOiI3MDJmYmQyYi0xMzEyLTRlYmQtYjM0OC1jYzk2M2MxNmVhN2YiLCJ1IjoiaHR0cHM6Ly9sYWFiLmRkbnMubmV0OjM4MDgwLyJ9",
       "id": "702fbd2b-1312-4ebd-b348-cc963c16ea7f",
       "isDeleted": false,
-      "lastModified": "2025-02-01T11:11:46Z",
-      "lastModifiedBy": "subject:6798df7c5b784ee7b7cb52e1",
+      "lastModified": "2025-03-02T11:15:41Z",
+      "lastModifiedBy": "subject:6798dad0167d31fb8ec7cc74",
       "schemaDisplayName": "Page",
       "schemaId": "d0379b0e-294e-4df6-9b2b-257b807b1467",
       "schemaName": "page",
       "status": "Published",
       "statusColor": "#4bb958",
-      "version": 5
+      "version": 11
     },
     {
       "_links": {
@@ -116,7 +119,7 @@
           "method": "POST"
         },
         "previous": {
-          "href": "/api/content/echotone/page/2698e069-8dac-48f7-a6ce-ba43f3b35613/0",
+          "href": "/api/content/echotone/page/2698e069-8dac-48f7-a6ce-ba43f3b35613/2",
           "method": "GET"
         },
         "self": {
@@ -128,7 +131,7 @@
       "createdBy": "subject:6798df7c5b784ee7b7cb52e1",
       "data": {
         "id": {
-          "iv": null
+          "iv": "master-miashs"
         },
         "medias": {
           "iv": []
@@ -143,8 +146,8 @@
               "programmation"
             ],
             "temporal": [],
-            "text": "\u003Cp\u003EDans le cadre d\u0027un TER (travaux d\u0027\u00E9tudes et de recherches) est exp\u00E9riment\u00E9 une nouvelle m\u00E9thodologie d\u2019enrichissement des donn\u00E9es textuelles pour d\u00E9couvrir des relations s\u00E9mantiques entre les \u003Cem\u003Eartist-run spaces\u003C/em\u003E et des axes de repr\u00E9sentation pour des visualisations interactives. \u003Cbr\u003E\u003Cbr\u003ESur l\u0027ann\u00E9e ce sont 5 \u00E9tudiants en master1 MIASCHS ((Math\u00E9matiques et Informatiques Appliqu\u00E9es aux Sciences Humaines et Sociales, UFR6) \u00E0 l\u0027Universit\u00E9 Paul Valery qui travaillent sur les donn\u00E9es du site \u003Ca href=\u0022//artist-run-spaces.org\u0022 rel=\u0022noopener noreferrer nofollow\u0022 data-link-auto=\u0022\u0022\u003E\u003Cstrong\u003Eartist-run-spaces.org\u003C/strong\u003E\u003C/a\u003E. \u003Cbr\u003E\u003Cbr\u003EEncadrants Fran\u00E7ois-David Collin, ing\u00E9nieur de recherche au CNRS \u00E0 l\u0027institut de Math\u00E9matique Alexander Grothendieck et expert domaine : Sabrina Issa, artiste chercheur, fondatrice de l\u0027initiative artist-run-spaces.org.\u003C/p\u003E\u003Cp\u003E\u003Ca href=\u0022https://www.facebook.com/hashtag/artistrunspace?__eep__=6\u0026amp;__cft__[0]=AZWmTt4tkjK2UHSwcUAAZDaySLzLmjmkMwklidnaViRxD2ANUK85T46CeZyIocK76DgQRF-vgkC-yjYWUvmW1sSfktzh-Pkc7Hxj4omn6Zxqb0LGh1UxpidzGjD9j2MsSF6njAcHZH_P2if4cWycorEP\u0026amp;__tn__=*NK-R\u0022 rel=\u0022noopener noreferrer nofollow\u0022\u003E\u003Cstrong\u003E#artistrunspace\u003C/strong\u003E\u003C/a\u003E \u003Ca href=\u0022https://www.facebook.com/hashtag/artistrun?__eep__=6\u0026amp;__cft__[0]=AZWmTt4tkjK2UHSwcUAAZDaySLzLmjmkMwklidnaViRxD2ANUK85T46CeZyIocK76DgQRF-vgkC-yjYWUvmW1sSfktzh-Pkc7Hxj4omn6Zxqb0LGh1UxpidzGjD9j2MsSF6njAcHZH_P2if4cWycorEP\u0026amp;__tn__=*NK-R\u0022 rel=\u0022noopener noreferrer nofollow\u0022\u003E\u003Cstrong\u003E#artistrun\u003C/strong\u003E\u003C/a\u003E\u003Cstrong\u003E\u003Cbr\u003E\u003C/strong\u003E\u003Ca href=\u0022https://www.facebook.com/hashtag/miaschs?__eep__=6\u0026amp;__cft__[0]=AZWmTt4tkjK2UHSwcUAAZDaySLzLmjmkMwklidnaViRxD2ANUK85T46CeZyIocK76DgQRF-vgkC-yjYWUvmW1sSfktzh-Pkc7Hxj4omn6Zxqb0LGh1UxpidzGjD9j2MsSF6njAcHZH_P2if4cWycorEP\u0026amp;__tn__=*NK-R\u0022 rel=\u0022noopener noreferrer nofollow\u0022\u003E\u003Cstrong\u003E#miaschs\u003C/strong\u003E\u003C/a\u003E\u003C/p\u003E",
-            "title": "Master MIASCHS"
+            "text": "\u003Cp\u003EDans le cadre d\u0027un TER (travaux d\u0027\u00E9tudes et de recherches) est exp\u00E9riment\u00E9 une nouvelle m\u00E9thodologie d\u2019enrichissement des donn\u00E9es textuelles pour d\u00E9couvrir des relations s\u00E9mantiques entre les \u003Cem\u003Eartist-run spaces\u003C/em\u003E et des axes de repr\u00E9sentation pour des visualisations interactives. \u003Cbr\u003E\u003Cbr\u003ESur l\u0027ann\u00E9e ce sont 5 \u00E9tudiants en master1 MIASHS ((Math\u00E9matiques et Informatiques Appliqu\u00E9es aux Sciences Humaines et Sociales, UFR6) \u00E0 l\u0027Universit\u00E9 Paul Valery qui travaillent sur les donn\u00E9es du site \u003Ca href=\u0022//artist-run-spaces.org\u0022 rel=\u0022noopener noreferrer nofollow\u0022 data-link-auto=\u0022\u0022\u003E\u003Cstrong\u003Eartist-run-spaces.org\u003C/strong\u003E\u003C/a\u003E. \u003Cbr\u003E\u003Cbr\u003EEncadrants Fran\u00E7ois-David Collin, ing\u00E9nieur de recherche au CNRS \u00E0 l\u0027institut de Math\u00E9matique Alexander Grothendieck et expert domaine : Sabrina Issa, artiste chercheur, fondatrice de l\u0027initiative artist-run-spaces.org.\u003C/p\u003E\u003Cp\u003E\u003Ca href=\u0022https://www.facebook.com/hashtag/artistrunspace?__eep__=6\u0026amp;__cft__[0]=AZWmTt4tkjK2UHSwcUAAZDaySLzLmjmkMwklidnaViRxD2ANUK85T46CeZyIocK76DgQRF-vgkC-yjYWUvmW1sSfktzh-Pkc7Hxj4omn6Zxqb0LGh1UxpidzGjD9j2MsSF6njAcHZH_P2if4cWycorEP\u0026amp;__tn__=*NK-R\u0022 rel=\u0022noopener noreferrer nofollow\u0022\u003E\u003Cstrong\u003E#artistrunspace\u003C/strong\u003E\u003C/a\u003E \u003Ca href=\u0022https://www.facebook.com/hashtag/artistrun?__eep__=6\u0026amp;__cft__[0]=AZWmTt4tkjK2UHSwcUAAZDaySLzLmjmkMwklidnaViRxD2ANUK85T46CeZyIocK76DgQRF-vgkC-yjYWUvmW1sSfktzh-Pkc7Hxj4omn6Zxqb0LGh1UxpidzGjD9j2MsSF6njAcHZH_P2if4cWycorEP\u0026amp;__tn__=*NK-R\u0022 rel=\u0022noopener noreferrer nofollow\u0022\u003E\u003Cstrong\u003E#artistrun\u003C/strong\u003E\u003C/a\u003E\u003Cstrong\u003E\u003Cbr\u003E\u003C/strong\u003E\u003Ca href=\u0022https://www.facebook.com/hashtag/miaschs?__eep__=6\u0026amp;__cft__[0]=AZWmTt4tkjK2UHSwcUAAZDaySLzLmjmkMwklidnaViRxD2ANUK85T46CeZyIocK76DgQRF-vgkC-yjYWUvmW1sSfktzh-Pkc7Hxj4omn6Zxqb0LGh1UxpidzGjD9j2MsSF6njAcHZH_P2if4cWycorEP\u0026amp;__tn__=*NK-R\u0022 rel=\u0022noopener noreferrer nofollow\u0022\u003E\u003Cstrong\u003E#miashs\u003C/strong\u003E\u003C/a\u003E\u003C/p\u003E",
+            "title": "Master MIASHS"
           },
           "fr": {
             "locations": [],
@@ -155,22 +158,22 @@
               "programmation"
             ],
             "temporal": [],
-            "text": "\u003Cp\u003EDans le cadre d\u0027un TER (travaux d\u0027\u00E9tudes et de recherches) est exp\u00E9riment\u00E9 une nouvelle m\u00E9thodologie d\u2019enrichissement des donn\u00E9es textuelles pour d\u00E9couvrir des relations s\u00E9mantiques entre les \u003Cem\u003Eartist-run spaces\u003C/em\u003E et des axes de repr\u00E9sentation pour des visualisations interactives. \u003Cbr\u003E\u003Cbr\u003ESur l\u0027ann\u00E9e ce sont 5 \u00E9tudiants en master1 MIASCHS ((Math\u00E9matiques et Informatiques Appliqu\u00E9es aux Sciences Humaines et Sociales, UFR6) \u00E0 l\u0027Universit\u00E9 Paul Valery qui travaillent sur les donn\u00E9es du site \u003Ca href=\u0022//artist-run-spaces.org\u0022 rel=\u0022noopener noreferrer nofollow\u0022 data-link-auto=\u0022\u0022\u003E\u003Cstrong\u003Eartist-run-spaces.org\u003C/strong\u003E\u003C/a\u003E. \u003Cbr\u003E\u003Cbr\u003EEncadrants Fran\u00E7ois-David Collin, ing\u00E9nieur de recherche au CNRS \u00E0 l\u0027institut de Math\u00E9matique Alexander Grothendieck et expert domaine : Sabrina Issa, artiste chercheur, fondatrice de l\u0027initiative artist-run-spaces.org.\u003C/p\u003E\u003Cp\u003E\u003Ca href=\u0022https://www.facebook.com/hashtag/artistrunspace?__eep__=6\u0026amp;__cft__[0]=AZWmTt4tkjK2UHSwcUAAZDaySLzLmjmkMwklidnaViRxD2ANUK85T46CeZyIocK76DgQRF-vgkC-yjYWUvmW1sSfktzh-Pkc7Hxj4omn6Zxqb0LGh1UxpidzGjD9j2MsSF6njAcHZH_P2if4cWycorEP\u0026amp;__tn__=*NK-R\u0022 rel=\u0022noopener noreferrer nofollow\u0022\u003E\u003Cstrong\u003E#artistrunspace\u003C/strong\u003E\u003C/a\u003E \u003Ca href=\u0022https://www.facebook.com/hashtag/artistrun?__eep__=6\u0026amp;__cft__[0]=AZWmTt4tkjK2UHSwcUAAZDaySLzLmjmkMwklidnaViRxD2ANUK85T46CeZyIocK76DgQRF-vgkC-yjYWUvmW1sSfktzh-Pkc7Hxj4omn6Zxqb0LGh1UxpidzGjD9j2MsSF6njAcHZH_P2if4cWycorEP\u0026amp;__tn__=*NK-R\u0022 rel=\u0022noopener noreferrer nofollow\u0022\u003E\u003Cstrong\u003E#artistrun\u003C/strong\u003E\u003C/a\u003E\u003Cstrong\u003E\u003Cbr\u003E\u003C/strong\u003E\u003Ca href=\u0022https://www.facebook.com/hashtag/miaschs?__eep__=6\u0026amp;__cft__[0]=AZWmTt4tkjK2UHSwcUAAZDaySLzLmjmkMwklidnaViRxD2ANUK85T46CeZyIocK76DgQRF-vgkC-yjYWUvmW1sSfktzh-Pkc7Hxj4omn6Zxqb0LGh1UxpidzGjD9j2MsSF6njAcHZH_P2if4cWycorEP\u0026amp;__tn__=*NK-R\u0022 rel=\u0022noopener noreferrer nofollow\u0022\u003E\u003Cstrong\u003E#miaschs\u003C/strong\u003E\u003C/a\u003E\u003C/p\u003E",
-            "title": "Master MIASCHS"
+            "text": "\u003Cp\u003EDans le cadre d\u0027un TER (travaux d\u0027\u00E9tudes et de recherches) est exp\u00E9riment\u00E9 une nouvelle m\u00E9thodologie d\u2019enrichissement des donn\u00E9es textuelles pour d\u00E9couvrir des relations s\u00E9mantiques entre les \u003Cem\u003Eartist-run spaces\u003C/em\u003E et des axes de repr\u00E9sentation pour des visualisations interactives. \u003Cbr\u003E\u003Cbr\u003ESur l\u0027ann\u00E9e ce sont 5 \u00E9tudiants en master1 MIASHS ((Math\u00E9matiques et Informatiques Appliqu\u00E9es aux Sciences Humaines et Sociales, UFR6) \u00E0 l\u0027Universit\u00E9 Paul Valery qui travaillent sur les donn\u00E9es du site \u003Ca href=\u0022//artist-run-spaces.org\u0022 rel=\u0022noopener noreferrer nofollow\u0022 data-link-auto=\u0022\u0022\u003E\u003Cstrong\u003Eartist-run-spaces.org\u003C/strong\u003E\u003C/a\u003E. \u003Cbr\u003E\u003Cbr\u003EEncadrants Fran\u00E7ois-David Collin, ing\u00E9nieur de recherche au CNRS \u00E0 l\u0027institut de Math\u00E9matique Alexander Grothendieck et expert domaine : Sabrina Issa, artiste chercheur, fondatrice de l\u0027initiative artist-run-spaces.org.\u003C/p\u003E\u003Cp\u003E\u003Ca href=\u0022https://www.facebook.com/hashtag/artistrunspace?__eep__=6\u0026amp;__cft__[0]=AZWmTt4tkjK2UHSwcUAAZDaySLzLmjmkMwklidnaViRxD2ANUK85T46CeZyIocK76DgQRF-vgkC-yjYWUvmW1sSfktzh-Pkc7Hxj4omn6Zxqb0LGh1UxpidzGjD9j2MsSF6njAcHZH_P2if4cWycorEP\u0026amp;__tn__=*NK-R\u0022 rel=\u0022noopener noreferrer nofollow\u0022\u003E\u003Cstrong\u003E#artistrunspace\u003C/strong\u003E\u003C/a\u003E \u003Ca href=\u0022https://www.facebook.com/hashtag/artistrun?__eep__=6\u0026amp;__cft__[0]=AZWmTt4tkjK2UHSwcUAAZDaySLzLmjmkMwklidnaViRxD2ANUK85T46CeZyIocK76DgQRF-vgkC-yjYWUvmW1sSfktzh-Pkc7Hxj4omn6Zxqb0LGh1UxpidzGjD9j2MsSF6njAcHZH_P2if4cWycorEP\u0026amp;__tn__=*NK-R\u0022 rel=\u0022noopener noreferrer nofollow\u0022\u003E\u003Cstrong\u003E#artistrun\u003C/strong\u003E\u003C/a\u003E\u003Cstrong\u003E\u003Cbr\u003E\u003C/strong\u003E\u003Ca href=\u0022https://www.facebook.com/hashtag/miaschs?__eep__=6\u0026amp;__cft__[0]=AZWmTt4tkjK2UHSwcUAAZDaySLzLmjmkMwklidnaViRxD2ANUK85T46CeZyIocK76DgQRF-vgkC-yjYWUvmW1sSfktzh-Pkc7Hxj4omn6Zxqb0LGh1UxpidzGjD9j2MsSF6njAcHZH_P2if4cWycorEP\u0026amp;__tn__=*NK-R\u0022 rel=\u0022noopener noreferrer nofollow\u0022\u003E\u003Cstrong\u003E#miashs\u003C/strong\u003E\u003C/a\u003E\u003C/p\u003E",
+            "title": "Master MIASHS"
           }
         }
       },
       "editToken": "eyJhIjoiZWNob3RvbmUiLCJzIjoicGFnZSIsImkiOiIyNjk4ZTA2OS04ZGFjLTQ4ZjctYTZjZS1iYTQzZjNiMzU2MTMiLCJ1IjoiaHR0cHM6Ly9sYWFiLmRkbnMubmV0OjM4MDgwLyJ9",
       "id": "2698e069-8dac-48f7-a6ce-ba43f3b35613",
       "isDeleted": false,
-      "lastModified": "2025-01-29T12:59:19Z",
-      "lastModifiedBy": "subject:6798df7c5b784ee7b7cb52e1",
+      "lastModified": "2025-03-02T11:09:21Z",
+      "lastModifiedBy": "subject:6798dad0167d31fb8ec7cc74",
       "schemaDisplayName": "Page",
       "schemaId": "d0379b0e-294e-4df6-9b2b-257b807b1467",
       "schemaName": "page",
       "status": "Published",
       "statusColor": "#4bb958",
-      "version": 1
+      "version": 3
     },
     {
       "_links": {
@@ -183,7 +186,7 @@
           "method": "POST"
         },
         "previous": {
-          "href": "/api/content/echotone/page/8d3519b1-5949-4f8f-8c29-7efcd066b682/2",
+          "href": "/api/content/echotone/page/8d3519b1-5949-4f8f-8c29-7efcd066b682/4",
           "method": "GET"
         },
         "self": {
@@ -195,18 +198,18 @@
       "createdBy": "subject:6798dad0167d31fb8ec7cc74",
       "data": {
         "id": {
-          "iv": null
+          "iv": "jaa-occitanie"
         },
         "medias": {
           "iv": [
             {
               "in": true,
               "medias": [
-                "5dfc89a4-e4e0-4239-ac39-85154a0c8ffa",
+                "a94f31e5-3836-4bfe-a9b6-9fc92851cb8e",
                 "6b519d90-64e0-42a1-8486-87fbc0d6bab8",
                 "8b25f26d-c892-46f9-b714-4715ea3c6f15",
-                "67ef408d-d649-4293-b4a5-a883dbd68a0b",
-                "a94f31e5-3836-4bfe-a9b6-9fc92851cb8e"
+                "5dfc89a4-e4e0-4239-ac39-85154a0c8ffa",
+                "67ef408d-d649-4293-b4a5-a883dbd68a0b"
               ],
               "schemaId": "1f4e3697-52bc-45d9-a7a8-65862c13ce4b",
               "schemaName": "carousel"
@@ -224,7 +227,7 @@
               "programmation"
             ],
             "temporal": [],
-            "text": "\u003Cp\u003EWeek-end du 19/20 octobre, Portes ouvertes de \u00C9chotone, pour les 7\u00E8me Journ\u00E9es des ateliers d\u0027artistes d\u0027Occitanie. D\u00E9couvertes des ateliers de gravures et plus sp\u00E9cifiquement de la technique de la photogravure sur photopolymere.\u003Cbr\u003E\u003Cbr\u003EDans l\u0027ann\u00E9e, l\u0027\u00E9quipe d\u0027\u00C9CHOTONE organise des stages sur une ou deux journ\u00E9es abordant diff\u00E9rentes techniques li\u00E9es \u00E0 la photosensibilit\u00E9: distillations, pigments vivants, papiers botaniques (...)\u003C/p\u003E\u003Cp\u003E\u003Ca href=\u0022https://l.facebook.com/l.php?u=https%3A%2F%2Fwww.instagram.com%2F_u%2Fechotone__%3Ffbclid%3DIwZXh0bgNhZW0CMTAAAR2t7rEdA1S9gUiP-WsU2KorfPR1l1e2yYK2ipwhG2ltYobdllCVyrAqSLQ_aem_SaJnO3vYJ5nYMbJtAu0xAA\u0026amp;h=AT1yy5wWhu895DCv5Cs0A-ERNE_eqMdmwHT8YtZP07b3Vpve6Jh_QkzIvNkSgoEaC5rmCb_Gr2EaZW5YYiXpndgHgG059XDvOJHpOLogahm-v_XmEQDRUe3DsboTWV7CYQjqq90\u0026amp;__tn__=-UK-R\u0026amp;c[0]=AT26hBcamzUEPaNJr-lwsJcsK840D8gswmeGXLQucgLWuhUbOOkoaQVLHRkLtzj_c5jdWb3raQWxQapI-u2IinKkhOaxujHKyhm40Zc1vdr95DZhZa-3vZn71t8CFIt61e4ZhTrPMCPmmn-5dv5LIqvR1Hb9GmnQl9XM7ALhEqZJRTaNTNf_whlaIZvZy2rTGF145yabXI8\u0022 rel=\u0022noopener noreferrer nofollow\u0022\u003E\u003Cstrong\u003E@echotone__\u003C/strong\u003E\u003C/a\u003E \u003Ca href=\u0022https://www.facebook.com/hashtag/jaaoccitanie2024?__eep__=6\u0026amp;__cft__[0]=AZXhBOwBuCSfqKKolWMWrchcChIroPEPNGfRJ6FdRjY-PeXMWHS79C8YHgCrzlsRjqPO2wSn6MAKd_5a5-mM8gGCBIDkvkQJSeM95_LWcamj2GvoL0VEnJfPbizRi5E1dDxmHVyojpD4XMRUzUpzmFTIry-DNs1mX34dWkUXPz73LY7eMxDIgdvnIc3ZgeLpNcE\u0026amp;__tn__=*NK-R\u0022 rel=\u0022noopener noreferrer nofollow\u0022\u003E\u003Cstrong\u003E#jaaoccitanie2024\u003C/strong\u003E\u003C/a\u003E\u003Cstrong\u003E\u003Cbr\u003E\u003C/strong\u003E\u003Ca href=\u0022https://www.facebook.com/hashtag/artistrunspace?__eep__=6\u0026amp;__cft__[0]=AZXhBOwBuCSfqKKolWMWrchcChIroPEPNGfRJ6FdRjY-PeXMWHS79C8YHgCrzlsRjqPO2wSn6MAKd_5a5-mM8gGCBIDkvkQJSeM95_LWcamj2GvoL0VEnJfPbizRi5E1dDxmHVyojpD4XMRUzUpzmFTIry-DNs1mX34dWkUXPz73LY7eMxDIgdvnIc3ZgeLpNcE\u0026amp;__tn__=*NK-R\u0022 rel=\u0022noopener noreferrer nofollow\u0022\u003E\u003Cstrong\u003E#artistrunspace\u003C/strong\u003E\u003C/a\u003E\u003Cstrong\u003E\u003Cbr\u003E\u003C/strong\u003E\u003Ca href=\u0022https://www.facebook.com/hashtag/photogravure?__eep__=6\u0026amp;__cft__[0]=AZXhBOwBuCSfqKKolWMWrchcChIroPEPNGfRJ6FdRjY-PeXMWHS79C8YHgCrzlsRjqPO2wSn6MAKd_5a5-mM8gGCBIDkvkQJSeM95_LWcamj2GvoL0VEnJfPbizRi5E1dDxmHVyojpD4XMRUzUpzmFTIry-DNs1mX34dWkUXPz73LY7eMxDIgdvnIc3ZgeLpNcE\u0026amp;__tn__=*NK-R\u0022 rel=\u0022noopener noreferrer nofollow\u0022\u003E\u003Cstrong\u003E#photogravure\u003C/strong\u003E\u003C/a\u003E\u003Cstrong\u003E\u003Cbr\u003E\u003C/strong\u003E\u003Ca href=\u0022https://www.facebook.com/hashtag/heliogravure?__eep__=6\u0026amp;__cft__[0]=AZXhBOwBuCSfqKKolWMWrchcChIroPEPNGfRJ6FdRjY-PeXMWHS79C8YHgCrzlsRjqPO2wSn6MAKd_5a5-mM8gGCBIDkvkQJSeM95_LWcamj2GvoL0VEnJfPbizRi5E1dDxmHVyojpD4XMRUzUpzmFTIry-DNs1mX34dWkUXPz73LY7eMxDIgdvnIc3ZgeLpNcE\u0026amp;__tn__=*NK-R\u0022 rel=\u0022noopener noreferrer nofollow\u0022\u003E\u003Cstrong\u003E#heliogravure\u003C/strong\u003E\u003C/a\u003E\u003Cstrong\u003E\u003Cbr\u003E\u003C/strong\u003E\u003Ca href=\u0022https://www.facebook.com/hashtag/ateliersdartistes?__eep__=6\u0026amp;__cft__[0]=AZXhBOwBuCSfqKKolWMWrchcChIroPEPNGfRJ6FdRjY-PeXMWHS79C8YHgCrzlsRjqPO2wSn6MAKd_5a5-mM8gGCBIDkvkQJSeM95_LWcamj2GvoL0VEnJfPbizRi5E1dDxmHVyojpD4XMRUzUpzmFTIry-DNs1mX34dWkUXPz73LY7eMxDIgdvnIc3ZgeLpNcE\u0026amp;__tn__=*NK-R\u0022 rel=\u0022noopener noreferrer nofollow\u0022\u003E\u003Cstrong\u003E#ateliersdartistes\u003C/strong\u003E\u003C/a\u003E\u003C/p\u003E",
+            "text": "\u003Cp\u003EWeek-end du 19/20 octobre, Portes ouvertes de \u00C9chotone, pour les 7\u00E8me Journ\u00E9es des ateliers d\u0027artistes d\u0027Occitanie. D\u00E9couvertes des ateliers de gravures et plus sp\u00E9cifiquement de la technique de la photogravure sur photopolymere.\u003Cbr\u003E\u003Cbr\u003EDans l\u0027ann\u00E9e, l\u0027\u00E9quipe d\u0027\u00C9CHOTONE organise des stages sur une ou deux journ\u00E9es abordant diff\u00E9rentes techniques li\u00E9es \u00E0 la photosensibilit\u00E9: distillations, pigments vivants, papiers botaniques (...) \u003C/p\u003E\u003Cp\u003E\u003Ca href=\u0022https://l.facebook.com/l.php?u=https%3A%2F%2Fwww.instagram.com%2F_u%2Fechotone__%3Ffbclid%3DIwZXh0bgNhZW0CMTAAAR2t7rEdA1S9gUiP-WsU2KorfPR1l1e2yYK2ipwhG2ltYobdllCVyrAqSLQ_aem_SaJnO3vYJ5nYMbJtAu0xAA\u0026amp;h=AT1yy5wWhu895DCv5Cs0A-ERNE_eqMdmwHT8YtZP07b3Vpve6Jh_QkzIvNkSgoEaC5rmCb_Gr2EaZW5YYiXpndgHgG059XDvOJHpOLogahm-v_XmEQDRUe3DsboTWV7CYQjqq90\u0026amp;__tn__=-UK-R\u0026amp;c[0]=AT26hBcamzUEPaNJr-lwsJcsK840D8gswmeGXLQucgLWuhUbOOkoaQVLHRkLtzj_c5jdWb3raQWxQapI-u2IinKkhOaxujHKyhm40Zc1vdr95DZhZa-3vZn71t8CFIt61e4ZhTrPMCPmmn-5dv5LIqvR1Hb9GmnQl9XM7ALhEqZJRTaNTNf_whlaIZvZy2rTGF145yabXI8\u0022 rel=\u0022noopener noreferrer nofollow\u0022\u003E\u003Cstrong\u003E@echotone__\u003C/strong\u003E\u003C/a\u003E \u003Ca href=\u0022https://www.facebook.com/hashtag/jaaoccitanie2024?__eep__=6\u0026amp;__cft__[0]=AZXhBOwBuCSfqKKolWMWrchcChIroPEPNGfRJ6FdRjY-PeXMWHS79C8YHgCrzlsRjqPO2wSn6MAKd_5a5-mM8gGCBIDkvkQJSeM95_LWcamj2GvoL0VEnJfPbizRi5E1dDxmHVyojpD4XMRUzUpzmFTIry-DNs1mX34dWkUXPz73LY7eMxDIgdvnIc3ZgeLpNcE\u0026amp;__tn__=*NK-R\u0022 rel=\u0022noopener noreferrer nofollow\u0022\u003E\u003Cstrong\u003E#jaaoccitanie2024\u003C/strong\u003E\u003C/a\u003E\u003Cstrong\u003E\u003Cbr\u003E\u003C/strong\u003E\u003Ca href=\u0022https://www.facebook.com/hashtag/artistrunspace?__eep__=6\u0026amp;__cft__[0]=AZXhBOwBuCSfqKKolWMWrchcChIroPEPNGfRJ6FdRjY-PeXMWHS79C8YHgCrzlsRjqPO2wSn6MAKd_5a5-mM8gGCBIDkvkQJSeM95_LWcamj2GvoL0VEnJfPbizRi5E1dDxmHVyojpD4XMRUzUpzmFTIry-DNs1mX34dWkUXPz73LY7eMxDIgdvnIc3ZgeLpNcE\u0026amp;__tn__=*NK-R\u0022 rel=\u0022noopener noreferrer nofollow\u0022\u003E\u003Cstrong\u003E#artistrunspace\u003C/strong\u003E\u003C/a\u003E\u003Cstrong\u003E\u003Cbr\u003E\u003C/strong\u003E\u003Ca href=\u0022https://www.facebook.com/hashtag/photogravure?__eep__=6\u0026amp;__cft__[0]=AZXhBOwBuCSfqKKolWMWrchcChIroPEPNGfRJ6FdRjY-PeXMWHS79C8YHgCrzlsRjqPO2wSn6MAKd_5a5-mM8gGCBIDkvkQJSeM95_LWcamj2GvoL0VEnJfPbizRi5E1dDxmHVyojpD4XMRUzUpzmFTIry-DNs1mX34dWkUXPz73LY7eMxDIgdvnIc3ZgeLpNcE\u0026amp;__tn__=*NK-R\u0022 rel=\u0022noopener noreferrer nofollow\u0022\u003E\u003Cstrong\u003E#photogravure\u003C/strong\u003E\u003C/a\u003E\u003Cstrong\u003E\u003Cbr\u003E\u003C/strong\u003E\u003Ca href=\u0022https://www.facebook.com/hashtag/heliogravure?__eep__=6\u0026amp;__cft__[0]=AZXhBOwBuCSfqKKolWMWrchcChIroPEPNGfRJ6FdRjY-PeXMWHS79C8YHgCrzlsRjqPO2wSn6MAKd_5a5-mM8gGCBIDkvkQJSeM95_LWcamj2GvoL0VEnJfPbizRi5E1dDxmHVyojpD4XMRUzUpzmFTIry-DNs1mX34dWkUXPz73LY7eMxDIgdvnIc3ZgeLpNcE\u0026amp;__tn__=*NK-R\u0022 rel=\u0022noopener noreferrer nofollow\u0022\u003E\u003Cstrong\u003E#heliogravure\u003C/strong\u003E\u003C/a\u003E\u003Cstrong\u003E\u003Cbr\u003E\u003C/strong\u003E\u003Ca href=\u0022https://www.facebook.com/hashtag/ateliersdartistes?__eep__=6\u0026amp;__cft__[0]=AZXhBOwBuCSfqKKolWMWrchcChIroPEPNGfRJ6FdRjY-PeXMWHS79C8YHgCrzlsRjqPO2wSn6MAKd_5a5-mM8gGCBIDkvkQJSeM95_LWcamj2GvoL0VEnJfPbizRi5E1dDxmHVyojpD4XMRUzUpzmFTIry-DNs1mX34dWkUXPz73LY7eMxDIgdvnIc3ZgeLpNcE\u0026amp;__tn__=*NK-R\u0022 rel=\u0022noopener noreferrer nofollow\u0022\u003E\u003Cstrong\u003E#ateliersdartistes\u003C/strong\u003E\u003C/a\u003E\u003C/p\u003E",
             "title": "JAA Occitanie"
           },
           "fr": {
@@ -237,7 +240,7 @@
               "programmation"
             ],
             "temporal": [],
-            "text": "\u003Cp\u003EWeek-end du 19/20 octobre, Portes ouvertes de \u00C9chotone, pour les 7\u00E8me Journ\u00E9es des ateliers d\u0027artistes d\u0027Occitanie. D\u00E9couvertes des ateliers de gravures et plus sp\u00E9cifiquement de la technique de la photogravure sur photopolymere.\u003Cbr\u003E\u003Cbr\u003EDans l\u0027ann\u00E9e, l\u0027\u00E9quipe d\u0027\u00C9CHOTONE organise des stages sur une ou deux journ\u00E9es abordant diff\u00E9rentes techniques li\u00E9es \u00E0 la photosensibilit\u00E9: distillations, pigments vivants, papiers botaniques (...)\u003C/p\u003E\u003Cp\u003E\u003Ca href=\u0022https://l.facebook.com/l.php?u=https%3A%2F%2Fwww.instagram.com%2F_u%2Fechotone__%3Ffbclid%3DIwZXh0bgNhZW0CMTAAAR2t7rEdA1S9gUiP-WsU2KorfPR1l1e2yYK2ipwhG2ltYobdllCVyrAqSLQ_aem_SaJnO3vYJ5nYMbJtAu0xAA\u0026amp;h=AT1yy5wWhu895DCv5Cs0A-ERNE_eqMdmwHT8YtZP07b3Vpve6Jh_QkzIvNkSgoEaC5rmCb_Gr2EaZW5YYiXpndgHgG059XDvOJHpOLogahm-v_XmEQDRUe3DsboTWV7CYQjqq90\u0026amp;__tn__=-UK-R\u0026amp;c[0]=AT26hBcamzUEPaNJr-lwsJcsK840D8gswmeGXLQucgLWuhUbOOkoaQVLHRkLtzj_c5jdWb3raQWxQapI-u2IinKkhOaxujHKyhm40Zc1vdr95DZhZa-3vZn71t8CFIt61e4ZhTrPMCPmmn-5dv5LIqvR1Hb9GmnQl9XM7ALhEqZJRTaNTNf_whlaIZvZy2rTGF145yabXI8\u0022 rel=\u0022noopener noreferrer nofollow\u0022\u003E\u003Cstrong\u003E@echotone__\u003C/strong\u003E\u003C/a\u003E \u003Ca href=\u0022https://www.facebook.com/hashtag/jaaoccitanie2024?__eep__=6\u0026amp;__cft__[0]=AZXhBOwBuCSfqKKolWMWrchcChIroPEPNGfRJ6FdRjY-PeXMWHS79C8YHgCrzlsRjqPO2wSn6MAKd_5a5-mM8gGCBIDkvkQJSeM95_LWcamj2GvoL0VEnJfPbizRi5E1dDxmHVyojpD4XMRUzUpzmFTIry-DNs1mX34dWkUXPz73LY7eMxDIgdvnIc3ZgeLpNcE\u0026amp;__tn__=*NK-R\u0022 rel=\u0022noopener noreferrer nofollow\u0022\u003E\u003Cstrong\u003E#jaaoccitanie2024\u003C/strong\u003E\u003C/a\u003E\u003Cstrong\u003E\u003Cbr\u003E\u003C/strong\u003E\u003Ca href=\u0022https://www.facebook.com/hashtag/artistrunspace?__eep__=6\u0026amp;__cft__[0]=AZXhBOwBuCSfqKKolWMWrchcChIroPEPNGfRJ6FdRjY-PeXMWHS79C8YHgCrzlsRjqPO2wSn6MAKd_5a5-mM8gGCBIDkvkQJSeM95_LWcamj2GvoL0VEnJfPbizRi5E1dDxmHVyojpD4XMRUzUpzmFTIry-DNs1mX34dWkUXPz73LY7eMxDIgdvnIc3ZgeLpNcE\u0026amp;__tn__=*NK-R\u0022 rel=\u0022noopener noreferrer nofollow\u0022\u003E\u003Cstrong\u003E#artistrunspace\u003C/strong\u003E\u003C/a\u003E\u003Cstrong\u003E\u003Cbr\u003E\u003C/strong\u003E\u003Ca href=\u0022https://www.facebook.com/hashtag/photogravure?__eep__=6\u0026amp;__cft__[0]=AZXhBOwBuCSfqKKolWMWrchcChIroPEPNGfRJ6FdRjY-PeXMWHS79C8YHgCrzlsRjqPO2wSn6MAKd_5a5-mM8gGCBIDkvkQJSeM95_LWcamj2GvoL0VEnJfPbizRi5E1dDxmHVyojpD4XMRUzUpzmFTIry-DNs1mX34dWkUXPz73LY7eMxDIgdvnIc3ZgeLpNcE\u0026amp;__tn__=*NK-R\u0022 rel=\u0022noopener noreferrer nofollow\u0022\u003E\u003Cstrong\u003E#photogravure\u003C/strong\u003E\u003C/a\u003E\u003Cstrong\u003E\u003Cbr\u003E\u003C/strong\u003E\u003Ca href=\u0022https://www.facebook.com/hashtag/heliogravure?__eep__=6\u0026amp;__cft__[0]=AZXhBOwBuCSfqKKolWMWrchcChIroPEPNGfRJ6FdRjY-PeXMWHS79C8YHgCrzlsRjqPO2wSn6MAKd_5a5-mM8gGCBIDkvkQJSeM95_LWcamj2GvoL0VEnJfPbizRi5E1dDxmHVyojpD4XMRUzUpzmFTIry-DNs1mX34dWkUXPz73LY7eMxDIgdvnIc3ZgeLpNcE\u0026amp;__tn__=*NK-R\u0022 rel=\u0022noopener noreferrer nofollow\u0022\u003E\u003Cstrong\u003E#heliogravure\u003C/strong\u003E\u003C/a\u003E\u003Cstrong\u003E\u003Cbr\u003E\u003C/strong\u003E\u003Ca href=\u0022https://www.facebook.com/hashtag/ateliersdartistes?__eep__=6\u0026amp;__cft__[0]=AZXhBOwBuCSfqKKolWMWrchcChIroPEPNGfRJ6FdRjY-PeXMWHS79C8YHgCrzlsRjqPO2wSn6MAKd_5a5-mM8gGCBIDkvkQJSeM95_LWcamj2GvoL0VEnJfPbizRi5E1dDxmHVyojpD4XMRUzUpzmFTIry-DNs1mX34dWkUXPz73LY7eMxDIgdvnIc3ZgeLpNcE\u0026amp;__tn__=*NK-R\u0022 rel=\u0022noopener noreferrer nofollow\u0022\u003E\u003Cstrong\u003E#ateliersdartistes\u003C/strong\u003E\u003C/a\u003E\u003C/p\u003E",
+            "text": "\u003Cp\u003EWeek-end du 19/20 octobre, Portes ouvertes de \u00C9chotone, pour les 7\u00E8me Journ\u00E9es des ateliers d\u0027artistes d\u0027Occitanie. D\u00E9couvertes des ateliers de gravures et plus sp\u00E9cifiquement de la technique de la photogravure sur photopolymere.\u003Cbr\u003E\u003Cbr\u003EDans l\u0027ann\u00E9e, l\u0027\u00E9quipe d\u0027\u00C9CHOTONE organise des stages sur une ou deux journ\u00E9es abordant diff\u00E9rentes techniques li\u00E9es \u00E0 la photosensibilit\u00E9: distillations, pigments vivants, papiers botaniques (...) \u003C/p\u003E\u003Cp\u003E\u003Ca href=\u0022https://l.facebook.com/l.php?u=https%3A%2F%2Fwww.instagram.com%2F_u%2Fechotone__%3Ffbclid%3DIwZXh0bgNhZW0CMTAAAR2t7rEdA1S9gUiP-WsU2KorfPR1l1e2yYK2ipwhG2ltYobdllCVyrAqSLQ_aem_SaJnO3vYJ5nYMbJtAu0xAA\u0026amp;h=AT1yy5wWhu895DCv5Cs0A-ERNE_eqMdmwHT8YtZP07b3Vpve6Jh_QkzIvNkSgoEaC5rmCb_Gr2EaZW5YYiXpndgHgG059XDvOJHpOLogahm-v_XmEQDRUe3DsboTWV7CYQjqq90\u0026amp;__tn__=-UK-R\u0026amp;c[0]=AT26hBcamzUEPaNJr-lwsJcsK840D8gswmeGXLQucgLWuhUbOOkoaQVLHRkLtzj_c5jdWb3raQWxQapI-u2IinKkhOaxujHKyhm40Zc1vdr95DZhZa-3vZn71t8CFIt61e4ZhTrPMCPmmn-5dv5LIqvR1Hb9GmnQl9XM7ALhEqZJRTaNTNf_whlaIZvZy2rTGF145yabXI8\u0022 rel=\u0022noopener noreferrer nofollow\u0022\u003E\u003Cstrong\u003E@echotone__\u003C/strong\u003E\u003C/a\u003E \u003Ca href=\u0022https://www.facebook.com/hashtag/jaaoccitanie2024?__eep__=6\u0026amp;__cft__[0]=AZXhBOwBuCSfqKKolWMWrchcChIroPEPNGfRJ6FdRjY-PeXMWHS79C8YHgCrzlsRjqPO2wSn6MAKd_5a5-mM8gGCBIDkvkQJSeM95_LWcamj2GvoL0VEnJfPbizRi5E1dDxmHVyojpD4XMRUzUpzmFTIry-DNs1mX34dWkUXPz73LY7eMxDIgdvnIc3ZgeLpNcE\u0026amp;__tn__=*NK-R\u0022 rel=\u0022noopener noreferrer nofollow\u0022\u003E\u003Cstrong\u003E#jaaoccitanie2024\u003C/strong\u003E\u003C/a\u003E\u003Cstrong\u003E\u003Cbr\u003E\u003C/strong\u003E\u003Ca href=\u0022https://www.facebook.com/hashtag/artistrunspace?__eep__=6\u0026amp;__cft__[0]=AZXhBOwBuCSfqKKolWMWrchcChIroPEPNGfRJ6FdRjY-PeXMWHS79C8YHgCrzlsRjqPO2wSn6MAKd_5a5-mM8gGCBIDkvkQJSeM95_LWcamj2GvoL0VEnJfPbizRi5E1dDxmHVyojpD4XMRUzUpzmFTIry-DNs1mX34dWkUXPz73LY7eMxDIgdvnIc3ZgeLpNcE\u0026amp;__tn__=*NK-R\u0022 rel=\u0022noopener noreferrer nofollow\u0022\u003E\u003Cstrong\u003E#artistrunspace\u003C/strong\u003E\u003C/a\u003E\u003Cstrong\u003E\u003Cbr\u003E\u003C/strong\u003E\u003Ca href=\u0022https://www.facebook.com/hashtag/photogravure?__eep__=6\u0026amp;__cft__[0]=AZXhBOwBuCSfqKKolWMWrchcChIroPEPNGfRJ6FdRjY-PeXMWHS79C8YHgCrzlsRjqPO2wSn6MAKd_5a5-mM8gGCBIDkvkQJSeM95_LWcamj2GvoL0VEnJfPbizRi5E1dDxmHVyojpD4XMRUzUpzmFTIry-DNs1mX34dWkUXPz73LY7eMxDIgdvnIc3ZgeLpNcE\u0026amp;__tn__=*NK-R\u0022 rel=\u0022noopener noreferrer nofollow\u0022\u003E\u003Cstrong\u003E#photogravure\u003C/strong\u003E\u003C/a\u003E\u003Cstrong\u003E\u003Cbr\u003E\u003C/strong\u003E\u003Ca href=\u0022https://www.facebook.com/hashtag/heliogravure?__eep__=6\u0026amp;__cft__[0]=AZXhBOwBuCSfqKKolWMWrchcChIroPEPNGfRJ6FdRjY-PeXMWHS79C8YHgCrzlsRjqPO2wSn6MAKd_5a5-mM8gGCBIDkvkQJSeM95_LWcamj2GvoL0VEnJfPbizRi5E1dDxmHVyojpD4XMRUzUpzmFTIry-DNs1mX34dWkUXPz73LY7eMxDIgdvnIc3ZgeLpNcE\u0026amp;__tn__=*NK-R\u0022 rel=\u0022noopener noreferrer nofollow\u0022\u003E\u003Cstrong\u003E#heliogravure\u003C/strong\u003E\u003C/a\u003E\u003Cstrong\u003E\u003Cbr\u003E\u003C/strong\u003E\u003Ca href=\u0022https://www.facebook.com/hashtag/ateliersdartistes?__eep__=6\u0026amp;__cft__[0]=AZXhBOwBuCSfqKKolWMWrchcChIroPEPNGfRJ6FdRjY-PeXMWHS79C8YHgCrzlsRjqPO2wSn6MAKd_5a5-mM8gGCBIDkvkQJSeM95_LWcamj2GvoL0VEnJfPbizRi5E1dDxmHVyojpD4XMRUzUpzmFTIry-DNs1mX34dWkUXPz73LY7eMxDIgdvnIc3ZgeLpNcE\u0026amp;__tn__=*NK-R\u0022 rel=\u0022noopener noreferrer nofollow\u0022\u003E\u003Cstrong\u003E#ateliersdartistes\u003C/strong\u003E\u003C/a\u003E\u003C/p\u003E",
             "title": "JAA Occitanie"
           }
         }
@@ -245,14 +248,14 @@
       "editToken": "eyJhIjoiZWNob3RvbmUiLCJzIjoicGFnZSIsImkiOiI4ZDM1MTliMS01OTQ5LTRmOGYtOGMyOS03ZWZjZDA2NmI2ODIiLCJ1IjoiaHR0cHM6Ly9sYWFiLmRkbnMubmV0OjM4MDgwLyJ9",
       "id": "8d3519b1-5949-4f8f-8c29-7efcd066b682",
       "isDeleted": false,
-      "lastModified": "2025-01-29T12:52:10Z",
-      "lastModifiedBy": "subject:6798df7c5b784ee7b7cb52e1",
+      "lastModified": "2025-03-02T11:07:36Z",
+      "lastModifiedBy": "subject:6798dad0167d31fb8ec7cc74",
       "schemaDisplayName": "Page",
       "schemaId": "d0379b0e-294e-4df6-9b2b-257b807b1467",
       "schemaName": "page",
       "status": "Published",
       "statusColor": "#4bb958",
-      "version": 3
+      "version": 5
     },
     {
       "_links": {
@@ -265,7 +268,7 @@
           "method": "POST"
         },
         "previous": {
-          "href": "/api/content/echotone/page/b9660f38-a5e1-4dda-b29c-3ebe42672945/0",
+          "href": "/api/content/echotone/page/b9660f38-a5e1-4dda-b29c-3ebe42672945/2",
           "method": "GET"
         },
         "self": {
@@ -277,28 +280,28 @@
       "createdBy": "subject:6798df7c5b784ee7b7cb52e1",
       "data": {
         "id": {
-          "iv": null
+          "iv": "inner-the-landscape"
         },
         "medias": {
           "iv": [
             {
               "in": true,
               "medias": [
-                "a3ad9ced-9ccf-4791-b48b-69be8b1bdb2d",
+                "f4ca3db9-6301-4fd3-ba0d-4ccf9b4951af",
+                "23b57748-fd81-4dbc-8ce3-72628f72c1c3",
                 "869c0d71-3164-4df2-9810-19eb9397a4e9",
                 "82545d53-2385-4090-bfcd-d173aae57fb8",
                 "03869147-78d7-4aeb-877d-7532fbd6f0fd",
-                "993bdae7-5e4b-4950-8359-9029eea5f2a2",
-                "23b57748-fd81-4dbc-8ce3-72628f72c1c3",
-                "553e5766-2acb-4f6c-9cb5-a731075a5179",
-                "51297029-7bf5-4447-8e5a-90df4e1d7cb0",
                 "ea68e14e-6aa5-4702-bd56-dbf079d5ca07",
-                "c4c0091d-376d-4105-ad08-aff9bbc5c393",
-                "f4ca3db9-6301-4fd3-ba0d-4ccf9b4951af",
                 "cd75922b-b667-4881-b9f1-0b142c2d9a72",
                 "ba9eb01e-d558-46ad-938a-93f1f5b1db0e",
+                "9d01f3d7-127d-4859-8e7b-8b9df1501c72",
+                "553e5766-2acb-4f6c-9cb5-a731075a5179",
+                "c4c0091d-376d-4105-ad08-aff9bbc5c393",
+                "51297029-7bf5-4447-8e5a-90df4e1d7cb0",
                 "5f0d4c81-6956-4520-aeec-1c586a68d02b",
-                "9d01f3d7-127d-4859-8e7b-8b9df1501c72"
+                "993bdae7-5e4b-4950-8359-9029eea5f2a2",
+                "a3ad9ced-9ccf-4791-b48b-69be8b1bdb2d"
               ],
               "schemaId": "1f4e3697-52bc-45d9-a7a8-65862c13ce4b",
               "schemaName": "carousel"
@@ -315,7 +318,7 @@
               "programmation"
             ],
             "temporal": [],
-            "text": "\u003Cp\u003EVisite de l\u2019exposition r\u00E9trospective de Dorota Buczkowska,\u0022 Inner the landscape \u0022 au Museum of Contemporary art of Wroclaw.\u003C/p\u003E",
+            "text": "\u003Cp\u003EVisite de l\u2019exposition r\u00E9trospective de Dorota Buczkowska,\u0022 Inner the landscape \u0022 au Museum of Contemporary art of Wroclaw.\u003C/p\u003E\u003Cp\u003E\u003C/p\u003E",
             "title": "\u0022Inner the Landscape\u0022"
           },
           "fr": {
@@ -327,7 +330,7 @@
               "programmation"
             ],
             "temporal": [],
-            "text": "\u003Cp\u003EVisite de l\u2019exposition r\u00E9trospective de Dorota Buczkowska,\u0022 Inner the landscape \u0022 au Museum of Contemporary art of Wroclaw.\u003C/p\u003E",
+            "text": "\u003Cp\u003EVisite de l\u2019exposition r\u00E9trospective de Dorota Buczkowska,\u0022 Inner the landscape \u0022 au Museum of Contemporary art of Wroclaw.\u003C/p\u003E\u003Cp\u003E\u003C/p\u003E",
             "title": "\u0022Inner the Landscape\u0022"
           }
         }
@@ -335,14 +338,14 @@
       "editToken": "eyJhIjoiZWNob3RvbmUiLCJzIjoicGFnZSIsImkiOiJiOTY2MGYzOC1hNWUxLTRkZGEtYjI5Yy0zZWJlNDI2NzI5NDUiLCJ1IjoiaHR0cHM6Ly9sYWFiLmRkbnMubmV0OjM4MDgwLyJ9",
       "id": "b9660f38-a5e1-4dda-b29c-3ebe42672945",
       "isDeleted": false,
-      "lastModified": "2025-01-29T12:41:37Z",
-      "lastModifiedBy": "subject:6798df7c5b784ee7b7cb52e1",
+      "lastModified": "2025-03-02T11:07:09Z",
+      "lastModifiedBy": "subject:6798dad0167d31fb8ec7cc74",
       "schemaDisplayName": "Page",
       "schemaId": "d0379b0e-294e-4df6-9b2b-257b807b1467",
       "schemaName": "page",
       "status": "Published",
       "statusColor": "#4bb958",
-      "version": 1
+      "version": 3
     },
     {
       "_links": {
@@ -355,7 +358,7 @@
           "method": "POST"
         },
         "previous": {
-          "href": "/api/content/echotone/page/be154809-a393-4754-9198-4b51f5836ff0/0",
+          "href": "/api/content/echotone/page/be154809-a393-4754-9198-4b51f5836ff0/2",
           "method": "GET"
         },
         "self": {
@@ -367,15 +370,15 @@
       "createdBy": "subject:6798df7c5b784ee7b7cb52e1",
       "data": {
         "id": {
-          "iv": null
+          "iv": "intervention-au-moco-esbama"
         },
         "medias": {
           "iv": [
             {
               "in": true,
               "medias": [
-                "eb63596c-b1cb-421e-8522-9b3d6586c850",
                 "a56df0d3-64de-4f97-9d1c-4652af2edbfc",
+                "eb63596c-b1cb-421e-8522-9b3d6586c850",
                 "a86eec7d-eb7f-43f2-b9c4-81d159c59752",
                 "dd42a1f8-b92e-420b-89c7-85b7b4d80742",
                 "e20598ba-c8d9-4147-80f2-d22fd78c9200"
@@ -395,7 +398,7 @@
               "programmation"
             ],
             "temporal": [],
-            "text": "\u003Cp\u003EPr\u00E9sentation du travail de l\u2019artiste et d\u00E9but des entretiens avec des \u00E9tudiants des \u00C9coles Sup\u00E9rieures des Beaux-arts de Montpellier et de N\u00EEmes, respectivement encadr\u00E9s par Gregory Niel et Anna Kerekes.\u003Cbr\u003E\u003Ca href=\u0022https://www.artistprofiler.art/\u0022 rel=\u0022noopener noreferrer nofollow\u0022\u003EArtistProfiler.art\u003C/a\u003E est une \u0153uvre d\u0027art num\u00E9rique en ligne cr\u00E9\u00E9e par Maxime Chanson. Elle prend la forme d\u0027une plateforme interactive con\u00E7ue pour inviter les artistes \u00E0 mieux identifier leur singularit\u00E9 artistique.\u003Cbr\u003ELes artistes sont compar\u00E9s \u00E0 des artistes reconnus ayant un profil similaire, c\u2019est-\u00E0-dire partageant \u00E0 la fois un \u003Ca href=\u0022https://artistprofiler.art/The-Motor\u0022 rel=\u0022noopener noreferrer nofollow\u0022\u003EMoteur\u003C/a\u003E de cr\u00E9ation et un \u003Ca href=\u0022https://artistprofiler.art/The-Means\u0022 rel=\u0022noopener noreferrer nofollow\u0022\u003EMoyen\u003C/a\u003E d\u2019expression.\u003Cbr\u003EActuellement, le site pr\u00E9sente plus de 3 000 \u003Cem\u003Eportraits analytiques\u003C/em\u003E d\u0027artistes reconnus, incluant pour chacun :\u003C/p\u003E\u003Cul\u003E\u003Cli\u003E\u003Cp\u003ELeur \u003Ca href=\u0022https://artistprofiler.art/ArtProcess\u0022 rel=\u0022noopener noreferrer nofollow\u0022\u003Eprofil artistique\u003C/a\u003E\u003C/p\u003E\u003C/li\u003E\u003Cli\u003E\u003Cp\u003EDes images et des vid\u00E9os de leurs \u0153uvres\u003C/p\u003E\u003C/li\u003E\u003Cli\u003E\u003Cp\u003ELeur pr\u00E9sence sur la \u003Ca href=\u0022https://artistprofiler.art/International-Scene-Artists\u0022 rel=\u0022noopener noreferrer nofollow\u0022\u003Esc\u00E8ne artistique internationale\u003C/a\u003E et/ou f\u003Ca href=\u0022https://artistprofiler.art/French-Scene-Artists\u0022 rel=\u0022noopener noreferrer nofollow\u0022\u003Eran\u00E7aise\u003C/a\u003E\u003C/p\u003E\u003C/li\u003E\u003Cli\u003E\u003Cp\u003ELa liste des \u003Ca href=\u0022https://artistprofiler.art/well-known-artists\u0022 rel=\u0022noopener noreferrer nofollow\u0022\u003Eautres artistes reconnus\u003C/a\u003E partageant un profil artistique similaire\u003C/p\u003E\u003C/li\u003E\u003C/ul\u003E\u003Cp\u003EVous pouvez explorer votre propre singularit\u00E9 en \u003Ca href=\u0022https://artistprofiler.art/explanations/about-website#\u0022 rel=\u0022noopener noreferrer nofollow\u0022\u003Ecr\u00E9ant votre page personnelle\u003C/a\u003E, puis en s\u00E9lectionnant un \u003Ca href=\u0022https://artistprofiler.art/The-Motor\u0022 rel=\u0022noopener noreferrer nofollow\u0022\u003EMoteur\u003C/a\u003E et un \u003Ca href=\u0022https://artistprofiler.art/The-Means\u0022 rel=\u0022noopener noreferrer nofollow\u0022\u003EMoyen\u003C/a\u003E parmi ceux propos\u00E9s par la m\u00E9thodologie. Cette d\u00E9marche vous permet de vous comparer imm\u00E9diatement \u00E0 des artistes partageant un profil artistique proche du v\u00F4tre.\u0026nbsp;\u003C/p\u003E",
+            "text": "\u003Cp\u003EPr\u00E9sentation du travail de l\u2019artiste et d\u00E9but des entretiens avec des \u00E9tudiants des \u00C9coles Sup\u00E9rieures des Beaux-arts de Montpellier et de N\u00EEmes, respectivement encadr\u00E9s par Gregory Niel et Anna Kerekes.\u003Cbr\u003E\u003Ca href=\u0022https://www.artistprofiler.art/\u0022 rel=\u0022noopener noreferrer nofollow\u0022\u003EArtistProfiler.art\u003C/a\u003E est une \u0153uvre d\u0027art num\u00E9rique en ligne cr\u00E9\u00E9e par Maxime Chanson. Elle prend la forme d\u0027une plateforme interactive con\u00E7ue pour inviter les artistes \u00E0 mieux identifier leur singularit\u00E9 artistique.\u003Cbr\u003ELes artistes sont compar\u00E9s \u00E0 des artistes reconnus ayant un profil similaire, c\u2019est-\u00E0-dire partageant \u00E0 la fois un \u003Ca href=\u0022https://artistprofiler.art/The-Motor\u0022 rel=\u0022noopener noreferrer nofollow\u0022\u003EMoteur\u003C/a\u003E de cr\u00E9ation et un \u003Ca href=\u0022https://artistprofiler.art/The-Means\u0022 rel=\u0022noopener noreferrer nofollow\u0022\u003EMoyen\u003C/a\u003E d\u2019expression.\u003Cbr\u003EActuellement, le site pr\u00E9sente plus de 3 000 \u003Cem\u003Eportraits analytiques\u003C/em\u003E d\u0027artistes reconnus, incluant pour chacun :\u003C/p\u003E\u003Cul\u003E\u003Cli\u003E\u003Cp\u003ELeur \u003Ca href=\u0022https://artistprofiler.art/ArtProcess\u0022 rel=\u0022noopener noreferrer nofollow\u0022\u003Eprofil artistique\u003C/a\u003E\u003C/p\u003E\u003C/li\u003E\u003Cli\u003E\u003Cp\u003EDes images et des vid\u00E9os de leurs \u0153uvres\u003C/p\u003E\u003C/li\u003E\u003Cli\u003E\u003Cp\u003ELeur pr\u00E9sence sur la \u003Ca href=\u0022https://artistprofiler.art/International-Scene-Artists\u0022 rel=\u0022noopener noreferrer nofollow\u0022\u003Esc\u00E8ne artistique internationale\u003C/a\u003E et/ou f\u003Ca href=\u0022https://artistprofiler.art/French-Scene-Artists\u0022 rel=\u0022noopener noreferrer nofollow\u0022\u003Eran\u00E7aise\u003C/a\u003E\u003C/p\u003E\u003C/li\u003E\u003Cli\u003E\u003Cp\u003ELa liste des \u003Ca href=\u0022https://artistprofiler.art/well-known-artists\u0022 rel=\u0022noopener noreferrer nofollow\u0022\u003Eautres artistes reconnus\u003C/a\u003E partageant un profil artistique similaire\u003C/p\u003E\u003C/li\u003E\u003C/ul\u003E\u003Cp\u003E\u003C/p\u003E\u003Cp\u003EVous pouvez explorer votre propre singularit\u00E9 en \u003Ca href=\u0022https://artistprofiler.art/explanations/about-website#\u0022 rel=\u0022noopener noreferrer nofollow\u0022\u003Ecr\u00E9ant votre page personnelle\u003C/a\u003E, puis en s\u00E9lectionnant un \u003Ca href=\u0022https://artistprofiler.art/The-Motor\u0022 rel=\u0022noopener noreferrer nofollow\u0022\u003EMoteur\u003C/a\u003E et un \u003Ca href=\u0022https://artistprofiler.art/The-Means\u0022 rel=\u0022noopener noreferrer nofollow\u0022\u003EMoyen\u003C/a\u003E parmi ceux propos\u00E9s par la m\u00E9thodologie. Cette d\u00E9marche vous permet de vous comparer imm\u00E9diatement \u00E0 des artistes partageant un profil artistique proche du v\u00F4tre.\u0026nbsp;\u003C/p\u003E",
             "title": "Intervention au MOCO ESBAMA"
           },
           "fr": {
@@ -407,7 +410,7 @@
               "programmation"
             ],
             "temporal": [],
-            "text": "\u003Cp\u003EPr\u00E9sentation du travail de l\u2019artiste et d\u00E9but des entretiens avec des \u00E9tudiants des \u00C9coles Sup\u00E9rieures des Beaux-arts de Montpellier et de N\u00EEmes, respectivement encadr\u00E9s par Gregory Niel et Anna Kerekes.\u003Cbr\u003E\u003Ca href=\u0022https://www.artistprofiler.art/\u0022 rel=\u0022noopener noreferrer nofollow\u0022\u003EArtistProfiler.art\u003C/a\u003E est une \u0153uvre d\u0027art num\u00E9rique en ligne cr\u00E9\u00E9e par Maxime Chanson. Elle prend la forme d\u0027une plateforme interactive con\u00E7ue pour inviter les artistes \u00E0 mieux identifier leur singularit\u00E9 artistique.\u003Cbr\u003ELes artistes sont compar\u00E9s \u00E0 des artistes reconnus ayant un profil similaire, c\u2019est-\u00E0-dire partageant \u00E0 la fois un \u003Ca href=\u0022https://artistprofiler.art/The-Motor\u0022 rel=\u0022noopener noreferrer nofollow\u0022\u003EMoteur\u003C/a\u003E de cr\u00E9ation et un \u003Ca href=\u0022https://artistprofiler.art/The-Means\u0022 rel=\u0022noopener noreferrer nofollow\u0022\u003EMoyen\u003C/a\u003E d\u2019expression.\u003Cbr\u003EActuellement, le site pr\u00E9sente plus de 3 000 \u003Cem\u003Eportraits analytiques\u003C/em\u003E d\u0027artistes reconnus, incluant pour chacun :\u003C/p\u003E\u003Cul\u003E\u003Cli\u003E\u003Cp\u003ELeur \u003Ca href=\u0022https://artistprofiler.art/ArtProcess\u0022 rel=\u0022noopener noreferrer nofollow\u0022\u003Eprofil artistique\u003C/a\u003E\u003C/p\u003E\u003C/li\u003E\u003Cli\u003E\u003Cp\u003EDes images et des vid\u00E9os de leurs \u0153uvres\u003C/p\u003E\u003C/li\u003E\u003Cli\u003E\u003Cp\u003ELeur pr\u00E9sence sur la \u003Ca href=\u0022https://artistprofiler.art/International-Scene-Artists\u0022 rel=\u0022noopener noreferrer nofollow\u0022\u003Esc\u00E8ne artistique internationale\u003C/a\u003E et/ou f\u003Ca href=\u0022https://artistprofiler.art/French-Scene-Artists\u0022 rel=\u0022noopener noreferrer nofollow\u0022\u003Eran\u00E7aise\u003C/a\u003E\u003C/p\u003E\u003C/li\u003E\u003Cli\u003E\u003Cp\u003ELa liste des \u003Ca href=\u0022https://artistprofiler.art/well-known-artists\u0022 rel=\u0022noopener noreferrer nofollow\u0022\u003Eautres artistes reconnus\u003C/a\u003E partageant un profil artistique similaire\u003C/p\u003E\u003C/li\u003E\u003C/ul\u003E\u003Cp\u003EVous pouvez explorer votre propre singularit\u00E9 en \u003Ca href=\u0022https://artistprofiler.art/explanations/about-website#\u0022 rel=\u0022noopener noreferrer nofollow\u0022\u003Ecr\u00E9ant votre page personnelle\u003C/a\u003E, puis en s\u00E9lectionnant un \u003Ca href=\u0022https://artistprofiler.art/The-Motor\u0022 rel=\u0022noopener noreferrer nofollow\u0022\u003EMoteur\u003C/a\u003E et un \u003Ca href=\u0022https://artistprofiler.art/The-Means\u0022 rel=\u0022noopener noreferrer nofollow\u0022\u003EMoyen\u003C/a\u003E parmi ceux propos\u00E9s par la m\u00E9thodologie. Cette d\u00E9marche vous permet de vous comparer imm\u00E9diatement \u00E0 des artistes partageant un profil artistique proche du v\u00F4tre.\u0026nbsp;\u003C/p\u003E",
+            "text": "\u003Cp\u003EPr\u00E9sentation du travail de l\u2019artiste et d\u00E9but des entretiens avec des \u00E9tudiants des \u00C9coles Sup\u00E9rieures des Beaux-arts de Montpellier et de N\u00EEmes, respectivement encadr\u00E9s par Gregory Niel et Anna Kerekes.\u003Cbr\u003E\u003Ca href=\u0022https://www.artistprofiler.art/\u0022 rel=\u0022noopener noreferrer nofollow\u0022\u003EArtistProfiler.art\u003C/a\u003E est une \u0153uvre d\u0027art num\u00E9rique en ligne cr\u00E9\u00E9e par Maxime Chanson. Elle prend la forme d\u0027une plateforme interactive con\u00E7ue pour inviter les artistes \u00E0 mieux identifier leur singularit\u00E9 artistique.\u003Cbr\u003ELes artistes sont compar\u00E9s \u00E0 des artistes reconnus ayant un profil similaire, c\u2019est-\u00E0-dire partageant \u00E0 la fois un \u003Ca href=\u0022https://artistprofiler.art/The-Motor\u0022 rel=\u0022noopener noreferrer nofollow\u0022\u003EMoteur\u003C/a\u003E de cr\u00E9ation et un \u003Ca href=\u0022https://artistprofiler.art/The-Means\u0022 rel=\u0022noopener noreferrer nofollow\u0022\u003EMoyen\u003C/a\u003E d\u2019expression.\u003Cbr\u003EActuellement, le site pr\u00E9sente plus de 3 000 \u003Cem\u003Eportraits analytiques\u003C/em\u003E d\u0027artistes reconnus, incluant pour chacun :\u003C/p\u003E\u003Cul\u003E\u003Cli\u003E\u003Cp\u003ELeur \u003Ca href=\u0022https://artistprofiler.art/ArtProcess\u0022 rel=\u0022noopener noreferrer nofollow\u0022\u003Eprofil artistique\u003C/a\u003E\u003C/p\u003E\u003C/li\u003E\u003Cli\u003E\u003Cp\u003EDes images et des vid\u00E9os de leurs \u0153uvres\u003C/p\u003E\u003C/li\u003E\u003Cli\u003E\u003Cp\u003ELeur pr\u00E9sence sur la \u003Ca href=\u0022https://artistprofiler.art/International-Scene-Artists\u0022 rel=\u0022noopener noreferrer nofollow\u0022\u003Esc\u00E8ne artistique internationale\u003C/a\u003E et/ou f\u003Ca href=\u0022https://artistprofiler.art/French-Scene-Artists\u0022 rel=\u0022noopener noreferrer nofollow\u0022\u003Eran\u00E7aise\u003C/a\u003E\u003C/p\u003E\u003C/li\u003E\u003Cli\u003E\u003Cp\u003ELa liste des \u003Ca href=\u0022https://artistprofiler.art/well-known-artists\u0022 rel=\u0022noopener noreferrer nofollow\u0022\u003Eautres artistes reconnus\u003C/a\u003E partageant un profil artistique similaire\u003C/p\u003E\u003C/li\u003E\u003C/ul\u003E\u003Cp\u003E\u003C/p\u003E\u003Cp\u003EVous pouvez explorer votre propre singularit\u00E9 en \u003Ca href=\u0022https://artistprofiler.art/explanations/about-website#\u0022 rel=\u0022noopener noreferrer nofollow\u0022\u003Ecr\u00E9ant votre page personnelle\u003C/a\u003E, puis en s\u00E9lectionnant un \u003Ca href=\u0022https://artistprofiler.art/The-Motor\u0022 rel=\u0022noopener noreferrer nofollow\u0022\u003EMoteur\u003C/a\u003E et un \u003Ca href=\u0022https://artistprofiler.art/The-Means\u0022 rel=\u0022noopener noreferrer nofollow\u0022\u003EMoyen\u003C/a\u003E parmi ceux propos\u00E9s par la m\u00E9thodologie. Cette d\u00E9marche vous permet de vous comparer imm\u00E9diatement \u00E0 des artistes partageant un profil artistique proche du v\u00F4tre.\u0026nbsp;\u003C/p\u003E",
             "title": "Intervention au MOCO ESBAMA"
           }
         }
@@ -415,14 +418,14 @@
       "editToken": "eyJhIjoiZWNob3RvbmUiLCJzIjoicGFnZSIsImkiOiJiZTE1NDgwOS1hMzkzLTQ3NTQtOTE5OC00YjUxZjU4MzZmZjAiLCJ1IjoiaHR0cHM6Ly9sYWFiLmRkbnMubmV0OjM4MDgwLyJ9",
       "id": "be154809-a393-4754-9198-4b51f5836ff0",
       "isDeleted": false,
-      "lastModified": "2025-01-29T12:38:28Z",
-      "lastModifiedBy": "subject:6798df7c5b784ee7b7cb52e1",
+      "lastModified": "2025-03-02T10:59:18Z",
+      "lastModifiedBy": "subject:6798dad0167d31fb8ec7cc74",
       "schemaDisplayName": "Page",
       "schemaId": "d0379b0e-294e-4df6-9b2b-257b807b1467",
       "schemaName": "page",
       "status": "Published",
       "statusColor": "#4bb958",
-      "version": 1
+      "version": 3
     }
   ],
   "statuses": [

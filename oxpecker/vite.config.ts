@@ -6,6 +6,7 @@ import tailwindcss from '@tailwindcss/vite'
 
 import { emptyDirSync } from 'fs-extra'
 import path from 'path'
+import { config } from 'process'
 
 const logger = createLogger()
 const loggerWarn = logger.warn
@@ -19,6 +20,15 @@ logger.warn = (msg, options) => {
 // https://vitejs.dev/config/
 export default defineConfig(({ mode }) => ({
   clearScreen: false,
+  server: {
+    watch: {
+      ignored: [
+        "**/*.fs" // Don't watch F# files
+      ]
+    },
+    // make the server accessible from the network
+    host: "0.0.0.0"
+  },
   customLogger: logger,
   publicDir: '../public',
   build: {
