@@ -17,6 +17,93 @@
     {
       "_links": {
         "delete": {
+          "href": "/api/content/echotone/page/dd3c3fe6-0103-4fea-b5e8-1ea714f36308",
+          "method": "DELETE"
+        },
+        "draft/create": {
+          "href": "/api/content/echotone/page/dd3c3fe6-0103-4fea-b5e8-1ea714f36308/draft",
+          "method": "POST"
+        },
+        "previous": {
+          "href": "/api/content/echotone/page/dd3c3fe6-0103-4fea-b5e8-1ea714f36308/6",
+          "method": "GET"
+        },
+        "self": {
+          "href": "/api/content/echotone/page/dd3c3fe6-0103-4fea-b5e8-1ea714f36308",
+          "method": "GET"
+        }
+      },
+      "created": "2025-03-03T18:44:15Z",
+      "createdBy": "subject:6798df7c5b784ee7b7cb52e1",
+      "data": {
+        "id": {
+          "iv": "n-u-collectif-residents-2025"
+        },
+        "medias": {
+          "iv": [
+            {
+              "in": true,
+              "medias": [
+                "0f4cebd8-4ac8-4981-9191-606f15c0c071",
+                "886d5858-de03-4c6e-98da-af702becb52f",
+                "06e2409b-c114-4c21-a62c-0d54883a1f36",
+                "39259620-aceb-4686-860e-0012c6c224a8",
+                "46663c11-bb31-4898-bc75-14691d775370",
+                "ec577ccc-88ff-4922-a1b0-d438b6c7f380",
+                "a42e073b-789c-420d-932f-d3beee9b24c0",
+                "dbb60eaf-fcb9-4e60-a45a-195209811695",
+                "6bc195a2-26f0-4e18-bfcf-39c18db9775e",
+                "4cb0e23e-4cdd-42c9-8b4f-cccaaa01f7c5"
+              ],
+              "schemaId": "1f4e3697-52bc-45d9-a7a8-65862c13ce4b",
+              "schemaName": "carousel"
+            }
+          ]
+        },
+        "unit": {
+          "en": {
+            "locations": [],
+            "schemaId": "2bd4ee39-8e6e-4128-9f08-a049cce49f23",
+            "schemaName": "unit",
+            "short": "La R\u00E9publique des Autres \uD83D\uDC41\uFE0F\u200D\uD83D\uDDE8\uFE0F Mardi 11 mars 2025 \u00E0 19h",
+            "tags": [
+              "accueil",
+              "programmation"
+            ],
+            "temporal": [],
+            "text": "\u003Cp\u003EDe 2020 \u00E0 2024,\u0026nbsp;\u003Cem\u003EEspaces Vivants\u003C/em\u003E\u0026nbsp;a \u00E9t\u00E9 un laboratoire nomade et inclusif, rassemblant plus de\u0026nbsp;2 300 participant\u00B7e\u00B7s\u0026nbsp;entre le Gard et l\u2019H\u00E9rault, aussi bien sur sc\u00E8ne que dans des centres d\u2019art.\u0026nbsp;\u003C/p\u003E\u003Cp\u003E\u003Ca href=\u0022https://space.us10.list-manage.com/track/click?u=0b2288db6750688a467a9eece\u0026amp;id=f8be5c5a19\u0026amp;e=1d7b5c154d\u0022 rel=\u0022noopener noreferrer nofollow\u0022\u003E\u003Cu\u003EN.U\u0026nbsp;Collectif\u003C/u\u003E\u003C/a\u003E, Nos Urgences Collectif\u0026nbsp;prolonge cette dynamique\u0026nbsp;\u003Cstrong\u003Eimmersive et participative\u003C/strong\u003E\u0026nbsp;\u00E0 travers\u0026nbsp;un nouveau cycle de recherche, \u003Cstrong\u003Eune exp\u00E9rience hybride\u003C/strong\u003E\u0026nbsp;o\u00F9 se croisent po\u00E9sie sonore, musique improvis\u00E9e, performance et th\u00E9\u00E2tre instrumental. Cette exploration interroge les impulsions cr\u00E9atives qui pr\u00E9c\u00E8dent le langage et donne naissance \u00E0\u0026nbsp;\u003Cstrong\u003Eun lexique sensible des \u00E9motion\u003C/strong\u003Es.\u003C/p\u003E\u003Cp\u003EEn r\u00E9unissant des adultes porteur\u00B7euse\u00B7s de troubles du spectre autistique, des personnes en situation de vuln\u00E9rabilit\u00E9, leurs proches, des soignant\u00B7e\u00B7s et des habitant\u00B7e\u00B7s,\u0026nbsp;\u003Cstrong\u003Eelle fa\u00E7onne une micro-soci\u00E9t\u00E9\u003C/strong\u003E\u0026nbsp;artistique et sociale en perp\u00E9tuel mouvement.\u003C/p\u003E\u003Cp\u003E\u003Cbr\u003E\u003Cstrong\u003ERETROUVEZ-LES \u00C0 \u00C9CHOTONE !\u003C/strong\u003E\u003C/p\u003E\u003Cul\u003E\u003Cli\u003E\u003Cp\u003EJeudi 27 f\u00E9vrier \u00E0 19h - Lecture sonore\u003C/p\u003E\u003C/li\u003E\u003Cli\u003E\u003Cp\u003EMardi 11 mars \u00E0 19h \u0026nbsp;- Concert\u003C/p\u003E\u003C/li\u003E\u003Cli\u003E\u003Cp\u003EMercredi 16 avril \u00E0 19h - Installation plastique et sonore\u003C/p\u003E\u003C/li\u003E\u003Cli\u003E\u003Cp\u003E\u003Cstrong\u003EEt bient\u00F4t d\u0027autres rendez-vous entre mai et juillet!\u003C/strong\u003E\u003C/p\u003E\u003C/li\u003E\u003C/ul\u003E\u003Cp\u003E\u0026nbsp;\u003C/p\u003E\u003Cp\u003EN.U Collectif est accompagn\u00E9s par\u0026nbsp;\u003Ca href=\u0022https://space.us10.list-manage.com/track/click?u=0b2288db6750688a467a9eece\u0026amp;id=32e255a271\u0026amp;e=1d7b5c154d\u0022 rel=\u0022noopener noreferrer nofollow\u0022\u003E\u003Cstrong\u003E\u003Cu\u003EAnna Kerekes\u003C/u\u003E\u003C/strong\u003E\u003C/a\u003E\u003Cstrong\u003E,\u003C/strong\u003E\u0026nbsp;critique d\u2019art et commissaire d\u2019exposition, enseignante \u00E0 l\u2019\u00C9cole Sup\u00E9rieure des Beaux-Arts de N\u00EEmes ; et poursuit\u0026nbsp;ses collaborations avec Le\u0026nbsp;\u003Cstrong\u003ELieu de Vie Tentative\u003C/strong\u003E\u0026nbsp;\u00E0 Saint-Hippolyte-du-Fort,\u003Cstrong\u003E\u0026nbsp;\u003C/strong\u003E\u003Ca href=\u0022https://space.us10.list-manage.com/track/click?u=0b2288db6750688a467a9eece\u0026amp;id=0200e7377e\u0026amp;e=1d7b5c154d\u0022 rel=\u0022noopener noreferrer nofollow\u0022\u003E\u003Cstrong\u003E\u003Cu\u003ELa Bulle Bleue\u003C/u\u003E\u003C/strong\u003E\u003C/a\u003E, E.S.A.T Artistique et\u0026nbsp;\u003Ca href=\u0022https://space.us10.list-manage.com/track/click?u=0b2288db6750688a467a9eece\u0026amp;id=7b53714e27\u0026amp;e=1d7b5c154d\u0022 rel=\u0022noopener noreferrer nofollow\u0022\u003E\u003Cstrong\u003E\u003Cu\u003ELes Ateliers Kennedy\u003C/u\u003E\u003C/strong\u003E\u003C/a\u003E\u0026nbsp;E.S.A.T \u00E0 Montpellier.\u003Cbr\u003E\u003Cbr\u003EAvec pour le \u003Cstrong\u003EN.U Collectif\u003C/strong\u003E,\u0026nbsp;\u003Cstrong\u003EAXELLE CARRUZZO\u003C/strong\u003E, Metteure en sc\u00E8ne et performeuse, \u003Cstrong\u003EMATHIAS BEYLER\u003C/strong\u003E, Metteur en sc\u00E8ne et constructeur sonore, \u003Cstrong\u003EM\u00C9LAINE BLOT\u003C/strong\u003E, Com\u00E9dien - ESAT La Bulle Bleue, \u003Cstrong\u003ES\u00C9BASTIEN LENTH\u00C9RIC\u003C/strong\u003E, Metteur en sc\u00E8ne et performeur, \u003Cstrong\u003EGABRIELE PAUPINI\u003C/strong\u003E,\u0026nbsp;Auteur, \u003Cstrong\u003EAUR\u00C9LIE PIAU\u003C/strong\u003E, Plasticienne,\u0026nbsp;\u003Cstrong\u003EJEAN CAGNARD\u003C/strong\u003E, Auteur, \u003Cstrong\u003EANTHONY GROS-AUDIBERT\u003C/strong\u003E, Performeur - ESAT Ateliers Kennedy, \u003Cstrong\u003ECL\u00C9MENT POTIER\u003C/strong\u003E - ESAT La Bulle Bleue, R\u00E9gisseur lumi\u00E8re,\u0026nbsp;\u003Cstrong\u003EBERTRAND WOLFF\u003C/strong\u003E, Compositeur et musicien, \u003Cstrong\u003EBOLOLIPSUM\u003C/strong\u003E, Musicien et beatmaker.\u003C/p\u003E",
+            "title": "N.U Collectif \u261E R\u00E9sidents 2025"
+          },
+          "fr": {
+            "locations": [],
+            "schemaId": "2bd4ee39-8e6e-4128-9f08-a049cce49f23",
+            "schemaName": "unit",
+            "short": "La R\u00E9publique des Autres \uD83D\uDC41\uFE0F\u200D\uD83D\uDDE8\uFE0F Mardi 11 mars 2025 \u00E0 19h",
+            "tags": [
+              "accueil",
+              "programmation"
+            ],
+            "temporal": [],
+            "text": "\u003Cp\u003EDe 2020 \u00E0 2024,\u0026nbsp;\u003Cem\u003EEspaces Vivants\u003C/em\u003E\u0026nbsp;a \u00E9t\u00E9 un laboratoire nomade et inclusif, rassemblant plus de\u0026nbsp;2 300 participant\u00B7e\u00B7s\u0026nbsp;entre le Gard et l\u2019H\u00E9rault, aussi bien sur sc\u00E8ne que dans des centres d\u2019art.\u0026nbsp;\u003C/p\u003E\u003Cp\u003E\u003Ca href=\u0022https://space.us10.list-manage.com/track/click?u=0b2288db6750688a467a9eece\u0026amp;id=f8be5c5a19\u0026amp;e=1d7b5c154d\u0022 rel=\u0022noopener noreferrer nofollow\u0022\u003E\u003Cu\u003EN.U\u0026nbsp;Collectif\u003C/u\u003E\u003C/a\u003E, Nos Urgences Collectif\u0026nbsp;prolonge cette dynamique\u0026nbsp;\u003Cstrong\u003Eimmersive et participative\u003C/strong\u003E\u0026nbsp;\u00E0 travers\u0026nbsp;un nouveau cycle de recherche, \u003Cstrong\u003Eune exp\u00E9rience hybride\u003C/strong\u003E\u0026nbsp;o\u00F9 se croisent po\u00E9sie sonore, musique improvis\u00E9e, performance et th\u00E9\u00E2tre instrumental. Cette exploration interroge les impulsions cr\u00E9atives qui pr\u00E9c\u00E8dent le langage et donne naissance \u00E0\u0026nbsp;\u003Cstrong\u003Eun lexique sensible des \u00E9motion\u003C/strong\u003Es.\u003C/p\u003E\u003Cp\u003EEn r\u00E9unissant des adultes porteur\u00B7euse\u00B7s de troubles du spectre autistique, des personnes en situation de vuln\u00E9rabilit\u00E9, leurs proches, des soignant\u00B7e\u00B7s et des habitant\u00B7e\u00B7s,\u0026nbsp;\u003Cstrong\u003Eelle fa\u00E7onne une micro-soci\u00E9t\u00E9\u003C/strong\u003E\u0026nbsp;artistique et sociale en perp\u00E9tuel mouvement.\u003C/p\u003E\u003Cp\u003E\u003Cbr\u003E\u003Cstrong\u003ERETROUVEZ-LES \u00C0 \u00C9CHOTONE !\u003C/strong\u003E\u003C/p\u003E\u003Cul\u003E\u003Cli\u003E\u003Cp\u003EJeudi 27 f\u00E9vrier \u00E0 19h - Lecture sonore\u003C/p\u003E\u003C/li\u003E\u003Cli\u003E\u003Cp\u003EMardi 11 mars \u00E0 19h \u0026nbsp;- Concert\u003C/p\u003E\u003C/li\u003E\u003Cli\u003E\u003Cp\u003EMercredi 16 avril \u00E0 19h - Installation plastique et sonore\u003C/p\u003E\u003C/li\u003E\u003Cli\u003E\u003Cp\u003E\u003Cstrong\u003EEt bient\u00F4t d\u0027autres rendez-vous entre mai et juillet!\u003C/strong\u003E\u003C/p\u003E\u003C/li\u003E\u003C/ul\u003E\u003Cp\u003E\u0026nbsp;\u003C/p\u003E\u003Cp\u003EN.U Collectif est accompagn\u00E9s par\u0026nbsp;\u003Ca href=\u0022https://space.us10.list-manage.com/track/click?u=0b2288db6750688a467a9eece\u0026amp;id=32e255a271\u0026amp;e=1d7b5c154d\u0022 rel=\u0022noopener noreferrer nofollow\u0022\u003E\u003Cstrong\u003E\u003Cu\u003EAnna Kerekes\u003C/u\u003E\u003C/strong\u003E\u003C/a\u003E\u003Cstrong\u003E,\u003C/strong\u003E\u0026nbsp;critique d\u2019art et commissaire d\u2019exposition, enseignante \u00E0 l\u2019\u00C9cole Sup\u00E9rieure des Beaux-Arts de N\u00EEmes ; et poursuit\u0026nbsp;ses collaborations avec Le\u0026nbsp;\u003Cstrong\u003ELieu de Vie Tentative\u003C/strong\u003E\u0026nbsp;\u00E0 Saint-Hippolyte-du-Fort,\u003Cstrong\u003E\u0026nbsp;\u003C/strong\u003E\u003Ca href=\u0022https://space.us10.list-manage.com/track/click?u=0b2288db6750688a467a9eece\u0026amp;id=0200e7377e\u0026amp;e=1d7b5c154d\u0022 rel=\u0022noopener noreferrer nofollow\u0022\u003E\u003Cstrong\u003E\u003Cu\u003ELa Bulle Bleue\u003C/u\u003E\u003C/strong\u003E\u003C/a\u003E, E.S.A.T Artistique et\u0026nbsp;\u003Ca href=\u0022https://space.us10.list-manage.com/track/click?u=0b2288db6750688a467a9eece\u0026amp;id=7b53714e27\u0026amp;e=1d7b5c154d\u0022 rel=\u0022noopener noreferrer nofollow\u0022\u003E\u003Cstrong\u003E\u003Cu\u003ELes Ateliers Kennedy\u003C/u\u003E\u003C/strong\u003E\u003C/a\u003E\u0026nbsp;E.S.A.T \u00E0 Montpellier.\u003Cbr\u003E\u003Cbr\u003EAvec pour le \u003Cstrong\u003EN.U Collectif\u003C/strong\u003E,\u0026nbsp;\u003Cstrong\u003EAXELLE CARRUZZO\u003C/strong\u003E, Metteure en sc\u00E8ne et performeuse, \u003Cstrong\u003EMATHIAS BEYLER\u003C/strong\u003E, Metteur en sc\u00E8ne et constructeur sonore, \u003Cstrong\u003EM\u00C9LAINE BLOT\u003C/strong\u003E, Com\u00E9dien - ESAT La Bulle Bleue, \u003Cstrong\u003ES\u00C9BASTIEN LENTH\u00C9RIC\u003C/strong\u003E, Metteur en sc\u00E8ne et performeur, \u003Cstrong\u003EGABRIELE PAUPINI\u003C/strong\u003E,\u0026nbsp;Auteur, \u003Cstrong\u003EAUR\u00C9LIE PIAU\u003C/strong\u003E, Plasticienne,\u0026nbsp;\u003Cstrong\u003EJEAN CAGNARD\u003C/strong\u003E, Auteur, \u003Cstrong\u003EANTHONY GROS-AUDIBERT\u003C/strong\u003E, Performeur - ESAT Ateliers Kennedy, \u003Cstrong\u003ECL\u00C9MENT POTIER\u003C/strong\u003E - ESAT La Bulle Bleue, R\u00E9gisseur lumi\u00E8re,\u0026nbsp;\u003Cstrong\u003EBERTRAND WOLFF\u003C/strong\u003E, Compositeur et musicien, \u003Cstrong\u003EBOLOLIPSUM\u003C/strong\u003E, Musicien et beatmaker.\u003C/p\u003E",
+            "title": "N.U Collectif \u261E R\u00E9sidents 2025"
+          }
+        }
+      },
+      "editToken": "eyJhIjoiZWNob3RvbmUiLCJzIjoicGFnZSIsImkiOiJkZDNjM2ZlNi0wMTAzLTRmZWEtYjVlOC0xZWE3MTRmMzYzMDgiLCJ1IjoiaHR0cHM6Ly9sYWFiLmRkbnMubmV0OjM4MDgwLyJ9",
+      "id": "dd3c3fe6-0103-4fea-b5e8-1ea714f36308",
+      "isDeleted": false,
+      "lastModified": "2025-03-03T21:55:55Z",
+      "lastModifiedBy": "subject:6798df7c5b784ee7b7cb52e1",
+      "schemaDisplayName": "Page",
+      "schemaId": "d0379b0e-294e-4df6-9b2b-257b807b1467",
+      "schemaName": "page",
+      "status": "Published",
+      "statusColor": "#4bb958",
+      "version": 7
+    },
+    {
+      "_links": {
+        "delete": {
           "href": "/api/content/echotone/page/5df4da81-4790-49d6-b8fe-c1a0e9ff17d8",
           "method": "DELETE"
         },
@@ -175,93 +262,6 @@
       "status": "Published",
       "statusColor": "#4bb958",
       "version": 1
-    },
-    {
-      "_links": {
-        "delete": {
-          "href": "/api/content/echotone/page/dd3c3fe6-0103-4fea-b5e8-1ea714f36308",
-          "method": "DELETE"
-        },
-        "draft/create": {
-          "href": "/api/content/echotone/page/dd3c3fe6-0103-4fea-b5e8-1ea714f36308/draft",
-          "method": "POST"
-        },
-        "previous": {
-          "href": "/api/content/echotone/page/dd3c3fe6-0103-4fea-b5e8-1ea714f36308/5",
-          "method": "GET"
-        },
-        "self": {
-          "href": "/api/content/echotone/page/dd3c3fe6-0103-4fea-b5e8-1ea714f36308",
-          "method": "GET"
-        }
-      },
-      "created": "2025-03-03T18:44:15Z",
-      "createdBy": "subject:6798df7c5b784ee7b7cb52e1",
-      "data": {
-        "id": {
-          "iv": "n-u-collectif-residents-2025"
-        },
-        "medias": {
-          "iv": [
-            {
-              "in": true,
-              "medias": [
-                "0f4cebd8-4ac8-4981-9191-606f15c0c071",
-                "886d5858-de03-4c6e-98da-af702becb52f",
-                "06e2409b-c114-4c21-a62c-0d54883a1f36",
-                "39259620-aceb-4686-860e-0012c6c224a8",
-                "46663c11-bb31-4898-bc75-14691d775370",
-                "ec577ccc-88ff-4922-a1b0-d438b6c7f380",
-                "a42e073b-789c-420d-932f-d3beee9b24c0",
-                "dbb60eaf-fcb9-4e60-a45a-195209811695",
-                "6bc195a2-26f0-4e18-bfcf-39c18db9775e",
-                "4cb0e23e-4cdd-42c9-8b4f-cccaaa01f7c5"
-              ],
-              "schemaId": "1f4e3697-52bc-45d9-a7a8-65862c13ce4b",
-              "schemaName": "carousel"
-            }
-          ]
-        },
-        "unit": {
-          "en": {
-            "locations": [],
-            "schemaId": "2bd4ee39-8e6e-4128-9f08-a049cce49f23",
-            "schemaName": "unit",
-            "short": "La R\u00E9publique des Autres \uD83D\uDC41\uFE0F\u200D\uD83D\uDDE8\uFE0F Mardi 11 mars 2025 \u00E0 19h",
-            "tags": [
-              "accueil",
-              "programmation"
-            ],
-            "temporal": [],
-            "text": "\u003Cp\u003EDe 2020 \u00E0 2024,\u0026nbsp;\u003Cstrong\u003E\u003Cem\u003EEspaces Vivants\u003C/em\u003E\u0026nbsp;\u003C/strong\u003Ea \u00E9t\u00E9 un laboratoire nomade et inclusif, rassemblant plus de\u0026nbsp;\u003Cstrong\u003E2 300 participant\u00B7e\u00B7s\u003C/strong\u003E\u0026nbsp;entre le Gard et l\u2019H\u00E9rault, aussi bien sur sc\u00E8ne que dans des centres d\u2019art.\u003Cstrong\u003E\u0026nbsp;\u003C/strong\u003E\u003C/p\u003E\u003Cp\u003E\u003Ca href=\u0022https://space.us10.list-manage.com/track/click?u=0b2288db6750688a467a9eece\u0026amp;id=f8be5c5a19\u0026amp;e=1d7b5c154d\u0022 rel=\u0022noopener noreferrer nofollow\u0022\u003E\u003Cu\u003EN.U\u0026nbsp;Collectif\u003C/u\u003E\u003C/a\u003E, Nos Urgences Collectif\u0026nbsp;prolonge cette dynamique\u0026nbsp;\u003Cstrong\u003Eimmersive et participative\u003C/strong\u003E\u0026nbsp;\u00E0 travers\u0026nbsp;un nouveau cycle de recherche, \u003Cstrong\u003Eune exp\u00E9rience hybride\u003C/strong\u003E\u0026nbsp;o\u00F9 se croisent po\u00E9sie sonore, musique improvis\u00E9e, performance et th\u00E9\u00E2tre instrumental. Cette exploration interroge les impulsions cr\u00E9atives qui pr\u00E9c\u00E8dent le langage et donne naissance \u00E0\u0026nbsp;\u003Cstrong\u003Eun lexique sensible des \u00E9motion\u003C/strong\u003Es.\u003C/p\u003E\u003Cp\u003EEn r\u00E9unissant des adultes porteur\u00B7euse\u00B7s de troubles du spectre autistique, des personnes en situation de vuln\u00E9rabilit\u00E9, leurs proches, des soignant\u00B7e\u00B7s et des habitant\u00B7e\u00B7s,\u0026nbsp;\u003Cstrong\u003Eelle fa\u00E7onne une micro-soci\u00E9t\u00E9\u003C/strong\u003E\u0026nbsp;artistique et sociale en perp\u00E9tuel mouvement.\u003C/p\u003E\u003Cp\u003E\u003Cbr\u003E\u003Cstrong\u003ERETROUVEZ-LES \u00C0 \u00C9CHOTONE !\u003C/strong\u003E\u003C/p\u003E\u003Cul\u003E\u003Cli\u003E\u003Cp\u003EJeudi 27 f\u00E9vrier \u00E0 19h - Lecture sonore\u003C/p\u003E\u003C/li\u003E\u003Cli\u003E\u003Cp\u003EMardi 11 mars \u00E0 19h \u0026nbsp;- Concert\u003C/p\u003E\u003C/li\u003E\u003Cli\u003E\u003Cp\u003EMercredi 16 avril \u00E0 19h - Installation plastique et sonore\u003C/p\u003E\u003C/li\u003E\u003Cli\u003E\u003Cp\u003E\u003Cstrong\u003EEt bient\u00F4t d\u0027autres rendez-vous entre mai et juillet!\u003C/strong\u003E\u003C/p\u003E\u003C/li\u003E\u003C/ul\u003E\u003Cp\u003E\u0026nbsp;\u003C/p\u003E\u003Cp\u003EN.U Collectif est accompagn\u00E9s par\u0026nbsp;\u003Ca href=\u0022https://space.us10.list-manage.com/track/click?u=0b2288db6750688a467a9eece\u0026amp;id=32e255a271\u0026amp;e=1d7b5c154d\u0022 rel=\u0022noopener noreferrer nofollow\u0022\u003E\u003Cstrong\u003E\u003Cu\u003EAnna Kerekes\u003C/u\u003E\u003C/strong\u003E\u003C/a\u003E\u003Cstrong\u003E,\u003C/strong\u003E\u0026nbsp;critique d\u2019art et commissaire d\u2019exposition, enseignante \u00E0 l\u2019\u00C9cole Sup\u00E9rieure des Beaux-Arts de N\u00EEmes ; et poursuit\u0026nbsp;ses collaborations avec Le\u0026nbsp;\u003Cstrong\u003ELieu de Vie Tentative\u003C/strong\u003E\u0026nbsp;\u00E0 Saint-Hippolyte-du-Fort,\u003Cstrong\u003E\u0026nbsp;\u003C/strong\u003E\u003Ca href=\u0022https://space.us10.list-manage.com/track/click?u=0b2288db6750688a467a9eece\u0026amp;id=0200e7377e\u0026amp;e=1d7b5c154d\u0022 rel=\u0022noopener noreferrer nofollow\u0022\u003E\u003Cstrong\u003E\u003Cu\u003ELa Bulle Bleue\u003C/u\u003E\u003C/strong\u003E\u003C/a\u003E, E.S.A.T Artistique et\u0026nbsp;\u003Ca href=\u0022https://space.us10.list-manage.com/track/click?u=0b2288db6750688a467a9eece\u0026amp;id=7b53714e27\u0026amp;e=1d7b5c154d\u0022 rel=\u0022noopener noreferrer nofollow\u0022\u003E\u003Cstrong\u003E\u003Cu\u003ELes Ateliers Kennedy\u003C/u\u003E\u003C/strong\u003E\u003C/a\u003E\u0026nbsp;E.S.A.T \u00E0 Montpellier.\u003Cbr\u003E\u003Cbr\u003EAvec pour le \u003Cstrong\u003EN.U Collectif\u003C/strong\u003E,\u0026nbsp;\u003Cstrong\u003EAXELLE CARRUZZO\u003C/strong\u003E, Metteure en sc\u00E8ne et performeuse, \u003Cstrong\u003EMATHIAS BEYLER\u003C/strong\u003E, Metteur en sc\u00E8ne et constructeur sonore, \u003Cstrong\u003EM\u00C9LAINE BLOT\u003C/strong\u003E, Com\u00E9dien - ESAT La Bulle Bleue, \u003Cstrong\u003ES\u00C9BASTIEN LENTH\u00C9RIC\u003C/strong\u003E, Metteur en sc\u00E8ne et performeur, \u003Cstrong\u003EGABRIELE PAUPINI\u003C/strong\u003E,\u0026nbsp;Auteur, \u003Cstrong\u003EAUR\u00C9LIE PIAU\u003C/strong\u003E, Plasticienne,\u0026nbsp;\u003Cstrong\u003EJEAN CAGNARD\u003C/strong\u003E, Auteur, \u003Cstrong\u003EANTHONY GROS-AUDIBERT\u003C/strong\u003E, Performeur - ESAT Ateliers Kennedy, \u003Cstrong\u003ECL\u00C9MENT POTIER\u003C/strong\u003E - ESAT La Bulle Bleue, R\u00E9gisseur lumi\u00E8re,\u0026nbsp;\u003Cstrong\u003EBERTRAND WOLFF\u003C/strong\u003E, Compositeur et musicien, \u003Cstrong\u003EBOLOLIPSUM\u003C/strong\u003E, Musicien et beatmaker.\u003C/p\u003E",
-            "title": "N.U Collectif \u261E R\u00E9sidents 2025"
-          },
-          "fr": {
-            "locations": [],
-            "schemaId": "2bd4ee39-8e6e-4128-9f08-a049cce49f23",
-            "schemaName": "unit",
-            "short": "La R\u00E9publique des Autres \uD83D\uDC41\uFE0F\u200D\uD83D\uDDE8\uFE0F Mardi 11 mars 2025 \u00E0 19h",
-            "tags": [
-              "accueil",
-              "programmation"
-            ],
-            "temporal": [],
-            "text": "\u003Cp\u003EDe 2020 \u00E0 2024,\u0026nbsp;\u003Cstrong\u003E\u003Cem\u003EEspaces Vivants\u003C/em\u003E\u0026nbsp;\u003C/strong\u003Ea \u00E9t\u00E9 un laboratoire nomade et inclusif, rassemblant plus de\u0026nbsp;\u003Cstrong\u003E2 300 participant\u00B7e\u00B7s\u003C/strong\u003E\u0026nbsp;entre le Gard et l\u2019H\u00E9rault, aussi bien sur sc\u00E8ne que dans des centres d\u2019art.\u003Cstrong\u003E\u0026nbsp;\u003C/strong\u003E\u003C/p\u003E\u003Cp\u003E\u003Ca href=\u0022https://space.us10.list-manage.com/track/click?u=0b2288db6750688a467a9eece\u0026amp;id=f8be5c5a19\u0026amp;e=1d7b5c154d\u0022 rel=\u0022noopener noreferrer nofollow\u0022\u003E\u003Cu\u003EN.U\u0026nbsp;Collectif\u003C/u\u003E\u003C/a\u003E, Nos Urgences Collectif\u0026nbsp;prolonge cette dynamique\u0026nbsp;\u003Cstrong\u003Eimmersive et participative\u003C/strong\u003E\u0026nbsp;\u00E0 travers\u0026nbsp;un nouveau cycle de recherche, \u003Cstrong\u003Eune exp\u00E9rience hybride\u003C/strong\u003E\u0026nbsp;o\u00F9 se croisent po\u00E9sie sonore, musique improvis\u00E9e, performance et th\u00E9\u00E2tre instrumental. Cette exploration interroge les impulsions cr\u00E9atives qui pr\u00E9c\u00E8dent le langage et donne naissance \u00E0\u0026nbsp;\u003Cstrong\u003Eun lexique sensible des \u00E9motion\u003C/strong\u003Es.\u003C/p\u003E\u003Cp\u003EEn r\u00E9unissant des adultes porteur\u00B7euse\u00B7s de troubles du spectre autistique, des personnes en situation de vuln\u00E9rabilit\u00E9, leurs proches, des soignant\u00B7e\u00B7s et des habitant\u00B7e\u00B7s,\u0026nbsp;\u003Cstrong\u003Eelle fa\u00E7onne une micro-soci\u00E9t\u00E9\u003C/strong\u003E\u0026nbsp;artistique et sociale en perp\u00E9tuel mouvement.\u003C/p\u003E\u003Cp\u003E\u003Cbr\u003E\u003Cstrong\u003ERETROUVEZ-LES \u00C0 \u00C9CHOTONE !\u003C/strong\u003E\u003C/p\u003E\u003Cul\u003E\u003Cli\u003E\u003Cp\u003EJeudi 27 f\u00E9vrier \u00E0 19h - Lecture sonore\u003C/p\u003E\u003C/li\u003E\u003Cli\u003E\u003Cp\u003EMardi 11 mars \u00E0 19h \u0026nbsp;- Concert\u003C/p\u003E\u003C/li\u003E\u003Cli\u003E\u003Cp\u003EMercredi 16 avril \u00E0 19h - Installation plastique et sonore\u003C/p\u003E\u003C/li\u003E\u003Cli\u003E\u003Cp\u003E\u003Cstrong\u003EEt bient\u00F4t d\u0027autres rendez-vous entre mai et juillet!\u003C/strong\u003E\u003C/p\u003E\u003C/li\u003E\u003C/ul\u003E\u003Cp\u003E\u0026nbsp;\u003C/p\u003E\u003Cp\u003EN.U Collectif est accompagn\u00E9s par\u0026nbsp;\u003Ca href=\u0022https://space.us10.list-manage.com/track/click?u=0b2288db6750688a467a9eece\u0026amp;id=32e255a271\u0026amp;e=1d7b5c154d\u0022 rel=\u0022noopener noreferrer nofollow\u0022\u003E\u003Cstrong\u003E\u003Cu\u003EAnna Kerekes\u003C/u\u003E\u003C/strong\u003E\u003C/a\u003E\u003Cstrong\u003E,\u003C/strong\u003E\u0026nbsp;critique d\u2019art et commissaire d\u2019exposition, enseignante \u00E0 l\u2019\u00C9cole Sup\u00E9rieure des Beaux-Arts de N\u00EEmes ; et poursuit\u0026nbsp;ses collaborations avec Le\u0026nbsp;\u003Cstrong\u003ELieu de Vie Tentative\u003C/strong\u003E\u0026nbsp;\u00E0 Saint-Hippolyte-du-Fort,\u003Cstrong\u003E\u0026nbsp;\u003C/strong\u003E\u003Ca href=\u0022https://space.us10.list-manage.com/track/click?u=0b2288db6750688a467a9eece\u0026amp;id=0200e7377e\u0026amp;e=1d7b5c154d\u0022 rel=\u0022noopener noreferrer nofollow\u0022\u003E\u003Cstrong\u003E\u003Cu\u003ELa Bulle Bleue\u003C/u\u003E\u003C/strong\u003E\u003C/a\u003E, E.S.A.T Artistique et\u0026nbsp;\u003Ca href=\u0022https://space.us10.list-manage.com/track/click?u=0b2288db6750688a467a9eece\u0026amp;id=7b53714e27\u0026amp;e=1d7b5c154d\u0022 rel=\u0022noopener noreferrer nofollow\u0022\u003E\u003Cstrong\u003E\u003Cu\u003ELes Ateliers Kennedy\u003C/u\u003E\u003C/strong\u003E\u003C/a\u003E\u0026nbsp;E.S.A.T \u00E0 Montpellier.\u003Cbr\u003E\u003Cbr\u003EAvec pour le \u003Cstrong\u003EN.U Collectif\u003C/strong\u003E,\u0026nbsp;\u003Cstrong\u003EAXELLE CARRUZZO\u003C/strong\u003E, Metteure en sc\u00E8ne et performeuse, \u003Cstrong\u003EMATHIAS BEYLER\u003C/strong\u003E, Metteur en sc\u00E8ne et constructeur sonore, \u003Cstrong\u003EM\u00C9LAINE BLOT\u003C/strong\u003E, Com\u00E9dien - ESAT La Bulle Bleue, \u003Cstrong\u003ES\u00C9BASTIEN LENTH\u00C9RIC\u003C/strong\u003E, Metteur en sc\u00E8ne et performeur, \u003Cstrong\u003EGABRIELE PAUPINI\u003C/strong\u003E,\u0026nbsp;Auteur, \u003Cstrong\u003EAUR\u00C9LIE PIAU\u003C/strong\u003E, Plasticienne,\u0026nbsp;\u003Cstrong\u003EJEAN CAGNARD\u003C/strong\u003E, Auteur, \u003Cstrong\u003EANTHONY GROS-AUDIBERT\u003C/strong\u003E, Performeur - ESAT Ateliers Kennedy, \u003Cstrong\u003ECL\u00C9MENT POTIER\u003C/strong\u003E - ESAT La Bulle Bleue, R\u00E9gisseur lumi\u00E8re,\u0026nbsp;\u003Cstrong\u003EBERTRAND WOLFF\u003C/strong\u003E, Compositeur et musicien, \u003Cstrong\u003EBOLOLIPSUM\u003C/strong\u003E, Musicien et beatmaker.\u003C/p\u003E",
-            "title": "N.U Collectif \u261E R\u00E9sidents 2025"
-          }
-        }
-      },
-      "editToken": "eyJhIjoiZWNob3RvbmUiLCJzIjoicGFnZSIsImkiOiJkZDNjM2ZlNi0wMTAzLTRmZWEtYjVlOC0xZWE3MTRmMzYzMDgiLCJ1IjoiaHR0cHM6Ly9sYWFiLmRkbnMubmV0OjM4MDgwLyJ9",
-      "id": "dd3c3fe6-0103-4fea-b5e8-1ea714f36308",
-      "isDeleted": false,
-      "lastModified": "2025-03-03T21:28:49Z",
-      "lastModifiedBy": "subject:6798df7c5b784ee7b7cb52e1",
-      "schemaDisplayName": "Page",
-      "schemaId": "d0379b0e-294e-4df6-9b2b-257b807b1467",
-      "schemaName": "page",
-      "status": "Published",
-      "statusColor": "#4bb958",
-      "version": 6
     },
     {
       "_links": {
