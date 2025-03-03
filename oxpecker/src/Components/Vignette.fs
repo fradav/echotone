@@ -15,7 +15,7 @@ module Page =
         onMount(fun _ -> observer.observe(divRef))
         div(
             class' =
-                "break-inside-avoid break-after-avoid-page duration-1000 ease-in-out mb-10 bg-amber-50 shadow-2xl rounded-3xl dark:bg-blue-950"
+                "break-inside-avoid break-after-avoid-page duration-1000 ease-in-out mb-10 bg-gray-100 shadow-2xl rounded-3xl dark:bg-blue-950"
         )
             .ref(fun e -> divRef <- e) {
             Cover w page
