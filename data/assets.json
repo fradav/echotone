@@ -21,6 +21,1207 @@
     {
       "_links": {
         "content": {
+          "href": "/api/assets/echotone/b708adf3-e6a1-43a4-82c7-a9455e21d8e8/1000008134.jpg",
+          "method": "GET"
+        },
+        "content/slug": {
+          "href": "/api/assets/echotone/1000008134.jpg",
+          "method": "GET"
+        },
+        "delete": {
+          "href": "/api/apps/echotone/assets/b708adf3-e6a1-43a4-82c7-a9455e21d8e8",
+          "method": "DELETE"
+        },
+        "move": {
+          "href": "/api/apps/echotone/assets/b708adf3-e6a1-43a4-82c7-a9455e21d8e8/parent",
+          "method": "PUT"
+        },
+        "self": {
+          "href": "/api/apps/echotone/assets/b708adf3-e6a1-43a4-82c7-a9455e21d8e8",
+          "method": "GET"
+        },
+        "update": {
+          "href": "/api/apps/echotone/assets/b708adf3-e6a1-43a4-82c7-a9455e21d8e8",
+          "method": "PUT"
+        },
+        "upload": {
+          "href": "/api/apps/echotone/assets/b708adf3-e6a1-43a4-82c7-a9455e21d8e8/content",
+          "method": "PUT"
+        }
+      },
+      "created": "2025-03-03T20:04:44Z",
+      "createdBy": "subject:6798df7c5b784ee7b7cb52e1",
+      "editToken": "eyJhIjoiZWNob3RvbmUiLCJpIjoiYjcwOGFkZjMtZTZhMS00M2E0LTgyYzctYTk0NTVlMjFkOGU4IiwidSI6Imh0dHBzOi8vbGFhYi5kZG5zLm5ldDozODA4MC8ifQ==",
+      "fileHash": "b9h7U\u002BxiKVmJYwsyFxNqT\u002BMw3QvHpO/TcQIq9VpZknA=",
+      "fileName": "1000008134.jpg",
+      "fileSize": 1330747,
+      "fileType": "jpg",
+      "fileVersion": 0,
+      "id": "b708adf3-e6a1-43a4-82c7-a9455e21d8e8",
+      "isImage": true,
+      "isProtected": false,
+      "lastModified": "2025-03-03T20:04:44Z",
+      "lastModifiedBy": "subject:6798df7c5b784ee7b7cb52e1",
+      "metadata": {
+        "created": "2024-11-24T23:51:28\u002B00:00",
+        "description": "JFIF File",
+        "imageQuality": 98,
+        "pixelHeight": 1536,
+        "pixelWidth": 2048
+      },
+      "metadataText": "2048x1536px, 1.3 MB",
+      "mimeType": "image/jpeg",
+      "parentId": "00000000-0000-0000-0000-000000000000",
+      "pixelHeight": 1536,
+      "pixelWidth": 2048,
+      "slug": "1000008134.jpg",
+      "tags": [
+        "type/jpg",
+        "image",
+        "image/large"
+      ],
+      "type": "Image",
+      "version": 0
+    },
+    {
+      "_links": {
+        "content": {
+          "href": "/api/assets/echotone/1069eb14-c864-42db-a2e0-396f8198aa78/img-20241124-wa0000.jpg",
+          "method": "GET"
+        },
+        "content/slug": {
+          "href": "/api/assets/echotone/img-20241124-wa0000.jpg",
+          "method": "GET"
+        },
+        "delete": {
+          "href": "/api/apps/echotone/assets/1069eb14-c864-42db-a2e0-396f8198aa78",
+          "method": "DELETE"
+        },
+        "move": {
+          "href": "/api/apps/echotone/assets/1069eb14-c864-42db-a2e0-396f8198aa78/parent",
+          "method": "PUT"
+        },
+        "self": {
+          "href": "/api/apps/echotone/assets/1069eb14-c864-42db-a2e0-396f8198aa78",
+          "method": "GET"
+        },
+        "update": {
+          "href": "/api/apps/echotone/assets/1069eb14-c864-42db-a2e0-396f8198aa78",
+          "method": "PUT"
+        },
+        "upload": {
+          "href": "/api/apps/echotone/assets/1069eb14-c864-42db-a2e0-396f8198aa78/content",
+          "method": "PUT"
+        }
+      },
+      "created": "2025-03-03T20:04:43Z",
+      "createdBy": "subject:6798df7c5b784ee7b7cb52e1",
+      "editToken": "eyJhIjoiZWNob3RvbmUiLCJpIjoiMTA2OWViMTQtYzg2NC00MmRiLWEyZTAtMzk2ZjgxOThhYTc4IiwidSI6Imh0dHBzOi8vbGFhYi5kZG5zLm5ldDozODA4MC8ifQ==",
+      "fileHash": "AOaBVFtdE\u002BWhaNz\u002BTJxMztMCJ7R8FcPv1RgCa3RBU0Y=",
+      "fileName": "IMG-20241124-WA0000.jpg",
+      "fileSize": 260306,
+      "fileType": "jpg",
+      "fileVersion": 0,
+      "id": "1069eb14-c864-42db-a2e0-396f8198aa78",
+      "isImage": true,
+      "isProtected": false,
+      "lastModified": "2025-03-03T20:04:43Z",
+      "lastModifiedBy": "subject:6798df7c5b784ee7b7cb52e1",
+      "metadata": {
+        "description": "JFIF File",
+        "imageQuality": 79,
+        "pixelHeight": 1536,
+        "pixelWidth": 2048
+      },
+      "metadataText": "2048x1536px, 254.2 kB",
+      "mimeType": "image/jpeg",
+      "parentId": "00000000-0000-0000-0000-000000000000",
+      "pixelHeight": 1536,
+      "pixelWidth": 2048,
+      "slug": "img-20241124-wa0000.jpg",
+      "tags": [
+        "type/jpg",
+        "image",
+        "image/large"
+      ],
+      "type": "Image",
+      "version": 0
+    },
+    {
+      "_links": {
+        "content": {
+          "href": "/api/assets/echotone/85c83d0c-013c-4aaa-95b1-ff1f698dfb3c/1000008137.jpg",
+          "method": "GET"
+        },
+        "content/slug": {
+          "href": "/api/assets/echotone/1000008137.jpg",
+          "method": "GET"
+        },
+        "delete": {
+          "href": "/api/apps/echotone/assets/85c83d0c-013c-4aaa-95b1-ff1f698dfb3c",
+          "method": "DELETE"
+        },
+        "move": {
+          "href": "/api/apps/echotone/assets/85c83d0c-013c-4aaa-95b1-ff1f698dfb3c/parent",
+          "method": "PUT"
+        },
+        "self": {
+          "href": "/api/apps/echotone/assets/85c83d0c-013c-4aaa-95b1-ff1f698dfb3c",
+          "method": "GET"
+        },
+        "update": {
+          "href": "/api/apps/echotone/assets/85c83d0c-013c-4aaa-95b1-ff1f698dfb3c",
+          "method": "PUT"
+        },
+        "upload": {
+          "href": "/api/apps/echotone/assets/85c83d0c-013c-4aaa-95b1-ff1f698dfb3c/content",
+          "method": "PUT"
+        }
+      },
+      "created": "2025-03-03T20:04:43Z",
+      "createdBy": "subject:6798df7c5b784ee7b7cb52e1",
+      "editToken": "eyJhIjoiZWNob3RvbmUiLCJpIjoiODVjODNkMGMtMDEzYy00YWFhLTk1YjEtZmYxZjY5OGRmYjNjIiwidSI6Imh0dHBzOi8vbGFhYi5kZG5zLm5ldDozODA4MC8ifQ==",
+      "fileHash": "TGZvg5a2cUHiD68VAsBm0YARshF8HtJKpHLHKcLI9as=",
+      "fileName": "1000008137.jpg",
+      "fileSize": 326418,
+      "fileType": "jpg",
+      "fileVersion": 0,
+      "id": "85c83d0c-013c-4aaa-95b1-ff1f698dfb3c",
+      "isImage": true,
+      "isProtected": false,
+      "lastModified": "2025-03-03T20:04:43Z",
+      "lastModifiedBy": "subject:6798df7c5b784ee7b7cb52e1",
+      "metadata": {
+        "description": "JFIF File",
+        "imageQuality": 79,
+        "pixelHeight": 1536,
+        "pixelWidth": 2048
+      },
+      "metadataText": "2048x1536px, 318.8 kB",
+      "mimeType": "image/jpeg",
+      "parentId": "00000000-0000-0000-0000-000000000000",
+      "pixelHeight": 1536,
+      "pixelWidth": 2048,
+      "slug": "1000008137.jpg",
+      "tags": [
+        "type/jpg",
+        "image",
+        "image/large"
+      ],
+      "type": "Image",
+      "version": 0
+    },
+    {
+      "_links": {
+        "content": {
+          "href": "/api/assets/echotone/0f4cebd8-4ac8-4981-9191-606f15c0c071/capture-d-e-cran-2024-12-12-a-14.52.17.png",
+          "method": "GET"
+        },
+        "content/slug": {
+          "href": "/api/assets/echotone/capture-d-e-cran-2024-12-12-a-14.52.17.png",
+          "method": "GET"
+        },
+        "delete": {
+          "href": "/api/apps/echotone/assets/0f4cebd8-4ac8-4981-9191-606f15c0c071",
+          "method": "DELETE"
+        },
+        "move": {
+          "href": "/api/apps/echotone/assets/0f4cebd8-4ac8-4981-9191-606f15c0c071/parent",
+          "method": "PUT"
+        },
+        "self": {
+          "href": "/api/apps/echotone/assets/0f4cebd8-4ac8-4981-9191-606f15c0c071",
+          "method": "GET"
+        },
+        "update": {
+          "href": "/api/apps/echotone/assets/0f4cebd8-4ac8-4981-9191-606f15c0c071",
+          "method": "PUT"
+        },
+        "upload": {
+          "href": "/api/apps/echotone/assets/0f4cebd8-4ac8-4981-9191-606f15c0c071/content",
+          "method": "PUT"
+        }
+      },
+      "created": "2025-03-03T19:34:21Z",
+      "createdBy": "subject:6798df7c5b784ee7b7cb52e1",
+      "editToken": "eyJhIjoiZWNob3RvbmUiLCJpIjoiMGY0Y2ViZDgtNGFjOC00OTgxLTkxOTEtNjA2ZjE1YzBjMDcxIiwidSI6Imh0dHBzOi8vbGFhYi5kZG5zLm5ldDozODA4MC8ifQ==",
+      "fileHash": "KnfqEbmVa8t5jQrROKQowwe82UHcnyFKAnfoiV33cnQ=",
+      "fileName": "Capture d\u2019e\u0301cran 2024-12-12 a\u0300 14.52.17.png",
+      "fileSize": 1454854,
+      "fileType": "png",
+      "fileVersion": 0,
+      "id": "0f4cebd8-4ac8-4981-9191-606f15c0c071",
+      "isImage": true,
+      "isProtected": false,
+      "lastModified": "2025-03-03T19:34:21Z",
+      "lastModifiedBy": "subject:6798df7c5b784ee7b7cb52e1",
+      "metadata": {
+        "description": "PNG File",
+        "pixelHeight": 1036,
+        "pixelWidth": 688
+      },
+      "metadataText": "688x1036px, 1.4 MB",
+      "mimeType": "image/png",
+      "parentId": "00000000-0000-0000-0000-000000000000",
+      "pixelHeight": 1036,
+      "pixelWidth": 688,
+      "slug": "capture-d-e-cran-2024-12-12-a-14.52.17.png",
+      "tags": [
+        "type/png",
+        "image",
+        "image/medium"
+      ],
+      "type": "Image",
+      "version": 0
+    },
+    {
+      "_links": {
+        "content": {
+          "href": "/api/assets/echotone/06e2409b-c114-4c21-a62c-0d54883a1f36/capture-d-e-cran-2024-12-12-a-14.54.06.png",
+          "method": "GET"
+        },
+        "content/slug": {
+          "href": "/api/assets/echotone/capture-d-e-cran-2024-12-12-a-14.54.06.png",
+          "method": "GET"
+        },
+        "delete": {
+          "href": "/api/apps/echotone/assets/06e2409b-c114-4c21-a62c-0d54883a1f36",
+          "method": "DELETE"
+        },
+        "move": {
+          "href": "/api/apps/echotone/assets/06e2409b-c114-4c21-a62c-0d54883a1f36/parent",
+          "method": "PUT"
+        },
+        "self": {
+          "href": "/api/apps/echotone/assets/06e2409b-c114-4c21-a62c-0d54883a1f36",
+          "method": "GET"
+        },
+        "update": {
+          "href": "/api/apps/echotone/assets/06e2409b-c114-4c21-a62c-0d54883a1f36",
+          "method": "PUT"
+        },
+        "upload": {
+          "href": "/api/apps/echotone/assets/06e2409b-c114-4c21-a62c-0d54883a1f36/content",
+          "method": "PUT"
+        }
+      },
+      "created": "2025-03-03T19:34:20Z",
+      "createdBy": "subject:6798df7c5b784ee7b7cb52e1",
+      "editToken": "eyJhIjoiZWNob3RvbmUiLCJpIjoiMDZlMjQwOWItYzExNC00YzIxLWE2MmMtMGQ1NDg4M2ExZjM2IiwidSI6Imh0dHBzOi8vbGFhYi5kZG5zLm5ldDozODA4MC8ifQ==",
+      "fileHash": "QeK3CdeZyBD2z7\u002BYAdazviiEB\u002BmqP4NUUiMOnHDbKK8=",
+      "fileName": "Capture d\u2019e\u0301cran 2024-12-12 a\u0300 14.54.06.png",
+      "fileSize": 1273972,
+      "fileType": "png",
+      "fileVersion": 0,
+      "id": "06e2409b-c114-4c21-a62c-0d54883a1f36",
+      "isImage": true,
+      "isProtected": false,
+      "lastModified": "2025-03-03T19:34:20Z",
+      "lastModifiedBy": "subject:6798df7c5b784ee7b7cb52e1",
+      "metadata": {
+        "description": "PNG File",
+        "pixelHeight": 1032,
+        "pixelWidth": 696
+      },
+      "metadataText": "696x1032px, 1.2 MB",
+      "mimeType": "image/png",
+      "parentId": "00000000-0000-0000-0000-000000000000",
+      "pixelHeight": 1032,
+      "pixelWidth": 696,
+      "slug": "capture-d-e-cran-2024-12-12-a-14.54.06.png",
+      "tags": [
+        "type/png",
+        "image",
+        "image/medium"
+      ],
+      "type": "Image",
+      "version": 0
+    },
+    {
+      "_links": {
+        "content": {
+          "href": "/api/assets/echotone/886d5858-de03-4c6e-98da-af702becb52f/capture-d-e-cran-2024-12-12-a-14.54.14.png",
+          "method": "GET"
+        },
+        "content/slug": {
+          "href": "/api/assets/echotone/capture-d-e-cran-2024-12-12-a-14.54.14.png",
+          "method": "GET"
+        },
+        "delete": {
+          "href": "/api/apps/echotone/assets/886d5858-de03-4c6e-98da-af702becb52f",
+          "method": "DELETE"
+        },
+        "move": {
+          "href": "/api/apps/echotone/assets/886d5858-de03-4c6e-98da-af702becb52f/parent",
+          "method": "PUT"
+        },
+        "self": {
+          "href": "/api/apps/echotone/assets/886d5858-de03-4c6e-98da-af702becb52f",
+          "method": "GET"
+        },
+        "update": {
+          "href": "/api/apps/echotone/assets/886d5858-de03-4c6e-98da-af702becb52f",
+          "method": "PUT"
+        },
+        "upload": {
+          "href": "/api/apps/echotone/assets/886d5858-de03-4c6e-98da-af702becb52f/content",
+          "method": "PUT"
+        }
+      },
+      "created": "2025-03-03T19:34:20Z",
+      "createdBy": "subject:6798df7c5b784ee7b7cb52e1",
+      "editToken": "eyJhIjoiZWNob3RvbmUiLCJpIjoiODg2ZDU4NTgtZGUwMy00YzZlLTk4ZGEtYWY3MDJiZWNiNTJmIiwidSI6Imh0dHBzOi8vbGFhYi5kZG5zLm5ldDozODA4MC8ifQ==",
+      "fileHash": "tuIeJzQhjnJYozv/IfAF\u002B971wn7e/z25VXuKGTlNjHk=",
+      "fileName": "Capture d\u2019e\u0301cran 2024-12-12 a\u0300 14.54.14.png",
+      "fileSize": 1321761,
+      "fileType": "png",
+      "fileVersion": 0,
+      "id": "886d5858-de03-4c6e-98da-af702becb52f",
+      "isImage": true,
+      "isProtected": false,
+      "lastModified": "2025-03-03T19:34:20Z",
+      "lastModifiedBy": "subject:6798df7c5b784ee7b7cb52e1",
+      "metadata": {
+        "description": "PNG File",
+        "pixelHeight": 1032,
+        "pixelWidth": 690
+      },
+      "metadataText": "690x1032px, 1.3 MB",
+      "mimeType": "image/png",
+      "parentId": "00000000-0000-0000-0000-000000000000",
+      "pixelHeight": 1032,
+      "pixelWidth": 690,
+      "slug": "capture-d-e-cran-2024-12-12-a-14.54.14.png",
+      "tags": [
+        "type/png",
+        "image",
+        "image/medium"
+      ],
+      "type": "Image",
+      "version": 0
+    },
+    {
+      "_links": {
+        "content": {
+          "href": "/api/assets/echotone/39259620-aceb-4686-860e-0012c6c224a8/capture-d-e-cran-2024-12-12-a-14.55.06.png",
+          "method": "GET"
+        },
+        "content/slug": {
+          "href": "/api/assets/echotone/capture-d-e-cran-2024-12-12-a-14.55.06.png",
+          "method": "GET"
+        },
+        "delete": {
+          "href": "/api/apps/echotone/assets/39259620-aceb-4686-860e-0012c6c224a8",
+          "method": "DELETE"
+        },
+        "move": {
+          "href": "/api/apps/echotone/assets/39259620-aceb-4686-860e-0012c6c224a8/parent",
+          "method": "PUT"
+        },
+        "self": {
+          "href": "/api/apps/echotone/assets/39259620-aceb-4686-860e-0012c6c224a8",
+          "method": "GET"
+        },
+        "update": {
+          "href": "/api/apps/echotone/assets/39259620-aceb-4686-860e-0012c6c224a8",
+          "method": "PUT"
+        },
+        "upload": {
+          "href": "/api/apps/echotone/assets/39259620-aceb-4686-860e-0012c6c224a8/content",
+          "method": "PUT"
+        }
+      },
+      "created": "2025-03-03T19:34:19Z",
+      "createdBy": "subject:6798df7c5b784ee7b7cb52e1",
+      "editToken": "eyJhIjoiZWNob3RvbmUiLCJpIjoiMzkyNTk2MjAtYWNlYi00Njg2LTg2MGUtMDAxMmM2YzIyNGE4IiwidSI6Imh0dHBzOi8vbGFhYi5kZG5zLm5ldDozODA4MC8ifQ==",
+      "fileHash": "30rVAwF0oCiG1VsKI4hav8sAtGcIyr8tTdIB81VmBJ8=",
+      "fileName": "Capture d\u2019e\u0301cran 2024-12-12 a\u0300 14.55.06.png",
+      "fileSize": 1273815,
+      "fileType": "png",
+      "fileVersion": 0,
+      "id": "39259620-aceb-4686-860e-0012c6c224a8",
+      "isImage": true,
+      "isProtected": false,
+      "lastModified": "2025-03-03T19:34:19Z",
+      "lastModifiedBy": "subject:6798df7c5b784ee7b7cb52e1",
+      "metadata": {
+        "description": "PNG File",
+        "pixelHeight": 1032,
+        "pixelWidth": 690
+      },
+      "metadataText": "690x1032px, 1.2 MB",
+      "mimeType": "image/png",
+      "parentId": "00000000-0000-0000-0000-000000000000",
+      "pixelHeight": 1032,
+      "pixelWidth": 690,
+      "slug": "capture-d-e-cran-2024-12-12-a-14.55.06.png",
+      "tags": [
+        "type/png",
+        "image",
+        "image/medium"
+      ],
+      "type": "Image",
+      "version": 0
+    },
+    {
+      "_links": {
+        "content": {
+          "href": "/api/assets/echotone/46663c11-bb31-4898-bc75-14691d775370/capture-d-e-cran-2024-12-12-a-14.52.27.png",
+          "method": "GET"
+        },
+        "content/slug": {
+          "href": "/api/assets/echotone/capture-d-e-cran-2024-12-12-a-14.52.27.png",
+          "method": "GET"
+        },
+        "delete": {
+          "href": "/api/apps/echotone/assets/46663c11-bb31-4898-bc75-14691d775370",
+          "method": "DELETE"
+        },
+        "move": {
+          "href": "/api/apps/echotone/assets/46663c11-bb31-4898-bc75-14691d775370/parent",
+          "method": "PUT"
+        },
+        "self": {
+          "href": "/api/apps/echotone/assets/46663c11-bb31-4898-bc75-14691d775370",
+          "method": "GET"
+        },
+        "update": {
+          "href": "/api/apps/echotone/assets/46663c11-bb31-4898-bc75-14691d775370",
+          "method": "PUT"
+        },
+        "upload": {
+          "href": "/api/apps/echotone/assets/46663c11-bb31-4898-bc75-14691d775370/content",
+          "method": "PUT"
+        }
+      },
+      "created": "2025-03-03T19:34:19Z",
+      "createdBy": "subject:6798df7c5b784ee7b7cb52e1",
+      "editToken": "eyJhIjoiZWNob3RvbmUiLCJpIjoiNDY2NjNjMTEtYmIzMS00ODk4LWJjNzUtMTQ2OTFkNzc1MzcwIiwidSI6Imh0dHBzOi8vbGFhYi5kZG5zLm5ldDozODA4MC8ifQ==",
+      "fileHash": "2s2mTR0q1eA19KK3o4Iov2k/knIh31tG2XeO3e2FEzY=",
+      "fileName": "Capture d\u2019e\u0301cran 2024-12-12 a\u0300 14.52.27.png",
+      "fileSize": 1437150,
+      "fileType": "png",
+      "fileVersion": 0,
+      "id": "46663c11-bb31-4898-bc75-14691d775370",
+      "isImage": true,
+      "isProtected": false,
+      "lastModified": "2025-03-03T19:34:19Z",
+      "lastModifiedBy": "subject:6798df7c5b784ee7b7cb52e1",
+      "metadata": {
+        "description": "PNG File",
+        "pixelHeight": 1030,
+        "pixelWidth": 686
+      },
+      "metadataText": "686x1030px, 1.4 MB",
+      "mimeType": "image/png",
+      "parentId": "00000000-0000-0000-0000-000000000000",
+      "pixelHeight": 1030,
+      "pixelWidth": 686,
+      "slug": "capture-d-e-cran-2024-12-12-a-14.52.27.png",
+      "tags": [
+        "type/png",
+        "image",
+        "image/medium"
+      ],
+      "type": "Image",
+      "version": 0
+    },
+    {
+      "_links": {
+        "content": {
+          "href": "/api/assets/echotone/a42e073b-789c-420d-932f-d3beee9b24c0/capture-d-e-cran-2024-12-12-a-14.55.14.png",
+          "method": "GET"
+        },
+        "content/slug": {
+          "href": "/api/assets/echotone/capture-d-e-cran-2024-12-12-a-14.55.14.png",
+          "method": "GET"
+        },
+        "delete": {
+          "href": "/api/apps/echotone/assets/a42e073b-789c-420d-932f-d3beee9b24c0",
+          "method": "DELETE"
+        },
+        "move": {
+          "href": "/api/apps/echotone/assets/a42e073b-789c-420d-932f-d3beee9b24c0/parent",
+          "method": "PUT"
+        },
+        "self": {
+          "href": "/api/apps/echotone/assets/a42e073b-789c-420d-932f-d3beee9b24c0",
+          "method": "GET"
+        },
+        "update": {
+          "href": "/api/apps/echotone/assets/a42e073b-789c-420d-932f-d3beee9b24c0",
+          "method": "PUT"
+        },
+        "upload": {
+          "href": "/api/apps/echotone/assets/a42e073b-789c-420d-932f-d3beee9b24c0/content",
+          "method": "PUT"
+        }
+      },
+      "created": "2025-03-03T19:34:18Z",
+      "createdBy": "subject:6798df7c5b784ee7b7cb52e1",
+      "editToken": "eyJhIjoiZWNob3RvbmUiLCJpIjoiYTQyZTA3M2ItNzg5Yy00MjBkLTkzMmYtZDNiZWVlOWIyNGMwIiwidSI6Imh0dHBzOi8vbGFhYi5kZG5zLm5ldDozODA4MC8ifQ==",
+      "fileHash": "7bz\u002BA89Z9TRx8ZXx2HnVRunGisBkZVK2ZhfhWEPhenA=",
+      "fileName": "Capture d\u2019e\u0301cran 2024-12-12 a\u0300 14.55.14.png",
+      "fileSize": 1185517,
+      "fileType": "png",
+      "fileVersion": 0,
+      "id": "a42e073b-789c-420d-932f-d3beee9b24c0",
+      "isImage": true,
+      "isProtected": false,
+      "lastModified": "2025-03-03T19:34:18Z",
+      "lastModifiedBy": "subject:6798df7c5b784ee7b7cb52e1",
+      "metadata": {
+        "description": "PNG File",
+        "pixelHeight": 1028,
+        "pixelWidth": 680
+      },
+      "metadataText": "680x1028px, 1.1 MB",
+      "mimeType": "image/png",
+      "parentId": "00000000-0000-0000-0000-000000000000",
+      "pixelHeight": 1028,
+      "pixelWidth": 680,
+      "slug": "capture-d-e-cran-2024-12-12-a-14.55.14.png",
+      "tags": [
+        "type/png",
+        "image",
+        "image/medium"
+      ],
+      "type": "Image",
+      "version": 0
+    },
+    {
+      "_links": {
+        "content": {
+          "href": "/api/assets/echotone/ec577ccc-88ff-4922-a1b0-d438b6c7f380/capture-d-e-cran-2024-12-12-a-14.53.09.png",
+          "method": "GET"
+        },
+        "content/slug": {
+          "href": "/api/assets/echotone/capture-d-e-cran-2024-12-12-a-14.53.09.png",
+          "method": "GET"
+        },
+        "delete": {
+          "href": "/api/apps/echotone/assets/ec577ccc-88ff-4922-a1b0-d438b6c7f380",
+          "method": "DELETE"
+        },
+        "move": {
+          "href": "/api/apps/echotone/assets/ec577ccc-88ff-4922-a1b0-d438b6c7f380/parent",
+          "method": "PUT"
+        },
+        "self": {
+          "href": "/api/apps/echotone/assets/ec577ccc-88ff-4922-a1b0-d438b6c7f380",
+          "method": "GET"
+        },
+        "update": {
+          "href": "/api/apps/echotone/assets/ec577ccc-88ff-4922-a1b0-d438b6c7f380",
+          "method": "PUT"
+        },
+        "upload": {
+          "href": "/api/apps/echotone/assets/ec577ccc-88ff-4922-a1b0-d438b6c7f380/content",
+          "method": "PUT"
+        }
+      },
+      "created": "2025-03-03T19:34:18Z",
+      "createdBy": "subject:6798df7c5b784ee7b7cb52e1",
+      "editToken": "eyJhIjoiZWNob3RvbmUiLCJpIjoiZWM1NzdjY2MtODhmZi00OTIyLWExYjAtZDQzOGI2YzdmMzgwIiwidSI6Imh0dHBzOi8vbGFhYi5kZG5zLm5ldDozODA4MC8ifQ==",
+      "fileHash": "fT3FYNboRX\u002BB4CLOM26XlQwh0jJmspnH43GWMNTFo4U=",
+      "fileName": "Capture d\u2019e\u0301cran 2024-12-12 a\u0300 14.53.09.png",
+      "fileSize": 1196343,
+      "fileType": "png",
+      "fileVersion": 0,
+      "id": "ec577ccc-88ff-4922-a1b0-d438b6c7f380",
+      "isImage": true,
+      "isProtected": false,
+      "lastModified": "2025-03-03T19:34:18Z",
+      "lastModifiedBy": "subject:6798df7c5b784ee7b7cb52e1",
+      "metadata": {
+        "description": "PNG File",
+        "pixelHeight": 1036,
+        "pixelWidth": 686
+      },
+      "metadataText": "686x1036px, 1.1 MB",
+      "mimeType": "image/png",
+      "parentId": "00000000-0000-0000-0000-000000000000",
+      "pixelHeight": 1036,
+      "pixelWidth": 686,
+      "slug": "capture-d-e-cran-2024-12-12-a-14.53.09.png",
+      "tags": [
+        "type/png",
+        "image",
+        "image/medium"
+      ],
+      "type": "Image",
+      "version": 0
+    },
+    {
+      "_links": {
+        "content": {
+          "href": "/api/assets/echotone/dbb60eaf-fcb9-4e60-a45a-195209811695/capture-d-e-cran-2024-12-12-a-14.54.42.png",
+          "method": "GET"
+        },
+        "content/slug": {
+          "href": "/api/assets/echotone/capture-d-e-cran-2024-12-12-a-14.54.42.png",
+          "method": "GET"
+        },
+        "delete": {
+          "href": "/api/apps/echotone/assets/dbb60eaf-fcb9-4e60-a45a-195209811695",
+          "method": "DELETE"
+        },
+        "move": {
+          "href": "/api/apps/echotone/assets/dbb60eaf-fcb9-4e60-a45a-195209811695/parent",
+          "method": "PUT"
+        },
+        "self": {
+          "href": "/api/apps/echotone/assets/dbb60eaf-fcb9-4e60-a45a-195209811695",
+          "method": "GET"
+        },
+        "update": {
+          "href": "/api/apps/echotone/assets/dbb60eaf-fcb9-4e60-a45a-195209811695",
+          "method": "PUT"
+        },
+        "upload": {
+          "href": "/api/apps/echotone/assets/dbb60eaf-fcb9-4e60-a45a-195209811695/content",
+          "method": "PUT"
+        }
+      },
+      "created": "2025-03-03T19:34:17Z",
+      "createdBy": "subject:6798df7c5b784ee7b7cb52e1",
+      "editToken": "eyJhIjoiZWNob3RvbmUiLCJpIjoiZGJiNjBlYWYtZmNiOS00ZTYwLWE0NWEtMTk1MjA5ODExNjk1IiwidSI6Imh0dHBzOi8vbGFhYi5kZG5zLm5ldDozODA4MC8ifQ==",
+      "fileHash": "LKvrVTIOTZNnukGC\u002BTwOQfRtzA5UgDdEp1zVkXcPe/g=",
+      "fileName": "Capture d\u2019e\u0301cran 2024-12-12 a\u0300 14.54.42.png",
+      "fileSize": 1106046,
+      "fileType": "png",
+      "fileVersion": 0,
+      "id": "dbb60eaf-fcb9-4e60-a45a-195209811695",
+      "isImage": true,
+      "isProtected": false,
+      "lastModified": "2025-03-03T19:34:17Z",
+      "lastModifiedBy": "subject:6798df7c5b784ee7b7cb52e1",
+      "metadata": {
+        "description": "PNG File",
+        "pixelHeight": 1034,
+        "pixelWidth": 690
+      },
+      "metadataText": "690x1034px, 1.1 MB",
+      "mimeType": "image/png",
+      "parentId": "00000000-0000-0000-0000-000000000000",
+      "pixelHeight": 1034,
+      "pixelWidth": 690,
+      "slug": "capture-d-e-cran-2024-12-12-a-14.54.42.png",
+      "tags": [
+        "type/png",
+        "image",
+        "image/medium"
+      ],
+      "type": "Image",
+      "version": 0
+    },
+    {
+      "_links": {
+        "content": {
+          "href": "/api/assets/echotone/4cb0e23e-4cdd-42c9-8b4f-cccaaa01f7c5/capture-d-e-cran-2024-12-12-a-14.53.20.png",
+          "method": "GET"
+        },
+        "content/slug": {
+          "href": "/api/assets/echotone/capture-d-e-cran-2024-12-12-a-14.53.20.png",
+          "method": "GET"
+        },
+        "delete": {
+          "href": "/api/apps/echotone/assets/4cb0e23e-4cdd-42c9-8b4f-cccaaa01f7c5",
+          "method": "DELETE"
+        },
+        "move": {
+          "href": "/api/apps/echotone/assets/4cb0e23e-4cdd-42c9-8b4f-cccaaa01f7c5/parent",
+          "method": "PUT"
+        },
+        "self": {
+          "href": "/api/apps/echotone/assets/4cb0e23e-4cdd-42c9-8b4f-cccaaa01f7c5",
+          "method": "GET"
+        },
+        "update": {
+          "href": "/api/apps/echotone/assets/4cb0e23e-4cdd-42c9-8b4f-cccaaa01f7c5",
+          "method": "PUT"
+        },
+        "upload": {
+          "href": "/api/apps/echotone/assets/4cb0e23e-4cdd-42c9-8b4f-cccaaa01f7c5/content",
+          "method": "PUT"
+        }
+      },
+      "created": "2025-03-03T19:34:16Z",
+      "createdBy": "subject:6798df7c5b784ee7b7cb52e1",
+      "editToken": "eyJhIjoiZWNob3RvbmUiLCJpIjoiNGNiMGUyM2UtNGNkZC00MmM5LThiNGYtY2NjYWFhMDFmN2M1IiwidSI6Imh0dHBzOi8vbGFhYi5kZG5zLm5ldDozODA4MC8ifQ==",
+      "fileHash": "48UmbMIEuc9XRVn5eBpDeO3O5IsRleM2idAVB4EGXXQ=",
+      "fileName": "Capture d\u2019e\u0301cran 2024-12-12 a\u0300 14.53.20.png",
+      "fileSize": 974609,
+      "fileType": "png",
+      "fileVersion": 0,
+      "id": "4cb0e23e-4cdd-42c9-8b4f-cccaaa01f7c5",
+      "isImage": true,
+      "isProtected": false,
+      "lastModified": "2025-03-03T19:34:16Z",
+      "lastModifiedBy": "subject:6798df7c5b784ee7b7cb52e1",
+      "metadata": {
+        "description": "PNG File",
+        "pixelHeight": 1034,
+        "pixelWidth": 692
+      },
+      "metadataText": "692x1034px, 951.8 kB",
+      "mimeType": "image/png",
+      "parentId": "00000000-0000-0000-0000-000000000000",
+      "pixelHeight": 1034,
+      "pixelWidth": 692,
+      "slug": "capture-d-e-cran-2024-12-12-a-14.53.20.png",
+      "tags": [
+        "type/png",
+        "image",
+        "image/medium"
+      ],
+      "type": "Image",
+      "version": 0
+    },
+    {
+      "_links": {
+        "content": {
+          "href": "/api/assets/echotone/6bc195a2-26f0-4e18-bfcf-39c18db9775e/capture-d-e-cran-2024-12-12-a-14.52.51.png",
+          "method": "GET"
+        },
+        "content/slug": {
+          "href": "/api/assets/echotone/capture-d-e-cran-2024-12-12-a-14.52.51.png",
+          "method": "GET"
+        },
+        "delete": {
+          "href": "/api/apps/echotone/assets/6bc195a2-26f0-4e18-bfcf-39c18db9775e",
+          "method": "DELETE"
+        },
+        "move": {
+          "href": "/api/apps/echotone/assets/6bc195a2-26f0-4e18-bfcf-39c18db9775e/parent",
+          "method": "PUT"
+        },
+        "self": {
+          "href": "/api/apps/echotone/assets/6bc195a2-26f0-4e18-bfcf-39c18db9775e",
+          "method": "GET"
+        },
+        "update": {
+          "href": "/api/apps/echotone/assets/6bc195a2-26f0-4e18-bfcf-39c18db9775e",
+          "method": "PUT"
+        },
+        "upload": {
+          "href": "/api/apps/echotone/assets/6bc195a2-26f0-4e18-bfcf-39c18db9775e/content",
+          "method": "PUT"
+        }
+      },
+      "created": "2025-03-03T19:34:16Z",
+      "createdBy": "subject:6798df7c5b784ee7b7cb52e1",
+      "editToken": "eyJhIjoiZWNob3RvbmUiLCJpIjoiNmJjMTk1YTItMjZmMC00ZTE4LWJmY2YtMzljMThkYjk3NzVlIiwidSI6Imh0dHBzOi8vbGFhYi5kZG5zLm5ldDozODA4MC8ifQ==",
+      "fileHash": "7QMuYizo3HUGAdx8LkyxuimXP33YHM/47z9YuNuUqAY=",
+      "fileName": "Capture d\u2019e\u0301cran 2024-12-12 a\u0300 14.52.51.png",
+      "fileSize": 1050348,
+      "fileType": "png",
+      "fileVersion": 0,
+      "id": "6bc195a2-26f0-4e18-bfcf-39c18db9775e",
+      "isImage": true,
+      "isProtected": false,
+      "lastModified": "2025-03-03T19:34:16Z",
+      "lastModifiedBy": "subject:6798df7c5b784ee7b7cb52e1",
+      "metadata": {
+        "description": "PNG File",
+        "pixelHeight": 1034,
+        "pixelWidth": 686
+      },
+      "metadataText": "686x1034px, 1 MB",
+      "mimeType": "image/png",
+      "parentId": "00000000-0000-0000-0000-000000000000",
+      "pixelHeight": 1034,
+      "pixelWidth": 686,
+      "slug": "capture-d-e-cran-2024-12-12-a-14.52.51.png",
+      "tags": [
+        "type/png",
+        "image",
+        "image/medium"
+      ],
+      "type": "Image",
+      "version": 0
+    },
+    {
+      "_links": {
+        "content": {
+          "href": "/api/assets/echotone/03d8c341-a96d-4ca8-b464-48228504bef6/capture-d-e-cran-2022-01-10-a-20.18.44.png",
+          "method": "GET"
+        },
+        "content/slug": {
+          "href": "/api/assets/echotone/capture-d-e-cran-2022-01-10-a-20.18.44.png",
+          "method": "GET"
+        },
+        "delete": {
+          "href": "/api/apps/echotone/assets/03d8c341-a96d-4ca8-b464-48228504bef6",
+          "method": "DELETE"
+        },
+        "move": {
+          "href": "/api/apps/echotone/assets/03d8c341-a96d-4ca8-b464-48228504bef6/parent",
+          "method": "PUT"
+        },
+        "self": {
+          "href": "/api/apps/echotone/assets/03d8c341-a96d-4ca8-b464-48228504bef6",
+          "method": "GET"
+        },
+        "update": {
+          "href": "/api/apps/echotone/assets/03d8c341-a96d-4ca8-b464-48228504bef6",
+          "method": "PUT"
+        },
+        "upload": {
+          "href": "/api/apps/echotone/assets/03d8c341-a96d-4ca8-b464-48228504bef6/content",
+          "method": "PUT"
+        }
+      },
+      "created": "2025-03-03T19:27:46Z",
+      "createdBy": "subject:6798df7c5b784ee7b7cb52e1",
+      "editToken": "eyJhIjoiZWNob3RvbmUiLCJpIjoiMDNkOGMzNDEtYTk2ZC00Y2E4LWI0NjQtNDgyMjg1MDRiZWY2IiwidSI6Imh0dHBzOi8vbGFhYi5kZG5zLm5ldDozODA4MC8ifQ==",
+      "fileHash": "0gyX/GmA3KVbNeE0l5tdEDvzvpV9GwkIVhowXZ9qaBk=",
+      "fileName": "Capture d\u2019e\u0301cran 2022-01-10 a\u0300 20.18.44.png",
+      "fileSize": 219548,
+      "fileType": "png",
+      "fileVersion": 0,
+      "id": "03d8c341-a96d-4ca8-b464-48228504bef6",
+      "isImage": true,
+      "isProtected": false,
+      "lastModified": "2025-03-03T19:27:46Z",
+      "lastModifiedBy": "subject:6798df7c5b784ee7b7cb52e1",
+      "metadata": {
+        "description": "PNG File",
+        "pixelHeight": 766,
+        "pixelWidth": 1357
+      },
+      "metadataText": "1357x766px, 214.4 kB",
+      "mimeType": "image/png",
+      "parentId": "00000000-0000-0000-0000-000000000000",
+      "pixelHeight": 766,
+      "pixelWidth": 1357,
+      "slug": "capture-d-e-cran-2022-01-10-a-20.18.44.png",
+      "tags": [
+        "type/png",
+        "image",
+        "image/large"
+      ],
+      "type": "Image",
+      "version": 0
+    },
+    {
+      "_links": {
+        "content": {
+          "href": "/api/assets/echotone/26e58796-75e2-4e0e-8663-8e8d8abdfb67/capture-d-e-cran-2022-01-10-a-20.19.47.png",
+          "method": "GET"
+        },
+        "content/slug": {
+          "href": "/api/assets/echotone/capture-d-e-cran-2022-01-10-a-20.19.47.png",
+          "method": "GET"
+        },
+        "delete": {
+          "href": "/api/apps/echotone/assets/26e58796-75e2-4e0e-8663-8e8d8abdfb67",
+          "method": "DELETE"
+        },
+        "move": {
+          "href": "/api/apps/echotone/assets/26e58796-75e2-4e0e-8663-8e8d8abdfb67/parent",
+          "method": "PUT"
+        },
+        "self": {
+          "href": "/api/apps/echotone/assets/26e58796-75e2-4e0e-8663-8e8d8abdfb67",
+          "method": "GET"
+        },
+        "update": {
+          "href": "/api/apps/echotone/assets/26e58796-75e2-4e0e-8663-8e8d8abdfb67",
+          "method": "PUT"
+        },
+        "upload": {
+          "href": "/api/apps/echotone/assets/26e58796-75e2-4e0e-8663-8e8d8abdfb67/content",
+          "method": "PUT"
+        }
+      },
+      "created": "2025-03-03T19:27:46Z",
+      "createdBy": "subject:6798df7c5b784ee7b7cb52e1",
+      "editToken": "eyJhIjoiZWNob3RvbmUiLCJpIjoiMjZlNTg3OTYtNzVlMi00ZTBlLTg2NjMtOGU4ZDhhYmRmYjY3IiwidSI6Imh0dHBzOi8vbGFhYi5kZG5zLm5ldDozODA4MC8ifQ==",
+      "fileHash": "K8868iSwUADcTvxMQkLM7L24iFbCGBeCr9F0yiBVcZU=",
+      "fileName": "Capture d\u2019e\u0301cran 2022-01-10 a\u0300 20.19.47.png",
+      "fileSize": 221537,
+      "fileType": "png",
+      "fileVersion": 0,
+      "id": "26e58796-75e2-4e0e-8663-8e8d8abdfb67",
+      "isImage": true,
+      "isProtected": false,
+      "lastModified": "2025-03-03T19:27:46Z",
+      "lastModifiedBy": "subject:6798df7c5b784ee7b7cb52e1",
+      "metadata": {
+        "description": "PNG File",
+        "pixelHeight": 769,
+        "pixelWidth": 1349
+      },
+      "metadataText": "1349x769px, 216.3 kB",
+      "mimeType": "image/png",
+      "parentId": "00000000-0000-0000-0000-000000000000",
+      "pixelHeight": 769,
+      "pixelWidth": 1349,
+      "slug": "capture-d-e-cran-2022-01-10-a-20.19.47.png",
+      "tags": [
+        "type/png",
+        "image",
+        "image/large"
+      ],
+      "type": "Image",
+      "version": 0
+    },
+    {
+      "_links": {
+        "content": {
+          "href": "/api/assets/echotone/9967fbb7-af0a-4404-bb77-1446eeba9aca/capture-d-e-cran-2022-01-10-a-20.20.30.png",
+          "method": "GET"
+        },
+        "content/slug": {
+          "href": "/api/assets/echotone/capture-d-e-cran-2022-01-10-a-20.20.30.png",
+          "method": "GET"
+        },
+        "delete": {
+          "href": "/api/apps/echotone/assets/9967fbb7-af0a-4404-bb77-1446eeba9aca",
+          "method": "DELETE"
+        },
+        "move": {
+          "href": "/api/apps/echotone/assets/9967fbb7-af0a-4404-bb77-1446eeba9aca/parent",
+          "method": "PUT"
+        },
+        "self": {
+          "href": "/api/apps/echotone/assets/9967fbb7-af0a-4404-bb77-1446eeba9aca",
+          "method": "GET"
+        },
+        "update": {
+          "href": "/api/apps/echotone/assets/9967fbb7-af0a-4404-bb77-1446eeba9aca",
+          "method": "PUT"
+        },
+        "upload": {
+          "href": "/api/apps/echotone/assets/9967fbb7-af0a-4404-bb77-1446eeba9aca/content",
+          "method": "PUT"
+        }
+      },
+      "created": "2025-03-03T19:27:46Z",
+      "createdBy": "subject:6798df7c5b784ee7b7cb52e1",
+      "editToken": "eyJhIjoiZWNob3RvbmUiLCJpIjoiOTk2N2ZiYjctYWYwYS00NDA0LWJiNzctMTQ0NmVlYmE5YWNhIiwidSI6Imh0dHBzOi8vbGFhYi5kZG5zLm5ldDozODA4MC8ifQ==",
+      "fileHash": "ra3YBJEQ4pGGzCX3rkTOfRCGrXwrKBXOmXq2SGKyHLI=",
+      "fileName": "Capture d\u2019e\u0301cran 2022-01-10 a\u0300 20.20.30.png",
+      "fileSize": 248866,
+      "fileType": "png",
+      "fileVersion": 0,
+      "id": "9967fbb7-af0a-4404-bb77-1446eeba9aca",
+      "isImage": true,
+      "isProtected": false,
+      "lastModified": "2025-03-03T19:27:46Z",
+      "lastModifiedBy": "subject:6798df7c5b784ee7b7cb52e1",
+      "metadata": {
+        "description": "PNG File",
+        "pixelHeight": 782,
+        "pixelWidth": 1404
+      },
+      "metadataText": "1404x782px, 243 kB",
+      "mimeType": "image/png",
+      "parentId": "00000000-0000-0000-0000-000000000000",
+      "pixelHeight": 782,
+      "pixelWidth": 1404,
+      "slug": "capture-d-e-cran-2022-01-10-a-20.20.30.png",
+      "tags": [
+        "type/png",
+        "image",
+        "image/large"
+      ],
+      "type": "Image",
+      "version": 0
+    },
+    {
+      "_links": {
+        "content": {
+          "href": "/api/assets/echotone/a30447a2-bd37-40e1-9a24-dac4c960c4fd/capture-d-e-cran-2022-01-10-a-20.16.06.png",
+          "method": "GET"
+        },
+        "content/slug": {
+          "href": "/api/assets/echotone/capture-d-e-cran-2022-01-10-a-20.16.06.png",
+          "method": "GET"
+        },
+        "delete": {
+          "href": "/api/apps/echotone/assets/a30447a2-bd37-40e1-9a24-dac4c960c4fd",
+          "method": "DELETE"
+        },
+        "move": {
+          "href": "/api/apps/echotone/assets/a30447a2-bd37-40e1-9a24-dac4c960c4fd/parent",
+          "method": "PUT"
+        },
+        "self": {
+          "href": "/api/apps/echotone/assets/a30447a2-bd37-40e1-9a24-dac4c960c4fd",
+          "method": "GET"
+        },
+        "update": {
+          "href": "/api/apps/echotone/assets/a30447a2-bd37-40e1-9a24-dac4c960c4fd",
+          "method": "PUT"
+        },
+        "upload": {
+          "href": "/api/apps/echotone/assets/a30447a2-bd37-40e1-9a24-dac4c960c4fd/content",
+          "method": "PUT"
+        }
+      },
+      "created": "2025-03-03T19:27:46Z",
+      "createdBy": "subject:6798df7c5b784ee7b7cb52e1",
+      "editToken": "eyJhIjoiZWNob3RvbmUiLCJpIjoiYTMwNDQ3YTItYmQzNy00MGUxLTlhMjQtZGFjNGM5NjBjNGZkIiwidSI6Imh0dHBzOi8vbGFhYi5kZG5zLm5ldDozODA4MC8ifQ==",
+      "fileHash": "2ac139dtL/mV9Io\u002BhGwvxtJLrRKfY8FFiyaxM39mtEs=",
+      "fileName": "Capture d\u2019e\u0301cran 2022-01-10 a\u0300 20.16.06.png",
+      "fileSize": 206850,
+      "fileType": "png",
+      "fileVersion": 0,
+      "id": "a30447a2-bd37-40e1-9a24-dac4c960c4fd",
+      "isImage": true,
+      "isProtected": false,
+      "lastModified": "2025-03-03T19:27:46Z",
+      "lastModifiedBy": "subject:6798df7c5b784ee7b7cb52e1",
+      "metadata": {
+        "description": "PNG File",
+        "pixelHeight": 784,
+        "pixelWidth": 1422
+      },
+      "metadataText": "1422x784px, 202 kB",
+      "mimeType": "image/png",
+      "parentId": "00000000-0000-0000-0000-000000000000",
+      "pixelHeight": 784,
+      "pixelWidth": 1422,
+      "slug": "capture-d-e-cran-2022-01-10-a-20.16.06.png",
+      "tags": [
+        "type/png",
+        "image",
+        "image/large"
+      ],
+      "type": "Image",
+      "version": 0
+    },
+    {
+      "_links": {
+        "content": {
+          "href": "/api/assets/echotone/a7a6679b-0180-4a7c-ba4d-c693652e38fc/capture-d-e-cran-2022-01-10-a-20.18.06.png",
+          "method": "GET"
+        },
+        "content/slug": {
+          "href": "/api/assets/echotone/capture-d-e-cran-2022-01-10-a-20.18.06.png",
+          "method": "GET"
+        },
+        "delete": {
+          "href": "/api/apps/echotone/assets/a7a6679b-0180-4a7c-ba4d-c693652e38fc",
+          "method": "DELETE"
+        },
+        "move": {
+          "href": "/api/apps/echotone/assets/a7a6679b-0180-4a7c-ba4d-c693652e38fc/parent",
+          "method": "PUT"
+        },
+        "self": {
+          "href": "/api/apps/echotone/assets/a7a6679b-0180-4a7c-ba4d-c693652e38fc",
+          "method": "GET"
+        },
+        "update": {
+          "href": "/api/apps/echotone/assets/a7a6679b-0180-4a7c-ba4d-c693652e38fc",
+          "method": "PUT"
+        },
+        "upload": {
+          "href": "/api/apps/echotone/assets/a7a6679b-0180-4a7c-ba4d-c693652e38fc/content",
+          "method": "PUT"
+        }
+      },
+      "created": "2025-03-03T19:27:46Z",
+      "createdBy": "subject:6798df7c5b784ee7b7cb52e1",
+      "editToken": "eyJhIjoiZWNob3RvbmUiLCJpIjoiYTdhNjY3OWItMDE4MC00YTdjLWJhNGQtYzY5MzY1MmUzOGZjIiwidSI6Imh0dHBzOi8vbGFhYi5kZG5zLm5ldDozODA4MC8ifQ==",
+      "fileHash": "WxZeT7rPlRT/UoiE5D2BEvI4GGVi3/z6y6p/QFgvlmE=",
+      "fileName": "Capture d\u2019e\u0301cran 2022-01-10 a\u0300 20.18.06.png",
+      "fileSize": 152342,
+      "fileType": "png",
+      "fileVersion": 0,
+      "id": "a7a6679b-0180-4a7c-ba4d-c693652e38fc",
+      "isImage": true,
+      "isProtected": false,
+      "lastModified": "2025-03-03T19:27:46Z",
+      "lastModifiedBy": "subject:6798df7c5b784ee7b7cb52e1",
+      "metadata": {
+        "description": "PNG File",
+        "pixelHeight": 734,
+        "pixelWidth": 1333
+      },
+      "metadataText": "1333x734px, 148.8 kB",
+      "mimeType": "image/png",
+      "parentId": "00000000-0000-0000-0000-000000000000",
+      "pixelHeight": 734,
+      "pixelWidth": 1333,
+      "slug": "capture-d-e-cran-2022-01-10-a-20.18.06.png",
+      "tags": [
+        "type/png",
+        "image",
+        "image/large"
+      ],
+      "type": "Image",
+      "version": 0
+    },
+    {
+      "_links": {
+        "content": {
+          "href": "/api/assets/echotone/a96c48a0-07c7-4ef8-b1fa-10485e903bba/capture-d-e-cran-2022-01-10-a-20.16.35.png",
+          "method": "GET"
+        },
+        "content/slug": {
+          "href": "/api/assets/echotone/capture-d-e-cran-2022-01-10-a-20.16.35.png",
+          "method": "GET"
+        },
+        "delete": {
+          "href": "/api/apps/echotone/assets/a96c48a0-07c7-4ef8-b1fa-10485e903bba",
+          "method": "DELETE"
+        },
+        "move": {
+          "href": "/api/apps/echotone/assets/a96c48a0-07c7-4ef8-b1fa-10485e903bba/parent",
+          "method": "PUT"
+        },
+        "self": {
+          "href": "/api/apps/echotone/assets/a96c48a0-07c7-4ef8-b1fa-10485e903bba",
+          "method": "GET"
+        },
+        "update": {
+          "href": "/api/apps/echotone/assets/a96c48a0-07c7-4ef8-b1fa-10485e903bba",
+          "method": "PUT"
+        },
+        "upload": {
+          "href": "/api/apps/echotone/assets/a96c48a0-07c7-4ef8-b1fa-10485e903bba/content",
+          "method": "PUT"
+        }
+      },
+      "created": "2025-03-03T19:27:46Z",
+      "createdBy": "subject:6798df7c5b784ee7b7cb52e1",
+      "editToken": "eyJhIjoiZWNob3RvbmUiLCJpIjoiYTk2YzQ4YTAtMDdjNy00ZWY4LWIxZmEtMTA0ODVlOTAzYmJhIiwidSI6Imh0dHBzOi8vbGFhYi5kZG5zLm5ldDozODA4MC8ifQ==",
+      "fileHash": "rkbhH8TQxc6bFaWJ1EfvX2N9VK/co6N0oRtY\u002BajzXnI=",
+      "fileName": "Capture d\u2019e\u0301cran 2022-01-10 a\u0300 20.16.35.png",
+      "fileSize": 115821,
+      "fileType": "png",
+      "fileVersion": 0,
+      "id": "a96c48a0-07c7-4ef8-b1fa-10485e903bba",
+      "isImage": true,
+      "isProtected": false,
+      "lastModified": "2025-03-03T19:27:46Z",
+      "lastModifiedBy": "subject:6798df7c5b784ee7b7cb52e1",
+      "metadata": {
+        "description": "PNG File",
+        "pixelHeight": 759,
+        "pixelWidth": 1390
+      },
+      "metadataText": "1390x759px, 113.1 kB",
+      "mimeType": "image/png",
+      "parentId": "00000000-0000-0000-0000-000000000000",
+      "pixelHeight": 759,
+      "pixelWidth": 1390,
+      "slug": "capture-d-e-cran-2022-01-10-a-20.16.35.png",
+      "tags": [
+        "type/png",
+        "image",
+        "image/large"
+      ],
+      "type": "Image",
+      "version": 0
+    },
+    {
+      "_links": {
+        "content": {
           "href": "/api/assets/echotone/e39cf55b-a71a-4876-aa54-e9bc62925637/logo-drac-occitanie.svg",
           "method": "GET"
         },
@@ -2685,5 +3886,5 @@
       "version": 0
     }
   ],
-  "total": 41
+  "total": 60
 }
