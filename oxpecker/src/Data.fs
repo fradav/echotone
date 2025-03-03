@@ -2,6 +2,7 @@ module Data
 
 open Fable.JsonProvider
 open Fable.Core
+open Fable.Core.JsInterop
 open Oxpecker.Solid
 open Browser
 open Browser.Types
@@ -149,11 +150,11 @@ type Sponsor = {
 let sponsorsLogos =
     assetsJson.items
     |> Seq.filter(fun x -> x.tags |> Seq.contains "sponsor")
-    |> Seq.sortBy(fun x -> x.metadata.ordre)
+    |> Seq.sortBy(fun x -> x.metadata?ordre)
     |> Seq.map(fun x -> {
-        name = x.metadata.nom
+        name = x.metadata?nom
         src = "medias/" + x.slug
-        url = x.metadata.url
+        url = x.metadata?url
     })
 
 
