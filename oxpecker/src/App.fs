@@ -1,20 +1,24 @@
 module App
 
+open Fable.Core.JsInterop
+
 open Oxpecker.Solid
-open Oxpecker.Solid.Router
 open Browser
 
 open Data
 open Layout
+open Oxpecker.Solid.Imports
 open Components
+open Oxpecker.Solid.Router
 
 [<SolidComponent>]
 let SolidAboutContact (unit: AboutContact) : HtmlElement =
     Fragment() {
-        h1() { unit.title }
+        // h1() { unit.title }
         h2() { unit.short }
-        div(innerHTML = unit.text)
-        A(href = "/", class' = "block text-right") { "Retour" }
+        HyphenatedText() { div(innerHTML = unit.text) }
+
+    // A(href = "/", class' = "block text-right") { "Retour" }
     }
 
 [<SolidComponent>]
@@ -22,8 +26,8 @@ let SolidUnit (unit: Unit) : HtmlElement =
     Fragment() {
         h1() { unit.title }
         h2() { unit.short }
-        div(innerHTML = unit.text)
-        A(href = "/", class' = "block text-right") { " Retour " }
+        HyphenatedText() { div(innerHTML = unit.text) }
+    // A(href = "/", class' = "block text-right") { " Retour " }
     }
 
 [<SolidComponent>]
@@ -40,26 +44,48 @@ let getPages (tag: string) =
 
 [<SolidComponent>]
 let taggedPages (tag: Tag) () : HtmlElement =
-    Fragment() {
-        h1() { navItems[tag].title }
-        Masonry(filterPages navItems[tag].cmstag)
-    // div () { For(each = getPages navItems[tag].cmstag) { yield fun (page: Unit) index -> SolidUnit page } }
-    }
+    Masonry(filterPages navItems[tag].cmstag)
 
+[<SolidComponent>]
+let getPage () : HtmlElement =
+    printfn "params: %A" (useParams())
+    let slug: string = (useParams())?slug
+    printfn "slug: %s" slug
+    let page = pages.items |> Seq.find(fun x -> x.data.id.iv = slug)
+    Fragment() {
+        CoverFlow page
+        SolidUnit page.data.unit.fr
+    }
 
 [<SolidComponent>]
 let App (page: unit -> HtmlElement) () : HtmlElement =
-    let mutable divRef: Types.HTMLDivElement = Unchecked.defaultof<_>
-    let scrolled, setScrolled = createSignal 0.0
-
     let handleScroll (e: Types.Event) =
-        printfn "scrolling to %f" window.pageYOffset
-        window.pageYOffset |> setScrolled
+        window.pageYOffset |> setStore.Path.Map(_.scrolled).Update
 
-    onMount(fun () -> Dom.document.addEventListener("scroll", handleScroll) |> ignore)
-    onCleanup(fun () -> Dom.document.removeEventListener("scroll", handleScroll) |> ignore)
+    onMount(fun () ->
+        Dom.document.addEventListener("scroll", handleScroll)
+        breakQueries
+        |> Seq.iter(fun (breakpoint, query) ->
+            let mql = window.matchMedia(query)
+            if mql.matches then
+                setStore.Path.Map(_.screenType).Update(breakpoint)
+            mql.addEventListener(
+                "change",
+                fun e ->
+                    if (e?matches) then
+                        setStore.Path.Map(_.screenType).Update(breakpoint)
+            ))
+        |> ignore)
+    onCleanup(fun () ->
+        Dom.document.removeEventListener("scroll", handleScroll)
+        breakQueries
+        |> Seq.iter(fun (breakpoint, query) ->
+            let mql = window.matchMedia(query)
+            mql.removeEventListener("change", fun _ -> ()))
+        |> ignore)
 
     Fragment() {
-        Header(scrolled)
-        div(class' = "mt-40").ref(fun el -> divRef <- el) { page() }
+        Header()
+        div(class' = "py-10 min-h-screen") { page() }
+        Footer()
     }
