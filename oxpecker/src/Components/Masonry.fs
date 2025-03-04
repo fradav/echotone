@@ -29,26 +29,6 @@ module Masonry =
         // |> Array.map List.rev
         |> Array.collect(List.rev >> List.toArray)
 
-    // [<SolidComponent>]
-    // let Masonry (pages: Data.PagesT.Items seq) : HtmlElement =
-    //     div(class' = classes.masonry) {
-    //         For(
-    //             each =
-    //                 (pages
-    //                  |> List.ofSeq
-    //                  |> makeMasonry (breakColumns[store.screenType]) (getMedias >> getHeight 400))
-    //         ) {
-    //             yield
-    //                 fun col index ->
-    //                     div(class' = classes.masonryColumn) {
-    //                         For(each = Array.ofList col) {
-    //                             yield fun page index -> A(href = page.data.id.iv) { Vignette 300 page }
-    //                         }
-    //                     }
-    //         }
-    //     }
-
-
     [<SolidComponent>]
     let Masonry (pages: Data.PagesT.Items seq) : HtmlElement =
         // Return a cleanup function for when the element is removed
@@ -70,10 +50,10 @@ module Masonry =
                          |> makeMasonry (breakColumns[store.screenType]) (getMedias >> getHeight 400))
                 ) {
                     yield
-                        (fun page index ->
+                        fun page index ->
                             let slug = page.data.id.iv
                             let href = navItems[mapPageSlugToTag[slug]].slug + "/" + slug
-                            A(href = href) { Vignette 350 page })
+                            A(href = href) { Vignette 350 page }
                 }
             }
         }

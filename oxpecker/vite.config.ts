@@ -27,7 +27,8 @@ export default defineConfig(({ mode }) => ({
       ]
     },
     // make the server accessible from the network
-    host: "0.0.0.0"
+    host: "0.0.0.0",
+    allowedHosts: true,
   },
   customLogger: logger,
   publicDir: '../public',

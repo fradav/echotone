@@ -4,13 +4,19 @@
 
 @custom-variant hocus (&:hover, &:focus);
 
+@layer utilities {
+  .hamburger-toggle {
+    @apply [&>div]:h-0 [&>div]:bg-white dark:[&>div]:bg-black [&>div]:before:translate-y-0 [&>div]:before:rotate-45 [&>div]:after:translate-y-0 [&>div]:after:-rotate-45;
+  }
+}
+
 @layer base {
   /* Your base styles here */
   html {
     font-family: 'Roboto', sans-serif;
   }
   body {
-    @apply bg-gray-100 dark:bg-gray-900 text-gray-900 dark:text-gray-100;
+    @apply bg-gray-100 dark:bg-gray-900 text-gray-900 dark:text-gray-100 not-md:mt-20;
   }
   h1 {
     @apply text-3xl md:text-4xl;
