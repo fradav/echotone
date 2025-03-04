@@ -32,6 +32,10 @@ let NotFound () : HtmlElement =
         }
     }
 
+let isBaseSlugTag s =
+    [ Programmation; Atelier; Boutique ]
+    |> List.tryFind(fun t -> navItems.[t].cmstag = s)
+
 let slugToTag (slug: string) =
     let rewriteSlug =
         match slug with
@@ -40,13 +44,16 @@ let slugToTag (slug: string) =
         | s when s <> "/" -> s
         | _ -> "/"
 
-    try
-        let path = rewriteSlug.Split("/")
-        printfn "path: %s" path[1]
-        navItems |> Map.pick(fun k v -> if v.slug = "/" + path[1] then Some k else None)
-    with _ ->
-        printfn "failed to get %s" slug
-        Tag.Accueil
+    let path = rewriteSlug.Split("/")
+    printfn "path: %s" path[1]
+    navItems
+    |> Map.tryPick(fun k v -> if v.cmstag = path[1] then Some k else None)
+    |> Option.orElseWith(fun () ->
+        pages.items
+        |> Seq.tryFind(fun p -> p.data.id.iv = path[1])
+        |> Option.bind(fun p -> p.data.unit.fr.tags |> Seq.tryPick isBaseSlugTag))
+    |> Option.defaultValue Tag.Accueil
+
 
 let tagToTitle (tag: Tag) = navItems[tag].title
 
@@ -62,7 +69,17 @@ let Layout (props: RootProps) : HtmlElement =
         if path = (baseR + "/") then
             navigate.Invoke("/")
         else
-            path |> slugToTag |> setCurrentTag)
+            let newTag = path |> slugToTag
+            let pathArray = path.Split("/")
+            printfn "path: %s, found tag %A" path newTag
+            if
+                newTag <> Tag.Accueil
+                && pathArray.Length = 2
+                && (pathArray.[1] <> navItems.[newTag].cmstag)
+            then
+                printfn "redirecting to %s" (navItems.[newTag].slug)
+                navigate.Invoke(navItems.[newTag].slug + path)
+            setCurrentTag newTag)
 
     Fragment() {
         Base(href = addedTrailingSlash)

@@ -46,16 +46,22 @@ let getPages (tag: string) =
 let taggedPages (tag: Tag) () : HtmlElement =
     Masonry(filterPages navItems[tag].cmstag)
 
+
 [<SolidComponent>]
 let getPage () : HtmlElement =
     printfn "params: %A" (useParams())
     let slug: string = (useParams())?slug
     printfn "slug: %s" slug
-    let page = pages.items |> Seq.find(fun x -> x.data.id.iv = slug)
-    Fragment() {
-        CoverFlow page
-        SolidUnit page.data.unit.fr
-    }
+    pages.items
+    |> Seq.tryFind(fun x -> x.data.id.iv = slug)
+    |> function
+        | Some page ->
+            Fragment() {
+                CoverFlow page
+                SolidUnit page.data.unit.fr
+            }
+        | None -> div() { "404 - Not Found" }
+
 
 [<SolidComponent>]
 let App (page: unit -> HtmlElement) () : HtmlElement =

@@ -188,7 +188,7 @@ let observer =
     IntersectionObserver.Create(fun entries _ ->
         for entry in entries do
             if entry.isIntersecting then
-                printfn "entry intersecting: %A" entry
+                // printfn "entry intersecting: %A" entry
                 (entry.target :?> HTMLElement).classList.remove("vignette-invisible")
             else
                 (entry.target :?> HTMLElement).classList.add("vignette-invisible"))
