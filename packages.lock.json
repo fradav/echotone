@@ -423,15 +423,15 @@
       },
       "AWSSDK.Core": {
         "type": "Transitive",
-        "resolved": "3.7.402.10",
-        "contentHash": "YqwFZD2h6++mjPV9xCL/C27NMGnrihFcDcT68AjOazVO6Gi1jsVfxf2w7VwvGjiR20bIGIcHyRQXKxsU+nJ5SQ=="
+        "resolved": "3.7.402.11",
+        "contentHash": "nu2HJ2ELS/u6BN3wOhRC7bcs2yr7WCn+oBK0WkhoS+g+VtS3UEKvG6+1Q0BErtypA+1Obyh3HbZpnGNWVj/OxQ=="
       },
       "AWSSDK.S3": {
         "type": "Transitive",
-        "resolved": "3.7.415.9",
-        "contentHash": "Vv4swqLqd8/uDPbj70NTcYsQT9n6r2/zXWsDKe2L678ILUy65PHtfPThO+NgJda3g9ROzD56hVF/7bW5UMkBPw==",
+        "resolved": "3.7.415.10",
+        "contentHash": "+d8ZzPaUFr4PVeeIKPCUv/1kakYizr3qwpGe6um4MBMWEpD799ymsnfsBvYbK5bUZegoZJm7UYLIuKzIvKmIGQ==",
         "dependencies": {
-          "AWSSDK.Core": "[3.7.402.10, 4.0.0)"
+          "AWSSDK.Core": "[3.7.402.11, 4.0.0)"
         }
       },
       "dotenv.net": {
@@ -533,8 +533,8 @@
       "sitegen": {
         "type": "Project",
         "dependencies": {
-          "AWSSDK.Core": "[3.7.402.10, )",
-          "AWSSDK.S3": "[3.7.415.9, )",
+          "AWSSDK.Core": "[3.7.402.11, )",
+          "AWSSDK.S3": "[3.7.415.10, )",
           "FSharp.Core": "[9.0.201, )",
           "FSharp.Data": "[6.4.1, )",
           "FSharp.Data.Csv.Core": "[6.4.1, )",

@@ -236,10 +236,10 @@ GROUP Site
 STORAGE: NONE
 NUGET
   remote: https://api.nuget.org/v3/index.json
-    AWSSDK.Core (3.7.402.10)
+    AWSSDK.Core (3.7.402.11)
       Microsoft.Bcl.AsyncInterfaces (>= 1.1) - restriction: && (< net35) (< netcoreapp3.1) (>= netstandard2.0)
-    AWSSDK.S3 (3.7.415.9)
-      AWSSDK.Core (>= 3.7.402.10 < 4.0)
+    AWSSDK.S3 (3.7.415.10)
+      AWSSDK.Core (>= 3.7.402.11 < 4.0)
     dotenv.net (3.2.1)
       System.Memory (>= 4.5.5) - restriction: || (&& (>= netstandard1.6) (< netstandard2.0)) (&& (>= netstandard2.0) (< netstandard2.1))
       System.ValueTuple (>= 4.5) - restriction: && (>= netstandard1.6) (< netstandard2.0)
@@ -818,7 +818,7 @@ NUGET
       Fable.Browser.Event (>= 1.6) - restriction: >= netstandard2.0
       Fable.Core (>= 3.2.8) - restriction: >= netstandard2.0
       FSharp.Core (>= 4.7.2) - restriction: >= netstandard2.0
-    Fable.Core (4.4)
+    Fable.Core (4.5)
     Fable.JsonProvider (1.1.1)
       FSharp.Core (>= 6.0.1) - restriction: >= netstandard2.0
     FSharp.Core (9.0.201) - restriction: >= netstandard2.0

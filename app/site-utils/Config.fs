@@ -24,14 +24,16 @@ module Conf =
         if File.Exists(secretPath) then
             DotEnv.Load(DotEnvOptions(envFilePaths = [ secretPath ]))
 
-        {| baseURL = Environment.GetEnvironmentVariable("BASE_URL")
-           clientSecret = Environment.GetEnvironmentVariable("CLIENT_SECRET")
-           s3AccessKeyId = Environment.GetEnvironmentVariable("S3_ACCESS_KEY_ID")
-           s3SecretAccessKey = Environment.GetEnvironmentVariable("S3_SECRET_ACCESS_KEY") |}
+        {|
+            baseURL = Environment.GetEnvironmentVariable("BASE_URL")
+            clientSecret = Environment.GetEnvironmentVariable("CLIENT_SECRET")
+            s3AccessKeyId = Environment.GetEnvironmentVariable("S3_ACCESS_KEY_ID")
+            s3SecretAccessKey = Environment.GetEnvironmentVariable("S3_SECRET_ACCESS_KEY")
+        |}
 
     let refreshToken () =
-        let envVars = getConfig ()
-        let secret = loadSecret ()
+        let envVars = getConfig()
+        let secret = loadSecret()
         // check if secret is empty
         if System.String.IsNullOrEmpty(secret.clientSecret) then
             failwith "CLIENT_SECRET not found"
@@ -42,10 +44,11 @@ module Conf =
                 POST "/identity-server/connect/token"
                 body
 
-                formUrlEncoded
-                    [ "grant_type", "client_credentials"
-                      "client_id", envVars["CLIENT_ID"]
-                      "client_secret", secret.clientSecret ]
+                formUrlEncoded [
+                    "grant_type", "client_credentials"
+                    "client_id", envVars["CLIENT_ID"]
+                    "client_secret", secret.clientSecret
+                ]
             }
             |> Request.send
 
@@ -56,19 +59,19 @@ module Conf =
         |> Response.deserializeJson
         |> (fun x -> (x?access_token).GetString())
         |> (sprintf "TOKEN=%s\n")
-        |> writeTextToFile (Path.Combine(sourceDir, ".env"))
+        |> writeTextToFile(Path.Combine(sourceDir, ".env"))
 
     let getToken () =
-        if not (File.Exists(Path.Combine(sourceDir, ".env"))) then
-            refreshToken ()
+        if not(File.Exists(Path.Combine(sourceDir, ".env"))) then
+            refreshToken()
 
         DotEnv.Read()["TOKEN"]
 
 
     let fsReadyHttp () =
-        let envVars = getConfig ()
-        let secret = loadSecret ()
-        let token = getToken ()
+        let envVars = getConfig()
+        let secret = loadSecret()
+        let token = getToken()
 
         http {
             config_useBaseUrl secret.baseURL
@@ -78,7 +81,7 @@ module Conf =
     let validateOrRefresh () =
         let appName = getConfig()["APP_NAME"]
 
-        fsReadyHttp () { GET $"/api/apps/{appName}/assets" }
+        fsReadyHttp() { GET $"/api/apps/{appName}/assets" }
         |> Request.send
         |> function
             | r when r.statusCode = HttpStatusCode.OK ->
@@ -86,7 +89,7 @@ module Conf =
                 ()
             | _ ->
                 printfn "Token invalid, refreshing..."
-                refreshToken ()
+                refreshToken()
 
     let jsonOptions = JsonSerializerOptions(WriteIndented = true)
 
@@ -97,10 +100,10 @@ module Conf =
             | JsonValueKind.Object ->
                 let properties =
                     element.EnumerateObject()
-                    |> Seq.map (fun property ->
+                    |> Seq.map(fun property ->
                         let value =
                             if property.Name = "text" && property.Value.ValueKind = JsonValueKind.String then
-                                let text = transform (property.Value.GetString())
+                                let text = transform(property.Value.GetString())
                                 JsonSerializer.SerializeToElement(text)
                             else
                                 tranformRec property.Value
@@ -121,9 +124,16 @@ module Conf =
 
     let reReplaceêsquidexUrl =
         Regex($"src=\"{escapedBaseUrl}[^\"]*(/[^/]+\")", RegexOptions.Compiled ||| RegexOptions.Multiline)
+    let reAddBlankTarget =
+        // Regex.Replace(origtext, "<a ", "<a target=\"_blank\" ")
+        Regex("<a ", RegexOptions.Compiled ||| RegexOptions.Multiline)
 
     let removeSquidexUrlHref (text: string) =
         reReplaceêsquidexUrl.Replace(text, "src=\"medias$1\"")
+
+    let addBlankTarget (text: string) =
+        reAddBlankTarget.Replace(text, "<a target=\"_blank\" ")
+
 
     // default converter
     type jsonConverter(transform: string -> string) =
@@ -137,31 +147,32 @@ module Conf =
 
     let transformOptions =
         let options = JsonSerializerOptions(WriteIndented = true)
-        options.Converters.Add(jsonConverter removeSquidexUrlHref)
+        options.Converters.Add(jsonConverter(removeSquidexUrlHref >> addBlankTarget))
         options
 
     let Serialize (options: JsonSerializerOptions) (data: 'a) = JsonSerializer.Serialize(data, options)
 
 
     let refreshJsons () =
-        let config = getConfig ()
+        let config = getConfig()
         let appName = config["APP_NAME"]
         let dataDir = config["DATA_DIR"]
 
         let siteParts =
-            Map
-                [ "assets", $"/api/apps/{appName}/assets"
-                  "about", $"/api/content/{appName}/about"
-                  "contact", $"/api/content/{appName}/contact"
-                  "pages", $"/api/content/{appName}/page" ]
+            Map [
+                "assets", $"/api/apps/{appName}/assets"
+                "about", $"/api/content/{appName}/about"
+                "contact", $"/api/content/{appName}/contact"
+                "pages", $"/api/content/{appName}/page"
+            ]
 
-        if not (Directory.Exists(dataDir)) then
+        if not(Directory.Exists(dataDir)) then
             Directory.CreateDirectory(dataDir) |> ignore
 
         siteParts
-        |> Map.iter (fun key value ->
-            fsReadyHttp () { GET value }
+        |> Map.iter(fun key value ->
+            fsReadyHttp() { GET value }
             |> Request.send
             |> Response.toJson
             |> Serialize transformOptions
-            |> writeTextToFile (Path.Combine(dataDir, key + ".json")))
+            |> writeTextToFile(Path.Combine(dataDir, key + ".json")))
