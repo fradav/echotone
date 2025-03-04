@@ -26,17 +26,27 @@ module Header =
         linkListContainer =
             "items-center justify-between md:flex not-md:fixed not-md:top-20 md:w-auto md:order-1 duration-1000 ease-in-out m-4 not-md:rounded not-md:right-0"
         linkList =
-            "flex flex-col p-4 md:p-0 mt-4 font-medium border border-gray-100 text-xl rounded-lg md:space-x-8 rtl:space-x-reverse md:flex-row md:mt-0 md:border-0 dark:border-gray-700 not-md:bg-gray-800/75"
+            "flex flex-col p-4 md:p-0 mt-4 font-medium border border-gray-100 text-xl rounded-lg md:space-x-8 rtl:space-x-reverse md:flex-row md:mt-0 md:border-0 dark:border-gray-700 not-md:bg-gradient-to-r from-gray-500/90 to-slate-900/90"
         item = "block py-2 px-3"
-        itemActive = "text-white md:text-gray-300 md:p-0 dark:md:text-gray-700 dark:md:drop-shadow-2xl"
+        itemActive =
+            "text-white md:text-gray-300 md:p-0 not-md:bg-gray-400 dark:md:text-gray-700 dark:md:drop-shadow-2xl animate-flicker"
         itemInactive =
-            "text-gray-900 rounded-sm md:hover:bg-transparent md:hocus:text-blue-700 md:p-0 dark:text-gray-200 dark:hover:text-gray-50"
+            "rounded-sm md:hover:bg-transparent md:hocus:text-blue-700 md:p-0 text-gray-200 dark:hover:text-gray-50"
     |}
 
+    let toggleMenu _ =
+        // printfn "toggleMenu called %A" store.menuOpened
+        store.menuOpened |> not |> setStore.Path.Map(_.menuOpened).Update
+
     [<SolidComponent>]
-    let navBarLink (tag: Tag) () : HtmlElement =
+    let navBarLink (tag: Tag) : HtmlElement =
         let href = navItems[tag].slug
         let title = navItems[tag].title
+        let path = useLocation()
+
+        createEffect(fun () ->
+            if path.pathname = href then
+                setStore.Path.Map(_.currentTag).Update tag)
 
         li() {
             A(
@@ -60,9 +70,12 @@ module Header =
 
     [<SolidComponent>]
     let Header () : HtmlElement =
-        let triggeredMenu, setTriggeredMenu = createSignal false
-        let toggleMenu _ =
-            triggeredMenu() |> not |> setTriggeredMenu
+        let timer = new System.Timers.Timer(AutoReset = false)
+
+        onCleanup(fun () ->
+            timer.Interval <- 1.
+            timer.Elapsed.Add(fun _ -> setStore.Path.Map(_.menuOpened).Update false)
+            timer.Start())
 
         let calculateWidthLogo () =
             let minRes = 150
@@ -98,7 +111,7 @@ module Header =
                         )
                             .classList(
                                 {|
-                                    ``hamburger-toggle`` = triggeredMenu()
+                                    ``hamburger-toggle`` = store.menuOpened
                                 |}
                             ) {
                             span(class' = "sr-only") { "Open Main Menu" }
@@ -115,12 +128,12 @@ module Header =
                 div(class' = classes.linkListContainer, id = "navbar-sticky")
                     .classList(
                         {|
-                            ``not-md:translate-x-full not-md:invisible`` = not(triggeredMenu())
-                            ``not-md:translate-x-0`` = triggeredMenu()
+                            ``not-md:translate-x-full not-md:invisible`` = not(store.menuOpened)
+
                         |}
                     ) {
                     ul(class' = classes.linkList) {
-                        For(each = realNonEmptyTags) { yield fun tag index -> navBarLink tag () }
+                        For(each = realNonEmptyTags) { yield fun tag index -> navBarLink tag }
                     }
                 }
 

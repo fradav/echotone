@@ -70,13 +70,13 @@ let getPage () =
 
 
 
+[<SolidComponent>]
 let tagToTitle (tag: Tag) = navItems[tag].title
 
 [<SolidComponent>]
 let Layout (props: RootProps) : HtmlElement =
     let location = useLocation()
     let navigate = useNavigate()
-    let currentTag, setCurrentTag = createSignal Tag.Accueil
 
     createEffect(fun () ->
         let path = location.pathname
@@ -85,12 +85,12 @@ let Layout (props: RootProps) : HtmlElement =
             navigate.Invoke("/")
         else
             let newTag = path |> routerSlugToTag
-            setCurrentTag newTag)
+            setStore.Path.Map(_.currentTag).Update newTag)
 
     Fragment() {
         Base(href = addedTrailingSlash)
-        Title() { $"Échotone / {currentTag() |> tagToTitle}" }
-        Suspense(fallback = (p() { "Loading…" })) { props.children }
+        Title() { $"Échotone / {store.currentTag |> tagToTitle}" }
+        Suspense(fallback = Loading()) { props.children }
     }
 
 

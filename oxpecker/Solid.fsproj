@@ -6,7 +6,7 @@
   </PropertyGroup>
   <ItemGroup>
     <Content Include="README.md" />
-    <Content Include="src\index.css" />
+    <Content Include="index.css" />
     <Content Include="package.json" />
     <Content Include="index.html" />
 

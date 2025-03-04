@@ -191,7 +191,13 @@ type Breakpoint =
     | Xl
     | Xxl
 
-let store, setStore = createStore {| scrolled = 0.; screenType = Xl |}
+let store, setStore =
+    createStore {|
+        scrolled = 0.
+        screenType = Xl
+        menuOpened = false
+        currentTag = Tag.Accueil
+    |}
 
 let breakWidth = [| 640; 768; 1024; 1280; 1536 |]
 

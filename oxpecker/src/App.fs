@@ -57,10 +57,14 @@ let makePage (page: PagesT.Items) : HtmlElement =
 
 [<SolidComponent>]
 let App (page: unit -> HtmlElement) () : HtmlElement =
+    let delay, setDelay = createSignal true
     let handleScroll (e: Types.Event) =
         window.pageYOffset |> setStore.Path.Map(_.scrolled).Update
 
     onMount(fun () ->
+        let timer = new System.Timers.Timer(1., AutoReset = false)
+        timer.Elapsed.Add(fun _ -> setDelay false)
+        timer.Start()
         Dom.document.addEventListener("scroll", handleScroll)
         breakQueries
         |> Seq.iter(fun (breakpoint, query) ->
@@ -84,6 +88,14 @@ let App (page: unit -> HtmlElement) () : HtmlElement =
 
     Fragment() {
         Header()
-        div(class' = "py-10 min-h-screen") { page() }
+        div(class' = "py-10 min-h-screen duration-1000 ease-in-out").classList({| ``opacity-0`` = delay() |}) { page() }
+        Footer()
+    }
+
+[<SolidComponent>]
+let Loading () : HtmlElement =
+    Fragment() {
+        Header()
+        div(class' = "py-10 min-h-screen") { h3() { "Loading..." } }
         Footer()
     }

@@ -10,6 +10,18 @@
   }
 }
 
+@theme {
+  --animate-flicker: flicker 1s;
+  @keyframes flicker {
+    0% {
+      opacity: 0;
+    }
+    50% {
+      opacity: 1;
+    }
+  }
+}
+
 @layer base {
   /* Your base styles here */
   html {
