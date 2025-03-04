@@ -2,6 +2,8 @@
 @source "src/**/*.jsx";
 @source "src/**/*.fs";
 
+@custom-variant dark (&:where(.dark, .dark *));
+
 @custom-variant hocus (&:hover, &:focus);
 
 @layer utilities {

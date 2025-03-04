@@ -65,6 +65,19 @@ let App (page: unit -> HtmlElement) () : HtmlElement =
         let timer = new System.Timers.Timer(1., AutoReset = false)
         timer.Elapsed.Add(fun _ -> setDelay false)
         timer.Start()
+        // On page load or when changing themes, best to add inline in `head` to avoid FOUC
+        let forceTheme = localStorage["theme"]
+        printfn "forceTheme: %A" forceTheme
+        document.documentElement.classList.toggle(
+            "dark",
+            (isIn "theme" localStorage && forceTheme = "dark")
+            || (not(isIn "theme" localStorage)
+                && window.matchMedia("(prefers-color-scheme: dark)").matches)
+        )
+        |> function
+            | true -> localStorage["theme"] <- "dark"
+            | false -> localStorage["theme"] <- "light"
+
         Dom.document.addEventListener("scroll", handleScroll)
         breakQueries
         |> Seq.iter(fun (breakpoint, query) ->
