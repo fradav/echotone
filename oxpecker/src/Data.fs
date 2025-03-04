@@ -103,37 +103,37 @@ type navItem = {
 
 let navItems =
     Map [
-        Tag.Accueil,
+        Accueil,
         {
             title = "Accueil"
             slug = "/"
             cmstag = "accueil"
         }
-        Tag.Programmation,
+        Programmation,
         {
             title = "Programmation"
             slug = "/programmation"
             cmstag = "programmation"
         }
-        Tag.Boutique,
+        Boutique,
         {
             title = "Boutique"
             slug = "/shop"
             cmstag = "boutique"
         }
-        Tag.Atelier,
+        Atelier,
         {
             title = "Atelier"
             slug = "/workshop"
             cmstag = "atelier"
         }
-        Tag.Apropos,
+        Apropos,
         {
             title = "À propos"
             slug = "/about"
             cmstag = "a-propos"
         }
-        Tag.Contact,
+        Contact,
         {
             title = "Informations pratiques"
             slug = "/contact"
@@ -147,6 +147,8 @@ type Sponsor = {
     src: string
 }
 
+let realTags = [ Programmation; Atelier; Boutique ]
+
 let sponsorsLogos =
     assetsJson.items
     |> Seq.filter(fun x -> x.tags |> Seq.contains "sponsor")
@@ -157,7 +159,29 @@ let sponsorsLogos =
         url = x.metadata?url
     })
 
+let cmsToTag s =
+    navItems |> Map.tryPick(fun k v -> if v.cmstag = s then Some k else None)
 
+let slugToTag s =
+    navItems |> Map.tryPick(fun k v -> if v.slug = s then Some k else None)
+
+
+let mapPageSlugToTag =
+    let cmsTags = realTags |> Seq.map(fun x -> navItems.[x].cmstag) |> Set.ofSeq
+    pages.items
+    |> Seq.map(fun x ->
+        x.data.unit.fr.tags
+        |> Set
+        |> Set.intersect cmsTags
+        |> Seq.head
+        |> (fun y -> x.data.id.iv, cmsToTag y |> Option.defaultValue Tag.Accueil))
+    |> Map.ofSeq
+
+let realNonEmptyTags =
+    let temp =
+        realTags
+        |> Seq.filter(fun x -> mapPageSlugToTag |> Map.exists(fun k v -> v = x))
+    Seq.append temp [ Apropos; Contact ] |> Array.ofSeq
 
 type Breakpoint =
     | Xs
@@ -182,7 +206,6 @@ let breakQueries =
         yield Xxl, $"(min-width: {breakWidth.[breakWidth.Length - 1]}px)"
     }
 
-printfn "breakQueries: %A" (List.ofSeq breakQueries)
 
 let observer =
     IntersectionObserver.Create(fun entries _ ->

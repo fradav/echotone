@@ -25,9 +25,9 @@ module Header =
         linkListContainer =
             "items-center justify-between md:flex not-md:fixed not-md:top-20 md:w-auto md:order-1 duration-1000 ease-in-out m-4 not-md:rounded not-md:right-0"
         linkList =
-            "flex flex-col p-4 md:p-0 mt-4 font-medium border border-gray-100 text-xl rounded-lg md:space-x-8 rtl:space-x-reverse md:flex-row md:mt-0 md:border-0 md:dark:bg-gray-900/75 dark:border-gray-700 not-md:bg-blue-200/75"
+            "flex flex-col p-4 md:p-0 mt-4 font-medium border border-gray-100 text-xl rounded-lg md:space-x-8 rtl:space-x-reverse md:flex-row md:mt-0 md:border-0 dark:border-gray-700 not-md:bg-blue-200/75"
         item = "block py-2 px-3"
-        itemActive = "text-white md:text-gray-300 md:p-0"
+        itemActive = "text-white md:text-gray-300 md:p-0 dark:md:text-gray-700 dark:md:drop-shadow-2xl"
         itemInactive =
             "text-gray-900 rounded-sm md:hover:bg-transparent md:hocus:text-blue-700 md:p-0 dark:text-gray-200 dark:hover:text-gray-50"
     |}
@@ -109,9 +109,7 @@ module Header =
                         |}
                     ) {
                     ul(class' = classes.linkList) {
-                        For(each = [| Tag.Programmation; Tag.Atelier; Tag.Boutique; Tag.Apropos; Tag.Contact |]) {
-                            yield fun tag index -> navBarLink tag ()
-                        }
+                        For(each = realNonEmptyTags) { yield fun tag index -> navBarLink tag () }
                     }
                 }
 

@@ -36,7 +36,7 @@ let isBaseSlugTag s =
     [ Programmation; Atelier; Boutique ]
     |> List.tryFind(fun t -> navItems.[t].cmstag = s)
 
-let slugToTag (slug: string) =
+let routerSlugToTag (slug: string) =
     let rewriteSlug =
         match slug with
         | s when s = baseR -> "/"
@@ -45,7 +45,6 @@ let slugToTag (slug: string) =
         | _ -> "/"
 
     let path = rewriteSlug.Split("/")
-    printfn "path: %s" path[1]
     navItems
     |> Map.tryPick(fun k v -> if v.cmstag = path[1] then Some k else None)
     |> Option.orElseWith(fun () ->
@@ -53,6 +52,22 @@ let slugToTag (slug: string) =
         |> Seq.tryFind(fun p -> p.data.id.iv = path[1])
         |> Option.bind(fun p -> p.data.unit.fr.tags |> Seq.tryPick isBaseSlugTag))
     |> Option.defaultValue Tag.Accueil
+
+let getPage () =
+    let tag = (useParams())?tag
+    let slug: string = (useParams())?slug
+    let sTag = "/" + tag |> slugToTag
+    Map.tryFind slug mapPageSlugToTag
+    |> Option.map(fun t -> sTag |> Option.contains t)
+    |> Option.contains true
+    |> function
+        | false -> None
+        | true ->
+            pages.items
+            |> Seq.tryFind(fun x -> x.data.id.iv = slug)
+            |> Option.map(fun page -> page |> makePage)
+    |> Option.defaultValue(NotFound())
+
 
 
 let tagToTitle (tag: Tag) = navItems[tag].title
@@ -69,16 +84,7 @@ let Layout (props: RootProps) : HtmlElement =
         if path = (baseR + "/") then
             navigate.Invoke("/")
         else
-            let newTag = path |> slugToTag
-            let pathArray = path.Split("/")
-            printfn "path: %s, found tag %A" path newTag
-            if
-                newTag <> Tag.Accueil
-                && pathArray.Length = 2
-                && (pathArray.[1] <> navItems.[newTag].cmstag)
-            then
-                printfn "redirecting to %s" (navItems.[newTag].slug)
-                navigate.Invoke(navItems.[newTag].slug + path)
+            let newTag = path |> routerSlugToTag
             setCurrentTag newTag)
 
     Fragment() {
@@ -102,7 +108,7 @@ let appRouter () =
             Route(path = "/contact", component' = App ContactP)
             Route(path = "/:tag/:slug", component' = App getPage)
             // Add a catch-all route
-            Route(path = "*", component' = NotFound)
+            Route(path = "*", component' = App NotFound)
         }
     }
 

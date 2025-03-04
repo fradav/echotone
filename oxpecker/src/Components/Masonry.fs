@@ -69,7 +69,11 @@ module Masonry =
                          |> List.ofSeq
                          |> makeMasonry (breakColumns[store.screenType]) (getMedias >> getHeight 400))
                 ) {
-                    yield fun page index -> A(href = page.data.id.iv) { Vignette 350 page }
+                    yield
+                        (fun page index ->
+                            let slug = page.data.id.iv
+                            let href = navItems[mapPageSlugToTag[slug]].slug + "/" + slug
+                            A(href = href) { Vignette 350 page })
                 }
             }
         }

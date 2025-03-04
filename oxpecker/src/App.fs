@@ -48,19 +48,11 @@ let taggedPages (tag: Tag) () : HtmlElement =
 
 
 [<SolidComponent>]
-let getPage () : HtmlElement =
-    printfn "params: %A" (useParams())
-    let slug: string = (useParams())?slug
-    printfn "slug: %s" slug
-    pages.items
-    |> Seq.tryFind(fun x -> x.data.id.iv = slug)
-    |> function
-        | Some page ->
-            Fragment() {
-                CoverFlow page
-                SolidUnit page.data.unit.fr
-            }
-        | None -> div() { "404 - Not Found" }
+let makePage (page: PagesT.Items) : HtmlElement =
+    Fragment() {
+        CoverFlow page
+        SolidUnit page.data.unit.fr
+    }
 
 
 [<SolidComponent>]
