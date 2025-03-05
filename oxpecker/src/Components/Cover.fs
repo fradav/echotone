@@ -25,8 +25,21 @@ module Cover =
             | None -> w
             | Some x -> (w |> float) * (mapSlugs.[x].height / mapSlugs.[x].width) |> int
 
+    let getMediasCover (page: PagesT.Items) =
+        page.data.medias.iv
+        |> Seq.filter _.``in``
+        |> Seq.collect _.medias
+        |> Seq.filter(fun x -> mapSlugs.[x].``type`` = AssetType.Image)
+
     let getMedias (page: PagesT.Items) =
-        page.data.medias.iv |> Seq.filter _.``in`` |> Seq.collect _.medias
+        page.data.medias.iv
+        |> Seq.collect _.medias
+        |> Seq.filter(fun x -> mapSlugs.[x].``type`` = AssetType.Image)
+
+    let getVideos (page: PagesT.Items) =
+        page.data.medias.iv
+        |> Seq.collect _.medias
+        |> Seq.filter(fun x -> mapSlugs.[x].``type`` = AssetType.Video)
 
     [<SolidComponent>]
     let SlidingCover coverStyle (medias: string seq) : HtmlElement =
@@ -57,8 +70,7 @@ module Cover =
                                         ``opacity-100`` = (index() = current())
                                     |}
                                 ) {
-                                img(class' = classes.cover, src = $"medias/thumbnails/{mapSlugs[imgid].slug}")
-                                    .style'(coverStyle)
+                                img(class' = classes.cover, src = mapSlugs[imgid].thumbnail).style'(coverStyle)
                             }
                 }
             }
@@ -67,7 +79,7 @@ module Cover =
 
     [<SolidComponent>]
     let Cover w (page: PagesT.Items) : HtmlElement =
-        let pagemedias = getMedias page
+        let pagemedias = getMediasCover page
         let height = getHeight w pagemedias
 
         let coverStyle = {|
@@ -81,9 +93,18 @@ module Cover =
             | [] -> div(class' = classes.noCover).style'(coverStyle)
             | medias -> SlidingCover coverStyle medias
 
+
     [<SolidComponent>]
     let CoverFlow (page: PagesT.Items) : HtmlElement =
-        let zoom, setZoom = createSignal false
+        let zoom, setZoom = createSignal None
+        let delayZoom, setDelayZoom = createSignal false
+        let timer = new System.Timers.Timer(AutoReset = false)
+        createEffect(fun _ ->
+            if Option.isSome(zoom()) then
+                timer.Interval <- 1.
+                setDelayZoom false
+                timer.Elapsed.Add(fun _ -> setDelayZoom true)
+                timer.Start())
         onMount(fun _ ->
             Swiper.register()
             let swiperEl = document.querySelector("swiper-container")
@@ -95,7 +116,7 @@ module Cover =
                 centeredSlides = true
                 pagination = {| dynamicBullets = true |}
                 mousewheel = true
-                zoom = {| maxRatio = 5 |}
+                // zoom = {| maxRatio = 5 |}
                 breakpoints = {|
                     ``320`` = {|
                         slidesPerView = "1"
@@ -128,32 +149,69 @@ module Cover =
             swiperEl?initialize())
 
         let pagemedias = getMedias page
-
+        let pagevideos = getVideos page
         pagemedias
         |> List.ofSeq
         |> function
             | [] -> div(class' = classes.noCover)
             | medias ->
-                SwiperContainer(class' = "py-6 md:py-12 w-full") {
-
-
-                    For(each = Array.ofSeq medias) {
-                        yield
-                            fun imgid index ->
-                                SwiperSlide(
-                                    class' = "bg-cover bg-center"
-                                // onClick = (fun _ -> setZoom(not(zoom()))
-                                ) {
-                                    img(
+                Fragment() {
+                    div() {
+                        For(each = Array.ofSeq pagevideos) {
+                            yield
+                                fun vidid index ->
+                                    video(
                                         class' = "w-full h-[300px] md:h-[600px] object-contain",
-                                        src = $"medias/{mapSlugs[imgid].slug}"
+                                        src = mapSlugs[vidid].slug,
+                                        controls = true
                                     )
-                                        .classList(
-                                            {|
-                                                ``scale-150 block z-1 fixed top-0 left-0`` = zoom()
-                                            |}
+                        }
+                    }
+                    div() {
+                        div(class' = "fixed top-0 left-0 w-screen h-screen duration-500 ease-in-out")
+                            .classList(
+                                {|
+                                    ``hidden`` = zoom() = None
+                                    ``bg-black/25 drop-shadow-2xl backdrop-blur-2xl z-500`` =
+                                        zoom() |> Option.isSome && delayZoom()
+                                |}
+                            ) {
+                            For(each = Array.ofSeq medias) {
+                                yield
+                                    fun imgid index ->
+                                        img(
+                                            class' = "duration-1000 ease-in-out scale-50",
+                                            src = mapSlugs[imgid].slug,
+                                            onClick = fun _ -> setZoom(None)
                                         )
+                                            .classList(
+                                                {|
+                                                    ``h-11/12 w-11/12 object-contain fixed top-[calc(1/24*100%)] left-[calc(1/24*100%)] block z-1000 scale-none`` =
+                                                        zoom() = Some(index()) && delayZoom()
+                                                    ``collapse`` = zoom() = None || zoom() <> Some(index())
+                                                |}
+                                            )
 
-                                }
+                            }
+                        }
+                        SwiperContainer(class' = "py-6 md:py-12 w-full") {
+
+
+                            For(each = Array.ofSeq medias) {
+                                yield
+                                    fun imgid index ->
+                                        SwiperSlide(
+                                            class' = "bg-cover bg-center",
+                                            onClick = (fun _ -> setZoom(Some(index())))
+                                        ) {
+                                            img(
+                                                class' = "w-full h-[300px] md:h-[600px] object-contain",
+                                                src = mapSlugs[imgid].slug
+                                            )
+
+                                        }
+                            }
+                        }
+
                     }
                 }

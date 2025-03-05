@@ -36,6 +36,7 @@ type AssetType =
 
 type Asset = {
     slug: string
+    thumbnail: string
     height: float
     width: float
     ``type``: AssetType
@@ -51,14 +52,23 @@ let fileTypeToAssetType (s: string) =
         | "audio" -> AssetType.Audio
         | _ -> failwith "Unknown asset type"
 
+let s3slugs: obj = importDefault "../../data/s3.json"
+
+s3slugs |> printfn "%A"
 let mapSlugs =
     assetsJson.items
     |> Seq.map(fun item ->
         item.id,
         {
-            slug = item.slug
+            slug =
+                printfn "item.slug: %A" s3slugs?(item.slug)
+                if s3slugs?(item.slug) then
+                    s3slugs?(item.slug)
+                else
+                    "medias/" + item.slug
             width = item.metadata.pixelWidth
             height = item.metadata.pixelHeight
+            thumbnail = "medias/thumbnails/" + item.slug
             ``type`` = fileTypeToAssetType item.mimeType
         })
     |> Map.ofSeq
