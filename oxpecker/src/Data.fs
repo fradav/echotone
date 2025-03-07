@@ -54,14 +54,12 @@ let fileTypeToAssetType (s: string) =
 
 let s3slugs: obj = importDefault "../../data/s3.json"
 
-s3slugs |> printfn "%A"
 let mapSlugs =
     assetsJson.items
     |> Seq.map(fun item ->
         item.id,
         {
             slug =
-                printfn "item.slug: %A" s3slugs?(item.slug)
                 if s3slugs?(item.slug) then
                     s3slugs?(item.slug)
                 else
@@ -90,8 +88,6 @@ let addedTrailingSlash =
     match baseR with
     | "/" -> baseR
     | _ -> baseR + "/"
-
-printfn "baseR: %s" baseR
 
 let about: AboutContact = aboutJson.items |> Seq.head |> _.data.content.fr
 let contact: AboutContact = contactJson.items |> Seq.head |> _.data.content.fr
@@ -201,13 +197,59 @@ type Breakpoint =
     | Xl
     | Xxl
 
+type Link = { tag: Tag; slug: string }
+
+type ClickedLink =
+    | NewTag of Tag
+    | NewLink of Link
+
+type Transition =
+    | NoTransition
+    | TransitionIn
+    | TransitionOut
+
+type TransitionType =
+    | Opening of Transition
+    | Closing of Transition
+
+type Menu = {
+    opened: bool
+    transition: TransitionType
+    active: Tag
+}
+
+type Click = {
+    direction: ClickedLink
+    transition: TransitionType
+}
+
+type ScreenState = { click: Click; menu: Menu }
+
+type Theme =
+    | Light
+    | Dark
+    | Auto
+
+type ScreenType =
+    | Mobile
+    | Desktop
+
+type Model = {
+    scrolled: float
+    breakpoint: Breakpoint
+    screenType: ScreenType
+    currentTag: Tag
+    theme: Theme
+}
+
 let store, setStore =
-    createStore {|
+    createStore {
         scrolled = 0.
-        screenType = Xl
-        menuOpened = false
-        currentTag = Tag.Accueil
-    |}
+        breakpoint = Xl
+        screenType = Desktop
+        currentTag = Accueil
+        theme = Auto
+    }
 
 let breakWidth = [| 640; 768; 1024; 1280; 1536 |]
 
@@ -227,7 +269,6 @@ let observer =
     IntersectionObserver.Create(fun entries _ ->
         for entry in entries do
             if entry.isIntersecting then
-                // printfn "entry intersecting: %A" entry
                 (entry.target :?> HTMLElement).classList.remove("vignette-invisible")
             else
                 (entry.target :?> HTMLElement).classList.add("vignette-invisible"))

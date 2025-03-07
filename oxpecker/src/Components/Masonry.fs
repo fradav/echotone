@@ -9,11 +9,6 @@ open Fable.Core
 
 [<AutoOpen>]
 module Masonry =
-    let private classes = {|
-        // masonry = "mx-auto flex gap-10 justify-center mb-30"
-        // masonryColumn = "flex flex-col flex-nowrap gap-8"
-        masonry = "gap-10 duration-1000 ease-in-out"
-    |}
 
     let makeMasonry<'T> (cols: int) (getH: 'T -> int) (l: 'T list) =
         List.fold
@@ -34,20 +29,20 @@ module Masonry =
         // Return a cleanup function for when the element is removed
 
         div(class' = "flex items-center justify-center") {
-            div(class' = classes.masonry)
+            div(class' = "gap-10 duration-1000 ease-in-out")
                 .classList(
                     {|
-                        ``columns-1`` = breakColumns[store.screenType] = 1
-                        ``columns-2`` = breakColumns[store.screenType] = 2
-                        ``columns-3`` = breakColumns[store.screenType] = 3
-                        ``columns-4`` = breakColumns[store.screenType] = 4
+                        ``columns-1`` = breakColumns[store.breakpoint] = 1
+                        ``columns-2`` = breakColumns[store.breakpoint] = 2
+                        ``columns-3`` = breakColumns[store.breakpoint] = 3
+                        ``columns-4`` = breakColumns[store.breakpoint] = 4
                     |}
                 ) {
                 For(
                     each =
                         (Seq.concat(seq { pages })
                          |> List.ofSeq
-                         |> makeMasonry (breakColumns[store.screenType]) (getMedias >> getHeight 400))
+                         |> makeMasonry (breakColumns[store.breakpoint]) (getMedias >> getHeight 400))
                 ) {
                     yield
                         fun page index ->

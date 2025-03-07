@@ -11,9 +11,10 @@
     <Content Include="index.html" />
 
     <Compile Include="src\Data.fs" />
-    <Compile Include="src\Components\HyphenatedText.fs" />
-    <Compile Include="src\Components\Newsletter.fs" />
     <Compile Include="src\Components\RawNode.fs" />
+    <Compile Include="src\Components\HyphenatedText.fs" />
+    <Compile Include="src\Components\ThemeChooser.fs" />
+    <Compile Include="src\Components\Newsletter.fs" />
     <Compile Include="src\Components\Swiper.fs" />
     <Compile Include="src\Components\Cover.fs" />
     <Compile Include="src\Components\Vignette.fs" />

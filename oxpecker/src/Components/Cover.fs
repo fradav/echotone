@@ -14,7 +14,7 @@ module Cover =
         noCover = "bg-amber-300"
         slidingContainer = "hover:blur-xs @xs:max-w-80"
         slidingCover = "relative h-56 overflow-hidden"
-        coverItem = "duration-1000 ease-in-out opacity-0"
+        coverItem = "transition-opacity duration-[3s] ease-in-out opacity-0"
         cover = "absolute block -translate-x-1/2 -translate-y-1/2 top-1/2 left-1/2 object-cover "
     |}
 
@@ -145,7 +145,6 @@ module Cover =
                 |}
             |}
             JS.Constructors.Object.assign(swiperEl, swiperParams) |> ignore
-            printfn "Swiper initialized %A" swiperEl
             swiperEl?initialize())
 
         let pagemedias = getMedias page

@@ -46,11 +46,7 @@ let routerSlugToTag (slug: string) =
 
     let path = rewriteSlug.Split("/")
     navItems
-    |> Map.tryPick(fun k v -> if v.cmstag = path[1] then Some k else None)
-    |> Option.orElseWith(fun () ->
-        pages.items
-        |> Seq.tryFind(fun p -> p.data.id.iv = path[1])
-        |> Option.bind(fun p -> p.data.unit.fr.tags |> Seq.tryPick isBaseSlugTag))
+    |> Map.tryPick(fun k v -> if v.slug = "/" + path[1] then Some k else None)
     |> Option.defaultValue Tag.Accueil
 
 let getPage () =
@@ -66,7 +62,7 @@ let getPage () =
             pages.items
             |> Seq.tryFind(fun x -> x.data.id.iv = slug)
             |> Option.map(fun page -> page |> makePage)
-    |> Option.defaultValue(NotFound())
+    |> Option.defaultWith(fun p -> NotFound())
 
 
 
@@ -97,7 +93,6 @@ let Layout (props: RootProps) : HtmlElement =
 // HMR doesn't work in Root for some reason
 [<SolidComponent>]
 let appRouter () =
-
     MetaProvider() {
         Router(base' = baseR, root = Layout) {
             taggedRoute Tag.Accueil
@@ -108,7 +103,7 @@ let appRouter () =
             Route(path = "/contact", component' = App ContactP)
             Route(path = "/:tag/:slug", component' = App getPage)
             // Add a catch-all route
-            Route(path = "*", component' = App NotFound)
+            Route(path = "*", component' = NotFound)
         }
     }
 

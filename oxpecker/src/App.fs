@@ -54,43 +54,50 @@ let makePage (page: PagesT.Items) : HtmlElement =
         SolidUnit page.data.unit.fr
     }
 
+let delay, setDelay = createSignal false
+let transition, setTransition = createSignal false
+let newRoute, setNewRoute = createSignal ""
 
 [<SolidComponent>]
 let App (page: unit -> HtmlElement) () : HtmlElement =
-    let delay, setDelay = createSignal true
+
+    let navigate = useNavigate()
+    let location = useLocation()
+    useBeforeLeave(fun e ->
+        if not(transition()) then
+            setTransition true
+            e.preventDefault()
+            setNewRoute(string e.``to``)
+            setDelay true
+        else
+            setTransition false)
+
+    createEffect(fun () ->
+        if store.breakpoint = Xs || store.breakpoint = Sm then
+            setStore.Path.Map(_.screenType).Update(Mobile)
+        else
+            setStore.Path.Map(_.screenType).Update(Desktop))
+
     let handleScroll (e: Types.Event) =
         window.pageYOffset |> setStore.Path.Map(_.scrolled).Update
 
     onMount(fun () ->
-        let timer = new System.Timers.Timer(1., AutoReset = false)
-        timer.Elapsed.Add(fun _ -> setDelay false)
-        timer.Start()
-        // On page load or when changing themes, best to add inline in `head` to avoid FOUC
-        let forceTheme = localStorage["theme"]
-        printfn "forceTheme: %A" forceTheme
-        document.documentElement.classList.toggle(
-            "dark",
-            (isIn "theme" localStorage && forceTheme = "dark")
-            || (not(isIn "theme" localStorage)
-                && window.matchMedia("(prefers-color-scheme: dark)").matches)
-        )
-        |> function
-            | true -> localStorage["theme"] <- "dark"
-            | false -> localStorage["theme"] <- "light"
+        window.setTimeout((fun () -> setDelay false), 0) |> ignore
 
         Dom.document.addEventListener("scroll", handleScroll)
         breakQueries
         |> Seq.iter(fun (breakpoint, query) ->
             let mql = window.matchMedia(query)
             if mql.matches then
-                setStore.Path.Map(_.screenType).Update(breakpoint)
+                setStore.Path.Map(_.breakpoint).Update(breakpoint)
             mql.addEventListener(
                 "change",
                 fun e ->
                     if (e?matches) then
-                        setStore.Path.Map(_.screenType).Update(breakpoint)
+                        setStore.Path.Map(_.breakpoint).Update(breakpoint)
             ))
         |> ignore)
+
     onCleanup(fun () ->
         Dom.document.removeEventListener("scroll", handleScroll)
         breakQueries
@@ -101,7 +108,18 @@ let App (page: unit -> HtmlElement) () : HtmlElement =
 
     Fragment() {
         Header()
-        div(class' = "py-10 min-h-screen duration-1000 ease-in-out").classList({| ``opacity-0`` = delay() |}) { page() }
+        div(
+            class' = "py-10 min-h-screen duration-1000 ease-in-out",
+            onTransitionEnd =
+                fun e ->
+                    if (e.target) = e.currentTarget && (location.pathname <> newRoute()) then
+                        navigate.Invoke(newRoute())
+
+        )
+
+            .classList({| ``opacity-0`` = delay() |}) {
+            page()
+        }
         Footer()
     }
 
