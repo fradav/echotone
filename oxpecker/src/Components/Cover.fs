@@ -1,12 +1,15 @@
 namespace Components
 
-open Oxpecker.Solid
-open Oxpecker.Solid.Imports
-
 open Browser.Dom
 open Fable.Core
 open Fable.Core.JsInterop
+
+open Oxpecker.Solid
+open Oxpecker.Solid.Imports
+
+open Types
 open Data
+open State
 
 [<AutoOpen>]
 module Cover =
@@ -23,23 +26,23 @@ module Cover =
         |> Seq.tryHead
         |> function
             | None -> w
-            | Some x -> (w |> float) * (mapSlugs.[x].height / mapSlugs.[x].width) |> int
+            | Some x -> (w |> float) * (mapSlugAssets[x].height / mapSlugAssets[x].width) |> int
 
     let getMediasCover (page: PagesT.Items) =
         page.data.medias.iv
         |> Seq.filter _.``in``
         |> Seq.collect _.medias
-        |> Seq.filter(fun x -> mapSlugs.[x].``type`` = AssetType.Image)
+        |> Seq.filter(fun x -> mapSlugAssets[x].``type`` = AssetType.Image)
 
     let getMedias (page: PagesT.Items) =
         page.data.medias.iv
         |> Seq.collect _.medias
-        |> Seq.filter(fun x -> mapSlugs.[x].``type`` = AssetType.Image)
+        |> Seq.filter(fun x -> mapSlugAssets[x].``type`` = AssetType.Image)
 
     let getVideos (page: PagesT.Items) =
         page.data.medias.iv
         |> Seq.collect _.medias
-        |> Seq.filter(fun x -> mapSlugs.[x].``type`` = AssetType.Video)
+        |> Seq.filter(fun x -> mapSlugAssets[x].``type`` = AssetType.Video)
 
     [<SolidComponent>]
     let SlidingCover coverStyle (medias: string seq) : HtmlElement =
@@ -61,7 +64,7 @@ module Cover =
             // .data("carousel", if started() then "slide" else "none")
             .style'(coverStyle) {
             div(class' = classes.slidingCover).style'(coverStyle) {
-                For(each = Array.ofSeq medias) {
+                For(each = (medias |> Seq.filter(fun x -> mapSlugAssets[x].thumbnail.IsSome) |> Array.ofSeq)) {
                     yield
                         fun imgid index ->
                             div(class' = classes.coverItem)
@@ -70,7 +73,8 @@ module Cover =
                                         ``opacity-100`` = (index() = current())
                                     |}
                                 ) {
-                                img(class' = classes.cover, src = mapSlugs[imgid].thumbnail).style'(coverStyle)
+                                img(class' = classes.cover, src = mapSlugAssets[imgid].thumbnail.Value)
+                                    .style'(coverStyle)
                             }
                 }
             }
@@ -161,7 +165,7 @@ module Cover =
                                 fun vidid index ->
                                     video(
                                         class' = "w-full h-[300px] md:h-[600px] object-contain",
-                                        src = mapSlugs[vidid].slug,
+                                        src = mapSlugAssets[vidid].slug,
                                         controls = true
                                     )
                         }
@@ -180,7 +184,7 @@ module Cover =
                                     fun imgid index ->
                                         img(
                                             class' = "duration-1000 ease-in-out scale-50",
-                                            src = mapSlugs[imgid].slug,
+                                            src = mapSlugAssets[imgid].slug,
                                             onClick = fun _ -> setZoom(None)
                                         )
                                             .classList(
@@ -205,7 +209,7 @@ module Cover =
                                         ) {
                                             img(
                                                 class' = "w-full h-[300px] md:h-[600px] object-contain",
-                                                src = mapSlugs[imgid].slug
+                                                src = mapSlugAssets[imgid].slug
                                             )
 
                                         }

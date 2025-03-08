@@ -1,15 +1,17 @@
 module App
 
 open Fable.Core.JsInterop
-
-open Oxpecker.Solid
 open Browser
 
+open Oxpecker.Solid
+open Oxpecker.Solid.Router
+
+open Types
 open Data
+open State
 open Layout
 open Oxpecker.Solid.Imports
 open Components
-open Oxpecker.Solid.Router
 
 [<SolidComponent>]
 let SolidAboutContact (unit: AboutContact) : HtmlElement =
@@ -36,16 +38,8 @@ let AboutP () : HtmlElement = SolidAboutContact about
 [<SolidComponent>]
 let ContactP () : HtmlElement = SolidAboutContact contact
 
-let filterPages (tag: string) =
-    pages.items |> Seq.filter(fun x -> x.data.unit.fr.tags |> Seq.contains tag)
-
-let getPages (tag: string) =
-    filterPages tag |> Seq.map(fun x -> x.data.unit.fr) |> Array.ofSeq
-
 [<SolidComponent>]
-let taggedPages (tag: Tag) () : HtmlElement =
-    Masonry(filterPages navItems[tag].cmstag)
-
+let taggedPages (taggedtopic: TaggedTopic) () : HtmlElement = Masonry(getPagesForTopic taggedtopic)
 
 [<SolidComponent>]
 let makePage (page: PagesT.Items) : HtmlElement =
@@ -63,14 +57,15 @@ let App (page: unit -> HtmlElement) () : HtmlElement =
 
     let navigate = useNavigate()
     let location = useLocation()
-    useBeforeLeave(fun e ->
-        if not(transition()) then
-            setTransition true
-            e.preventDefault()
-            setNewRoute(string e.``to``)
-            setDelay true
-        else
-            setTransition false)
+    // useBeforeLeave(fun e ->
+    //     printfn "Leaving %s for %s" location.pathname (newRoute())
+    //     if not(transition()) then
+    //         setTransition true
+    //         e.preventDefault()
+    //         setNewRoute(string e.``to``)
+    //         setDelay true
+    //     else
+    //         setTransition false)
 
     createEffect(fun () ->
         if store.breakpoint = Xs || store.breakpoint = Sm then
@@ -112,7 +107,11 @@ let App (page: unit -> HtmlElement) () : HtmlElement =
             class' = "py-10 min-h-screen duration-1000 ease-in-out",
             onTransitionEnd =
                 fun e ->
-                    if (e.target) = e.currentTarget && (location.pathname <> newRoute()) then
+                    printfn "Transition: endded at %s, newRoute is %s" location.pathname (newRoute())
+                    if
+                        (e.target) = e.currentTarget
+                        && (location.pathname <> newRoute() && location.pathname <> (newRoute() + "/"))
+                    then
                         navigate.Invoke(newRoute())
 
         )

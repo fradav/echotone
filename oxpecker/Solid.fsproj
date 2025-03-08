@@ -10,7 +10,10 @@
     <Content Include="package.json" />
     <Content Include="index.html" />
 
+    <Compile Include="src\Types.fs" />
     <Compile Include="src\Data.fs" />
+    <Compile Include="src\State.fs" />
+    
     <Compile Include="src\Components\RawNode.fs" />
     <Compile Include="src\Components\HyphenatedText.fs" />
     <Compile Include="src\Components\ThemeChooser.fs" />

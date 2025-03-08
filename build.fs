@@ -7,8 +7,8 @@ open Site
 
 let runOrDefault initTargets defaultTarget args =
     let execContext = Context.FakeExecutionContext.Create false "build.fsx" []
-    Context.setExecutionContext (Context.RuntimeContext.Fake execContext)
-    initTargets () |> ignore
+    Context.setExecutionContext(Context.RuntimeContext.Fake execContext)
+    initTargets() |> ignore
 
     try
         match args with
@@ -20,16 +20,23 @@ let runOrDefault initTargets defaultTarget args =
         printfn "%A" e
         1
 
+// function to removes inconditonnally the file "echotone" in the "public" dir
+let removeEchotone () =
+    Shell.Exec("rm", "-f public/echotone") |> ignore
+
+let createEchotoneSymLink () =
+    Shell.Exec("ln", "-s ../public public/echotone") |> ignore
+
 let initTargets () =
-    Target.create "validate" (fun _ -> Conf.validateOrRefresh ())
+    Target.create "validate" (fun _ -> Conf.validateOrRefresh())
 
-    Target.create "refreshToken" (fun _ -> Conf.refreshToken ())
+    Target.create "refreshToken" (fun _ -> Conf.refreshToken())
 
-    Target.create "refreshJsons" (fun _ -> Conf.refreshJsons ())
+    Target.create "refreshJsons" (fun _ -> Conf.refreshJsons())
 
-    Target.create "refreshImages" (fun _ -> Gen.refreshAssets ())
+    Target.create "refreshImages" (fun _ -> Gen.refreshAssets())
 
-    Target.create "refreshS3Links" (fun _ -> Gen.refreshS3links ())
+    Target.create "refreshS3Links" (fun _ -> Gen.refreshS3links())
 
     Target.create "dev" (fun _ -> Shell.Exec("bun", "run dev", "oxpecker") |> ignore)
 
@@ -47,6 +54,18 @@ let initTargets () =
         if not result.OK then
             failwith "fable build failed")
 
+    Target.create "justBuild" (fun _ ->
+        let app_root = Conf.getConfig()["APP_ROOT"]
+
+        let result =
+            DotNet.exec
+                (withWorkingDirectory "oxpecker")
+                "fable"
+                $"watch --noCache --extension .jsx --run vite build --base={app_root} --watch"
+
+        if not result.OK then
+            failwith "fable build failed")
+
     Target.create "buildDev" (fun _ ->
         let app_root = Conf.getConfig()["APP_ROOT"]
 
@@ -55,6 +74,7 @@ let initTargets () =
 
         if not result.OK then
             failwith "fable build failed")
+
 
 
     "validate" ==> "refreshJsons" |> ignore

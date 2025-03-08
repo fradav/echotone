@@ -2,10 +2,10 @@ namespace Components
 
 open Oxpecker.Solid
 open Oxpecker.Solid.Router
+
+open Types
 open Data
-open Browser.Types
-open Browser
-open Fable.Core
+open State
 
 [<AutoOpen>]
 module Masonry =
@@ -25,7 +25,7 @@ module Masonry =
         |> Array.collect(List.rev >> List.toArray)
 
     [<SolidComponent>]
-    let Masonry (pages: Data.PagesT.Items seq) : HtmlElement =
+    let Masonry (pages: PagesT.Items seq) : HtmlElement =
         // Return a cleanup function for when the element is removed
 
         div(class' = "flex items-center justify-center") {
@@ -47,7 +47,7 @@ module Masonry =
                     yield
                         fun page index ->
                             let slug = page.data.id.iv
-                            let href = navItems[mapPageSlugToTag[slug]].slug + "/" + slug
+                            let href = (navTaggedItems[mapPageSlugToTag[slug]] |> fst |> _.slug) + "/" + slug
                             A(href = href) { Vignette 350 page }
                 }
             }

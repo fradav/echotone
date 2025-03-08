@@ -7,15 +7,16 @@ open Oxpecker.Solid.Meta
 open Fable.Core.JsInterop
 open Browser
 
-
+open Types
 open Data
+open State
 open App
 
 // importSideEffects "../index.css"
 
 [<SolidComponent>]
-let taggedRoute (tag: Tag) =
-    Route(path = navItems.[tag].slug, component' = App(taggedPages tag))
+let taggedRoute (taggedtopic: TaggedTopic) =
+    Route(path = (navTaggedItems[taggedtopic] |> fst |> _.slug), component' = App(taggedPages taggedtopic))
 
 [<SolidComponent>]
 let NotFound () : HtmlElement =
@@ -32,10 +33,6 @@ let NotFound () : HtmlElement =
         }
     }
 
-let isBaseSlugTag s =
-    [ Programmation; Atelier; Boutique ]
-    |> List.tryFind(fun t -> navItems.[t].cmstag = s)
-
 let routerSlugToTag (slug: string) =
     let rewriteSlug =
         match slug with
@@ -45,16 +42,18 @@ let routerSlugToTag (slug: string) =
         | _ -> "/"
 
     let path = rewriteSlug.Split("/")
-    navItems
-    |> Map.tryPick(fun k v -> if v.slug = "/" + path[1] then Some k else None)
-    |> Option.defaultValue Tag.Accueil
+    trySlugToTopic("/" + path[1]) |> Option.defaultValue(TaggedTopic Accueil)
 
 let getPage () =
     let tag = (useParams())?tag
     let slug: string = (useParams())?slug
-    let sTag = "/" + tag |> slugToTag
+
+    let sTag = "/" + tag |> trySlugToTopic
     Map.tryFind slug mapPageSlugToTag
-    |> Option.map(fun t -> sTag |> Option.contains t)
+    |> Option.map(fun t ->
+        match sTag with
+        | Some(TaggedTopic t') when t = t' -> true
+        | _ -> false)
     |> Option.contains true
     |> function
         | false -> None
@@ -65,9 +64,13 @@ let getPage () =
     |> Option.defaultWith(fun p -> NotFound())
 
 
+let topicToTitle = getBaseItemFromTopic >> _.title
 
-[<SolidComponent>]
-let tagToTitle (tag: Tag) = navItems[tag].title
+let currentTitle () =
+    match store.globalLinkState with
+    | Current(TopicLink t) -> t |> topicToTitle
+    | Current(PageLink { topic = t; slug = _ }) -> t |> TaggedTopic |> topicToTitle
+    | _ -> "…"
 
 [<SolidComponent>]
 let Layout (props: RootProps) : HtmlElement =
@@ -78,14 +81,15 @@ let Layout (props: RootProps) : HtmlElement =
         let path = location.pathname
 
         if path = (baseR + "/") then
-            navigate.Invoke("/")
-        else
-            let newTag = path |> routerSlugToTag
-            setStore.Path.Map(_.currentTag).Update newTag)
+            navigate.Invoke("/", jsOptions(fun o -> o.replace <- true))
+    // else
+    //     let newTag = path |> routerSlugToTag
+    //     setStore.Path.Map(_.currentTag).Update newTag
+    )
 
     Fragment() {
         Base(href = addedTrailingSlash)
-        Title() { $"Échotone / {store.currentTag |> tagToTitle}" }
+        Title() { $"Échotone / {currentTitle()}" }
         Suspense(fallback = Loading()) { props.children }
     }
 
@@ -95,10 +99,12 @@ let Layout (props: RootProps) : HtmlElement =
 let appRouter () =
     MetaProvider() {
         Router(base' = baseR, root = Layout) {
-            taggedRoute Tag.Accueil
-            taggedRoute Tag.Programmation
-            taggedRoute Tag.Atelier
-            taggedRoute Tag.Boutique
+            // Replace For with explicit route declarations
+            // yield! pageTaggedTopics |> Seq.map taggedRoute |> Seq.toArray
+            taggedRoute Accueil
+            taggedRoute Programmation
+            taggedRoute Atelier
+            taggedRoute Boutique
             Route(path = "/about", component' = App AboutP)
             Route(path = "/contact", component' = App ContactP)
             Route(path = "/:tag/:slug", component' = App getPage)

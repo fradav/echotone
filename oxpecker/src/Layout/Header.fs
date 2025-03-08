@@ -4,7 +4,9 @@ open Oxpecker.Solid
 open Oxpecker.Solid.Router
 open Oxpecker.Solid.Aria
 
+open Types
 open Data
+open State
 open Components
 
 [<AutoOpen>]
@@ -36,13 +38,13 @@ module Header =
     let private menuOpened, setMenuOpened = createSignal false
     let private hasClicked, setHasClicked = createSignal false
     let private toggleMenu = menuOpened >> not >> setMenuOpened
-    let private clickedLink, setClickedLink = createSignal None
-    let private oldCurrentTag, setOldCurrentTag = createSignal Tag.Accueil
+    let private oldCurrentTag, setOldCurrentTag = createSignal Accueil
 
     [<SolidComponent>]
-    let navBarLink (tag: Tag) : HtmlElement =
-        let href = navItems[tag].slug
-        let title = navItems[tag].title
+    let navBarLink (topic: Topic) : HtmlElement =
+        let baseItem = topic |> getBaseItemFromTopic
+        let href = baseItem.slug
+        let title = baseItem.title
 
         li() {
             A(
@@ -50,29 +52,27 @@ module Header =
                 onClick =
                     (fun e ->
 
-                        setClickedLink(Some tag)),
+                        chooseTopic topic),
+                activeClass = classes.itemActive,
+                inactiveClass = classes.itemInactive,
                 class' = classes.item,
                 end' = (href = "/"),
                 onAnimationEnd =
                     fun e ->
                         printfn "Animation Name: %s" e.animationName
                         if e.animationName = "flicker" then
-                            setOldCurrentTag store.currentTag
+                            // setOldCurrentTag store.globalLinkState
                             if store.screenType = Mobile then
                                 setHasClicked true
                                 setMenuOpened false
             // setHasClicked true
             )
                 .classList(
-                    createObj [
-                        classes.itemActive
-                        ==> ((clickedLink().IsNone && (tag = store.currentTag)) || (clickedLink() = Some tag))
-                        classes.itemInactive
-                        ==> ((clickedLink().IsNone && (tag <> store.currentTag))
-                             || (clickedLink().IsSome && clickedLink() <> Some tag))
-                        "animate-flicker"
-                        ==> ((menuOpened() || hasClicked()) && (clickedLink() = Some tag))
-                    ]
+                // createObj [
+                //     classes.itemActive ==> true
+                //     classes.itemInactive ==> true
+                //     "animate-flicker" ==> false
+                // ]
                 ) {
                 title
             }
@@ -148,7 +148,6 @@ module Header =
                             printfn "Transition Menu: %b" (menuOpened())
                             if e.target = e.currentTarget then
                                 setHasClicked false
-                                setClickedLink None
 
 
                 )
@@ -159,7 +158,7 @@ module Header =
 
                     |} {
                     ul(class' = classes.linkList) {
-                        For(each = realNonEmptyTags) { yield fun tag index -> navBarLink tag }
+                        For(each = realNonEmptyTopics) { yield fun tag index -> navBarLink tag }
                         ThemeChooser()
                     }
                 }

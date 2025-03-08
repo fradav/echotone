@@ -1,14 +1,17 @@
 namespace Layout
 
-open Browser.Types
-open Oxpecker.Solid
-open Browser.Dom
-open Browser
-open Oxpecker.Solid.Router
 open Fable.Core
 open Fable.Core.JsInterop
+open Browser
+open Browser.Types
+open Browser.Dom
 
+open Oxpecker.Solid
+open Oxpecker.Solid.Router
+
+open Types
 open Data
+open State
 open Components
 
 [<AutoOpen>]

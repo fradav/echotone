@@ -1,9 +1,13 @@
 namespace Components
 
-open Oxpecker.Solid
-open Oxpecker.Solid.Imports
 open Browser.Types
+
+open Oxpecker.Solid
+
+open Types
 open Data
+open State
+open Oxpecker.Solid.Imports
 
 [<AutoOpen>]
 module Page =
