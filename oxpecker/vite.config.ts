@@ -24,6 +24,9 @@ export default defineConfig(({ mode }) => ({
     copyPublicDir: false,
     // Do not empty the outDir automatically.
     emptyOutDir: false,
+    watch: {
+      exclude: ['/src/**/*.fs']
+    }
   },
   plugins: [
     {

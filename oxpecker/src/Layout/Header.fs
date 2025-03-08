@@ -15,7 +15,7 @@ module Header =
 
     let private classes = {|
         navbar =
-            "dark:bg-gray-900/75 backdrop-blur-2xl sticky w-full z-100 top-0 start-0 bg-transparent overflow-x-clip"
+            "dark:bg-zinc-800/75 backdrop-blur-2xl sticky w-full z-100 top-0 start-0 bg-gray-100/75 overflow-x-clip"
         navbarContainer = "flex justify-around flex-wrap items-center"
         navbarMobileContainer = "flex items-center justify-between not-md:w-full p-4"
         logoLink = "max-w-[300px] w-[300px] flex items-center space-x-3 rtl:space-x-reverse"
@@ -30,9 +30,9 @@ module Header =
             "flex flex-col p-4 md:p-0 mt-4 font-medium border border-gray-100 text-xl rounded-lg md:space-x-8 rtl:space-x-reverse md:flex-row md:mt-0 md:border-0 dark:border-gray-700 not-md:bg-gradient-to-r from-gray-500/90 to-slate-900/90"
         item = "block py-2 px-3"
         itemActive =
-            "text-white md:text-gray-600 md:p-0 not-md:bg-gray-400 dark:md:text-gray-700 dark:md:drop-shadow-2xl"
+            "text-white md:dark:text-zinc-400 md:text-zinc-300 md:p-0 not-md:bg-gray-400 dark:md:drop-shadow-2xl"
         itemInactive =
-            "rounded-sm md:hover:bg-transparent md:hocus:text-blue-700 md:p-0 text-gray-400 dark:text-gray-200 dark:hocus:text-gray-50"
+            "rounded-sm md:hover:bg-transparent md:dark:hocus:text-zinc-400 md:hocus:text-zinc-300 md:p-0 text-black dark:text-gray-200 dark:hocus:text-gray-50"
     |}
 
     let private menuOpened, setMenuOpened = createSignal false
