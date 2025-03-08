@@ -17,6 +17,110 @@
     {
       "_links": {
         "delete": {
+          "href": "/api/content/echotone/page/8d3519b1-5949-4f8f-8c29-7efcd066b682",
+          "method": "DELETE"
+        },
+        "draft/create": {
+          "href": "/api/content/echotone/page/8d3519b1-5949-4f8f-8c29-7efcd066b682/draft",
+          "method": "POST"
+        },
+        "previous": {
+          "href": "/api/content/echotone/page/8d3519b1-5949-4f8f-8c29-7efcd066b682/6",
+          "method": "GET"
+        },
+        "self": {
+          "href": "/api/content/echotone/page/8d3519b1-5949-4f8f-8c29-7efcd066b682",
+          "method": "GET"
+        }
+      },
+      "created": "2025-01-27T16:56:40Z",
+      "createdBy": "subject:6798dad0167d31fb8ec7cc74",
+      "data": {
+        "id": {
+          "iv": "jaa-occitanie"
+        },
+        "medias": {
+          "iv": [
+            {
+              "in": true,
+              "medias": [
+                "a94f31e5-3836-4bfe-a9b6-9fc92851cb8e",
+                "6b519d90-64e0-42a1-8486-87fbc0d6bab8",
+                "8b25f26d-c892-46f9-b714-4715ea3c6f15",
+                "5dfc89a4-e4e0-4239-ac39-85154a0c8ffa",
+                "67ef408d-d649-4293-b4a5-a883dbd68a0b"
+              ],
+              "schemaId": "1f4e3697-52bc-45d9-a7a8-65862c13ce4b",
+              "schemaName": "carousel"
+            }
+          ]
+        },
+        "unit": {
+          "en": {
+            "locations": [],
+            "schemaId": "2bd4ee39-8e6e-4128-9f08-a049cce49f23",
+            "schemaName": "unit",
+            "short": "7\u00E8me Journ\u00E9es des Ateliers d\u0027Artistes d\u0027Occitanie",
+            "tags": [
+              "atelier",
+              "programmation"
+            ],
+            "temporal": [
+              {
+                "date": "2024-10-19T00:00:00Z",
+                "datetime": null,
+                "description": null
+              },
+              {
+                "date": "2024-10-20T00:00:00Z",
+                "datetime": null,
+                "description": null
+              }
+            ],
+            "text": "\u003Cp\u003EWeek-end du 19/20 octobre 2024, nous ouvrons les portes de \u00C9chotone, pour les 7\u00E8me Journ\u00E9es des ateliers d\u0027artistes d\u0027Occitanie. Avec la d\u00E9couverte des ateliers de gravures et plus sp\u00E9cifiquement de la technique de la photogravure sur photopolym\u00E8re.\u003Cbr\u003E\u003Cbr\u003EDans l\u0027ann\u00E9e, l\u0027\u00E9quipe d\u0027artiste de \u00C9CHOTONE propose des stages sur une ou deux journ\u00E9es abordant diff\u00E9rentes techniques li\u00E9es \u00E0 la photosensibilit\u00E9: distillations, pigments vivants, papiers botaniques (...)\u003C/p\u003E\u003Cp\u003E\u003Ca target=\u0022_blank\u0022 href=\u0022https://l.facebook.com/l.php?u=https%3A%2F%2Fwww.instagram.com%2F_u%2Fechotone__%3Ffbclid%3DIwZXh0bgNhZW0CMTAAAR2t7rEdA1S9gUiP-WsU2KorfPR1l1e2yYK2ipwhG2ltYobdllCVyrAqSLQ_aem_SaJnO3vYJ5nYMbJtAu0xAA\u0026amp;h=AT1yy5wWhu895DCv5Cs0A-ERNE_eqMdmwHT8YtZP07b3Vpve6Jh_QkzIvNkSgoEaC5rmCb_Gr2EaZW5YYiXpndgHgG059XDvOJHpOLogahm-v_XmEQDRUe3DsboTWV7CYQjqq90\u0026amp;__tn__=-UK-R\u0026amp;c[0]=AT26hBcamzUEPaNJr-lwsJcsK840D8gswmeGXLQucgLWuhUbOOkoaQVLHRkLtzj_c5jdWb3raQWxQapI-u2IinKkhOaxujHKyhm40Zc1vdr95DZhZa-3vZn71t8CFIt61e4ZhTrPMCPmmn-5dv5LIqvR1Hb9GmnQl9XM7ALhEqZJRTaNTNf_whlaIZvZy2rTGF145yabXI8\u0022 rel=\u0022noopener noreferrer nofollow\u0022\u003E\u003Cstrong\u003E@echotone__\u003C/strong\u003E\u003C/a\u003E \u003Ca target=\u0022_blank\u0022 href=\u0022https://www.facebook.com/hashtag/jaaoccitanie2024?__eep__=6\u0026amp;__cft__[0]=AZXhBOwBuCSfqKKolWMWrchcChIroPEPNGfRJ6FdRjY-PeXMWHS79C8YHgCrzlsRjqPO2wSn6MAKd_5a5-mM8gGCBIDkvkQJSeM95_LWcamj2GvoL0VEnJfPbizRi5E1dDxmHVyojpD4XMRUzUpzmFTIry-DNs1mX34dWkUXPz73LY7eMxDIgdvnIc3ZgeLpNcE\u0026amp;__tn__=*NK-R\u0022 rel=\u0022noopener noreferrer nofollow\u0022\u003E\u003Cstrong\u003E#jaaoccitanie2024\u003C/strong\u003E\u003C/a\u003E\u003Cstrong\u003E\u003Cbr\u003E\u003C/strong\u003E\u003Ca target=\u0022_blank\u0022 href=\u0022https://www.facebook.com/hashtag/artistrunspace?__eep__=6\u0026amp;__cft__[0]=AZXhBOwBuCSfqKKolWMWrchcChIroPEPNGfRJ6FdRjY-PeXMWHS79C8YHgCrzlsRjqPO2wSn6MAKd_5a5-mM8gGCBIDkvkQJSeM95_LWcamj2GvoL0VEnJfPbizRi5E1dDxmHVyojpD4XMRUzUpzmFTIry-DNs1mX34dWkUXPz73LY7eMxDIgdvnIc3ZgeLpNcE\u0026amp;__tn__=*NK-R\u0022 rel=\u0022noopener noreferrer nofollow\u0022\u003E\u003Cstrong\u003E#artistrunspace\u003C/strong\u003E\u003C/a\u003E\u003Cstrong\u003E\u003Cbr\u003E\u003C/strong\u003E\u003Ca target=\u0022_blank\u0022 href=\u0022https://www.facebook.com/hashtag/photogravure?__eep__=6\u0026amp;__cft__[0]=AZXhBOwBuCSfqKKolWMWrchcChIroPEPNGfRJ6FdRjY-PeXMWHS79C8YHgCrzlsRjqPO2wSn6MAKd_5a5-mM8gGCBIDkvkQJSeM95_LWcamj2GvoL0VEnJfPbizRi5E1dDxmHVyojpD4XMRUzUpzmFTIry-DNs1mX34dWkUXPz73LY7eMxDIgdvnIc3ZgeLpNcE\u0026amp;__tn__=*NK-R\u0022 rel=\u0022noopener noreferrer nofollow\u0022\u003E\u003Cstrong\u003E#photogravure\u003C/strong\u003E\u003C/a\u003E\u003Cstrong\u003E\u003Cbr\u003E\u003C/strong\u003E\u003Ca target=\u0022_blank\u0022 href=\u0022https://www.facebook.com/hashtag/heliogravure?__eep__=6\u0026amp;__cft__[0]=AZXhBOwBuCSfqKKolWMWrchcChIroPEPNGfRJ6FdRjY-PeXMWHS79C8YHgCrzlsRjqPO2wSn6MAKd_5a5-mM8gGCBIDkvkQJSeM95_LWcamj2GvoL0VEnJfPbizRi5E1dDxmHVyojpD4XMRUzUpzmFTIry-DNs1mX34dWkUXPz73LY7eMxDIgdvnIc3ZgeLpNcE\u0026amp;__tn__=*NK-R\u0022 rel=\u0022noopener noreferrer nofollow\u0022\u003E\u003Cstrong\u003E#heliogravure\u003C/strong\u003E\u003C/a\u003E\u003Cstrong\u003E\u003Cbr\u003E\u003C/strong\u003E\u003Ca target=\u0022_blank\u0022 href=\u0022https://www.facebook.com/hashtag/ateliersdartistes?__eep__=6\u0026amp;__cft__[0]=AZXhBOwBuCSfqKKolWMWrchcChIroPEPNGfRJ6FdRjY-PeXMWHS79C8YHgCrzlsRjqPO2wSn6MAKd_5a5-mM8gGCBIDkvkQJSeM95_LWcamj2GvoL0VEnJfPbizRi5E1dDxmHVyojpD4XMRUzUpzmFTIry-DNs1mX34dWkUXPz73LY7eMxDIgdvnIc3ZgeLpNcE\u0026amp;__tn__=*NK-R\u0022 rel=\u0022noopener noreferrer nofollow\u0022\u003E\u003Cstrong\u003E#ateliersdartistes\u003C/strong\u003E\u003C/a\u003E\u003C/p\u003E",
+            "title": "JAA Occitanie"
+          },
+          "fr": {
+            "locations": [],
+            "schemaId": "2bd4ee39-8e6e-4128-9f08-a049cce49f23",
+            "schemaName": "unit",
+            "short": "7\u00E8me Journ\u00E9es des Ateliers d\u0027Artistes d\u0027Occitanie",
+            "tags": [
+              "atelier",
+              "programmation"
+            ],
+            "temporal": [
+              {
+                "date": "2024-10-19T00:00:00Z",
+                "datetime": null,
+                "description": null
+              },
+              {
+                "date": "2024-10-20T00:00:00Z",
+                "datetime": null,
+                "description": null
+              }
+            ],
+            "text": "\u003Cp\u003EWeek-end du 19/20 octobre 2024, nous ouvrons les portes de \u00C9chotone, pour les 7\u00E8me Journ\u00E9es des ateliers d\u0027artistes d\u0027Occitanie. Avec la d\u00E9couverte des ateliers de gravures et plus sp\u00E9cifiquement de la technique de la photogravure sur photopolym\u00E8re.\u003Cbr\u003E\u003Cbr\u003EDans l\u0027ann\u00E9e, l\u0027\u00E9quipe d\u0027artiste de \u00C9CHOTONE propose des stages sur une ou deux journ\u00E9es abordant diff\u00E9rentes techniques li\u00E9es \u00E0 la photosensibilit\u00E9: distillations, pigments vivants, papiers botaniques (...)\u003C/p\u003E\u003Cp\u003E\u003Ca target=\u0022_blank\u0022 href=\u0022https://l.facebook.com/l.php?u=https%3A%2F%2Fwww.instagram.com%2F_u%2Fechotone__%3Ffbclid%3DIwZXh0bgNhZW0CMTAAAR2t7rEdA1S9gUiP-WsU2KorfPR1l1e2yYK2ipwhG2ltYobdllCVyrAqSLQ_aem_SaJnO3vYJ5nYMbJtAu0xAA\u0026amp;h=AT1yy5wWhu895DCv5Cs0A-ERNE_eqMdmwHT8YtZP07b3Vpve6Jh_QkzIvNkSgoEaC5rmCb_Gr2EaZW5YYiXpndgHgG059XDvOJHpOLogahm-v_XmEQDRUe3DsboTWV7CYQjqq90\u0026amp;__tn__=-UK-R\u0026amp;c[0]=AT26hBcamzUEPaNJr-lwsJcsK840D8gswmeGXLQucgLWuhUbOOkoaQVLHRkLtzj_c5jdWb3raQWxQapI-u2IinKkhOaxujHKyhm40Zc1vdr95DZhZa-3vZn71t8CFIt61e4ZhTrPMCPmmn-5dv5LIqvR1Hb9GmnQl9XM7ALhEqZJRTaNTNf_whlaIZvZy2rTGF145yabXI8\u0022 rel=\u0022noopener noreferrer nofollow\u0022\u003E\u003Cstrong\u003E@echotone__\u003C/strong\u003E\u003C/a\u003E \u003Ca target=\u0022_blank\u0022 href=\u0022https://www.facebook.com/hashtag/jaaoccitanie2024?__eep__=6\u0026amp;__cft__[0]=AZXhBOwBuCSfqKKolWMWrchcChIroPEPNGfRJ6FdRjY-PeXMWHS79C8YHgCrzlsRjqPO2wSn6MAKd_5a5-mM8gGCBIDkvkQJSeM95_LWcamj2GvoL0VEnJfPbizRi5E1dDxmHVyojpD4XMRUzUpzmFTIry-DNs1mX34dWkUXPz73LY7eMxDIgdvnIc3ZgeLpNcE\u0026amp;__tn__=*NK-R\u0022 rel=\u0022noopener noreferrer nofollow\u0022\u003E\u003Cstrong\u003E#jaaoccitanie2024\u003C/strong\u003E\u003C/a\u003E\u003Cstrong\u003E\u003Cbr\u003E\u003C/strong\u003E\u003Ca target=\u0022_blank\u0022 href=\u0022https://www.facebook.com/hashtag/artistrunspace?__eep__=6\u0026amp;__cft__[0]=AZXhBOwBuCSfqKKolWMWrchcChIroPEPNGfRJ6FdRjY-PeXMWHS79C8YHgCrzlsRjqPO2wSn6MAKd_5a5-mM8gGCBIDkvkQJSeM95_LWcamj2GvoL0VEnJfPbizRi5E1dDxmHVyojpD4XMRUzUpzmFTIry-DNs1mX34dWkUXPz73LY7eMxDIgdvnIc3ZgeLpNcE\u0026amp;__tn__=*NK-R\u0022 rel=\u0022noopener noreferrer nofollow\u0022\u003E\u003Cstrong\u003E#artistrunspace\u003C/strong\u003E\u003C/a\u003E\u003Cstrong\u003E\u003Cbr\u003E\u003C/strong\u003E\u003Ca target=\u0022_blank\u0022 href=\u0022https://www.facebook.com/hashtag/photogravure?__eep__=6\u0026amp;__cft__[0]=AZXhBOwBuCSfqKKolWMWrchcChIroPEPNGfRJ6FdRjY-PeXMWHS79C8YHgCrzlsRjqPO2wSn6MAKd_5a5-mM8gGCBIDkvkQJSeM95_LWcamj2GvoL0VEnJfPbizRi5E1dDxmHVyojpD4XMRUzUpzmFTIry-DNs1mX34dWkUXPz73LY7eMxDIgdvnIc3ZgeLpNcE\u0026amp;__tn__=*NK-R\u0022 rel=\u0022noopener noreferrer nofollow\u0022\u003E\u003Cstrong\u003E#photogravure\u003C/strong\u003E\u003C/a\u003E\u003Cstrong\u003E\u003Cbr\u003E\u003C/strong\u003E\u003Ca target=\u0022_blank\u0022 href=\u0022https://www.facebook.com/hashtag/heliogravure?__eep__=6\u0026amp;__cft__[0]=AZXhBOwBuCSfqKKolWMWrchcChIroPEPNGfRJ6FdRjY-PeXMWHS79C8YHgCrzlsRjqPO2wSn6MAKd_5a5-mM8gGCBIDkvkQJSeM95_LWcamj2GvoL0VEnJfPbizRi5E1dDxmHVyojpD4XMRUzUpzmFTIry-DNs1mX34dWkUXPz73LY7eMxDIgdvnIc3ZgeLpNcE\u0026amp;__tn__=*NK-R\u0022 rel=\u0022noopener noreferrer nofollow\u0022\u003E\u003Cstrong\u003E#heliogravure\u003C/strong\u003E\u003C/a\u003E\u003Cstrong\u003E\u003Cbr\u003E\u003C/strong\u003E\u003Ca target=\u0022_blank\u0022 href=\u0022https://www.facebook.com/hashtag/ateliersdartistes?__eep__=6\u0026amp;__cft__[0]=AZXhBOwBuCSfqKKolWMWrchcChIroPEPNGfRJ6FdRjY-PeXMWHS79C8YHgCrzlsRjqPO2wSn6MAKd_5a5-mM8gGCBIDkvkQJSeM95_LWcamj2GvoL0VEnJfPbizRi5E1dDxmHVyojpD4XMRUzUpzmFTIry-DNs1mX34dWkUXPz73LY7eMxDIgdvnIc3ZgeLpNcE\u0026amp;__tn__=*NK-R\u0022 rel=\u0022noopener noreferrer nofollow\u0022\u003E\u003Cstrong\u003E#ateliersdartistes\u003C/strong\u003E\u003C/a\u003E\u003C/p\u003E",
+            "title": "JAA Occitanie"
+          }
+        }
+      },
+      "editToken": "eyJhIjoiZWNob3RvbmUiLCJzIjoicGFnZSIsImkiOiI4ZDM1MTliMS01OTQ5LTRmOGYtOGMyOS03ZWZjZDA2NmI2ODIiLCJ1IjoiaHR0cHM6Ly9sYWFiLmRkbnMubmV0OjM4MDgwLyJ9",
+      "id": "8d3519b1-5949-4f8f-8c29-7efcd066b682",
+      "isDeleted": false,
+      "lastModified": "2025-03-08T20:20:45Z",
+      "lastModifiedBy": "subject:6798dad0167d31fb8ec7cc74",
+      "schemaDisplayName": "Page",
+      "schemaId": "d0379b0e-294e-4df6-9b2b-257b807b1467",
+      "schemaName": "page",
+      "status": "Published",
+      "statusColor": "#4bb958",
+      "version": 7
+    },
+    {
+      "_links": {
+        "delete": {
           "href": "/api/content/echotone/page/b9660f38-a5e1-4dda-b29c-3ebe42672945",
           "method": "DELETE"
         },
@@ -1029,88 +1133,6 @@
       "status": "Published",
       "statusColor": "#4bb958",
       "version": 11
-    },
-    {
-      "_links": {
-        "delete": {
-          "href": "/api/content/echotone/page/8d3519b1-5949-4f8f-8c29-7efcd066b682",
-          "method": "DELETE"
-        },
-        "draft/create": {
-          "href": "/api/content/echotone/page/8d3519b1-5949-4f8f-8c29-7efcd066b682/draft",
-          "method": "POST"
-        },
-        "previous": {
-          "href": "/api/content/echotone/page/8d3519b1-5949-4f8f-8c29-7efcd066b682/5",
-          "method": "GET"
-        },
-        "self": {
-          "href": "/api/content/echotone/page/8d3519b1-5949-4f8f-8c29-7efcd066b682",
-          "method": "GET"
-        }
-      },
-      "created": "2025-01-27T16:56:40Z",
-      "createdBy": "subject:6798dad0167d31fb8ec7cc74",
-      "data": {
-        "id": {
-          "iv": "jaa-occitanie"
-        },
-        "medias": {
-          "iv": [
-            {
-              "in": true,
-              "medias": [
-                "a94f31e5-3836-4bfe-a9b6-9fc92851cb8e",
-                "6b519d90-64e0-42a1-8486-87fbc0d6bab8",
-                "8b25f26d-c892-46f9-b714-4715ea3c6f15",
-                "5dfc89a4-e4e0-4239-ac39-85154a0c8ffa",
-                "67ef408d-d649-4293-b4a5-a883dbd68a0b"
-              ],
-              "schemaId": "1f4e3697-52bc-45d9-a7a8-65862c13ce4b",
-              "schemaName": "carousel"
-            }
-          ]
-        },
-        "unit": {
-          "en": {
-            "locations": [],
-            "schemaId": "2bd4ee39-8e6e-4128-9f08-a049cce49f23",
-            "schemaName": "unit",
-            "short": "7\u00E8me Journ\u00E9es des Ateliers d\u0027Artistes d\u0027Occitanie",
-            "tags": [
-              "atelier",
-              "programmation"
-            ],
-            "temporal": [],
-            "text": "\u003Cp\u003EWeek-end du 19/20 octobre 2024, nous ouvrons les portes de \u00C9chotone, pour les 7\u00E8me Journ\u00E9es des ateliers d\u0027artistes d\u0027Occitanie. Avec la d\u00E9couverte des ateliers de gravures et plus sp\u00E9cifiquement de la technique de la photogravure sur photopolym\u00E8re.\u003Cbr\u003E\u003Cbr\u003EDans l\u0027ann\u00E9e, l\u0027\u00E9quipe d\u0027artiste de \u00C9CHOTONE propose des stages sur une ou deux journ\u00E9es abordant diff\u00E9rentes techniques li\u00E9es \u00E0 la photosensibilit\u00E9: distillations, pigments vivants, papiers botaniques (...)\u003C/p\u003E\u003Cp\u003E\u003Ca target=\u0022_blank\u0022 href=\u0022https://l.facebook.com/l.php?u=https%3A%2F%2Fwww.instagram.com%2F_u%2Fechotone__%3Ffbclid%3DIwZXh0bgNhZW0CMTAAAR2t7rEdA1S9gUiP-WsU2KorfPR1l1e2yYK2ipwhG2ltYobdllCVyrAqSLQ_aem_SaJnO3vYJ5nYMbJtAu0xAA\u0026amp;h=AT1yy5wWhu895DCv5Cs0A-ERNE_eqMdmwHT8YtZP07b3Vpve6Jh_QkzIvNkSgoEaC5rmCb_Gr2EaZW5YYiXpndgHgG059XDvOJHpOLogahm-v_XmEQDRUe3DsboTWV7CYQjqq90\u0026amp;__tn__=-UK-R\u0026amp;c[0]=AT26hBcamzUEPaNJr-lwsJcsK840D8gswmeGXLQucgLWuhUbOOkoaQVLHRkLtzj_c5jdWb3raQWxQapI-u2IinKkhOaxujHKyhm40Zc1vdr95DZhZa-3vZn71t8CFIt61e4ZhTrPMCPmmn-5dv5LIqvR1Hb9GmnQl9XM7ALhEqZJRTaNTNf_whlaIZvZy2rTGF145yabXI8\u0022 rel=\u0022noopener noreferrer nofollow\u0022\u003E\u003Cstrong\u003E@echotone__\u003C/strong\u003E\u003C/a\u003E \u003Ca target=\u0022_blank\u0022 href=\u0022https://www.facebook.com/hashtag/jaaoccitanie2024?__eep__=6\u0026amp;__cft__[0]=AZXhBOwBuCSfqKKolWMWrchcChIroPEPNGfRJ6FdRjY-PeXMWHS79C8YHgCrzlsRjqPO2wSn6MAKd_5a5-mM8gGCBIDkvkQJSeM95_LWcamj2GvoL0VEnJfPbizRi5E1dDxmHVyojpD4XMRUzUpzmFTIry-DNs1mX34dWkUXPz73LY7eMxDIgdvnIc3ZgeLpNcE\u0026amp;__tn__=*NK-R\u0022 rel=\u0022noopener noreferrer nofollow\u0022\u003E\u003Cstrong\u003E#jaaoccitanie2024\u003C/strong\u003E\u003C/a\u003E\u003Cstrong\u003E\u003Cbr\u003E\u003C/strong\u003E\u003Ca target=\u0022_blank\u0022 href=\u0022https://www.facebook.com/hashtag/artistrunspace?__eep__=6\u0026amp;__cft__[0]=AZXhBOwBuCSfqKKolWMWrchcChIroPEPNGfRJ6FdRjY-PeXMWHS79C8YHgCrzlsRjqPO2wSn6MAKd_5a5-mM8gGCBIDkvkQJSeM95_LWcamj2GvoL0VEnJfPbizRi5E1dDxmHVyojpD4XMRUzUpzmFTIry-DNs1mX34dWkUXPz73LY7eMxDIgdvnIc3ZgeLpNcE\u0026amp;__tn__=*NK-R\u0022 rel=\u0022noopener noreferrer nofollow\u0022\u003E\u003Cstrong\u003E#artistrunspace\u003C/strong\u003E\u003C/a\u003E\u003Cstrong\u003E\u003Cbr\u003E\u003C/strong\u003E\u003Ca target=\u0022_blank\u0022 href=\u0022https://www.facebook.com/hashtag/photogravure?__eep__=6\u0026amp;__cft__[0]=AZXhBOwBuCSfqKKolWMWrchcChIroPEPNGfRJ6FdRjY-PeXMWHS79C8YHgCrzlsRjqPO2wSn6MAKd_5a5-mM8gGCBIDkvkQJSeM95_LWcamj2GvoL0VEnJfPbizRi5E1dDxmHVyojpD4XMRUzUpzmFTIry-DNs1mX34dWkUXPz73LY7eMxDIgdvnIc3ZgeLpNcE\u0026amp;__tn__=*NK-R\u0022 rel=\u0022noopener noreferrer nofollow\u0022\u003E\u003Cstrong\u003E#photogravure\u003C/strong\u003E\u003C/a\u003E\u003Cstrong\u003E\u003Cbr\u003E\u003C/strong\u003E\u003Ca target=\u0022_blank\u0022 href=\u0022https://www.facebook.com/hashtag/heliogravure?__eep__=6\u0026amp;__cft__[0]=AZXhBOwBuCSfqKKolWMWrchcChIroPEPNGfRJ6FdRjY-PeXMWHS79C8YHgCrzlsRjqPO2wSn6MAKd_5a5-mM8gGCBIDkvkQJSeM95_LWcamj2GvoL0VEnJfPbizRi5E1dDxmHVyojpD4XMRUzUpzmFTIry-DNs1mX34dWkUXPz73LY7eMxDIgdvnIc3ZgeLpNcE\u0026amp;__tn__=*NK-R\u0022 rel=\u0022noopener noreferrer nofollow\u0022\u003E\u003Cstrong\u003E#heliogravure\u003C/strong\u003E\u003C/a\u003E\u003Cstrong\u003E\u003Cbr\u003E\u003C/strong\u003E\u003Ca target=\u0022_blank\u0022 href=\u0022https://www.facebook.com/hashtag/ateliersdartistes?__eep__=6\u0026amp;__cft__[0]=AZXhBOwBuCSfqKKolWMWrchcChIroPEPNGfRJ6FdRjY-PeXMWHS79C8YHgCrzlsRjqPO2wSn6MAKd_5a5-mM8gGCBIDkvkQJSeM95_LWcamj2GvoL0VEnJfPbizRi5E1dDxmHVyojpD4XMRUzUpzmFTIry-DNs1mX34dWkUXPz73LY7eMxDIgdvnIc3ZgeLpNcE\u0026amp;__tn__=*NK-R\u0022 rel=\u0022noopener noreferrer nofollow\u0022\u003E\u003Cstrong\u003E#ateliersdartistes\u003C/strong\u003E\u003C/a\u003E\u003C/p\u003E",
-            "title": "JAA Occitanie"
-          },
-          "fr": {
-            "locations": [],
-            "schemaId": "2bd4ee39-8e6e-4128-9f08-a049cce49f23",
-            "schemaName": "unit",
-            "short": "7\u00E8me Journ\u00E9es des Ateliers d\u0027Artistes d\u0027Occitanie",
-            "tags": [
-              "atelier",
-              "programmation"
-            ],
-            "temporal": [],
-            "text": "\u003Cp\u003EWeek-end du 19/20 octobre 2024, nous ouvrons les portes de \u00C9chotone, pour les 7\u00E8me Journ\u00E9es des ateliers d\u0027artistes d\u0027Occitanie. Avec la d\u00E9couverte des ateliers de gravures et plus sp\u00E9cifiquement de la technique de la photogravure sur photopolym\u00E8re.\u003Cbr\u003E\u003Cbr\u003EDans l\u0027ann\u00E9e, l\u0027\u00E9quipe d\u0027artiste de \u00C9CHOTONE propose des stages sur une ou deux journ\u00E9es abordant diff\u00E9rentes techniques li\u00E9es \u00E0 la photosensibilit\u00E9: distillations, pigments vivants, papiers botaniques (...)\u003C/p\u003E\u003Cp\u003E\u003Ca target=\u0022_blank\u0022 href=\u0022https://l.facebook.com/l.php?u=https%3A%2F%2Fwww.instagram.com%2F_u%2Fechotone__%3Ffbclid%3DIwZXh0bgNhZW0CMTAAAR2t7rEdA1S9gUiP-WsU2KorfPR1l1e2yYK2ipwhG2ltYobdllCVyrAqSLQ_aem_SaJnO3vYJ5nYMbJtAu0xAA\u0026amp;h=AT1yy5wWhu895DCv5Cs0A-ERNE_eqMdmwHT8YtZP07b3Vpve6Jh_QkzIvNkSgoEaC5rmCb_Gr2EaZW5YYiXpndgHgG059XDvOJHpOLogahm-v_XmEQDRUe3DsboTWV7CYQjqq90\u0026amp;__tn__=-UK-R\u0026amp;c[0]=AT26hBcamzUEPaNJr-lwsJcsK840D8gswmeGXLQucgLWuhUbOOkoaQVLHRkLtzj_c5jdWb3raQWxQapI-u2IinKkhOaxujHKyhm40Zc1vdr95DZhZa-3vZn71t8CFIt61e4ZhTrPMCPmmn-5dv5LIqvR1Hb9GmnQl9XM7ALhEqZJRTaNTNf_whlaIZvZy2rTGF145yabXI8\u0022 rel=\u0022noopener noreferrer nofollow\u0022\u003E\u003Cstrong\u003E@echotone__\u003C/strong\u003E\u003C/a\u003E \u003Ca target=\u0022_blank\u0022 href=\u0022https://www.facebook.com/hashtag/jaaoccitanie2024?__eep__=6\u0026amp;__cft__[0]=AZXhBOwBuCSfqKKolWMWrchcChIroPEPNGfRJ6FdRjY-PeXMWHS79C8YHgCrzlsRjqPO2wSn6MAKd_5a5-mM8gGCBIDkvkQJSeM95_LWcamj2GvoL0VEnJfPbizRi5E1dDxmHVyojpD4XMRUzUpzmFTIry-DNs1mX34dWkUXPz73LY7eMxDIgdvnIc3ZgeLpNcE\u0026amp;__tn__=*NK-R\u0022 rel=\u0022noopener noreferrer nofollow\u0022\u003E\u003Cstrong\u003E#jaaoccitanie2024\u003C/strong\u003E\u003C/a\u003E\u003Cstrong\u003E\u003Cbr\u003E\u003C/strong\u003E\u003Ca target=\u0022_blank\u0022 href=\u0022https://www.facebook.com/hashtag/artistrunspace?__eep__=6\u0026amp;__cft__[0]=AZXhBOwBuCSfqKKolWMWrchcChIroPEPNGfRJ6FdRjY-PeXMWHS79C8YHgCrzlsRjqPO2wSn6MAKd_5a5-mM8gGCBIDkvkQJSeM95_LWcamj2GvoL0VEnJfPbizRi5E1dDxmHVyojpD4XMRUzUpzmFTIry-DNs1mX34dWkUXPz73LY7eMxDIgdvnIc3ZgeLpNcE\u0026amp;__tn__=*NK-R\u0022 rel=\u0022noopener noreferrer nofollow\u0022\u003E\u003Cstrong\u003E#artistrunspace\u003C/strong\u003E\u003C/a\u003E\u003Cstrong\u003E\u003Cbr\u003E\u003C/strong\u003E\u003Ca target=\u0022_blank\u0022 href=\u0022https://www.facebook.com/hashtag/photogravure?__eep__=6\u0026amp;__cft__[0]=AZXhBOwBuCSfqKKolWMWrchcChIroPEPNGfRJ6FdRjY-PeXMWHS79C8YHgCrzlsRjqPO2wSn6MAKd_5a5-mM8gGCBIDkvkQJSeM95_LWcamj2GvoL0VEnJfPbizRi5E1dDxmHVyojpD4XMRUzUpzmFTIry-DNs1mX34dWkUXPz73LY7eMxDIgdvnIc3ZgeLpNcE\u0026amp;__tn__=*NK-R\u0022 rel=\u0022noopener noreferrer nofollow\u0022\u003E\u003Cstrong\u003E#photogravure\u003C/strong\u003E\u003C/a\u003E\u003Cstrong\u003E\u003Cbr\u003E\u003C/strong\u003E\u003Ca target=\u0022_blank\u0022 href=\u0022https://www.facebook.com/hashtag/heliogravure?__eep__=6\u0026amp;__cft__[0]=AZXhBOwBuCSfqKKolWMWrchcChIroPEPNGfRJ6FdRjY-PeXMWHS79C8YHgCrzlsRjqPO2wSn6MAKd_5a5-mM8gGCBIDkvkQJSeM95_LWcamj2GvoL0VEnJfPbizRi5E1dDxmHVyojpD4XMRUzUpzmFTIry-DNs1mX34dWkUXPz73LY7eMxDIgdvnIc3ZgeLpNcE\u0026amp;__tn__=*NK-R\u0022 rel=\u0022noopener noreferrer nofollow\u0022\u003E\u003Cstrong\u003E#heliogravure\u003C/strong\u003E\u003C/a\u003E\u003Cstrong\u003E\u003Cbr\u003E\u003C/strong\u003E\u003Ca target=\u0022_blank\u0022 href=\u0022https://www.facebook.com/hashtag/ateliersdartistes?__eep__=6\u0026amp;__cft__[0]=AZXhBOwBuCSfqKKolWMWrchcChIroPEPNGfRJ6FdRjY-PeXMWHS79C8YHgCrzlsRjqPO2wSn6MAKd_5a5-mM8gGCBIDkvkQJSeM95_LWcamj2GvoL0VEnJfPbizRi5E1dDxmHVyojpD4XMRUzUpzmFTIry-DNs1mX34dWkUXPz73LY7eMxDIgdvnIc3ZgeLpNcE\u0026amp;__tn__=*NK-R\u0022 rel=\u0022noopener noreferrer nofollow\u0022\u003E\u003Cstrong\u003E#ateliersdartistes\u003C/strong\u003E\u003C/a\u003E\u003C/p\u003E",
-            "title": "JAA Occitanie"
-          }
-        }
-      },
-      "editToken": "eyJhIjoiZWNob3RvbmUiLCJzIjoicGFnZSIsImkiOiI4ZDM1MTliMS01OTQ5LTRmOGYtOGMyOS03ZWZjZDA2NmI2ODIiLCJ1IjoiaHR0cHM6Ly9sYWFiLmRkbnMubmV0OjM4MDgwLyJ9",
-      "id": "8d3519b1-5949-4f8f-8c29-7efcd066b682",
-      "isDeleted": false,
-      "lastModified": "2025-03-03T22:22:51Z",
-      "lastModifiedBy": "subject:6798df7c5b784ee7b7cb52e1",
-      "schemaDisplayName": "Page",
-      "schemaId": "d0379b0e-294e-4df6-9b2b-257b807b1467",
-      "schemaName": "page",
-      "status": "Published",
-      "statusColor": "#4bb958",
-      "version": 6
     }
   ],
   "statuses": [
