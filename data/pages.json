@@ -17,6 +17,205 @@
     {
       "_links": {
         "delete": {
+          "href": "/api/content/echotone/page/b9660f38-a5e1-4dda-b29c-3ebe42672945",
+          "method": "DELETE"
+        },
+        "draft/create": {
+          "href": "/api/content/echotone/page/b9660f38-a5e1-4dda-b29c-3ebe42672945/draft",
+          "method": "POST"
+        },
+        "previous": {
+          "href": "/api/content/echotone/page/b9660f38-a5e1-4dda-b29c-3ebe42672945/4",
+          "method": "GET"
+        },
+        "self": {
+          "href": "/api/content/echotone/page/b9660f38-a5e1-4dda-b29c-3ebe42672945",
+          "method": "GET"
+        }
+      },
+      "created": "2025-01-29T12:41:37Z",
+      "createdBy": "subject:6798df7c5b784ee7b7cb52e1",
+      "data": {
+        "id": {
+          "iv": "inner-the-landscape-de-dorota-buczkowska"
+        },
+        "medias": {
+          "iv": [
+            {
+              "in": true,
+              "medias": [
+                "f4ca3db9-6301-4fd3-ba0d-4ccf9b4951af",
+                "23b57748-fd81-4dbc-8ce3-72628f72c1c3",
+                "869c0d71-3164-4df2-9810-19eb9397a4e9",
+                "82545d53-2385-4090-bfcd-d173aae57fb8",
+                "03869147-78d7-4aeb-877d-7532fbd6f0fd",
+                "ea68e14e-6aa5-4702-bd56-dbf079d5ca07",
+                "cd75922b-b667-4881-b9f1-0b142c2d9a72",
+                "ba9eb01e-d558-46ad-938a-93f1f5b1db0e",
+                "9d01f3d7-127d-4859-8e7b-8b9df1501c72",
+                "553e5766-2acb-4f6c-9cb5-a731075a5179",
+                "c4c0091d-376d-4105-ad08-aff9bbc5c393",
+                "51297029-7bf5-4447-8e5a-90df4e1d7cb0",
+                "5f0d4c81-6956-4520-aeec-1c586a68d02b",
+                "993bdae7-5e4b-4950-8359-9029eea5f2a2",
+                "a3ad9ced-9ccf-4791-b48b-69be8b1bdb2d"
+              ],
+              "schemaId": "1f4e3697-52bc-45d9-a7a8-65862c13ce4b",
+              "schemaName": "carousel"
+            }
+          ]
+        },
+        "unit": {
+          "en": {
+            "locations": [],
+            "schemaId": "2bd4ee39-8e6e-4128-9f08-a049cce49f23",
+            "schemaName": "unit",
+            "short": "Exposition r\u00E9trospective au Museum of Contemporary art of Wroclaw, Pologne",
+            "tags": [
+              "programmation",
+              "accueil"
+            ],
+            "temporal": [
+              {
+                "date": "2024-10-24T00:00:00Z",
+                "datetime": null,
+                "description": null
+              }
+            ],
+            "text": "\u003Cp\u003EVisite de l\u2019exposition r\u00E9trospective de Dorota Buczkowska,\u0022 Inner the landscape \u0022 au Museum of Contemporary art of Wroclaw.\u003C/p\u003E\u003Cp\u003E\u003C/p\u003E",
+            "title": "\u0022Inner the Landscape\u0022 de Dorota Buczkowska"
+          },
+          "fr": {
+            "locations": [],
+            "schemaId": "2bd4ee39-8e6e-4128-9f08-a049cce49f23",
+            "schemaName": "unit",
+            "short": "Exposition r\u00E9trospective au Museum of Contemporary art of Wroclaw, Pologne",
+            "tags": [
+              "programmation",
+              "accueil"
+            ],
+            "temporal": [
+              {
+                "date": "2024-10-24T00:00:00Z",
+                "datetime": null,
+                "description": null
+              }
+            ],
+            "text": "\u003Cp\u003EVisite de l\u2019exposition r\u00E9trospective de Dorota Buczkowska,\u0022 Inner the landscape \u0022 au Museum of Contemporary art of Wroclaw.\u003C/p\u003E\u003Cp\u003E\u003C/p\u003E",
+            "title": "\u0022Inner the Landscape\u0022 de Dorota Buczkowska"
+          }
+        }
+      },
+      "editToken": "eyJhIjoiZWNob3RvbmUiLCJzIjoicGFnZSIsImkiOiJiOTY2MGYzOC1hNWUxLTRkZGEtYjI5Yy0zZWJlNDI2NzI5NDUiLCJ1IjoiaHR0cHM6Ly9sYWFiLmRkbnMubmV0OjM4MDgwLyJ9",
+      "id": "b9660f38-a5e1-4dda-b29c-3ebe42672945",
+      "isDeleted": false,
+      "lastModified": "2025-03-08T16:07:03Z",
+      "lastModifiedBy": "subject:6798df7c5b784ee7b7cb52e1",
+      "schemaDisplayName": "Page",
+      "schemaId": "d0379b0e-294e-4df6-9b2b-257b807b1467",
+      "schemaName": "page",
+      "status": "Published",
+      "statusColor": "#4bb958",
+      "version": 5
+    },
+    {
+      "_links": {
+        "delete": {
+          "href": "/api/content/echotone/page/2698e069-8dac-48f7-a6ce-ba43f3b35613",
+          "method": "DELETE"
+        },
+        "draft/create": {
+          "href": "/api/content/echotone/page/2698e069-8dac-48f7-a6ce-ba43f3b35613/draft",
+          "method": "POST"
+        },
+        "previous": {
+          "href": "/api/content/echotone/page/2698e069-8dac-48f7-a6ce-ba43f3b35613/4",
+          "method": "GET"
+        },
+        "self": {
+          "href": "/api/content/echotone/page/2698e069-8dac-48f7-a6ce-ba43f3b35613",
+          "method": "GET"
+        }
+      },
+      "created": "2025-01-29T12:59:19Z",
+      "createdBy": "subject:6798df7c5b784ee7b7cb52e1",
+      "data": {
+        "id": {
+          "iv": "master-miashs-x-artist-run-spaces-org"
+        },
+        "medias": {
+          "iv": [
+            {
+              "in": true,
+              "medias": [
+                "9967fbb7-af0a-4404-bb77-1446eeba9aca",
+                "a7a6679b-0180-4a7c-ba4d-c693652e38fc",
+                "a96c48a0-07c7-4ef8-b1fa-10485e903bba",
+                "03d8c341-a96d-4ca8-b464-48228504bef6",
+                "a30447a2-bd37-40e1-9a24-dac4c960c4fd",
+                "26e58796-75e2-4e0e-8663-8e8d8abdfb67"
+              ],
+              "schemaId": "1f4e3697-52bc-45d9-a7a8-65862c13ce4b",
+              "schemaName": "carousel"
+            }
+          ]
+        },
+        "unit": {
+          "en": {
+            "locations": [],
+            "schemaId": "2bd4ee39-8e6e-4128-9f08-a049cce49f23",
+            "schemaName": "unit",
+            "short": "PORTRAITS D\u0027ESPACES - \u00C0 propos de ce que les artist-run spaces ont \u00E0 dire d\u0027eux m\u00EAme",
+            "tags": [
+              "programmation",
+              "accueil"
+            ],
+            "temporal": [
+              {
+                "date": "2025-02-28T00:00:00Z",
+                "datetime": null,
+                "description": null
+              }
+            ],
+            "text": "\u003Cp\u003EDans le cadre d\u0027un TER (travaux d\u0027\u00E9tudes et de recherches) est exp\u00E9riment\u00E9 une nouvelle m\u00E9thodologie d\u2019enrichissement des donn\u00E9es textuelles pour d\u00E9couvrir des relations s\u00E9mantiques entre les \u003Cem\u003Eartist-run spaces\u003C/em\u003E et des axes de repr\u00E9sentation pour des visualisations interactives. \u003Cbr\u003E\u003Cbr\u003ESur l\u0027ann\u00E9e 5 \u00E9tudiants en master1 MIASHS ((Math\u00E9matiques et Informatiques Appliqu\u00E9es aux Sciences Humaines et Sociales, UFR6) \u00E0 l\u0027Universit\u00E9 Paul Valery, travaillent sur les donn\u00E9es du site \u003Ca target=\u0022_blank\u0022 href=\u0022//artist-run-spaces.org\u0022 rel=\u0022noopener noreferrer nofollow\u0022 data-link-auto=\u0022\u0022\u003E\u003Cstrong\u003Eartist-run-spaces.org\u003C/strong\u003E\u003C/a\u003E. Ils sont encadr\u00E9s par Fran\u00E7ois-David Collin, ing\u00E9nieur de recherche au CNRS \u00E0 l\u0027institut de Math\u00E9matique Alexander Grothendieck et expert domaine : Sabrina Issa, artiste chercheur, fondatrice de l\u0027initiative artist-run-spaces.org.\u003C/p\u003E\u003Cp\u003E\u003Ca target=\u0022_blank\u0022 href=\u0022https://www.facebook.com/hashtag/artistrunspace?__eep__=6\u0026amp;__cft__[0]=AZWmTt4tkjK2UHSwcUAAZDaySLzLmjmkMwklidnaViRxD2ANUK85T46CeZyIocK76DgQRF-vgkC-yjYWUvmW1sSfktzh-Pkc7Hxj4omn6Zxqb0LGh1UxpidzGjD9j2MsSF6njAcHZH_P2if4cWycorEP\u0026amp;__tn__=*NK-R\u0022 rel=\u0022noopener noreferrer nofollow\u0022\u003E\u003Cstrong\u003E#artistrunspace\u003C/strong\u003E\u003C/a\u003E \u003Cbr\u003E\u003Ca target=\u0022_blank\u0022 href=\u0022https://www.facebook.com/hashtag/artistrun?__eep__=6\u0026amp;__cft__[0]=AZWmTt4tkjK2UHSwcUAAZDaySLzLmjmkMwklidnaViRxD2ANUK85T46CeZyIocK76DgQRF-vgkC-yjYWUvmW1sSfktzh-Pkc7Hxj4omn6Zxqb0LGh1UxpidzGjD9j2MsSF6njAcHZH_P2if4cWycorEP\u0026amp;__tn__=*NK-R\u0022 rel=\u0022noopener noreferrer nofollow\u0022\u003E\u003Cstrong\u003E#artistrun\u003C/strong\u003E\u003C/a\u003E\u003Cstrong\u003E\u003Cbr\u003E\u003C/strong\u003E\u003Ca target=\u0022_blank\u0022 href=\u0022https://www.facebook.com/hashtag/miaschs?__eep__=6\u0026amp;__cft__[0]=AZWmTt4tkjK2UHSwcUAAZDaySLzLmjmkMwklidnaViRxD2ANUK85T46CeZyIocK76DgQRF-vgkC-yjYWUvmW1sSfktzh-Pkc7Hxj4omn6Zxqb0LGh1UxpidzGjD9j2MsSF6njAcHZH_P2if4cWycorEP\u0026amp;__tn__=*NK-R\u0022 rel=\u0022noopener noreferrer nofollow\u0022\u003E\u003Cstrong\u003E#miashs\u003C/strong\u003E\u003C/a\u003E\u003C/p\u003E",
+            "title": "Master MIASHS X artist-run-spaces.org"
+          },
+          "fr": {
+            "locations": [],
+            "schemaId": "2bd4ee39-8e6e-4128-9f08-a049cce49f23",
+            "schemaName": "unit",
+            "short": "PORTRAITS D\u0027ESPACES - \u00C0 propos de ce que les artist-run spaces ont \u00E0 dire d\u0027eux m\u00EAme",
+            "tags": [
+              "programmation",
+              "accueil"
+            ],
+            "temporal": [
+              {
+                "date": "2025-02-28T00:00:00Z",
+                "datetime": null,
+                "description": null
+              }
+            ],
+            "text": "\u003Cp\u003EDans le cadre d\u0027un TER (travaux d\u0027\u00E9tudes et de recherches) est exp\u00E9riment\u00E9 une nouvelle m\u00E9thodologie d\u2019enrichissement des donn\u00E9es textuelles pour d\u00E9couvrir des relations s\u00E9mantiques entre les \u003Cem\u003Eartist-run spaces\u003C/em\u003E et des axes de repr\u00E9sentation pour des visualisations interactives. \u003Cbr\u003E\u003Cbr\u003ESur l\u0027ann\u00E9e 5 \u00E9tudiants en master1 MIASHS ((Math\u00E9matiques et Informatiques Appliqu\u00E9es aux Sciences Humaines et Sociales, UFR6) \u00E0 l\u0027Universit\u00E9 Paul Valery, travaillent sur les donn\u00E9es du site \u003Ca target=\u0022_blank\u0022 href=\u0022//artist-run-spaces.org\u0022 rel=\u0022noopener noreferrer nofollow\u0022 data-link-auto=\u0022\u0022\u003E\u003Cstrong\u003Eartist-run-spaces.org\u003C/strong\u003E\u003C/a\u003E. Ils sont encadr\u00E9s par Fran\u00E7ois-David Collin, ing\u00E9nieur de recherche au CNRS \u00E0 l\u0027institut de Math\u00E9matique Alexander Grothendieck et expert domaine : Sabrina Issa, artiste chercheur, fondatrice de l\u0027initiative artist-run-spaces.org.\u003C/p\u003E\u003Cp\u003E\u003Ca target=\u0022_blank\u0022 href=\u0022https://www.facebook.com/hashtag/artistrunspace?__eep__=6\u0026amp;__cft__[0]=AZWmTt4tkjK2UHSwcUAAZDaySLzLmjmkMwklidnaViRxD2ANUK85T46CeZyIocK76DgQRF-vgkC-yjYWUvmW1sSfktzh-Pkc7Hxj4omn6Zxqb0LGh1UxpidzGjD9j2MsSF6njAcHZH_P2if4cWycorEP\u0026amp;__tn__=*NK-R\u0022 rel=\u0022noopener noreferrer nofollow\u0022\u003E\u003Cstrong\u003E#artistrunspace\u003C/strong\u003E\u003C/a\u003E \u003Cbr\u003E\u003Ca target=\u0022_blank\u0022 href=\u0022https://www.facebook.com/hashtag/artistrun?__eep__=6\u0026amp;__cft__[0]=AZWmTt4tkjK2UHSwcUAAZDaySLzLmjmkMwklidnaViRxD2ANUK85T46CeZyIocK76DgQRF-vgkC-yjYWUvmW1sSfktzh-Pkc7Hxj4omn6Zxqb0LGh1UxpidzGjD9j2MsSF6njAcHZH_P2if4cWycorEP\u0026amp;__tn__=*NK-R\u0022 rel=\u0022noopener noreferrer nofollow\u0022\u003E\u003Cstrong\u003E#artistrun\u003C/strong\u003E\u003C/a\u003E\u003Cstrong\u003E\u003Cbr\u003E\u003C/strong\u003E\u003Ca target=\u0022_blank\u0022 href=\u0022https://www.facebook.com/hashtag/miaschs?__eep__=6\u0026amp;__cft__[0]=AZWmTt4tkjK2UHSwcUAAZDaySLzLmjmkMwklidnaViRxD2ANUK85T46CeZyIocK76DgQRF-vgkC-yjYWUvmW1sSfktzh-Pkc7Hxj4omn6Zxqb0LGh1UxpidzGjD9j2MsSF6njAcHZH_P2if4cWycorEP\u0026amp;__tn__=*NK-R\u0022 rel=\u0022noopener noreferrer nofollow\u0022\u003E\u003Cstrong\u003E#miashs\u003C/strong\u003E\u003C/a\u003E\u003C/p\u003E",
+            "title": "Master MIASHS X artist-run-spaces.org"
+          }
+        }
+      },
+      "editToken": "eyJhIjoiZWNob3RvbmUiLCJzIjoicGFnZSIsImkiOiIyNjk4ZTA2OS04ZGFjLTQ4ZjctYTZjZS1iYTQzZjNiMzU2MTMiLCJ1IjoiaHR0cHM6Ly9sYWFiLmRkbnMubmV0OjM4MDgwLyJ9",
+      "id": "2698e069-8dac-48f7-a6ce-ba43f3b35613",
+      "isDeleted": false,
+      "lastModified": "2025-03-08T16:05:47Z",
+      "lastModifiedBy": "subject:6798df7c5b784ee7b7cb52e1",
+      "schemaDisplayName": "Page",
+      "schemaId": "d0379b0e-294e-4df6-9b2b-257b807b1467",
+      "schemaName": "page",
+      "status": "Published",
+      "statusColor": "#4bb958",
+      "version": 5
+    },
+    {
+      "_links": {
+        "delete": {
           "href": "/api/content/echotone/page/702fbd2b-1312-4ebd-b348-cc963c16ea7f",
           "method": "DELETE"
         },
@@ -912,181 +1111,6 @@
       "status": "Published",
       "statusColor": "#4bb958",
       "version": 6
-    },
-    {
-      "_links": {
-        "delete": {
-          "href": "/api/content/echotone/page/2698e069-8dac-48f7-a6ce-ba43f3b35613",
-          "method": "DELETE"
-        },
-        "draft/create": {
-          "href": "/api/content/echotone/page/2698e069-8dac-48f7-a6ce-ba43f3b35613/draft",
-          "method": "POST"
-        },
-        "previous": {
-          "href": "/api/content/echotone/page/2698e069-8dac-48f7-a6ce-ba43f3b35613/3",
-          "method": "GET"
-        },
-        "self": {
-          "href": "/api/content/echotone/page/2698e069-8dac-48f7-a6ce-ba43f3b35613",
-          "method": "GET"
-        }
-      },
-      "created": "2025-01-29T12:59:19Z",
-      "createdBy": "subject:6798df7c5b784ee7b7cb52e1",
-      "data": {
-        "id": {
-          "iv": "master-miashs-x-artist-run-spaces-org"
-        },
-        "medias": {
-          "iv": [
-            {
-              "in": true,
-              "medias": [
-                "9967fbb7-af0a-4404-bb77-1446eeba9aca",
-                "a7a6679b-0180-4a7c-ba4d-c693652e38fc",
-                "a96c48a0-07c7-4ef8-b1fa-10485e903bba",
-                "03d8c341-a96d-4ca8-b464-48228504bef6",
-                "a30447a2-bd37-40e1-9a24-dac4c960c4fd",
-                "26e58796-75e2-4e0e-8663-8e8d8abdfb67"
-              ],
-              "schemaId": "1f4e3697-52bc-45d9-a7a8-65862c13ce4b",
-              "schemaName": "carousel"
-            }
-          ]
-        },
-        "unit": {
-          "en": {
-            "locations": [],
-            "schemaId": "2bd4ee39-8e6e-4128-9f08-a049cce49f23",
-            "schemaName": "unit",
-            "short": "PORTRAITS D\u0027ESPACES - \u00C0 propos de ce que les artist-run spaces ont \u00E0 dire d\u0027eux m\u00EAme",
-            "tags": [
-              "programmation",
-              "accueil"
-            ],
-            "temporal": [],
-            "text": "\u003Cp\u003EDans le cadre d\u0027un TER (travaux d\u0027\u00E9tudes et de recherches) est exp\u00E9riment\u00E9 une nouvelle m\u00E9thodologie d\u2019enrichissement des donn\u00E9es textuelles pour d\u00E9couvrir des relations s\u00E9mantiques entre les \u003Cem\u003Eartist-run spaces\u003C/em\u003E et des axes de repr\u00E9sentation pour des visualisations interactives. \u003Cbr\u003E\u003Cbr\u003ESur l\u0027ann\u00E9e 5 \u00E9tudiants en master1 MIASHS ((Math\u00E9matiques et Informatiques Appliqu\u00E9es aux Sciences Humaines et Sociales, UFR6) \u00E0 l\u0027Universit\u00E9 Paul Valery, travaillent sur les donn\u00E9es du site \u003Ca target=\u0022_blank\u0022 href=\u0022//artist-run-spaces.org\u0022 rel=\u0022noopener noreferrer nofollow\u0022 data-link-auto=\u0022\u0022\u003E\u003Cstrong\u003Eartist-run-spaces.org\u003C/strong\u003E\u003C/a\u003E. Ils sont encadr\u00E9s par Fran\u00E7ois-David Collin, ing\u00E9nieur de recherche au CNRS \u00E0 l\u0027institut de Math\u00E9matique Alexander Grothendieck et expert domaine : Sabrina Issa, artiste chercheur, fondatrice de l\u0027initiative artist-run-spaces.org.\u003C/p\u003E\u003Cp\u003E\u003Ca target=\u0022_blank\u0022 href=\u0022https://www.facebook.com/hashtag/artistrunspace?__eep__=6\u0026amp;__cft__[0]=AZWmTt4tkjK2UHSwcUAAZDaySLzLmjmkMwklidnaViRxD2ANUK85T46CeZyIocK76DgQRF-vgkC-yjYWUvmW1sSfktzh-Pkc7Hxj4omn6Zxqb0LGh1UxpidzGjD9j2MsSF6njAcHZH_P2if4cWycorEP\u0026amp;__tn__=*NK-R\u0022 rel=\u0022noopener noreferrer nofollow\u0022\u003E\u003Cstrong\u003E#artistrunspace\u003C/strong\u003E\u003C/a\u003E \u003Cbr\u003E\u003Ca target=\u0022_blank\u0022 href=\u0022https://www.facebook.com/hashtag/artistrun?__eep__=6\u0026amp;__cft__[0]=AZWmTt4tkjK2UHSwcUAAZDaySLzLmjmkMwklidnaViRxD2ANUK85T46CeZyIocK76DgQRF-vgkC-yjYWUvmW1sSfktzh-Pkc7Hxj4omn6Zxqb0LGh1UxpidzGjD9j2MsSF6njAcHZH_P2if4cWycorEP\u0026amp;__tn__=*NK-R\u0022 rel=\u0022noopener noreferrer nofollow\u0022\u003E\u003Cstrong\u003E#artistrun\u003C/strong\u003E\u003C/a\u003E\u003Cstrong\u003E\u003Cbr\u003E\u003C/strong\u003E\u003Ca target=\u0022_blank\u0022 href=\u0022https://www.facebook.com/hashtag/miaschs?__eep__=6\u0026amp;__cft__[0]=AZWmTt4tkjK2UHSwcUAAZDaySLzLmjmkMwklidnaViRxD2ANUK85T46CeZyIocK76DgQRF-vgkC-yjYWUvmW1sSfktzh-Pkc7Hxj4omn6Zxqb0LGh1UxpidzGjD9j2MsSF6njAcHZH_P2if4cWycorEP\u0026amp;__tn__=*NK-R\u0022 rel=\u0022noopener noreferrer nofollow\u0022\u003E\u003Cstrong\u003E#miashs\u003C/strong\u003E\u003C/a\u003E\u003C/p\u003E",
-            "title": "Master MIASHS X artist-run-spaces.org"
-          },
-          "fr": {
-            "locations": [],
-            "schemaId": "2bd4ee39-8e6e-4128-9f08-a049cce49f23",
-            "schemaName": "unit",
-            "short": "PORTRAITS D\u0027ESPACES - \u00C0 propos de ce que les artist-run spaces ont \u00E0 dire d\u0027eux m\u00EAme",
-            "tags": [
-              "programmation",
-              "accueil"
-            ],
-            "temporal": [],
-            "text": "\u003Cp\u003EDans le cadre d\u0027un TER (travaux d\u0027\u00E9tudes et de recherches) est exp\u00E9riment\u00E9 une nouvelle m\u00E9thodologie d\u2019enrichissement des donn\u00E9es textuelles pour d\u00E9couvrir des relations s\u00E9mantiques entre les \u003Cem\u003Eartist-run spaces\u003C/em\u003E et des axes de repr\u00E9sentation pour des visualisations interactives. \u003Cbr\u003E\u003Cbr\u003ESur l\u0027ann\u00E9e 5 \u00E9tudiants en master1 MIASHS ((Math\u00E9matiques et Informatiques Appliqu\u00E9es aux Sciences Humaines et Sociales, UFR6) \u00E0 l\u0027Universit\u00E9 Paul Valery, travaillent sur les donn\u00E9es du site \u003Ca target=\u0022_blank\u0022 href=\u0022//artist-run-spaces.org\u0022 rel=\u0022noopener noreferrer nofollow\u0022 data-link-auto=\u0022\u0022\u003E\u003Cstrong\u003Eartist-run-spaces.org\u003C/strong\u003E\u003C/a\u003E. Ils sont encadr\u00E9s par Fran\u00E7ois-David Collin, ing\u00E9nieur de recherche au CNRS \u00E0 l\u0027institut de Math\u00E9matique Alexander Grothendieck et expert domaine : Sabrina Issa, artiste chercheur, fondatrice de l\u0027initiative artist-run-spaces.org.\u003C/p\u003E\u003Cp\u003E\u003Ca target=\u0022_blank\u0022 href=\u0022https://www.facebook.com/hashtag/artistrunspace?__eep__=6\u0026amp;__cft__[0]=AZWmTt4tkjK2UHSwcUAAZDaySLzLmjmkMwklidnaViRxD2ANUK85T46CeZyIocK76DgQRF-vgkC-yjYWUvmW1sSfktzh-Pkc7Hxj4omn6Zxqb0LGh1UxpidzGjD9j2MsSF6njAcHZH_P2if4cWycorEP\u0026amp;__tn__=*NK-R\u0022 rel=\u0022noopener noreferrer nofollow\u0022\u003E\u003Cstrong\u003E#artistrunspace\u003C/strong\u003E\u003C/a\u003E \u003Cbr\u003E\u003Ca target=\u0022_blank\u0022 href=\u0022https://www.facebook.com/hashtag/artistrun?__eep__=6\u0026amp;__cft__[0]=AZWmTt4tkjK2UHSwcUAAZDaySLzLmjmkMwklidnaViRxD2ANUK85T46CeZyIocK76DgQRF-vgkC-yjYWUvmW1sSfktzh-Pkc7Hxj4omn6Zxqb0LGh1UxpidzGjD9j2MsSF6njAcHZH_P2if4cWycorEP\u0026amp;__tn__=*NK-R\u0022 rel=\u0022noopener noreferrer nofollow\u0022\u003E\u003Cstrong\u003E#artistrun\u003C/strong\u003E\u003C/a\u003E\u003Cstrong\u003E\u003Cbr\u003E\u003C/strong\u003E\u003Ca target=\u0022_blank\u0022 href=\u0022https://www.facebook.com/hashtag/miaschs?__eep__=6\u0026amp;__cft__[0]=AZWmTt4tkjK2UHSwcUAAZDaySLzLmjmkMwklidnaViRxD2ANUK85T46CeZyIocK76DgQRF-vgkC-yjYWUvmW1sSfktzh-Pkc7Hxj4omn6Zxqb0LGh1UxpidzGjD9j2MsSF6njAcHZH_P2if4cWycorEP\u0026amp;__tn__=*NK-R\u0022 rel=\u0022noopener noreferrer nofollow\u0022\u003E\u003Cstrong\u003E#miashs\u003C/strong\u003E\u003C/a\u003E\u003C/p\u003E",
-            "title": "Master MIASHS X artist-run-spaces.org"
-          }
-        }
-      },
-      "editToken": "eyJhIjoiZWNob3RvbmUiLCJzIjoicGFnZSIsImkiOiIyNjk4ZTA2OS04ZGFjLTQ4ZjctYTZjZS1iYTQzZjNiMzU2MTMiLCJ1IjoiaHR0cHM6Ly9sYWFiLmRkbnMubmV0OjM4MDgwLyJ9",
-      "id": "2698e069-8dac-48f7-a6ce-ba43f3b35613",
-      "isDeleted": false,
-      "lastModified": "2025-03-03T19:28:37Z",
-      "lastModifiedBy": "subject:6798df7c5b784ee7b7cb52e1",
-      "schemaDisplayName": "Page",
-      "schemaId": "d0379b0e-294e-4df6-9b2b-257b807b1467",
-      "schemaName": "page",
-      "status": "Published",
-      "statusColor": "#4bb958",
-      "version": 4
-    },
-    {
-      "_links": {
-        "delete": {
-          "href": "/api/content/echotone/page/b9660f38-a5e1-4dda-b29c-3ebe42672945",
-          "method": "DELETE"
-        },
-        "draft/create": {
-          "href": "/api/content/echotone/page/b9660f38-a5e1-4dda-b29c-3ebe42672945/draft",
-          "method": "POST"
-        },
-        "previous": {
-          "href": "/api/content/echotone/page/b9660f38-a5e1-4dda-b29c-3ebe42672945/3",
-          "method": "GET"
-        },
-        "self": {
-          "href": "/api/content/echotone/page/b9660f38-a5e1-4dda-b29c-3ebe42672945",
-          "method": "GET"
-        }
-      },
-      "created": "2025-01-29T12:41:37Z",
-      "createdBy": "subject:6798df7c5b784ee7b7cb52e1",
-      "data": {
-        "id": {
-          "iv": "inner-the-landscape"
-        },
-        "medias": {
-          "iv": [
-            {
-              "in": true,
-              "medias": [
-                "f4ca3db9-6301-4fd3-ba0d-4ccf9b4951af",
-                "23b57748-fd81-4dbc-8ce3-72628f72c1c3",
-                "869c0d71-3164-4df2-9810-19eb9397a4e9",
-                "82545d53-2385-4090-bfcd-d173aae57fb8",
-                "03869147-78d7-4aeb-877d-7532fbd6f0fd",
-                "ea68e14e-6aa5-4702-bd56-dbf079d5ca07",
-                "cd75922b-b667-4881-b9f1-0b142c2d9a72",
-                "ba9eb01e-d558-46ad-938a-93f1f5b1db0e",
-                "9d01f3d7-127d-4859-8e7b-8b9df1501c72",
-                "553e5766-2acb-4f6c-9cb5-a731075a5179",
-                "c4c0091d-376d-4105-ad08-aff9bbc5c393",
-                "51297029-7bf5-4447-8e5a-90df4e1d7cb0",
-                "5f0d4c81-6956-4520-aeec-1c586a68d02b",
-                "993bdae7-5e4b-4950-8359-9029eea5f2a2",
-                "a3ad9ced-9ccf-4791-b48b-69be8b1bdb2d"
-              ],
-              "schemaId": "1f4e3697-52bc-45d9-a7a8-65862c13ce4b",
-              "schemaName": "carousel"
-            }
-          ]
-        },
-        "unit": {
-          "en": {
-            "locations": [],
-            "schemaId": "2bd4ee39-8e6e-4128-9f08-a049cce49f23",
-            "schemaName": "unit",
-            "short": "Exposition r\u00E9trospective de Dorota Buczkowska",
-            "tags": [
-              "programmation",
-              "accueil"
-            ],
-            "temporal": [],
-            "text": "\u003Cp\u003EVisite de l\u2019exposition r\u00E9trospective de Dorota Buczkowska,\u0022 Inner the landscape \u0022 au Museum of Contemporary art of Wroclaw.\u003C/p\u003E\u003Cp\u003E\u003C/p\u003E",
-            "title": "\u0022Inner the Landscape\u0022"
-          },
-          "fr": {
-            "locations": [],
-            "schemaId": "2bd4ee39-8e6e-4128-9f08-a049cce49f23",
-            "schemaName": "unit",
-            "short": "Exposition r\u00E9trospective de Dorota Buczkowska",
-            "tags": [
-              "programmation",
-              "accueil"
-            ],
-            "temporal": [],
-            "text": "\u003Cp\u003EVisite de l\u2019exposition r\u00E9trospective de Dorota Buczkowska,\u0022 Inner the landscape \u0022 au Museum of Contemporary art of Wroclaw.\u003C/p\u003E\u003Cp\u003E\u003C/p\u003E",
-            "title": "\u0022Inner the Landscape\u0022"
-          }
-        }
-      },
-      "editToken": "eyJhIjoiZWNob3RvbmUiLCJzIjoicGFnZSIsImkiOiJiOTY2MGYzOC1hNWUxLTRkZGEtYjI5Yy0zZWJlNDI2NzI5NDUiLCJ1IjoiaHR0cHM6Ly9sYWFiLmRkbnMubmV0OjM4MDgwLyJ9",
-      "id": "b9660f38-a5e1-4dda-b29c-3ebe42672945",
-      "isDeleted": false,
-      "lastModified": "2025-03-03T19:19:43Z",
-      "lastModifiedBy": "subject:6798df7c5b784ee7b7cb52e1",
-      "schemaDisplayName": "Page",
-      "schemaId": "d0379b0e-294e-4df6-9b2b-257b807b1467",
-      "schemaName": "page",
-      "status": "Published",
-      "statusColor": "#4bb958",
-      "version": 4
     }
   ],
   "statuses": [
