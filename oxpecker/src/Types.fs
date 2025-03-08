@@ -1,13 +1,16 @@
 module Types
 
+open Fable.Core
 open Fable.JsonProvider
 
+[<Erase>]
 type TaggedTopic =
     | Accueil
     | Atelier
     | Programmation
     | Boutique
 
+[<Erase>]
 type StaticTopic =
     | Apropos
     | Contact
@@ -16,13 +19,12 @@ type Topic =
     | StaticTopic of StaticTopic
     | TaggedTopic of TaggedTopic
 
-// Structure de navigation
+[<Erase>]
 type Navigation = {
     currentTopic: Topic
     currentSlug: string option
 }
 
-// cmstag is the tag used in the CMS (the same as the slug but in french)
 type BaseNavItem = { title: string; slug: string }
 
 type NavItem =
@@ -35,6 +37,7 @@ type Sponsor = {
     src: string
 }
 
+[<Erase>]
 type AssetType =
     | Image
     | Video
@@ -67,6 +70,7 @@ type AboutContact = AboutContactT.Items.Data.Content.Fr
 type AssetsT = Generator<assetsJsonPath>
 type Assets = AssetsT.Items
 
+[<Erase>]
 type Breakpoint =
     | Xs
     | Sm
@@ -81,7 +85,7 @@ type Link =
     | TopicLink of Topic
     | PageLink of PageLink
 
-// États pour le menu mobile
+[<Erase>]
 type MenuState =
     | Closed
     | Opening
@@ -89,7 +93,7 @@ type MenuState =
     | Closing
     | TransitioningActive
 
-// États pour les transitions de page
+[<Erase>]
 type LinkState =
     | NoTransition
     | TransitionFrom
@@ -102,10 +106,12 @@ type TransitionLinkFromToState = {
     to': TransitionLinkState
 }
 
+[<Erase>]
 type GlobalLinkState =
     | Current of Link
     | Transitioning of TransitionLinkFromToState
 
+[<Erase>]
 type MenuItemState =
     | Active
     | Inactive
@@ -119,11 +125,13 @@ type Menu = {
     state: MenuState
 }
 
+[<Erase>]
 type Theme =
     | Light
     | Dark
     | Auto
 
+[<Erase>]
 type ScreenType =
     | Mobile
     | Desktop

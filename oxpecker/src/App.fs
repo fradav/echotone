@@ -28,7 +28,7 @@ let SolidUnit (unit: Unit) : HtmlElement =
     Fragment() {
         h1() { unit.title }
         h2() { unit.short }
-        HyphenatedText() { div(innerHTML = unit.text) }
+        HyphenatedText() { div(innerHTML = if isNull unit.text then "" else (string unit.text)) }
     // A(href = "/", class' = "block text-right") { " Retour " }
     }
 
@@ -77,7 +77,7 @@ let App (page: unit -> HtmlElement) () : HtmlElement =
         window.pageYOffset |> setStore.Path.Map(_.scrolled).Update
 
     onMount(fun () ->
-        window.setTimeout((fun () -> setDelay false), 0) |> ignore
+        // window.setTimeout((fun () -> setDelay false), 500) |> ignore
 
         Dom.document.addEventListener("scroll", handleScroll)
         breakQueries
@@ -105,14 +105,13 @@ let App (page: unit -> HtmlElement) () : HtmlElement =
         Header()
         div(
             class' = "py-10 min-h-screen duration-1000 ease-in-out",
-            onTransitionEnd =
-                fun e ->
-                    printfn "Transition: endded at %s, newRoute is %s" location.pathname (newRoute())
-                    if
-                        (e.target) = e.currentTarget
-                        && (location.pathname <> newRoute() && location.pathname <> (newRoute() + "/"))
-                    then
-                        navigate.Invoke(newRoute())
+            onTransitionEnd = fun e -> ()
+        // printfn "Transition: endded at %s, newRoute is %s" location.pathname (newRoute())
+        // if
+        //     (e.target) = e.currentTarget
+        //     && (location.pathname <> newRoute() && location.pathname <> (newRoute() + "/"))
+        // then
+        //     navigate.Invoke(newRoute())
 
         )
 

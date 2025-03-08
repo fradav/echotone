@@ -1,7 +1,10 @@
 module State
 
-open Oxpecker.Solid
+open System
+
 open Browser
+open Oxpecker.Solid
+
 open Types
 open Data
 
@@ -33,7 +36,7 @@ let observer =
 
 
 // Détection si on est sur mobile
-let isMobile =
+let isMobile () =
     createMemo(fun () ->
         match store.breakpoint with
         | Xs
@@ -113,13 +116,29 @@ let chooseLink (plink: PageLink) =
         let link = PageLink plink
         navigateFromTo l link
 
+let getDateTimeFromTemporal (temporal: PagesT.Items.Data.Unit.Fr.Temporal) =
+    match (temporal.datetime: obj), (temporal.date: obj) with
+    | null, null -> None
+    | null, dt -> dt |> string |> DateTime.Parse |> Some
+    | dt, null -> dt |> string |> DateTime.Parse |> Some
+    | _ -> None
+
+let getPageDate (page: PagesT.Items) =
+    page.data.unit.fr.temporal
+    |> Array.choose getDateTimeFromTemporal
+    |> Array.sort
+    |> Array.tryHead
 
 // Fonctions utiles pour récupérer les pages
 let getPagesForTopic (taggedtopic: TaggedTopic) =
     pages.items
     |> Seq.filter(fun page -> page.data.unit.fr.tags |> Seq.contains(snd navTaggedItems[taggedtopic]))
+    |> Seq.sortByDescending(fun page -> getPageDate page |> Option.defaultValue(DateTime.Now))
     |> Seq.toArray
 
 // Récupérer une page par son slug
 let getPageBySlug (slug: string) =
     pages.items |> Seq.tryFind(fun page -> page.data.id.iv = slug)
+
+let isToBounce (page: PagesT.Items) =
+    page.data.unit.fr.tags |> Seq.contains "actu"

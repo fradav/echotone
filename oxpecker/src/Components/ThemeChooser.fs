@@ -6,7 +6,9 @@ open Fable.Core.JsInterop
 
 open Oxpecker.Solid
 
+open Types
 open Data
+open State
 
 [<AutoOpen>]
 module ThemeChooser =
@@ -30,19 +32,33 @@ module ThemeChooser =
     [<SolidComponent>]
     let ThemeChooser () =
 
+        onMount(fun _ ->
+            let isDarkPreffered = window.matchMedia("(prefers-color-scheme: dark)").matches
+            let localTheme = Storage.tryGetItem "theme" localStorage
+
+            match store.theme.IsAuto, localTheme.IsSome with
+            | _, true ->
+                setDarkTheme(localTheme.Value = "dark")
+                setStore.Path.Map(_.theme).Update(if localTheme.Value = "dark" then Dark else Light)
+            | true, _ -> setDarkTheme(isDarkPreffered)
+            | _ -> ())
+
         createEffect(fun () ->
-            printfn "Dark theme: %b" (darkTheme())
-            if darkTheme() then
+            if (darkTheme()) then
                 document.documentElement.classList.add("dark")
-                localStorage.setItem("theme", "dark")
+                if not store.theme.IsAuto then
+                    localStorage.setItem("theme", "dark")
+                    setStore.Path.Map(_.theme).Update(Dark)
             else
                 document.documentElement.classList.remove("dark")
-                localStorage.setItem("theme", "light"))
+                if not store.theme.IsAuto then
+                    localStorage.setItem("theme", "light")
+                    setStore.Path.Map(_.theme).Update(Light))
         onMount(fun () ->
             let theme = Storage.tryGetItem "theme" localStorage
-            printfn "Theme: %A" theme
+            // printfn "Theme: %A" theme
             let isDarkPreffered = window.matchMedia("(prefers-color-scheme: dark)").matches
-            printfn "Is dark preffered: %b" isDarkPreffered
+            // printfn "Is dark preffered: %b" isDarkPreffered
             (theme = Some "dark" || theme.IsNone && isDarkPreffered) |> setDarkTheme)
 
         button(

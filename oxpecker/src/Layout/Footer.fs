@@ -18,7 +18,7 @@ open Components
 module Footer =
     let private classes = {|
         footerbar =
-            "sticky py-8 border-t-2 b-0 border-gray-300 hocus:backdrop-opacity-80 hocus:translate-0 duration-500 ease-in-out flex flex-wrap justify-around items-center bottom-0 w-screen backdrop-blur-lg z-index-500  bg-gray-100/50 text-gray-700 p-4 dark:bg-gray-800/50 dark:text-white"
+            "sticky py-8 border-t-2 b-0 border-gray-300 hocus:backdrop-opacity-80 hocus:translate-0 duration-500 ease-in-out flex flex-wrap justify-around items-center bottom-0 w-screen backdrop-blur-lg z-index-500  bg-gray-100/50 text-gray-700 p-4 dark:bg-gray-950/50 dark:text-white"
     |}
     // let newLetterSubscribe: unit -> HtmlElement =
     //     importDefault "../Components/NewsLetter.jsx"

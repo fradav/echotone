@@ -1,3 +1,4 @@
+@import url(https://db.onlinewebfonts.com/c/d02befc8fdd8e5315fb21fa7f38fd55a?family=Shree+Devanagari+714);
 @import 'tailwindcss';
 @source "src/**/*.jsx";
 @source "src/**/*.fs";
@@ -5,7 +6,6 @@
 @custom-variant dark (&:where(.dark, .dark *));
 
 @custom-variant hocus (&:hover, &:focus);
-
 @layer utilities {
   .hamburger-toggle {
     @apply [&>div]:h-0 [&>div]:bg-white dark:[&>div]:bg-black [&>div]:before:translate-y-0 [&>div]:before:rotate-45 [&>div]:after:translate-y-0 [&>div]:after:-rotate-45;
@@ -17,7 +17,7 @@
   @keyframes smallbounce {
     0%,
     100% {
-      transform: translateY(-13%) skewX(-5deg);
+      transform: translateY(-20px) skewX(-5deg);
       animation-timing-function: cubic-bezier(0.8, 0, 1, 1);
     }
     50% {
@@ -47,9 +47,12 @@
 }
 
 @layer base {
+  :root {
+    --swiper-navigation-color: #957b7b;
+  }
   /* Your base styles here */
   html {
-    font-family: 'Roboto', sans-serif;
+    font-family: 'Shree Devanagari 714';
   }
   body {
     @apply bg-gray-100 dark:bg-gray-950 text-gray-900 dark:text-gray-100;
@@ -106,10 +109,10 @@
   }
   /*  mailchimp form */
   input[type='email'] {
-    @apply p-2 m-2 border-2 border-gray-300 rounded-md dark:border-blue-700;
+    @apply p-2 m-2 border-2 border-gray-300 rounded-md dark:border-zinc-700;
   }
   input[type='submit'] {
-    @apply p-2 m-2 border-2 border-gray-300 rounded-md dark:border-blue-700;
+    @apply p-2 m-2 border-2 border-gray-300 rounded-md dark:border-zinc-700;
   }
 
   #mc_embed_signup {

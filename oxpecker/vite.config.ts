@@ -15,7 +15,7 @@ logger.warn = (msg, options) => {
 }
 
 // https://vitejs.dev/config/
-export default defineConfig(({ mode }) => ({
+export default defineConfig(({ }) => ({
   clearScreen: false,
   customLogger: logger,
   publicDir: '../public',
@@ -24,6 +24,10 @@ export default defineConfig(({ mode }) => ({
     copyPublicDir: false,
     // Do not empty the outDir automatically.
     emptyOutDir: false,
+  },
+  server: {
+    host: '0.0.0.0',
+    allowedHosts: true
   },
   plugins: [
     {
@@ -35,9 +39,6 @@ export default defineConfig(({ mode }) => ({
         // Empty the assets directory if it exists
         fs.emptyDirSync(assetsDir)
         // execute the "fcm" command
-
-
-
       }
     },
     tailwindcss(),

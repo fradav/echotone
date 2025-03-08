@@ -6,6 +6,7 @@ open Fable.Core.JsInterop
 open Browser
 
 open Types
+open System
 
 [<Import("default", "../../data/about.json")>]
 let aboutJson: AboutContactT = jsNative
@@ -95,6 +96,7 @@ let navItems =
         navTaggedItems
         |> Map.toSeq
         |> Seq.map(fun (k, v) -> TaggedTopic k, TaggedItem v)
+        |> Seq.rev
         |> Map.ofSeq
     let static': Map<Topic, NavItem> =
         navStaticItems

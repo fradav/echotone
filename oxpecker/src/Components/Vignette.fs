@@ -1,5 +1,8 @@
 namespace Components
 
+open Fable.Core
+open Fable.Core.JsInterop
+open Browser
 open Browser.Types
 
 open Oxpecker.Solid
@@ -8,35 +11,50 @@ open Types
 open Data
 open State
 open Oxpecker.Solid.Imports
+open System
+
+
 
 [<AutoOpen>]
 module Page =
     open Fable.Core.JsInterop
 
-    // formatter un datetime en français sous la forme "le 11 mars à 19h"
-    let formatDateTime (datetime: string) =
-        let date = datetime.Split("T").[0]
-        let time = datetime.Split("T").[1].Split(":")
-        let monthNum = int(date.Split("-").[1])
-        let monthNames = [|
-            "janvier"
-            "février"
-            "mars"
-            "avril"
-            "mai"
-            "juin"
-            "juillet"
-            "août"
-            "septembre"
-            "octobre"
-            "novembre"
-            "décembre"
-        |]
-        let month = monthNames.[monthNum - 1] // Subtract 1 because months are 1-based but array is 0-based
-        let day = date.Split("-").[2]
-        let hour = time.[0]
-        let minute = time.[1]
-        $"le {day} {month} à {hour}h{minute}"
+    type DateTime with
+        [<Emit("$0.toLocaleDateString(undefined, $1)")>]
+        member this.toLocaleDateString(options: obj) : string = jsNative
+
+        [<Emit("$0.toLocaleTimeString(undefined, $1)")>]
+        member this.toLocaleTimeString(options: obj) : string = jsNative
+
+
+    let formatterDateOptions = {|
+        weekday = "long"
+        day = "numeric"
+        month = "long"
+        year = "numeric"
+    |}
+
+    let formatterTimeOptions = {|
+        weekday = "long"
+        day = "numeric"
+        month = "long"
+        year = "numeric"
+        hour = "numeric"
+        minute = "numeric"
+    |}
+
+    let formatDate (d: PagesT.Items.Data.Unit.Fr.Temporal) =
+        let date =
+            match (d.datetime: obj), (d.date: obj) with
+            | null, null -> None
+            | dt, null -> Some $"{DateTime.Parse(string dt).toLocaleTimeString(formatterTimeOptions)}"
+            | null, dt -> Some $"{DateTime.Parse(string dt).toLocaleDateString(formatterDateOptions)}"
+            | _ -> None
+        match date, (d.description: obj) with
+        | Some dt, des when (des |> isNull |> not) && (string des).Length > 0 -> Some $"{string des}, le {dt}"
+        | Some dt, _ -> Some dt
+        | None, des when (string des).Length > 0 -> des |> string |> Some
+        | _ -> None
 
     [<SolidComponent>]
     let Vignette w (page: PagesT.Items) : HtmlElement =
@@ -47,22 +65,23 @@ module Page =
             class' =
                 "break-inside-avoid break-after-avoid-page duration-1000 ease-in-out mb-10 bg-gray-100 shadow-2xl dark:shadow-zinc-800 rounded-3xl dark:bg-zinc-900"
         )
-            .classList(
-                createObj [
-                    "[&>.unit]:animate-smallbounce"
-                    ==> ((page.data.id.iv = "n-u-collectif-residents-2025")
-                         || (page.data.id.iv = "geoffrey-badel-residents-2024"))
-                ]
-            )
             .ref(fun e -> divRef <- e) {
             Cover w page
-            div(class' = "p-5 unit", style = $"width: {w}px") {
+            div(class' = "p-5 has-temporal:animate-smallbounce", style = $"width: {w}px")
+                .classList(
+                    {|
+                        ``animate-smallbounce`` = isToBounce page
+                    |}
+                ) {
                 h3(class' = "text-gray-500") { page.data.unit.fr.title }
                 h4() { page.data.unit.fr.short }
-                For(each = page.data.unit.fr.temporal) {
+                For(each = (page.data.unit.fr.temporal |> Array.choose formatDate)) {
                     yield
                         fun temporal index ->
-                            div(class' = "text-gray-400") { "👁️‍🗨️ " + formatDateTime(temporal?datetime) }
+                            div(class' = "text-gray-400 temporal") {
+                                // "👁️‍🗨️ " + (temporal?datetime: DateTime).toLocaleDateString(formaDatetOptions)
+                                "👁️‍🗨️ " + temporal
+                            }
                 }
             // HyphenatedText() { div(innerHTML = page.data.unit.fr.text) }
             }
