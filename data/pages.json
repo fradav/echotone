@@ -17,6 +17,124 @@
     {
       "_links": {
         "delete": {
+          "href": "/api/content/echotone/page/702fbd2b-1312-4ebd-b348-cc963c16ea7f",
+          "method": "DELETE"
+        },
+        "draft/create": {
+          "href": "/api/content/echotone/page/702fbd2b-1312-4ebd-b348-cc963c16ea7f/draft",
+          "method": "POST"
+        },
+        "previous": {
+          "href": "/api/content/echotone/page/702fbd2b-1312-4ebd-b348-cc963c16ea7f/13",
+          "method": "GET"
+        },
+        "self": {
+          "href": "/api/content/echotone/page/702fbd2b-1312-4ebd-b348-cc963c16ea7f",
+          "method": "GET"
+        }
+      },
+      "created": "2025-01-29T12:48:49Z",
+      "createdBy": "subject:6798df7c5b784ee7b7cb52e1",
+      "data": {
+        "id": {
+          "iv": "inauguration-d-echotone"
+        },
+        "medias": {
+          "iv": [
+            {
+              "in": true,
+              "medias": [
+                "ac06c5dc-1e70-4075-98c9-65ed4225b68e",
+                "7859c212-a7e7-4200-92a1-ac292cc67e78",
+                "c7b47afc-f9d7-4348-94cd-f6f8e78de0ec",
+                "d0350086-80cc-4708-b10b-0b59061e21e7",
+                "1829f3b6-85c6-48f8-a20d-324ba4ea9599",
+                "fbc048ba-53d2-4951-80cd-48a38d2a08d8",
+                "0cd504ab-b973-4216-9a73-83b6a487e988",
+                "856102d1-0db2-4c07-baf7-d2425ffd4a52",
+                "dd880b05-f435-432f-98b7-9890aecf681a",
+                "13810421-d0ad-4ed4-8289-80a48f8a942d"
+              ],
+              "schemaId": "1f4e3697-52bc-45d9-a7a8-65862c13ce4b",
+              "schemaName": "carousel"
+            },
+            {
+              "in": null,
+              "medias": [
+                "08261a14-63a2-442b-bbe6-bd009bc5eb8a",
+                "0e1213c4-45ee-4bd5-9ef8-92c45afbfaff"
+              ],
+              "schemaId": "1f4e3697-52bc-45d9-a7a8-65862c13ce4b",
+              "schemaName": "carousel"
+            }
+          ]
+        },
+        "unit": {
+          "en": {
+            "locations": [],
+            "schemaId": "2bd4ee39-8e6e-4128-9f08-a049cce49f23",
+            "schemaName": "unit",
+            "short": "Propositions du LAAB en collectif augment\u00E9 et performance sonore de Nicolas Bralet",
+            "tags": [
+              "programmation",
+              "p\u00E9riode"
+            ],
+            "temporal": [
+              {
+                "date": "2024-05-31T00:00:00Z",
+                "datetime": null,
+                "description": null
+              },
+              {
+                "date": "2024-06-30T00:00:00Z",
+                "datetime": null,
+                "description": null
+              }
+            ],
+            "text": "\u003Cp\u003E\u261E Vendredi 31 mai 2024\u003C/p\u003E\u003Chr\u003E\u003Cp\u003E\u25BA Inauguration des espaces du 6 rue des maquisards, \u00E0 Ganges. \u003Cbr\u003EInauguration des espaces avec les propositions du LAAB en collectif \u003Cem\u003Eaugment\u00E9 \u003C/em\u003Eavec les pi\u00E8ces de \u003Cstrong\u003ENicolas Bralet\u003C/strong\u003E, \u003Cstrong\u003EDelphine Chevrot\u003C/strong\u003E, \u003Cstrong\u003EFran\u00E7ois-David Collin\u003C/strong\u003E, \u003Cstrong\u003ESabrina Issa\u003C/strong\u003E, \u003Cstrong\u003ESamuel Aligand\u003C/strong\u003E, \u003Cstrong\u003ELydie Regnier\u003C/strong\u003E, \u003Cstrong\u003EPhilippe Bri\u00E8re\u003C/strong\u003E, \u003Cstrong\u003ENina Reumaux\u003C/strong\u003E, \u003Cstrong\u003ELo\u00EFc Peyrani\u003C/strong\u003E et \u003Cstrong\u003EAnna Olszewska\u003C/strong\u003E. \u003C/p\u003E\u003Chr\u003E\u003Cp\u003E\u2326 Vernissage avec les Grignots de \u003Cstrong\u003EAlix Jolly\u003C/strong\u003E et \u003Cstrong\u003ECamille Derniaux\u003C/strong\u003E r\u00E9alis\u00E9s \u00E0 partir de cueillettes et mac\u00E9rations et Performance sonore, \u003Cstrong\u003ENicolas Bralet\u003C/strong\u003E, guitare \u00E9lectronique, m\u00E9tallophone, fl\u00FBte \u00E0 bec t\u00E9nor, informatique musical (Max MSP). \u0022Aux origines des vagues vont et viennes, des rayons traversent. La faune anime l\u0027\u00E9tendue. Les sons improvisent, composent, \u0022comprovisent\u0022 le temps d\u0027une \u00E9coute\u0022.\u003C/p\u003E\u003Chr\u003E\u003Cp\u003E\u003Ca target=\u0022_blank\u0022 href=\u0022https://www.facebook.com/hashtag/echotone?__eep__=6\u0026amp;__cft__[0]=AZWlaortjwPMRp5O2kITkDQ6U4dEYffWSJSAxJrF0p-3rm6nIuCE4uHb_Oy_coaZnwGYfqEjCUioj2OvaQ2Dz0RgJZCMmeacFGBhbvQoUsjZ6g\u0026amp;__tn__=q\u0022 rel=\u0022noopener noreferrer nofollow\u0022\u003E\u003Cstrong\u003E#Echotone\u003C/strong\u003E\u003C/a\u003E \u003Ca target=\u0022_blank\u0022 href=\u0022https://www.facebook.com/hashtag/artistrunspace?__eep__=6\u0026amp;__cft__[0]=AZWlaortjwPMRp5O2kITkDQ6U4dEYffWSJSAxJrF0p-3rm6nIuCE4uHb_Oy_coaZnwGYfqEjCUioj2OvaQ2Dz0RgJZCMmeacFGBhbvQoUsjZ6g\u0026amp;__tn__=q\u0022 rel=\u0022noopener noreferrer nofollow\u0022\u003E\u003Cstrong\u003E#artistrunspace\u003C/strong\u003E\u003C/a\u003E\u003Cbr\u003E\u003Ca target=\u0022_blank\u0022 href=\u0022https://www.facebook.com/hashtag/artresearch?__eep__=6\u0026amp;__cft__[0]=AZWlaortjwPMRp5O2kITkDQ6U4dEYffWSJSAxJrF0p-3rm6nIuCE4uHb_Oy_coaZnwGYfqEjCUioj2OvaQ2Dz0RgJZCMmeacFGBhbvQoUsjZ6g\u0026amp;__tn__=q\u0022 rel=\u0022noopener noreferrer nofollow\u0022\u003E\u003Cstrong\u003E#artresearch\u003C/strong\u003E\u003C/a\u003E\u003Cbr\u003E\u003Ca target=\u0022_blank\u0022 href=\u0022https://www.facebook.com/hashtag/laboratoireassociatifdartetdebotanique?__eep__=6\u0026amp;__cft__[0]=AZWlaortjwPMRp5O2kITkDQ6U4dEYffWSJSAxJrF0p-3rm6nIuCE4uHb_Oy_coaZnwGYfqEjCUioj2OvaQ2Dz0RgJZCMmeacFGBhbvQoUsjZ6g\u0026amp;__tn__=q\u0022 rel=\u0022noopener noreferrer nofollow\u0022\u003E\u003Cstrong\u003E#laboratoireassociatifdartetdebotanique\u003C/strong\u003E\u003C/a\u003E\u003Cbr\u003E\u003Ca target=\u0022_blank\u0022 href=\u0022https://www.facebook.com/hashtag/inauguration2024?__eep__=6\u0026amp;__cft__[0]=AZWlaortjwPMRp5O2kITkDQ6U4dEYffWSJSAxJrF0p-3rm6nIuCE4uHb_Oy_coaZnwGYfqEjCUioj2OvaQ2Dz0RgJZCMmeacFGBhbvQoUsjZ6g\u0026amp;__tn__=q\u0022 rel=\u0022noopener noreferrer nofollow\u0022\u003E\u003Cstrong\u003E#inauguration2024\u003C/strong\u003E\u003C/a\u003E\u003C/p\u003E",
+            "title": "Inauguration d\u0027\u00C9CHOTONE"
+          },
+          "fr": {
+            "locations": [],
+            "schemaId": "2bd4ee39-8e6e-4128-9f08-a049cce49f23",
+            "schemaName": "unit",
+            "short": "Propositions du LAAB en collectif augment\u00E9 et performance sonore de Nicolas Bralet",
+            "tags": [
+              "programmation",
+              "p\u00E9riode"
+            ],
+            "temporal": [
+              {
+                "date": "2024-05-31T00:00:00Z",
+                "datetime": null,
+                "description": null
+              },
+              {
+                "date": "2024-06-30T00:00:00Z",
+                "datetime": null,
+                "description": null
+              }
+            ],
+            "text": "\u003Cp\u003E\u261E Vendredi 31 mai 2024\u003C/p\u003E\u003Chr\u003E\u003Cp\u003E\u25BA Inauguration des espaces du 6 rue des maquisards, \u00E0 Ganges. \u003Cbr\u003EInauguration des espaces avec les propositions du LAAB en collectif \u003Cem\u003Eaugment\u00E9 \u003C/em\u003Eavec les pi\u00E8ces de \u003Cstrong\u003ENicolas Bralet\u003C/strong\u003E, \u003Cstrong\u003EDelphine Chevrot\u003C/strong\u003E, \u003Cstrong\u003EFran\u00E7ois-David Collin\u003C/strong\u003E, \u003Cstrong\u003ESabrina Issa\u003C/strong\u003E, \u003Cstrong\u003ESamuel Aligand\u003C/strong\u003E, \u003Cstrong\u003ELydie Regnier\u003C/strong\u003E, \u003Cstrong\u003EPhilippe Bri\u00E8re\u003C/strong\u003E, \u003Cstrong\u003ENina Reumaux\u003C/strong\u003E, \u003Cstrong\u003ELo\u00EFc Peyrani\u003C/strong\u003E et \u003Cstrong\u003EAnna Olszewska\u003C/strong\u003E. \u003C/p\u003E\u003Chr\u003E\u003Cp\u003E\u2326 Vernissage avec les Grignots de \u003Cstrong\u003EAlix Jolly\u003C/strong\u003E et \u003Cstrong\u003ECamille Derniaux\u003C/strong\u003E r\u00E9alis\u00E9s \u00E0 partir de cueillettes et mac\u00E9rations et Performance sonore, \u003Cstrong\u003ENicolas Bralet\u003C/strong\u003E, guitare \u00E9lectronique, m\u00E9tallophone, fl\u00FBte \u00E0 bec t\u00E9nor, informatique musical (Max MSP). \u0022Aux origines des vagues vont et viennes, des rayons traversent. La faune anime l\u0027\u00E9tendue. Les sons improvisent, composent, \u0022comprovisent\u0022 le temps d\u0027une \u00E9coute\u0022.\u003C/p\u003E\u003Chr\u003E\u003Cp\u003E\u003Ca target=\u0022_blank\u0022 href=\u0022https://www.facebook.com/hashtag/echotone?__eep__=6\u0026amp;__cft__[0]=AZWlaortjwPMRp5O2kITkDQ6U4dEYffWSJSAxJrF0p-3rm6nIuCE4uHb_Oy_coaZnwGYfqEjCUioj2OvaQ2Dz0RgJZCMmeacFGBhbvQoUsjZ6g\u0026amp;__tn__=q\u0022 rel=\u0022noopener noreferrer nofollow\u0022\u003E\u003Cstrong\u003E#Echotone\u003C/strong\u003E\u003C/a\u003E \u003Ca target=\u0022_blank\u0022 href=\u0022https://www.facebook.com/hashtag/artistrunspace?__eep__=6\u0026amp;__cft__[0]=AZWlaortjwPMRp5O2kITkDQ6U4dEYffWSJSAxJrF0p-3rm6nIuCE4uHb_Oy_coaZnwGYfqEjCUioj2OvaQ2Dz0RgJZCMmeacFGBhbvQoUsjZ6g\u0026amp;__tn__=q\u0022 rel=\u0022noopener noreferrer nofollow\u0022\u003E\u003Cstrong\u003E#artistrunspace\u003C/strong\u003E\u003C/a\u003E\u003Cbr\u003E\u003Ca target=\u0022_blank\u0022 href=\u0022https://www.facebook.com/hashtag/artresearch?__eep__=6\u0026amp;__cft__[0]=AZWlaortjwPMRp5O2kITkDQ6U4dEYffWSJSAxJrF0p-3rm6nIuCE4uHb_Oy_coaZnwGYfqEjCUioj2OvaQ2Dz0RgJZCMmeacFGBhbvQoUsjZ6g\u0026amp;__tn__=q\u0022 rel=\u0022noopener noreferrer nofollow\u0022\u003E\u003Cstrong\u003E#artresearch\u003C/strong\u003E\u003C/a\u003E\u003Cbr\u003E\u003Ca target=\u0022_blank\u0022 href=\u0022https://www.facebook.com/hashtag/laboratoireassociatifdartetdebotanique?__eep__=6\u0026amp;__cft__[0]=AZWlaortjwPMRp5O2kITkDQ6U4dEYffWSJSAxJrF0p-3rm6nIuCE4uHb_Oy_coaZnwGYfqEjCUioj2OvaQ2Dz0RgJZCMmeacFGBhbvQoUsjZ6g\u0026amp;__tn__=q\u0022 rel=\u0022noopener noreferrer nofollow\u0022\u003E\u003Cstrong\u003E#laboratoireassociatifdartetdebotanique\u003C/strong\u003E\u003C/a\u003E\u003Cbr\u003E\u003Ca target=\u0022_blank\u0022 href=\u0022https://www.facebook.com/hashtag/inauguration2024?__eep__=6\u0026amp;__cft__[0]=AZWlaortjwPMRp5O2kITkDQ6U4dEYffWSJSAxJrF0p-3rm6nIuCE4uHb_Oy_coaZnwGYfqEjCUioj2OvaQ2Dz0RgJZCMmeacFGBhbvQoUsjZ6g\u0026amp;__tn__=q\u0022 rel=\u0022noopener noreferrer nofollow\u0022\u003E\u003Cstrong\u003E#inauguration2024\u003C/strong\u003E\u003C/a\u003E\u003C/p\u003E",
+            "title": "Inauguration d\u0027\u00C9CHOTONE"
+          }
+        }
+      },
+      "editToken": "eyJhIjoiZWNob3RvbmUiLCJzIjoicGFnZSIsImkiOiI3MDJmYmQyYi0xMzEyLTRlYmQtYjM0OC1jYzk2M2MxNmVhN2YiLCJ1IjoiaHR0cHM6Ly9sYWFiLmRkbnMubmV0OjM4MDgwLyJ9",
+      "id": "702fbd2b-1312-4ebd-b348-cc963c16ea7f",
+      "isDeleted": false,
+      "lastModified": "2025-03-09T22:44:39Z",
+      "lastModifiedBy": "subject:6798dad0167d31fb8ec7cc74",
+      "schemaDisplayName": "Page",
+      "schemaId": "d0379b0e-294e-4df6-9b2b-257b807b1467",
+      "schemaName": "page",
+      "status": "Published",
+      "statusColor": "#4bb958",
+      "version": 14
+    },
+    {
+      "_links": {
+        "delete": {
           "href": "/api/content/echotone/page/16b76cc6-7d8c-41ac-b7df-edf9800625f3",
           "method": "DELETE"
         },
@@ -25,7 +143,7 @@
           "method": "POST"
         },
         "previous": {
-          "href": "/api/content/echotone/page/16b76cc6-7d8c-41ac-b7df-edf9800625f3/5",
+          "href": "/api/content/echotone/page/16b76cc6-7d8c-41ac-b7df-edf9800625f3/6",
           "method": "GET"
         },
         "self": {
@@ -103,7 +221,8 @@
             "short": "Une centaines d\u0027oeuvres s\u00E9lectionn\u00E9es par une quinzaine d\u0027artistes",
             "tags": [
               "accueil",
-              "programmation"
+              "programmation",
+              "p\u00E9riode"
             ],
             "temporal": [
               {
@@ -127,7 +246,8 @@
             "short": "Une centaines d\u0027oeuvres s\u00E9lectionn\u00E9es par une quinzaine d\u0027artistes",
             "tags": [
               "accueil",
-              "programmation"
+              "programmation",
+              "p\u00E9riode"
             ],
             "temporal": [
               {
@@ -149,7 +269,206 @@
       "editToken": "eyJhIjoiZWNob3RvbmUiLCJzIjoicGFnZSIsImkiOiIxNmI3NmNjNi03ZDhjLTQxYWMtYjdkZi1lZGY5ODAwNjI1ZjMiLCJ1IjoiaHR0cHM6Ly9sYWFiLmRkbnMubmV0OjM4MDgwLyJ9",
       "id": "16b76cc6-7d8c-41ac-b7df-edf9800625f3",
       "isDeleted": false,
-      "lastModified": "2025-03-09T22:25:03Z",
+      "lastModified": "2025-03-09T22:44:01Z",
+      "lastModifiedBy": "subject:6798dad0167d31fb8ec7cc74",
+      "schemaDisplayName": "Page",
+      "schemaId": "d0379b0e-294e-4df6-9b2b-257b807b1467",
+      "schemaName": "page",
+      "status": "Published",
+      "statusColor": "#4bb958",
+      "version": 7
+    },
+    {
+      "_links": {
+        "delete": {
+          "href": "/api/content/echotone/page/8d3519b1-5949-4f8f-8c29-7efcd066b682",
+          "method": "DELETE"
+        },
+        "draft/create": {
+          "href": "/api/content/echotone/page/8d3519b1-5949-4f8f-8c29-7efcd066b682/draft",
+          "method": "POST"
+        },
+        "previous": {
+          "href": "/api/content/echotone/page/8d3519b1-5949-4f8f-8c29-7efcd066b682/9",
+          "method": "GET"
+        },
+        "self": {
+          "href": "/api/content/echotone/page/8d3519b1-5949-4f8f-8c29-7efcd066b682",
+          "method": "GET"
+        }
+      },
+      "created": "2025-01-27T16:56:40Z",
+      "createdBy": "subject:6798dad0167d31fb8ec7cc74",
+      "data": {
+        "id": {
+          "iv": "jaa-occitanie"
+        },
+        "medias": {
+          "iv": [
+            {
+              "in": true,
+              "medias": [
+                "a94f31e5-3836-4bfe-a9b6-9fc92851cb8e",
+                "6b519d90-64e0-42a1-8486-87fbc0d6bab8",
+                "8b25f26d-c892-46f9-b714-4715ea3c6f15",
+                "5dfc89a4-e4e0-4239-ac39-85154a0c8ffa",
+                "67ef408d-d649-4293-b4a5-a883dbd68a0b"
+              ],
+              "schemaId": "1f4e3697-52bc-45d9-a7a8-65862c13ce4b",
+              "schemaName": "carousel"
+            }
+          ]
+        },
+        "unit": {
+          "en": {
+            "locations": [],
+            "schemaId": "2bd4ee39-8e6e-4128-9f08-a049cce49f23",
+            "schemaName": "unit",
+            "short": "7\u00E8me Journ\u00E9es des Ateliers d\u0027Artistes d\u0027Occitanie",
+            "tags": [
+              "atelier",
+              "programmation",
+              "p\u00E9riode"
+            ],
+            "temporal": [
+              {
+                "date": "2024-10-19T00:00:00Z",
+                "datetime": null,
+                "description": null
+              },
+              {
+                "date": "2024-10-20T00:00:00Z",
+                "datetime": null,
+                "description": null
+              }
+            ],
+            "text": "\u003Cp\u003EWeek-end du 19/20 octobre 2024, nous ouvrons les portes de \u00C9chotone, pour les 7\u00E8me Journ\u00E9es des ateliers d\u0027artistes d\u0027Occitanie. Avec la d\u00E9couverte des ateliers de gravures et plus sp\u00E9cifiquement de la technique de la photogravure sur photopolym\u00E8re.\u003Cbr\u003E\u003Cbr\u003EDans l\u0027ann\u00E9e, l\u0027\u00E9quipe d\u0027artiste de \u00C9CHOTONE propose des stages sur une ou deux journ\u00E9es abordant diff\u00E9rentes techniques li\u00E9es \u00E0 la photosensibilit\u00E9: distillations, pigments vivants, papiers botaniques (...)\u003C/p\u003E\u003Cp\u003E\u003Ca target=\u0022_blank\u0022 href=\u0022https://l.facebook.com/l.php?u=https%3A%2F%2Fwww.instagram.com%2F_u%2Fechotone__%3Ffbclid%3DIwZXh0bgNhZW0CMTAAAR2t7rEdA1S9gUiP-WsU2KorfPR1l1e2yYK2ipwhG2ltYobdllCVyrAqSLQ_aem_SaJnO3vYJ5nYMbJtAu0xAA\u0026amp;h=AT1yy5wWhu895DCv5Cs0A-ERNE_eqMdmwHT8YtZP07b3Vpve6Jh_QkzIvNkSgoEaC5rmCb_Gr2EaZW5YYiXpndgHgG059XDvOJHpOLogahm-v_XmEQDRUe3DsboTWV7CYQjqq90\u0026amp;__tn__=-UK-R\u0026amp;c[0]=AT26hBcamzUEPaNJr-lwsJcsK840D8gswmeGXLQucgLWuhUbOOkoaQVLHRkLtzj_c5jdWb3raQWxQapI-u2IinKkhOaxujHKyhm40Zc1vdr95DZhZa-3vZn71t8CFIt61e4ZhTrPMCPmmn-5dv5LIqvR1Hb9GmnQl9XM7ALhEqZJRTaNTNf_whlaIZvZy2rTGF145yabXI8\u0022 rel=\u0022noopener noreferrer nofollow\u0022\u003E\u003Cstrong\u003E@echotone__\u003C/strong\u003E\u003C/a\u003E \u003Ca target=\u0022_blank\u0022 href=\u0022https://www.facebook.com/hashtag/jaaoccitanie2024?__eep__=6\u0026amp;__cft__[0]=AZXhBOwBuCSfqKKolWMWrchcChIroPEPNGfRJ6FdRjY-PeXMWHS79C8YHgCrzlsRjqPO2wSn6MAKd_5a5-mM8gGCBIDkvkQJSeM95_LWcamj2GvoL0VEnJfPbizRi5E1dDxmHVyojpD4XMRUzUpzmFTIry-DNs1mX34dWkUXPz73LY7eMxDIgdvnIc3ZgeLpNcE\u0026amp;__tn__=*NK-R\u0022 rel=\u0022noopener noreferrer nofollow\u0022\u003E\u003Cstrong\u003E#jaaoccitanie2024\u003C/strong\u003E\u003C/a\u003E\u003Cstrong\u003E\u003Cbr\u003E\u003C/strong\u003E\u003Ca target=\u0022_blank\u0022 href=\u0022https://www.facebook.com/hashtag/artistrunspace?__eep__=6\u0026amp;__cft__[0]=AZXhBOwBuCSfqKKolWMWrchcChIroPEPNGfRJ6FdRjY-PeXMWHS79C8YHgCrzlsRjqPO2wSn6MAKd_5a5-mM8gGCBIDkvkQJSeM95_LWcamj2GvoL0VEnJfPbizRi5E1dDxmHVyojpD4XMRUzUpzmFTIry-DNs1mX34dWkUXPz73LY7eMxDIgdvnIc3ZgeLpNcE\u0026amp;__tn__=*NK-R\u0022 rel=\u0022noopener noreferrer nofollow\u0022\u003E\u003Cstrong\u003E#artistrunspace\u003C/strong\u003E\u003C/a\u003E\u003Cstrong\u003E\u003Cbr\u003E\u003C/strong\u003E\u003Ca target=\u0022_blank\u0022 href=\u0022https://www.facebook.com/hashtag/photogravure?__eep__=6\u0026amp;__cft__[0]=AZXhBOwBuCSfqKKolWMWrchcChIroPEPNGfRJ6FdRjY-PeXMWHS79C8YHgCrzlsRjqPO2wSn6MAKd_5a5-mM8gGCBIDkvkQJSeM95_LWcamj2GvoL0VEnJfPbizRi5E1dDxmHVyojpD4XMRUzUpzmFTIry-DNs1mX34dWkUXPz73LY7eMxDIgdvnIc3ZgeLpNcE\u0026amp;__tn__=*NK-R\u0022 rel=\u0022noopener noreferrer nofollow\u0022\u003E\u003Cstrong\u003E#photogravure\u003C/strong\u003E\u003C/a\u003E\u003Cstrong\u003E\u003Cbr\u003E\u003C/strong\u003E\u003Ca target=\u0022_blank\u0022 href=\u0022https://www.facebook.com/hashtag/heliogravure?__eep__=6\u0026amp;__cft__[0]=AZXhBOwBuCSfqKKolWMWrchcChIroPEPNGfRJ6FdRjY-PeXMWHS79C8YHgCrzlsRjqPO2wSn6MAKd_5a5-mM8gGCBIDkvkQJSeM95_LWcamj2GvoL0VEnJfPbizRi5E1dDxmHVyojpD4XMRUzUpzmFTIry-DNs1mX34dWkUXPz73LY7eMxDIgdvnIc3ZgeLpNcE\u0026amp;__tn__=*NK-R\u0022 rel=\u0022noopener noreferrer nofollow\u0022\u003E\u003Cstrong\u003E#heliogravure\u003C/strong\u003E\u003C/a\u003E\u003Cstrong\u003E\u003Cbr\u003E\u003C/strong\u003E\u003Ca target=\u0022_blank\u0022 href=\u0022https://www.facebook.com/hashtag/ateliersdartistes?__eep__=6\u0026amp;__cft__[0]=AZXhBOwBuCSfqKKolWMWrchcChIroPEPNGfRJ6FdRjY-PeXMWHS79C8YHgCrzlsRjqPO2wSn6MAKd_5a5-mM8gGCBIDkvkQJSeM95_LWcamj2GvoL0VEnJfPbizRi5E1dDxmHVyojpD4XMRUzUpzmFTIry-DNs1mX34dWkUXPz73LY7eMxDIgdvnIc3ZgeLpNcE\u0026amp;__tn__=*NK-R\u0022 rel=\u0022noopener noreferrer nofollow\u0022\u003E\u003Cstrong\u003E#ateliersdartistes\u003C/strong\u003E\u003C/a\u003E\u003C/p\u003E",
+            "title": "JAA Occitanie"
+          },
+          "fr": {
+            "locations": [],
+            "schemaId": "2bd4ee39-8e6e-4128-9f08-a049cce49f23",
+            "schemaName": "unit",
+            "short": "7\u00E8me Journ\u00E9es des Ateliers d\u0027Artistes d\u0027Occitanie",
+            "tags": [
+              "atelier",
+              "programmation",
+              "p\u00E9riode"
+            ],
+            "temporal": [
+              {
+                "date": "2024-10-19T00:00:00Z",
+                "datetime": null,
+                "description": null
+              },
+              {
+                "date": "2024-10-20T00:00:00Z",
+                "datetime": null,
+                "description": null
+              }
+            ],
+            "text": "\u003Cp\u003EWeek-end du 19/20 octobre 2024, nous ouvrons les portes de \u00C9chotone, pour les 7\u00E8me Journ\u00E9es des ateliers d\u0027artistes d\u0027Occitanie. Avec la d\u00E9couverte des ateliers de gravures et plus sp\u00E9cifiquement de la technique de la photogravure sur photopolym\u00E8re.\u003Cbr\u003E\u003Cbr\u003EDans l\u0027ann\u00E9e, l\u0027\u00E9quipe d\u0027artiste de \u00C9CHOTONE propose des stages sur une ou deux journ\u00E9es abordant diff\u00E9rentes techniques li\u00E9es \u00E0 la photosensibilit\u00E9: distillations, pigments vivants, papiers botaniques (...)\u003C/p\u003E\u003Cp\u003E\u003Ca target=\u0022_blank\u0022 href=\u0022https://l.facebook.com/l.php?u=https%3A%2F%2Fwww.instagram.com%2F_u%2Fechotone__%3Ffbclid%3DIwZXh0bgNhZW0CMTAAAR2t7rEdA1S9gUiP-WsU2KorfPR1l1e2yYK2ipwhG2ltYobdllCVyrAqSLQ_aem_SaJnO3vYJ5nYMbJtAu0xAA\u0026amp;h=AT1yy5wWhu895DCv5Cs0A-ERNE_eqMdmwHT8YtZP07b3Vpve6Jh_QkzIvNkSgoEaC5rmCb_Gr2EaZW5YYiXpndgHgG059XDvOJHpOLogahm-v_XmEQDRUe3DsboTWV7CYQjqq90\u0026amp;__tn__=-UK-R\u0026amp;c[0]=AT26hBcamzUEPaNJr-lwsJcsK840D8gswmeGXLQucgLWuhUbOOkoaQVLHRkLtzj_c5jdWb3raQWxQapI-u2IinKkhOaxujHKyhm40Zc1vdr95DZhZa-3vZn71t8CFIt61e4ZhTrPMCPmmn-5dv5LIqvR1Hb9GmnQl9XM7ALhEqZJRTaNTNf_whlaIZvZy2rTGF145yabXI8\u0022 rel=\u0022noopener noreferrer nofollow\u0022\u003E\u003Cstrong\u003E@echotone__\u003C/strong\u003E\u003C/a\u003E \u003Ca target=\u0022_blank\u0022 href=\u0022https://www.facebook.com/hashtag/jaaoccitanie2024?__eep__=6\u0026amp;__cft__[0]=AZXhBOwBuCSfqKKolWMWrchcChIroPEPNGfRJ6FdRjY-PeXMWHS79C8YHgCrzlsRjqPO2wSn6MAKd_5a5-mM8gGCBIDkvkQJSeM95_LWcamj2GvoL0VEnJfPbizRi5E1dDxmHVyojpD4XMRUzUpzmFTIry-DNs1mX34dWkUXPz73LY7eMxDIgdvnIc3ZgeLpNcE\u0026amp;__tn__=*NK-R\u0022 rel=\u0022noopener noreferrer nofollow\u0022\u003E\u003Cstrong\u003E#jaaoccitanie2024\u003C/strong\u003E\u003C/a\u003E\u003Cstrong\u003E\u003Cbr\u003E\u003C/strong\u003E\u003Ca target=\u0022_blank\u0022 href=\u0022https://www.facebook.com/hashtag/artistrunspace?__eep__=6\u0026amp;__cft__[0]=AZXhBOwBuCSfqKKolWMWrchcChIroPEPNGfRJ6FdRjY-PeXMWHS79C8YHgCrzlsRjqPO2wSn6MAKd_5a5-mM8gGCBIDkvkQJSeM95_LWcamj2GvoL0VEnJfPbizRi5E1dDxmHVyojpD4XMRUzUpzmFTIry-DNs1mX34dWkUXPz73LY7eMxDIgdvnIc3ZgeLpNcE\u0026amp;__tn__=*NK-R\u0022 rel=\u0022noopener noreferrer nofollow\u0022\u003E\u003Cstrong\u003E#artistrunspace\u003C/strong\u003E\u003C/a\u003E\u003Cstrong\u003E\u003Cbr\u003E\u003C/strong\u003E\u003Ca target=\u0022_blank\u0022 href=\u0022https://www.facebook.com/hashtag/photogravure?__eep__=6\u0026amp;__cft__[0]=AZXhBOwBuCSfqKKolWMWrchcChIroPEPNGfRJ6FdRjY-PeXMWHS79C8YHgCrzlsRjqPO2wSn6MAKd_5a5-mM8gGCBIDkvkQJSeM95_LWcamj2GvoL0VEnJfPbizRi5E1dDxmHVyojpD4XMRUzUpzmFTIry-DNs1mX34dWkUXPz73LY7eMxDIgdvnIc3ZgeLpNcE\u0026amp;__tn__=*NK-R\u0022 rel=\u0022noopener noreferrer nofollow\u0022\u003E\u003Cstrong\u003E#photogravure\u003C/strong\u003E\u003C/a\u003E\u003Cstrong\u003E\u003Cbr\u003E\u003C/strong\u003E\u003Ca target=\u0022_blank\u0022 href=\u0022https://www.facebook.com/hashtag/heliogravure?__eep__=6\u0026amp;__cft__[0]=AZXhBOwBuCSfqKKolWMWrchcChIroPEPNGfRJ6FdRjY-PeXMWHS79C8YHgCrzlsRjqPO2wSn6MAKd_5a5-mM8gGCBIDkvkQJSeM95_LWcamj2GvoL0VEnJfPbizRi5E1dDxmHVyojpD4XMRUzUpzmFTIry-DNs1mX34dWkUXPz73LY7eMxDIgdvnIc3ZgeLpNcE\u0026amp;__tn__=*NK-R\u0022 rel=\u0022noopener noreferrer nofollow\u0022\u003E\u003Cstrong\u003E#heliogravure\u003C/strong\u003E\u003C/a\u003E\u003Cstrong\u003E\u003Cbr\u003E\u003C/strong\u003E\u003Ca target=\u0022_blank\u0022 href=\u0022https://www.facebook.com/hashtag/ateliersdartistes?__eep__=6\u0026amp;__cft__[0]=AZXhBOwBuCSfqKKolWMWrchcChIroPEPNGfRJ6FdRjY-PeXMWHS79C8YHgCrzlsRjqPO2wSn6MAKd_5a5-mM8gGCBIDkvkQJSeM95_LWcamj2GvoL0VEnJfPbizRi5E1dDxmHVyojpD4XMRUzUpzmFTIry-DNs1mX34dWkUXPz73LY7eMxDIgdvnIc3ZgeLpNcE\u0026amp;__tn__=*NK-R\u0022 rel=\u0022noopener noreferrer nofollow\u0022\u003E\u003Cstrong\u003E#ateliersdartistes\u003C/strong\u003E\u003C/a\u003E\u003C/p\u003E",
+            "title": "JAA Occitanie"
+          }
+        }
+      },
+      "editToken": "eyJhIjoiZWNob3RvbmUiLCJzIjoicGFnZSIsImkiOiI4ZDM1MTliMS01OTQ5LTRmOGYtOGMyOS03ZWZjZDA2NmI2ODIiLCJ1IjoiaHR0cHM6Ly9sYWFiLmRkbnMubmV0OjM4MDgwLyJ9",
+      "id": "8d3519b1-5949-4f8f-8c29-7efcd066b682",
+      "isDeleted": false,
+      "lastModified": "2025-03-09T22:43:45Z",
+      "lastModifiedBy": "subject:6798dad0167d31fb8ec7cc74",
+      "schemaDisplayName": "Page",
+      "schemaId": "d0379b0e-294e-4df6-9b2b-257b807b1467",
+      "schemaName": "page",
+      "status": "Published",
+      "statusColor": "#4bb958",
+      "version": 10
+    },
+    {
+      "_links": {
+        "delete": {
+          "href": "/api/content/echotone/page/2698e069-8dac-48f7-a6ce-ba43f3b35613",
+          "method": "DELETE"
+        },
+        "draft/create": {
+          "href": "/api/content/echotone/page/2698e069-8dac-48f7-a6ce-ba43f3b35613/draft",
+          "method": "POST"
+        },
+        "previous": {
+          "href": "/api/content/echotone/page/2698e069-8dac-48f7-a6ce-ba43f3b35613/5",
+          "method": "GET"
+        },
+        "self": {
+          "href": "/api/content/echotone/page/2698e069-8dac-48f7-a6ce-ba43f3b35613",
+          "method": "GET"
+        }
+      },
+      "created": "2025-01-29T12:59:19Z",
+      "createdBy": "subject:6798df7c5b784ee7b7cb52e1",
+      "data": {
+        "id": {
+          "iv": "master-miashs-x-artist-run-spaces-org"
+        },
+        "medias": {
+          "iv": [
+            {
+              "in": true,
+              "medias": [
+                "9967fbb7-af0a-4404-bb77-1446eeba9aca",
+                "a7a6679b-0180-4a7c-ba4d-c693652e38fc",
+                "a96c48a0-07c7-4ef8-b1fa-10485e903bba",
+                "03d8c341-a96d-4ca8-b464-48228504bef6",
+                "a30447a2-bd37-40e1-9a24-dac4c960c4fd",
+                "26e58796-75e2-4e0e-8663-8e8d8abdfb67"
+              ],
+              "schemaId": "1f4e3697-52bc-45d9-a7a8-65862c13ce4b",
+              "schemaName": "carousel"
+            }
+          ]
+        },
+        "unit": {
+          "en": {
+            "locations": [],
+            "schemaId": "2bd4ee39-8e6e-4128-9f08-a049cce49f23",
+            "schemaName": "unit",
+            "short": "PORTRAITS D\u0027ESPACES - \u00C0 propos de ce que les artist-run spaces ont \u00E0 dire d\u0027eux m\u00EAme",
+            "tags": [
+              "programmation",
+              "accueil"
+            ],
+            "temporal": [
+              {
+                "datetime": null,
+                "description": "2025"
+              }
+            ],
+            "text": "\u003Cp\u003EDans le cadre d\u0027un TER (travaux d\u0027\u00E9tudes et de recherches) est exp\u00E9riment\u00E9 une nouvelle m\u00E9thodologie d\u2019enrichissement des donn\u00E9es textuelles pour d\u00E9couvrir des relations s\u00E9mantiques entre les \u003Cem\u003Eartist-run spaces\u003C/em\u003E et des axes de repr\u00E9sentation pour des visualisations interactives. \u003Cbr\u003E\u003Cbr\u003ESur l\u0027ann\u00E9e 5 \u00E9tudiants en master1 MIASHS ((Math\u00E9matiques et Informatiques Appliqu\u00E9es aux Sciences Humaines et Sociales, UFR6) \u00E0 l\u0027Universit\u00E9 Paul Valery, travaillent sur les donn\u00E9es du site \u003Ca target=\u0022_blank\u0022 href=\u0022//artist-run-spaces.org\u0022 rel=\u0022noopener noreferrer nofollow\u0022 data-link-auto=\u0022\u0022\u003E\u003Cstrong\u003Eartist-run-spaces.org\u003C/strong\u003E\u003C/a\u003E. Ils sont encadr\u00E9s par Fran\u00E7ois-David Collin, ing\u00E9nieur de recherche au CNRS \u00E0 l\u0027institut de Math\u00E9matique Alexander Grothendieck et expert domaine : Sabrina Issa, artiste chercheur, fondatrice de l\u0027initiative artist-run-spaces.org.\u003C/p\u003E\u003Cp\u003E\u003Ca target=\u0022_blank\u0022 href=\u0022https://www.facebook.com/hashtag/artistrunspace?__eep__=6\u0026amp;__cft__[0]=AZWmTt4tkjK2UHSwcUAAZDaySLzLmjmkMwklidnaViRxD2ANUK85T46CeZyIocK76DgQRF-vgkC-yjYWUvmW1sSfktzh-Pkc7Hxj4omn6Zxqb0LGh1UxpidzGjD9j2MsSF6njAcHZH_P2if4cWycorEP\u0026amp;__tn__=*NK-R\u0022 rel=\u0022noopener noreferrer nofollow\u0022\u003E\u003Cstrong\u003E#artistrunspace\u003C/strong\u003E\u003C/a\u003E \u003Cbr\u003E\u003Ca target=\u0022_blank\u0022 href=\u0022https://www.facebook.com/hashtag/artistrun?__eep__=6\u0026amp;__cft__[0]=AZWmTt4tkjK2UHSwcUAAZDaySLzLmjmkMwklidnaViRxD2ANUK85T46CeZyIocK76DgQRF-vgkC-yjYWUvmW1sSfktzh-Pkc7Hxj4omn6Zxqb0LGh1UxpidzGjD9j2MsSF6njAcHZH_P2if4cWycorEP\u0026amp;__tn__=*NK-R\u0022 rel=\u0022noopener noreferrer nofollow\u0022\u003E\u003Cstrong\u003E#artistrun\u003C/strong\u003E\u003C/a\u003E\u003Cstrong\u003E\u003Cbr\u003E\u003C/strong\u003E\u003Ca target=\u0022_blank\u0022 href=\u0022https://www.facebook.com/hashtag/miaschs?__eep__=6\u0026amp;__cft__[0]=AZWmTt4tkjK2UHSwcUAAZDaySLzLmjmkMwklidnaViRxD2ANUK85T46CeZyIocK76DgQRF-vgkC-yjYWUvmW1sSfktzh-Pkc7Hxj4omn6Zxqb0LGh1UxpidzGjD9j2MsSF6njAcHZH_P2if4cWycorEP\u0026amp;__tn__=*NK-R\u0022 rel=\u0022noopener noreferrer nofollow\u0022\u003E\u003Cstrong\u003E#miashs\u003C/strong\u003E\u003C/a\u003E\u003C/p\u003E",
+            "title": "Master MIASHS X artist-run-spaces.org"
+          },
+          "fr": {
+            "locations": [],
+            "schemaId": "2bd4ee39-8e6e-4128-9f08-a049cce49f23",
+            "schemaName": "unit",
+            "short": "PORTRAITS D\u0027ESPACES - \u00C0 propos de ce que les artist-run spaces ont \u00E0 dire d\u0027eux m\u00EAme",
+            "tags": [
+              "programmation",
+              "accueil"
+            ],
+            "temporal": [
+              {
+                "datetime": null,
+                "description": "2025"
+              }
+            ],
+            "text": "\u003Cp\u003EDans le cadre d\u0027un TER (travaux d\u0027\u00E9tudes et de recherches) est exp\u00E9riment\u00E9 une nouvelle m\u00E9thodologie d\u2019enrichissement des donn\u00E9es textuelles pour d\u00E9couvrir des relations s\u00E9mantiques entre les \u003Cem\u003Eartist-run spaces\u003C/em\u003E et des axes de repr\u00E9sentation pour des visualisations interactives. \u003Cbr\u003E\u003Cbr\u003ESur l\u0027ann\u00E9e 5 \u00E9tudiants en master1 MIASHS ((Math\u00E9matiques et Informatiques Appliqu\u00E9es aux Sciences Humaines et Sociales, UFR6) \u00E0 l\u0027Universit\u00E9 Paul Valery, travaillent sur les donn\u00E9es du site \u003Ca target=\u0022_blank\u0022 href=\u0022//artist-run-spaces.org\u0022 rel=\u0022noopener noreferrer nofollow\u0022 data-link-auto=\u0022\u0022\u003E\u003Cstrong\u003Eartist-run-spaces.org\u003C/strong\u003E\u003C/a\u003E. Ils sont encadr\u00E9s par Fran\u00E7ois-David Collin, ing\u00E9nieur de recherche au CNRS \u00E0 l\u0027institut de Math\u00E9matique Alexander Grothendieck et expert domaine : Sabrina Issa, artiste chercheur, fondatrice de l\u0027initiative artist-run-spaces.org.\u003C/p\u003E\u003Cp\u003E\u003Ca target=\u0022_blank\u0022 href=\u0022https://www.facebook.com/hashtag/artistrunspace?__eep__=6\u0026amp;__cft__[0]=AZWmTt4tkjK2UHSwcUAAZDaySLzLmjmkMwklidnaViRxD2ANUK85T46CeZyIocK76DgQRF-vgkC-yjYWUvmW1sSfktzh-Pkc7Hxj4omn6Zxqb0LGh1UxpidzGjD9j2MsSF6njAcHZH_P2if4cWycorEP\u0026amp;__tn__=*NK-R\u0022 rel=\u0022noopener noreferrer nofollow\u0022\u003E\u003Cstrong\u003E#artistrunspace\u003C/strong\u003E\u003C/a\u003E \u003Cbr\u003E\u003Ca target=\u0022_blank\u0022 href=\u0022https://www.facebook.com/hashtag/artistrun?__eep__=6\u0026amp;__cft__[0]=AZWmTt4tkjK2UHSwcUAAZDaySLzLmjmkMwklidnaViRxD2ANUK85T46CeZyIocK76DgQRF-vgkC-yjYWUvmW1sSfktzh-Pkc7Hxj4omn6Zxqb0LGh1UxpidzGjD9j2MsSF6njAcHZH_P2if4cWycorEP\u0026amp;__tn__=*NK-R\u0022 rel=\u0022noopener noreferrer nofollow\u0022\u003E\u003Cstrong\u003E#artistrun\u003C/strong\u003E\u003C/a\u003E\u003Cstrong\u003E\u003Cbr\u003E\u003C/strong\u003E\u003Ca target=\u0022_blank\u0022 href=\u0022https://www.facebook.com/hashtag/miaschs?__eep__=6\u0026amp;__cft__[0]=AZWmTt4tkjK2UHSwcUAAZDaySLzLmjmkMwklidnaViRxD2ANUK85T46CeZyIocK76DgQRF-vgkC-yjYWUvmW1sSfktzh-Pkc7Hxj4omn6Zxqb0LGh1UxpidzGjD9j2MsSF6njAcHZH_P2if4cWycorEP\u0026amp;__tn__=*NK-R\u0022 rel=\u0022noopener noreferrer nofollow\u0022\u003E\u003Cstrong\u003E#miashs\u003C/strong\u003E\u003C/a\u003E\u003C/p\u003E",
+            "title": "Master MIASHS X artist-run-spaces.org"
+          }
+        }
+      },
+      "editToken": "eyJhIjoiZWNob3RvbmUiLCJzIjoicGFnZSIsImkiOiIyNjk4ZTA2OS04ZGFjLTQ4ZjctYTZjZS1iYTQzZjNiMzU2MTMiLCJ1IjoiaHR0cHM6Ly9sYWFiLmRkbnMubmV0OjM4MDgwLyJ9",
+      "id": "2698e069-8dac-48f7-a6ce-ba43f3b35613",
+      "isDeleted": false,
+      "lastModified": "2025-03-09T22:26:37Z",
       "lastModifiedBy": "subject:6798dad0167d31fb8ec7cc74",
       "schemaDisplayName": "Page",
       "schemaId": "d0379b0e-294e-4df6-9b2b-257b807b1467",
@@ -370,110 +689,6 @@
     {
       "_links": {
         "delete": {
-          "href": "/api/content/echotone/page/8d3519b1-5949-4f8f-8c29-7efcd066b682",
-          "method": "DELETE"
-        },
-        "draft/create": {
-          "href": "/api/content/echotone/page/8d3519b1-5949-4f8f-8c29-7efcd066b682/draft",
-          "method": "POST"
-        },
-        "previous": {
-          "href": "/api/content/echotone/page/8d3519b1-5949-4f8f-8c29-7efcd066b682/8",
-          "method": "GET"
-        },
-        "self": {
-          "href": "/api/content/echotone/page/8d3519b1-5949-4f8f-8c29-7efcd066b682",
-          "method": "GET"
-        }
-      },
-      "created": "2025-01-27T16:56:40Z",
-      "createdBy": "subject:6798dad0167d31fb8ec7cc74",
-      "data": {
-        "id": {
-          "iv": "jaa-occitanie"
-        },
-        "medias": {
-          "iv": [
-            {
-              "in": true,
-              "medias": [
-                "a94f31e5-3836-4bfe-a9b6-9fc92851cb8e",
-                "6b519d90-64e0-42a1-8486-87fbc0d6bab8",
-                "8b25f26d-c892-46f9-b714-4715ea3c6f15",
-                "5dfc89a4-e4e0-4239-ac39-85154a0c8ffa",
-                "67ef408d-d649-4293-b4a5-a883dbd68a0b"
-              ],
-              "schemaId": "1f4e3697-52bc-45d9-a7a8-65862c13ce4b",
-              "schemaName": "carousel"
-            }
-          ]
-        },
-        "unit": {
-          "en": {
-            "locations": [],
-            "schemaId": "2bd4ee39-8e6e-4128-9f08-a049cce49f23",
-            "schemaName": "unit",
-            "short": "7\u00E8me Journ\u00E9es des Ateliers d\u0027Artistes d\u0027Occitanie",
-            "tags": [
-              "atelier",
-              "programmation"
-            ],
-            "temporal": [
-              {
-                "date": "2024-10-19T00:00:00Z",
-                "datetime": null,
-                "description": null
-              },
-              {
-                "date": "2024-10-20T00:00:00Z",
-                "datetime": null,
-                "description": null
-              }
-            ],
-            "text": "\u003Cp\u003EWeek-end du 19/20 octobre 2024, nous ouvrons les portes de \u00C9chotone, pour les 7\u00E8me Journ\u00E9es des ateliers d\u0027artistes d\u0027Occitanie. Avec la d\u00E9couverte des ateliers de gravures et plus sp\u00E9cifiquement de la technique de la photogravure sur photopolym\u00E8re.\u003Cbr\u003E\u003Cbr\u003EDans l\u0027ann\u00E9e, l\u0027\u00E9quipe d\u0027artiste de \u00C9CHOTONE propose des stages sur une ou deux journ\u00E9es abordant diff\u00E9rentes techniques li\u00E9es \u00E0 la photosensibilit\u00E9: distillations, pigments vivants, papiers botaniques (...)\u003C/p\u003E\u003Cp\u003E\u003Ca target=\u0022_blank\u0022 href=\u0022https://l.facebook.com/l.php?u=https%3A%2F%2Fwww.instagram.com%2F_u%2Fechotone__%3Ffbclid%3DIwZXh0bgNhZW0CMTAAAR2t7rEdA1S9gUiP-WsU2KorfPR1l1e2yYK2ipwhG2ltYobdllCVyrAqSLQ_aem_SaJnO3vYJ5nYMbJtAu0xAA\u0026amp;h=AT1yy5wWhu895DCv5Cs0A-ERNE_eqMdmwHT8YtZP07b3Vpve6Jh_QkzIvNkSgoEaC5rmCb_Gr2EaZW5YYiXpndgHgG059XDvOJHpOLogahm-v_XmEQDRUe3DsboTWV7CYQjqq90\u0026amp;__tn__=-UK-R\u0026amp;c[0]=AT26hBcamzUEPaNJr-lwsJcsK840D8gswmeGXLQucgLWuhUbOOkoaQVLHRkLtzj_c5jdWb3raQWxQapI-u2IinKkhOaxujHKyhm40Zc1vdr95DZhZa-3vZn71t8CFIt61e4ZhTrPMCPmmn-5dv5LIqvR1Hb9GmnQl9XM7ALhEqZJRTaNTNf_whlaIZvZy2rTGF145yabXI8\u0022 rel=\u0022noopener noreferrer nofollow\u0022\u003E\u003Cstrong\u003E@echotone__\u003C/strong\u003E\u003C/a\u003E \u003Ca target=\u0022_blank\u0022 href=\u0022https://www.facebook.com/hashtag/jaaoccitanie2024?__eep__=6\u0026amp;__cft__[0]=AZXhBOwBuCSfqKKolWMWrchcChIroPEPNGfRJ6FdRjY-PeXMWHS79C8YHgCrzlsRjqPO2wSn6MAKd_5a5-mM8gGCBIDkvkQJSeM95_LWcamj2GvoL0VEnJfPbizRi5E1dDxmHVyojpD4XMRUzUpzmFTIry-DNs1mX34dWkUXPz73LY7eMxDIgdvnIc3ZgeLpNcE\u0026amp;__tn__=*NK-R\u0022 rel=\u0022noopener noreferrer nofollow\u0022\u003E\u003Cstrong\u003E#jaaoccitanie2024\u003C/strong\u003E\u003C/a\u003E\u003Cstrong\u003E\u003Cbr\u003E\u003C/strong\u003E\u003Ca target=\u0022_blank\u0022 href=\u0022https://www.facebook.com/hashtag/artistrunspace?__eep__=6\u0026amp;__cft__[0]=AZXhBOwBuCSfqKKolWMWrchcChIroPEPNGfRJ6FdRjY-PeXMWHS79C8YHgCrzlsRjqPO2wSn6MAKd_5a5-mM8gGCBIDkvkQJSeM95_LWcamj2GvoL0VEnJfPbizRi5E1dDxmHVyojpD4XMRUzUpzmFTIry-DNs1mX34dWkUXPz73LY7eMxDIgdvnIc3ZgeLpNcE\u0026amp;__tn__=*NK-R\u0022 rel=\u0022noopener noreferrer nofollow\u0022\u003E\u003Cstrong\u003E#artistrunspace\u003C/strong\u003E\u003C/a\u003E\u003Cstrong\u003E\u003Cbr\u003E\u003C/strong\u003E\u003Ca target=\u0022_blank\u0022 href=\u0022https://www.facebook.com/hashtag/photogravure?__eep__=6\u0026amp;__cft__[0]=AZXhBOwBuCSfqKKolWMWrchcChIroPEPNGfRJ6FdRjY-PeXMWHS79C8YHgCrzlsRjqPO2wSn6MAKd_5a5-mM8gGCBIDkvkQJSeM95_LWcamj2GvoL0VEnJfPbizRi5E1dDxmHVyojpD4XMRUzUpzmFTIry-DNs1mX34dWkUXPz73LY7eMxDIgdvnIc3ZgeLpNcE\u0026amp;__tn__=*NK-R\u0022 rel=\u0022noopener noreferrer nofollow\u0022\u003E\u003Cstrong\u003E#photogravure\u003C/strong\u003E\u003C/a\u003E\u003Cstrong\u003E\u003Cbr\u003E\u003C/strong\u003E\u003Ca target=\u0022_blank\u0022 href=\u0022https://www.facebook.com/hashtag/heliogravure?__eep__=6\u0026amp;__cft__[0]=AZXhBOwBuCSfqKKolWMWrchcChIroPEPNGfRJ6FdRjY-PeXMWHS79C8YHgCrzlsRjqPO2wSn6MAKd_5a5-mM8gGCBIDkvkQJSeM95_LWcamj2GvoL0VEnJfPbizRi5E1dDxmHVyojpD4XMRUzUpzmFTIry-DNs1mX34dWkUXPz73LY7eMxDIgdvnIc3ZgeLpNcE\u0026amp;__tn__=*NK-R\u0022 rel=\u0022noopener noreferrer nofollow\u0022\u003E\u003Cstrong\u003E#heliogravure\u003C/strong\u003E\u003C/a\u003E\u003Cstrong\u003E\u003Cbr\u003E\u003C/strong\u003E\u003Ca target=\u0022_blank\u0022 href=\u0022https://www.facebook.com/hashtag/ateliersdartistes?__eep__=6\u0026amp;__cft__[0]=AZXhBOwBuCSfqKKolWMWrchcChIroPEPNGfRJ6FdRjY-PeXMWHS79C8YHgCrzlsRjqPO2wSn6MAKd_5a5-mM8gGCBIDkvkQJSeM95_LWcamj2GvoL0VEnJfPbizRi5E1dDxmHVyojpD4XMRUzUpzmFTIry-DNs1mX34dWkUXPz73LY7eMxDIgdvnIc3ZgeLpNcE\u0026amp;__tn__=*NK-R\u0022 rel=\u0022noopener noreferrer nofollow\u0022\u003E\u003Cstrong\u003E#ateliersdartistes\u003C/strong\u003E\u003C/a\u003E\u003C/p\u003E",
-            "title": "JAA Occitanie"
-          },
-          "fr": {
-            "locations": [],
-            "schemaId": "2bd4ee39-8e6e-4128-9f08-a049cce49f23",
-            "schemaName": "unit",
-            "short": "7\u00E8me Journ\u00E9es des Ateliers d\u0027Artistes d\u0027Occitanie",
-            "tags": [
-              "atelier",
-              "programmation"
-            ],
-            "temporal": [
-              {
-                "date": "2024-10-19T00:00:00Z",
-                "datetime": null,
-                "description": null
-              },
-              {
-                "date": "2024-10-20T00:00:00Z",
-                "datetime": null,
-                "description": null
-              }
-            ],
-            "text": "\u003Cp\u003EWeek-end du 19/20 octobre 2024, nous ouvrons les portes de \u00C9chotone, pour les 7\u00E8me Journ\u00E9es des ateliers d\u0027artistes d\u0027Occitanie. Avec la d\u00E9couverte des ateliers de gravures et plus sp\u00E9cifiquement de la technique de la photogravure sur photopolym\u00E8re.\u003Cbr\u003E\u003Cbr\u003EDans l\u0027ann\u00E9e, l\u0027\u00E9quipe d\u0027artiste de \u00C9CHOTONE propose des stages sur une ou deux journ\u00E9es abordant diff\u00E9rentes techniques li\u00E9es \u00E0 la photosensibilit\u00E9: distillations, pigments vivants, papiers botaniques (...)\u003C/p\u003E\u003Cp\u003E\u003Ca target=\u0022_blank\u0022 href=\u0022https://l.facebook.com/l.php?u=https%3A%2F%2Fwww.instagram.com%2F_u%2Fechotone__%3Ffbclid%3DIwZXh0bgNhZW0CMTAAAR2t7rEdA1S9gUiP-WsU2KorfPR1l1e2yYK2ipwhG2ltYobdllCVyrAqSLQ_aem_SaJnO3vYJ5nYMbJtAu0xAA\u0026amp;h=AT1yy5wWhu895DCv5Cs0A-ERNE_eqMdmwHT8YtZP07b3Vpve6Jh_QkzIvNkSgoEaC5rmCb_Gr2EaZW5YYiXpndgHgG059XDvOJHpOLogahm-v_XmEQDRUe3DsboTWV7CYQjqq90\u0026amp;__tn__=-UK-R\u0026amp;c[0]=AT26hBcamzUEPaNJr-lwsJcsK840D8gswmeGXLQucgLWuhUbOOkoaQVLHRkLtzj_c5jdWb3raQWxQapI-u2IinKkhOaxujHKyhm40Zc1vdr95DZhZa-3vZn71t8CFIt61e4ZhTrPMCPmmn-5dv5LIqvR1Hb9GmnQl9XM7ALhEqZJRTaNTNf_whlaIZvZy2rTGF145yabXI8\u0022 rel=\u0022noopener noreferrer nofollow\u0022\u003E\u003Cstrong\u003E@echotone__\u003C/strong\u003E\u003C/a\u003E \u003Ca target=\u0022_blank\u0022 href=\u0022https://www.facebook.com/hashtag/jaaoccitanie2024?__eep__=6\u0026amp;__cft__[0]=AZXhBOwBuCSfqKKolWMWrchcChIroPEPNGfRJ6FdRjY-PeXMWHS79C8YHgCrzlsRjqPO2wSn6MAKd_5a5-mM8gGCBIDkvkQJSeM95_LWcamj2GvoL0VEnJfPbizRi5E1dDxmHVyojpD4XMRUzUpzmFTIry-DNs1mX34dWkUXPz73LY7eMxDIgdvnIc3ZgeLpNcE\u0026amp;__tn__=*NK-R\u0022 rel=\u0022noopener noreferrer nofollow\u0022\u003E\u003Cstrong\u003E#jaaoccitanie2024\u003C/strong\u003E\u003C/a\u003E\u003Cstrong\u003E\u003Cbr\u003E\u003C/strong\u003E\u003Ca target=\u0022_blank\u0022 href=\u0022https://www.facebook.com/hashtag/artistrunspace?__eep__=6\u0026amp;__cft__[0]=AZXhBOwBuCSfqKKolWMWrchcChIroPEPNGfRJ6FdRjY-PeXMWHS79C8YHgCrzlsRjqPO2wSn6MAKd_5a5-mM8gGCBIDkvkQJSeM95_LWcamj2GvoL0VEnJfPbizRi5E1dDxmHVyojpD4XMRUzUpzmFTIry-DNs1mX34dWkUXPz73LY7eMxDIgdvnIc3ZgeLpNcE\u0026amp;__tn__=*NK-R\u0022 rel=\u0022noopener noreferrer nofollow\u0022\u003E\u003Cstrong\u003E#artistrunspace\u003C/strong\u003E\u003C/a\u003E\u003Cstrong\u003E\u003Cbr\u003E\u003C/strong\u003E\u003Ca target=\u0022_blank\u0022 href=\u0022https://www.facebook.com/hashtag/photogravure?__eep__=6\u0026amp;__cft__[0]=AZXhBOwBuCSfqKKolWMWrchcChIroPEPNGfRJ6FdRjY-PeXMWHS79C8YHgCrzlsRjqPO2wSn6MAKd_5a5-mM8gGCBIDkvkQJSeM95_LWcamj2GvoL0VEnJfPbizRi5E1dDxmHVyojpD4XMRUzUpzmFTIry-DNs1mX34dWkUXPz73LY7eMxDIgdvnIc3ZgeLpNcE\u0026amp;__tn__=*NK-R\u0022 rel=\u0022noopener noreferrer nofollow\u0022\u003E\u003Cstrong\u003E#photogravure\u003C/strong\u003E\u003C/a\u003E\u003Cstrong\u003E\u003Cbr\u003E\u003C/strong\u003E\u003Ca target=\u0022_blank\u0022 href=\u0022https://www.facebook.com/hashtag/heliogravure?__eep__=6\u0026amp;__cft__[0]=AZXhBOwBuCSfqKKolWMWrchcChIroPEPNGfRJ6FdRjY-PeXMWHS79C8YHgCrzlsRjqPO2wSn6MAKd_5a5-mM8gGCBIDkvkQJSeM95_LWcamj2GvoL0VEnJfPbizRi5E1dDxmHVyojpD4XMRUzUpzmFTIry-DNs1mX34dWkUXPz73LY7eMxDIgdvnIc3ZgeLpNcE\u0026amp;__tn__=*NK-R\u0022 rel=\u0022noopener noreferrer nofollow\u0022\u003E\u003Cstrong\u003E#heliogravure\u003C/strong\u003E\u003C/a\u003E\u003Cstrong\u003E\u003Cbr\u003E\u003C/strong\u003E\u003Ca target=\u0022_blank\u0022 href=\u0022https://www.facebook.com/hashtag/ateliersdartistes?__eep__=6\u0026amp;__cft__[0]=AZXhBOwBuCSfqKKolWMWrchcChIroPEPNGfRJ6FdRjY-PeXMWHS79C8YHgCrzlsRjqPO2wSn6MAKd_5a5-mM8gGCBIDkvkQJSeM95_LWcamj2GvoL0VEnJfPbizRi5E1dDxmHVyojpD4XMRUzUpzmFTIry-DNs1mX34dWkUXPz73LY7eMxDIgdvnIc3ZgeLpNcE\u0026amp;__tn__=*NK-R\u0022 rel=\u0022noopener noreferrer nofollow\u0022\u003E\u003Cstrong\u003E#ateliersdartistes\u003C/strong\u003E\u003C/a\u003E\u003C/p\u003E",
-            "title": "JAA Occitanie"
-          }
-        }
-      },
-      "editToken": "eyJhIjoiZWNob3RvbmUiLCJzIjoicGFnZSIsImkiOiI4ZDM1MTliMS01OTQ5LTRmOGYtOGMyOS03ZWZjZDA2NmI2ODIiLCJ1IjoiaHR0cHM6Ly9sYWFiLmRkbnMubmV0OjM4MDgwLyJ9",
-      "id": "8d3519b1-5949-4f8f-8c29-7efcd066b682",
-      "isDeleted": false,
-      "lastModified": "2025-03-08T21:08:20Z",
-      "lastModifiedBy": "subject:6798dad0167d31fb8ec7cc74",
-      "schemaDisplayName": "Page",
-      "schemaId": "d0379b0e-294e-4df6-9b2b-257b807b1467",
-      "schemaName": "page",
-      "status": "Published",
-      "statusColor": "#4bb958",
-      "version": 9
-    },
-    {
-      "_links": {
-        "delete": {
           "href": "/api/content/echotone/page/df209168-9ee7-4bb2-8dfe-8d3fbf1c95fd",
           "method": "DELETE"
         },
@@ -668,207 +883,6 @@
       "status": "Published",
       "statusColor": "#4bb958",
       "version": 5
-    },
-    {
-      "_links": {
-        "delete": {
-          "href": "/api/content/echotone/page/2698e069-8dac-48f7-a6ce-ba43f3b35613",
-          "method": "DELETE"
-        },
-        "draft/create": {
-          "href": "/api/content/echotone/page/2698e069-8dac-48f7-a6ce-ba43f3b35613/draft",
-          "method": "POST"
-        },
-        "previous": {
-          "href": "/api/content/echotone/page/2698e069-8dac-48f7-a6ce-ba43f3b35613/4",
-          "method": "GET"
-        },
-        "self": {
-          "href": "/api/content/echotone/page/2698e069-8dac-48f7-a6ce-ba43f3b35613",
-          "method": "GET"
-        }
-      },
-      "created": "2025-01-29T12:59:19Z",
-      "createdBy": "subject:6798df7c5b784ee7b7cb52e1",
-      "data": {
-        "id": {
-          "iv": "master-miashs-x-artist-run-spaces-org"
-        },
-        "medias": {
-          "iv": [
-            {
-              "in": true,
-              "medias": [
-                "9967fbb7-af0a-4404-bb77-1446eeba9aca",
-                "a7a6679b-0180-4a7c-ba4d-c693652e38fc",
-                "a96c48a0-07c7-4ef8-b1fa-10485e903bba",
-                "03d8c341-a96d-4ca8-b464-48228504bef6",
-                "a30447a2-bd37-40e1-9a24-dac4c960c4fd",
-                "26e58796-75e2-4e0e-8663-8e8d8abdfb67"
-              ],
-              "schemaId": "1f4e3697-52bc-45d9-a7a8-65862c13ce4b",
-              "schemaName": "carousel"
-            }
-          ]
-        },
-        "unit": {
-          "en": {
-            "locations": [],
-            "schemaId": "2bd4ee39-8e6e-4128-9f08-a049cce49f23",
-            "schemaName": "unit",
-            "short": "PORTRAITS D\u0027ESPACES - \u00C0 propos de ce que les artist-run spaces ont \u00E0 dire d\u0027eux m\u00EAme",
-            "tags": [
-              "programmation",
-              "accueil"
-            ],
-            "temporal": [
-              {
-                "date": "2025-02-28T00:00:00Z",
-                "datetime": null,
-                "description": null
-              }
-            ],
-            "text": "\u003Cp\u003EDans le cadre d\u0027un TER (travaux d\u0027\u00E9tudes et de recherches) est exp\u00E9riment\u00E9 une nouvelle m\u00E9thodologie d\u2019enrichissement des donn\u00E9es textuelles pour d\u00E9couvrir des relations s\u00E9mantiques entre les \u003Cem\u003Eartist-run spaces\u003C/em\u003E et des axes de repr\u00E9sentation pour des visualisations interactives. \u003Cbr\u003E\u003Cbr\u003ESur l\u0027ann\u00E9e 5 \u00E9tudiants en master1 MIASHS ((Math\u00E9matiques et Informatiques Appliqu\u00E9es aux Sciences Humaines et Sociales, UFR6) \u00E0 l\u0027Universit\u00E9 Paul Valery, travaillent sur les donn\u00E9es du site \u003Ca target=\u0022_blank\u0022 href=\u0022//artist-run-spaces.org\u0022 rel=\u0022noopener noreferrer nofollow\u0022 data-link-auto=\u0022\u0022\u003E\u003Cstrong\u003Eartist-run-spaces.org\u003C/strong\u003E\u003C/a\u003E. Ils sont encadr\u00E9s par Fran\u00E7ois-David Collin, ing\u00E9nieur de recherche au CNRS \u00E0 l\u0027institut de Math\u00E9matique Alexander Grothendieck et expert domaine : Sabrina Issa, artiste chercheur, fondatrice de l\u0027initiative artist-run-spaces.org.\u003C/p\u003E\u003Cp\u003E\u003Ca target=\u0022_blank\u0022 href=\u0022https://www.facebook.com/hashtag/artistrunspace?__eep__=6\u0026amp;__cft__[0]=AZWmTt4tkjK2UHSwcUAAZDaySLzLmjmkMwklidnaViRxD2ANUK85T46CeZyIocK76DgQRF-vgkC-yjYWUvmW1sSfktzh-Pkc7Hxj4omn6Zxqb0LGh1UxpidzGjD9j2MsSF6njAcHZH_P2if4cWycorEP\u0026amp;__tn__=*NK-R\u0022 rel=\u0022noopener noreferrer nofollow\u0022\u003E\u003Cstrong\u003E#artistrunspace\u003C/strong\u003E\u003C/a\u003E \u003Cbr\u003E\u003Ca target=\u0022_blank\u0022 href=\u0022https://www.facebook.com/hashtag/artistrun?__eep__=6\u0026amp;__cft__[0]=AZWmTt4tkjK2UHSwcUAAZDaySLzLmjmkMwklidnaViRxD2ANUK85T46CeZyIocK76DgQRF-vgkC-yjYWUvmW1sSfktzh-Pkc7Hxj4omn6Zxqb0LGh1UxpidzGjD9j2MsSF6njAcHZH_P2if4cWycorEP\u0026amp;__tn__=*NK-R\u0022 rel=\u0022noopener noreferrer nofollow\u0022\u003E\u003Cstrong\u003E#artistrun\u003C/strong\u003E\u003C/a\u003E\u003Cstrong\u003E\u003Cbr\u003E\u003C/strong\u003E\u003Ca target=\u0022_blank\u0022 href=\u0022https://www.facebook.com/hashtag/miaschs?__eep__=6\u0026amp;__cft__[0]=AZWmTt4tkjK2UHSwcUAAZDaySLzLmjmkMwklidnaViRxD2ANUK85T46CeZyIocK76DgQRF-vgkC-yjYWUvmW1sSfktzh-Pkc7Hxj4omn6Zxqb0LGh1UxpidzGjD9j2MsSF6njAcHZH_P2if4cWycorEP\u0026amp;__tn__=*NK-R\u0022 rel=\u0022noopener noreferrer nofollow\u0022\u003E\u003Cstrong\u003E#miashs\u003C/strong\u003E\u003C/a\u003E\u003C/p\u003E",
-            "title": "Master MIASHS X artist-run-spaces.org"
-          },
-          "fr": {
-            "locations": [],
-            "schemaId": "2bd4ee39-8e6e-4128-9f08-a049cce49f23",
-            "schemaName": "unit",
-            "short": "PORTRAITS D\u0027ESPACES - \u00C0 propos de ce que les artist-run spaces ont \u00E0 dire d\u0027eux m\u00EAme",
-            "tags": [
-              "programmation",
-              "accueil"
-            ],
-            "temporal": [
-              {
-                "date": "2025-02-28T00:00:00Z",
-                "datetime": null,
-                "description": null
-              }
-            ],
-            "text": "\u003Cp\u003EDans le cadre d\u0027un TER (travaux d\u0027\u00E9tudes et de recherches) est exp\u00E9riment\u00E9 une nouvelle m\u00E9thodologie d\u2019enrichissement des donn\u00E9es textuelles pour d\u00E9couvrir des relations s\u00E9mantiques entre les \u003Cem\u003Eartist-run spaces\u003C/em\u003E et des axes de repr\u00E9sentation pour des visualisations interactives. \u003Cbr\u003E\u003Cbr\u003ESur l\u0027ann\u00E9e 5 \u00E9tudiants en master1 MIASHS ((Math\u00E9matiques et Informatiques Appliqu\u00E9es aux Sciences Humaines et Sociales, UFR6) \u00E0 l\u0027Universit\u00E9 Paul Valery, travaillent sur les donn\u00E9es du site \u003Ca target=\u0022_blank\u0022 href=\u0022//artist-run-spaces.org\u0022 rel=\u0022noopener noreferrer nofollow\u0022 data-link-auto=\u0022\u0022\u003E\u003Cstrong\u003Eartist-run-spaces.org\u003C/strong\u003E\u003C/a\u003E. Ils sont encadr\u00E9s par Fran\u00E7ois-David Collin, ing\u00E9nieur de recherche au CNRS \u00E0 l\u0027institut de Math\u00E9matique Alexander Grothendieck et expert domaine : Sabrina Issa, artiste chercheur, fondatrice de l\u0027initiative artist-run-spaces.org.\u003C/p\u003E\u003Cp\u003E\u003Ca target=\u0022_blank\u0022 href=\u0022https://www.facebook.com/hashtag/artistrunspace?__eep__=6\u0026amp;__cft__[0]=AZWmTt4tkjK2UHSwcUAAZDaySLzLmjmkMwklidnaViRxD2ANUK85T46CeZyIocK76DgQRF-vgkC-yjYWUvmW1sSfktzh-Pkc7Hxj4omn6Zxqb0LGh1UxpidzGjD9j2MsSF6njAcHZH_P2if4cWycorEP\u0026amp;__tn__=*NK-R\u0022 rel=\u0022noopener noreferrer nofollow\u0022\u003E\u003Cstrong\u003E#artistrunspace\u003C/strong\u003E\u003C/a\u003E \u003Cbr\u003E\u003Ca target=\u0022_blank\u0022 href=\u0022https://www.facebook.com/hashtag/artistrun?__eep__=6\u0026amp;__cft__[0]=AZWmTt4tkjK2UHSwcUAAZDaySLzLmjmkMwklidnaViRxD2ANUK85T46CeZyIocK76DgQRF-vgkC-yjYWUvmW1sSfktzh-Pkc7Hxj4omn6Zxqb0LGh1UxpidzGjD9j2MsSF6njAcHZH_P2if4cWycorEP\u0026amp;__tn__=*NK-R\u0022 rel=\u0022noopener noreferrer nofollow\u0022\u003E\u003Cstrong\u003E#artistrun\u003C/strong\u003E\u003C/a\u003E\u003Cstrong\u003E\u003Cbr\u003E\u003C/strong\u003E\u003Ca target=\u0022_blank\u0022 href=\u0022https://www.facebook.com/hashtag/miaschs?__eep__=6\u0026amp;__cft__[0]=AZWmTt4tkjK2UHSwcUAAZDaySLzLmjmkMwklidnaViRxD2ANUK85T46CeZyIocK76DgQRF-vgkC-yjYWUvmW1sSfktzh-Pkc7Hxj4omn6Zxqb0LGh1UxpidzGjD9j2MsSF6njAcHZH_P2if4cWycorEP\u0026amp;__tn__=*NK-R\u0022 rel=\u0022noopener noreferrer nofollow\u0022\u003E\u003Cstrong\u003E#miashs\u003C/strong\u003E\u003C/a\u003E\u003C/p\u003E",
-            "title": "Master MIASHS X artist-run-spaces.org"
-          }
-        }
-      },
-      "editToken": "eyJhIjoiZWNob3RvbmUiLCJzIjoicGFnZSIsImkiOiIyNjk4ZTA2OS04ZGFjLTQ4ZjctYTZjZS1iYTQzZjNiMzU2MTMiLCJ1IjoiaHR0cHM6Ly9sYWFiLmRkbnMubmV0OjM4MDgwLyJ9",
-      "id": "2698e069-8dac-48f7-a6ce-ba43f3b35613",
-      "isDeleted": false,
-      "lastModified": "2025-03-08T16:05:47Z",
-      "lastModifiedBy": "subject:6798df7c5b784ee7b7cb52e1",
-      "schemaDisplayName": "Page",
-      "schemaId": "d0379b0e-294e-4df6-9b2b-257b807b1467",
-      "schemaName": "page",
-      "status": "Published",
-      "statusColor": "#4bb958",
-      "version": 5
-    },
-    {
-      "_links": {
-        "delete": {
-          "href": "/api/content/echotone/page/702fbd2b-1312-4ebd-b348-cc963c16ea7f",
-          "method": "DELETE"
-        },
-        "draft/create": {
-          "href": "/api/content/echotone/page/702fbd2b-1312-4ebd-b348-cc963c16ea7f/draft",
-          "method": "POST"
-        },
-        "previous": {
-          "href": "/api/content/echotone/page/702fbd2b-1312-4ebd-b348-cc963c16ea7f/12",
-          "method": "GET"
-        },
-        "self": {
-          "href": "/api/content/echotone/page/702fbd2b-1312-4ebd-b348-cc963c16ea7f",
-          "method": "GET"
-        }
-      },
-      "created": "2025-01-29T12:48:49Z",
-      "createdBy": "subject:6798df7c5b784ee7b7cb52e1",
-      "data": {
-        "id": {
-          "iv": "inauguration-d-echotone"
-        },
-        "medias": {
-          "iv": [
-            {
-              "in": true,
-              "medias": [
-                "ac06c5dc-1e70-4075-98c9-65ed4225b68e",
-                "7859c212-a7e7-4200-92a1-ac292cc67e78",
-                "c7b47afc-f9d7-4348-94cd-f6f8e78de0ec",
-                "d0350086-80cc-4708-b10b-0b59061e21e7",
-                "1829f3b6-85c6-48f8-a20d-324ba4ea9599",
-                "fbc048ba-53d2-4951-80cd-48a38d2a08d8",
-                "0cd504ab-b973-4216-9a73-83b6a487e988",
-                "856102d1-0db2-4c07-baf7-d2425ffd4a52",
-                "dd880b05-f435-432f-98b7-9890aecf681a",
-                "13810421-d0ad-4ed4-8289-80a48f8a942d"
-              ],
-              "schemaId": "1f4e3697-52bc-45d9-a7a8-65862c13ce4b",
-              "schemaName": "carousel"
-            },
-            {
-              "in": null,
-              "medias": [
-                "08261a14-63a2-442b-bbe6-bd009bc5eb8a",
-                "0e1213c4-45ee-4bd5-9ef8-92c45afbfaff"
-              ],
-              "schemaId": "1f4e3697-52bc-45d9-a7a8-65862c13ce4b",
-              "schemaName": "carousel"
-            }
-          ]
-        },
-        "unit": {
-          "en": {
-            "locations": [],
-            "schemaId": "2bd4ee39-8e6e-4128-9f08-a049cce49f23",
-            "schemaName": "unit",
-            "short": "Propositions du LAAB en collectif augment\u00E9 et performance sonore de Nicolas Bralet",
-            "tags": [
-              "programmation"
-            ],
-            "temporal": [
-              {
-                "date": "2024-05-31T00:00:00Z",
-                "datetime": null,
-                "description": null
-              }
-            ],
-            "text": "\u003Cp\u003E\u261E Vendredi 31 mai 2024\u003C/p\u003E\u003Chr\u003E\u003Cp\u003E\u25BA Inauguration des espaces du 6 rue des maquisards, \u00E0 Ganges. \u003Cbr\u003EInauguration des espaces avec les propositions du LAAB en collectif \u003Cem\u003Eaugment\u00E9 \u003C/em\u003Eavec les pi\u00E8ces de \u003Cstrong\u003ENicolas Bralet\u003C/strong\u003E, \u003Cstrong\u003EDelphine Chevrot\u003C/strong\u003E, \u003Cstrong\u003EFran\u00E7ois-David Collin\u003C/strong\u003E, \u003Cstrong\u003ESabrina Issa\u003C/strong\u003E, \u003Cstrong\u003ESamuel Aligand\u003C/strong\u003E, \u003Cstrong\u003ELydie Regnier\u003C/strong\u003E, \u003Cstrong\u003EPhilippe Bri\u00E8re\u003C/strong\u003E, \u003Cstrong\u003ENina Reumaux\u003C/strong\u003E, \u003Cstrong\u003ELo\u00EFc Peyrani\u003C/strong\u003E et \u003Cstrong\u003EAnna Olszewska\u003C/strong\u003E. \u003C/p\u003E\u003Chr\u003E\u003Cp\u003E\u2326 Vernissage avec les Grignots de \u003Cstrong\u003EAlix Jolly\u003C/strong\u003E et \u003Cstrong\u003ECamille Derniaux\u003C/strong\u003E r\u00E9alis\u00E9s \u00E0 partir de cueillettes et mac\u00E9rations et Performance sonore, \u003Cstrong\u003ENicolas Bralet\u003C/strong\u003E, guitare \u00E9lectronique, m\u00E9tallophone, fl\u00FBte \u00E0 bec t\u00E9nor, informatique musical (Max MSP). \u0022Aux origines des vagues vont et viennes, des rayons traversent. La faune anime l\u0027\u00E9tendue. Les sons improvisent, composent, \u0022comprovisent\u0022 le temps d\u0027une \u00E9coute\u0022.\u003C/p\u003E\u003Chr\u003E\u003Cp\u003E\u003Ca target=\u0022_blank\u0022 href=\u0022https://www.facebook.com/hashtag/echotone?__eep__=6\u0026amp;__cft__[0]=AZWlaortjwPMRp5O2kITkDQ6U4dEYffWSJSAxJrF0p-3rm6nIuCE4uHb_Oy_coaZnwGYfqEjCUioj2OvaQ2Dz0RgJZCMmeacFGBhbvQoUsjZ6g\u0026amp;__tn__=q\u0022 rel=\u0022noopener noreferrer nofollow\u0022\u003E\u003Cstrong\u003E#Echotone\u003C/strong\u003E\u003C/a\u003E \u003Ca target=\u0022_blank\u0022 href=\u0022https://www.facebook.com/hashtag/artistrunspace?__eep__=6\u0026amp;__cft__[0]=AZWlaortjwPMRp5O2kITkDQ6U4dEYffWSJSAxJrF0p-3rm6nIuCE4uHb_Oy_coaZnwGYfqEjCUioj2OvaQ2Dz0RgJZCMmeacFGBhbvQoUsjZ6g\u0026amp;__tn__=q\u0022 rel=\u0022noopener noreferrer nofollow\u0022\u003E\u003Cstrong\u003E#artistrunspace\u003C/strong\u003E\u003C/a\u003E\u003Cbr\u003E\u003Ca target=\u0022_blank\u0022 href=\u0022https://www.facebook.com/hashtag/artresearch?__eep__=6\u0026amp;__cft__[0]=AZWlaortjwPMRp5O2kITkDQ6U4dEYffWSJSAxJrF0p-3rm6nIuCE4uHb_Oy_coaZnwGYfqEjCUioj2OvaQ2Dz0RgJZCMmeacFGBhbvQoUsjZ6g\u0026amp;__tn__=q\u0022 rel=\u0022noopener noreferrer nofollow\u0022\u003E\u003Cstrong\u003E#artresearch\u003C/strong\u003E\u003C/a\u003E\u003Cbr\u003E\u003Ca target=\u0022_blank\u0022 href=\u0022https://www.facebook.com/hashtag/laboratoireassociatifdartetdebotanique?__eep__=6\u0026amp;__cft__[0]=AZWlaortjwPMRp5O2kITkDQ6U4dEYffWSJSAxJrF0p-3rm6nIuCE4uHb_Oy_coaZnwGYfqEjCUioj2OvaQ2Dz0RgJZCMmeacFGBhbvQoUsjZ6g\u0026amp;__tn__=q\u0022 rel=\u0022noopener noreferrer nofollow\u0022\u003E\u003Cstrong\u003E#laboratoireassociatifdartetdebotanique\u003C/strong\u003E\u003C/a\u003E\u003Cbr\u003E\u003Ca target=\u0022_blank\u0022 href=\u0022https://www.facebook.com/hashtag/inauguration2024?__eep__=6\u0026amp;__cft__[0]=AZWlaortjwPMRp5O2kITkDQ6U4dEYffWSJSAxJrF0p-3rm6nIuCE4uHb_Oy_coaZnwGYfqEjCUioj2OvaQ2Dz0RgJZCMmeacFGBhbvQoUsjZ6g\u0026amp;__tn__=q\u0022 rel=\u0022noopener noreferrer nofollow\u0022\u003E\u003Cstrong\u003E#inauguration2024\u003C/strong\u003E\u003C/a\u003E\u003C/p\u003E",
-            "title": "Inauguration d\u0027\u00C9CHOTONE"
-          },
-          "fr": {
-            "locations": [],
-            "schemaId": "2bd4ee39-8e6e-4128-9f08-a049cce49f23",
-            "schemaName": "unit",
-            "short": "Propositions du LAAB en collectif augment\u00E9 et performance sonore de Nicolas Bralet",
-            "tags": [
-              "programmation"
-            ],
-            "temporal": [
-              {
-                "date": "2024-05-31T00:00:00Z",
-                "datetime": null,
-                "description": null
-              }
-            ],
-            "text": "\u003Cp\u003E\u261E Vendredi 31 mai 2024\u003C/p\u003E\u003Chr\u003E\u003Cp\u003E\u25BA Inauguration des espaces du 6 rue des maquisards, \u00E0 Ganges. \u003Cbr\u003EInauguration des espaces avec les propositions du LAAB en collectif \u003Cem\u003Eaugment\u00E9 \u003C/em\u003Eavec les pi\u00E8ces de \u003Cstrong\u003ENicolas Bralet\u003C/strong\u003E, \u003Cstrong\u003EDelphine Chevrot\u003C/strong\u003E, \u003Cstrong\u003EFran\u00E7ois-David Collin\u003C/strong\u003E, \u003Cstrong\u003ESabrina Issa\u003C/strong\u003E, \u003Cstrong\u003ESamuel Aligand\u003C/strong\u003E, \u003Cstrong\u003ELydie Regnier\u003C/strong\u003E, \u003Cstrong\u003EPhilippe Bri\u00E8re\u003C/strong\u003E, \u003Cstrong\u003ENina Reumaux\u003C/strong\u003E, \u003Cstrong\u003ELo\u00EFc Peyrani\u003C/strong\u003E et \u003Cstrong\u003EAnna Olszewska\u003C/strong\u003E. \u003C/p\u003E\u003Chr\u003E\u003Cp\u003E\u2326 Vernissage avec les Grignots de \u003Cstrong\u003EAlix Jolly\u003C/strong\u003E et \u003Cstrong\u003ECamille Derniaux\u003C/strong\u003E r\u00E9alis\u00E9s \u00E0 partir de cueillettes et mac\u00E9rations et Performance sonore, \u003Cstrong\u003ENicolas Bralet\u003C/strong\u003E, guitare \u00E9lectronique, m\u00E9tallophone, fl\u00FBte \u00E0 bec t\u00E9nor, informatique musical (Max MSP). \u0022Aux origines des vagues vont et viennes, des rayons traversent. La faune anime l\u0027\u00E9tendue. Les sons improvisent, composent, \u0022comprovisent\u0022 le temps d\u0027une \u00E9coute\u0022.\u003C/p\u003E\u003Chr\u003E\u003Cp\u003E\u003Ca target=\u0022_blank\u0022 href=\u0022https://www.facebook.com/hashtag/echotone?__eep__=6\u0026amp;__cft__[0]=AZWlaortjwPMRp5O2kITkDQ6U4dEYffWSJSAxJrF0p-3rm6nIuCE4uHb_Oy_coaZnwGYfqEjCUioj2OvaQ2Dz0RgJZCMmeacFGBhbvQoUsjZ6g\u0026amp;__tn__=q\u0022 rel=\u0022noopener noreferrer nofollow\u0022\u003E\u003Cstrong\u003E#Echotone\u003C/strong\u003E\u003C/a\u003E \u003Ca target=\u0022_blank\u0022 href=\u0022https://www.facebook.com/hashtag/artistrunspace?__eep__=6\u0026amp;__cft__[0]=AZWlaortjwPMRp5O2kITkDQ6U4dEYffWSJSAxJrF0p-3rm6nIuCE4uHb_Oy_coaZnwGYfqEjCUioj2OvaQ2Dz0RgJZCMmeacFGBhbvQoUsjZ6g\u0026amp;__tn__=q\u0022 rel=\u0022noopener noreferrer nofollow\u0022\u003E\u003Cstrong\u003E#artistrunspace\u003C/strong\u003E\u003C/a\u003E\u003Cbr\u003E\u003Ca target=\u0022_blank\u0022 href=\u0022https://www.facebook.com/hashtag/artresearch?__eep__=6\u0026amp;__cft__[0]=AZWlaortjwPMRp5O2kITkDQ6U4dEYffWSJSAxJrF0p-3rm6nIuCE4uHb_Oy_coaZnwGYfqEjCUioj2OvaQ2Dz0RgJZCMmeacFGBhbvQoUsjZ6g\u0026amp;__tn__=q\u0022 rel=\u0022noopener noreferrer nofollow\u0022\u003E\u003Cstrong\u003E#artresearch\u003C/strong\u003E\u003C/a\u003E\u003Cbr\u003E\u003Ca target=\u0022_blank\u0022 href=\u0022https://www.facebook.com/hashtag/laboratoireassociatifdartetdebotanique?__eep__=6\u0026amp;__cft__[0]=AZWlaortjwPMRp5O2kITkDQ6U4dEYffWSJSAxJrF0p-3rm6nIuCE4uHb_Oy_coaZnwGYfqEjCUioj2OvaQ2Dz0RgJZCMmeacFGBhbvQoUsjZ6g\u0026amp;__tn__=q\u0022 rel=\u0022noopener noreferrer nofollow\u0022\u003E\u003Cstrong\u003E#laboratoireassociatifdartetdebotanique\u003C/strong\u003E\u003C/a\u003E\u003Cbr\u003E\u003Ca target=\u0022_blank\u0022 href=\u0022https://www.facebook.com/hashtag/inauguration2024?__eep__=6\u0026amp;__cft__[0]=AZWlaortjwPMRp5O2kITkDQ6U4dEYffWSJSAxJrF0p-3rm6nIuCE4uHb_Oy_coaZnwGYfqEjCUioj2OvaQ2Dz0RgJZCMmeacFGBhbvQoUsjZ6g\u0026amp;__tn__=q\u0022 rel=\u0022noopener noreferrer nofollow\u0022\u003E\u003Cstrong\u003E#inauguration2024\u003C/strong\u003E\u003C/a\u003E\u003C/p\u003E",
-            "title": "Inauguration d\u0027\u00C9CHOTONE"
-          }
-        }
-      },
-      "editToken": "eyJhIjoiZWNob3RvbmUiLCJzIjoicGFnZSIsImkiOiI3MDJmYmQyYi0xMzEyLTRlYmQtYjM0OC1jYzk2M2MxNmVhN2YiLCJ1IjoiaHR0cHM6Ly9sYWFiLmRkbnMubmV0OjM4MDgwLyJ9",
-      "id": "702fbd2b-1312-4ebd-b348-cc963c16ea7f",
-      "isDeleted": false,
-      "lastModified": "2025-03-08T16:04:40Z",
-      "lastModifiedBy": "subject:6798df7c5b784ee7b7cb52e1",
-      "schemaDisplayName": "Page",
-      "schemaId": "d0379b0e-294e-4df6-9b2b-257b807b1467",
-      "schemaName": "page",
-      "status": "Published",
-      "statusColor": "#4bb958",
-      "version": 13
     },
     {
       "_links": {
