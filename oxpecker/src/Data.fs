@@ -72,13 +72,13 @@ let navTaggedItems: Map<TaggedTopic, BaseNavItem * string> =
             slug = "/programmation"
          },
          "programmation")
-        Boutique, ({ title = "Boutique"; slug = "/shop" }, "boutique")
         Atelier,
         ({
             title = "Atelier"
             slug = "/workshop"
          },
          "atelier")
+        Boutique, ({ title = "Boutique"; slug = "/shop" }, "boutique")
     ]
 
 let navStaticItems: Map<StaticTopic, BaseNavItem> =
@@ -92,18 +92,15 @@ let navStaticItems: Map<StaticTopic, BaseNavItem> =
     ]
 
 let navItems =
-    let tagged: Map<Topic, NavItem> =
+    let tagged =
         navTaggedItems
-        |> Map.toSeq
-        |> Seq.map(fun (k, v) -> TaggedTopic k, TaggedItem v)
-        |> Seq.rev
-        |> Map.ofSeq
-    let static': Map<Topic, NavItem> =
+        |> Map.toList
+        |> List.map(fun (k, v) -> TaggedTopic k, TaggedItem v)
+    let static' =
         navStaticItems
-        |> Map.toSeq
-        |> Seq.map(fun (k, v) -> StaticTopic k, BaseItem v)
-        |> Map.ofSeq
-    Map.foldBack Map.add static' tagged
+        |> Map.toList
+        |> List.map(fun (k, v) -> StaticTopic k, BaseItem v)
+    List.append tagged static' |> Map.ofList
 
 let getBaseItemFromTopic (topic: Topic) =
     match topic with
@@ -158,9 +155,12 @@ let realNonEmptyTopics =
     let temp =
         pageTaggedTopics
         |> Seq.filter(fun x -> mapPageSlugToTag |> Map.exists(fun k v -> v = x))
-        |> Seq.map TaggedTopic
+        |> Array.ofSeq
     // Use temp as TaggedTopic sequence and cast the final result to Tag array
-    Seq.append temp [ StaticTopic Apropos; StaticTopic Contact ] |> Array.ofSeq
+    [| Programmation; Atelier; Boutique |]
+    |> Array.filter(fun x -> Array.contains x temp)
+    |> Array.map TaggedTopic
+    |> (fun x -> Array.append x [| StaticTopic Apropos; StaticTopic Contact |])
 
 
 let breakWidth = [| 640; 768; 1024; 1280; 1536 |]

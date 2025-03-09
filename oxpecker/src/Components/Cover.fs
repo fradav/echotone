@@ -101,14 +101,6 @@ module Cover =
     [<SolidComponent>]
     let CoverFlow (page: PagesT.Items) : HtmlElement =
         let zoom, setZoom = createSignal None
-        let delayZoom, setDelayZoom = createSignal false
-        let timer = new System.Timers.Timer(AutoReset = false)
-        createEffect(fun _ ->
-            if Option.isSome(zoom()) then
-                timer.Interval <- 1.
-                setDelayZoom false
-                timer.Elapsed.Add(fun _ -> setDelayZoom true)
-                timer.Start())
         onMount(fun _ ->
             Swiper.register()
             let swiperEl = document.querySelector("swiper-container")
@@ -171,27 +163,27 @@ module Cover =
                         }
                     }
                     div() {
-                        div(class' = "fixed top-0 left-0 w-screen h-screen duration-500 ease-in-out")
+                        div(class' = "fixed top-0 left-0 w-screen h-screen z-1000 duration-500 ease-in-out")
                             .classList(
                                 {|
-                                    ``hidden`` = zoom() = None
-                                    ``bg-black/25 drop-shadow-2xl backdrop-blur-2xl z-500`` =
-                                        zoom() |> Option.isSome && delayZoom()
+                                    ``collapse`` = zoom() = None
+                                    ``bg-black/25 drop-shadow-2xl backdrop-blur-2xl`` = zoom() |> Option.isSome
                                 |}
                             ) {
                             For(each = Array.ofSeq medias) {
                                 yield
                                     fun imgid index ->
                                         img(
-                                            class' = "duration-1000 ease-in-out scale-50",
+                                            class' = "scale-50 block z-1000 top-0 fixed",
                                             src = mapSlugAssets[imgid].slug,
                                             onClick = fun _ -> setZoom(None)
                                         )
                                             .classList(
                                                 {|
-                                                    ``h-11/12 w-11/12 object-contain fixed top-[calc(1/24*100%)] left-[calc(1/24*100%)] block z-1000 scale-none`` =
-                                                        zoom() = Some(index()) && delayZoom()
-                                                    ``collapse`` = zoom() = None || zoom() <> Some(index())
+                                                    ``duration-1000 ease-in-out h-11/12 w-11/12 object-contain top-[calc(1/24*100%)] left-[calc(1/24*100%)] scale-none`` =
+                                                        zoom() = Some(index())
+                                                    ``duration-500 ease-in-out collapse -translate-y-9/12`` =
+                                                        zoom() = None || zoom() <> Some(index())
                                                 |}
                                             )
 

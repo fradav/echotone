@@ -6,8 +6,8 @@ open Fable.JsonProvider
 [<Erase>]
 type TaggedTopic =
     | Accueil
-    | Atelier
     | Programmation
+    | Atelier
     | Boutique
 
 [<Erase>]
