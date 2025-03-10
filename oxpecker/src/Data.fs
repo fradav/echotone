@@ -165,13 +165,14 @@ let realNonEmptyTopics =
 
 let breakWidth = [| 640; 768; 1024; 1280; 1536 |]
 
-let breakColumns = Map [ Xs, 1; Sm, 1; Md, 2; Lg, 3; Xl, 3; Xxl, 4 ]
+let breakColumnsList = [ Xs, 1; Sm, 1; Md, 2; Lg, 2; Xl, 3; Xxl, 4 ]
 
+let breakColumns = Map breakColumnsList
 let breakQueries =
     seq {
         yield Xs, $"(max-width: {breakWidth[0] - 1}px)"
         for i in 0 .. (breakWidth.Length - 2) do
-            let brekppoint = breakColumns.Keys |> Seq.item i
+            let brekppoint = breakColumnsList[i + 1] |> fst
             yield brekppoint, $"(min-width: {breakWidth[i]}px) and (max-width: {breakWidth.[i + 1] - 1}px)"
         yield Xxl, $"(min-width: {breakWidth.[breakWidth.Length - 1]}px)"
     }

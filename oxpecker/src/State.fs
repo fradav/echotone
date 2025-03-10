@@ -131,14 +131,19 @@ let getPageDate (page: PagesT.Items) =
 
 // Fonctions utiles pour récupérer les pages
 let getPagesForTopic (taggedtopic: TaggedTopic) =
-    pages.items
-    |> Seq.filter(fun page -> page.data.unit.fr.tags |> Seq.contains(snd navTaggedItems[taggedtopic]))
-    |> Seq.sortByDescending(fun page -> getPageDate page |> Option.defaultValue(DateTime.Now))
-    |> Seq.toArray
-
-// Récupérer une page par son slug
+    let sorted =
+        pages.items
+        |> Seq.filter(fun page -> page.data.unit.fr.tags |> Seq.contains(snd navTaggedItems[taggedtopic]))
+        |> Seq.sortByDescending(fun page -> getPageDate page |> Option.defaultValue(DateTime.Now))
+    // sorted
+    // |> Seq.iteri(fun i page -> printfn "%i %A %s" i (getPageDate page) page.data.id.iv)
+    sorted // Récupérer une page par son slug
 let getPageBySlug (slug: string) =
     pages.items |> Seq.tryFind(fun page -> page.data.id.iv = slug)
 
 let isToBounce (page: PagesT.Items) =
     page.data.unit.fr.tags |> Seq.contains "actu"
+
+let hasTemporalRange (page: PagesT.Items) =
+    page.data.unit.fr.temporal |> Array.length = 2
+    && page.data.unit.fr.tags |> Seq.contains "période"

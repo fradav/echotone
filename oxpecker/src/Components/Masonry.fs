@@ -9,27 +9,58 @@ open State
 
 [<AutoOpen>]
 module Masonry =
+    open Browser.Types
 
-    let makeMasonry<'T> (cols: int) (getH: 'T -> int) (l: 'T list) =
+    let rec transpose xs = [
+        match xs with
+        | [] -> failwith "cannot transpose a 0-by-n matrix"
+        | [] :: xs -> yield! xs
+        | xs ->
+            let xsn = List.filter (List.isEmpty >> not) xs
+            yield List.map List.head xsn
+            yield! transpose(List.map List.tail xsn)
+    ]
+
+    let makeMasonry<'T> (cols: int) (getH: 'T -> float) (l: 'T list) =
         List.fold
             (fun (heights, acc) x ->
                 let minIndex = Array.findIndex (fun x -> x = Array.min heights) heights
                 let newHeights =
                     Array.mapi (fun i h -> if i = minIndex then h + getH x else h) heights
-                let newLists = Array.mapi (fun i ol -> if i = minIndex then x :: ol else ol) acc
+                let newLists =
+                    Array.mapi (fun i ol -> if i = minIndex then (Some x) :: ol else ol) acc
                 newHeights, newLists)
             (Array.zeroCreate cols, Array.create cols [])
             l
         |> snd
-        // |> Array.map List.rev
+        |> Array.map(fun x -> None :: x)
+        // |> Array.collect(List.rev >> List.toArray)
         |> Array.collect(List.rev >> List.toArray)
 
     [<SolidComponent>]
+    let MasonryElement (page: PagesT.Items) : HtmlElement =
+        div(class' = "content") {
+            let slug = page.data.id.iv
+            let href = (navTaggedItems[mapPageSlugToTag[slug]] |> fst |> _.slug) + "/" + slug
+            A() { Vignette 350 page }
+        }
+
+
+    [<SolidComponent>]
     let Masonry (pages: PagesT.Items seq) : HtmlElement =
+        let len = Seq.length pages
         // Return a cleanup function for when the element is removed
+        let listRef: HTMLAnchorElement array =
+            Array.init len (fun _ -> Unchecked.defaultof<HTMLAnchorElement>)
+        let starterList = pages |> Seq.mapi(fun i page -> i, page) |> Array.ofSeq
+        let heights, setHeights = createSignal(Array.zeroCreate len)
+
+        createEffect(fun () ->
+            if breakColumns[store.breakpoint] > 0 then
+                listRef |> Array.map(_.offsetHeight) |> setHeights)
 
         div(class' = "flex items-center justify-center") {
-            div(class' = "gap-10 duration-1000 ease-in-out")
+            div(class' = "gap-10 duration-1000 ease-in-out", style = "column-fill: auto")
                 .classList(
                     {|
                         ``columns-1`` = breakColumns[store.breakpoint] = 1
@@ -40,15 +71,21 @@ module Masonry =
                 ) {
                 For(
                     each =
-                        (Seq.concat(seq { pages })
-                         |> List.ofSeq
-                         |> makeMasonry (breakColumns[store.breakpoint]) (getMedias >> getHeight 400))
+                        (starterList
+                         |> List.ofArray
+                         |> makeMasonry (breakColumns[store.breakpoint]) (fst >> Array.get(heights())))
                 ) {
                     yield
-                        fun page index ->
-                            let slug = page.data.id.iv
-                            let href = (navTaggedItems[mapPageSlugToTag[slug]] |> fst |> _.slug) + "/" + slug
-                            A(href = href) { Vignette 350 page }
+                        fun pagesome index ->
+                            match pagesome with
+                            | None -> div(class' = "content break-after-column")
+                            | Some pagei ->
+                                let page = snd pagei
+                                let slug = page.data.id.iv
+                                let href = (navTaggedItems[mapPageSlugToTag[slug]] |> fst |> _.slug) + "/" + slug
+                                div(class' = "content").ref(fun el -> listRef[index()] <- el) {
+                                    A(href = href) { Vignette 350 page }
+                                }
                 }
             }
         }

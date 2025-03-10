@@ -44,16 +44,27 @@ module Page =
     |}
 
     let formatDate (d: PagesT.Items.Data.Unit.Fr.Temporal) =
-        let date =
-            match (d.datetime: obj), (d.date: obj) with
-            | null, null -> None
-            | dt, null -> Some $"{DateTime.Parse(string dt).toLocaleTimeString(formatterTimeOptions)}"
-            | null, dt -> Some $"{DateTime.Parse(string dt).toLocaleDateString(formatterDateOptions)}"
-            | _ -> None
+        match (d.datetime: obj), (d.date: obj) with
+        | null, null -> None
+        | dt, null -> Some $"{DateTime.Parse(string dt).toLocaleTimeString(formatterTimeOptions)}"
+        | null, dt -> Some $"{DateTime.Parse(string dt).toLocaleDateString(formatterDateOptions)}"
+        | _ -> None
+
+    let formatSimpleDate (d: PagesT.Items.Data.Unit.Fr.Temporal) (date: string option) =
         match date, (d.description: obj) with
         | Some dt, des when (des |> isNull |> not) && (string des).Length > 0 -> Some $"{string des}, le {dt}"
         | Some dt, _ -> Some dt
         | None, des when (string des).Length > 0 -> des |> string |> Some
+        | _ -> None
+
+    let formatRange (dp: PagesT.Items.Data.Unit.Fr.Temporal array) =
+        match dp with
+        | [| d1; d2 |] ->
+            let d1 = formatDate d1
+            let d2 = formatDate d2
+            match d1, d2 with
+            | Some d1, Some d2 -> Some $"Du {d1} au {d2}"
+            | _ -> None
         | _ -> None
 
     [<SolidComponent>]
@@ -63,7 +74,7 @@ module Page =
         onMount(fun _ -> observer.observe(divRef))
         div(
             class' =
-                "break-inside-avoid break-after-avoid-page duration-1000 ease-in-out mb-10 bg-gray-100 shadow-2xl dark:shadow-zinc-800 rounded-3xl dark:bg-zinc-900"
+                "break-inside-avoid duration-1000 ease-in-out mb-10 bg-gray-100 shadow-2xl dark:shadow-zinc-800 rounded-3xl dark:bg-zinc-900"
         )
             .ref(fun e -> divRef <- e) {
             Cover w page
@@ -75,13 +86,27 @@ module Page =
                 ) {
                 h3(class' = "text-gray-500") { page.data.unit.fr.title }
                 h4() { page.data.unit.fr.short }
-                For(each = (page.data.unit.fr.temporal |> Array.choose formatDate)) {
-                    yield
-                        fun temporal index ->
-                            div(class' = "text-gray-400 temporal") {
-                                // "👁️‍🗨️ " + (temporal?datetime: DateTime).toLocaleDateString(formaDatetOptions)
-                                "👁️‍🗨️ " + temporal
-                            }
+                Switch() {
+                    Match(when' = hasTemporalRange page) {
+                        div(class' = "text-gray-400 temporal") {
+                            // "👁️‍🗨️ " + (temporal?datetime: DateTime).toLocaleDateString(formaDatetOptions)
+                            "👁️‍🗨️ " + (formatRange page.data.unit.fr.temporal).Value
+                        }
+                    }
+                    Match(when' = (page |> hasTemporalRange |> not)) {
+                        For(
+                            each =
+                                (page.data.unit.fr.temporal
+                                 |> Array.choose(fun d -> formatSimpleDate d (formatDate d)))
+                        ) {
+                            yield
+                                fun temporal index ->
+                                    div(class' = "text-gray-400 temporal") {
+                                        // "👁️‍🗨️ " + (temporal?datetime: DateTime).toLocaleDateString(formaDatetOptions)
+                                        "👁️‍🗨️ " + temporal
+                                    }
+                        }
+                    }
                 }
             // HyphenatedText() { div(innerHTML = page.data.unit.fr.text) }
             }
