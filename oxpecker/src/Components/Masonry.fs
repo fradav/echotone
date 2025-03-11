@@ -21,30 +21,17 @@ module Masonry =
             yield! transpose(List.map List.tail xsn)
     ]
 
-    let makeMasonry<'T> (cols: int) (getH: 'T -> float) (l: 'T list) =
-        List.fold
-            (fun (heights, acc) x ->
+    let makeMasonry<'T> (cols: int) (getH: 'T -> float) (l: 'T list) : 'T option array =
+        let heights = Array.zeroCreate cols
+        let lists = Array.create cols []
+        List.iter
+            (fun x ->
                 let minIndex = Array.findIndex (fun x -> x = Array.min heights) heights
-                let newHeights =
-                    Array.mapi (fun i h -> if i = minIndex then h + getH x else h) heights
-                let newLists =
-                    Array.mapi (fun i ol -> if i = minIndex then (Some x) :: ol else ol) acc
-                newHeights, newLists)
-            (Array.zeroCreate cols, Array.create cols [])
+                heights[minIndex] <- heights[minIndex] + getH x
+                lists[minIndex] <- x :: lists.[minIndex])
             l
-        |> snd
-        |> Array.map(fun x -> None :: x)
-        // |> Array.collect(List.rev >> List.toArray)
-        |> Array.collect(List.rev >> List.toArray)
-
-    [<SolidComponent>]
-    let MasonryElement (page: PagesT.Items) : HtmlElement =
-        div(class' = "content") {
-            let slug = page.data.id.iv
-            let href = (navTaggedItems[mapPageSlugToTag[slug]] |> fst |> _.slug) + "/" + slug
-            A() { Vignette 350 page }
-        }
-
+        lists
+        |> Array.collect(List.map Some >> (fun x -> None :: x) >> List.rev >> List.toArray)
 
     [<SolidComponent>]
     let Masonry (pages: PagesT.Items seq) : HtmlElement =

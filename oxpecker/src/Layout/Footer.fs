@@ -61,8 +61,8 @@ module Footer =
                             instaIcon()
                         }
                     }
-                    "Échotone, espace d’art géré par des artistes"
-                    br()
+                    p() { "Échotone, espace d’art" }
+                    p() { "géré par des artistes" }
                     "6 Rue des Maquisards, 34190 GANGES"
                 }
                 div(class' = "flex space-x-4 h-10") {

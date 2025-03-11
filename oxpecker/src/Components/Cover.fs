@@ -3,6 +3,8 @@ namespace Components
 open Browser.Dom
 open Fable.Core
 open Fable.Core.JsInterop
+open Browser.Dom
+open Browser.Types
 
 open Oxpecker.Solid
 open Oxpecker.Solid.Imports
@@ -27,6 +29,9 @@ module Cover =
         |> function
             | None -> w
             | Some x -> (w |> float) * (mapSlugAssets[x].height / mapSlugAssets[x].width) |> int
+
+    let getWidth (h: int) (media: string) =
+        (h |> float) * (mapSlugAssets[media].width / mapSlugAssets[media].height) |> int
 
     let getMediasCover (page: PagesT.Items) =
         page.data.medias.iv
@@ -100,48 +105,62 @@ module Cover =
 
     [<SolidComponent>]
     let CoverFlow (page: PagesT.Items) : HtmlElement =
-        let zoom, setZoom = createSignal None
-        onMount(fun _ ->
-            Swiper.register()
-            let swiperEl = document.querySelector("swiper-container")
-            let swiperParams = {|
-                loop = true
-                navigation = true
-                autoHeight = true
-                grabCursor = true
-                centeredSlides = true
-                pagination = {| dynamicBullets = true |}
-                mousewheel = true
-                // zoom = {| maxRatio = 5 |}
-                breakpoints = {|
-                    ``320`` = {|
-                        slidesPerView = "1"
-                        spaceBetween = 0
-                    |}
-                    ``640`` = {|
-                        slidesPerView = "1.3"
-                        spaceBetween = 2
-                    |}
-                    ``768`` = {|
-                        slidesPerView = "1.5"
-                        spaceBetween = 5
-                    |}
-                    ``1024`` = {|
-                        slidesPerView = "1.6"
-                        spaceBetween = 10
-                    |}
-                    ``1280`` = {|
-                        slidesPerView = "1.7"
-                        spaceBetween = 15
-                    |}
-                    ``1536`` = {|
-                        slidesPerView = "1.8"
-                        spaceBetween = 20
-                    |}
+        let zoom, setZoom = createSignal false
+        let mutable swiperEl = Unchecked.defaultof<HTMLElement>
+        let swiperParams = {|
+            modules = [| "Navigation"; "Pagination" |]
+            loop = true
+            navigation = true
+            grabCursor = true
+            autoHeight = true
+            centeredSlides = true
+
+            pagination = {| dynamicBullets = true |}
+            mousewheel = true
+            zoom = {| maxRatio = 5 |}
+            breakpoints = {|
+                ``320`` = {|
+                    slidesPerView = "1"
+                    spaceBetween = 0
+                |}
+                ``640`` = {|
+                    slidesPerView = "1.3"
+                    spaceBetween = 2
+                |}
+                ``768`` = {|
+                    slidesPerView = "1.5"
+                    spaceBetween = 5
+                |}
+                ``1024`` = {|
+                    slidesPerView = "1.6"
+                    spaceBetween = 10
+                |}
+                ``1280`` = {|
+                    slidesPerView = "1.7"
+                    spaceBetween = 15
+                |}
+                ``1536`` = {|
+                    slidesPerView = "1.8"
+                    spaceBetween = 20
                 |}
             |}
-            JS.Constructors.Object.assign(swiperEl, swiperParams) |> ignore
-            swiperEl?initialize())
+        |}
+
+        let styleZoom imgid =
+            if not(zoom()) then
+                $"width : {if store.screenType = Mobile then
+                               getWidth 300 imgid
+                           else
+                               getWidth 600 imgid}px"
+            else
+                $"width : 100vw"
+
+        let getSwiperObj () =
+            JS.Constructors.Object.assign(swiperEl, swiperParams) :?> HTMLElement
+        onMount(fun _ ->
+            Swiper.register()
+            // let swiperEl = document.querySelector("swiper-container")
+            getSwiperObj()?initialize())
 
         let pagemedias = getMedias page
         let pagevideos = getVideos page
@@ -153,13 +172,7 @@ module Cover =
                 Fragment() {
                     div() {
                         For(each = Array.ofSeq pagevideos) {
-                            yield
-                                fun vidid index ->
-                                    video(
-                                        class' = "w-full h-[300px] md:h-[600px] object-contain",
-                                        src = mapSlugAssets[vidid].slug,
-                                        controls = true
-                                    )
+                            yield fun vidid index -> video(src = mapSlugAssets[vidid].slug, controls = true)
                         }
                     }
                     div() {
