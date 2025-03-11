@@ -85,6 +85,43 @@ module Cover =
             }
         }
 
+    let swiperParams = {|
+        loop = true
+        navigation = true
+        grabCursor = true
+        autoHeight = true
+        centeredSlides = true
+
+        pagination = {| dynamicBullets = true |}
+        mousewheel = true
+        zoom = {| maxRatio = 5 |}
+        breakpoints = {|
+            ``320`` = {|
+                slidesPerView = "1"
+                spaceBetween = 0
+            |}
+            ``640`` = {|
+                slidesPerView = "1.3"
+                spaceBetween = 2
+            |}
+            ``768`` = {|
+                slidesPerView = "1.5"
+                spaceBetween = 5
+            |}
+            ``1024`` = {|
+                slidesPerView = "1.6"
+                spaceBetween = 10
+            |}
+            ``1280`` = {|
+                slidesPerView = "1.7"
+                spaceBetween = 15
+            |}
+            ``1536`` = {|
+                slidesPerView = "1.8"
+                spaceBetween = 20
+            |}
+        |}
+    |}
 
     [<SolidComponent>]
     let Cover w (page: PagesT.Items) : HtmlElement =
@@ -105,62 +142,14 @@ module Cover =
 
     [<SolidComponent>]
     let CoverFlow (page: PagesT.Items) : HtmlElement =
-        let zoom, setZoom = createSignal false
+        let zoom, setZoom = createSignal None
         let mutable swiperEl = Unchecked.defaultof<HTMLElement>
-        let swiperParams = {|
-            modules = [| "Navigation"; "Pagination" |]
-            loop = true
-            navigation = true
-            grabCursor = true
-            autoHeight = true
-            centeredSlides = true
 
-            pagination = {| dynamicBullets = true |}
-            mousewheel = true
-            zoom = {| maxRatio = 5 |}
-            breakpoints = {|
-                ``320`` = {|
-                    slidesPerView = "1"
-                    spaceBetween = 0
-                |}
-                ``640`` = {|
-                    slidesPerView = "1.3"
-                    spaceBetween = 2
-                |}
-                ``768`` = {|
-                    slidesPerView = "1.5"
-                    spaceBetween = 5
-                |}
-                ``1024`` = {|
-                    slidesPerView = "1.6"
-                    spaceBetween = 10
-                |}
-                ``1280`` = {|
-                    slidesPerView = "1.7"
-                    spaceBetween = 15
-                |}
-                ``1536`` = {|
-                    slidesPerView = "1.8"
-                    spaceBetween = 20
-                |}
-            |}
-        |}
-
-        let styleZoom imgid =
-            if not(zoom()) then
-                $"width : {if store.screenType = Mobile then
-                               getWidth 300 imgid
-                           else
-                               getWidth 600 imgid}px"
-            else
-                $"width : 100vw"
-
-        let getSwiperObj () =
-            JS.Constructors.Object.assign(swiperEl, swiperParams) :?> HTMLElement
         onMount(fun _ ->
             Swiper.register()
-            // let swiperEl = document.querySelector("swiper-container")
-            getSwiperObj()?initialize())
+
+            JS.Constructors.Object.assign(swiperEl, swiperParams) |> ignore
+            swiperEl?initialize())
 
         let pagemedias = getMedias page
         let pagevideos = getVideos page
@@ -202,7 +191,7 @@ module Cover =
 
                             }
                         }
-                        SwiperContainer(class' = "py-6 md:py-12 w-full") {
+                        SwiperContainer(class' = "py-6 md:py-12 w-full").ref(fun el -> swiperEl <- el) {
 
 
                             For(each = Array.ofSeq medias) {
