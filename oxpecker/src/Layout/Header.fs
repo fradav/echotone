@@ -25,14 +25,14 @@ module Header =
         hamburgerIcon =
             "w-16 h-2 bg-black dark:bg-white rounded-full transition-all duration-150 before:content-[''] before:absolute before:w-16 before:h-2 before:bg-black dark:before:bg-white before:rounded-full before:-translate-y-4 before:-translate-x-8 before:transition-all before:duration-150 after:content-[''] after:absolute after:w-16 after:h-2 after:bg-black dark:after:bg-white after:rounded-full after:translate-y-4  after:-translate-x-8 after:transition-all after:duration-150"
         linkListContainer =
-            "not-md:transition-transform not-md:duration-1000 not-md:ease-in-out items-center justify-between md:flex not-md:fixed not-md:top-20 md:w-auto md:order-1  m-4 not-md:rounded not-md:right-0"
+            "not-md:transition-transform not-md:duration-1000 not-md:ease-in-out items-center justify-between md:flex not-md:fixed not-md:top-20 md:w-auto md:order-1  m-4 not-md:rounded not-md:right-0 "
         linkList =
-            "flex flex-col p-4 md:p-0 mt-4 font-medium border border-gray-100 text-xl rounded-lg md:space-x-8 rtl:space-x-reverse md:flex-row md:mt-0 md:border-0 dark:border-gray-700 not-md:bg-gradient-to-r from-gray-500/90 to-slate-900/90"
+            "flex flex-col p-4 md:p-0 mt-4 font-medium border border-gray-100 text-xl rounded-lg md:space-x-8 rtl:space-x-reverse md:flex-row md:mt-0 md:border-0 dark:border-gray-700 not-md:bg-black/90 not-md:dark:bg-white/90"
         item = "block py-2 px-3"
         itemActive =
-            "text-white md:dark:text-zinc-400 md:text-zinc-300 md:p-0 not-md:bg-gray-400 dark:md:drop-shadow-2xl"
+            "text-white md:dark:text-zinc-400 md:text-zinc-300 md:p-0 not-md:text-gray-400 not-md:dark:text-gray-400 not-md:dark:shadow-lg shadow-gray-50 not-md:dark:shadow-gray-300"
         itemInactive =
-            "rounded-sm md:hover:bg-transparent md:dark:hocus:text-zinc-400 md:hocus:text-zinc-300 md:p-0 text-black dark:text-gray-200 dark:hocus:text-gray-50"
+            "rounded-sm md:hover:bg-transparent md:dark:hocus:text-zinc-400 md:hocus:text-zinc-300 md:p-0 text-black dark:text-gray-200 dark:hocus:text-gray-50 not-md:text-white not-md:dark:text-black"
     |}
 
     let private menuOpened, setMenuOpened = createSignal false
