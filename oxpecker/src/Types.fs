@@ -52,13 +52,19 @@ type Asset = {
 }
 
 [<Literal>]
-let assetsJsonPath = __SOURCE_DIRECTORY__ + "/../../data/assets.json"
+let jsonFolder = "./../data/"
 
 [<Literal>]
-let aboutJsonPath = __SOURCE_DIRECTORY__ + "/../../data/about.json"
+let assetsJsonPath = jsonFolder + "assets.json"
 
 [<Literal>]
-let pagesJsonPath = __SOURCE_DIRECTORY__ + "/../../data/pages.json"
+let contactJsonPath = jsonFolder + "contact.json"
+
+[<Literal>]
+let aboutJsonPath = jsonFolder + "about.json"
+
+[<Literal>]
+let pagesJsonPath = jsonFolder + "pages.json"
 
 type PagesT = Generator<pagesJsonPath>
 type Unit = PagesT.Items.Data.Unit.Fr

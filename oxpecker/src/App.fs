@@ -46,6 +46,7 @@ let makePage (page: PagesT.Items) : HtmlElement =
     Fragment() {
         CoverFlow page
         SolidUnit page.data.unit.fr
+        Videos page
     }
 
 let delay, setDelay = createSignal false

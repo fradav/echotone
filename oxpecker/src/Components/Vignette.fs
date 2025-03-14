@@ -76,12 +76,17 @@ module Page =
             class' =
                 "break-inside-avoid duration-1000 ease-in-out mb-10 bg-gray-100 shadow-2xl dark:shadow-zinc-800 rounded-3xl dark:bg-zinc-900"
         )
+            .classList(
+                {|
+                    // ``animate-pulse`` = isToBounce page
+                |}
+            )
             .ref(fun e -> divRef <- e) {
             Cover w page
             div(class' = "p-5 has-temporal:animate-smallbounce", style = $"width: {w}px")
                 .classList(
                     {|
-                        ``animate-smallbounce`` = isToBounce page
+                        ``animate-strongpulse`` = isToBounce page
                     |}
                 ) {
                 h3(class' = "text-gray-500") { page.data.unit.fr.title }
@@ -110,5 +115,4 @@ module Page =
                 }
             // HyphenatedText() { div(innerHTML = page.data.unit.fr.text) }
             }
-
         }

@@ -1,9 +1,7 @@
 namespace Components
 
-open Browser.Dom
 open Fable.Core
 open Fable.Core.JsInterop
-open Browser.Dom
 open Browser.Types
 
 open Oxpecker.Solid
@@ -11,7 +9,6 @@ open Oxpecker.Solid.Imports
 
 open Types
 open Data
-open State
 
 [<AutoOpen>]
 module Cover =
@@ -45,9 +42,17 @@ module Cover =
         |> Seq.filter(fun x -> mapSlugAssets[x].``type`` = AssetType.Image)
 
     let getVideos (page: PagesT.Items) =
-        page.data.medias.iv
-        |> Seq.collect _.medias
-        |> Seq.filter(fun x -> mapSlugAssets[x].``type`` = AssetType.Video)
+        let captions = page.data.medias.iv |> Seq.map _.caption
+        let vids =
+            page.data.medias.iv
+            |> Seq.collect _.medias
+            |> Seq.filter(fun x -> mapSlugAssets[x].``type`` = AssetType.Video)
+        if (Seq.isEmpty vids) then
+            None, vids
+        else if (not(Seq.isEmpty captions) && not(isNullOrUndefined(Seq.head captions))) then
+            Some(Seq.head captions), vids
+        else
+            None, vids
 
     [<SolidComponent>]
     let SlidingCover coverStyle (medias: string seq) : HtmlElement =
@@ -139,6 +144,16 @@ module Cover =
             | [] -> div(class' = classes.noCover).style'(coverStyle)
             | medias -> SlidingCover coverStyle medias
 
+    [<SolidComponent>]
+    let Videos (page: PagesT.Items) : HtmlElement =
+        let caption, pagevideos = getVideos page
+        div(class' = "grid justify-center place-items-center gap-10 my-10") {
+            if (caption.IsSome) then
+                div(class' = "text-center") { p() { caption.Value } }
+            For(each = Array.ofSeq pagevideos) {
+                yield fun vidid index -> video(class' = "max-w-1/2", src = mapSlugAssets[vidid].slug, controls = true)
+            }
+        }
 
     [<SolidComponent>]
     let CoverFlow (page: PagesT.Items) : HtmlElement =
@@ -152,18 +167,12 @@ module Cover =
             swiperEl?initialize())
 
         let pagemedias = getMedias page
-        let pagevideos = getVideos page
         pagemedias
         |> List.ofSeq
         |> function
             | [] -> div(class' = classes.noCover)
             | medias ->
                 Fragment() {
-                    div() {
-                        For(each = Array.ofSeq pagevideos) {
-                            yield fun vidid index -> video(src = mapSlugAssets[vidid].slug, controls = true)
-                        }
-                    }
                     div() {
                         div(class' = "fixed top-0 left-0 w-screen h-screen z-1000 duration-500 ease-in-out")
                             .classList(
@@ -209,6 +218,5 @@ module Cover =
                                         }
                             }
                         }
-
                     }
                 }

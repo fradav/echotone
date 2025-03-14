@@ -16,15 +16,15 @@
     "swiper": "^11.2.5"
   },
   "devDependencies": {
-    "@tailwindcss/vite": "^4.0.12",
+    "@tailwindcss/vite": "^4.0.14",
     "@types/fs-extra": "^11.0.4",
     "@types/hyphen": "^1.6.7",
     "@types/node": "^22.13.10",
-    "autoprefixer": "^10.4.20",
+    "autoprefixer": "^10.4.21",
     "fs-extra": "^11.3.0",
-    "tailwindcss": "^4.0.12",
+    "tailwindcss": "^4.0.14",
     "typescript": "~5.1.6",
-    "vite": "^6.2.1",
+    "vite": "^6.2.2",
     "vite-plugin-solid": "^2.11.6"
   }
 }

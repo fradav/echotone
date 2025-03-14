@@ -13,6 +13,16 @@
 }
 
 @theme {
+  --animate-strongpulse: strongpulse 4s linear infinite;
+  @keyframes strongpulse {
+    0%,
+    100% {
+      opacity: 1;
+    }
+    50% {
+      opacity: 0;
+    }
+  }
   --animate-smallbounce: smallbounce 1s ease-in-out infinite;
   @keyframes smallbounce {
     0%,
@@ -87,7 +97,7 @@
       @apply mx-auto max-w-2xl;
     }
     p {
-      @apply mx-auto text-lg mt-2 indent-4 max-w-2xl text-justify;
+      @apply mx-auto text-lg mt-2 max-w-2xl text-justify;
     }
   }
 

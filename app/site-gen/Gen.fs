@@ -40,22 +40,10 @@ module Gen =
     [<Literal>]
     let dataDir = sourceDir + "/data"
 
-    [<Literal>]
-    let assetsJson = dataDir + "/assets.json"
-
-    [<Literal>]
-    let aboutJson = dataDir + "/about.json"
-
-    [<Literal>]
-    let contactJson = dataDir + "/contact.json"
-
-    [<Literal>]
-    let pagesJson = dataDir + "/pages.json"
-
-    type AssetsT = JsonProvider<assetsJson>
-    type AboutT = JsonProvider<aboutJson>
-    type ContactT = JsonProvider<contactJson>
-    type PagesT = JsonProvider<pagesJson>
+    type AssetsT = JsonProvider<"assets.json", EmbeddedResource="assets.json", ResolutionFolder=dataDir>
+    type AboutT = JsonProvider<"about.json", EmbeddedResource="about.json", ResolutionFolder=dataDir>
+    type ContactT = JsonProvider<"contact.json", EmbeddedResource="contact.json", ResolutionFolder=dataDir>
+    type PagesT = JsonProvider<"pages.json", EmbeddedResource="pages.json", ResolutionFolder=dataDir>
 
     let assetsDir = Path.Combine(sourceDir, config["ASSETS_DIR"])
     let thumbDir = Path.Combine(assetsDir, "thumbnails")
