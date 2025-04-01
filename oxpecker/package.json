@@ -13,18 +13,18 @@
     "@solidjs/router": "^0.15.3",
     "hyphen": "^1.10.6",
     "solid-js": "^1.9.5",
-    "swiper": "^11.2.5"
+    "swiper": "^11.2.6"
   },
   "devDependencies": {
-    "@tailwindcss/vite": "^4.0.14",
+    "@tailwindcss/vite": "^4.0.17",
     "@types/fs-extra": "^11.0.4",
     "@types/hyphen": "^1.6.7",
-    "@types/node": "^22.13.10",
+    "@types/node": "^22.13.15",
     "autoprefixer": "^10.4.21",
     "fs-extra": "^11.3.0",
-    "tailwindcss": "^4.0.14",
+    "tailwindcss": "^4.0.17",
     "typescript": "~5.1.6",
-    "vite": "^6.2.2",
+    "vite": "^6.2.4",
     "vite-plugin-solid": "^2.11.6"
   }
 }

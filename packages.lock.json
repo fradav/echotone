@@ -238,12 +238,12 @@
       },
       "FSharp.Control.Reactive": {
         "type": "Direct",
-        "requested": "[5.0.5, )",
-        "resolved": "5.0.5",
-        "contentHash": "bTNzMAMvA3fxWT4Swzcb5p53+ZTzI/SWwEwqyE+oat/d9OMsyXKegw19IKmw995SVWeRdV5BALmgQJrB39ojVA==",
+        "requested": "[6.1.2, )",
+        "resolved": "6.1.2",
+        "contentHash": "r6e9sj6dssFTZVFd9xqhXKN8VAWqMdGdK1X6JVjy66EIvKUI7DGkkesPx1gp9svrBx/6fgJPsl29STRxuBjXpw==",
         "dependencies": {
-          "FSharp.Core": "4.7.2",
-          "System.Reactive": "[5.0.0, 6.0.0)"
+          "FSharp.Core": "6.0.7",
+          "System.Reactive": "6.0.1"
         }
       },
       "FSharp.Core": {
@@ -294,9 +294,9 @@
       },
       "MSBuild.StructuredLogger": {
         "type": "Direct",
-        "requested": "[2.2.441, )",
-        "resolved": "2.2.441",
-        "contentHash": "ZeCbPs35NnxHwmnJIYeU9WEklKA1ZY3YxT0+Y/nmvie21JfVdxeKy/Dt0rn7haJwXJmM8nvhUEtxjbUaJQWAGA==",
+        "requested": "[2.2.472, )",
+        "resolved": "2.2.472",
+        "contentHash": "n+BSlf5qYVVP/X11pMevzA5KJsq4hgKSaWujCCx8t2pS0oGu4jXXzQe5yNKmTjPI2XnH3OoA+9iieJK6jbwMcA==",
         "dependencies": {
           "Microsoft.Build.Framework": "17.5.0",
           "Microsoft.Build.Utilities.Core": "17.5.0",
@@ -393,9 +393,9 @@
       },
       "System.Reactive": {
         "type": "Direct",
-        "requested": "[5.0.0, )",
-        "resolved": "5.0.0",
-        "contentHash": "erBZjkQHWL9jpasCE/0qKAryzVBJFxGHVBAvgRN1bzM0q2s1S4oYREEEL0Vb+1kA/6BKb5FjUZMp5VXmy+gzkQ=="
+        "requested": "[6.0.1, )",
+        "resolved": "6.0.1",
+        "contentHash": "rHaWtKDwCi9qJ3ObKo8LHPMuuwv33YbmQi7TcUK1C264V3MFnOr5Im7QgCTdLniztP3GJyeiSg5x8NqYJFqRmg=="
       },
       "System.Security.AccessControl": {
         "type": "Direct",
@@ -423,15 +423,15 @@
       },
       "AWSSDK.Core": {
         "type": "Transitive",
-        "resolved": "3.7.402.18",
-        "contentHash": "rmoflrXXb8H1PPKBmUVaf8MiXcYwp3wLw21+9IQ+0J7UXgHtMTBgekRUjb7FJLacx76GRU57JvFt4BqT8yla+A=="
+        "resolved": "3.7.402.30",
+        "contentHash": "6jhbaxkna+XLFimPPn/CyK2Us6A3UPeuvJWLignTEPinShHoyqRjQBkQ6A+Dp6MwWE2OC1UAwfFiW8Z4wpggJw=="
       },
       "AWSSDK.S3": {
         "type": "Transitive",
-        "resolved": "3.7.415.17",
-        "contentHash": "NQsFaBlr9diKvLMsX3ul6xnNVDLWQFjTsntIOG0U94vlJkgA2k29mQ+uNLr8wgJtKuJMAdUB8wkLocUFvdYOHg==",
+        "resolved": "3.7.416",
+        "contentHash": "YaAvqTlbta6oUT1IrAncb6D05/iv3cJu7Revb/xfVCXvMkzKtsRUrEDk7MtpOZsuLNKid0sdYmB4Y7qpccTCLw==",
         "dependencies": {
-          "AWSSDK.Core": "[3.7.402.18, 4.0.0)"
+          "AWSSDK.Core": "[3.7.402.30, 4.0.0)"
         }
       },
       "dotenv.net": {
@@ -533,8 +533,8 @@
       "sitegen": {
         "type": "Project",
         "dependencies": {
-          "AWSSDK.Core": "[3.7.402.18, )",
-          "AWSSDK.S3": "[3.7.415.17, )",
+          "AWSSDK.Core": "[3.7.402.30, )",
+          "AWSSDK.S3": "[3.7.416, )",
           "FSharp.Core": "[9.0.201, )",
           "FSharp.Data": "[6.6.0, )",
           "FSharp.Data.Csv.Core": "[6.6.0, )",

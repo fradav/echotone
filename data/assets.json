@@ -21,6 +21,2477 @@
     {
       "_links": {
         "content": {
+          "href": "/api/assets/echotone/97494c63-34d5-44c3-bb0e-bef4e37c881d/20240604-174905.jpg",
+          "method": "GET"
+        },
+        "content/slug": {
+          "href": "/api/assets/echotone/20240604-174905.jpg",
+          "method": "GET"
+        },
+        "delete": {
+          "href": "/api/apps/echotone/assets/97494c63-34d5-44c3-bb0e-bef4e37c881d",
+          "method": "DELETE"
+        },
+        "move": {
+          "href": "/api/apps/echotone/assets/97494c63-34d5-44c3-bb0e-bef4e37c881d/parent",
+          "method": "PUT"
+        },
+        "self": {
+          "href": "/api/apps/echotone/assets/97494c63-34d5-44c3-bb0e-bef4e37c881d",
+          "method": "GET"
+        },
+        "update": {
+          "href": "/api/apps/echotone/assets/97494c63-34d5-44c3-bb0e-bef4e37c881d",
+          "method": "PUT"
+        },
+        "upload": {
+          "href": "/api/apps/echotone/assets/97494c63-34d5-44c3-bb0e-bef4e37c881d/content",
+          "method": "PUT"
+        }
+      },
+      "created": "2025-03-31T17:14:01Z",
+      "createdBy": "subject:6798df7c5b784ee7b7cb52e1",
+      "editToken": "eyJhIjoiZWNob3RvbmUiLCJpIjoiOTc0OTRjNjMtMzRkNS00NGMzLWJiMGUtYmVmNGUzN2M4ODFkIiwidSI6Imh0dHBzOi8vbGFhYi5kZG5zLm5ldDozODA4MC8ifQ==",
+      "fileHash": "t955qnsCenSZTbr9gnIDFw7CLhySxl2YcsinRzQGukE=",
+      "fileName": "20240604_174905.jpg",
+      "fileSize": 2818886,
+      "fileType": "jpg",
+      "fileVersion": 0,
+      "id": "97494c63-34d5-44c3-bb0e-bef4e37c881d",
+      "isImage": true,
+      "isProtected": false,
+      "lastModified": "2025-03-31T17:14:01Z",
+      "lastModifiedBy": "subject:6798df7c5b784ee7b7cb52e1",
+      "metadata": {
+        "created": "2024-06-04T17:49:05",
+        "description": "JFIF File",
+        "imageQuality": 95,
+        "latitude": 43.934224699999994,
+        "longitude": 3.7056684,
+        "pixelHeight": 4000,
+        "pixelWidth": 3000
+      },
+      "metadataText": "3000x4000px, 2.7 MB",
+      "mimeType": "image/jpeg",
+      "parentId": "00000000-0000-0000-0000-000000000000",
+      "pixelHeight": 4000,
+      "pixelWidth": 3000,
+      "slug": "20240604-174905.jpg",
+      "tags": [
+        "type/jpg",
+        "image",
+        "image/large"
+      ],
+      "type": "Image",
+      "version": 0
+    },
+    {
+      "_links": {
+        "content": {
+          "href": "/api/assets/echotone/54dd24de-0a7a-49bc-95bf-6994b9c4dc78/20240611-161146.jpg",
+          "method": "GET"
+        },
+        "content/slug": {
+          "href": "/api/assets/echotone/20240611-161146.jpg",
+          "method": "GET"
+        },
+        "delete": {
+          "href": "/api/apps/echotone/assets/54dd24de-0a7a-49bc-95bf-6994b9c4dc78",
+          "method": "DELETE"
+        },
+        "move": {
+          "href": "/api/apps/echotone/assets/54dd24de-0a7a-49bc-95bf-6994b9c4dc78/parent",
+          "method": "PUT"
+        },
+        "self": {
+          "href": "/api/apps/echotone/assets/54dd24de-0a7a-49bc-95bf-6994b9c4dc78",
+          "method": "GET"
+        },
+        "update": {
+          "href": "/api/apps/echotone/assets/54dd24de-0a7a-49bc-95bf-6994b9c4dc78",
+          "method": "PUT"
+        },
+        "upload": {
+          "href": "/api/apps/echotone/assets/54dd24de-0a7a-49bc-95bf-6994b9c4dc78/content",
+          "method": "PUT"
+        }
+      },
+      "created": "2025-03-31T17:13:32Z",
+      "createdBy": "subject:6798df7c5b784ee7b7cb52e1",
+      "editToken": "eyJhIjoiZWNob3RvbmUiLCJpIjoiNTRkZDI0ZGUtMGE3YS00OWJjLTk1YmYtNjk5NGI5YzRkYzc4IiwidSI6Imh0dHBzOi8vbGFhYi5kZG5zLm5ldDozODA4MC8ifQ==",
+      "fileHash": "AWE/bxJhK6/JfSTTIwryQ4StqWWLXMNPFml6T3ahXGQ=",
+      "fileName": "20240611_161146.jpg",
+      "fileSize": 4091681,
+      "fileType": "jpg",
+      "fileVersion": 0,
+      "id": "54dd24de-0a7a-49bc-95bf-6994b9c4dc78",
+      "isImage": true,
+      "isProtected": false,
+      "lastModified": "2025-03-31T17:13:32Z",
+      "lastModifiedBy": "subject:6798df7c5b784ee7b7cb52e1",
+      "metadata": {
+        "created": "2024-06-11T16:11:47",
+        "description": "JFIF File",
+        "imageQuality": 95,
+        "latitude": 43.9342517,
+        "longitude": 3.7057676,
+        "pixelHeight": 4000,
+        "pixelWidth": 3000
+      },
+      "metadataText": "3000x4000px, 3.9 MB",
+      "mimeType": "image/jpeg",
+      "parentId": "00000000-0000-0000-0000-000000000000",
+      "pixelHeight": 4000,
+      "pixelWidth": 3000,
+      "slug": "20240611-161146.jpg",
+      "tags": [
+        "type/jpg",
+        "image",
+        "image/large"
+      ],
+      "type": "Image",
+      "version": 0
+    },
+    {
+      "_links": {
+        "content": {
+          "href": "/api/assets/echotone/6d4495de-4b9b-4979-b214-6ce6dcaa5015/20240611-161129.jpg",
+          "method": "GET"
+        },
+        "content/slug": {
+          "href": "/api/assets/echotone/20240611-161129.jpg",
+          "method": "GET"
+        },
+        "delete": {
+          "href": "/api/apps/echotone/assets/6d4495de-4b9b-4979-b214-6ce6dcaa5015",
+          "method": "DELETE"
+        },
+        "move": {
+          "href": "/api/apps/echotone/assets/6d4495de-4b9b-4979-b214-6ce6dcaa5015/parent",
+          "method": "PUT"
+        },
+        "self": {
+          "href": "/api/apps/echotone/assets/6d4495de-4b9b-4979-b214-6ce6dcaa5015",
+          "method": "GET"
+        },
+        "update": {
+          "href": "/api/apps/echotone/assets/6d4495de-4b9b-4979-b214-6ce6dcaa5015",
+          "method": "PUT"
+        },
+        "upload": {
+          "href": "/api/apps/echotone/assets/6d4495de-4b9b-4979-b214-6ce6dcaa5015/content",
+          "method": "PUT"
+        }
+      },
+      "created": "2025-03-31T17:13:32Z",
+      "createdBy": "subject:6798df7c5b784ee7b7cb52e1",
+      "editToken": "eyJhIjoiZWNob3RvbmUiLCJpIjoiNmQ0NDk1ZGUtNGI5Yi00OTc5LWIyMTQtNmNlNmRjYWE1MDE1IiwidSI6Imh0dHBzOi8vbGFhYi5kZG5zLm5ldDozODA4MC8ifQ==",
+      "fileHash": "3VwQ6gcTaBTZyacv\u002BpT7GRWQSCpRQK10Z\u002BGjSEfmvl0=",
+      "fileName": "20240611_161129.jpg",
+      "fileSize": 4072761,
+      "fileType": "jpg",
+      "fileVersion": 0,
+      "id": "6d4495de-4b9b-4979-b214-6ce6dcaa5015",
+      "isImage": true,
+      "isProtected": false,
+      "lastModified": "2025-03-31T17:13:32Z",
+      "lastModifiedBy": "subject:6798df7c5b784ee7b7cb52e1",
+      "metadata": {
+        "created": "2024-06-11T16:11:29",
+        "description": "JFIF File",
+        "imageQuality": 95,
+        "latitude": 43.9342255,
+        "longitude": 3.7056737,
+        "pixelHeight": 4000,
+        "pixelWidth": 3000
+      },
+      "metadataText": "3000x4000px, 3.9 MB",
+      "mimeType": "image/jpeg",
+      "parentId": "00000000-0000-0000-0000-000000000000",
+      "pixelHeight": 4000,
+      "pixelWidth": 3000,
+      "slug": "20240611-161129.jpg",
+      "tags": [
+        "type/jpg",
+        "image",
+        "image/large"
+      ],
+      "type": "Image",
+      "version": 0
+    },
+    {
+      "_links": {
+        "content": {
+          "href": "/api/assets/echotone/7125454d-8762-47bf-83dd-e1112dcb9c43/20240611-155432.jpg",
+          "method": "GET"
+        },
+        "content/slug": {
+          "href": "/api/assets/echotone/20240611-155432.jpg",
+          "method": "GET"
+        },
+        "delete": {
+          "href": "/api/apps/echotone/assets/7125454d-8762-47bf-83dd-e1112dcb9c43",
+          "method": "DELETE"
+        },
+        "move": {
+          "href": "/api/apps/echotone/assets/7125454d-8762-47bf-83dd-e1112dcb9c43/parent",
+          "method": "PUT"
+        },
+        "self": {
+          "href": "/api/apps/echotone/assets/7125454d-8762-47bf-83dd-e1112dcb9c43",
+          "method": "GET"
+        },
+        "update": {
+          "href": "/api/apps/echotone/assets/7125454d-8762-47bf-83dd-e1112dcb9c43",
+          "method": "PUT"
+        },
+        "upload": {
+          "href": "/api/apps/echotone/assets/7125454d-8762-47bf-83dd-e1112dcb9c43/content",
+          "method": "PUT"
+        }
+      },
+      "created": "2025-03-31T17:13:31Z",
+      "createdBy": "subject:6798df7c5b784ee7b7cb52e1",
+      "editToken": "eyJhIjoiZWNob3RvbmUiLCJpIjoiNzEyNTQ1NGQtODc2Mi00N2JmLTgzZGQtZTExMTJkY2I5YzQzIiwidSI6Imh0dHBzOi8vbGFhYi5kZG5zLm5ldDozODA4MC8ifQ==",
+      "fileHash": "t\u002BHIqaxgWiZGIr9MmPBQFSjpH4V\u002BIkQCnzzxLEvdeQA=",
+      "fileName": "20240611_155432.jpg",
+      "fileSize": 3777995,
+      "fileType": "jpg",
+      "fileVersion": 0,
+      "id": "7125454d-8762-47bf-83dd-e1112dcb9c43",
+      "isImage": true,
+      "isProtected": false,
+      "lastModified": "2025-03-31T17:13:31Z",
+      "lastModifiedBy": "subject:6798df7c5b784ee7b7cb52e1",
+      "metadata": {
+        "created": "2024-06-11T15:54:32",
+        "description": "JFIF File",
+        "imageQuality": 94,
+        "latitude": 43.93425679972222,
+        "longitude": 3.7057799,
+        "pixelHeight": 4000,
+        "pixelWidth": 3000
+      },
+      "metadataText": "3000x4000px, 3.6 MB",
+      "mimeType": "image/jpeg",
+      "parentId": "00000000-0000-0000-0000-000000000000",
+      "pixelHeight": 4000,
+      "pixelWidth": 3000,
+      "slug": "20240611-155432.jpg",
+      "tags": [
+        "type/jpg",
+        "image",
+        "image/large"
+      ],
+      "type": "Image",
+      "version": 0
+    },
+    {
+      "_links": {
+        "content": {
+          "href": "/api/assets/echotone/05ff6e10-fed6-47e5-9252-9010ff17c6d0/20240611-161133.jpg",
+          "method": "GET"
+        },
+        "content/slug": {
+          "href": "/api/assets/echotone/20240611-161133.jpg",
+          "method": "GET"
+        },
+        "delete": {
+          "href": "/api/apps/echotone/assets/05ff6e10-fed6-47e5-9252-9010ff17c6d0",
+          "method": "DELETE"
+        },
+        "move": {
+          "href": "/api/apps/echotone/assets/05ff6e10-fed6-47e5-9252-9010ff17c6d0/parent",
+          "method": "PUT"
+        },
+        "self": {
+          "href": "/api/apps/echotone/assets/05ff6e10-fed6-47e5-9252-9010ff17c6d0",
+          "method": "GET"
+        },
+        "update": {
+          "href": "/api/apps/echotone/assets/05ff6e10-fed6-47e5-9252-9010ff17c6d0",
+          "method": "PUT"
+        },
+        "upload": {
+          "href": "/api/apps/echotone/assets/05ff6e10-fed6-47e5-9252-9010ff17c6d0/content",
+          "method": "PUT"
+        }
+      },
+      "created": "2025-03-31T17:13:30Z",
+      "createdBy": "subject:6798df7c5b784ee7b7cb52e1",
+      "editToken": "eyJhIjoiZWNob3RvbmUiLCJpIjoiMDVmZjZlMTAtZmVkNi00N2U1LTkyNTItOTAxMGZmMTdjNmQwIiwidSI6Imh0dHBzOi8vbGFhYi5kZG5zLm5ldDozODA4MC8ifQ==",
+      "fileHash": "lAV7zIAupr3tb3EjM3RgXGuu3Uvuk1ThXISKnlsIRt0=",
+      "fileName": "20240611_161133.jpg",
+      "fileSize": 3848939,
+      "fileType": "jpg",
+      "fileVersion": 0,
+      "id": "05ff6e10-fed6-47e5-9252-9010ff17c6d0",
+      "isImage": true,
+      "isProtected": false,
+      "lastModified": "2025-03-31T17:13:30Z",
+      "lastModifiedBy": "subject:6798df7c5b784ee7b7cb52e1",
+      "metadata": {
+        "created": "2024-06-11T16:11:33",
+        "description": "JFIF File",
+        "imageQuality": 95,
+        "latitude": 43.9342255,
+        "longitude": 3.7056737,
+        "pixelHeight": 4000,
+        "pixelWidth": 3000
+      },
+      "metadataText": "3000x4000px, 3.7 MB",
+      "mimeType": "image/jpeg",
+      "parentId": "00000000-0000-0000-0000-000000000000",
+      "pixelHeight": 4000,
+      "pixelWidth": 3000,
+      "slug": "20240611-161133.jpg",
+      "tags": [
+        "type/jpg",
+        "image",
+        "image/large"
+      ],
+      "type": "Image",
+      "version": 0
+    },
+    {
+      "_links": {
+        "content": {
+          "href": "/api/assets/echotone/a98033d6-475d-444b-805e-fdee0b089314/20240620-232816.jpg",
+          "method": "GET"
+        },
+        "content/slug": {
+          "href": "/api/assets/echotone/20240620-232816.jpg",
+          "method": "GET"
+        },
+        "delete": {
+          "href": "/api/apps/echotone/assets/a98033d6-475d-444b-805e-fdee0b089314",
+          "method": "DELETE"
+        },
+        "move": {
+          "href": "/api/apps/echotone/assets/a98033d6-475d-444b-805e-fdee0b089314/parent",
+          "method": "PUT"
+        },
+        "self": {
+          "href": "/api/apps/echotone/assets/a98033d6-475d-444b-805e-fdee0b089314",
+          "method": "GET"
+        },
+        "update": {
+          "href": "/api/apps/echotone/assets/a98033d6-475d-444b-805e-fdee0b089314",
+          "method": "PUT"
+        },
+        "upload": {
+          "href": "/api/apps/echotone/assets/a98033d6-475d-444b-805e-fdee0b089314/content",
+          "method": "PUT"
+        }
+      },
+      "created": "2025-03-31T17:13:30Z",
+      "createdBy": "subject:6798df7c5b784ee7b7cb52e1",
+      "editToken": "eyJhIjoiZWNob3RvbmUiLCJpIjoiYTk4MDMzZDYtNDc1ZC00NDRiLTgwNWUtZmRlZTBiMDg5MzE0IiwidSI6Imh0dHBzOi8vbGFhYi5kZG5zLm5ldDozODA4MC8ifQ==",
+      "fileHash": "Yfyeh962PzL0VsSL1ZZg50LLFa4/QubgqVjjbW62eJU=",
+      "fileName": "20240620_232816.jpg",
+      "fileSize": 3635341,
+      "fileType": "jpg",
+      "fileVersion": 0,
+      "id": "a98033d6-475d-444b-805e-fdee0b089314",
+      "isImage": true,
+      "isProtected": false,
+      "lastModified": "2025-03-31T17:13:30Z",
+      "lastModifiedBy": "subject:6798df7c5b784ee7b7cb52e1",
+      "metadata": {
+        "created": "2024-06-20T23:28:17",
+        "description": "JFIF File",
+        "imageQuality": 94,
+        "latitude": 43.93423299972222,
+        "longitude": 3.7056148,
+        "pixelHeight": 4000,
+        "pixelWidth": 3000
+      },
+      "metadataText": "3000x4000px, 3.5 MB",
+      "mimeType": "image/jpeg",
+      "parentId": "00000000-0000-0000-0000-000000000000",
+      "pixelHeight": 4000,
+      "pixelWidth": 3000,
+      "slug": "20240620-232816.jpg",
+      "tags": [
+        "type/jpg",
+        "image",
+        "image/large"
+      ],
+      "type": "Image",
+      "version": 0
+    },
+    {
+      "_links": {
+        "content": {
+          "href": "/api/assets/echotone/53e9e271-d769-46aa-b9e1-f66900fbf524/20240611-155514.jpg",
+          "method": "GET"
+        },
+        "content/slug": {
+          "href": "/api/assets/echotone/20240611-155514.jpg",
+          "method": "GET"
+        },
+        "delete": {
+          "href": "/api/apps/echotone/assets/53e9e271-d769-46aa-b9e1-f66900fbf524",
+          "method": "DELETE"
+        },
+        "move": {
+          "href": "/api/apps/echotone/assets/53e9e271-d769-46aa-b9e1-f66900fbf524/parent",
+          "method": "PUT"
+        },
+        "self": {
+          "href": "/api/apps/echotone/assets/53e9e271-d769-46aa-b9e1-f66900fbf524",
+          "method": "GET"
+        },
+        "update": {
+          "href": "/api/apps/echotone/assets/53e9e271-d769-46aa-b9e1-f66900fbf524",
+          "method": "PUT"
+        },
+        "upload": {
+          "href": "/api/apps/echotone/assets/53e9e271-d769-46aa-b9e1-f66900fbf524/content",
+          "method": "PUT"
+        }
+      },
+      "created": "2025-03-31T17:13:29Z",
+      "createdBy": "subject:6798df7c5b784ee7b7cb52e1",
+      "editToken": "eyJhIjoiZWNob3RvbmUiLCJpIjoiNTNlOWUyNzEtZDc2OS00NmFhLWI5ZTEtZjY2OTAwZmJmNTI0IiwidSI6Imh0dHBzOi8vbGFhYi5kZG5zLm5ldDozODA4MC8ifQ==",
+      "fileHash": "r0muc6zchi4PDpXrcywaWw/EH5sBZ7Vv3TJZlhDAXMo=",
+      "fileName": "20240611_155514.jpg",
+      "fileSize": 3543901,
+      "fileType": "jpg",
+      "fileVersion": 0,
+      "id": "53e9e271-d769-46aa-b9e1-f66900fbf524",
+      "isImage": true,
+      "isProtected": false,
+      "lastModified": "2025-03-31T17:13:29Z",
+      "lastModifiedBy": "subject:6798df7c5b784ee7b7cb52e1",
+      "metadata": {
+        "created": "2024-06-11T15:55:14",
+        "description": "JFIF File",
+        "imageQuality": 95,
+        "latitude": 43.934257099999996,
+        "longitude": 3.7057734997222225,
+        "pixelHeight": 4000,
+        "pixelWidth": 3000
+      },
+      "metadataText": "3000x4000px, 3.4 MB",
+      "mimeType": "image/jpeg",
+      "parentId": "00000000-0000-0000-0000-000000000000",
+      "pixelHeight": 4000,
+      "pixelWidth": 3000,
+      "slug": "20240611-155514.jpg",
+      "tags": [
+        "type/jpg",
+        "image",
+        "image/large"
+      ],
+      "type": "Image",
+      "version": 0
+    },
+    {
+      "_links": {
+        "content": {
+          "href": "/api/assets/echotone/a5d63369-87f9-4939-8672-983d966c6488/20240611-194135.jpg",
+          "method": "GET"
+        },
+        "content/slug": {
+          "href": "/api/assets/echotone/20240611-194135.jpg",
+          "method": "GET"
+        },
+        "delete": {
+          "href": "/api/apps/echotone/assets/a5d63369-87f9-4939-8672-983d966c6488",
+          "method": "DELETE"
+        },
+        "move": {
+          "href": "/api/apps/echotone/assets/a5d63369-87f9-4939-8672-983d966c6488/parent",
+          "method": "PUT"
+        },
+        "self": {
+          "href": "/api/apps/echotone/assets/a5d63369-87f9-4939-8672-983d966c6488",
+          "method": "GET"
+        },
+        "update": {
+          "href": "/api/apps/echotone/assets/a5d63369-87f9-4939-8672-983d966c6488",
+          "method": "PUT"
+        },
+        "upload": {
+          "href": "/api/apps/echotone/assets/a5d63369-87f9-4939-8672-983d966c6488/content",
+          "method": "PUT"
+        }
+      },
+      "created": "2025-03-31T17:13:29Z",
+      "createdBy": "subject:6798df7c5b784ee7b7cb52e1",
+      "editToken": "eyJhIjoiZWNob3RvbmUiLCJpIjoiYTVkNjMzNjktODdmOS00OTM5LTg2NzItOTgzZDk2NmM2NDg4IiwidSI6Imh0dHBzOi8vbGFhYi5kZG5zLm5ldDozODA4MC8ifQ==",
+      "fileHash": "OjJddE2fh/9e1sAjiRahg3eFY3rIq6eE9dWuIK9utdc=",
+      "fileName": "20240611_194135.jpg",
+      "fileSize": 3499798,
+      "fileType": "jpg",
+      "fileVersion": 0,
+      "id": "a5d63369-87f9-4939-8672-983d966c6488",
+      "isImage": true,
+      "isProtected": false,
+      "lastModified": "2025-03-31T17:13:29Z",
+      "lastModifiedBy": "subject:6798df7c5b784ee7b7cb52e1",
+      "metadata": {
+        "created": "2024-06-11T19:41:35",
+        "description": "JFIF File",
+        "imageQuality": 95,
+        "latitude": 43.9342227,
+        "longitude": 3.7056447,
+        "pixelHeight": 3000,
+        "pixelWidth": 4000
+      },
+      "metadataText": "4000x3000px, 3.3 MB",
+      "mimeType": "image/jpeg",
+      "parentId": "00000000-0000-0000-0000-000000000000",
+      "pixelHeight": 3000,
+      "pixelWidth": 4000,
+      "slug": "20240611-194135.jpg",
+      "tags": [
+        "type/jpg",
+        "image",
+        "image/large"
+      ],
+      "type": "Image",
+      "version": 0
+    },
+    {
+      "_links": {
+        "content": {
+          "href": "/api/assets/echotone/4526348e-2ce1-4dbd-a32f-9ed51f87efec/20240611-161101.jpg",
+          "method": "GET"
+        },
+        "content/slug": {
+          "href": "/api/assets/echotone/20240611-161101.jpg",
+          "method": "GET"
+        },
+        "delete": {
+          "href": "/api/apps/echotone/assets/4526348e-2ce1-4dbd-a32f-9ed51f87efec",
+          "method": "DELETE"
+        },
+        "move": {
+          "href": "/api/apps/echotone/assets/4526348e-2ce1-4dbd-a32f-9ed51f87efec/parent",
+          "method": "PUT"
+        },
+        "self": {
+          "href": "/api/apps/echotone/assets/4526348e-2ce1-4dbd-a32f-9ed51f87efec",
+          "method": "GET"
+        },
+        "update": {
+          "href": "/api/apps/echotone/assets/4526348e-2ce1-4dbd-a32f-9ed51f87efec",
+          "method": "PUT"
+        },
+        "upload": {
+          "href": "/api/apps/echotone/assets/4526348e-2ce1-4dbd-a32f-9ed51f87efec/content",
+          "method": "PUT"
+        }
+      },
+      "created": "2025-03-31T17:13:28Z",
+      "createdBy": "subject:6798df7c5b784ee7b7cb52e1",
+      "editToken": "eyJhIjoiZWNob3RvbmUiLCJpIjoiNDUyNjM0OGUtMmNlMS00ZGJkLWEzMmYtOWVkNTFmODdlZmVjIiwidSI6Imh0dHBzOi8vbGFhYi5kZG5zLm5ldDozODA4MC8ifQ==",
+      "fileHash": "m\u002BA61NjpoXnYP1ke7T9iaKVd80h9No3rlqiIMGJgBkU=",
+      "fileName": "20240611_161101.jpg",
+      "fileSize": 3333809,
+      "fileType": "jpg",
+      "fileVersion": 0,
+      "id": "4526348e-2ce1-4dbd-a32f-9ed51f87efec",
+      "isImage": true,
+      "isProtected": false,
+      "lastModified": "2025-03-31T17:13:28Z",
+      "lastModifiedBy": "subject:6798df7c5b784ee7b7cb52e1",
+      "metadata": {
+        "created": "2024-06-11T16:11:01",
+        "description": "JFIF File",
+        "imageQuality": 93,
+        "latitude": 43.934225399999995,
+        "longitude": 3.7056737,
+        "pixelHeight": 4000,
+        "pixelWidth": 3000
+      },
+      "metadataText": "3000x4000px, 3.2 MB",
+      "mimeType": "image/jpeg",
+      "parentId": "00000000-0000-0000-0000-000000000000",
+      "pixelHeight": 4000,
+      "pixelWidth": 3000,
+      "slug": "20240611-161101.jpg",
+      "tags": [
+        "type/jpg",
+        "image",
+        "image/large"
+      ],
+      "type": "Image",
+      "version": 0
+    },
+    {
+      "_links": {
+        "content": {
+          "href": "/api/assets/echotone/d3a7fd21-dc2f-4ebd-94e4-08f1c4d8d254/20240611-162019.jpg",
+          "method": "GET"
+        },
+        "content/slug": {
+          "href": "/api/assets/echotone/20240611-162019.jpg",
+          "method": "GET"
+        },
+        "delete": {
+          "href": "/api/apps/echotone/assets/d3a7fd21-dc2f-4ebd-94e4-08f1c4d8d254",
+          "method": "DELETE"
+        },
+        "move": {
+          "href": "/api/apps/echotone/assets/d3a7fd21-dc2f-4ebd-94e4-08f1c4d8d254/parent",
+          "method": "PUT"
+        },
+        "self": {
+          "href": "/api/apps/echotone/assets/d3a7fd21-dc2f-4ebd-94e4-08f1c4d8d254",
+          "method": "GET"
+        },
+        "update": {
+          "href": "/api/apps/echotone/assets/d3a7fd21-dc2f-4ebd-94e4-08f1c4d8d254",
+          "method": "PUT"
+        },
+        "upload": {
+          "href": "/api/apps/echotone/assets/d3a7fd21-dc2f-4ebd-94e4-08f1c4d8d254/content",
+          "method": "PUT"
+        }
+      },
+      "created": "2025-03-31T17:13:28Z",
+      "createdBy": "subject:6798df7c5b784ee7b7cb52e1",
+      "editToken": "eyJhIjoiZWNob3RvbmUiLCJpIjoiZDNhN2ZkMjEtZGMyZi00ZWJkLTk0ZTQtMDhmMWM0ZDhkMjU0IiwidSI6Imh0dHBzOi8vbGFhYi5kZG5zLm5ldDozODA4MC8ifQ==",
+      "fileHash": "qqjOTwQZ5ElYVe7FjimNQD4hh7UTYDwadW7z9tFb3Lo=",
+      "fileName": "20240611_162019.jpg",
+      "fileSize": 3385363,
+      "fileType": "jpg",
+      "fileVersion": 0,
+      "id": "d3a7fd21-dc2f-4ebd-94e4-08f1c4d8d254",
+      "isImage": true,
+      "isProtected": false,
+      "lastModified": "2025-03-31T17:13:28Z",
+      "lastModifiedBy": "subject:6798df7c5b784ee7b7cb52e1",
+      "metadata": {
+        "created": "2024-06-11T16:20:19",
+        "description": "JFIF File",
+        "imageQuality": 94,
+        "latitude": 43.9342373,
+        "longitude": 3.7057105000000004,
+        "pixelHeight": 3000,
+        "pixelWidth": 4000
+      },
+      "metadataText": "4000x3000px, 3.2 MB",
+      "mimeType": "image/jpeg",
+      "parentId": "00000000-0000-0000-0000-000000000000",
+      "pixelHeight": 3000,
+      "pixelWidth": 4000,
+      "slug": "20240611-162019.jpg",
+      "tags": [
+        "type/jpg",
+        "image",
+        "image/large"
+      ],
+      "type": "Image",
+      "version": 0
+    },
+    {
+      "_links": {
+        "content": {
+          "href": "/api/assets/echotone/e0502c8a-fa44-4704-bb89-bcda99518951/20240611-162039.jpg",
+          "method": "GET"
+        },
+        "content/slug": {
+          "href": "/api/assets/echotone/20240611-162039.jpg",
+          "method": "GET"
+        },
+        "delete": {
+          "href": "/api/apps/echotone/assets/e0502c8a-fa44-4704-bb89-bcda99518951",
+          "method": "DELETE"
+        },
+        "move": {
+          "href": "/api/apps/echotone/assets/e0502c8a-fa44-4704-bb89-bcda99518951/parent",
+          "method": "PUT"
+        },
+        "self": {
+          "href": "/api/apps/echotone/assets/e0502c8a-fa44-4704-bb89-bcda99518951",
+          "method": "GET"
+        },
+        "update": {
+          "href": "/api/apps/echotone/assets/e0502c8a-fa44-4704-bb89-bcda99518951",
+          "method": "PUT"
+        },
+        "upload": {
+          "href": "/api/apps/echotone/assets/e0502c8a-fa44-4704-bb89-bcda99518951/content",
+          "method": "PUT"
+        }
+      },
+      "created": "2025-03-31T17:13:28Z",
+      "createdBy": "subject:6798df7c5b784ee7b7cb52e1",
+      "editToken": "eyJhIjoiZWNob3RvbmUiLCJpIjoiZTA1MDJjOGEtZmE0NC00NzA0LWJiODktYmNkYTk5NTE4OTUxIiwidSI6Imh0dHBzOi8vbGFhYi5kZG5zLm5ldDozODA4MC8ifQ==",
+      "fileHash": "PfcdHuOdF1qoviglK4Fzjmg/ZKnNWTrsU8Lp6WpGvgw=",
+      "fileName": "20240611_162039.jpg",
+      "fileSize": 3494601,
+      "fileType": "jpg",
+      "fileVersion": 0,
+      "id": "e0502c8a-fa44-4704-bb89-bcda99518951",
+      "isImage": true,
+      "isProtected": false,
+      "lastModified": "2025-03-31T17:13:28Z",
+      "lastModifiedBy": "subject:6798df7c5b784ee7b7cb52e1",
+      "metadata": {
+        "created": "2024-06-11T16:20:39",
+        "description": "JFIF File",
+        "imageQuality": 95,
+        "latitude": 43.9342373,
+        "longitude": 3.7057105000000004,
+        "pixelHeight": 3000,
+        "pixelWidth": 4000
+      },
+      "metadataText": "4000x3000px, 3.3 MB",
+      "mimeType": "image/jpeg",
+      "parentId": "00000000-0000-0000-0000-000000000000",
+      "pixelHeight": 3000,
+      "pixelWidth": 4000,
+      "slug": "20240611-162039.jpg",
+      "tags": [
+        "type/jpg",
+        "image",
+        "image/large"
+      ],
+      "type": "Image",
+      "version": 0
+    },
+    {
+      "_links": {
+        "content": {
+          "href": "/api/assets/echotone/69ba1894-6ccc-4f9d-9940-baecbd1352fe/20240611-161244.jpg",
+          "method": "GET"
+        },
+        "content/slug": {
+          "href": "/api/assets/echotone/20240611-161244.jpg",
+          "method": "GET"
+        },
+        "delete": {
+          "href": "/api/apps/echotone/assets/69ba1894-6ccc-4f9d-9940-baecbd1352fe",
+          "method": "DELETE"
+        },
+        "move": {
+          "href": "/api/apps/echotone/assets/69ba1894-6ccc-4f9d-9940-baecbd1352fe/parent",
+          "method": "PUT"
+        },
+        "self": {
+          "href": "/api/apps/echotone/assets/69ba1894-6ccc-4f9d-9940-baecbd1352fe",
+          "method": "GET"
+        },
+        "update": {
+          "href": "/api/apps/echotone/assets/69ba1894-6ccc-4f9d-9940-baecbd1352fe",
+          "method": "PUT"
+        },
+        "upload": {
+          "href": "/api/apps/echotone/assets/69ba1894-6ccc-4f9d-9940-baecbd1352fe/content",
+          "method": "PUT"
+        }
+      },
+      "created": "2025-03-31T17:13:27Z",
+      "createdBy": "subject:6798df7c5b784ee7b7cb52e1",
+      "editToken": "eyJhIjoiZWNob3RvbmUiLCJpIjoiNjliYTE4OTQtNmNjYy00ZjlkLTk5NDAtYmFlY2JkMTM1MmZlIiwidSI6Imh0dHBzOi8vbGFhYi5kZG5zLm5ldDozODA4MC8ifQ==",
+      "fileHash": "uU/yMe6aITOqlToY8p0JeeSmZr0flW8bQ6PI463EcLU=",
+      "fileName": "20240611_161244.jpg",
+      "fileSize": 3172266,
+      "fileType": "jpg",
+      "fileVersion": 0,
+      "id": "69ba1894-6ccc-4f9d-9940-baecbd1352fe",
+      "isImage": true,
+      "isProtected": false,
+      "lastModified": "2025-03-31T17:13:27Z",
+      "lastModifiedBy": "subject:6798df7c5b784ee7b7cb52e1",
+      "metadata": {
+        "created": "2024-06-11T16:12:45",
+        "description": "JFIF File",
+        "imageQuality": 94,
+        "latitude": 43.93424649999999,
+        "longitude": 3.7057509,
+        "pixelHeight": 4000,
+        "pixelWidth": 3000
+      },
+      "metadataText": "3000x4000px, 3 MB",
+      "mimeType": "image/jpeg",
+      "parentId": "00000000-0000-0000-0000-000000000000",
+      "pixelHeight": 4000,
+      "pixelWidth": 3000,
+      "slug": "20240611-161244.jpg",
+      "tags": [
+        "type/jpg",
+        "image",
+        "image/large"
+      ],
+      "type": "Image",
+      "version": 0
+    },
+    {
+      "_links": {
+        "content": {
+          "href": "/api/assets/echotone/766e75b7-8955-48a9-a5a8-be9d9df22490/20240611-162445.jpg",
+          "method": "GET"
+        },
+        "content/slug": {
+          "href": "/api/assets/echotone/20240611-162445.jpg",
+          "method": "GET"
+        },
+        "delete": {
+          "href": "/api/apps/echotone/assets/766e75b7-8955-48a9-a5a8-be9d9df22490",
+          "method": "DELETE"
+        },
+        "move": {
+          "href": "/api/apps/echotone/assets/766e75b7-8955-48a9-a5a8-be9d9df22490/parent",
+          "method": "PUT"
+        },
+        "self": {
+          "href": "/api/apps/echotone/assets/766e75b7-8955-48a9-a5a8-be9d9df22490",
+          "method": "GET"
+        },
+        "update": {
+          "href": "/api/apps/echotone/assets/766e75b7-8955-48a9-a5a8-be9d9df22490",
+          "method": "PUT"
+        },
+        "upload": {
+          "href": "/api/apps/echotone/assets/766e75b7-8955-48a9-a5a8-be9d9df22490/content",
+          "method": "PUT"
+        }
+      },
+      "created": "2025-03-31T17:13:27Z",
+      "createdBy": "subject:6798df7c5b784ee7b7cb52e1",
+      "editToken": "eyJhIjoiZWNob3RvbmUiLCJpIjoiNzY2ZTc1YjctODk1NS00OGE5LWE1YTgtYmU5ZDlkZjIyNDkwIiwidSI6Imh0dHBzOi8vbGFhYi5kZG5zLm5ldDozODA4MC8ifQ==",
+      "fileHash": "0/ROT0lSrEvHIBFYP/gyMuTIe4Ssk0HNRjpy3YGUFzU=",
+      "fileName": "20240611_162445.jpg",
+      "fileSize": 3290923,
+      "fileType": "jpg",
+      "fileVersion": 0,
+      "id": "766e75b7-8955-48a9-a5a8-be9d9df22490",
+      "isImage": true,
+      "isProtected": false,
+      "lastModified": "2025-03-31T17:13:27Z",
+      "lastModifiedBy": "subject:6798df7c5b784ee7b7cb52e1",
+      "metadata": {
+        "created": "2024-06-11T16:24:45",
+        "description": "JFIF File",
+        "imageQuality": 93,
+        "latitude": 43.934253999999996,
+        "longitude": 3.7057655,
+        "pixelHeight": 4000,
+        "pixelWidth": 3000
+      },
+      "metadataText": "3000x4000px, 3.1 MB",
+      "mimeType": "image/jpeg",
+      "parentId": "00000000-0000-0000-0000-000000000000",
+      "pixelHeight": 4000,
+      "pixelWidth": 3000,
+      "slug": "20240611-162445.jpg",
+      "tags": [
+        "type/jpg",
+        "image",
+        "image/large"
+      ],
+      "type": "Image",
+      "version": 0
+    },
+    {
+      "_links": {
+        "content": {
+          "href": "/api/assets/echotone/1733a92f-d6ac-4c97-a1dd-8d573485e4fe/20240611-162910.jpg",
+          "method": "GET"
+        },
+        "content/slug": {
+          "href": "/api/assets/echotone/20240611-162910.jpg",
+          "method": "GET"
+        },
+        "delete": {
+          "href": "/api/apps/echotone/assets/1733a92f-d6ac-4c97-a1dd-8d573485e4fe",
+          "method": "DELETE"
+        },
+        "move": {
+          "href": "/api/apps/echotone/assets/1733a92f-d6ac-4c97-a1dd-8d573485e4fe/parent",
+          "method": "PUT"
+        },
+        "self": {
+          "href": "/api/apps/echotone/assets/1733a92f-d6ac-4c97-a1dd-8d573485e4fe",
+          "method": "GET"
+        },
+        "update": {
+          "href": "/api/apps/echotone/assets/1733a92f-d6ac-4c97-a1dd-8d573485e4fe",
+          "method": "PUT"
+        },
+        "upload": {
+          "href": "/api/apps/echotone/assets/1733a92f-d6ac-4c97-a1dd-8d573485e4fe/content",
+          "method": "PUT"
+        }
+      },
+      "created": "2025-03-31T17:13:26Z",
+      "createdBy": "subject:6798df7c5b784ee7b7cb52e1",
+      "editToken": "eyJhIjoiZWNob3RvbmUiLCJpIjoiMTczM2E5MmYtZDZhYy00Yzk3LWExZGQtOGQ1NzM0ODVlNGZlIiwidSI6Imh0dHBzOi8vbGFhYi5kZG5zLm5ldDozODA4MC8ifQ==",
+      "fileHash": "x9RTIcvpcSJ/oWZX1FnjosCGppCB9B0q8FJw0KijIR4=",
+      "fileName": "20240611_162910.jpg",
+      "fileSize": 3105196,
+      "fileType": "jpg",
+      "fileVersion": 0,
+      "id": "1733a92f-d6ac-4c97-a1dd-8d573485e4fe",
+      "isImage": true,
+      "isProtected": false,
+      "lastModified": "2025-03-31T17:13:26Z",
+      "lastModifiedBy": "subject:6798df7c5b784ee7b7cb52e1",
+      "metadata": {
+        "created": "2024-06-11T16:29:11",
+        "description": "JFIF File",
+        "imageQuality": 94,
+        "latitude": 43.9342258,
+        "longitude": 3.7056773,
+        "pixelHeight": 4000,
+        "pixelWidth": 3000
+      },
+      "metadataText": "3000x4000px, 3 MB",
+      "mimeType": "image/jpeg",
+      "parentId": "00000000-0000-0000-0000-000000000000",
+      "pixelHeight": 4000,
+      "pixelWidth": 3000,
+      "slug": "20240611-162910.jpg",
+      "tags": [
+        "type/jpg",
+        "image",
+        "image/large"
+      ],
+      "type": "Image",
+      "version": 0
+    },
+    {
+      "_links": {
+        "content": {
+          "href": "/api/assets/echotone/3d2cb6b6-4c13-4184-a720-5892a222af84/20240611-160254.jpg",
+          "method": "GET"
+        },
+        "content/slug": {
+          "href": "/api/assets/echotone/20240611-160254.jpg",
+          "method": "GET"
+        },
+        "delete": {
+          "href": "/api/apps/echotone/assets/3d2cb6b6-4c13-4184-a720-5892a222af84",
+          "method": "DELETE"
+        },
+        "move": {
+          "href": "/api/apps/echotone/assets/3d2cb6b6-4c13-4184-a720-5892a222af84/parent",
+          "method": "PUT"
+        },
+        "self": {
+          "href": "/api/apps/echotone/assets/3d2cb6b6-4c13-4184-a720-5892a222af84",
+          "method": "GET"
+        },
+        "update": {
+          "href": "/api/apps/echotone/assets/3d2cb6b6-4c13-4184-a720-5892a222af84",
+          "method": "PUT"
+        },
+        "upload": {
+          "href": "/api/apps/echotone/assets/3d2cb6b6-4c13-4184-a720-5892a222af84/content",
+          "method": "PUT"
+        }
+      },
+      "created": "2025-03-31T17:13:26Z",
+      "createdBy": "subject:6798df7c5b784ee7b7cb52e1",
+      "editToken": "eyJhIjoiZWNob3RvbmUiLCJpIjoiM2QyY2I2YjYtNGMxMy00MTg0LWE3MjAtNTg5MmEyMjJhZjg0IiwidSI6Imh0dHBzOi8vbGFhYi5kZG5zLm5ldDozODA4MC8ifQ==",
+      "fileHash": "vpinIMJ\u002B7Rxlo\u002BCyP3vobs8KvDgMAxTQH5xgkKgOw8Y=",
+      "fileName": "20240611_160254.jpg",
+      "fileSize": 3267287,
+      "fileType": "jpg",
+      "fileVersion": 0,
+      "id": "3d2cb6b6-4c13-4184-a720-5892a222af84",
+      "isImage": true,
+      "isProtected": false,
+      "lastModified": "2025-03-31T17:13:26Z",
+      "lastModifiedBy": "subject:6798df7c5b784ee7b7cb52e1",
+      "metadata": {
+        "created": "2024-06-11T16:02:55",
+        "description": "JFIF File",
+        "imageQuality": 94,
+        "latitude": 43.934242,
+        "longitude": 3.7057297,
+        "pixelHeight": 3000,
+        "pixelWidth": 4000
+      },
+      "metadataText": "4000x3000px, 3.1 MB",
+      "mimeType": "image/jpeg",
+      "parentId": "00000000-0000-0000-0000-000000000000",
+      "pixelHeight": 3000,
+      "pixelWidth": 4000,
+      "slug": "20240611-160254.jpg",
+      "tags": [
+        "type/jpg",
+        "image",
+        "image/large"
+      ],
+      "type": "Image",
+      "version": 0
+    },
+    {
+      "_links": {
+        "content": {
+          "href": "/api/assets/echotone/3d581b5d-c4d9-45cd-bf8c-b408bc38053a/20240611-160243.jpg",
+          "method": "GET"
+        },
+        "content/slug": {
+          "href": "/api/assets/echotone/20240611-160243.jpg",
+          "method": "GET"
+        },
+        "delete": {
+          "href": "/api/apps/echotone/assets/3d581b5d-c4d9-45cd-bf8c-b408bc38053a",
+          "method": "DELETE"
+        },
+        "move": {
+          "href": "/api/apps/echotone/assets/3d581b5d-c4d9-45cd-bf8c-b408bc38053a/parent",
+          "method": "PUT"
+        },
+        "self": {
+          "href": "/api/apps/echotone/assets/3d581b5d-c4d9-45cd-bf8c-b408bc38053a",
+          "method": "GET"
+        },
+        "update": {
+          "href": "/api/apps/echotone/assets/3d581b5d-c4d9-45cd-bf8c-b408bc38053a",
+          "method": "PUT"
+        },
+        "upload": {
+          "href": "/api/apps/echotone/assets/3d581b5d-c4d9-45cd-bf8c-b408bc38053a/content",
+          "method": "PUT"
+        }
+      },
+      "created": "2025-03-31T17:13:26Z",
+      "createdBy": "subject:6798df7c5b784ee7b7cb52e1",
+      "editToken": "eyJhIjoiZWNob3RvbmUiLCJpIjoiM2Q1ODFiNWQtYzRkOS00NWNkLWJmOGMtYjQwOGJjMzgwNTNhIiwidSI6Imh0dHBzOi8vbGFhYi5kZG5zLm5ldDozODA4MC8ifQ==",
+      "fileHash": "t/eF3py3B9h7BV0/azAwdmvsAkqm8y7MHWBhVC1Ua0Q=",
+      "fileName": "20240611_160243.jpg",
+      "fileSize": 3317825,
+      "fileType": "jpg",
+      "fileVersion": 0,
+      "id": "3d581b5d-c4d9-45cd-bf8c-b408bc38053a",
+      "isImage": true,
+      "isProtected": false,
+      "lastModified": "2025-03-31T17:13:26Z",
+      "lastModifiedBy": "subject:6798df7c5b784ee7b7cb52e1",
+      "metadata": {
+        "created": "2024-06-11T16:02:43",
+        "description": "JFIF File",
+        "imageQuality": 94,
+        "latitude": 43.934242,
+        "longitude": 3.7057297,
+        "pixelHeight": 3000,
+        "pixelWidth": 4000
+      },
+      "metadataText": "4000x3000px, 3.2 MB",
+      "mimeType": "image/jpeg",
+      "parentId": "00000000-0000-0000-0000-000000000000",
+      "pixelHeight": 3000,
+      "pixelWidth": 4000,
+      "slug": "20240611-160243.jpg",
+      "tags": [
+        "type/jpg",
+        "image",
+        "image/large"
+      ],
+      "type": "Image",
+      "version": 0
+    },
+    {
+      "_links": {
+        "content": {
+          "href": "/api/assets/echotone/1ff3a7c3-7d7e-4502-bf7c-a0246c64348d/20240611-161618.jpg",
+          "method": "GET"
+        },
+        "content/slug": {
+          "href": "/api/assets/echotone/20240611-161618.jpg",
+          "method": "GET"
+        },
+        "delete": {
+          "href": "/api/apps/echotone/assets/1ff3a7c3-7d7e-4502-bf7c-a0246c64348d",
+          "method": "DELETE"
+        },
+        "move": {
+          "href": "/api/apps/echotone/assets/1ff3a7c3-7d7e-4502-bf7c-a0246c64348d/parent",
+          "method": "PUT"
+        },
+        "self": {
+          "href": "/api/apps/echotone/assets/1ff3a7c3-7d7e-4502-bf7c-a0246c64348d",
+          "method": "GET"
+        },
+        "update": {
+          "href": "/api/apps/echotone/assets/1ff3a7c3-7d7e-4502-bf7c-a0246c64348d",
+          "method": "PUT"
+        },
+        "upload": {
+          "href": "/api/apps/echotone/assets/1ff3a7c3-7d7e-4502-bf7c-a0246c64348d/content",
+          "method": "PUT"
+        }
+      },
+      "created": "2025-03-31T17:13:25Z",
+      "createdBy": "subject:6798df7c5b784ee7b7cb52e1",
+      "editToken": "eyJhIjoiZWNob3RvbmUiLCJpIjoiMWZmM2E3YzMtN2Q3ZS00NTAyLWJmN2MtYTAyNDZjNjQzNDhkIiwidSI6Imh0dHBzOi8vbGFhYi5kZG5zLm5ldDozODA4MC8ifQ==",
+      "fileHash": "I4gLvXBXmw4lym49YkUKNzmjVNg3tdb0pZpFxCpaw44=",
+      "fileName": "20240611_161618.jpg",
+      "fileSize": 3345759,
+      "fileType": "jpg",
+      "fileVersion": 0,
+      "id": "1ff3a7c3-7d7e-4502-bf7c-a0246c64348d",
+      "isImage": true,
+      "isProtected": false,
+      "lastModified": "2025-03-31T17:13:25Z",
+      "lastModifiedBy": "subject:6798df7c5b784ee7b7cb52e1",
+      "metadata": {
+        "created": "2024-06-11T16:16:18",
+        "description": "JFIF File",
+        "imageQuality": 94,
+        "latitude": 43.934256999999995,
+        "longitude": 3.7057782,
+        "pixelHeight": 4000,
+        "pixelWidth": 3000
+      },
+      "metadataText": "3000x4000px, 3.2 MB",
+      "mimeType": "image/jpeg",
+      "parentId": "00000000-0000-0000-0000-000000000000",
+      "pixelHeight": 4000,
+      "pixelWidth": 3000,
+      "slug": "20240611-161618.jpg",
+      "tags": [
+        "type/jpg",
+        "image",
+        "image/large"
+      ],
+      "type": "Image",
+      "version": 0
+    },
+    {
+      "_links": {
+        "content": {
+          "href": "/api/assets/echotone/39ec4d46-455b-4ad6-8f28-1eefc0311a69/20240611-161515.jpg",
+          "method": "GET"
+        },
+        "content/slug": {
+          "href": "/api/assets/echotone/20240611-161515.jpg",
+          "method": "GET"
+        },
+        "delete": {
+          "href": "/api/apps/echotone/assets/39ec4d46-455b-4ad6-8f28-1eefc0311a69",
+          "method": "DELETE"
+        },
+        "move": {
+          "href": "/api/apps/echotone/assets/39ec4d46-455b-4ad6-8f28-1eefc0311a69/parent",
+          "method": "PUT"
+        },
+        "self": {
+          "href": "/api/apps/echotone/assets/39ec4d46-455b-4ad6-8f28-1eefc0311a69",
+          "method": "GET"
+        },
+        "update": {
+          "href": "/api/apps/echotone/assets/39ec4d46-455b-4ad6-8f28-1eefc0311a69",
+          "method": "PUT"
+        },
+        "upload": {
+          "href": "/api/apps/echotone/assets/39ec4d46-455b-4ad6-8f28-1eefc0311a69/content",
+          "method": "PUT"
+        }
+      },
+      "created": "2025-03-31T17:13:25Z",
+      "createdBy": "subject:6798df7c5b784ee7b7cb52e1",
+      "editToken": "eyJhIjoiZWNob3RvbmUiLCJpIjoiMzllYzRkNDYtNDU1Yi00YWQ2LThmMjgtMWVlZmMwMzExYTY5IiwidSI6Imh0dHBzOi8vbGFhYi5kZG5zLm5ldDozODA4MC8ifQ==",
+      "fileHash": "ZKbl7mv9gmdIJRN0KZnQIqmNtO1gstV3CT0Avpk1rjc=",
+      "fileName": "20240611_161515.jpg",
+      "fileSize": 3365081,
+      "fileType": "jpg",
+      "fileVersion": 0,
+      "id": "39ec4d46-455b-4ad6-8f28-1eefc0311a69",
+      "isImage": true,
+      "isProtected": false,
+      "lastModified": "2025-03-31T17:13:25Z",
+      "lastModifiedBy": "subject:6798df7c5b784ee7b7cb52e1",
+      "metadata": {
+        "created": "2024-06-11T16:15:15",
+        "description": "JFIF File",
+        "imageQuality": 94,
+        "latitude": 43.934255799999995,
+        "longitude": 3.7057747,
+        "pixelHeight": 4000,
+        "pixelWidth": 3000
+      },
+      "metadataText": "3000x4000px, 3.2 MB",
+      "mimeType": "image/jpeg",
+      "parentId": "00000000-0000-0000-0000-000000000000",
+      "pixelHeight": 4000,
+      "pixelWidth": 3000,
+      "slug": "20240611-161515.jpg",
+      "tags": [
+        "type/jpg",
+        "image",
+        "image/large"
+      ],
+      "type": "Image",
+      "version": 0
+    },
+    {
+      "_links": {
+        "content": {
+          "href": "/api/assets/echotone/30b888e9-b87d-4306-85d0-a6a7613f95fd/20240611-161351.jpg",
+          "method": "GET"
+        },
+        "content/slug": {
+          "href": "/api/assets/echotone/20240611-161351.jpg",
+          "method": "GET"
+        },
+        "delete": {
+          "href": "/api/apps/echotone/assets/30b888e9-b87d-4306-85d0-a6a7613f95fd",
+          "method": "DELETE"
+        },
+        "move": {
+          "href": "/api/apps/echotone/assets/30b888e9-b87d-4306-85d0-a6a7613f95fd/parent",
+          "method": "PUT"
+        },
+        "self": {
+          "href": "/api/apps/echotone/assets/30b888e9-b87d-4306-85d0-a6a7613f95fd",
+          "method": "GET"
+        },
+        "update": {
+          "href": "/api/apps/echotone/assets/30b888e9-b87d-4306-85d0-a6a7613f95fd",
+          "method": "PUT"
+        },
+        "upload": {
+          "href": "/api/apps/echotone/assets/30b888e9-b87d-4306-85d0-a6a7613f95fd/content",
+          "method": "PUT"
+        }
+      },
+      "created": "2025-03-31T17:13:24Z",
+      "createdBy": "subject:6798df7c5b784ee7b7cb52e1",
+      "editToken": "eyJhIjoiZWNob3RvbmUiLCJpIjoiMzBiODg4ZTktYjg3ZC00MzA2LTg1ZDAtYTZhNzYxM2Y5NWZkIiwidSI6Imh0dHBzOi8vbGFhYi5kZG5zLm5ldDozODA4MC8ifQ==",
+      "fileHash": "GnvvSdsMmeoce/9doPThv0K9BL9/Cen1yOcwTYJp2dI=",
+      "fileName": "20240611_161351.jpg",
+      "fileSize": 2791801,
+      "fileType": "jpg",
+      "fileVersion": 0,
+      "id": "30b888e9-b87d-4306-85d0-a6a7613f95fd",
+      "isImage": true,
+      "isProtected": false,
+      "lastModified": "2025-03-31T17:13:24Z",
+      "lastModifiedBy": "subject:6798df7c5b784ee7b7cb52e1",
+      "metadata": {
+        "created": "2024-06-11T16:13:52",
+        "description": "JFIF File",
+        "imageQuality": 93,
+        "latitude": 43.93425499999999,
+        "longitude": 3.7057693,
+        "pixelHeight": 4000,
+        "pixelWidth": 3000
+      },
+      "metadataText": "3000x4000px, 2.7 MB",
+      "mimeType": "image/jpeg",
+      "parentId": "00000000-0000-0000-0000-000000000000",
+      "pixelHeight": 4000,
+      "pixelWidth": 3000,
+      "slug": "20240611-161351.jpg",
+      "tags": [
+        "type/jpg",
+        "image",
+        "image/large"
+      ],
+      "type": "Image",
+      "version": 0
+    },
+    {
+      "_links": {
+        "content": {
+          "href": "/api/assets/echotone/59ebcc8f-51db-4b8e-88cf-97a309cad51b/20240611-162405.jpg",
+          "method": "GET"
+        },
+        "content/slug": {
+          "href": "/api/assets/echotone/20240611-162405.jpg",
+          "method": "GET"
+        },
+        "delete": {
+          "href": "/api/apps/echotone/assets/59ebcc8f-51db-4b8e-88cf-97a309cad51b",
+          "method": "DELETE"
+        },
+        "move": {
+          "href": "/api/apps/echotone/assets/59ebcc8f-51db-4b8e-88cf-97a309cad51b/parent",
+          "method": "PUT"
+        },
+        "self": {
+          "href": "/api/apps/echotone/assets/59ebcc8f-51db-4b8e-88cf-97a309cad51b",
+          "method": "GET"
+        },
+        "update": {
+          "href": "/api/apps/echotone/assets/59ebcc8f-51db-4b8e-88cf-97a309cad51b",
+          "method": "PUT"
+        },
+        "upload": {
+          "href": "/api/apps/echotone/assets/59ebcc8f-51db-4b8e-88cf-97a309cad51b/content",
+          "method": "PUT"
+        }
+      },
+      "created": "2025-03-31T17:13:24Z",
+      "createdBy": "subject:6798df7c5b784ee7b7cb52e1",
+      "editToken": "eyJhIjoiZWNob3RvbmUiLCJpIjoiNTllYmNjOGYtNTFkYi00YjhlLTg4Y2YtOTdhMzA5Y2FkNTFiIiwidSI6Imh0dHBzOi8vbGFhYi5kZG5zLm5ldDozODA4MC8ifQ==",
+      "fileHash": "n7WkoNw09isfr2rKAjBWasFPNZ9QqPG4YX7HBXpDULc=",
+      "fileName": "20240611_162405.jpg",
+      "fileSize": 2508071,
+      "fileType": "jpg",
+      "fileVersion": 0,
+      "id": "59ebcc8f-51db-4b8e-88cf-97a309cad51b",
+      "isImage": true,
+      "isProtected": false,
+      "lastModified": "2025-03-31T17:13:24Z",
+      "lastModifiedBy": "subject:6798df7c5b784ee7b7cb52e1",
+      "metadata": {
+        "created": "2024-06-11T16:24:06",
+        "description": "JFIF File",
+        "imageQuality": 94,
+        "latitude": 43.934254599999996,
+        "longitude": 3.7057736997222226,
+        "pixelHeight": 4000,
+        "pixelWidth": 3000
+      },
+      "metadataText": "3000x4000px, 2.4 MB",
+      "mimeType": "image/jpeg",
+      "parentId": "00000000-0000-0000-0000-000000000000",
+      "pixelHeight": 4000,
+      "pixelWidth": 3000,
+      "slug": "20240611-162405.jpg",
+      "tags": [
+        "type/jpg",
+        "image",
+        "image/large"
+      ],
+      "type": "Image",
+      "version": 0
+    },
+    {
+      "_links": {
+        "content": {
+          "href": "/api/assets/echotone/44f94ee0-d4d5-4644-8b80-141dc0e24b76/20240611-162554.jpg",
+          "method": "GET"
+        },
+        "content/slug": {
+          "href": "/api/assets/echotone/20240611-162554.jpg",
+          "method": "GET"
+        },
+        "delete": {
+          "href": "/api/apps/echotone/assets/44f94ee0-d4d5-4644-8b80-141dc0e24b76",
+          "method": "DELETE"
+        },
+        "move": {
+          "href": "/api/apps/echotone/assets/44f94ee0-d4d5-4644-8b80-141dc0e24b76/parent",
+          "method": "PUT"
+        },
+        "self": {
+          "href": "/api/apps/echotone/assets/44f94ee0-d4d5-4644-8b80-141dc0e24b76",
+          "method": "GET"
+        },
+        "update": {
+          "href": "/api/apps/echotone/assets/44f94ee0-d4d5-4644-8b80-141dc0e24b76",
+          "method": "PUT"
+        },
+        "upload": {
+          "href": "/api/apps/echotone/assets/44f94ee0-d4d5-4644-8b80-141dc0e24b76/content",
+          "method": "PUT"
+        }
+      },
+      "created": "2025-03-31T17:13:23Z",
+      "createdBy": "subject:6798df7c5b784ee7b7cb52e1",
+      "editToken": "eyJhIjoiZWNob3RvbmUiLCJpIjoiNDRmOTRlZTAtZDRkNS00NjQ0LThiODAtMTQxZGMwZTI0Yjc2IiwidSI6Imh0dHBzOi8vbGFhYi5kZG5zLm5ldDozODA4MC8ifQ==",
+      "fileHash": "5FS3Gl/WijpEY934ZYmCyfiMk7lRXBTFkwTUMEf5XLQ=",
+      "fileName": "20240611_162554.jpg",
+      "fileSize": 2188449,
+      "fileType": "jpg",
+      "fileVersion": 0,
+      "id": "44f94ee0-d4d5-4644-8b80-141dc0e24b76",
+      "isImage": true,
+      "isProtected": false,
+      "lastModified": "2025-03-31T17:13:23Z",
+      "lastModifiedBy": "subject:6798df7c5b784ee7b7cb52e1",
+      "metadata": {
+        "created": "2024-06-11T16:25:54",
+        "description": "JFIF File",
+        "imageQuality": 93,
+        "latitude": 43.93424939972222,
+        "longitude": 3.7057513,
+        "pixelHeight": 4000,
+        "pixelWidth": 3000
+      },
+      "metadataText": "3000x4000px, 2.1 MB",
+      "mimeType": "image/jpeg",
+      "parentId": "00000000-0000-0000-0000-000000000000",
+      "pixelHeight": 4000,
+      "pixelWidth": 3000,
+      "slug": "20240611-162554.jpg",
+      "tags": [
+        "type/jpg",
+        "image",
+        "image/large"
+      ],
+      "type": "Image",
+      "version": 0
+    },
+    {
+      "_links": {
+        "content": {
+          "href": "/api/assets/echotone/48b2f61d-930d-4e8e-a788-4001ca11324b/20240611-162620.jpg",
+          "method": "GET"
+        },
+        "content/slug": {
+          "href": "/api/assets/echotone/20240611-162620.jpg",
+          "method": "GET"
+        },
+        "delete": {
+          "href": "/api/apps/echotone/assets/48b2f61d-930d-4e8e-a788-4001ca11324b",
+          "method": "DELETE"
+        },
+        "move": {
+          "href": "/api/apps/echotone/assets/48b2f61d-930d-4e8e-a788-4001ca11324b/parent",
+          "method": "PUT"
+        },
+        "self": {
+          "href": "/api/apps/echotone/assets/48b2f61d-930d-4e8e-a788-4001ca11324b",
+          "method": "GET"
+        },
+        "update": {
+          "href": "/api/apps/echotone/assets/48b2f61d-930d-4e8e-a788-4001ca11324b",
+          "method": "PUT"
+        },
+        "upload": {
+          "href": "/api/apps/echotone/assets/48b2f61d-930d-4e8e-a788-4001ca11324b/content",
+          "method": "PUT"
+        }
+      },
+      "created": "2025-03-31T17:13:23Z",
+      "createdBy": "subject:6798df7c5b784ee7b7cb52e1",
+      "editToken": "eyJhIjoiZWNob3RvbmUiLCJpIjoiNDhiMmY2MWQtOTMwZC00ZThlLWE3ODgtNDAwMWNhMTEzMjRiIiwidSI6Imh0dHBzOi8vbGFhYi5kZG5zLm5ldDozODA4MC8ifQ==",
+      "fileHash": "iFarD1\u002BvG2BAY2WXa92p9Qjc2ZQJIBz0NQJZDzsv8Cw=",
+      "fileName": "20240611_162620.jpg",
+      "fileSize": 2364756,
+      "fileType": "jpg",
+      "fileVersion": 0,
+      "id": "48b2f61d-930d-4e8e-a788-4001ca11324b",
+      "isImage": true,
+      "isProtected": false,
+      "lastModified": "2025-03-31T17:13:23Z",
+      "lastModifiedBy": "subject:6798df7c5b784ee7b7cb52e1",
+      "metadata": {
+        "created": "2024-06-11T16:26:20",
+        "description": "JFIF File",
+        "imageQuality": 94,
+        "latitude": 43.93425259999999,
+        "longitude": 3.7057598997222225,
+        "pixelHeight": 4000,
+        "pixelWidth": 3000
+      },
+      "metadataText": "3000x4000px, 2.3 MB",
+      "mimeType": "image/jpeg",
+      "parentId": "00000000-0000-0000-0000-000000000000",
+      "pixelHeight": 4000,
+      "pixelWidth": 3000,
+      "slug": "20240611-162620.jpg",
+      "tags": [
+        "type/jpg",
+        "image",
+        "image/large"
+      ],
+      "type": "Image",
+      "version": 0
+    },
+    {
+      "_links": {
+        "content": {
+          "href": "/api/assets/echotone/2fb7b36a-1e01-4cbe-a208-fe8af6d1db9e/20240611-162150.jpg",
+          "method": "GET"
+        },
+        "content/slug": {
+          "href": "/api/assets/echotone/20240611-162150.jpg",
+          "method": "GET"
+        },
+        "delete": {
+          "href": "/api/apps/echotone/assets/2fb7b36a-1e01-4cbe-a208-fe8af6d1db9e",
+          "method": "DELETE"
+        },
+        "move": {
+          "href": "/api/apps/echotone/assets/2fb7b36a-1e01-4cbe-a208-fe8af6d1db9e/parent",
+          "method": "PUT"
+        },
+        "self": {
+          "href": "/api/apps/echotone/assets/2fb7b36a-1e01-4cbe-a208-fe8af6d1db9e",
+          "method": "GET"
+        },
+        "update": {
+          "href": "/api/apps/echotone/assets/2fb7b36a-1e01-4cbe-a208-fe8af6d1db9e",
+          "method": "PUT"
+        },
+        "upload": {
+          "href": "/api/apps/echotone/assets/2fb7b36a-1e01-4cbe-a208-fe8af6d1db9e/content",
+          "method": "PUT"
+        }
+      },
+      "created": "2025-03-31T17:13:22Z",
+      "createdBy": "subject:6798df7c5b784ee7b7cb52e1",
+      "editToken": "eyJhIjoiZWNob3RvbmUiLCJpIjoiMmZiN2IzNmEtMWUwMS00Y2JlLWEyMDgtZmU4YWY2ZDFkYjllIiwidSI6Imh0dHBzOi8vbGFhYi5kZG5zLm5ldDozODA4MC8ifQ==",
+      "fileHash": "sGJBhTdRxB8O0aEF5dWV4r\u002BKw/5thGyNejFUdtZDuQ8=",
+      "fileName": "20240611_162150.jpg",
+      "fileSize": 2180446,
+      "fileType": "jpg",
+      "fileVersion": 0,
+      "id": "2fb7b36a-1e01-4cbe-a208-fe8af6d1db9e",
+      "isImage": true,
+      "isProtected": false,
+      "lastModified": "2025-03-31T17:13:22Z",
+      "lastModifiedBy": "subject:6798df7c5b784ee7b7cb52e1",
+      "metadata": {
+        "created": "2024-06-11T16:21:50",
+        "description": "JFIF File",
+        "imageQuality": 93,
+        "latitude": 43.93426519972222,
+        "longitude": 3.7057924,
+        "pixelHeight": 4000,
+        "pixelWidth": 3000
+      },
+      "metadataText": "3000x4000px, 2.1 MB",
+      "mimeType": "image/jpeg",
+      "parentId": "00000000-0000-0000-0000-000000000000",
+      "pixelHeight": 4000,
+      "pixelWidth": 3000,
+      "slug": "20240611-162150.jpg",
+      "tags": [
+        "type/jpg",
+        "image",
+        "image/large"
+      ],
+      "type": "Image",
+      "version": 0
+    },
+    {
+      "_links": {
+        "content": {
+          "href": "/api/assets/echotone/2dc11831-f493-4263-9f5d-db5efee59f56/20240611-155125.jpg",
+          "method": "GET"
+        },
+        "content/slug": {
+          "href": "/api/assets/echotone/20240611-155125.jpg",
+          "method": "GET"
+        },
+        "delete": {
+          "href": "/api/apps/echotone/assets/2dc11831-f493-4263-9f5d-db5efee59f56",
+          "method": "DELETE"
+        },
+        "move": {
+          "href": "/api/apps/echotone/assets/2dc11831-f493-4263-9f5d-db5efee59f56/parent",
+          "method": "PUT"
+        },
+        "self": {
+          "href": "/api/apps/echotone/assets/2dc11831-f493-4263-9f5d-db5efee59f56",
+          "method": "GET"
+        },
+        "update": {
+          "href": "/api/apps/echotone/assets/2dc11831-f493-4263-9f5d-db5efee59f56",
+          "method": "PUT"
+        },
+        "upload": {
+          "href": "/api/apps/echotone/assets/2dc11831-f493-4263-9f5d-db5efee59f56/content",
+          "method": "PUT"
+        }
+      },
+      "created": "2025-03-31T17:12:00Z",
+      "createdBy": "subject:6798df7c5b784ee7b7cb52e1",
+      "editToken": "eyJhIjoiZWNob3RvbmUiLCJpIjoiMmRjMTE4MzEtZjQ5My00MjYzLTlmNWQtZGI1ZWZlZTU5ZjU2IiwidSI6Imh0dHBzOi8vbGFhYi5kZG5zLm5ldDozODA4MC8ifQ==",
+      "fileHash": "7s8FNss4DkXnqIw68TnqJWxUZUXlWtJ9FEl61aiUI/w=",
+      "fileName": "20240611_155125.jpg",
+      "fileSize": 4086915,
+      "fileType": "jpg",
+      "fileVersion": 0,
+      "id": "2dc11831-f493-4263-9f5d-db5efee59f56",
+      "isImage": true,
+      "isProtected": false,
+      "lastModified": "2025-03-31T17:12:00Z",
+      "lastModifiedBy": "subject:6798df7c5b784ee7b7cb52e1",
+      "metadata": {
+        "created": "2024-06-11T15:51:25",
+        "description": "JFIF File",
+        "imageQuality": 94,
+        "latitude": 43.93422189972222,
+        "longitude": 3.7056418,
+        "pixelHeight": 4000,
+        "pixelWidth": 3000
+      },
+      "metadataText": "3000x4000px, 3.9 MB",
+      "mimeType": "image/jpeg",
+      "parentId": "00000000-0000-0000-0000-000000000000",
+      "pixelHeight": 4000,
+      "pixelWidth": 3000,
+      "slug": "20240611-155125.jpg",
+      "tags": [
+        "type/jpg",
+        "image",
+        "image/large"
+      ],
+      "type": "Image",
+      "version": 0
+    },
+    {
+      "_links": {
+        "content": {
+          "href": "/api/assets/echotone/5e3041a7-65ec-4cb1-89c0-7b5c7a18ce00/20240611-155155.jpg",
+          "method": "GET"
+        },
+        "content/slug": {
+          "href": "/api/assets/echotone/20240611-155155.jpg",
+          "method": "GET"
+        },
+        "delete": {
+          "href": "/api/apps/echotone/assets/5e3041a7-65ec-4cb1-89c0-7b5c7a18ce00",
+          "method": "DELETE"
+        },
+        "move": {
+          "href": "/api/apps/echotone/assets/5e3041a7-65ec-4cb1-89c0-7b5c7a18ce00/parent",
+          "method": "PUT"
+        },
+        "self": {
+          "href": "/api/apps/echotone/assets/5e3041a7-65ec-4cb1-89c0-7b5c7a18ce00",
+          "method": "GET"
+        },
+        "update": {
+          "href": "/api/apps/echotone/assets/5e3041a7-65ec-4cb1-89c0-7b5c7a18ce00",
+          "method": "PUT"
+        },
+        "upload": {
+          "href": "/api/apps/echotone/assets/5e3041a7-65ec-4cb1-89c0-7b5c7a18ce00/content",
+          "method": "PUT"
+        }
+      },
+      "created": "2025-03-31T17:11:59Z",
+      "createdBy": "subject:6798df7c5b784ee7b7cb52e1",
+      "editToken": "eyJhIjoiZWNob3RvbmUiLCJpIjoiNWUzMDQxYTctNjVlYy00Y2IxLTg5YzAtN2I1YzdhMThjZTAwIiwidSI6Imh0dHBzOi8vbGFhYi5kZG5zLm5ldDozODA4MC8ifQ==",
+      "fileHash": "3GMnQt83AbOcHkaaIoc8yxPhOlfLwEcs7Q88ynD5TQ4=",
+      "fileName": "20240611_155155.jpg",
+      "fileSize": 4201000,
+      "fileType": "jpg",
+      "fileVersion": 0,
+      "id": "5e3041a7-65ec-4cb1-89c0-7b5c7a18ce00",
+      "isImage": true,
+      "isProtected": false,
+      "lastModified": "2025-03-31T17:11:59Z",
+      "lastModifiedBy": "subject:6798df7c5b784ee7b7cb52e1",
+      "metadata": {
+        "created": "2024-06-11T15:51:56",
+        "description": "JFIF File",
+        "imageQuality": 95,
+        "latitude": 43.9342257,
+        "longitude": 3.7056747000000003,
+        "pixelHeight": 3000,
+        "pixelWidth": 4000
+      },
+      "metadataText": "4000x3000px, 4 MB",
+      "mimeType": "image/jpeg",
+      "parentId": "00000000-0000-0000-0000-000000000000",
+      "pixelHeight": 3000,
+      "pixelWidth": 4000,
+      "slug": "20240611-155155.jpg",
+      "tags": [
+        "type/jpg",
+        "image",
+        "image/large"
+      ],
+      "type": "Image",
+      "version": 0
+    },
+    {
+      "_links": {
+        "content": {
+          "href": "/api/assets/echotone/7a8a8029-3b6f-4ee6-92cc-786c78085931/20240611-155309.jpg",
+          "method": "GET"
+        },
+        "content/slug": {
+          "href": "/api/assets/echotone/20240611-155309.jpg",
+          "method": "GET"
+        },
+        "delete": {
+          "href": "/api/apps/echotone/assets/7a8a8029-3b6f-4ee6-92cc-786c78085931",
+          "method": "DELETE"
+        },
+        "move": {
+          "href": "/api/apps/echotone/assets/7a8a8029-3b6f-4ee6-92cc-786c78085931/parent",
+          "method": "PUT"
+        },
+        "self": {
+          "href": "/api/apps/echotone/assets/7a8a8029-3b6f-4ee6-92cc-786c78085931",
+          "method": "GET"
+        },
+        "update": {
+          "href": "/api/apps/echotone/assets/7a8a8029-3b6f-4ee6-92cc-786c78085931",
+          "method": "PUT"
+        },
+        "upload": {
+          "href": "/api/apps/echotone/assets/7a8a8029-3b6f-4ee6-92cc-786c78085931/content",
+          "method": "PUT"
+        }
+      },
+      "created": "2025-03-31T17:11:59Z",
+      "createdBy": "subject:6798df7c5b784ee7b7cb52e1",
+      "editToken": "eyJhIjoiZWNob3RvbmUiLCJpIjoiN2E4YTgwMjktM2I2Zi00ZWU2LTkyY2MtNzg2Yzc4MDg1OTMxIiwidSI6Imh0dHBzOi8vbGFhYi5kZG5zLm5ldDozODA4MC8ifQ==",
+      "fileHash": "30CjT0oBVco3kANIFR2IqVfLe/kTBFSpnPDojeX9C30=",
+      "fileName": "20240611_155309.jpg",
+      "fileSize": 3896763,
+      "fileType": "jpg",
+      "fileVersion": 0,
+      "id": "7a8a8029-3b6f-4ee6-92cc-786c78085931",
+      "isImage": true,
+      "isProtected": false,
+      "lastModified": "2025-03-31T17:11:59Z",
+      "lastModifiedBy": "subject:6798df7c5b784ee7b7cb52e1",
+      "metadata": {
+        "created": "2024-06-11T15:53:10",
+        "description": "JFIF File",
+        "imageQuality": 94,
+        "latitude": 43.934252699999995,
+        "longitude": 3.7057677,
+        "pixelHeight": 3000,
+        "pixelWidth": 4000
+      },
+      "metadataText": "4000x3000px, 3.7 MB",
+      "mimeType": "image/jpeg",
+      "parentId": "00000000-0000-0000-0000-000000000000",
+      "pixelHeight": 3000,
+      "pixelWidth": 4000,
+      "slug": "20240611-155309.jpg",
+      "tags": [
+        "type/jpg",
+        "image",
+        "image/large"
+      ],
+      "type": "Image",
+      "version": 0
+    },
+    {
+      "_links": {
+        "content": {
+          "href": "/api/assets/echotone/81d36ed8-c449-4823-b72a-596710393c22/20240611-155208.jpg",
+          "method": "GET"
+        },
+        "content/slug": {
+          "href": "/api/assets/echotone/20240611-155208.jpg",
+          "method": "GET"
+        },
+        "delete": {
+          "href": "/api/apps/echotone/assets/81d36ed8-c449-4823-b72a-596710393c22",
+          "method": "DELETE"
+        },
+        "move": {
+          "href": "/api/apps/echotone/assets/81d36ed8-c449-4823-b72a-596710393c22/parent",
+          "method": "PUT"
+        },
+        "self": {
+          "href": "/api/apps/echotone/assets/81d36ed8-c449-4823-b72a-596710393c22",
+          "method": "GET"
+        },
+        "update": {
+          "href": "/api/apps/echotone/assets/81d36ed8-c449-4823-b72a-596710393c22",
+          "method": "PUT"
+        },
+        "upload": {
+          "href": "/api/apps/echotone/assets/81d36ed8-c449-4823-b72a-596710393c22/content",
+          "method": "PUT"
+        }
+      },
+      "created": "2025-03-31T17:11:59Z",
+      "createdBy": "subject:6798df7c5b784ee7b7cb52e1",
+      "editToken": "eyJhIjoiZWNob3RvbmUiLCJpIjoiODFkMzZlZDgtYzQ0OS00ODIzLWI3MmEtNTk2NzEwMzkzYzIyIiwidSI6Imh0dHBzOi8vbGFhYi5kZG5zLm5ldDozODA4MC8ifQ==",
+      "fileHash": "3/nOxQjXrxinjXYsEC38nbjaGAFaSzeK9QRD96GicZU=",
+      "fileName": "20240611_155208.jpg",
+      "fileSize": 4168513,
+      "fileType": "jpg",
+      "fileVersion": 0,
+      "id": "81d36ed8-c449-4823-b72a-596710393c22",
+      "isImage": true,
+      "isProtected": false,
+      "lastModified": "2025-03-31T17:11:59Z",
+      "lastModifiedBy": "subject:6798df7c5b784ee7b7cb52e1",
+      "metadata": {
+        "created": "2024-06-11T15:52:09",
+        "description": "JFIF File",
+        "imageQuality": 94,
+        "latitude": 43.9342257,
+        "longitude": 3.7056747000000003,
+        "pixelHeight": 3000,
+        "pixelWidth": 4000
+      },
+      "metadataText": "4000x3000px, 4 MB",
+      "mimeType": "image/jpeg",
+      "parentId": "00000000-0000-0000-0000-000000000000",
+      "pixelHeight": 3000,
+      "pixelWidth": 4000,
+      "slug": "20240611-155208.jpg",
+      "tags": [
+        "type/jpg",
+        "image",
+        "image/large"
+      ],
+      "type": "Image",
+      "version": 0
+    },
+    {
+      "_links": {
+        "content": {
+          "href": "/api/assets/echotone/3d58a2cb-19a6-494d-a4ad-df90ae8d8e21/20240611-151420.jpg",
+          "method": "GET"
+        },
+        "content/slug": {
+          "href": "/api/assets/echotone/20240611-151420.jpg",
+          "method": "GET"
+        },
+        "delete": {
+          "href": "/api/apps/echotone/assets/3d58a2cb-19a6-494d-a4ad-df90ae8d8e21",
+          "method": "DELETE"
+        },
+        "move": {
+          "href": "/api/apps/echotone/assets/3d58a2cb-19a6-494d-a4ad-df90ae8d8e21/parent",
+          "method": "PUT"
+        },
+        "self": {
+          "href": "/api/apps/echotone/assets/3d58a2cb-19a6-494d-a4ad-df90ae8d8e21",
+          "method": "GET"
+        },
+        "update": {
+          "href": "/api/apps/echotone/assets/3d58a2cb-19a6-494d-a4ad-df90ae8d8e21",
+          "method": "PUT"
+        },
+        "upload": {
+          "href": "/api/apps/echotone/assets/3d58a2cb-19a6-494d-a4ad-df90ae8d8e21/content",
+          "method": "PUT"
+        }
+      },
+      "created": "2025-03-31T17:11:58Z",
+      "createdBy": "subject:6798df7c5b784ee7b7cb52e1",
+      "editToken": "eyJhIjoiZWNob3RvbmUiLCJpIjoiM2Q1OGEyY2ItMTlhNi00OTRkLWE0YWQtZGY5MGFlOGQ4ZTIxIiwidSI6Imh0dHBzOi8vbGFhYi5kZG5zLm5ldDozODA4MC8ifQ==",
+      "fileHash": "dahSI\u002BKT0AJa5OJqAbPHv0FKYftntdea2ZhKyOF\u002Bk1E=",
+      "fileName": "20240611_151420.jpg",
+      "fileSize": 3594022,
+      "fileType": "jpg",
+      "fileVersion": 0,
+      "id": "3d58a2cb-19a6-494d-a4ad-df90ae8d8e21",
+      "isImage": true,
+      "isProtected": false,
+      "lastModified": "2025-03-31T17:11:58Z",
+      "lastModifiedBy": "subject:6798df7c5b784ee7b7cb52e1",
+      "metadata": {
+        "created": "2024-06-11T15:14:20",
+        "description": "JFIF File",
+        "imageQuality": 94,
+        "latitude": 43.934228299999994,
+        "longitude": 3.7056912,
+        "pixelHeight": 4000,
+        "pixelWidth": 3000
+      },
+      "metadataText": "3000x4000px, 3.4 MB",
+      "mimeType": "image/jpeg",
+      "parentId": "00000000-0000-0000-0000-000000000000",
+      "pixelHeight": 4000,
+      "pixelWidth": 3000,
+      "slug": "20240611-151420.jpg",
+      "tags": [
+        "type/jpg",
+        "image",
+        "image/large"
+      ],
+      "type": "Image",
+      "version": 0
+    },
+    {
+      "_links": {
+        "content": {
+          "href": "/api/assets/echotone/f928920c-a800-49d2-8427-8de5810a3ce9/20240611-150009.jpg",
+          "method": "GET"
+        },
+        "content/slug": {
+          "href": "/api/assets/echotone/20240611-150009.jpg",
+          "method": "GET"
+        },
+        "delete": {
+          "href": "/api/apps/echotone/assets/f928920c-a800-49d2-8427-8de5810a3ce9",
+          "method": "DELETE"
+        },
+        "move": {
+          "href": "/api/apps/echotone/assets/f928920c-a800-49d2-8427-8de5810a3ce9/parent",
+          "method": "PUT"
+        },
+        "self": {
+          "href": "/api/apps/echotone/assets/f928920c-a800-49d2-8427-8de5810a3ce9",
+          "method": "GET"
+        },
+        "update": {
+          "href": "/api/apps/echotone/assets/f928920c-a800-49d2-8427-8de5810a3ce9",
+          "method": "PUT"
+        },
+        "upload": {
+          "href": "/api/apps/echotone/assets/f928920c-a800-49d2-8427-8de5810a3ce9/content",
+          "method": "PUT"
+        }
+      },
+      "created": "2025-03-31T17:11:58Z",
+      "createdBy": "subject:6798df7c5b784ee7b7cb52e1",
+      "editToken": "eyJhIjoiZWNob3RvbmUiLCJpIjoiZjkyODkyMGMtYTgwMC00OWQyLTg0MjctOGRlNTgxMGEzY2U5IiwidSI6Imh0dHBzOi8vbGFhYi5kZG5zLm5ldDozODA4MC8ifQ==",
+      "fileHash": "D6ko/RBwfhjUfngHkcYNLvzW9XA1fQyrAe3own/RmNI=",
+      "fileName": "20240611_150009.jpg",
+      "fileSize": 3496780,
+      "fileType": "jpg",
+      "fileVersion": 0,
+      "id": "f928920c-a800-49d2-8427-8de5810a3ce9",
+      "isImage": true,
+      "isProtected": false,
+      "lastModified": "2025-03-31T17:11:58Z",
+      "lastModifiedBy": "subject:6798df7c5b784ee7b7cb52e1",
+      "metadata": {
+        "created": "2024-06-11T15:00:10",
+        "description": "JFIF File",
+        "imageQuality": 95,
+        "latitude": 43.934221599999994,
+        "longitude": 3.7056293,
+        "pixelHeight": 4000,
+        "pixelWidth": 3000
+      },
+      "metadataText": "3000x4000px, 3.3 MB",
+      "mimeType": "image/jpeg",
+      "parentId": "00000000-0000-0000-0000-000000000000",
+      "pixelHeight": 4000,
+      "pixelWidth": 3000,
+      "slug": "20240611-150009.jpg",
+      "tags": [
+        "type/jpg",
+        "image",
+        "image/large"
+      ],
+      "type": "Image",
+      "version": 0
+    },
+    {
+      "_links": {
+        "content": {
+          "href": "/api/assets/echotone/8f887c7f-62e5-4fa4-8a6a-3986d99bff8e/20240611-151624.jpg",
+          "method": "GET"
+        },
+        "content/slug": {
+          "href": "/api/assets/echotone/20240611-151624.jpg",
+          "method": "GET"
+        },
+        "delete": {
+          "href": "/api/apps/echotone/assets/8f887c7f-62e5-4fa4-8a6a-3986d99bff8e",
+          "method": "DELETE"
+        },
+        "move": {
+          "href": "/api/apps/echotone/assets/8f887c7f-62e5-4fa4-8a6a-3986d99bff8e/parent",
+          "method": "PUT"
+        },
+        "self": {
+          "href": "/api/apps/echotone/assets/8f887c7f-62e5-4fa4-8a6a-3986d99bff8e",
+          "method": "GET"
+        },
+        "update": {
+          "href": "/api/apps/echotone/assets/8f887c7f-62e5-4fa4-8a6a-3986d99bff8e",
+          "method": "PUT"
+        },
+        "upload": {
+          "href": "/api/apps/echotone/assets/8f887c7f-62e5-4fa4-8a6a-3986d99bff8e/content",
+          "method": "PUT"
+        }
+      },
+      "created": "2025-03-31T17:11:57Z",
+      "createdBy": "subject:6798df7c5b784ee7b7cb52e1",
+      "editToken": "eyJhIjoiZWNob3RvbmUiLCJpIjoiOGY4ODdjN2YtNjJlNS00ZmE0LThhNmEtMzk4NmQ5OWJmZjhlIiwidSI6Imh0dHBzOi8vbGFhYi5kZG5zLm5ldDozODA4MC8ifQ==",
+      "fileHash": "pIBoJ8txBC35UXO7NPREeOENuyxNY3EXWJH9d/SKYpQ=",
+      "fileName": "20240611_151624.jpg",
+      "fileSize": 3136377,
+      "fileType": "jpg",
+      "fileVersion": 0,
+      "id": "8f887c7f-62e5-4fa4-8a6a-3986d99bff8e",
+      "isImage": true,
+      "isProtected": false,
+      "lastModified": "2025-03-31T17:11:57Z",
+      "lastModifiedBy": "subject:6798df7c5b784ee7b7cb52e1",
+      "metadata": {
+        "created": "2024-06-11T15:16:25",
+        "description": "JFIF File",
+        "imageQuality": 94,
+        "latitude": 43.9342128,
+        "longitude": 3.7056568000000003,
+        "pixelHeight": 3000,
+        "pixelWidth": 4000
+      },
+      "metadataText": "4000x3000px, 3 MB",
+      "mimeType": "image/jpeg",
+      "parentId": "00000000-0000-0000-0000-000000000000",
+      "pixelHeight": 3000,
+      "pixelWidth": 4000,
+      "slug": "20240611-151624.jpg",
+      "tags": [
+        "type/jpg",
+        "image",
+        "image/large"
+      ],
+      "type": "Image",
+      "version": 0
+    },
+    {
+      "_links": {
+        "content": {
+          "href": "/api/assets/echotone/d673517b-c02d-49cf-8c8b-bb083d11afa2/20240611-151538.jpg",
+          "method": "GET"
+        },
+        "content/slug": {
+          "href": "/api/assets/echotone/20240611-151538.jpg",
+          "method": "GET"
+        },
+        "delete": {
+          "href": "/api/apps/echotone/assets/d673517b-c02d-49cf-8c8b-bb083d11afa2",
+          "method": "DELETE"
+        },
+        "move": {
+          "href": "/api/apps/echotone/assets/d673517b-c02d-49cf-8c8b-bb083d11afa2/parent",
+          "method": "PUT"
+        },
+        "self": {
+          "href": "/api/apps/echotone/assets/d673517b-c02d-49cf-8c8b-bb083d11afa2",
+          "method": "GET"
+        },
+        "update": {
+          "href": "/api/apps/echotone/assets/d673517b-c02d-49cf-8c8b-bb083d11afa2",
+          "method": "PUT"
+        },
+        "upload": {
+          "href": "/api/apps/echotone/assets/d673517b-c02d-49cf-8c8b-bb083d11afa2/content",
+          "method": "PUT"
+        }
+      },
+      "created": "2025-03-31T17:11:57Z",
+      "createdBy": "subject:6798df7c5b784ee7b7cb52e1",
+      "editToken": "eyJhIjoiZWNob3RvbmUiLCJpIjoiZDY3MzUxN2ItYzAyZC00OWNmLThjOGItYmIwODNkMTFhZmEyIiwidSI6Imh0dHBzOi8vbGFhYi5kZG5zLm5ldDozODA4MC8ifQ==",
+      "fileHash": "QOtg/6XwZyS7msUNxM0ZT\u002BLkTax0bBl\u002Bz58ec8xmixc=",
+      "fileName": "20240611_151538.jpg",
+      "fileSize": 3137646,
+      "fileType": "jpg",
+      "fileVersion": 0,
+      "id": "d673517b-c02d-49cf-8c8b-bb083d11afa2",
+      "isImage": true,
+      "isProtected": false,
+      "lastModified": "2025-03-31T17:11:57Z",
+      "lastModifiedBy": "subject:6798df7c5b784ee7b7cb52e1",
+      "metadata": {
+        "created": "2024-06-11T15:15:38",
+        "description": "JFIF File",
+        "imageQuality": 94,
+        "latitude": 43.9342427,
+        "longitude": 3.7057355000000003,
+        "pixelHeight": 4000,
+        "pixelWidth": 3000
+      },
+      "metadataText": "3000x4000px, 3 MB",
+      "mimeType": "image/jpeg",
+      "parentId": "00000000-0000-0000-0000-000000000000",
+      "pixelHeight": 4000,
+      "pixelWidth": 3000,
+      "slug": "20240611-151538.jpg",
+      "tags": [
+        "type/jpg",
+        "image",
+        "image/large"
+      ],
+      "type": "Image",
+      "version": 0
+    },
+    {
+      "_links": {
+        "content": {
+          "href": "/api/assets/echotone/e74f94e6-f839-453f-93d3-223631bdf07b/20240611-151600.jpg",
+          "method": "GET"
+        },
+        "content/slug": {
+          "href": "/api/assets/echotone/20240611-151600.jpg",
+          "method": "GET"
+        },
+        "delete": {
+          "href": "/api/apps/echotone/assets/e74f94e6-f839-453f-93d3-223631bdf07b",
+          "method": "DELETE"
+        },
+        "move": {
+          "href": "/api/apps/echotone/assets/e74f94e6-f839-453f-93d3-223631bdf07b/parent",
+          "method": "PUT"
+        },
+        "self": {
+          "href": "/api/apps/echotone/assets/e74f94e6-f839-453f-93d3-223631bdf07b",
+          "method": "GET"
+        },
+        "update": {
+          "href": "/api/apps/echotone/assets/e74f94e6-f839-453f-93d3-223631bdf07b",
+          "method": "PUT"
+        },
+        "upload": {
+          "href": "/api/apps/echotone/assets/e74f94e6-f839-453f-93d3-223631bdf07b/content",
+          "method": "PUT"
+        }
+      },
+      "created": "2025-03-31T17:11:57Z",
+      "createdBy": "subject:6798df7c5b784ee7b7cb52e1",
+      "editToken": "eyJhIjoiZWNob3RvbmUiLCJpIjoiZTc0Zjk0ZTYtZjgzOS00NTNmLTkzZDMtMjIzNjMxYmRmMDdiIiwidSI6Imh0dHBzOi8vbGFhYi5kZG5zLm5ldDozODA4MC8ifQ==",
+      "fileHash": "x8AE5UzipMfP0Mqd6DD2npaYYnT7iGckb69WOAZErPk=",
+      "fileName": "20240611_151600.jpg",
+      "fileSize": 2954202,
+      "fileType": "jpg",
+      "fileVersion": 0,
+      "id": "e74f94e6-f839-453f-93d3-223631bdf07b",
+      "isImage": true,
+      "isProtected": false,
+      "lastModified": "2025-03-31T17:11:57Z",
+      "lastModifiedBy": "subject:6798df7c5b784ee7b7cb52e1",
+      "metadata": {
+        "created": "2024-06-11T15:16:00",
+        "description": "JFIF File",
+        "imageQuality": 94,
+        "latitude": 43.9342427,
+        "longitude": 3.7057355000000003,
+        "pixelHeight": 4000,
+        "pixelWidth": 3000
+      },
+      "metadataText": "3000x4000px, 2.8 MB",
+      "mimeType": "image/jpeg",
+      "parentId": "00000000-0000-0000-0000-000000000000",
+      "pixelHeight": 4000,
+      "pixelWidth": 3000,
+      "slug": "20240611-151600.jpg",
+      "tags": [
+        "type/jpg",
+        "image",
+        "image/large"
+      ],
+      "type": "Image",
+      "version": 0
+    },
+    {
+      "_links": {
+        "content": {
+          "href": "/api/assets/echotone/ee21f846-f1ac-4622-8456-08e13b8b62b9/20240611-175849.jpg",
+          "method": "GET"
+        },
+        "content/slug": {
+          "href": "/api/assets/echotone/20240611-175849.jpg",
+          "method": "GET"
+        },
+        "delete": {
+          "href": "/api/apps/echotone/assets/ee21f846-f1ac-4622-8456-08e13b8b62b9",
+          "method": "DELETE"
+        },
+        "move": {
+          "href": "/api/apps/echotone/assets/ee21f846-f1ac-4622-8456-08e13b8b62b9/parent",
+          "method": "PUT"
+        },
+        "self": {
+          "href": "/api/apps/echotone/assets/ee21f846-f1ac-4622-8456-08e13b8b62b9",
+          "method": "GET"
+        },
+        "update": {
+          "href": "/api/apps/echotone/assets/ee21f846-f1ac-4622-8456-08e13b8b62b9",
+          "method": "PUT"
+        },
+        "upload": {
+          "href": "/api/apps/echotone/assets/ee21f846-f1ac-4622-8456-08e13b8b62b9/content",
+          "method": "PUT"
+        }
+      },
+      "created": "2025-03-31T16:50:01Z",
+      "createdBy": "subject:6798df7c5b784ee7b7cb52e1",
+      "editToken": "eyJhIjoiZWNob3RvbmUiLCJpIjoiZWUyMWY4NDYtZjFhYy00NjIyLTg0NTYtMDhlMTNiOGI2MmI5IiwidSI6Imh0dHBzOi8vbGFhYi5kZG5zLm5ldDozODA4MC8ifQ==",
+      "fileHash": "TlAN6Fzr4lmFc\u002BSp\u002BmYCdTEseYpu0Js3VqmdfZct9/s=",
+      "fileName": "20240611_175849.jpg",
+      "fileSize": 2448860,
+      "fileType": "jpg",
+      "fileVersion": 0,
+      "id": "ee21f846-f1ac-4622-8456-08e13b8b62b9",
+      "isImage": true,
+      "isProtected": false,
+      "lastModified": "2025-03-31T16:50:01Z",
+      "lastModifiedBy": "subject:6798df7c5b784ee7b7cb52e1",
+      "metadata": {
+        "created": "2024-06-11T17:58:49",
+        "description": "JFIF File",
+        "imageQuality": 95,
+        "latitude": 43.934227199999995,
+        "longitude": 3.705556,
+        "pixelHeight": 4000,
+        "pixelWidth": 3000
+      },
+      "metadataText": "3000x4000px, 2.3 MB",
+      "mimeType": "image/jpeg",
+      "parentId": "00000000-0000-0000-0000-000000000000",
+      "pixelHeight": 4000,
+      "pixelWidth": 3000,
+      "slug": "20240611-175849.jpg",
+      "tags": [
+        "type/jpg",
+        "image",
+        "image/large"
+      ],
+      "type": "Image",
+      "version": 0
+    },
+    {
+      "_links": {
+        "content": {
+          "href": "/api/assets/echotone/8ca3ef9a-b95e-4c85-bf39-b9fd2f2e2179/20250117-150628.jpg",
+          "method": "GET"
+        },
+        "content/slug": {
+          "href": "/api/assets/echotone/20250117-150628.jpg",
+          "method": "GET"
+        },
+        "delete": {
+          "href": "/api/apps/echotone/assets/8ca3ef9a-b95e-4c85-bf39-b9fd2f2e2179",
+          "method": "DELETE"
+        },
+        "move": {
+          "href": "/api/apps/echotone/assets/8ca3ef9a-b95e-4c85-bf39-b9fd2f2e2179/parent",
+          "method": "PUT"
+        },
+        "self": {
+          "href": "/api/apps/echotone/assets/8ca3ef9a-b95e-4c85-bf39-b9fd2f2e2179",
+          "method": "GET"
+        },
+        "update": {
+          "href": "/api/apps/echotone/assets/8ca3ef9a-b95e-4c85-bf39-b9fd2f2e2179",
+          "method": "PUT"
+        },
+        "upload": {
+          "href": "/api/apps/echotone/assets/8ca3ef9a-b95e-4c85-bf39-b9fd2f2e2179/content",
+          "method": "PUT"
+        }
+      },
+      "created": "2025-03-31T16:48:44Z",
+      "createdBy": "subject:6798df7c5b784ee7b7cb52e1",
+      "editToken": "eyJhIjoiZWNob3RvbmUiLCJpIjoiOGNhM2VmOWEtYjk1ZS00Yzg1LWJmMzktYjlmZDJmMmUyMTc5IiwidSI6Imh0dHBzOi8vbGFhYi5kZG5zLm5ldDozODA4MC8ifQ==",
+      "fileHash": "K6nch0HVe7M18qjkVqvezV8Oc0nBERJxqbVF3Gx7TDM=",
+      "fileName": "20250117_150628.jpg",
+      "fileSize": 4903438,
+      "fileType": "jpg",
+      "fileVersion": 0,
+      "id": "8ca3ef9a-b95e-4c85-bf39-b9fd2f2e2179",
+      "isImage": true,
+      "isProtected": false,
+      "lastModified": "2025-03-31T16:48:44Z",
+      "lastModifiedBy": "subject:6798df7c5b784ee7b7cb52e1",
+      "metadata": {
+        "created": "2025-01-17T15:06:28",
+        "description": "JFIF File",
+        "imageQuality": 94,
+        "latitude": 43.93408569972222,
+        "longitude": 3.705741,
+        "pixelHeight": 3000,
+        "pixelWidth": 4000
+      },
+      "metadataText": "4000x3000px, 4.7 MB",
+      "mimeType": "image/jpeg",
+      "parentId": "00000000-0000-0000-0000-000000000000",
+      "pixelHeight": 3000,
+      "pixelWidth": 4000,
+      "slug": "20250117-150628.jpg",
+      "tags": [
+        "type/jpg",
+        "image",
+        "image/large"
+      ],
+      "type": "Image",
+      "version": 0
+    },
+    {
+      "_links": {
+        "content": {
+          "href": "/api/assets/echotone/9b4e139a-b440-4a0a-b026-0e79c2212e76/capture-d-e-cran-2025-03-31-a-18.00.04.png",
+          "method": "GET"
+        },
+        "content/slug": {
+          "href": "/api/assets/echotone/capture-d-e-cran-2025-03-31-a-18.00.04.png",
+          "method": "GET"
+        },
+        "delete": {
+          "href": "/api/apps/echotone/assets/9b4e139a-b440-4a0a-b026-0e79c2212e76",
+          "method": "DELETE"
+        },
+        "move": {
+          "href": "/api/apps/echotone/assets/9b4e139a-b440-4a0a-b026-0e79c2212e76/parent",
+          "method": "PUT"
+        },
+        "self": {
+          "href": "/api/apps/echotone/assets/9b4e139a-b440-4a0a-b026-0e79c2212e76",
+          "method": "GET"
+        },
+        "update": {
+          "href": "/api/apps/echotone/assets/9b4e139a-b440-4a0a-b026-0e79c2212e76",
+          "method": "PUT"
+        },
+        "upload": {
+          "href": "/api/apps/echotone/assets/9b4e139a-b440-4a0a-b026-0e79c2212e76/content",
+          "method": "PUT"
+        }
+      },
+      "created": "2025-03-31T16:44:59Z",
+      "createdBy": "subject:6798df7c5b784ee7b7cb52e1",
+      "editToken": "eyJhIjoiZWNob3RvbmUiLCJpIjoiOWI0ZTEzOWEtYjQ0MC00YTBhLWIwMjYtMGU3OWMyMjEyZTc2IiwidSI6Imh0dHBzOi8vbGFhYi5kZG5zLm5ldDozODA4MC8ifQ==",
+      "fileHash": "B1eFpUr8RjQ1nGkomG7XeF2y6q138iNGMolaU7SHn1E=",
+      "fileName": "Capture d\u2019e\u0301cran 2025-03-31 a\u0300 18.00.04.png",
+      "fileSize": 1363947,
+      "fileType": "png",
+      "fileVersion": 0,
+      "id": "9b4e139a-b440-4a0a-b026-0e79c2212e76",
+      "isImage": true,
+      "isProtected": false,
+      "lastModified": "2025-03-31T16:44:59Z",
+      "lastModifiedBy": "subject:6798df7c5b784ee7b7cb52e1",
+      "metadata": {
+        "description": "PNG File",
+        "pixelHeight": 842,
+        "pixelWidth": 1132
+      },
+      "metadataText": "1132x842px, 1.3 MB",
+      "mimeType": "image/png",
+      "parentId": "00000000-0000-0000-0000-000000000000",
+      "pixelHeight": 842,
+      "pixelWidth": 1132,
+      "slug": "capture-d-e-cran-2025-03-31-a-18.00.04.png",
+      "tags": [
+        "type/png",
+        "image",
+        "image/large"
+      ],
+      "type": "Image",
+      "version": 0
+    },
+    {
+      "_links": {
+        "content": {
+          "href": "/api/assets/echotone/dd10a335-916b-414a-95cc-ade60ba50ec2/capture-d-e-cran-2025-03-31-a-18.42.54.png",
+          "method": "GET"
+        },
+        "content/slug": {
+          "href": "/api/assets/echotone/capture-d-e-cran-2025-03-31-a-18.42.54.png",
+          "method": "GET"
+        },
+        "delete": {
+          "href": "/api/apps/echotone/assets/dd10a335-916b-414a-95cc-ade60ba50ec2",
+          "method": "DELETE"
+        },
+        "move": {
+          "href": "/api/apps/echotone/assets/dd10a335-916b-414a-95cc-ade60ba50ec2/parent",
+          "method": "PUT"
+        },
+        "self": {
+          "href": "/api/apps/echotone/assets/dd10a335-916b-414a-95cc-ade60ba50ec2",
+          "method": "GET"
+        },
+        "update": {
+          "href": "/api/apps/echotone/assets/dd10a335-916b-414a-95cc-ade60ba50ec2",
+          "method": "PUT"
+        },
+        "upload": {
+          "href": "/api/apps/echotone/assets/dd10a335-916b-414a-95cc-ade60ba50ec2/content",
+          "method": "PUT"
+        }
+      },
+      "created": "2025-03-31T16:44:58Z",
+      "createdBy": "subject:6798df7c5b784ee7b7cb52e1",
+      "editToken": "eyJhIjoiZWNob3RvbmUiLCJpIjoiZGQxMGEzMzUtOTE2Yi00MTRhLTk1Y2MtYWRlNjBiYTUwZWMyIiwidSI6Imh0dHBzOi8vbGFhYi5kZG5zLm5ldDozODA4MC8ifQ==",
+      "fileHash": "gIFtf9BKsmcm6hn/qA23/RrnIABYzHFcnKIqoGXEAwI=",
+      "fileName": "Capture d\u2019e\u0301cran 2025-03-31 a\u0300 18.42.54.png",
+      "fileSize": 1112485,
+      "fileType": "png",
+      "fileVersion": 0,
+      "id": "dd10a335-916b-414a-95cc-ade60ba50ec2",
+      "isImage": true,
+      "isProtected": false,
+      "lastModified": "2025-03-31T16:44:58Z",
+      "lastModifiedBy": "subject:6798df7c5b784ee7b7cb52e1",
+      "metadata": {
+        "description": "PNG File",
+        "pixelHeight": 846,
+        "pixelWidth": 1130
+      },
+      "metadataText": "1130x846px, 1.1 MB",
+      "mimeType": "image/png",
+      "parentId": "00000000-0000-0000-0000-000000000000",
+      "pixelHeight": 846,
+      "pixelWidth": 1130,
+      "slug": "capture-d-e-cran-2025-03-31-a-18.42.54.png",
+      "tags": [
+        "type/png",
+        "image",
+        "image/large"
+      ],
+      "type": "Image",
+      "version": 0
+    },
+    {
+      "_links": {
+        "content": {
+          "href": "/api/assets/echotone/dfeeef1f-bdd7-4293-8724-8489272142c7/20241221-164720.jpg",
+          "method": "GET"
+        },
+        "content/slug": {
+          "href": "/api/assets/echotone/20241221-164720.jpg",
+          "method": "GET"
+        },
+        "delete": {
+          "href": "/api/apps/echotone/assets/dfeeef1f-bdd7-4293-8724-8489272142c7",
+          "method": "DELETE"
+        },
+        "move": {
+          "href": "/api/apps/echotone/assets/dfeeef1f-bdd7-4293-8724-8489272142c7/parent",
+          "method": "PUT"
+        },
+        "self": {
+          "href": "/api/apps/echotone/assets/dfeeef1f-bdd7-4293-8724-8489272142c7",
+          "method": "GET"
+        },
+        "update": {
+          "href": "/api/apps/echotone/assets/dfeeef1f-bdd7-4293-8724-8489272142c7",
+          "method": "PUT"
+        },
+        "upload": {
+          "href": "/api/apps/echotone/assets/dfeeef1f-bdd7-4293-8724-8489272142c7/content",
+          "method": "PUT"
+        }
+      },
+      "created": "2025-03-31T15:52:41Z",
+      "createdBy": "subject:6798df7c5b784ee7b7cb52e1",
+      "editToken": "eyJhIjoiZWNob3RvbmUiLCJpIjoiZGZlZWVmMWYtYmRkNy00MjkzLTg3MjQtODQ4OTI3MjE0MmM3IiwidSI6Imh0dHBzOi8vbGFhYi5kZG5zLm5ldDozODA4MC8ifQ==",
+      "fileHash": "dLXXbrqUeObi0jfZIklEZ50ePDZSLuRtWYoYdJOODuw=",
+      "fileName": "20241221_164720.jpg",
+      "fileSize": 2287317,
+      "fileType": "jpg",
+      "fileVersion": 0,
+      "id": "dfeeef1f-bdd7-4293-8724-8489272142c7",
+      "isImage": true,
+      "isProtected": false,
+      "lastModified": "2025-03-31T15:52:41Z",
+      "lastModifiedBy": "subject:6798df7c5b784ee7b7cb52e1",
+      "metadata": {
+        "created": "2024-12-21T16:47:21",
+        "description": "JFIF File",
+        "imageQuality": 90,
+        "latitude": 43.93419829972222,
+        "longitude": 3.7057117,
+        "pixelHeight": 3000,
+        "pixelWidth": 4000
+      },
+      "metadataText": "4000x3000px, 2.2 MB",
+      "mimeType": "image/jpeg",
+      "parentId": "00000000-0000-0000-0000-000000000000",
+      "pixelHeight": 3000,
+      "pixelWidth": 4000,
+      "slug": "20241221-164720.jpg",
+      "tags": [
+        "type/jpg",
+        "image",
+        "image/large"
+      ],
+      "type": "Image",
+      "version": 0
+    },
+    {
+      "_links": {
+        "content": {
           "href": "/api/assets/echotone/67fc49c9-0e55-4c9f-9aa9-f11648c885ee/20241204-144533.jpg",
           "method": "GET"
         },
@@ -8393,5 +10864,5 @@
       "version": 0
     }
   ],
-  "total": 128
+  "total": 165
 }

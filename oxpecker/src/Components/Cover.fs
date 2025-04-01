@@ -42,14 +42,17 @@ module Cover =
         |> Seq.filter(fun x -> mapSlugAssets[x].``type`` = AssetType.Image)
 
     let getVideos (page: PagesT.Items) =
-        let captions = page.data.medias.iv |> Seq.map _.caption
+        let captions =
+            page.data.medias.iv
+            |> Seq.map _.caption
+            |> Seq.filter(fun x -> not(isNullOrUndefined(x)))
         let vids =
             page.data.medias.iv
             |> Seq.collect _.medias
             |> Seq.filter(fun x -> mapSlugAssets[x].``type`` = AssetType.Video)
         if (Seq.isEmpty vids) then
             None, vids
-        else if (not(Seq.isEmpty captions) && not(isNullOrUndefined(Seq.head captions))) then
+        else if (not(Seq.isEmpty captions)) then
             Some(Seq.head captions), vids
         else
             None, vids
@@ -149,7 +152,9 @@ module Cover =
         let caption, pagevideos = getVideos page
         div(class' = "grid justify-center place-items-center gap-10 my-10") {
             if (caption.IsSome) then
-                div(class' = "text-center") { p() { caption.Value } }
+                div() { p(class' = "px-20 text-sm") { caption.Value :?> string } }
+            else
+                div()
             For(each = Array.ofSeq pagevideos) {
                 yield fun vidid index -> video(class' = "max-w-1/2", src = mapSlugAssets[vidid].slug, controls = true)
             }
