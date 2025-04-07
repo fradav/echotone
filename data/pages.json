@@ -17,6 +17,227 @@
     {
       "_links": {
         "delete": {
+          "href": "/api/content/echotone/page/08532822-f1e0-409d-bd92-c41f4d432734",
+          "method": "DELETE"
+        },
+        "draft/create": {
+          "href": "/api/content/echotone/page/08532822-f1e0-409d-bd92-c41f4d432734/draft",
+          "method": "POST"
+        },
+        "previous": {
+          "href": "/api/content/echotone/page/08532822-f1e0-409d-bd92-c41f4d432734/1",
+          "method": "GET"
+        },
+        "self": {
+          "href": "/api/content/echotone/page/08532822-f1e0-409d-bd92-c41f4d432734",
+          "method": "GET"
+        }
+      },
+      "created": "2025-04-07T12:12:17Z",
+      "createdBy": "subject:6798df7c5b784ee7b7cb52e1",
+      "data": {
+        "id": {
+          "iv": "artist-run-spaces-org"
+        },
+        "medias": {
+          "iv": [
+            {
+              "caption": null,
+              "in": true,
+              "medias": [
+                "972eea4b-fc53-4fec-a32a-eeccb3f10e47",
+                "557cc6dc-1daa-4a5f-b7b9-52e5c44dc1bc",
+                "b981d16f-8aa4-4426-b460-5a8df0761df7",
+                "c187e392-df78-4e35-befb-7da0829a940a",
+                "997ace11-6e94-46db-9b75-7d737ff93fc5",
+                "7465bc4d-db80-4f2a-8e80-f1be5b1c0f9d",
+                "d46ca17c-d67c-4895-8526-422e81519132",
+                "3d142138-24eb-42f3-a6db-de7713b58064",
+                "8e02585d-8988-4957-aec9-7d859babd2ab",
+                "a6a46da4-eb30-4f8d-a45c-29b873f1f75a",
+                "220a40ca-4b4b-4062-b050-416cab0e1e10",
+                "1f89b28b-dfe6-42d3-be59-118f158e48c4"
+              ],
+              "schemaId": "1f4e3697-52bc-45d9-a7a8-65862c13ce4b",
+              "schemaName": "carousel"
+            }
+          ]
+        },
+        "unit": {
+          "en": {
+            "locations": [],
+            "schemaId": "2bd4ee39-8e6e-4128-9f08-a049cce49f23",
+            "schemaName": "unit",
+            "short": "S\u00E9jour \u00E0 Toulouse ",
+            "tags": [
+              "accueil",
+              "programmation"
+            ],
+            "temporal": [
+              {
+                "date": "2025-02-04T00:00:00Z",
+                "datetime": null,
+                "description": null
+              }
+            ],
+            "text": "\u003Cp\u003ES\u00E9jour \u003Ca target=\u0022_blank\u0022 href=\u0022//artist-run-spaces.org\u0022 rel=\u0022noopener noreferrer nofollow\u0022 data-link-auto=\u0022\u0022\u003Eartist-run-spaces.org\u003C/a\u003E du 4 au 6 f\u00E9vrier 2025. \u003Cbr\u003EDans la vis\u00E9e de la r\u00E9alisation d\u0027un d\u00E9pliant qui dessine la cartographie des \u003Cem\u003Eartist-run spaces\u003C/em\u003E en Occitanie, l\u2019\u00E9quipe de \u00C9CHOTONE avec \u003Ca target=\u0022_blank\u0022 href=\u0022https://www.instagram.com/sabrinaissa__/\u0022 rel=\u0022noopener noreferrer nofollow\u0022\u003E@sabrinaissa__\u003C/a\u003E et \u003Ca target=\u0022_blank\u0022 href=\u0022https://www.instagram.com/_kerekes/\u0022 rel=\u0022noopener noreferrer nofollow\u0022\u003E@_kerekes\u003C/a\u003E se rend \u00E0 Toulouse. Premi\u00E8res prises de contacts avec les artistes et collectifs du grand ouest ;)\u003Cbr\u003ELe document imprim\u00E9 et librement t\u00E9l\u00E9chargeable, sera r\u00E9alis\u00E9 par \u003Ca target=\u0022_blank\u0022 href=\u0022https://www.antoinelefebvre.net/\u0022 rel=\u0022noopener noreferrer nofollow\u0022\u003Eantoine Lefebvre edition\u003C/a\u003E.\u0026nbsp;\u003Cbr\u003E\u003Cbr\u003E1. \u003Ca target=\u0022_blank\u0022 href=\u0022https://www.instagram.com/dda_occitanie_emergence/\u0022 rel=\u0022noopener noreferrer nofollow\u0022\u003E@dda_occitanie_emergence\u003C/a\u003E, La Bouillonnante\u003Cbr\u003E2. \u003Ca target=\u0022_blank\u0022 href=\u0022https://www.instagram.com/garrage.souplex/\u0022 rel=\u0022noopener noreferrer nofollow\u0022\u003E@garrage.souplex\u003C/a\u003E, La Bouillonnante\u003Cbr\u003E3. Marianne Plo, La chimie de la vision, co-\u00E9ditions \u003Ca target=\u0022_blank\u0022 href=\u0022https://www.instagram.com/lieu_commun/\u0022 rel=\u0022noopener noreferrer nofollow\u0022\u003E@lieu_commun\u003C/a\u003E et Ed Spector\u003Cbr\u003E4. Visite d\u2019atelier \u003Ca target=\u0022_blank\u0022 href=\u0022https://www.instagram.com/yvonnecalsou/\u0022 rel=\u0022noopener noreferrer nofollow\u0022\u003E@yvonnecalsou\u003C/a\u003E \u003Ca target=\u0022_blank\u0022 href=\u0022https://www.instagram.com/lieu_commun/\u0022 rel=\u0022noopener noreferrer nofollow\u0022\u003E@lieu_commun\u003C/a\u003E\u003Cbr\u003E5. Yvonne Calsou \u0026amp; Altair Roelants, Dans les replis des paysages, \u00E9ditions \u003Ca target=\u0022_blank\u0022 href=\u0022https://www.instagram.com/lieu_commun/\u0022 rel=\u0022noopener noreferrer nofollow\u0022\u003E@lieu_commun\u003C/a\u003E suite \u00E0 sa r\u00E9sidence \u00E0 la \u003Ca target=\u0022_blank\u0022 href=\u0022https://www.instagram.com/caza.doro/\u0022 rel=\u0022noopener noreferrer nofollow\u0022\u003E@caza.doro\u003C/a\u003E\u003Cbr\u003E6. Vernissage \u003Ca target=\u0022_blank\u0022 href=\u0022https://www.instagram.com/isdat_fr/\u0022 rel=\u0022noopener noreferrer nofollow\u0022\u003E@isdat_fr\u003C/a\u003E\u003Cbr\u003E7. Visite d\u2019atelier \u003Ca target=\u0022_blank\u0022 href=\u0022https://www.instagram.com/isdat_fr/\u0022 rel=\u0022noopener noreferrer nofollow\u0022\u003E@isdat_fr\u003C/a\u003E avec \u003Ca target=\u0022_blank\u0022 href=\u0022https://www.instagram.com/apascalbonhoure/\u0022 rel=\u0022noopener noreferrer nofollow\u0022\u003E@apascalbonhoure\u003C/a\u003E\u003Cbr\u003E8. Editions \u003Ca target=\u0022_blank\u0022 href=\u0022https://www.instagram.com/editionsbgb/\u0022 rel=\u0022noopener noreferrer nofollow\u0022\u003E@editionsbgb\u003C/a\u003E\u003Cbr\u003E9. Rencontre et discussion autour des travaux en cours, Flan commun au \u003Ca target=\u0022_blank\u0022 href=\u0022https://www.instagram.com/lieu_commun/\u0022 rel=\u0022noopener noreferrer nofollow\u0022\u003E@lieu_commun\u003C/a\u003E avec \u003Ca target=\u0022_blank\u0022 href=\u0022https://www.instagram.com/collectif.ipn/\u0022 rel=\u0022noopener noreferrer nofollow\u0022\u003E@collectif.ipn\u003C/a\u003E \u003Ca target=\u0022_blank\u0022 href=\u0022https://www.instagram.com/atelierborderouge/\u0022 rel=\u0022noopener noreferrer nofollow\u0022\u003E@atelierborderouge\u003C/a\u003E \u003Ca target=\u0022_blank\u0022 href=\u0022https://www.instagram.com/atelier_graviere/\u0022 rel=\u0022noopener noreferrer nofollow\u0022\u003E@atelier_graviere\u003C/a\u003E \u003Ca target=\u0022_blank\u0022 href=\u0022https://www.instagram.com/garrage.souplex/\u0022 rel=\u0022noopener noreferrer nofollow\u0022\u003E@garrage.souplex\u003C/a\u003E\u003Cbr\u003E10. Cartographie des artist-run spaces en Occitanie\u003Cbr\u003E11. Flan commun \u003Ca target=\u0022_blank\u0022 href=\u0022https://www.instagram.com/lieu_commun/\u0022 rel=\u0022noopener noreferrer nofollow\u0022\u003E@lieu_commun\u003C/a\u003E\u003Cbr\u003E12. M\u00E9lodie Bajo \u003Ca target=\u0022_blank\u0022 href=\u0022https://www.instagram.com/bbbcentredart/\u0022 rel=\u0022noopener noreferrer nofollow\u0022\u003E@bbbcentredart\u003C/a\u003E\u003C/p\u003E",
+            "title": "artist-run-spaces.org"
+          },
+          "fr": {
+            "locations": [],
+            "schemaId": "2bd4ee39-8e6e-4128-9f08-a049cce49f23",
+            "schemaName": "unit",
+            "short": "S\u00E9jour \u00E0 Toulouse ",
+            "tags": [
+              "accueil",
+              "programmation"
+            ],
+            "temporal": [
+              {
+                "date": "2025-02-04T00:00:00Z",
+                "datetime": null,
+                "description": null
+              }
+            ],
+            "text": "\u003Cp\u003ES\u00E9jour \u003Ca target=\u0022_blank\u0022 href=\u0022//artist-run-spaces.org\u0022 rel=\u0022noopener noreferrer nofollow\u0022 data-link-auto=\u0022\u0022\u003Eartist-run-spaces.org\u003C/a\u003E du 4 au 6 f\u00E9vrier 2025. \u003Cbr\u003EDans la vis\u00E9e de la r\u00E9alisation d\u0027un d\u00E9pliant qui dessine la cartographie des \u003Cem\u003Eartist-run spaces\u003C/em\u003E en Occitanie, l\u2019\u00E9quipe de \u00C9CHOTONE avec \u003Ca target=\u0022_blank\u0022 href=\u0022https://www.instagram.com/sabrinaissa__/\u0022 rel=\u0022noopener noreferrer nofollow\u0022\u003E@sabrinaissa__\u003C/a\u003E et \u003Ca target=\u0022_blank\u0022 href=\u0022https://www.instagram.com/_kerekes/\u0022 rel=\u0022noopener noreferrer nofollow\u0022\u003E@_kerekes\u003C/a\u003E se rend \u00E0 Toulouse. Premi\u00E8res prises de contacts avec les artistes et collectifs du grand ouest ;)\u003Cbr\u003ELe document imprim\u00E9 et librement t\u00E9l\u00E9chargeable, sera r\u00E9alis\u00E9 par \u003Ca target=\u0022_blank\u0022 href=\u0022https://www.antoinelefebvre.net/\u0022 rel=\u0022noopener noreferrer nofollow\u0022\u003Eantoine Lefebvre edition\u003C/a\u003E.\u0026nbsp;\u003Cbr\u003E\u003Cbr\u003E1. \u003Ca target=\u0022_blank\u0022 href=\u0022https://www.instagram.com/dda_occitanie_emergence/\u0022 rel=\u0022noopener noreferrer nofollow\u0022\u003E@dda_occitanie_emergence\u003C/a\u003E, La Bouillonnante\u003Cbr\u003E2. \u003Ca target=\u0022_blank\u0022 href=\u0022https://www.instagram.com/garrage.souplex/\u0022 rel=\u0022noopener noreferrer nofollow\u0022\u003E@garrage.souplex\u003C/a\u003E, La Bouillonnante\u003Cbr\u003E3. Marianne Plo, La chimie de la vision, co-\u00E9ditions \u003Ca target=\u0022_blank\u0022 href=\u0022https://www.instagram.com/lieu_commun/\u0022 rel=\u0022noopener noreferrer nofollow\u0022\u003E@lieu_commun\u003C/a\u003E et Ed Spector\u003Cbr\u003E4. Visite d\u2019atelier \u003Ca target=\u0022_blank\u0022 href=\u0022https://www.instagram.com/yvonnecalsou/\u0022 rel=\u0022noopener noreferrer nofollow\u0022\u003E@yvonnecalsou\u003C/a\u003E \u003Ca target=\u0022_blank\u0022 href=\u0022https://www.instagram.com/lieu_commun/\u0022 rel=\u0022noopener noreferrer nofollow\u0022\u003E@lieu_commun\u003C/a\u003E\u003Cbr\u003E5. Yvonne Calsou \u0026amp; Altair Roelants, Dans les replis des paysages, \u00E9ditions \u003Ca target=\u0022_blank\u0022 href=\u0022https://www.instagram.com/lieu_commun/\u0022 rel=\u0022noopener noreferrer nofollow\u0022\u003E@lieu_commun\u003C/a\u003E suite \u00E0 sa r\u00E9sidence \u00E0 la \u003Ca target=\u0022_blank\u0022 href=\u0022https://www.instagram.com/caza.doro/\u0022 rel=\u0022noopener noreferrer nofollow\u0022\u003E@caza.doro\u003C/a\u003E\u003Cbr\u003E6. Vernissage \u003Ca target=\u0022_blank\u0022 href=\u0022https://www.instagram.com/isdat_fr/\u0022 rel=\u0022noopener noreferrer nofollow\u0022\u003E@isdat_fr\u003C/a\u003E\u003Cbr\u003E7. Visite d\u2019atelier \u003Ca target=\u0022_blank\u0022 href=\u0022https://www.instagram.com/isdat_fr/\u0022 rel=\u0022noopener noreferrer nofollow\u0022\u003E@isdat_fr\u003C/a\u003E avec \u003Ca target=\u0022_blank\u0022 href=\u0022https://www.instagram.com/apascalbonhoure/\u0022 rel=\u0022noopener noreferrer nofollow\u0022\u003E@apascalbonhoure\u003C/a\u003E\u003Cbr\u003E8. Editions \u003Ca target=\u0022_blank\u0022 href=\u0022https://www.instagram.com/editionsbgb/\u0022 rel=\u0022noopener noreferrer nofollow\u0022\u003E@editionsbgb\u003C/a\u003E\u003Cbr\u003E9. Rencontre et discussion autour des travaux en cours, Flan commun au \u003Ca target=\u0022_blank\u0022 href=\u0022https://www.instagram.com/lieu_commun/\u0022 rel=\u0022noopener noreferrer nofollow\u0022\u003E@lieu_commun\u003C/a\u003E avec \u003Ca target=\u0022_blank\u0022 href=\u0022https://www.instagram.com/collectif.ipn/\u0022 rel=\u0022noopener noreferrer nofollow\u0022\u003E@collectif.ipn\u003C/a\u003E \u003Ca target=\u0022_blank\u0022 href=\u0022https://www.instagram.com/atelierborderouge/\u0022 rel=\u0022noopener noreferrer nofollow\u0022\u003E@atelierborderouge\u003C/a\u003E \u003Ca target=\u0022_blank\u0022 href=\u0022https://www.instagram.com/atelier_graviere/\u0022 rel=\u0022noopener noreferrer nofollow\u0022\u003E@atelier_graviere\u003C/a\u003E \u003Ca target=\u0022_blank\u0022 href=\u0022https://www.instagram.com/garrage.souplex/\u0022 rel=\u0022noopener noreferrer nofollow\u0022\u003E@garrage.souplex\u003C/a\u003E\u003Cbr\u003E10. Cartographie des artist-run spaces en Occitanie\u003Cbr\u003E11. Flan commun \u003Ca target=\u0022_blank\u0022 href=\u0022https://www.instagram.com/lieu_commun/\u0022 rel=\u0022noopener noreferrer nofollow\u0022\u003E@lieu_commun\u003C/a\u003E\u003Cbr\u003E12. M\u00E9lodie Bajo \u003Ca target=\u0022_blank\u0022 href=\u0022https://www.instagram.com/bbbcentredart/\u0022 rel=\u0022noopener noreferrer nofollow\u0022\u003E@bbbcentredart\u003C/a\u003E\u003C/p\u003E",
+            "title": "artist-run-spaces.org"
+          }
+        }
+      },
+      "editToken": "eyJhIjoiZWNob3RvbmUiLCJzIjoicGFnZSIsImkiOiIwODUzMjgyMi1mMWUwLTQwOWQtYmQ5Mi1jNDFmNGQ0MzI3MzQiLCJ1IjoiaHR0cHM6Ly9sYWFiLmRkbnMubmV0OjM4MDgwLyJ9",
+      "id": "08532822-f1e0-409d-bd92-c41f4d432734",
+      "isDeleted": false,
+      "lastModified": "2025-04-07T13:02:03Z",
+      "lastModifiedBy": "subject:6798dad0167d31fb8ec7cc74",
+      "schemaDisplayName": "Page",
+      "schemaId": "d0379b0e-294e-4df6-9b2b-257b807b1467",
+      "schemaName": "page",
+      "status": "Published",
+      "statusColor": "#4bb958",
+      "version": 2
+    },
+    {
+      "_links": {
+        "delete": {
+          "href": "/api/content/echotone/page/2c7122ac-9390-4f45-b76c-880634f1cb11",
+          "method": "DELETE"
+        },
+        "draft/create": {
+          "href": "/api/content/echotone/page/2c7122ac-9390-4f45-b76c-880634f1cb11/draft",
+          "method": "POST"
+        },
+        "previous": {
+          "href": "/api/content/echotone/page/2c7122ac-9390-4f45-b76c-880634f1cb11/2",
+          "method": "GET"
+        },
+        "self": {
+          "href": "/api/content/echotone/page/2c7122ac-9390-4f45-b76c-880634f1cb11",
+          "method": "GET"
+        }
+      },
+      "created": "2025-03-31T17:15:10Z",
+      "createdBy": "subject:6798df7c5b784ee7b7cb52e1",
+      "data": {
+        "id": {
+          "iv": "laab-en-collectif-augmente"
+        },
+        "medias": {
+          "iv": [
+            {
+              "caption": null,
+              "in": true,
+              "medias": [
+                "6d4495de-4b9b-4979-b214-6ce6dcaa5015",
+                "54dd24de-0a7a-49bc-95bf-6994b9c4dc78",
+                "7125454d-8762-47bf-83dd-e1112dcb9c43",
+                "a98033d6-475d-444b-805e-fdee0b089314",
+                "05ff6e10-fed6-47e5-9252-9010ff17c6d0",
+                "53e9e271-d769-46aa-b9e1-f66900fbf524",
+                "97494c63-34d5-44c3-bb0e-bef4e37c881d",
+                "a5d63369-87f9-4939-8672-983d966c6488",
+                "d3a7fd21-dc2f-4ebd-94e4-08f1c4d8d254",
+                "e0502c8a-fa44-4704-bb89-bcda99518951",
+                "4526348e-2ce1-4dbd-a32f-9ed51f87efec",
+                "766e75b7-8955-48a9-a5a8-be9d9df22490",
+                "69ba1894-6ccc-4f9d-9940-baecbd1352fe",
+                "3d581b5d-c4d9-45cd-bf8c-b408bc38053a",
+                "3d2cb6b6-4c13-4184-a720-5892a222af84",
+                "1733a92f-d6ac-4c97-a1dd-8d573485e4fe",
+                "39ec4d46-455b-4ad6-8f28-1eefc0311a69",
+                "1ff3a7c3-7d7e-4502-bf7c-a0246c64348d",
+                "30b888e9-b87d-4306-85d0-a6a7613f95fd",
+                "ee21f846-f1ac-4622-8456-08e13b8b62b9",
+                "59ebcc8f-51db-4b8e-88cf-97a309cad51b",
+                "48b2f61d-930d-4e8e-a788-4001ca11324b",
+                "44f94ee0-d4d5-4644-8b80-141dc0e24b76",
+                "2fb7b36a-1e01-4cbe-a208-fe8af6d1db9e",
+                "2dc11831-f493-4263-9f5d-db5efee59f56",
+                "5e3041a7-65ec-4cb1-89c0-7b5c7a18ce00",
+                "81d36ed8-c449-4823-b72a-596710393c22",
+                "7a8a8029-3b6f-4ee6-92cc-786c78085931",
+                "f928920c-a800-49d2-8427-8de5810a3ce9",
+                "3d58a2cb-19a6-494d-a4ad-df90ae8d8e21",
+                "d673517b-c02d-49cf-8c8b-bb083d11afa2",
+                "8f887c7f-62e5-4fa4-8a6a-3986d99bff8e",
+                "e74f94e6-f839-453f-93d3-223631bdf07b"
+              ],
+              "schemaId": "1f4e3697-52bc-45d9-a7a8-65862c13ce4b",
+              "schemaName": "carousel"
+            }
+          ]
+        },
+        "unit": {
+          "en": {
+            "locations": [],
+            "schemaId": "2bd4ee39-8e6e-4128-9f08-a049cce49f23",
+            "schemaName": "unit",
+            "short": "Exposition inaugurale d\u0027\u00C9CHOTONE",
+            "tags": [
+              "programmation"
+            ],
+            "temporal": [
+              {
+                "date": "2024-05-31T00:00:00Z",
+                "description": null
+              }
+            ],
+            "text": "\u003Cp\u003EDu mois de mai \u00E0 la d\u00E9but juillet, \u00C9CHOTONE ouvre ses porte \u00E0 Ganges. Pour cet \u00E9v\u00E8nement inaugural, est pr\u00E9sent\u00E9 les recherche du LAAB en collectif \u003Cem\u003Eaugment\u00E9\u003C/em\u003E. Augment\u00E9 \u00E0 travers diff\u00E9rents projets, comme celui sur la greffe o\u00F9 le collectif \u00E0 travailler pendant 6 mois, r\u00E9alisant \u00E9galement une \u00E9dition. \u003Cbr\u003E\u003Cbr\u003EAvec \u003Cstrong\u003ENi\u00ADco\u00ADlas Bra\u00ADlet\u003C/strong\u003E, \u003Cstrong\u003EDel\u00ADphine Che\u00ADvrot\u003C/strong\u003E, \u003Cstrong\u003EFran\u00AD\u00E7ois-Da\u00ADvid Col\u00ADlin\u003C/strong\u003E, \u003Cstrong\u003ESa\u00ADbri\u00ADna Issa\u003C/strong\u003E, \u003Cstrong\u003ESa\u00ADmuel Ali\u00ADgand\u003C/strong\u003E, \u003Cstrong\u003ELy\u00ADdie Re\u00ADgnier\u003C/strong\u003E, \u003Cstrong\u003EPhi\u00ADlippe Bri\u00E8re\u003C/strong\u003E, \u003Cstrong\u003ENina Reu\u00ADmaux\u003C/strong\u003E, \u003Cstrong\u003ELo\u00EFc Pey\u00ADra\u00ADni\u003C/strong\u003E et \u003Cstrong\u003EAnna Ols\u00ADzews\u00ADka\u003C/strong\u003E.\u003C/p\u003E",
+            "title": "LAAB en collectif augment\u00E9"
+          },
+          "fr": {
+            "locations": [],
+            "schemaId": "2bd4ee39-8e6e-4128-9f08-a049cce49f23",
+            "schemaName": "unit",
+            "short": "Exposition inaugurale d\u0027\u00C9CHOTONE",
+            "tags": [
+              "programmation"
+            ],
+            "temporal": [
+              {
+                "date": "2024-05-31T00:00:00Z",
+                "description": null
+              }
+            ],
+            "text": "\u003Cp\u003EDu mois de mai \u00E0 la d\u00E9but juillet, \u00C9CHOTONE ouvre ses porte \u00E0 Ganges. Pour cet \u00E9v\u00E8nement inaugural, est pr\u00E9sent\u00E9 les recherche du LAAB en collectif \u003Cem\u003Eaugment\u00E9\u003C/em\u003E. Augment\u00E9 \u00E0 travers diff\u00E9rents projets, comme celui sur la greffe o\u00F9 le collectif \u00E0 travailler pendant 6 mois, r\u00E9alisant \u00E9galement une \u00E9dition. \u003Cbr\u003E\u003Cbr\u003EAvec \u003Cstrong\u003ENi\u00ADco\u00ADlas Bra\u00ADlet\u003C/strong\u003E, \u003Cstrong\u003EDel\u00ADphine Che\u00ADvrot\u003C/strong\u003E, \u003Cstrong\u003EFran\u00AD\u00E7ois-Da\u00ADvid Col\u00ADlin\u003C/strong\u003E, \u003Cstrong\u003ESa\u00ADbri\u00ADna Issa\u003C/strong\u003E, \u003Cstrong\u003ESa\u00ADmuel Ali\u00ADgand\u003C/strong\u003E, \u003Cstrong\u003ELy\u00ADdie Re\u00ADgnier\u003C/strong\u003E, \u003Cstrong\u003EPhi\u00ADlippe Bri\u00E8re\u003C/strong\u003E, \u003Cstrong\u003ENina Reu\u00ADmaux\u003C/strong\u003E, \u003Cstrong\u003ELo\u00EFc Pey\u00ADra\u00ADni\u003C/strong\u003E et \u003Cstrong\u003EAnna Ols\u00ADzews\u00ADka\u003C/strong\u003E.\u003C/p\u003E",
+            "title": "LAAB en collectif augment\u00E9"
+          }
+        }
+      },
+      "editToken": "eyJhIjoiZWNob3RvbmUiLCJzIjoicGFnZSIsImkiOiIyYzcxMjJhYy05MzkwLTRmNDUtYjc2Yy04ODA2MzRmMWNiMTEiLCJ1IjoiaHR0cHM6Ly9sYWFiLmRkbnMubmV0OjM4MDgwLyJ9",
+      "id": "2c7122ac-9390-4f45-b76c-880634f1cb11",
+      "isDeleted": false,
+      "lastModified": "2025-04-07T11:58:51Z",
+      "lastModifiedBy": "subject:6798df7c5b784ee7b7cb52e1",
+      "schemaDisplayName": "Page",
+      "schemaId": "d0379b0e-294e-4df6-9b2b-257b807b1467",
+      "schemaName": "page",
+      "status": "Published",
+      "statusColor": "#4bb958",
+      "version": 3
+    },
+    {
+      "_links": {
+        "delete": {
           "href": "/api/content/echotone/page/e8f9a37a-30e7-425d-8cb0-0e74c66f99cb",
           "method": "DELETE"
         },
@@ -227,114 +448,6 @@
       "status": "Published",
       "statusColor": "#4bb958",
       "version": 18
-    },
-    {
-      "_links": {
-        "delete": {
-          "href": "/api/content/echotone/page/2c7122ac-9390-4f45-b76c-880634f1cb11",
-          "method": "DELETE"
-        },
-        "draft/create": {
-          "href": "/api/content/echotone/page/2c7122ac-9390-4f45-b76c-880634f1cb11/draft",
-          "method": "POST"
-        },
-        "previous": {
-          "href": "/api/content/echotone/page/2c7122ac-9390-4f45-b76c-880634f1cb11/0",
-          "method": "GET"
-        },
-        "self": {
-          "href": "/api/content/echotone/page/2c7122ac-9390-4f45-b76c-880634f1cb11",
-          "method": "GET"
-        }
-      },
-      "created": "2025-03-31T17:15:10Z",
-      "createdBy": "subject:6798df7c5b784ee7b7cb52e1",
-      "data": {
-        "id": {
-          "iv": "le-laab-en-collectif-augmente"
-        },
-        "medias": {
-          "iv": [
-            {
-              "in": true,
-              "medias": [
-                "6d4495de-4b9b-4979-b214-6ce6dcaa5015",
-                "54dd24de-0a7a-49bc-95bf-6994b9c4dc78",
-                "7125454d-8762-47bf-83dd-e1112dcb9c43",
-                "a98033d6-475d-444b-805e-fdee0b089314",
-                "05ff6e10-fed6-47e5-9252-9010ff17c6d0",
-                "53e9e271-d769-46aa-b9e1-f66900fbf524",
-                "97494c63-34d5-44c3-bb0e-bef4e37c881d",
-                "a5d63369-87f9-4939-8672-983d966c6488",
-                "d3a7fd21-dc2f-4ebd-94e4-08f1c4d8d254",
-                "e0502c8a-fa44-4704-bb89-bcda99518951",
-                "4526348e-2ce1-4dbd-a32f-9ed51f87efec",
-                "766e75b7-8955-48a9-a5a8-be9d9df22490",
-                "69ba1894-6ccc-4f9d-9940-baecbd1352fe",
-                "3d581b5d-c4d9-45cd-bf8c-b408bc38053a",
-                "3d2cb6b6-4c13-4184-a720-5892a222af84",
-                "1733a92f-d6ac-4c97-a1dd-8d573485e4fe",
-                "39ec4d46-455b-4ad6-8f28-1eefc0311a69",
-                "1ff3a7c3-7d7e-4502-bf7c-a0246c64348d",
-                "30b888e9-b87d-4306-85d0-a6a7613f95fd",
-                "ee21f846-f1ac-4622-8456-08e13b8b62b9",
-                "59ebcc8f-51db-4b8e-88cf-97a309cad51b",
-                "48b2f61d-930d-4e8e-a788-4001ca11324b",
-                "44f94ee0-d4d5-4644-8b80-141dc0e24b76",
-                "2fb7b36a-1e01-4cbe-a208-fe8af6d1db9e",
-                "2dc11831-f493-4263-9f5d-db5efee59f56",
-                "5e3041a7-65ec-4cb1-89c0-7b5c7a18ce00",
-                "81d36ed8-c449-4823-b72a-596710393c22",
-                "7a8a8029-3b6f-4ee6-92cc-786c78085931",
-                "f928920c-a800-49d2-8427-8de5810a3ce9",
-                "3d58a2cb-19a6-494d-a4ad-df90ae8d8e21",
-                "d673517b-c02d-49cf-8c8b-bb083d11afa2",
-                "8f887c7f-62e5-4fa4-8a6a-3986d99bff8e",
-                "e74f94e6-f839-453f-93d3-223631bdf07b"
-              ],
-              "schemaId": "1f4e3697-52bc-45d9-a7a8-65862c13ce4b",
-              "schemaName": "carousel"
-            }
-          ]
-        },
-        "unit": {
-          "en": {
-            "locations": [],
-            "schemaId": "2bd4ee39-8e6e-4128-9f08-a049cce49f23",
-            "schemaName": "unit",
-            "short": "Exposition inaugurale d\u0027\u00C9CHOTONE",
-            "tags": [
-              "programmation"
-            ],
-            "temporal": [],
-            "text": "\u003Cp\u003EDu mois de mai \u00E0 la d\u00E9but juillet, \u00C9CHOTONE ouvre ses porte \u00E0 Ganges. Pour cet \u00E9v\u00E8nement inaugural, est pr\u00E9sent\u00E9 les recherche du LAAB en collectif \u003Cem\u003Eaugment\u00E9\u003C/em\u003E. Augment\u00E9 \u00E0 travers diff\u00E9rents projets, comme celui sur la greffe o\u00F9 le collectif \u00E0 travailler pendant 6 mois, r\u00E9alisant \u00E9galement une \u00E9dition. \u003Cbr\u003E\u003Cbr\u003EAvec \u003Cstrong\u003ENi\u00ADco\u00ADlas Bra\u00ADlet\u003C/strong\u003E, \u003Cstrong\u003EDel\u00ADphine Che\u00ADvrot\u003C/strong\u003E, \u003Cstrong\u003EFran\u00AD\u00E7ois-Da\u00ADvid Col\u00ADlin\u003C/strong\u003E, \u003Cstrong\u003ESa\u00ADbri\u00ADna Issa\u003C/strong\u003E, \u003Cstrong\u003ESa\u00ADmuel Ali\u00ADgand\u003C/strong\u003E, \u003Cstrong\u003ELy\u00ADdie Re\u00ADgnier\u003C/strong\u003E, \u003Cstrong\u003EPhi\u00ADlippe Bri\u00E8re\u003C/strong\u003E, \u003Cstrong\u003ENina Reu\u00ADmaux\u003C/strong\u003E, \u003Cstrong\u003ELo\u00EFc Pey\u00ADra\u00ADni\u003C/strong\u003E et \u003Cstrong\u003EAnna Ols\u00ADzews\u00ADka\u003C/strong\u003E.\u003C/p\u003E",
-            "title": "Le LAAB en collectif augment\u00E9"
-          },
-          "fr": {
-            "locations": [],
-            "schemaId": "2bd4ee39-8e6e-4128-9f08-a049cce49f23",
-            "schemaName": "unit",
-            "short": "Exposition inaugurale d\u0027\u00C9CHOTONE",
-            "tags": [
-              "programmation"
-            ],
-            "temporal": [],
-            "text": "\u003Cp\u003EDu mois de mai \u00E0 la d\u00E9but juillet, \u00C9CHOTONE ouvre ses porte \u00E0 Ganges. Pour cet \u00E9v\u00E8nement inaugural, est pr\u00E9sent\u00E9 les recherche du LAAB en collectif \u003Cem\u003Eaugment\u00E9\u003C/em\u003E. Augment\u00E9 \u00E0 travers diff\u00E9rents projets, comme celui sur la greffe o\u00F9 le collectif \u00E0 travailler pendant 6 mois, r\u00E9alisant \u00E9galement une \u00E9dition. \u003Cbr\u003E\u003Cbr\u003EAvec \u003Cstrong\u003ENi\u00ADco\u00ADlas Bra\u00ADlet\u003C/strong\u003E, \u003Cstrong\u003EDel\u00ADphine Che\u00ADvrot\u003C/strong\u003E, \u003Cstrong\u003EFran\u00AD\u00E7ois-Da\u00ADvid Col\u00ADlin\u003C/strong\u003E, \u003Cstrong\u003ESa\u00ADbri\u00ADna Issa\u003C/strong\u003E, \u003Cstrong\u003ESa\u00ADmuel Ali\u00ADgand\u003C/strong\u003E, \u003Cstrong\u003ELy\u00ADdie Re\u00ADgnier\u003C/strong\u003E, \u003Cstrong\u003EPhi\u00ADlippe Bri\u00E8re\u003C/strong\u003E, \u003Cstrong\u003ENina Reu\u00ADmaux\u003C/strong\u003E, \u003Cstrong\u003ELo\u00EFc Pey\u00ADra\u00ADni\u003C/strong\u003E et \u003Cstrong\u003EAnna Ols\u00ADzews\u00ADka\u003C/strong\u003E.\u003C/p\u003E",
-            "title": "Le LAAB en collectif augment\u00E9"
-          }
-        }
-      },
-      "editToken": "eyJhIjoiZWNob3RvbmUiLCJzIjoicGFnZSIsImkiOiIyYzcxMjJhYy05MzkwLTRmNDUtYjc2Yy04ODA2MzRmMWNiMTEiLCJ1IjoiaHR0cHM6Ly9sYWFiLmRkbnMubmV0OjM4MDgwLyJ9",
-      "id": "2c7122ac-9390-4f45-b76c-880634f1cb11",
-      "isDeleted": false,
-      "lastModified": "2025-03-31T17:15:10Z",
-      "lastModifiedBy": "subject:6798df7c5b784ee7b7cb52e1",
-      "schemaDisplayName": "Page",
-      "schemaId": "d0379b0e-294e-4df6-9b2b-257b807b1467",
-      "schemaName": "page",
-      "status": "Published",
-      "statusColor": "#4bb958",
-      "version": 1
     },
     {
       "_links": {
@@ -1395,5 +1508,5 @@
       "status": "Published"
     }
   ],
-  "total": 13
+  "total": 14
 }

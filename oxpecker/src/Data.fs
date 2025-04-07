@@ -144,11 +144,14 @@ let mapPageSlugToTag =
         pageTaggedTopics |> Seq.map(fun x -> navTaggedItems[x] |> snd) |> Set.ofSeq
     pages.items
     |> Seq.map(fun x ->
-        x.data.unit.fr.tags
-        |> Set
-        |> Set.intersect cmsTags
-        |> Seq.head
-        |> (fun y -> x.data.id.iv, y |> tryCmstagToTaggedTopic |> Option.defaultValue Accueil))
+        let tagIntersection = x.data.unit.fr.tags |> Set |> Set.intersect cmsTags
+        if Seq.isEmpty tagIntersection then
+            failwith
+                $"""Page '{x.data.id.iv}' has no valid tags. Every page must have at least one tag from: {String.concat ", " (cmsTags |> Seq.toArray)}"""
+        else
+            let tag = Seq.head tagIntersection
+            let taggedTopic = tag |> tryCmstagToTaggedTopic |> Option.defaultValue Accueil
+            x.data.id.iv, taggedTopic)
     |> Map.ofSeq
 
 let realNonEmptyTopics =
