@@ -60,7 +60,7 @@ module Cover =
     [<SolidComponent>]
     let SlidingCover coverStyle (medias: string seq) : HtmlElement =
         let current, setCurrent = createSignal 0
-        let delay () = System.Random().Next(3000, 5000)
+        let delay () = System.Random().Next(5000, 8000)
 
         let timer = new System.Timers.Timer(AutoReset = false)
         timer.Elapsed.Add(fun _ ->
