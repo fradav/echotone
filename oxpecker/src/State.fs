@@ -131,13 +131,20 @@ let getPageDate (page: PagesT.Items) =
 
 // Fonctions utiles pour récupérer les pages
 let getPagesForTopic (taggedtopic: TaggedTopic) =
-    let sorted =
+    let now = DateTime.Now
+    let pagesForTopic =
         pages.items
         |> Seq.filter(fun page -> page.data.unit.fr.tags |> Seq.contains(snd navTaggedItems[taggedtopic]))
-        |> Seq.sortByDescending(fun page -> getPageDate page |> Option.defaultValue(DateTime.Now))
-    // sorted
-    // |> Seq.iteri(fun i page -> printfn "%i %A %s" i (getPageDate page) page.data.id.iv)
-    sorted // Récupérer une page par son slug
+        |> Seq.choose(fun page -> getPageDate page |> Option.map(fun date -> page, date))
+    let futureEvents =
+        pagesForTopic
+        |> Seq.filter(fun (_, date) -> date >= now)
+        |> Seq.sortBy(fun (_, date) -> date)
+    let pastEvents =
+        pagesForTopic
+        |> Seq.filter(fun (_, date) -> date < now)
+        |> Seq.sortByDescending(fun (_, date) -> date)
+    Seq.append futureEvents pastEvents |> Seq.map fst
 let getPageBySlug (slug: string) =
     pages.items |> Seq.tryFind(fun page -> page.data.id.iv = slug)
 

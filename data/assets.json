@@ -21,6 +21,385 @@
     {
       "_links": {
         "content": {
+          "href": "/api/assets/echotone/c39857e3-febd-4fcd-99dd-f8bf78d10aa3/visu-butor-sans-date-2.jpg",
+          "method": "GET"
+        },
+        "content/slug": {
+          "href": "/api/assets/echotone/visu-butor-sans-date-2.jpg",
+          "method": "GET"
+        },
+        "delete": {
+          "href": "/api/apps/echotone/assets/c39857e3-febd-4fcd-99dd-f8bf78d10aa3",
+          "method": "DELETE"
+        },
+        "move": {
+          "href": "/api/apps/echotone/assets/c39857e3-febd-4fcd-99dd-f8bf78d10aa3/parent",
+          "method": "PUT"
+        },
+        "self": {
+          "href": "/api/apps/echotone/assets/c39857e3-febd-4fcd-99dd-f8bf78d10aa3",
+          "method": "GET"
+        },
+        "update": {
+          "href": "/api/apps/echotone/assets/c39857e3-febd-4fcd-99dd-f8bf78d10aa3",
+          "method": "PUT"
+        },
+        "upload": {
+          "href": "/api/apps/echotone/assets/c39857e3-febd-4fcd-99dd-f8bf78d10aa3/content",
+          "method": "PUT"
+        }
+      },
+      "created": "2025-04-21T18:02:59Z",
+      "createdBy": "subject:6798df7c5b784ee7b7cb52e1",
+      "editToken": "eyJhIjoiZWNob3RvbmUiLCJpIjoiYzM5ODU3ZTMtZmViZC00ZmNkLTk5ZGQtZjhiZjc4ZDEwYWEzIiwidSI6Imh0dHBzOi8vbGFhYi5kZG5zLm5ldDozODA4MC8ifQ==",
+      "fileHash": "bpvRCRyCXbtC6wYev35bnwjvhj66xHMD9Tf9tct/2iw=",
+      "fileName": "VISU BUTOR SANS DATE 2.jpg",
+      "fileSize": 5752621,
+      "fileType": "jpg",
+      "fileVersion": 0,
+      "id": "c39857e3-febd-4fcd-99dd-f8bf78d10aa3",
+      "isImage": true,
+      "isProtected": false,
+      "lastModified": "2025-04-21T18:02:59Z",
+      "lastModifiedBy": "subject:6798df7c5b784ee7b7cb52e1",
+      "metadata": {
+        "description": "JFIF File",
+        "imageQuality": 98,
+        "pixelHeight": 3804,
+        "pixelWidth": 4032
+      },
+      "metadataText": "4032x3804px, 5.5 MB",
+      "mimeType": "image/jpeg",
+      "parentId": "00000000-0000-0000-0000-000000000000",
+      "pixelHeight": 3804,
+      "pixelWidth": 4032,
+      "slug": "visu-butor-sans-date-2.jpg",
+      "tags": [
+        "type/jpg",
+        "image",
+        "image/large"
+      ],
+      "type": "Image",
+      "version": 0
+    },
+    {
+      "_links": {
+        "content": {
+          "href": "/api/assets/echotone/83b94ccd-24a8-456c-bb3c-db89a1de6f6a/performance-pour-3-projecteurs-ce-line-courtault-capelier.-musique-sylvia-monnier-au-cyclo-a-se-te.-sortie-de-re-sidence-d-22artiste-au-lyce-e-22-2024.png",
+          "method": "GET"
+        },
+        "content/slug": {
+          "href": "/api/assets/echotone/performance-pour-3-projecteurs-ce-line-courtault-capelier.-musique-sylvia-monnier-au-cyclo-a-se-te.-sortie-de-re-sidence-d-22artiste-au-lyce-e-22-2024.png",
+          "method": "GET"
+        },
+        "delete": {
+          "href": "/api/apps/echotone/assets/83b94ccd-24a8-456c-bb3c-db89a1de6f6a",
+          "method": "DELETE"
+        },
+        "move": {
+          "href": "/api/apps/echotone/assets/83b94ccd-24a8-456c-bb3c-db89a1de6f6a/parent",
+          "method": "PUT"
+        },
+        "self": {
+          "href": "/api/apps/echotone/assets/83b94ccd-24a8-456c-bb3c-db89a1de6f6a",
+          "method": "GET"
+        },
+        "update": {
+          "href": "/api/apps/echotone/assets/83b94ccd-24a8-456c-bb3c-db89a1de6f6a",
+          "method": "PUT"
+        },
+        "upload": {
+          "href": "/api/apps/echotone/assets/83b94ccd-24a8-456c-bb3c-db89a1de6f6a/content",
+          "method": "PUT"
+        }
+      },
+      "created": "2025-04-21T17:50:55Z",
+      "createdBy": "subject:6798df7c5b784ee7b7cb52e1",
+      "editToken": "eyJhIjoiZWNob3RvbmUiLCJpIjoiODNiOTRjY2QtMjRhOC00NTZjLWJiM2MtZGI4OWExZGU2ZjZhIiwidSI6Imh0dHBzOi8vbGFhYi5kZG5zLm5ldDozODA4MC8ifQ==",
+      "fileHash": "nxagB6fO4bmugRXwHylbbGeGjLeU\u002B1luFXPyKSq6T7Q=",
+      "fileName": "Performance pour 3 projecteurs, Ce\u0301line Courtault Capelier. Musique Sylvia Monnier au CYCLO a\u0300 Se\u0300te. Sortie de re\u0301sidence d\u0027%22Artiste au lyce\u0301e%22 2024.png",
+      "fileSize": 1159170,
+      "fileType": "png",
+      "fileVersion": 0,
+      "id": "83b94ccd-24a8-456c-bb3c-db89a1de6f6a",
+      "isImage": true,
+      "isProtected": false,
+      "lastModified": "2025-04-21T17:50:55Z",
+      "lastModifiedBy": "subject:6798df7c5b784ee7b7cb52e1",
+      "metadata": {
+        "description": "PNG File",
+        "pixelHeight": 1034,
+        "pixelWidth": 1752
+      },
+      "metadataText": "1752x1034px, 1.1 MB",
+      "mimeType": "image/png",
+      "parentId": "00000000-0000-0000-0000-000000000000",
+      "pixelHeight": 1034,
+      "pixelWidth": 1752,
+      "slug": "performance-pour-3-projecteurs-ce-line-courtault-capelier.-musique-sylvia-monnier-au-cyclo-a-se-te.-sortie-de-re-sidence-d-22artiste-au-lyce-e-22-2024.png",
+      "tags": [
+        "type/png",
+        "image",
+        "image/large"
+      ],
+      "type": "Image",
+      "version": 0
+    },
+    {
+      "_links": {
+        "content": {
+          "href": "/api/assets/echotone/9bee25d7-39a4-470f-b998-7f6aab64c9aa/film-performance-de-ce-line-courtault-capelier.-fleurs-en-cours-de-recherche-photogramme-de-la-captation-the-atre-de-la-vignette-a-montpellier.png",
+          "method": "GET"
+        },
+        "content/slug": {
+          "href": "/api/assets/echotone/film-performance-de-ce-line-courtault-capelier.-fleurs-en-cours-de-recherche-photogramme-de-la-captation-the-atre-de-la-vignette-a-montpellier.png",
+          "method": "GET"
+        },
+        "delete": {
+          "href": "/api/apps/echotone/assets/9bee25d7-39a4-470f-b998-7f6aab64c9aa",
+          "method": "DELETE"
+        },
+        "move": {
+          "href": "/api/apps/echotone/assets/9bee25d7-39a4-470f-b998-7f6aab64c9aa/parent",
+          "method": "PUT"
+        },
+        "self": {
+          "href": "/api/apps/echotone/assets/9bee25d7-39a4-470f-b998-7f6aab64c9aa",
+          "method": "GET"
+        },
+        "update": {
+          "href": "/api/apps/echotone/assets/9bee25d7-39a4-470f-b998-7f6aab64c9aa",
+          "method": "PUT"
+        },
+        "upload": {
+          "href": "/api/apps/echotone/assets/9bee25d7-39a4-470f-b998-7f6aab64c9aa/content",
+          "method": "PUT"
+        }
+      },
+      "created": "2025-04-21T17:50:54Z",
+      "createdBy": "subject:6798df7c5b784ee7b7cb52e1",
+      "editToken": "eyJhIjoiZWNob3RvbmUiLCJpIjoiOWJlZTI1ZDctMzlhNC00NzBmLWI5OTgtN2Y2YWFiNjRjOWFhIiwidSI6Imh0dHBzOi8vbGFhYi5kZG5zLm5ldDozODA4MC8ifQ==",
+      "fileHash": "hoWIsKrAxf5A2DiXD51007y5ConJxYUvCixMD2PzktA=",
+      "fileName": "Film-performance de Ce\u0301line Courtault Capelier. FLEURS (en cours de recherche) Photogramme de la captation The\u0301atre de la Vignette a\u0300 Montpellier.png",
+      "fileSize": 1360597,
+      "fileType": "png",
+      "fileVersion": 0,
+      "id": "9bee25d7-39a4-470f-b998-7f6aab64c9aa",
+      "isImage": true,
+      "isProtected": false,
+      "lastModified": "2025-04-21T17:50:54Z",
+      "lastModifiedBy": "subject:6798df7c5b784ee7b7cb52e1",
+      "metadata": {
+        "description": "PNG File",
+        "pixelHeight": 1302,
+        "pixelWidth": 1674
+      },
+      "metadataText": "1674x1302px, 1.3 MB",
+      "mimeType": "image/png",
+      "parentId": "00000000-0000-0000-0000-000000000000",
+      "pixelHeight": 1302,
+      "pixelWidth": 1674,
+      "slug": "film-performance-de-ce-line-courtault-capelier.-fleurs-en-cours-de-recherche-photogramme-de-la-captation-the-atre-de-la-vignette-a-montpellier.png",
+      "tags": [
+        "type/png",
+        "image",
+        "image/large"
+      ],
+      "type": "Image",
+      "version": 0
+    },
+    {
+      "_links": {
+        "content": {
+          "href": "/api/assets/echotone/10bc2621-c228-4ff2-854f-06332ad4e2ee/ce-line-courtault-capelier.png",
+          "method": "GET"
+        },
+        "content/slug": {
+          "href": "/api/assets/echotone/ce-line-courtault-capelier.png",
+          "method": "GET"
+        },
+        "delete": {
+          "href": "/api/apps/echotone/assets/10bc2621-c228-4ff2-854f-06332ad4e2ee",
+          "method": "DELETE"
+        },
+        "move": {
+          "href": "/api/apps/echotone/assets/10bc2621-c228-4ff2-854f-06332ad4e2ee/parent",
+          "method": "PUT"
+        },
+        "self": {
+          "href": "/api/apps/echotone/assets/10bc2621-c228-4ff2-854f-06332ad4e2ee",
+          "method": "GET"
+        },
+        "update": {
+          "href": "/api/apps/echotone/assets/10bc2621-c228-4ff2-854f-06332ad4e2ee",
+          "method": "PUT"
+        },
+        "upload": {
+          "href": "/api/apps/echotone/assets/10bc2621-c228-4ff2-854f-06332ad4e2ee/content",
+          "method": "PUT"
+        }
+      },
+      "created": "2025-04-21T17:50:53Z",
+      "createdBy": "subject:6798df7c5b784ee7b7cb52e1",
+      "editToken": "eyJhIjoiZWNob3RvbmUiLCJpIjoiMTBiYzI2MjEtYzIyOC00ZmYyLTg1NGYtMDYzMzJhZDRlMmVlIiwidSI6Imh0dHBzOi8vbGFhYi5kZG5zLm5ldDozODA4MC8ifQ==",
+      "fileHash": "VfF5DiaVCIAREyCJhqPV/Fn6QuGRpyRVg6oDomQexmQ=",
+      "fileName": "Ce\u0301line Courtault Capelier.png",
+      "fileSize": 1210416,
+      "fileType": "png",
+      "fileVersion": 0,
+      "id": "10bc2621-c228-4ff2-854f-06332ad4e2ee",
+      "isImage": true,
+      "isProtected": false,
+      "lastModified": "2025-04-21T17:50:53Z",
+      "lastModifiedBy": "subject:6798df7c5b784ee7b7cb52e1",
+      "metadata": {
+        "description": "PNG File",
+        "pixelHeight": 1038,
+        "pixelWidth": 1752
+      },
+      "metadataText": "1752x1038px, 1.2 MB",
+      "mimeType": "image/png",
+      "parentId": "00000000-0000-0000-0000-000000000000",
+      "pixelHeight": 1038,
+      "pixelWidth": 1752,
+      "slug": "ce-line-courtault-capelier.png",
+      "tags": [
+        "type/png",
+        "image",
+        "image/large"
+      ],
+      "type": "Image",
+      "version": 0
+    },
+    {
+      "_links": {
+        "content": {
+          "href": "/api/assets/echotone/379e4d43-c3ff-4b8e-ba7a-1b3749f51c62/ce-line-courtault-capelier-02.png",
+          "method": "GET"
+        },
+        "content/slug": {
+          "href": "/api/assets/echotone/ce-line-courtault-capelier-02.png",
+          "method": "GET"
+        },
+        "delete": {
+          "href": "/api/apps/echotone/assets/379e4d43-c3ff-4b8e-ba7a-1b3749f51c62",
+          "method": "DELETE"
+        },
+        "move": {
+          "href": "/api/apps/echotone/assets/379e4d43-c3ff-4b8e-ba7a-1b3749f51c62/parent",
+          "method": "PUT"
+        },
+        "self": {
+          "href": "/api/apps/echotone/assets/379e4d43-c3ff-4b8e-ba7a-1b3749f51c62",
+          "method": "GET"
+        },
+        "update": {
+          "href": "/api/apps/echotone/assets/379e4d43-c3ff-4b8e-ba7a-1b3749f51c62",
+          "method": "PUT"
+        },
+        "upload": {
+          "href": "/api/apps/echotone/assets/379e4d43-c3ff-4b8e-ba7a-1b3749f51c62/content",
+          "method": "PUT"
+        }
+      },
+      "created": "2025-04-21T17:50:53Z",
+      "createdBy": "subject:6798df7c5b784ee7b7cb52e1",
+      "editToken": "eyJhIjoiZWNob3RvbmUiLCJpIjoiMzc5ZTRkNDMtYzNmZi00YjhlLWJhN2EtMWIzNzQ5ZjUxYzYyIiwidSI6Imh0dHBzOi8vbGFhYi5kZG5zLm5ldDozODA4MC8ifQ==",
+      "fileHash": "G9iz3LaoJULj0w\u002Bc/4xXmXqyt1kgX7y1rYKTFLyaxb8=",
+      "fileName": "Ce\u0301line Courtault Capelier - 02.png",
+      "fileSize": 1092025,
+      "fileType": "png",
+      "fileVersion": 0,
+      "id": "379e4d43-c3ff-4b8e-ba7a-1b3749f51c62",
+      "isImage": true,
+      "isProtected": false,
+      "lastModified": "2025-04-21T17:50:53Z",
+      "lastModifiedBy": "subject:6798df7c5b784ee7b7cb52e1",
+      "metadata": {
+        "description": "PNG File",
+        "pixelHeight": 1442,
+        "pixelWidth": 1396
+      },
+      "metadataText": "1396x1442px, 1 MB",
+      "mimeType": "image/png",
+      "parentId": "00000000-0000-0000-0000-000000000000",
+      "pixelHeight": 1442,
+      "pixelWidth": 1396,
+      "slug": "ce-line-courtault-capelier-02.png",
+      "tags": [
+        "type/png",
+        "image",
+        "image/large"
+      ],
+      "type": "Image",
+      "version": 0
+    },
+    {
+      "_links": {
+        "content": {
+          "href": "/api/assets/echotone/a8529f01-cfb8-4b01-a7e8-479bbc888054/ce-line-courtault-capelier-03.png",
+          "method": "GET"
+        },
+        "content/slug": {
+          "href": "/api/assets/echotone/ce-line-courtault-capelier-03.png",
+          "method": "GET"
+        },
+        "delete": {
+          "href": "/api/apps/echotone/assets/a8529f01-cfb8-4b01-a7e8-479bbc888054",
+          "method": "DELETE"
+        },
+        "move": {
+          "href": "/api/apps/echotone/assets/a8529f01-cfb8-4b01-a7e8-479bbc888054/parent",
+          "method": "PUT"
+        },
+        "self": {
+          "href": "/api/apps/echotone/assets/a8529f01-cfb8-4b01-a7e8-479bbc888054",
+          "method": "GET"
+        },
+        "update": {
+          "href": "/api/apps/echotone/assets/a8529f01-cfb8-4b01-a7e8-479bbc888054",
+          "method": "PUT"
+        },
+        "upload": {
+          "href": "/api/apps/echotone/assets/a8529f01-cfb8-4b01-a7e8-479bbc888054/content",
+          "method": "PUT"
+        }
+      },
+      "created": "2025-04-21T17:50:52Z",
+      "createdBy": "subject:6798df7c5b784ee7b7cb52e1",
+      "editToken": "eyJhIjoiZWNob3RvbmUiLCJpIjoiYTg1MjlmMDEtY2ZiOC00YjAxLWE3ZTgtNDc5YmJjODg4MDU0IiwidSI6Imh0dHBzOi8vbGFhYi5kZG5zLm5ldDozODA4MC8ifQ==",
+      "fileHash": "k2MqmecrWcg9nhPDcJMKUGuNzhFz3snHENE8kvHnNgA=",
+      "fileName": "Ce\u0301line Courtault Capelier -03.png",
+      "fileSize": 824907,
+      "fileType": "png",
+      "fileVersion": 0,
+      "id": "a8529f01-cfb8-4b01-a7e8-479bbc888054",
+      "isImage": true,
+      "isProtected": false,
+      "lastModified": "2025-04-21T17:50:52Z",
+      "lastModifiedBy": "subject:6798df7c5b784ee7b7cb52e1",
+      "metadata": {
+        "description": "PNG File",
+        "pixelHeight": 802,
+        "pixelWidth": 1668
+      },
+      "metadataText": "1668x802px, 805.6 kB",
+      "mimeType": "image/png",
+      "parentId": "00000000-0000-0000-0000-000000000000",
+      "pixelHeight": 802,
+      "pixelWidth": 1668,
+      "slug": "ce-line-courtault-capelier-03.png",
+      "tags": [
+        "type/png",
+        "image",
+        "image/large"
+      ],
+      "type": "Image",
+      "version": 0
+    },
+    {
+      "_links": {
+        "content": {
           "href": "/api/assets/echotone/3d142138-24eb-42f3-a6db-de7713b58064/capture-d-e-cran-2025-04-07-a-11.21.22.png",
           "method": "GET"
         },
@@ -11620,5 +11999,5 @@
       "version": 0
     }
   ],
-  "total": 177
+  "total": 183
 }

@@ -17,6 +17,321 @@
     {
       "_links": {
         "delete": {
+          "href": "/api/content/echotone/page/702fbd2b-1312-4ebd-b348-cc963c16ea7f",
+          "method": "DELETE"
+        },
+        "draft/create": {
+          "href": "/api/content/echotone/page/702fbd2b-1312-4ebd-b348-cc963c16ea7f/draft",
+          "method": "POST"
+        },
+        "previous": {
+          "href": "/api/content/echotone/page/702fbd2b-1312-4ebd-b348-cc963c16ea7f/18",
+          "method": "GET"
+        },
+        "self": {
+          "href": "/api/content/echotone/page/702fbd2b-1312-4ebd-b348-cc963c16ea7f",
+          "method": "GET"
+        }
+      },
+      "created": "2025-01-29T12:48:49Z",
+      "createdBy": "subject:6798df7c5b784ee7b7cb52e1",
+      "data": {
+        "id": {
+          "iv": "inauguration-de-echotone"
+        },
+        "medias": {
+          "iv": [
+            {
+              "caption": null,
+              "in": true,
+              "medias": [
+                "ac06c5dc-1e70-4075-98c9-65ed4225b68e",
+                "7859c212-a7e7-4200-92a1-ac292cc67e78",
+                "c7b47afc-f9d7-4348-94cd-f6f8e78de0ec",
+                "d0350086-80cc-4708-b10b-0b59061e21e7",
+                "1829f3b6-85c6-48f8-a20d-324ba4ea9599",
+                "fbc048ba-53d2-4951-80cd-48a38d2a08d8",
+                "0cd504ab-b973-4216-9a73-83b6a487e988",
+                "856102d1-0db2-4c07-baf7-d2425ffd4a52",
+                "dd880b05-f435-432f-98b7-9890aecf681a",
+                "13810421-d0ad-4ed4-8289-80a48f8a942d"
+              ],
+              "schemaId": "1f4e3697-52bc-45d9-a7a8-65862c13ce4b",
+              "schemaName": "carousel"
+            },
+            {
+              "caption": "Performance sonore, Nicolas Bralet. \u0022Aux origines des vagues vont et viennes, des rayons traversent. La faune anime l\u0027\u00E9tendue. Les sons improvisent, composent, \u0022comprovisent\u0022 le temps d\u0027une \u00E9coute\u0022.",
+              "in": null,
+              "medias": [
+                "08261a14-63a2-442b-bbe6-bd009bc5eb8a",
+                "0e1213c4-45ee-4bd5-9ef8-92c45afbfaff"
+              ],
+              "schemaId": "1f4e3697-52bc-45d9-a7a8-65862c13ce4b",
+              "schemaName": "carousel"
+            }
+          ]
+        },
+        "unit": {
+          "en": {
+            "locations": [],
+            "schemaId": "2bd4ee39-8e6e-4128-9f08-a049cce49f23",
+            "schemaName": "unit",
+            "short": "Propositions du LAAB en collectif augment\u00E9 et performance sonore de Nicolas Bralet",
+            "tags": [
+              "programmation",
+              "p\u00E9riode",
+              "accueil"
+            ],
+            "temporal": [
+              {
+                "date": "2024-05-31T00:00:00Z",
+                "datetime": null,
+                "description": null
+              },
+              {
+                "date": "2024-06-30T00:00:00Z",
+                "datetime": null,
+                "description": null
+              }
+            ],
+            "text": "\u003Cp\u003E\u261E Vendredi 31 mai 2024\u003C/p\u003E\u003Chr\u003E\u003Cp\u003E\u25BA Inauguration des espaces du 6 rue des maquisards, \u00E0 Ganges. \u003Cbr\u003EInauguration des espaces avec les propositions du LAAB en collectif \u003Cem\u003Eaugment\u00E9 \u003C/em\u003Eavec les pi\u00E8ces de \u003Cstrong\u003ENicolas Bralet\u003C/strong\u003E, \u003Cstrong\u003EDelphine Chevrot\u003C/strong\u003E, \u003Cstrong\u003EFran\u00E7ois-David Collin\u003C/strong\u003E, \u003Cstrong\u003ESabrina Issa\u003C/strong\u003E, \u003Cstrong\u003ESamuel Aligand\u003C/strong\u003E, \u003Cstrong\u003ELydie Regnier\u003C/strong\u003E, \u003Cstrong\u003EPhilippe Bri\u00E8re\u003C/strong\u003E, \u003Cstrong\u003ENina Reumaux\u003C/strong\u003E, \u003Cstrong\u003ELo\u00EFc Peyrani\u003C/strong\u003E et \u003Cstrong\u003EAnna Olszewska\u003C/strong\u003E.\u003C/p\u003E\u003Chr\u003E\u003Cp\u003E\u2326 Vernissage avec les Grignots de \u003Cstrong\u003EAlix Jolly\u003C/strong\u003E et \u003Cstrong\u003ECamille Derniaux\u003C/strong\u003E r\u00E9alis\u00E9s \u00E0 partir de cueillettes et mac\u00E9rations\u003C/p\u003E",
+            "title": "Inauguration de \u00C9CHOTONE"
+          },
+          "fr": {
+            "locations": [],
+            "schemaId": "2bd4ee39-8e6e-4128-9f08-a049cce49f23",
+            "schemaName": "unit",
+            "short": "Propositions du LAAB en collectif augment\u00E9 et performance sonore de Nicolas Bralet",
+            "tags": [
+              "programmation",
+              "p\u00E9riode",
+              "accueil"
+            ],
+            "temporal": [
+              {
+                "date": "2024-05-31T00:00:00Z",
+                "datetime": null,
+                "description": null
+              },
+              {
+                "date": "2024-06-30T00:00:00Z",
+                "datetime": null,
+                "description": null
+              }
+            ],
+            "text": "\u003Cp\u003E\u261E Vendredi 31 mai 2024\u003C/p\u003E\u003Chr\u003E\u003Cp\u003E\u25BA Inauguration des espaces du 6 rue des maquisards, \u00E0 Ganges. \u003Cbr\u003EInauguration des espaces avec les propositions du LAAB en collectif \u003Cem\u003Eaugment\u00E9 \u003C/em\u003Eavec les pi\u00E8ces de \u003Cstrong\u003ENicolas Bralet\u003C/strong\u003E, \u003Cstrong\u003EDelphine Chevrot\u003C/strong\u003E, \u003Cstrong\u003EFran\u00E7ois-David Collin\u003C/strong\u003E, \u003Cstrong\u003ESabrina Issa\u003C/strong\u003E, \u003Cstrong\u003ESamuel Aligand\u003C/strong\u003E, \u003Cstrong\u003ELydie Regnier\u003C/strong\u003E, \u003Cstrong\u003EPhilippe Bri\u00E8re\u003C/strong\u003E, \u003Cstrong\u003ENina Reumaux\u003C/strong\u003E, \u003Cstrong\u003ELo\u00EFc Peyrani\u003C/strong\u003E et \u003Cstrong\u003EAnna Olszewska\u003C/strong\u003E.\u003C/p\u003E\u003Chr\u003E\u003Cp\u003E\u2326 Vernissage avec les Grignots de \u003Cstrong\u003EAlix Jolly\u003C/strong\u003E et \u003Cstrong\u003ECamille Derniaux\u003C/strong\u003E r\u00E9alis\u00E9s \u00E0 partir de cueillettes et mac\u00E9rations\u003C/p\u003E",
+            "title": "Inauguration de \u00C9CHOTONE"
+          }
+        }
+      },
+      "editToken": "eyJhIjoiZWNob3RvbmUiLCJzIjoicGFnZSIsImkiOiI3MDJmYmQyYi0xMzEyLTRlYmQtYjM0OC1jYzk2M2MxNmVhN2YiLCJ1IjoiaHR0cHM6Ly9sYWFiLmRkbnMubmV0OjM4MDgwLyJ9",
+      "id": "702fbd2b-1312-4ebd-b348-cc963c16ea7f",
+      "isDeleted": false,
+      "lastModified": "2025-04-23T22:36:21Z",
+      "lastModifiedBy": "subject:6798df7c5b784ee7b7cb52e1",
+      "schemaDisplayName": "Page",
+      "schemaId": "d0379b0e-294e-4df6-9b2b-257b807b1467",
+      "schemaName": "page",
+      "status": "Published",
+      "statusColor": "#4bb958",
+      "version": 19
+    },
+    {
+      "_links": {
+        "delete": {
+          "href": "/api/content/echotone/page/2698e069-8dac-48f7-a6ce-ba43f3b35613",
+          "method": "DELETE"
+        },
+        "draft/create": {
+          "href": "/api/content/echotone/page/2698e069-8dac-48f7-a6ce-ba43f3b35613/draft",
+          "method": "POST"
+        },
+        "previous": {
+          "href": "/api/content/echotone/page/2698e069-8dac-48f7-a6ce-ba43f3b35613/7",
+          "method": "GET"
+        },
+        "self": {
+          "href": "/api/content/echotone/page/2698e069-8dac-48f7-a6ce-ba43f3b35613",
+          "method": "GET"
+        }
+      },
+      "created": "2025-01-29T12:59:19Z",
+      "createdBy": "subject:6798df7c5b784ee7b7cb52e1",
+      "data": {
+        "id": {
+          "iv": "miashs-x-artist-run-spaces-org"
+        },
+        "medias": {
+          "iv": [
+            {
+              "caption": null,
+              "in": true,
+              "medias": [
+                "9967fbb7-af0a-4404-bb77-1446eeba9aca",
+                "a7a6679b-0180-4a7c-ba4d-c693652e38fc",
+                "a96c48a0-07c7-4ef8-b1fa-10485e903bba",
+                "03d8c341-a96d-4ca8-b464-48228504bef6",
+                "a30447a2-bd37-40e1-9a24-dac4c960c4fd",
+                "26e58796-75e2-4e0e-8663-8e8d8abdfb67"
+              ],
+              "schemaId": "1f4e3697-52bc-45d9-a7a8-65862c13ce4b",
+              "schemaName": "carousel"
+            }
+          ]
+        },
+        "unit": {
+          "en": {
+            "locations": [],
+            "schemaId": "2bd4ee39-8e6e-4128-9f08-a049cce49f23",
+            "schemaName": "unit",
+            "short": "PORTRAITS D\u0027ESPACES - \u00C0 propos de ce que les artist-run spaces ont \u00E0 dire d\u0027eux m\u00EAme",
+            "tags": [
+              "programmation"
+            ],
+            "temporal": [
+              {
+                "date": null,
+                "datetime": null,
+                "description": "2025"
+              }
+            ],
+            "text": "\u003Cp\u003EDans le cadre d\u0027un TER (travaux d\u0027\u00E9tudes et de recherches) est exp\u00E9riment\u00E9 une nouvelle m\u00E9thodologie d\u2019enrichissement des donn\u00E9es textuelles pour d\u00E9couvrir des relations s\u00E9mantiques entre les \u003Cem\u003Eartist-run spaces\u003C/em\u003E et des axes de repr\u00E9sentation pour des visualisations interactives. \u003Cbr\u003E\u003Cbr\u003ESur l\u0027ann\u00E9e des \u00E9tudiants en master1 MIASHS ((Math\u00E9matiques et Informatiques Appliqu\u00E9es aux Sciences Humaines et Sociales, UFR6) \u00E0 l\u0027Universit\u00E9 Paul Valery, travaillent sur les donn\u00E9es du site \u003Ca target=\u0022_blank\u0022 href=\u0022//artist-run-spaces.org\u0022 rel=\u0022noopener noreferrer nofollow\u0022 data-link-auto=\u0022\u0022\u003E\u003Cstrong\u003Eartist-run-spaces.org\u003C/strong\u003E\u003C/a\u003E. Ils sont encadr\u00E9s par Fran\u00E7ois-David Collin, ing\u00E9nieur de recherche au CNRS \u00E0 l\u0027institut de Math\u00E9matique Alexander Grothendieck et Sabrina Issa, artiste, fondatrice de l\u0027initiative artist-run-spaces.org.\u003C/p\u003E",
+            "title": "MIASHS X artist-run-spaces.org"
+          },
+          "fr": {
+            "locations": [],
+            "schemaId": "2bd4ee39-8e6e-4128-9f08-a049cce49f23",
+            "schemaName": "unit",
+            "short": "PORTRAITS D\u0027ESPACES - \u00C0 propos de ce que les artist-run spaces ont \u00E0 dire d\u0027eux m\u00EAme",
+            "tags": [
+              "programmation"
+            ],
+            "temporal": [
+              {
+                "date": null,
+                "datetime": null,
+                "description": "2025"
+              }
+            ],
+            "text": "\u003Cp\u003EDans le cadre d\u0027un TER (travaux d\u0027\u00E9tudes et de recherches) est exp\u00E9riment\u00E9 une nouvelle m\u00E9thodologie d\u2019enrichissement des donn\u00E9es textuelles pour d\u00E9couvrir des relations s\u00E9mantiques entre les \u003Cem\u003Eartist-run spaces\u003C/em\u003E et des axes de repr\u00E9sentation pour des visualisations interactives. \u003Cbr\u003E\u003Cbr\u003ESur l\u0027ann\u00E9e des \u00E9tudiants en master1 MIASHS ((Math\u00E9matiques et Informatiques Appliqu\u00E9es aux Sciences Humaines et Sociales, UFR6) \u00E0 l\u0027Universit\u00E9 Paul Valery, travaillent sur les donn\u00E9es du site \u003Ca target=\u0022_blank\u0022 href=\u0022//artist-run-spaces.org\u0022 rel=\u0022noopener noreferrer nofollow\u0022 data-link-auto=\u0022\u0022\u003E\u003Cstrong\u003Eartist-run-spaces.org\u003C/strong\u003E\u003C/a\u003E. Ils sont encadr\u00E9s par Fran\u00E7ois-David Collin, ing\u00E9nieur de recherche au CNRS \u00E0 l\u0027institut de Math\u00E9matique Alexander Grothendieck et Sabrina Issa, artiste, fondatrice de l\u0027initiative artist-run-spaces.org.\u003C/p\u003E",
+            "title": "MIASHS X artist-run-spaces.org"
+          }
+        }
+      },
+      "editToken": "eyJhIjoiZWNob3RvbmUiLCJzIjoicGFnZSIsImkiOiIyNjk4ZTA2OS04ZGFjLTQ4ZjctYTZjZS1iYTQzZjNiMzU2MTMiLCJ1IjoiaHR0cHM6Ly9sYWFiLmRkbnMubmV0OjM4MDgwLyJ9",
+      "id": "2698e069-8dac-48f7-a6ce-ba43f3b35613",
+      "isDeleted": false,
+      "lastModified": "2025-04-23T22:34:57Z",
+      "lastModifiedBy": "subject:6798df7c5b784ee7b7cb52e1",
+      "schemaDisplayName": "Page",
+      "schemaId": "d0379b0e-294e-4df6-9b2b-257b807b1467",
+      "schemaName": "page",
+      "status": "Published",
+      "statusColor": "#4bb958",
+      "version": 8
+    },
+    {
+      "_links": {
+        "delete": {
+          "href": "/api/content/echotone/page/6cbf1356-f196-4edf-9ce9-a1f9b43d3f66",
+          "method": "DELETE"
+        },
+        "draft/create": {
+          "href": "/api/content/echotone/page/6cbf1356-f196-4edf-9ce9-a1f9b43d3f66/draft",
+          "method": "POST"
+        },
+        "previous": {
+          "href": "/api/content/echotone/page/6cbf1356-f196-4edf-9ce9-a1f9b43d3f66/8",
+          "method": "GET"
+        },
+        "self": {
+          "href": "/api/content/echotone/page/6cbf1356-f196-4edf-9ce9-a1f9b43d3f66",
+          "method": "GET"
+        }
+      },
+      "created": "2025-03-03T20:39:01Z",
+      "createdBy": "subject:6798df7c5b784ee7b7cb52e1",
+      "data": {
+        "id": {
+          "iv": "dorota-buczkowska-residente-2024"
+        },
+        "medias": {
+          "iv": [
+            {
+              "caption": null,
+              "in": true,
+              "medias": [
+                "5e0c7a23-dd11-4fec-a18f-cea263585da0",
+                "8df9bac3-38f2-4957-bc1d-b2e3ea42a55d",
+                "8cb7feec-bc60-4a9b-a5bd-527dc3707c77",
+                "6a56e25f-4d67-48ac-8ae3-6c6944500040",
+                "4b89095f-631a-408c-b991-e95b12e4af8f",
+                "233ce956-c100-44ef-b697-d5b9ab0013c5",
+                "1d8fcca2-a5c2-44b3-b0fe-cf249dd2f8f6",
+                "4aa77dee-7a1e-4d50-9661-0c4541e1ec47",
+                "a12cf3b4-ef2b-4efa-b3a0-b88f0b957963",
+                "08759e09-300f-4c3a-b216-51c3db6a320e",
+                "de7e6c1d-a89b-4bcc-b7e2-85b6ae07d870"
+              ],
+              "schemaId": "1f4e3697-52bc-45d9-a7a8-65862c13ce4b",
+              "schemaName": "carousel"
+            }
+          ]
+        },
+        "unit": {
+          "en": {
+            "locations": [],
+            "schemaId": "2bd4ee39-8e6e-4128-9f08-a049cce49f23",
+            "schemaName": "unit",
+            "short": "Caisse de Ward ",
+            "tags": [
+              "programmation"
+            ],
+            "temporal": [
+              {
+                "date": null,
+                "datetime": null,
+                "description": "2025"
+              }
+            ],
+            "text": "\u003Cp\u003E\u003Cem\u003E\u00AB\u0026nbsp;Aucune de ces fleurs, aucun de ces fruits ne lui \u00E9tait connu, chacun semblait n\u00E9 de l\u2019imagination d\u2019un peintre qui aurait voulu violer les lois de la nature pour inventer de convaincantes invraisemblances, des d\u00E9lices d\u00E9chiquet\u00E9es et de savoureux mensonges\u0026nbsp;: telle cette corolle couverte d\u2019un duvet blanch\u00E2tre qui s\u2019\u00E9panouissait en huppe de plumes violettes, ou bien non, une primev\u00E8re p\u00E2lie qui expulserait un appendice obsc\u00E8ne, ou un masque qui recouvrirait un visage blanc de barbes de ch\u00E8vre. Qui pouvait avoir con\u00E7u cet arbuste aux feuilles vert sombre d\u2019un c\u00F4t\u00E9 avec d\u00E9corations sauvages jaune rouge, et d\u2019autre flamboyantes, entour\u00E9es de feuilles d\u2019un plus tendre vert petit pois, d\u2019une substance charnue convolut\u00E9e en conque de mani\u00E8re \u00E0 contenir encore l\u2019eau de la derni\u00E8re pluie\u0026nbsp;?\u0026nbsp;\u00BB\u003C/em\u003E\u003C/p\u003E\u003Cp\u003EUmberto Eco, \u003Cem\u003EL\u2019\u00EEle du jour d\u2019avant\u003Cbr\u003E\u003Cbr\u003E\u003C/em\u003ELe projet de recherches de Dorota Buczkowska \u00E0 \u00C9chotone s\u2019est construit \u00E0 partir d\u0027\u00E9changes sur les d\u00E9placements de plantes et leurs adaptations dans de nouveaux \u00E9cosyst\u00E8mes, sur les strat\u00E9gies mises en place pour que la culture d\u0027esp\u00E8ces exog\u00E8nes r\u00E9ussisse et sur les propri\u00E9t\u00E9s qu\u0027elles d\u00E9veloppent dans leurs nouvelles conditions de vie. Tout comme les plantes exotiques qui inspirent l\u0027imaginaire de leur lieu d\u0027origine, l\u0027id\u00E9e de ce projet commence par une description.\u003C/p\u003E\u003Cp\u003ELes diff\u00E9rentes plantes introduites en Europe suite \u00E0 de nombreuses exp\u00E9ditions botaniques depuis la fin du XVIe si\u00E8cle ont fait \u00E9voluer l\u2019art du paysage que nous connaissons aujourd\u2019hui. Plusieurs sp\u00E9cimens de ces v\u00E9g\u00E9taux sont cultiv\u00E9s \u00E0 la P\u00E9pini\u00E8re Issa \u00E0 Valflaun\u00E8s dans l\u2019H\u00E9rault. S\u00E9lectionn\u00E9s par l\u2019\u00E9quipe d\u2019\u00C9chotone pour leurs propri\u00E9t\u00E9s tinctoriales et m\u00E9dicinales, leurs descriptions ont \u00E9t\u00E9 envoy\u00E9es r\u00E9guli\u00E8rement \u00E0 Dorota Buczkowska sans en mentionner les noms.\u003C/p\u003E\u003Cp\u003EC\u2019est ainsi qu\u2019a commenc\u00E9 le cycle de peintures-collages, intitul\u00E9 \u00AB\u0026nbsp;Caisse de Ward\u0026nbsp;\u00BB en r\u00E9f\u00E9rence au nom d\u2019un m\u00E9decin anglais passionn\u00E9 de botanique, inventeur d\u2019une serre portative permettant au XIXe si\u00E8cle le transport de plantes exotiques lors de longs voyages en bateau.\u003C/p\u003E\u003Cp\u003ELes \u0153uvres appartenant \u00E0 cette s\u00E9rie r\u00E9v\u00E8lent un \u00E9tonnant univers de couleurs et de formes dont une toile \u00AB\u0026nbsp;indexe\u0026nbsp;\u00BB t\u00E9moigne de la complexit\u00E9 des permutations d\u2019une quarantaine de collages peints. Au cours d\u2019une transition entre un texte et son interpr\u00E9tation en peinture, l\u0027id\u00E9e de la plante rejoint celle d\u2019un d\u00E9placement et d\u2019une adaptation \u00E0 un autre environnement, \u00E0 un autre support. D\u00E9coup\u00E9es et transf\u00E9r\u00E9es d\u2019une toile sur une autre, les formes cr\u00E9\u00E9es par l\u2019artiste s\u2019inscrivent dans des compositions syncr\u00E9tiques rappelant le folklore populaire des d\u00E9coupes de paysages fabuleux, quelques fois exub\u00E9rants et inattendus. Il s\u2019agit d\u2019images d\u2019\u00E9cosyst\u00E8mes complexes, con\u00E7ues \u00E0 l\u2019instar de l\u0027\u00E9tymologie populaire, intuitives et bas\u00E9es sur des associations fortuites. Les sensations de mouvement, de fluidit\u00E9 et de douceur des couleurs pastel s\u2019entrem\u00EAlent avec l\u2019affrontement des \u00E9l\u00E9ments apport\u00E9s semblant lutter pour affirmer leur identit\u00E9 au sein de la composition d\u2019ensemble. Les gestes de ces op\u00E9rations (traces du pinceau, coulures, d\u00E9coupes) restent visibles, rendant sensible la dynamique propre de chaque collage.\u003Cbr\u003E\u003Cbr\u003EAnna Olszewska\u003C/p\u003E",
+            "title": "Dorota Buczkowska \u261E R\u00E9sidente 2024"
+          },
+          "fr": {
+            "locations": [],
+            "schemaId": "2bd4ee39-8e6e-4128-9f08-a049cce49f23",
+            "schemaName": "unit",
+            "short": "Caisse de Ward ",
+            "tags": [
+              "programmation"
+            ],
+            "temporal": [
+              {
+                "date": null,
+                "datetime": null,
+                "description": "2025"
+              }
+            ],
+            "text": "\u003Cp\u003E\u003Cem\u003E\u00AB\u0026nbsp;Aucune de ces fleurs, aucun de ces fruits ne lui \u00E9tait connu, chacun semblait n\u00E9 de l\u2019imagination d\u2019un peintre qui aurait voulu violer les lois de la nature pour inventer de convaincantes invraisemblances, des d\u00E9lices d\u00E9chiquet\u00E9es et de savoureux mensonges\u0026nbsp;: telle cette corolle couverte d\u2019un duvet blanch\u00E2tre qui s\u2019\u00E9panouissait en huppe de plumes violettes, ou bien non, une primev\u00E8re p\u00E2lie qui expulserait un appendice obsc\u00E8ne, ou un masque qui recouvrirait un visage blanc de barbes de ch\u00E8vre. Qui pouvait avoir con\u00E7u cet arbuste aux feuilles vert sombre d\u2019un c\u00F4t\u00E9 avec d\u00E9corations sauvages jaune rouge, et d\u2019autre flamboyantes, entour\u00E9es de feuilles d\u2019un plus tendre vert petit pois, d\u2019une substance charnue convolut\u00E9e en conque de mani\u00E8re \u00E0 contenir encore l\u2019eau de la derni\u00E8re pluie\u0026nbsp;?\u0026nbsp;\u00BB\u003C/em\u003E\u003C/p\u003E\u003Cp\u003EUmberto Eco, \u003Cem\u003EL\u2019\u00EEle du jour d\u2019avant\u003Cbr\u003E\u003Cbr\u003E\u003C/em\u003ELe projet de recherches de Dorota Buczkowska \u00E0 \u00C9chotone s\u2019est construit \u00E0 partir d\u0027\u00E9changes sur les d\u00E9placements de plantes et leurs adaptations dans de nouveaux \u00E9cosyst\u00E8mes, sur les strat\u00E9gies mises en place pour que la culture d\u0027esp\u00E8ces exog\u00E8nes r\u00E9ussisse et sur les propri\u00E9t\u00E9s qu\u0027elles d\u00E9veloppent dans leurs nouvelles conditions de vie. Tout comme les plantes exotiques qui inspirent l\u0027imaginaire de leur lieu d\u0027origine, l\u0027id\u00E9e de ce projet commence par une description.\u003C/p\u003E\u003Cp\u003ELes diff\u00E9rentes plantes introduites en Europe suite \u00E0 de nombreuses exp\u00E9ditions botaniques depuis la fin du XVIe si\u00E8cle ont fait \u00E9voluer l\u2019art du paysage que nous connaissons aujourd\u2019hui. Plusieurs sp\u00E9cimens de ces v\u00E9g\u00E9taux sont cultiv\u00E9s \u00E0 la P\u00E9pini\u00E8re Issa \u00E0 Valflaun\u00E8s dans l\u2019H\u00E9rault. S\u00E9lectionn\u00E9s par l\u2019\u00E9quipe d\u2019\u00C9chotone pour leurs propri\u00E9t\u00E9s tinctoriales et m\u00E9dicinales, leurs descriptions ont \u00E9t\u00E9 envoy\u00E9es r\u00E9guli\u00E8rement \u00E0 Dorota Buczkowska sans en mentionner les noms.\u003C/p\u003E\u003Cp\u003EC\u2019est ainsi qu\u2019a commenc\u00E9 le cycle de peintures-collages, intitul\u00E9 \u00AB\u0026nbsp;Caisse de Ward\u0026nbsp;\u00BB en r\u00E9f\u00E9rence au nom d\u2019un m\u00E9decin anglais passionn\u00E9 de botanique, inventeur d\u2019une serre portative permettant au XIXe si\u00E8cle le transport de plantes exotiques lors de longs voyages en bateau.\u003C/p\u003E\u003Cp\u003ELes \u0153uvres appartenant \u00E0 cette s\u00E9rie r\u00E9v\u00E8lent un \u00E9tonnant univers de couleurs et de formes dont une toile \u00AB\u0026nbsp;indexe\u0026nbsp;\u00BB t\u00E9moigne de la complexit\u00E9 des permutations d\u2019une quarantaine de collages peints. Au cours d\u2019une transition entre un texte et son interpr\u00E9tation en peinture, l\u0027id\u00E9e de la plante rejoint celle d\u2019un d\u00E9placement et d\u2019une adaptation \u00E0 un autre environnement, \u00E0 un autre support. D\u00E9coup\u00E9es et transf\u00E9r\u00E9es d\u2019une toile sur une autre, les formes cr\u00E9\u00E9es par l\u2019artiste s\u2019inscrivent dans des compositions syncr\u00E9tiques rappelant le folklore populaire des d\u00E9coupes de paysages fabuleux, quelques fois exub\u00E9rants et inattendus. Il s\u2019agit d\u2019images d\u2019\u00E9cosyst\u00E8mes complexes, con\u00E7ues \u00E0 l\u2019instar de l\u0027\u00E9tymologie populaire, intuitives et bas\u00E9es sur des associations fortuites. Les sensations de mouvement, de fluidit\u00E9 et de douceur des couleurs pastel s\u2019entrem\u00EAlent avec l\u2019affrontement des \u00E9l\u00E9ments apport\u00E9s semblant lutter pour affirmer leur identit\u00E9 au sein de la composition d\u2019ensemble. Les gestes de ces op\u00E9rations (traces du pinceau, coulures, d\u00E9coupes) restent visibles, rendant sensible la dynamique propre de chaque collage.\u003Cbr\u003E\u003Cbr\u003EAnna Olszewska\u003C/p\u003E",
+            "title": "Dorota Buczkowska \u261E R\u00E9sidente 2024"
+          }
+        }
+      },
+      "editToken": "eyJhIjoiZWNob3RvbmUiLCJzIjoicGFnZSIsImkiOiI2Y2JmMTM1Ni1mMTk2LTRlZGYtOWNlOS1hMWY5YjQzZDNmNjYiLCJ1IjoiaHR0cHM6Ly9sYWFiLmRkbnMubmV0OjM4MDgwLyJ9",
+      "id": "6cbf1356-f196-4edf-9ce9-a1f9b43d3f66",
+      "isDeleted": false,
+      "lastModified": "2025-04-23T22:33:03Z",
+      "lastModifiedBy": "subject:6798df7c5b784ee7b7cb52e1",
+      "schemaDisplayName": "Page",
+      "schemaId": "d0379b0e-294e-4df6-9b2b-257b807b1467",
+      "schemaName": "page",
+      "status": "Published",
+      "statusColor": "#4bb958",
+      "version": 9
+    },
+    {
+      "_links": {
+        "delete": {
           "href": "/api/content/echotone/page/08532822-f1e0-409d-bd92-c41f4d432734",
           "method": "DELETE"
         },
@@ -25,7 +340,7 @@
           "method": "POST"
         },
         "previous": {
-          "href": "/api/content/echotone/page/08532822-f1e0-409d-bd92-c41f4d432734/1",
+          "href": "/api/content/echotone/page/08532822-f1e0-409d-bd92-c41f4d432734/4",
           "method": "GET"
         },
         "self": {
@@ -80,7 +395,7 @@
                 "description": null
               }
             ],
-            "text": "\u003Cp\u003ES\u00E9jour \u003Ca target=\u0022_blank\u0022 href=\u0022//artist-run-spaces.org\u0022 rel=\u0022noopener noreferrer nofollow\u0022 data-link-auto=\u0022\u0022\u003Eartist-run-spaces.org\u003C/a\u003E du 4 au 6 f\u00E9vrier 2025. \u003Cbr\u003EDans la vis\u00E9e de la r\u00E9alisation d\u0027un d\u00E9pliant qui dessine la cartographie des \u003Cem\u003Eartist-run spaces\u003C/em\u003E en Occitanie, l\u2019\u00E9quipe de \u00C9CHOTONE avec \u003Ca target=\u0022_blank\u0022 href=\u0022https://www.instagram.com/sabrinaissa__/\u0022 rel=\u0022noopener noreferrer nofollow\u0022\u003E@sabrinaissa__\u003C/a\u003E et \u003Ca target=\u0022_blank\u0022 href=\u0022https://www.instagram.com/_kerekes/\u0022 rel=\u0022noopener noreferrer nofollow\u0022\u003E@_kerekes\u003C/a\u003E se rend \u00E0 Toulouse. Premi\u00E8res prises de contacts avec les artistes et collectifs du grand ouest ;)\u003Cbr\u003ELe document imprim\u00E9 et librement t\u00E9l\u00E9chargeable, sera r\u00E9alis\u00E9 par \u003Ca target=\u0022_blank\u0022 href=\u0022https://www.antoinelefebvre.net/\u0022 rel=\u0022noopener noreferrer nofollow\u0022\u003Eantoine Lefebvre edition\u003C/a\u003E.\u0026nbsp;\u003Cbr\u003E\u003Cbr\u003E1. \u003Ca target=\u0022_blank\u0022 href=\u0022https://www.instagram.com/dda_occitanie_emergence/\u0022 rel=\u0022noopener noreferrer nofollow\u0022\u003E@dda_occitanie_emergence\u003C/a\u003E, La Bouillonnante\u003Cbr\u003E2. \u003Ca target=\u0022_blank\u0022 href=\u0022https://www.instagram.com/garrage.souplex/\u0022 rel=\u0022noopener noreferrer nofollow\u0022\u003E@garrage.souplex\u003C/a\u003E, La Bouillonnante\u003Cbr\u003E3. Marianne Plo, La chimie de la vision, co-\u00E9ditions \u003Ca target=\u0022_blank\u0022 href=\u0022https://www.instagram.com/lieu_commun/\u0022 rel=\u0022noopener noreferrer nofollow\u0022\u003E@lieu_commun\u003C/a\u003E et Ed Spector\u003Cbr\u003E4. Visite d\u2019atelier \u003Ca target=\u0022_blank\u0022 href=\u0022https://www.instagram.com/yvonnecalsou/\u0022 rel=\u0022noopener noreferrer nofollow\u0022\u003E@yvonnecalsou\u003C/a\u003E \u003Ca target=\u0022_blank\u0022 href=\u0022https://www.instagram.com/lieu_commun/\u0022 rel=\u0022noopener noreferrer nofollow\u0022\u003E@lieu_commun\u003C/a\u003E\u003Cbr\u003E5. Yvonne Calsou \u0026amp; Altair Roelants, Dans les replis des paysages, \u00E9ditions \u003Ca target=\u0022_blank\u0022 href=\u0022https://www.instagram.com/lieu_commun/\u0022 rel=\u0022noopener noreferrer nofollow\u0022\u003E@lieu_commun\u003C/a\u003E suite \u00E0 sa r\u00E9sidence \u00E0 la \u003Ca target=\u0022_blank\u0022 href=\u0022https://www.instagram.com/caza.doro/\u0022 rel=\u0022noopener noreferrer nofollow\u0022\u003E@caza.doro\u003C/a\u003E\u003Cbr\u003E6. Vernissage \u003Ca target=\u0022_blank\u0022 href=\u0022https://www.instagram.com/isdat_fr/\u0022 rel=\u0022noopener noreferrer nofollow\u0022\u003E@isdat_fr\u003C/a\u003E\u003Cbr\u003E7. Visite d\u2019atelier \u003Ca target=\u0022_blank\u0022 href=\u0022https://www.instagram.com/isdat_fr/\u0022 rel=\u0022noopener noreferrer nofollow\u0022\u003E@isdat_fr\u003C/a\u003E avec \u003Ca target=\u0022_blank\u0022 href=\u0022https://www.instagram.com/apascalbonhoure/\u0022 rel=\u0022noopener noreferrer nofollow\u0022\u003E@apascalbonhoure\u003C/a\u003E\u003Cbr\u003E8. Editions \u003Ca target=\u0022_blank\u0022 href=\u0022https://www.instagram.com/editionsbgb/\u0022 rel=\u0022noopener noreferrer nofollow\u0022\u003E@editionsbgb\u003C/a\u003E\u003Cbr\u003E9. Rencontre et discussion autour des travaux en cours, Flan commun au \u003Ca target=\u0022_blank\u0022 href=\u0022https://www.instagram.com/lieu_commun/\u0022 rel=\u0022noopener noreferrer nofollow\u0022\u003E@lieu_commun\u003C/a\u003E avec \u003Ca target=\u0022_blank\u0022 href=\u0022https://www.instagram.com/collectif.ipn/\u0022 rel=\u0022noopener noreferrer nofollow\u0022\u003E@collectif.ipn\u003C/a\u003E \u003Ca target=\u0022_blank\u0022 href=\u0022https://www.instagram.com/atelierborderouge/\u0022 rel=\u0022noopener noreferrer nofollow\u0022\u003E@atelierborderouge\u003C/a\u003E \u003Ca target=\u0022_blank\u0022 href=\u0022https://www.instagram.com/atelier_graviere/\u0022 rel=\u0022noopener noreferrer nofollow\u0022\u003E@atelier_graviere\u003C/a\u003E \u003Ca target=\u0022_blank\u0022 href=\u0022https://www.instagram.com/garrage.souplex/\u0022 rel=\u0022noopener noreferrer nofollow\u0022\u003E@garrage.souplex\u003C/a\u003E\u003Cbr\u003E10. Cartographie des artist-run spaces en Occitanie\u003Cbr\u003E11. Flan commun \u003Ca target=\u0022_blank\u0022 href=\u0022https://www.instagram.com/lieu_commun/\u0022 rel=\u0022noopener noreferrer nofollow\u0022\u003E@lieu_commun\u003C/a\u003E\u003Cbr\u003E12. M\u00E9lodie Bajo \u003Ca target=\u0022_blank\u0022 href=\u0022https://www.instagram.com/bbbcentredart/\u0022 rel=\u0022noopener noreferrer nofollow\u0022\u003E@bbbcentredart\u003C/a\u003E\u003C/p\u003E",
+            "text": "\u003Cp\u003ES\u00E9jour \u003Ca target=\u0022_blank\u0022 href=\u0022//artist-run-spaces.org\u0022 rel=\u0022noopener noreferrer nofollow\u0022 data-link-auto=\u0022\u0022\u003Eartist-run-spaces.org\u003C/a\u003E du 4 au 6 f\u00E9vrier 2025. \u003Cbr\u003EDans la vis\u00E9e de la r\u00E9alisation d\u0027un d\u00E9pliant qui dessine la cartographie des \u003Cem\u003Eartist-run spaces\u003C/em\u003E en Occitanie, l\u2019\u00E9quipe de \u00C9CHOTONE avec \u003Ca target=\u0022_blank\u0022 href=\u0022https://www.instagram.com/sabrinaissa__/\u0022 rel=\u0022noopener noreferrer nofollow\u0022\u003E@sabrinaissa__\u003C/a\u003E et \u003Ca target=\u0022_blank\u0022 href=\u0022https://www.instagram.com/_kerekes/\u0022 rel=\u0022noopener noreferrer nofollow\u0022\u003E@_kerekes\u003C/a\u003E se rend \u00E0 Toulouse. Premi\u00E8res prises de contacts avec les artistes et collectifs du grand ouest ;)\u003Cbr\u003ELe document imprim\u00E9 et librement t\u00E9l\u00E9chargeable, sera r\u00E9alis\u00E9 par\u003Cbr\u003E\u003Ca target=\u0022_blank\u0022 href=\u0022https://www.antoinelefebvre.net/\u0022 rel=\u0022noopener noreferrer nofollow\u0022\u003Eantoine Lefebvre edition\u003C/a\u003E.\u0026nbsp;\u003Cbr\u003E\u003Cbr\u003E1. \u003Ca target=\u0022_blank\u0022 href=\u0022https://www.instagram.com/dda_occitanie_emergence/\u0022 rel=\u0022noopener noreferrer nofollow\u0022\u003E@dda_occitanie_emergence\u003C/a\u003E, La Bouillonnante\u003Cbr\u003E2. \u003Ca target=\u0022_blank\u0022 href=\u0022https://www.instagram.com/garrage.souplex/\u0022 rel=\u0022noopener noreferrer nofollow\u0022\u003E@garrage.souplex\u003C/a\u003E, La Bouillonnante\u003Cbr\u003E3. Marianne Plo, La chimie de la vision, co-\u00E9ditions \u003Ca target=\u0022_blank\u0022 href=\u0022https://www.instagram.com/lieu_commun/\u0022 rel=\u0022noopener noreferrer nofollow\u0022\u003E@lieu_commun\u003C/a\u003E et Ed Spector\u003Cbr\u003E4. Visite d\u2019atelier \u003Ca target=\u0022_blank\u0022 href=\u0022https://www.instagram.com/yvonnecalsou/\u0022 rel=\u0022noopener noreferrer nofollow\u0022\u003E@yvonnecalsou\u003C/a\u003E \u003Ca target=\u0022_blank\u0022 href=\u0022https://www.instagram.com/lieu_commun/\u0022 rel=\u0022noopener noreferrer nofollow\u0022\u003E@lieu_commun\u003C/a\u003E\u003Cbr\u003E5. Yvonne Calsou \u0026amp; Altair Roelants, Dans les replis des paysages, \u00E9ditions \u003Ca target=\u0022_blank\u0022 href=\u0022https://www.instagram.com/lieu_commun/\u0022 rel=\u0022noopener noreferrer nofollow\u0022\u003E@lieu_commun\u003C/a\u003E suite \u00E0 sa r\u00E9sidence \u00E0 la \u003Ca target=\u0022_blank\u0022 href=\u0022https://www.instagram.com/caza.doro/\u0022 rel=\u0022noopener noreferrer nofollow\u0022\u003E@caza.doro\u003C/a\u003E\u003Cbr\u003E6. Vernissage \u003Ca target=\u0022_blank\u0022 href=\u0022https://www.instagram.com/isdat_fr/\u0022 rel=\u0022noopener noreferrer nofollow\u0022\u003E@isdat_fr\u003C/a\u003E\u003Cbr\u003E7. Visite d\u2019atelier \u003Ca target=\u0022_blank\u0022 href=\u0022https://www.instagram.com/isdat_fr/\u0022 rel=\u0022noopener noreferrer nofollow\u0022\u003E@isdat_fr\u003C/a\u003E avec \u003Ca target=\u0022_blank\u0022 href=\u0022https://www.instagram.com/apascalbonhoure/\u0022 rel=\u0022noopener noreferrer nofollow\u0022\u003E@apascalbonhoure\u003C/a\u003E\u003Cbr\u003E8. Editions \u003Ca target=\u0022_blank\u0022 href=\u0022https://www.instagram.com/editionsbgb/\u0022 rel=\u0022noopener noreferrer nofollow\u0022\u003E@editionsbgb\u003C/a\u003E\u003Cbr\u003E9. Rencontre et discussion autour des travaux en cours, Flan commun au \u003Ca target=\u0022_blank\u0022 href=\u0022https://www.instagram.com/lieu_commun/\u0022 rel=\u0022noopener noreferrer nofollow\u0022\u003E@lieu_commun\u003C/a\u003E avec \u003Ca target=\u0022_blank\u0022 href=\u0022https://www.instagram.com/collectif.ipn/\u0022 rel=\u0022noopener noreferrer nofollow\u0022\u003E@collectif.ipn\u003C/a\u003E \u003Ca target=\u0022_blank\u0022 href=\u0022https://www.instagram.com/atelierborderouge/\u0022 rel=\u0022noopener noreferrer nofollow\u0022\u003E@atelierborderouge\u003C/a\u003E \u003Ca target=\u0022_blank\u0022 href=\u0022https://www.instagram.com/atelier_graviere/\u0022 rel=\u0022noopener noreferrer nofollow\u0022\u003E@atelier_graviere\u003C/a\u003E \u003Ca target=\u0022_blank\u0022 href=\u0022https://www.instagram.com/garrage.souplex/\u0022 rel=\u0022noopener noreferrer nofollow\u0022\u003E@garrage.souplex\u003C/a\u003E\u003Cbr\u003E10. Cartographie des artist-run spaces en Occitanie\u003Cbr\u003E11. Flan commun \u003Ca target=\u0022_blank\u0022 href=\u0022https://www.instagram.com/lieu_commun/\u0022 rel=\u0022noopener noreferrer nofollow\u0022\u003E@lieu_commun\u003C/a\u003E\u003Cbr\u003E12. M\u00E9lodie Bajo \u003Ca target=\u0022_blank\u0022 href=\u0022https://www.instagram.com/bbbcentredart/\u0022 rel=\u0022noopener noreferrer nofollow\u0022\u003E@bbbcentredart\u003C/a\u003E\u003C/p\u003E",
             "title": "artist-run-spaces.org"
           },
           "fr": {
@@ -99,7 +414,7 @@
                 "description": null
               }
             ],
-            "text": "\u003Cp\u003ES\u00E9jour \u003Ca target=\u0022_blank\u0022 href=\u0022//artist-run-spaces.org\u0022 rel=\u0022noopener noreferrer nofollow\u0022 data-link-auto=\u0022\u0022\u003Eartist-run-spaces.org\u003C/a\u003E du 4 au 6 f\u00E9vrier 2025. \u003Cbr\u003EDans la vis\u00E9e de la r\u00E9alisation d\u0027un d\u00E9pliant qui dessine la cartographie des \u003Cem\u003Eartist-run spaces\u003C/em\u003E en Occitanie, l\u2019\u00E9quipe de \u00C9CHOTONE avec \u003Ca target=\u0022_blank\u0022 href=\u0022https://www.instagram.com/sabrinaissa__/\u0022 rel=\u0022noopener noreferrer nofollow\u0022\u003E@sabrinaissa__\u003C/a\u003E et \u003Ca target=\u0022_blank\u0022 href=\u0022https://www.instagram.com/_kerekes/\u0022 rel=\u0022noopener noreferrer nofollow\u0022\u003E@_kerekes\u003C/a\u003E se rend \u00E0 Toulouse. Premi\u00E8res prises de contacts avec les artistes et collectifs du grand ouest ;)\u003Cbr\u003ELe document imprim\u00E9 et librement t\u00E9l\u00E9chargeable, sera r\u00E9alis\u00E9 par \u003Ca target=\u0022_blank\u0022 href=\u0022https://www.antoinelefebvre.net/\u0022 rel=\u0022noopener noreferrer nofollow\u0022\u003Eantoine Lefebvre edition\u003C/a\u003E.\u0026nbsp;\u003Cbr\u003E\u003Cbr\u003E1. \u003Ca target=\u0022_blank\u0022 href=\u0022https://www.instagram.com/dda_occitanie_emergence/\u0022 rel=\u0022noopener noreferrer nofollow\u0022\u003E@dda_occitanie_emergence\u003C/a\u003E, La Bouillonnante\u003Cbr\u003E2. \u003Ca target=\u0022_blank\u0022 href=\u0022https://www.instagram.com/garrage.souplex/\u0022 rel=\u0022noopener noreferrer nofollow\u0022\u003E@garrage.souplex\u003C/a\u003E, La Bouillonnante\u003Cbr\u003E3. Marianne Plo, La chimie de la vision, co-\u00E9ditions \u003Ca target=\u0022_blank\u0022 href=\u0022https://www.instagram.com/lieu_commun/\u0022 rel=\u0022noopener noreferrer nofollow\u0022\u003E@lieu_commun\u003C/a\u003E et Ed Spector\u003Cbr\u003E4. Visite d\u2019atelier \u003Ca target=\u0022_blank\u0022 href=\u0022https://www.instagram.com/yvonnecalsou/\u0022 rel=\u0022noopener noreferrer nofollow\u0022\u003E@yvonnecalsou\u003C/a\u003E \u003Ca target=\u0022_blank\u0022 href=\u0022https://www.instagram.com/lieu_commun/\u0022 rel=\u0022noopener noreferrer nofollow\u0022\u003E@lieu_commun\u003C/a\u003E\u003Cbr\u003E5. Yvonne Calsou \u0026amp; Altair Roelants, Dans les replis des paysages, \u00E9ditions \u003Ca target=\u0022_blank\u0022 href=\u0022https://www.instagram.com/lieu_commun/\u0022 rel=\u0022noopener noreferrer nofollow\u0022\u003E@lieu_commun\u003C/a\u003E suite \u00E0 sa r\u00E9sidence \u00E0 la \u003Ca target=\u0022_blank\u0022 href=\u0022https://www.instagram.com/caza.doro/\u0022 rel=\u0022noopener noreferrer nofollow\u0022\u003E@caza.doro\u003C/a\u003E\u003Cbr\u003E6. Vernissage \u003Ca target=\u0022_blank\u0022 href=\u0022https://www.instagram.com/isdat_fr/\u0022 rel=\u0022noopener noreferrer nofollow\u0022\u003E@isdat_fr\u003C/a\u003E\u003Cbr\u003E7. Visite d\u2019atelier \u003Ca target=\u0022_blank\u0022 href=\u0022https://www.instagram.com/isdat_fr/\u0022 rel=\u0022noopener noreferrer nofollow\u0022\u003E@isdat_fr\u003C/a\u003E avec \u003Ca target=\u0022_blank\u0022 href=\u0022https://www.instagram.com/apascalbonhoure/\u0022 rel=\u0022noopener noreferrer nofollow\u0022\u003E@apascalbonhoure\u003C/a\u003E\u003Cbr\u003E8. Editions \u003Ca target=\u0022_blank\u0022 href=\u0022https://www.instagram.com/editionsbgb/\u0022 rel=\u0022noopener noreferrer nofollow\u0022\u003E@editionsbgb\u003C/a\u003E\u003Cbr\u003E9. Rencontre et discussion autour des travaux en cours, Flan commun au \u003Ca target=\u0022_blank\u0022 href=\u0022https://www.instagram.com/lieu_commun/\u0022 rel=\u0022noopener noreferrer nofollow\u0022\u003E@lieu_commun\u003C/a\u003E avec \u003Ca target=\u0022_blank\u0022 href=\u0022https://www.instagram.com/collectif.ipn/\u0022 rel=\u0022noopener noreferrer nofollow\u0022\u003E@collectif.ipn\u003C/a\u003E \u003Ca target=\u0022_blank\u0022 href=\u0022https://www.instagram.com/atelierborderouge/\u0022 rel=\u0022noopener noreferrer nofollow\u0022\u003E@atelierborderouge\u003C/a\u003E \u003Ca target=\u0022_blank\u0022 href=\u0022https://www.instagram.com/atelier_graviere/\u0022 rel=\u0022noopener noreferrer nofollow\u0022\u003E@atelier_graviere\u003C/a\u003E \u003Ca target=\u0022_blank\u0022 href=\u0022https://www.instagram.com/garrage.souplex/\u0022 rel=\u0022noopener noreferrer nofollow\u0022\u003E@garrage.souplex\u003C/a\u003E\u003Cbr\u003E10. Cartographie des artist-run spaces en Occitanie\u003Cbr\u003E11. Flan commun \u003Ca target=\u0022_blank\u0022 href=\u0022https://www.instagram.com/lieu_commun/\u0022 rel=\u0022noopener noreferrer nofollow\u0022\u003E@lieu_commun\u003C/a\u003E\u003Cbr\u003E12. M\u00E9lodie Bajo \u003Ca target=\u0022_blank\u0022 href=\u0022https://www.instagram.com/bbbcentredart/\u0022 rel=\u0022noopener noreferrer nofollow\u0022\u003E@bbbcentredart\u003C/a\u003E\u003C/p\u003E",
+            "text": "\u003Cp\u003ES\u00E9jour \u003Ca target=\u0022_blank\u0022 href=\u0022//artist-run-spaces.org\u0022 rel=\u0022noopener noreferrer nofollow\u0022 data-link-auto=\u0022\u0022\u003Eartist-run-spaces.org\u003C/a\u003E du 4 au 6 f\u00E9vrier 2025. \u003Cbr\u003EDans la vis\u00E9e de la r\u00E9alisation d\u0027un d\u00E9pliant qui dessine la cartographie des \u003Cem\u003Eartist-run spaces\u003C/em\u003E en Occitanie, l\u2019\u00E9quipe de \u00C9CHOTONE avec \u003Ca target=\u0022_blank\u0022 href=\u0022https://www.instagram.com/sabrinaissa__/\u0022 rel=\u0022noopener noreferrer nofollow\u0022\u003E@sabrinaissa__\u003C/a\u003E et \u003Ca target=\u0022_blank\u0022 href=\u0022https://www.instagram.com/_kerekes/\u0022 rel=\u0022noopener noreferrer nofollow\u0022\u003E@_kerekes\u003C/a\u003E se rend \u00E0 Toulouse. Premi\u00E8res prises de contacts avec les artistes et collectifs du grand ouest ;)\u003Cbr\u003ELe document imprim\u00E9 et librement t\u00E9l\u00E9chargeable, sera r\u00E9alis\u00E9 par\u003Cbr\u003E\u003Ca target=\u0022_blank\u0022 href=\u0022https://www.antoinelefebvre.net/\u0022 rel=\u0022noopener noreferrer nofollow\u0022\u003Eantoine Lefebvre edition\u003C/a\u003E.\u0026nbsp;\u003Cbr\u003E\u003Cbr\u003E1. \u003Ca target=\u0022_blank\u0022 href=\u0022https://www.instagram.com/dda_occitanie_emergence/\u0022 rel=\u0022noopener noreferrer nofollow\u0022\u003E@dda_occitanie_emergence\u003C/a\u003E, La Bouillonnante\u003Cbr\u003E2. \u003Ca target=\u0022_blank\u0022 href=\u0022https://www.instagram.com/garrage.souplex/\u0022 rel=\u0022noopener noreferrer nofollow\u0022\u003E@garrage.souplex\u003C/a\u003E, La Bouillonnante\u003Cbr\u003E3. Marianne Plo, La chimie de la vision, co-\u00E9ditions \u003Ca target=\u0022_blank\u0022 href=\u0022https://www.instagram.com/lieu_commun/\u0022 rel=\u0022noopener noreferrer nofollow\u0022\u003E@lieu_commun\u003C/a\u003E et Ed Spector\u003Cbr\u003E4. Visite d\u2019atelier \u003Ca target=\u0022_blank\u0022 href=\u0022https://www.instagram.com/yvonnecalsou/\u0022 rel=\u0022noopener noreferrer nofollow\u0022\u003E@yvonnecalsou\u003C/a\u003E \u003Ca target=\u0022_blank\u0022 href=\u0022https://www.instagram.com/lieu_commun/\u0022 rel=\u0022noopener noreferrer nofollow\u0022\u003E@lieu_commun\u003C/a\u003E\u003Cbr\u003E5. Yvonne Calsou \u0026amp; Altair Roelants, Dans les replis des paysages, \u00E9ditions \u003Ca target=\u0022_blank\u0022 href=\u0022https://www.instagram.com/lieu_commun/\u0022 rel=\u0022noopener noreferrer nofollow\u0022\u003E@lieu_commun\u003C/a\u003E suite \u00E0 sa r\u00E9sidence \u00E0 la \u003Ca target=\u0022_blank\u0022 href=\u0022https://www.instagram.com/caza.doro/\u0022 rel=\u0022noopener noreferrer nofollow\u0022\u003E@caza.doro\u003C/a\u003E\u003Cbr\u003E6. Vernissage \u003Ca target=\u0022_blank\u0022 href=\u0022https://www.instagram.com/isdat_fr/\u0022 rel=\u0022noopener noreferrer nofollow\u0022\u003E@isdat_fr\u003C/a\u003E\u003Cbr\u003E7. Visite d\u2019atelier \u003Ca target=\u0022_blank\u0022 href=\u0022https://www.instagram.com/isdat_fr/\u0022 rel=\u0022noopener noreferrer nofollow\u0022\u003E@isdat_fr\u003C/a\u003E avec \u003Ca target=\u0022_blank\u0022 href=\u0022https://www.instagram.com/apascalbonhoure/\u0022 rel=\u0022noopener noreferrer nofollow\u0022\u003E@apascalbonhoure\u003C/a\u003E\u003Cbr\u003E8. Editions \u003Ca target=\u0022_blank\u0022 href=\u0022https://www.instagram.com/editionsbgb/\u0022 rel=\u0022noopener noreferrer nofollow\u0022\u003E@editionsbgb\u003C/a\u003E\u003Cbr\u003E9. Rencontre et discussion autour des travaux en cours, Flan commun au \u003Ca target=\u0022_blank\u0022 href=\u0022https://www.instagram.com/lieu_commun/\u0022 rel=\u0022noopener noreferrer nofollow\u0022\u003E@lieu_commun\u003C/a\u003E avec \u003Ca target=\u0022_blank\u0022 href=\u0022https://www.instagram.com/collectif.ipn/\u0022 rel=\u0022noopener noreferrer nofollow\u0022\u003E@collectif.ipn\u003C/a\u003E \u003Ca target=\u0022_blank\u0022 href=\u0022https://www.instagram.com/atelierborderouge/\u0022 rel=\u0022noopener noreferrer nofollow\u0022\u003E@atelierborderouge\u003C/a\u003E \u003Ca target=\u0022_blank\u0022 href=\u0022https://www.instagram.com/atelier_graviere/\u0022 rel=\u0022noopener noreferrer nofollow\u0022\u003E@atelier_graviere\u003C/a\u003E \u003Ca target=\u0022_blank\u0022 href=\u0022https://www.instagram.com/garrage.souplex/\u0022 rel=\u0022noopener noreferrer nofollow\u0022\u003E@garrage.souplex\u003C/a\u003E\u003Cbr\u003E10. Cartographie des artist-run spaces en Occitanie\u003Cbr\u003E11. Flan commun \u003Ca target=\u0022_blank\u0022 href=\u0022https://www.instagram.com/lieu_commun/\u0022 rel=\u0022noopener noreferrer nofollow\u0022\u003E@lieu_commun\u003C/a\u003E\u003Cbr\u003E12. M\u00E9lodie Bajo \u003Ca target=\u0022_blank\u0022 href=\u0022https://www.instagram.com/bbbcentredart/\u0022 rel=\u0022noopener noreferrer nofollow\u0022\u003E@bbbcentredart\u003C/a\u003E\u003C/p\u003E",
             "title": "artist-run-spaces.org"
           }
         }
@@ -107,14 +422,114 @@
       "editToken": "eyJhIjoiZWNob3RvbmUiLCJzIjoicGFnZSIsImkiOiIwODUzMjgyMi1mMWUwLTQwOWQtYmQ5Mi1jNDFmNGQ0MzI3MzQiLCJ1IjoiaHR0cHM6Ly9sYWFiLmRkbnMubmV0OjM4MDgwLyJ9",
       "id": "08532822-f1e0-409d-bd92-c41f4d432734",
       "isDeleted": false,
-      "lastModified": "2025-04-07T13:02:03Z",
+      "lastModified": "2025-04-21T21:21:55Z",
       "lastModifiedBy": "subject:6798dad0167d31fb8ec7cc74",
       "schemaDisplayName": "Page",
       "schemaId": "d0379b0e-294e-4df6-9b2b-257b807b1467",
       "schemaName": "page",
       "status": "Published",
       "statusColor": "#4bb958",
-      "version": 2
+      "version": 5
+    },
+    {
+      "_links": {
+        "delete": {
+          "href": "/api/content/echotone/page/dd3c3fe6-0103-4fea-b5e8-1ea714f36308",
+          "method": "DELETE"
+        },
+        "draft/create": {
+          "href": "/api/content/echotone/page/dd3c3fe6-0103-4fea-b5e8-1ea714f36308/draft",
+          "method": "POST"
+        },
+        "previous": {
+          "href": "/api/content/echotone/page/dd3c3fe6-0103-4fea-b5e8-1ea714f36308/16",
+          "method": "GET"
+        },
+        "self": {
+          "href": "/api/content/echotone/page/dd3c3fe6-0103-4fea-b5e8-1ea714f36308",
+          "method": "GET"
+        }
+      },
+      "created": "2025-03-03T18:44:15Z",
+      "createdBy": "subject:6798df7c5b784ee7b7cb52e1",
+      "data": {
+        "id": {
+          "iv": "n-u-collectif-resident-2025"
+        },
+        "medias": {
+          "iv": [
+            {
+              "caption": null,
+              "in": true,
+              "medias": [
+                "0f4cebd8-4ac8-4981-9191-606f15c0c071",
+                "886d5858-de03-4c6e-98da-af702becb52f",
+                "06e2409b-c114-4c21-a62c-0d54883a1f36",
+                "39259620-aceb-4686-860e-0012c6c224a8",
+                "46663c11-bb31-4898-bc75-14691d775370",
+                "ec577ccc-88ff-4922-a1b0-d438b6c7f380",
+                "a42e073b-789c-420d-932f-d3beee9b24c0",
+                "dbb60eaf-fcb9-4e60-a45a-195209811695",
+                "6bc195a2-26f0-4e18-bfcf-39c18db9775e",
+                "4cb0e23e-4cdd-42c9-8b4f-cccaaa01f7c5"
+              ],
+              "schemaId": "1f4e3697-52bc-45d9-a7a8-65862c13ce4b",
+              "schemaName": "carousel"
+            }
+          ]
+        },
+        "unit": {
+          "en": {
+            "locations": [],
+            "schemaId": "2bd4ee39-8e6e-4128-9f08-a049cce49f23",
+            "schemaName": "unit",
+            "short": "La R\u00E9publique des Autres",
+            "tags": [
+              "accueil",
+              "programmation"
+            ],
+            "temporal": [
+              {
+                "date": null,
+                "datetime": "2025-05-21T17:30:00Z",
+                "description": "Performance participative"
+              }
+            ],
+            "text": "\u003Cp\u003ENouvelle cr\u00E9ation participative, \u003Cstrong\u003E\u0022La r\u00E9publique des autres\u0022\u003C/strong\u003E\u0026nbsp;a d\u00E9but\u00E9 sa phase de recherche et d\u2019exp\u00E9rimentation \u00E0 \u00C9CHOTONE, de la mi-f\u00E9vrier \u00E0 fin mai.\u003Cbr\u003E\u003Ca target=\u0022_blank\u0022 href=\u0022https://www.nucollectif.com/\u0022 rel=\u0022noopener noreferrer nofollow\u0022\u003E\u003Cstrong\u003EN.U Collectif\u003C/strong\u003E\u003C/a\u003E exp\u00E9rimente de nouveaux langages sonores et immersifs, une exp\u00E9rience hybride o\u00F9 se croisent \u003Cstrong\u003Epo\u00E9sie sonore, musique improvis\u00E9e, performance et th\u00E9\u00E2tre instrumental\u003C/strong\u003E. Cette exploration interroge les impulsions cr\u00E9atives qui pr\u00E9c\u00E8dent le langage et donne naissance \u00E0 un lexique sensible des \u00E9motions.\u003Cbr\u003EEn r\u00E9unissant des adultes porteur\u00B7euse\u00B7s de troubles du spectre autistique, des personnes en situation de vuln\u00E9rabilit\u00E9, leurs proches, des soignant\u00B7e\u00B7s et des habitant\u00B7e\u00B7s, elle fa\u00E7onne une micro-soci\u00E9t\u00E9 artistique et sociale en perp\u00E9tuel mouvement.\u003C/p\u003E\u003Cp\u003E\u003Cbr\u003E\u003Cstrong\u003ERETROUVEZ-LES \u00C0 \u00C9CHOTONE !\u003C/strong\u003E\u003C/p\u003E\u003Cul\u003E\u003Cli\u003E\u003Cp\u003E\u003Cstrong\u003EMercredi 21 mai \u00E0 19h30\u003C/strong\u003E - performance participative\u003C/p\u003E\u003Cp\u003E\u003C/p\u003E\u003C/li\u003E\u003C/ul\u003E\u003Cp\u003EN.U Collectif est accompagn\u00E9\u0026nbsp;par\u0026nbsp;\u003Ca target=\u0022_blank\u0022 href=\u0022https://d7c35.r.a.d.sendibm1.com/mk/cl/f/sh/6rqJfgq8dIPRPzfvqZ3pJWLrtYt/_Ig7eNWm4LxL\u0022 rel=\u0022noopener noreferrer nofollow\u0022\u003E\u003Cstrong\u003E\u003Cu\u003EAnna Kerekes\u003C/u\u003E\u003C/strong\u003E\u003C/a\u003E\u003Cstrong\u003E,\u003C/strong\u003E\u0026nbsp;critique d\u2019art et commissaire d\u2019exposition, enseignante \u00E0 l\u2019\u00C9cole Sup\u00E9rieure des Beaux-Arts de N\u00EEmes ; et poursuit\u0026nbsp;ses collaborations avec Le\u0026nbsp;\u003Cstrong\u003ELieu de Vie Tentative\u003C/strong\u003E\u0026nbsp;\u00E0 Saint-Hippolyte-du-Fort,\u003Cstrong\u003E\u0026nbsp;\u003C/strong\u003E\u003Ca target=\u0022_blank\u0022 href=\u0022https://d7c35.r.a.d.sendibm1.com/mk/cl/f/sh/6rqJfgq8dIR6SRy5KsTNF7TnWrv/KNj4QYHMQ1mu\u0022 rel=\u0022noopener noreferrer nofollow\u0022\u003E\u003Cstrong\u003E\u003Cu\u003ELa Bulle Bleue\u003C/u\u003E\u003C/strong\u003E\u003C/a\u003E, E.S.A.T Artistique et\u0026nbsp;\u003Ca target=\u0022_blank\u0022 href=\u0022https://d7c35.r.a.d.sendibm1.com/mk/cl/f/sh/6rqJfgq8dISlUuGEpBsvAibjAAx/Pnn7g6wz7Jwf\u0022 rel=\u0022noopener noreferrer nofollow\u0022\u003E\u003Cstrong\u003E\u003Cu\u003ELes Ateliers Kennedy\u003C/u\u003E\u003C/strong\u003E\u003C/a\u003E\u0026nbsp;E.S.A.T \u00E0 Montpellier et\u0026nbsp;Pep34.\u003Cbr\u003E\u003Cbr\u003EAvec pour le\u0026nbsp;\u003Cstrong\u003ENU Collectif\u003C/strong\u003E\u0026nbsp;,\u0026nbsp;\u003Cstrong\u003EM\u00C9LAINE BLOT\u003C/strong\u003E\u0026nbsp;, Com\u00E9dien - ESAT La Bulle Bleue,\u0026nbsp;\u003Cstrong\u003EANTHONY GROS-AUDIBERT\u003C/strong\u003E\u0026nbsp;, Performeur - ESAT Ateliers Kennedy,\u0026nbsp;\u003Cstrong\u003EAUR\u00C9LIE PIAU\u003C/strong\u003E\u0026nbsp;, Plasticienne,\u0026nbsp;\u003Cstrong\u003EBERTRAND WOLFF\u003C/strong\u003E\u0026nbsp;, Compositeur et musicien,\u0026nbsp;\u003Cstrong\u003EBOLOLIPSUM\u003C/strong\u003E\u0026nbsp;, Musicien et beatmaker,\u0026nbsp;\u003Cstrong\u003EJEAN CAGNARD,\u003C/strong\u003E\u0026nbsp;\u003Cstrong\u003EGABRIELE PAUPINI\u003C/strong\u003E\u0026nbsp;, Auteurs\u0026nbsp;,\u0026nbsp;\u003Cstrong\u003EAXELLE CARRUZZO\u003C/strong\u003E\u0026nbsp;, Metteur en sc\u00E8ne et performeuse,\u0026nbsp;\u003Cstrong\u003EMATHIAS BEYLER\u003C/strong\u003E\u0026nbsp;, Metteur en sc\u00E8ne et constructeur sonore.\u003C/p\u003E",
+            "title": "N.U Collectif \u261E R\u00E9sident 2025"
+          },
+          "fr": {
+            "locations": [],
+            "schemaId": "2bd4ee39-8e6e-4128-9f08-a049cce49f23",
+            "schemaName": "unit",
+            "short": "La R\u00E9publique des Autres",
+            "tags": [
+              "accueil",
+              "programmation"
+            ],
+            "temporal": [
+              {
+                "date": null,
+                "datetime": "2025-05-21T17:30:00Z",
+                "description": "Performance participative"
+              }
+            ],
+            "text": "\u003Cp\u003ENouvelle cr\u00E9ation participative, \u003Cstrong\u003E\u0022La r\u00E9publique des autres\u0022\u003C/strong\u003E\u0026nbsp;a d\u00E9but\u00E9 sa phase de recherche et d\u2019exp\u00E9rimentation \u00E0 \u00C9CHOTONE, de la mi-f\u00E9vrier \u00E0 fin mai.\u003Cbr\u003E\u003Ca target=\u0022_blank\u0022 href=\u0022https://www.nucollectif.com/\u0022 rel=\u0022noopener noreferrer nofollow\u0022\u003E\u003Cstrong\u003EN.U Collectif\u003C/strong\u003E\u003C/a\u003E exp\u00E9rimente de nouveaux langages sonores et immersifs, une exp\u00E9rience hybride o\u00F9 se croisent \u003Cstrong\u003Epo\u00E9sie sonore, musique improvis\u00E9e, performance et th\u00E9\u00E2tre instrumental\u003C/strong\u003E. Cette exploration interroge les impulsions cr\u00E9atives qui pr\u00E9c\u00E8dent le langage et donne naissance \u00E0 un lexique sensible des \u00E9motions.\u003Cbr\u003EEn r\u00E9unissant des adultes porteur\u00B7euse\u00B7s de troubles du spectre autistique, des personnes en situation de vuln\u00E9rabilit\u00E9, leurs proches, des soignant\u00B7e\u00B7s et des habitant\u00B7e\u00B7s, elle fa\u00E7onne une micro-soci\u00E9t\u00E9 artistique et sociale en perp\u00E9tuel mouvement.\u003C/p\u003E\u003Cp\u003E\u003Cbr\u003E\u003Cstrong\u003ERETROUVEZ-LES \u00C0 \u00C9CHOTONE !\u003C/strong\u003E\u003C/p\u003E\u003Cul\u003E\u003Cli\u003E\u003Cp\u003E\u003Cstrong\u003EMercredi 21 mai \u00E0 19h30\u003C/strong\u003E - performance participative\u003C/p\u003E\u003Cp\u003E\u003C/p\u003E\u003C/li\u003E\u003C/ul\u003E\u003Cp\u003EN.U Collectif est accompagn\u00E9\u0026nbsp;par\u0026nbsp;\u003Ca target=\u0022_blank\u0022 href=\u0022https://d7c35.r.a.d.sendibm1.com/mk/cl/f/sh/6rqJfgq8dIPRPzfvqZ3pJWLrtYt/_Ig7eNWm4LxL\u0022 rel=\u0022noopener noreferrer nofollow\u0022\u003E\u003Cstrong\u003E\u003Cu\u003EAnna Kerekes\u003C/u\u003E\u003C/strong\u003E\u003C/a\u003E\u003Cstrong\u003E,\u003C/strong\u003E\u0026nbsp;critique d\u2019art et commissaire d\u2019exposition, enseignante \u00E0 l\u2019\u00C9cole Sup\u00E9rieure des Beaux-Arts de N\u00EEmes ; et poursuit\u0026nbsp;ses collaborations avec Le\u0026nbsp;\u003Cstrong\u003ELieu de Vie Tentative\u003C/strong\u003E\u0026nbsp;\u00E0 Saint-Hippolyte-du-Fort,\u003Cstrong\u003E\u0026nbsp;\u003C/strong\u003E\u003Ca target=\u0022_blank\u0022 href=\u0022https://d7c35.r.a.d.sendibm1.com/mk/cl/f/sh/6rqJfgq8dIR6SRy5KsTNF7TnWrv/KNj4QYHMQ1mu\u0022 rel=\u0022noopener noreferrer nofollow\u0022\u003E\u003Cstrong\u003E\u003Cu\u003ELa Bulle Bleue\u003C/u\u003E\u003C/strong\u003E\u003C/a\u003E, E.S.A.T Artistique et\u0026nbsp;\u003Ca target=\u0022_blank\u0022 href=\u0022https://d7c35.r.a.d.sendibm1.com/mk/cl/f/sh/6rqJfgq8dISlUuGEpBsvAibjAAx/Pnn7g6wz7Jwf\u0022 rel=\u0022noopener noreferrer nofollow\u0022\u003E\u003Cstrong\u003E\u003Cu\u003ELes Ateliers Kennedy\u003C/u\u003E\u003C/strong\u003E\u003C/a\u003E\u0026nbsp;E.S.A.T \u00E0 Montpellier et\u0026nbsp;Pep34.\u003Cbr\u003E\u003Cbr\u003EAvec pour le\u0026nbsp;\u003Cstrong\u003ENU Collectif\u003C/strong\u003E\u0026nbsp;,\u0026nbsp;\u003Cstrong\u003EM\u00C9LAINE BLOT\u003C/strong\u003E\u0026nbsp;, Com\u00E9dien - ESAT La Bulle Bleue,\u0026nbsp;\u003Cstrong\u003EANTHONY GROS-AUDIBERT\u003C/strong\u003E\u0026nbsp;, Performeur - ESAT Ateliers Kennedy,\u0026nbsp;\u003Cstrong\u003EAUR\u00C9LIE PIAU\u003C/strong\u003E\u0026nbsp;, Plasticienne,\u0026nbsp;\u003Cstrong\u003EBERTRAND WOLFF\u003C/strong\u003E\u0026nbsp;, Compositeur et musicien,\u0026nbsp;\u003Cstrong\u003EBOLOLIPSUM\u003C/strong\u003E\u0026nbsp;, Musicien et beatmaker,\u0026nbsp;\u003Cstrong\u003EJEAN CAGNARD,\u003C/strong\u003E\u0026nbsp;\u003Cstrong\u003EGABRIELE PAUPINI\u003C/strong\u003E\u0026nbsp;, Auteurs\u0026nbsp;,\u0026nbsp;\u003Cstrong\u003EAXELLE CARRUZZO\u003C/strong\u003E\u0026nbsp;, Metteur en sc\u00E8ne et performeuse,\u0026nbsp;\u003Cstrong\u003EMATHIAS BEYLER\u003C/strong\u003E\u0026nbsp;, Metteur en sc\u00E8ne et constructeur sonore.\u003C/p\u003E",
+            "title": "N.U Collectif \u261E R\u00E9sident 2025"
+          }
+        }
+      },
+      "editToken": "eyJhIjoiZWNob3RvbmUiLCJzIjoicGFnZSIsImkiOiJkZDNjM2ZlNi0wMTAzLTRmZWEtYjVlOC0xZWE3MTRmMzYzMDgiLCJ1IjoiaHR0cHM6Ly9sYWFiLmRkbnMubmV0OjM4MDgwLyJ9",
+      "id": "dd3c3fe6-0103-4fea-b5e8-1ea714f36308",
+      "isDeleted": false,
+      "lastModified": "2025-04-21T21:17:23Z",
+      "lastModifiedBy": "subject:6798df7c5b784ee7b7cb52e1",
+      "schemaDisplayName": "Page",
+      "schemaId": "d0379b0e-294e-4df6-9b2b-257b807b1467",
+      "schemaName": "page",
+      "status": "Published",
+      "statusColor": "#4bb958",
+      "version": 17
     },
     {
       "_links": {
@@ -127,7 +542,7 @@
           "method": "POST"
         },
         "previous": {
-          "href": "/api/content/echotone/page/2c7122ac-9390-4f45-b76c-880634f1cb11/2",
+          "href": "/api/content/echotone/page/2c7122ac-9390-4f45-b76c-880634f1cb11/3",
           "method": "GET"
         },
         "self": {
@@ -198,6 +613,7 @@
             "temporal": [
               {
                 "date": "2024-05-31T00:00:00Z",
+                "datetime": null,
                 "description": null
               }
             ],
@@ -215,6 +631,7 @@
             "temporal": [
               {
                 "date": "2024-05-31T00:00:00Z",
+                "datetime": null,
                 "description": null
               }
             ],
@@ -226,7 +643,203 @@
       "editToken": "eyJhIjoiZWNob3RvbmUiLCJzIjoicGFnZSIsImkiOiIyYzcxMjJhYy05MzkwLTRmNDUtYjc2Yy04ODA2MzRmMWNiMTEiLCJ1IjoiaHR0cHM6Ly9sYWFiLmRkbnMubmV0OjM4MDgwLyJ9",
       "id": "2c7122ac-9390-4f45-b76c-880634f1cb11",
       "isDeleted": false,
-      "lastModified": "2025-04-07T11:58:51Z",
+      "lastModified": "2025-04-21T21:15:54Z",
+      "lastModifiedBy": "subject:6798df7c5b784ee7b7cb52e1",
+      "schemaDisplayName": "Page",
+      "schemaId": "d0379b0e-294e-4df6-9b2b-257b807b1467",
+      "schemaName": "page",
+      "status": "Published",
+      "statusColor": "#4bb958",
+      "version": 4
+    },
+    {
+      "_links": {
+        "delete": {
+          "href": "/api/content/echotone/page/df209168-9ee7-4bb2-8dfe-8d3fbf1c95fd",
+          "method": "DELETE"
+        },
+        "draft/create": {
+          "href": "/api/content/echotone/page/df209168-9ee7-4bb2-8dfe-8d3fbf1c95fd/draft",
+          "method": "POST"
+        },
+        "previous": {
+          "href": "/api/content/echotone/page/df209168-9ee7-4bb2-8dfe-8d3fbf1c95fd/13",
+          "method": "GET"
+        },
+        "self": {
+          "href": "/api/content/echotone/page/df209168-9ee7-4bb2-8dfe-8d3fbf1c95fd",
+          "method": "GET"
+        }
+      },
+      "created": "2025-03-03T20:02:36Z",
+      "createdBy": "subject:6798df7c5b784ee7b7cb52e1",
+      "data": {
+        "id": {
+          "iv": "geoffrey-badel-resident-2024"
+        },
+        "medias": {
+          "iv": [
+            {
+              "caption": null,
+              "in": true,
+              "medias": [
+                "b708adf3-e6a1-43a4-82c7-a9455e21d8e8",
+                "85c83d0c-013c-4aaa-95b1-ff1f698dfb3c",
+                "1069eb14-c864-42db-a2e0-396f8198aa78"
+              ],
+              "schemaId": "1f4e3697-52bc-45d9-a7a8-65862c13ce4b",
+              "schemaName": "carousel"
+            }
+          ]
+        },
+        "unit": {
+          "en": {
+            "locations": [],
+            "schemaId": "2bd4ee39-8e6e-4128-9f08-a049cce49f23",
+            "schemaName": "unit",
+            "short": "Festival Inou\u00EF ",
+            "tags": [
+              "programmation",
+              "accueil",
+              "p\u00E9riode"
+            ],
+            "temporal": [
+              {
+                "date": "2025-05-02T00:00:00Z",
+                "datetime": null,
+                "description": null
+              },
+              {
+                "date": "2025-05-03T00:00:00Z",
+                "datetime": null,
+                "description": null
+              }
+            ],
+            "text": "\u003Cp\u003EOuverture de l\u0027exposition de 10h \u00E0 17h\u003Cbr\u003EEntr\u00E9e libre et gratuite dans le cadre du Festival INOU\u00CF\u003Cstrong\u003E\u003Cbr\u003E\u003Cbr\u003E\u003C/strong\u003E\u003Ca target=\u0022_blank\u0022 href=\u0022https://geoffreybadel.wixsite.com/artiste\u0022 rel=\u0022noopener noreferrer nofollow\u0022\u003E\u003Cstrong\u003EGeoffrey Badel\u003C/strong\u003E\u003C/a\u003E est un artiste entendant qui explore les \u003Cstrong\u003Emondes silencieux\u003C/strong\u003E \u00E0 travers des installations immersives sous la forme de dessins, de films, d\u2019installations et de performances. Le temps du festival, l\u2019artiste met en commun ses r\u00E9flexions actuelles sous la forme d\u0027un paysage mental en gestation. Dans un contexte o\u00F9 la langue des signes est au c\u0153ur des \u00E9changes, cette exposition prend un sens tout particulier. Le public est invit\u00E9 \u00E0 d\u00E9couvrir un grand accrochage de dessins, r\u00E9alis\u00E9s ces derni\u00E8res ann\u00E9es jusqu\u0027\u00E0 aujourd\u0027hui, ponctu\u00E9 de fragments de textes, d\u2019images, d\u2019objets \u2014 autant d\u2019\u00E9l\u00E9ments issus de l\u2019univers de l\u2019artiste et de ses recherches. Ce dispositif permet une plong\u00E9e dans le c\u0153ur m\u00EAme de sa pratique, o\u00F9 le silence est habit\u00E9. Une invitation \u00E0 \u003Cstrong\u003Epercevoir autrement\u003C/strong\u003E, \u00E0 travers les sens et au-del\u00E0 des mots, une mani\u00E8re d\u2019entrer en r\u00E9sonance avec les multiples formes que peut prendre la communication humaine.\u003Cbr\u003E\u003Cbr\u003EGeoffrey Badel d\u00E9veloppe actuellement son engagement aupr\u00E8s de la communaut\u00E9 sourde dans l\u0027intention de contribuer \u00E0 l\u0027accessibilit\u00E9 \u00E0 l\u0027art et d\u0027approfondir ses questionnements sur le langage.\u003Cbr\u003E\u003Cbr\u003E\u003Ca target=\u0022_blank\u0022 href=\u0022https://drive.google.com/file/d/1cKvST66jPU7OxYwj8r9XdDFLkKqAkL-k/view?usp=drive_link\u0022 rel=\u0022noopener noreferrer nofollow\u0022\u003ET\u00E9l\u00E9charger la\u0026nbsp;programmation du festival INOU\u00CF\u003C/a\u003E \u003C/p\u003E",
+            "title": "Geoffrey Badel \u261E R\u00E9sident 2024"
+          },
+          "fr": {
+            "locations": [],
+            "schemaId": "2bd4ee39-8e6e-4128-9f08-a049cce49f23",
+            "schemaName": "unit",
+            "short": "Festival Inou\u00EF ",
+            "tags": [
+              "programmation",
+              "accueil",
+              "p\u00E9riode"
+            ],
+            "temporal": [
+              {
+                "date": "2025-05-02T00:00:00Z",
+                "datetime": null,
+                "description": null
+              },
+              {
+                "date": "2025-05-03T00:00:00Z",
+                "datetime": null,
+                "description": null
+              }
+            ],
+            "text": "\u003Cp\u003EOuverture de l\u0027exposition de 10h \u00E0 17h\u003Cbr\u003EEntr\u00E9e libre et gratuite dans le cadre du Festival INOU\u00CF\u003Cstrong\u003E\u003Cbr\u003E\u003Cbr\u003E\u003C/strong\u003E\u003Ca target=\u0022_blank\u0022 href=\u0022https://geoffreybadel.wixsite.com/artiste\u0022 rel=\u0022noopener noreferrer nofollow\u0022\u003E\u003Cstrong\u003EGeoffrey Badel\u003C/strong\u003E\u003C/a\u003E est un artiste entendant qui explore les \u003Cstrong\u003Emondes silencieux\u003C/strong\u003E \u00E0 travers des installations immersives sous la forme de dessins, de films, d\u2019installations et de performances. Le temps du festival, l\u2019artiste met en commun ses r\u00E9flexions actuelles sous la forme d\u0027un paysage mental en gestation. Dans un contexte o\u00F9 la langue des signes est au c\u0153ur des \u00E9changes, cette exposition prend un sens tout particulier. Le public est invit\u00E9 \u00E0 d\u00E9couvrir un grand accrochage de dessins, r\u00E9alis\u00E9s ces derni\u00E8res ann\u00E9es jusqu\u0027\u00E0 aujourd\u0027hui, ponctu\u00E9 de fragments de textes, d\u2019images, d\u2019objets \u2014 autant d\u2019\u00E9l\u00E9ments issus de l\u2019univers de l\u2019artiste et de ses recherches. Ce dispositif permet une plong\u00E9e dans le c\u0153ur m\u00EAme de sa pratique, o\u00F9 le silence est habit\u00E9. Une invitation \u00E0 \u003Cstrong\u003Epercevoir autrement\u003C/strong\u003E, \u00E0 travers les sens et au-del\u00E0 des mots, une mani\u00E8re d\u2019entrer en r\u00E9sonance avec les multiples formes que peut prendre la communication humaine.\u003Cbr\u003E\u003Cbr\u003EGeoffrey Badel d\u00E9veloppe actuellement son engagement aupr\u00E8s de la communaut\u00E9 sourde dans l\u0027intention de contribuer \u00E0 l\u0027accessibilit\u00E9 \u00E0 l\u0027art et d\u0027approfondir ses questionnements sur le langage.\u003Cbr\u003E\u003Cbr\u003E\u003Ca target=\u0022_blank\u0022 href=\u0022https://drive.google.com/file/d/1cKvST66jPU7OxYwj8r9XdDFLkKqAkL-k/view?usp=drive_link\u0022 rel=\u0022noopener noreferrer nofollow\u0022\u003ET\u00E9l\u00E9charger la\u0026nbsp;programmation du festival INOU\u00CF\u003C/a\u003E \u003C/p\u003E",
+            "title": "Geoffrey Badel \u261E R\u00E9sident 2024"
+          }
+        }
+      },
+      "editToken": "eyJhIjoiZWNob3RvbmUiLCJzIjoicGFnZSIsImkiOiJkZjIwOTE2OC05ZWU3LTRiYjItOGRmZS04ZDNmYmYxYzk1ZmQiLCJ1IjoiaHR0cHM6Ly9sYWFiLmRkbnMubmV0OjM4MDgwLyJ9",
+      "id": "df209168-9ee7-4bb2-8dfe-8d3fbf1c95fd",
+      "isDeleted": false,
+      "lastModified": "2025-04-21T21:15:00Z",
+      "lastModifiedBy": "subject:6798df7c5b784ee7b7cb52e1",
+      "schemaDisplayName": "Page",
+      "schemaId": "d0379b0e-294e-4df6-9b2b-257b807b1467",
+      "schemaName": "page",
+      "status": "Published",
+      "statusColor": "#4bb958",
+      "version": 14
+    },
+    {
+      "_links": {
+        "delete": {
+          "href": "/api/content/echotone/page/f15b5757-c72a-40fc-aa2d-b51c59e7880f",
+          "method": "DELETE"
+        },
+        "draft/create": {
+          "href": "/api/content/echotone/page/f15b5757-c72a-40fc-aa2d-b51c59e7880f/draft",
+          "method": "POST"
+        },
+        "previous": {
+          "href": "/api/content/echotone/page/f15b5757-c72a-40fc-aa2d-b51c59e7880f/2",
+          "method": "GET"
+        },
+        "self": {
+          "href": "/api/content/echotone/page/f15b5757-c72a-40fc-aa2d-b51c59e7880f",
+          "method": "GET"
+        }
+      },
+      "created": "2025-04-21T18:04:39Z",
+      "createdBy": "subject:6798df7c5b784ee7b7cb52e1",
+      "data": {
+        "id": {
+          "iv": "duo-les-butors-etoiles"
+        },
+        "medias": {
+          "iv": [
+            {
+              "caption": null,
+              "in": true,
+              "medias": [
+                "c39857e3-febd-4fcd-99dd-f8bf78d10aa3"
+              ],
+              "schemaId": "1f4e3697-52bc-45d9-a7a8-65862c13ce4b",
+              "schemaName": "carousel"
+            }
+          ]
+        },
+        "unit": {
+          "en": {
+            "locations": [],
+            "schemaId": "2bd4ee39-8e6e-4128-9f08-a049cce49f23",
+            "schemaName": "unit",
+            "short": "Concert \u0026 performance de Jean-Claude Gagnieux-Maoudj",
+            "tags": [
+              "programmation",
+              "accueil"
+            ],
+            "temporal": [
+              {
+                "date": null,
+                "datetime": "2025-06-06T18:00:00Z",
+                "description": null
+              }
+            ],
+            "text": "\u003Cp\u003EVendredi \u003Cstrong\u003E6 juin \u00E0 partir de 20h\u003C/strong\u003E\u0026nbsp;performance de\u0026nbsp;Jean-Claude Gagnieux-Maoudj dans le temple qui pr\u00E9c\u00E9dera, le sans pr\u00E9c\u00E9dent concert du DUO Les Butors \u00E9toil\u00E9s\u0026nbsp;dans le cadre du Festival Les Essentielles.\u003C/p\u003E\u003Cp\u003E\u00C0 l\u2019origine de \u003Cstrong\u003Ece r\u00E9jouissant laboratoire \u003C/strong\u003Ede recherches sonores et musicale, un p\u00E8re et son fils. Autour d\u2019un r\u00E9pertoire original qui allie gravit\u00E9 et l\u00E9g\u00E8ret\u00E9, humour, humeur et affects, le\u003Cstrong\u003E duo,\u0026nbsp;Les Butors \u00E9toil\u00E9s\u003C/strong\u003E\u0026nbsp;s\u2019amusent avec une in\u00E9puisable \u00E9nergie interactive \u00E0 se surprendre et \u00E0 d\u00E9jouer les pi\u00E8ges de leurs improvisations. Profitant de leur complicit\u00E9, de leur compl\u00E9mentarit\u00E9 instrumentale et leur pratique commune de techniques vocales (chants Inuit, Pygm\u00E9e, Tib\u00E9tain, Mongol\u2026), \u003Cstrong\u003Eces randonneurs des musiques du possible\u003C/strong\u003E, tripotent les sons pour des \u00AB\u0026nbsp;invitations chaleureuses\u0026nbsp;\u00BB, v\u00E9ritable potlatch du temps pr\u00E9sent.\u003Cbr\u003ER\u00EAvons d\u0027une musique utopique, sans origine identifiable mais o\u00F9 chacun, quel que soit son \u00E2ge, son histoire fera la rencontre du duo aux souffles, du duo aux harmonies, du duo aux percussions.\u003C/p\u003E",
+            "title": "DUO, Les Butors \u00E9toil\u00E9s"
+          },
+          "fr": {
+            "locations": [],
+            "schemaId": "2bd4ee39-8e6e-4128-9f08-a049cce49f23",
+            "schemaName": "unit",
+            "short": "Concert \u0026 performance de Jean-Claude Gagnieux-Maoudj",
+            "tags": [
+              "programmation",
+              "accueil"
+            ],
+            "temporal": [
+              {
+                "date": null,
+                "datetime": "2025-06-06T18:00:00Z",
+                "description": null
+              }
+            ],
+            "text": "\u003Cp\u003EVendredi \u003Cstrong\u003E6 juin \u00E0 partir de 20h\u003C/strong\u003E\u0026nbsp;performance de\u0026nbsp;Jean-Claude Gagnieux-Maoudj dans le temple qui pr\u00E9c\u00E9dera, le sans pr\u00E9c\u00E9dent concert du DUO Les Butors \u00E9toil\u00E9s\u0026nbsp;dans le cadre du Festival Les Essentielles.\u003C/p\u003E\u003Cp\u003E\u00C0 l\u2019origine de \u003Cstrong\u003Ece r\u00E9jouissant laboratoire \u003C/strong\u003Ede recherches sonores et musicale, un p\u00E8re et son fils. Autour d\u2019un r\u00E9pertoire original qui allie gravit\u00E9 et l\u00E9g\u00E8ret\u00E9, humour, humeur et affects, le\u003Cstrong\u003E duo,\u0026nbsp;Les Butors \u00E9toil\u00E9s\u003C/strong\u003E\u0026nbsp;s\u2019amusent avec une in\u00E9puisable \u00E9nergie interactive \u00E0 se surprendre et \u00E0 d\u00E9jouer les pi\u00E8ges de leurs improvisations. Profitant de leur complicit\u00E9, de leur compl\u00E9mentarit\u00E9 instrumentale et leur pratique commune de techniques vocales (chants Inuit, Pygm\u00E9e, Tib\u00E9tain, Mongol\u2026), \u003Cstrong\u003Eces randonneurs des musiques du possible\u003C/strong\u003E, tripotent les sons pour des \u00AB\u0026nbsp;invitations chaleureuses\u0026nbsp;\u00BB, v\u00E9ritable potlatch du temps pr\u00E9sent.\u003Cbr\u003ER\u00EAvons d\u0027une musique utopique, sans origine identifiable mais o\u00F9 chacun, quel que soit son \u00E2ge, son histoire fera la rencontre du duo aux souffles, du duo aux harmonies, du duo aux percussions.\u003C/p\u003E",
+            "title": "DUO, Les Butors \u00E9toil\u00E9s"
+          }
+        }
+      },
+      "editToken": "eyJhIjoiZWNob3RvbmUiLCJzIjoicGFnZSIsImkiOiJmMTViNTc1Ny1jNzJhLTQwZmMtYWEyZC1iNTFjNTllNzg4MGYiLCJ1IjoiaHR0cHM6Ly9sYWFiLmRkbnMubmV0OjM4MDgwLyJ9",
+      "id": "f15b5757-c72a-40fc-aa2d-b51c59e7880f",
+      "isDeleted": false,
+      "lastModified": "2025-04-21T21:14:50Z",
       "lastModifiedBy": "subject:6798df7c5b784ee7b7cb52e1",
       "schemaDisplayName": "Page",
       "schemaId": "d0379b0e-294e-4df6-9b2b-257b807b1467",
@@ -234,6 +847,101 @@
       "status": "Published",
       "statusColor": "#4bb958",
       "version": 3
+    },
+    {
+      "_links": {
+        "delete": {
+          "href": "/api/content/echotone/page/9d845033-7c8b-465b-8412-2d4107372fee",
+          "method": "DELETE"
+        },
+        "draft/create": {
+          "href": "/api/content/echotone/page/9d845033-7c8b-465b-8412-2d4107372fee/draft",
+          "method": "POST"
+        },
+        "previous": {
+          "href": "/api/content/echotone/page/9d845033-7c8b-465b-8412-2d4107372fee/4",
+          "method": "GET"
+        },
+        "self": {
+          "href": "/api/content/echotone/page/9d845033-7c8b-465b-8412-2d4107372fee",
+          "method": "GET"
+        }
+      },
+      "created": "2025-04-21T17:51:20Z",
+      "createdBy": "subject:6798df7c5b784ee7b7cb52e1",
+      "data": {
+        "id": {
+          "iv": "celine-courtault-capelier"
+        },
+        "medias": {
+          "iv": [
+            {
+              "caption": null,
+              "in": true,
+              "medias": [
+                "83b94ccd-24a8-456c-bb3c-db89a1de6f6a",
+                "9bee25d7-39a4-470f-b998-7f6aab64c9aa",
+                "10bc2621-c228-4ff2-854f-06332ad4e2ee",
+                "379e4d43-c3ff-4b8e-ba7a-1b3749f51c62",
+                "a8529f01-cfb8-4b01-a7e8-479bbc888054"
+              ],
+              "schemaId": "1f4e3697-52bc-45d9-a7a8-65862c13ce4b",
+              "schemaName": "carousel"
+            }
+          ]
+        },
+        "unit": {
+          "en": {
+            "locations": [],
+            "schemaId": "2bd4ee39-8e6e-4128-9f08-a049cce49f23",
+            "schemaName": "unit",
+            "short": "Exposition Fleur / Jardin",
+            "tags": [
+              "accueil",
+              "programmation"
+            ],
+            "temporal": [
+              {
+                "date": null,
+                "datetime": "2025-06-06T16:00:00Z",
+                "description": null
+              }
+            ],
+            "text": "\u003Cp\u003E\u003Cstrong\u003EVernissage vendredi 6 juin\u003C/strong\u003E \u00E0 partir de 18h, au Petit Temple \u00E0 Ganges dans le cadre du Festival Les Essentielles.\u003Cbr\u003EPerformance de C\u00E9line Courtault Capelier et banquet \u00E0 partir de cueillettes et pr\u00E9parations naturelles \u00E0 19h\u003Cbr\u003EExposition \u003Cstrong\u003Edu 7 juin au 27 juillet 2025\u003C/strong\u003E les vendredis de 10h \u00E0 14h et \u003Cbr\u003Eles samedis et dimanches de 10h \u00E0 18h.\u003Cbr\u003EEntr\u00E9e libre et gratuite\u003Cstrong\u003E\u003Cbr\u003E\u003Cbr\u003EC\u00E9line Courtault Capelier\u0026nbsp;\u003C/strong\u003Einaugure la saison des expositions du Petit Temple avec une exposition intitul\u00E9e \u00AB Fleurs / jardin \u00BB du 7 juin au 27 juillet 2025. L\u2019artiste \u00E9labore tour \u00E0 tour une construction faite de projections de boucles et \u0022d\u2019images-mati\u00E8res\u202F\u0022 sur\u0026nbsp;\u003Cstrong\u003Epellicules 16mm\u003C/strong\u003E. La pratique d\u2019un\u0026nbsp;\u003Cstrong\u003Ecin\u00E9ma \u00E9largi (\u003Cem\u003Eexpanded cinema\u003C/em\u003E)\u003C/strong\u003E\u0026nbsp;o\u00F9 se d\u00E9ploient images et jeux primitifs de lumi\u00E8re qui entrent en \u00E9cho avec le son et les lieux. Palette d\u2019images r\u00E9alis\u00E9e \u00E0 partir d\u2019exp\u00E9rimentations avec le v\u00E9g\u00E9tal\u0026nbsp;: recherches non toxiques sur la pellicule argentique (r\u00E9actions photochimiques, traces et empreintes de v\u00E9g\u00E9taux), collages,\u0026nbsp;\u003Cem\u003Efoundfootage\u003C/em\u003E\u0026nbsp;de films amateurs des ann\u00E9es 60. Respiration elliptique et palpable entre ces \u00E9l\u00E9ments, les installations de l\u2019artiste, embrassent le temps pour lib\u00E9rer l\u2019espace, le d\u00E9cupler et l\u2019implanter d\u2019impressions.\u003C/p\u003E",
+            "title": "C\u00E9line Courtault Capelier"
+          },
+          "fr": {
+            "locations": [],
+            "schemaId": "2bd4ee39-8e6e-4128-9f08-a049cce49f23",
+            "schemaName": "unit",
+            "short": "Exposition Fleur / Jardin",
+            "tags": [
+              "accueil",
+              "programmation"
+            ],
+            "temporal": [
+              {
+                "date": null,
+                "datetime": "2025-06-06T16:00:00Z",
+                "description": null
+              }
+            ],
+            "text": "\u003Cp\u003E\u003Cstrong\u003EVernissage vendredi 6 juin\u003C/strong\u003E \u00E0 partir de 18h, au Petit Temple \u00E0 Ganges dans le cadre du Festival Les Essentielles.\u003Cbr\u003EPerformance de C\u00E9line Courtault Capelier et banquet \u00E0 partir de cueillettes et pr\u00E9parations naturelles \u00E0 19h\u003Cbr\u003EExposition \u003Cstrong\u003Edu 7 juin au 27 juillet 2025\u003C/strong\u003E les vendredis de 10h \u00E0 14h et \u003Cbr\u003Eles samedis et dimanches de 10h \u00E0 18h.\u003Cbr\u003EEntr\u00E9e libre et gratuite\u003Cstrong\u003E\u003Cbr\u003E\u003Cbr\u003EC\u00E9line Courtault Capelier\u0026nbsp;\u003C/strong\u003Einaugure la saison des expositions du Petit Temple avec une exposition intitul\u00E9e \u00AB Fleurs / jardin \u00BB du 7 juin au 27 juillet 2025. L\u2019artiste \u00E9labore tour \u00E0 tour une construction faite de projections de boucles et \u0022d\u2019images-mati\u00E8res\u202F\u0022 sur\u0026nbsp;\u003Cstrong\u003Epellicules 16mm\u003C/strong\u003E. La pratique d\u2019un\u0026nbsp;\u003Cstrong\u003Ecin\u00E9ma \u00E9largi (\u003Cem\u003Eexpanded cinema\u003C/em\u003E)\u003C/strong\u003E\u0026nbsp;o\u00F9 se d\u00E9ploient images et jeux primitifs de lumi\u00E8re qui entrent en \u00E9cho avec le son et les lieux. Palette d\u2019images r\u00E9alis\u00E9e \u00E0 partir d\u2019exp\u00E9rimentations avec le v\u00E9g\u00E9tal\u0026nbsp;: recherches non toxiques sur la pellicule argentique (r\u00E9actions photochimiques, traces et empreintes de v\u00E9g\u00E9taux), collages,\u0026nbsp;\u003Cem\u003Efoundfootage\u003C/em\u003E\u0026nbsp;de films amateurs des ann\u00E9es 60. Respiration elliptique et palpable entre ces \u00E9l\u00E9ments, les installations de l\u2019artiste, embrassent le temps pour lib\u00E9rer l\u2019espace, le d\u00E9cupler et l\u2019implanter d\u2019impressions.\u003C/p\u003E",
+            "title": "C\u00E9line Courtault Capelier"
+          }
+        }
+      },
+      "editToken": "eyJhIjoiZWNob3RvbmUiLCJzIjoicGFnZSIsImkiOiI5ZDg0NTAzMy03YzhiLTQ2NWItODQxMi0yZDQxMDczNzJmZWUiLCJ1IjoiaHR0cHM6Ly9sYWFiLmRkbnMubmV0OjM4MDgwLyJ9",
+      "id": "9d845033-7c8b-465b-8412-2d4107372fee",
+      "isDeleted": false,
+      "lastModified": "2025-04-21T21:14:35Z",
+      "lastModifiedBy": "subject:6798df7c5b784ee7b7cb52e1",
+      "schemaDisplayName": "Page",
+      "schemaId": "d0379b0e-294e-4df6-9b2b-257b807b1467",
+      "schemaName": "page",
+      "status": "Published",
+      "statusColor": "#4bb958",
+      "version": 5
     },
     {
       "_links": {
@@ -328,232 +1036,6 @@
       "status": "Published",
       "statusColor": "#4bb958",
       "version": 4
-    },
-    {
-      "_links": {
-        "delete": {
-          "href": "/api/content/echotone/page/702fbd2b-1312-4ebd-b348-cc963c16ea7f",
-          "method": "DELETE"
-        },
-        "draft/create": {
-          "href": "/api/content/echotone/page/702fbd2b-1312-4ebd-b348-cc963c16ea7f/draft",
-          "method": "POST"
-        },
-        "previous": {
-          "href": "/api/content/echotone/page/702fbd2b-1312-4ebd-b348-cc963c16ea7f/17",
-          "method": "GET"
-        },
-        "self": {
-          "href": "/api/content/echotone/page/702fbd2b-1312-4ebd-b348-cc963c16ea7f",
-          "method": "GET"
-        }
-      },
-      "created": "2025-01-29T12:48:49Z",
-      "createdBy": "subject:6798df7c5b784ee7b7cb52e1",
-      "data": {
-        "id": {
-          "iv": "inauguration-de-echotone"
-        },
-        "medias": {
-          "iv": [
-            {
-              "caption": null,
-              "in": true,
-              "medias": [
-                "ac06c5dc-1e70-4075-98c9-65ed4225b68e",
-                "7859c212-a7e7-4200-92a1-ac292cc67e78",
-                "c7b47afc-f9d7-4348-94cd-f6f8e78de0ec",
-                "d0350086-80cc-4708-b10b-0b59061e21e7",
-                "1829f3b6-85c6-48f8-a20d-324ba4ea9599",
-                "fbc048ba-53d2-4951-80cd-48a38d2a08d8",
-                "0cd504ab-b973-4216-9a73-83b6a487e988",
-                "856102d1-0db2-4c07-baf7-d2425ffd4a52",
-                "dd880b05-f435-432f-98b7-9890aecf681a",
-                "13810421-d0ad-4ed4-8289-80a48f8a942d"
-              ],
-              "schemaId": "1f4e3697-52bc-45d9-a7a8-65862c13ce4b",
-              "schemaName": "carousel"
-            },
-            {
-              "caption": "Performance sonore, Nicolas Bralet. \u0022Aux origines des vagues vont et viennes, des rayons traversent. La faune anime l\u0027\u00E9tendue. Les sons improvisent, composent, \u0022comprovisent\u0022 le temps d\u0027une \u00E9coute\u0022.",
-              "in": null,
-              "medias": [
-                "08261a14-63a2-442b-bbe6-bd009bc5eb8a",
-                "0e1213c4-45ee-4bd5-9ef8-92c45afbfaff"
-              ],
-              "schemaId": "1f4e3697-52bc-45d9-a7a8-65862c13ce4b",
-              "schemaName": "carousel"
-            }
-          ]
-        },
-        "unit": {
-          "en": {
-            "locations": [],
-            "schemaId": "2bd4ee39-8e6e-4128-9f08-a049cce49f23",
-            "schemaName": "unit",
-            "short": "Propositions du LAAB en collectif augment\u00E9 et performance sonore de Nicolas Bralet",
-            "tags": [
-              "programmation",
-              "p\u00E9riode"
-            ],
-            "temporal": [
-              {
-                "date": "2024-05-31T00:00:00Z",
-                "datetime": null,
-                "description": null
-              },
-              {
-                "date": "2024-06-30T00:00:00Z",
-                "datetime": null,
-                "description": null
-              }
-            ],
-            "text": "\u003Cp\u003E\u261E Vendredi 31 mai 2024\u003C/p\u003E\u003Chr\u003E\u003Cp\u003E\u25BA Inauguration des espaces du 6 rue des maquisards, \u00E0 Ganges. \u003Cbr\u003EInauguration des espaces avec les propositions du LAAB en collectif \u003Cem\u003Eaugment\u00E9 \u003C/em\u003Eavec les pi\u00E8ces de \u003Cstrong\u003ENicolas Bralet\u003C/strong\u003E, \u003Cstrong\u003EDelphine Chevrot\u003C/strong\u003E, \u003Cstrong\u003EFran\u00E7ois-David Collin\u003C/strong\u003E, \u003Cstrong\u003ESabrina Issa\u003C/strong\u003E, \u003Cstrong\u003ESamuel Aligand\u003C/strong\u003E, \u003Cstrong\u003ELydie Regnier\u003C/strong\u003E, \u003Cstrong\u003EPhilippe Bri\u00E8re\u003C/strong\u003E, \u003Cstrong\u003ENina Reumaux\u003C/strong\u003E, \u003Cstrong\u003ELo\u00EFc Peyrani\u003C/strong\u003E et \u003Cstrong\u003EAnna Olszewska\u003C/strong\u003E.\u003C/p\u003E\u003Chr\u003E\u003Cp\u003E\u2326 Vernissage avec les Grignots de \u003Cstrong\u003EAlix Jolly\u003C/strong\u003E et \u003Cstrong\u003ECamille Derniaux\u003C/strong\u003E r\u00E9alis\u00E9s \u00E0 partir de cueillettes et mac\u00E9rations\u003C/p\u003E",
-            "title": "Inauguration de \u00C9CHOTONE"
-          },
-          "fr": {
-            "locations": [],
-            "schemaId": "2bd4ee39-8e6e-4128-9f08-a049cce49f23",
-            "schemaName": "unit",
-            "short": "Propositions du LAAB en collectif augment\u00E9 et performance sonore de Nicolas Bralet",
-            "tags": [
-              "programmation",
-              "p\u00E9riode"
-            ],
-            "temporal": [
-              {
-                "date": "2024-05-31T00:00:00Z",
-                "datetime": null,
-                "description": null
-              },
-              {
-                "date": "2024-06-30T00:00:00Z",
-                "datetime": null,
-                "description": null
-              }
-            ],
-            "text": "\u003Cp\u003E\u261E Vendredi 31 mai 2024\u003C/p\u003E\u003Chr\u003E\u003Cp\u003E\u25BA Inauguration des espaces du 6 rue des maquisards, \u00E0 Ganges. \u003Cbr\u003EInauguration des espaces avec les propositions du LAAB en collectif \u003Cem\u003Eaugment\u00E9 \u003C/em\u003Eavec les pi\u00E8ces de \u003Cstrong\u003ENicolas Bralet\u003C/strong\u003E, \u003Cstrong\u003EDelphine Chevrot\u003C/strong\u003E, \u003Cstrong\u003EFran\u00E7ois-David Collin\u003C/strong\u003E, \u003Cstrong\u003ESabrina Issa\u003C/strong\u003E, \u003Cstrong\u003ESamuel Aligand\u003C/strong\u003E, \u003Cstrong\u003ELydie Regnier\u003C/strong\u003E, \u003Cstrong\u003EPhilippe Bri\u00E8re\u003C/strong\u003E, \u003Cstrong\u003ENina Reumaux\u003C/strong\u003E, \u003Cstrong\u003ELo\u00EFc Peyrani\u003C/strong\u003E et \u003Cstrong\u003EAnna Olszewska\u003C/strong\u003E.\u003C/p\u003E\u003Chr\u003E\u003Cp\u003E\u2326 Vernissage avec les Grignots de \u003Cstrong\u003EAlix Jolly\u003C/strong\u003E et \u003Cstrong\u003ECamille Derniaux\u003C/strong\u003E r\u00E9alis\u00E9s \u00E0 partir de cueillettes et mac\u00E9rations\u003C/p\u003E",
-            "title": "Inauguration de \u00C9CHOTONE"
-          }
-        }
-      },
-      "editToken": "eyJhIjoiZWNob3RvbmUiLCJzIjoicGFnZSIsImkiOiI3MDJmYmQyYi0xMzEyLTRlYmQtYjM0OC1jYzk2M2MxNmVhN2YiLCJ1IjoiaHR0cHM6Ly9sYWFiLmRkbnMubmV0OjM4MDgwLyJ9",
-      "id": "702fbd2b-1312-4ebd-b348-cc963c16ea7f",
-      "isDeleted": false,
-      "lastModified": "2025-04-01T09:05:14Z",
-      "lastModifiedBy": "subject:6798df7c5b784ee7b7cb52e1",
-      "schemaDisplayName": "Page",
-      "schemaId": "d0379b0e-294e-4df6-9b2b-257b807b1467",
-      "schemaName": "page",
-      "status": "Published",
-      "statusColor": "#4bb958",
-      "version": 18
-    },
-    {
-      "_links": {
-        "delete": {
-          "href": "/api/content/echotone/page/df209168-9ee7-4bb2-8dfe-8d3fbf1c95fd",
-          "method": "DELETE"
-        },
-        "draft/create": {
-          "href": "/api/content/echotone/page/df209168-9ee7-4bb2-8dfe-8d3fbf1c95fd/draft",
-          "method": "POST"
-        },
-        "previous": {
-          "href": "/api/content/echotone/page/df209168-9ee7-4bb2-8dfe-8d3fbf1c95fd/10",
-          "method": "GET"
-        },
-        "self": {
-          "href": "/api/content/echotone/page/df209168-9ee7-4bb2-8dfe-8d3fbf1c95fd",
-          "method": "GET"
-        }
-      },
-      "created": "2025-03-03T20:02:36Z",
-      "createdBy": "subject:6798df7c5b784ee7b7cb52e1",
-      "data": {
-        "id": {
-          "iv": "geoffrey-badel-resident-2024"
-        },
-        "medias": {
-          "iv": [
-            {
-              "in": true,
-              "medias": [
-                "b708adf3-e6a1-43a4-82c7-a9455e21d8e8",
-                "85c83d0c-013c-4aaa-95b1-ff1f698dfb3c",
-                "1069eb14-c864-42db-a2e0-396f8198aa78"
-              ],
-              "schemaId": "1f4e3697-52bc-45d9-a7a8-65862c13ce4b",
-              "schemaName": "carousel"
-            }
-          ]
-        },
-        "unit": {
-          "en": {
-            "locations": [],
-            "schemaId": "2bd4ee39-8e6e-4128-9f08-a049cce49f23",
-            "schemaName": "unit",
-            "short": "Festival Inou\u00EF ",
-            "tags": [
-              "programmation",
-              "accueil",
-              "actu",
-              "p\u00E9riode"
-            ],
-            "temporal": [
-              {
-                "date": "2025-05-02T00:00:00Z",
-                "datetime": null,
-                "description": null
-              },
-              {
-                "date": "2025-05-03T00:00:00Z",
-                "datetime": null,
-                "description": null
-              }
-            ],
-            "text": null,
-            "title": "Geoffrey Badel \u261E R\u00E9sident 2024"
-          },
-          "fr": {
-            "locations": [],
-            "schemaId": "2bd4ee39-8e6e-4128-9f08-a049cce49f23",
-            "schemaName": "unit",
-            "short": "Festival Inou\u00EF ",
-            "tags": [
-              "programmation",
-              "accueil",
-              "actu",
-              "p\u00E9riode"
-            ],
-            "temporal": [
-              {
-                "date": "2025-05-02T00:00:00Z",
-                "datetime": null,
-                "description": null
-              },
-              {
-                "date": "2025-05-03T00:00:00Z",
-                "datetime": null,
-                "description": null
-              }
-            ],
-            "text": null,
-            "title": "Geoffrey Badel \u261E R\u00E9sident 2024"
-          }
-        }
-      },
-      "editToken": "eyJhIjoiZWNob3RvbmUiLCJzIjoicGFnZSIsImkiOiJkZjIwOTE2OC05ZWU3LTRiYjItOGRmZS04ZDNmYmYxYzk1ZmQiLCJ1IjoiaHR0cHM6Ly9sYWFiLmRkbnMubmV0OjM4MDgwLyJ9",
-      "id": "df209168-9ee7-4bb2-8dfe-8d3fbf1c95fd",
-      "isDeleted": false,
-      "lastModified": "2025-03-31T17:02:27Z",
-      "lastModifiedBy": "subject:6798df7c5b784ee7b7cb52e1",
-      "schemaDisplayName": "Page",
-      "schemaId": "d0379b0e-294e-4df6-9b2b-257b807b1467",
-      "schemaName": "page",
-      "status": "Published",
-      "statusColor": "#4bb958",
-      "version": 11
     },
     {
       "_links": {
@@ -806,212 +1288,6 @@
       "status": "Published",
       "statusColor": "#4bb958",
       "version": 11
-    },
-    {
-      "_links": {
-        "delete": {
-          "href": "/api/content/echotone/page/2698e069-8dac-48f7-a6ce-ba43f3b35613",
-          "method": "DELETE"
-        },
-        "draft/create": {
-          "href": "/api/content/echotone/page/2698e069-8dac-48f7-a6ce-ba43f3b35613/draft",
-          "method": "POST"
-        },
-        "previous": {
-          "href": "/api/content/echotone/page/2698e069-8dac-48f7-a6ce-ba43f3b35613/6",
-          "method": "GET"
-        },
-        "self": {
-          "href": "/api/content/echotone/page/2698e069-8dac-48f7-a6ce-ba43f3b35613",
-          "method": "GET"
-        }
-      },
-      "created": "2025-01-29T12:59:19Z",
-      "createdBy": "subject:6798df7c5b784ee7b7cb52e1",
-      "data": {
-        "id": {
-          "iv": "miashs-x-artist-run-spaces-org"
-        },
-        "medias": {
-          "iv": [
-            {
-              "in": true,
-              "medias": [
-                "9967fbb7-af0a-4404-bb77-1446eeba9aca",
-                "a7a6679b-0180-4a7c-ba4d-c693652e38fc",
-                "a96c48a0-07c7-4ef8-b1fa-10485e903bba",
-                "03d8c341-a96d-4ca8-b464-48228504bef6",
-                "a30447a2-bd37-40e1-9a24-dac4c960c4fd",
-                "26e58796-75e2-4e0e-8663-8e8d8abdfb67"
-              ],
-              "schemaId": "1f4e3697-52bc-45d9-a7a8-65862c13ce4b",
-              "schemaName": "carousel"
-            }
-          ]
-        },
-        "unit": {
-          "en": {
-            "locations": [],
-            "schemaId": "2bd4ee39-8e6e-4128-9f08-a049cce49f23",
-            "schemaName": "unit",
-            "short": "PORTRAITS D\u0027ESPACES - \u00C0 propos de ce que les artist-run spaces ont \u00E0 dire d\u0027eux m\u00EAme",
-            "tags": [
-              "programmation",
-              "accueil"
-            ],
-            "temporal": [
-              {
-                "date": null,
-                "datetime": null,
-                "description": "2025"
-              }
-            ],
-            "text": "\u003Cp\u003EDans le cadre d\u0027un TER (travaux d\u0027\u00E9tudes et de recherches) est exp\u00E9riment\u00E9 une nouvelle m\u00E9thodologie d\u2019enrichissement des donn\u00E9es textuelles pour d\u00E9couvrir des relations s\u00E9mantiques entre les \u003Cem\u003Eartist-run spaces\u003C/em\u003E et des axes de repr\u00E9sentation pour des visualisations interactives. \u003Cbr\u003E\u003Cbr\u003ESur l\u0027ann\u00E9e des \u00E9tudiants en master1 MIASHS ((Math\u00E9matiques et Informatiques Appliqu\u00E9es aux Sciences Humaines et Sociales, UFR6) \u00E0 l\u0027Universit\u00E9 Paul Valery, travaillent sur les donn\u00E9es du site \u003Ca target=\u0022_blank\u0022 href=\u0022//artist-run-spaces.org\u0022 rel=\u0022noopener noreferrer nofollow\u0022 data-link-auto=\u0022\u0022\u003E\u003Cstrong\u003Eartist-run-spaces.org\u003C/strong\u003E\u003C/a\u003E. Ils sont encadr\u00E9s par Fran\u00E7ois-David Collin, ing\u00E9nieur de recherche au CNRS \u00E0 l\u0027institut de Math\u00E9matique Alexander Grothendieck et Sabrina Issa, artiste, fondatrice de l\u0027initiative artist-run-spaces.org.\u003C/p\u003E",
-            "title": "MIASHS X artist-run-spaces.org"
-          },
-          "fr": {
-            "locations": [],
-            "schemaId": "2bd4ee39-8e6e-4128-9f08-a049cce49f23",
-            "schemaName": "unit",
-            "short": "PORTRAITS D\u0027ESPACES - \u00C0 propos de ce que les artist-run spaces ont \u00E0 dire d\u0027eux m\u00EAme",
-            "tags": [
-              "programmation",
-              "accueil"
-            ],
-            "temporal": [
-              {
-                "date": null,
-                "datetime": null,
-                "description": "2025"
-              }
-            ],
-            "text": "\u003Cp\u003EDans le cadre d\u0027un TER (travaux d\u0027\u00E9tudes et de recherches) est exp\u00E9riment\u00E9 une nouvelle m\u00E9thodologie d\u2019enrichissement des donn\u00E9es textuelles pour d\u00E9couvrir des relations s\u00E9mantiques entre les \u003Cem\u003Eartist-run spaces\u003C/em\u003E et des axes de repr\u00E9sentation pour des visualisations interactives. \u003Cbr\u003E\u003Cbr\u003ESur l\u0027ann\u00E9e des \u00E9tudiants en master1 MIASHS ((Math\u00E9matiques et Informatiques Appliqu\u00E9es aux Sciences Humaines et Sociales, UFR6) \u00E0 l\u0027Universit\u00E9 Paul Valery, travaillent sur les donn\u00E9es du site \u003Ca target=\u0022_blank\u0022 href=\u0022//artist-run-spaces.org\u0022 rel=\u0022noopener noreferrer nofollow\u0022 data-link-auto=\u0022\u0022\u003E\u003Cstrong\u003Eartist-run-spaces.org\u003C/strong\u003E\u003C/a\u003E. Ils sont encadr\u00E9s par Fran\u00E7ois-David Collin, ing\u00E9nieur de recherche au CNRS \u00E0 l\u0027institut de Math\u00E9matique Alexander Grothendieck et Sabrina Issa, artiste, fondatrice de l\u0027initiative artist-run-spaces.org.\u003C/p\u003E",
-            "title": "MIASHS X artist-run-spaces.org"
-          }
-        }
-      },
-      "editToken": "eyJhIjoiZWNob3RvbmUiLCJzIjoicGFnZSIsImkiOiIyNjk4ZTA2OS04ZGFjLTQ4ZjctYTZjZS1iYTQzZjNiMzU2MTMiLCJ1IjoiaHR0cHM6Ly9sYWFiLmRkbnMubmV0OjM4MDgwLyJ9",
-      "id": "2698e069-8dac-48f7-a6ce-ba43f3b35613",
-      "isDeleted": false,
-      "lastModified": "2025-03-31T16:58:00Z",
-      "lastModifiedBy": "subject:6798df7c5b784ee7b7cb52e1",
-      "schemaDisplayName": "Page",
-      "schemaId": "d0379b0e-294e-4df6-9b2b-257b807b1467",
-      "schemaName": "page",
-      "status": "Published",
-      "statusColor": "#4bb958",
-      "version": 7
-    },
-    {
-      "_links": {
-        "delete": {
-          "href": "/api/content/echotone/page/dd3c3fe6-0103-4fea-b5e8-1ea714f36308",
-          "method": "DELETE"
-        },
-        "draft/create": {
-          "href": "/api/content/echotone/page/dd3c3fe6-0103-4fea-b5e8-1ea714f36308/draft",
-          "method": "POST"
-        },
-        "previous": {
-          "href": "/api/content/echotone/page/dd3c3fe6-0103-4fea-b5e8-1ea714f36308/12",
-          "method": "GET"
-        },
-        "self": {
-          "href": "/api/content/echotone/page/dd3c3fe6-0103-4fea-b5e8-1ea714f36308",
-          "method": "GET"
-        }
-      },
-      "created": "2025-03-03T18:44:15Z",
-      "createdBy": "subject:6798df7c5b784ee7b7cb52e1",
-      "data": {
-        "id": {
-          "iv": "n-u-collectif-resident-2025"
-        },
-        "medias": {
-          "iv": [
-            {
-              "in": true,
-              "medias": [
-                "0f4cebd8-4ac8-4981-9191-606f15c0c071",
-                "886d5858-de03-4c6e-98da-af702becb52f",
-                "06e2409b-c114-4c21-a62c-0d54883a1f36",
-                "39259620-aceb-4686-860e-0012c6c224a8",
-                "46663c11-bb31-4898-bc75-14691d775370",
-                "ec577ccc-88ff-4922-a1b0-d438b6c7f380",
-                "a42e073b-789c-420d-932f-d3beee9b24c0",
-                "dbb60eaf-fcb9-4e60-a45a-195209811695",
-                "6bc195a2-26f0-4e18-bfcf-39c18db9775e",
-                "4cb0e23e-4cdd-42c9-8b4f-cccaaa01f7c5"
-              ],
-              "schemaId": "1f4e3697-52bc-45d9-a7a8-65862c13ce4b",
-              "schemaName": "carousel"
-            }
-          ]
-        },
-        "unit": {
-          "en": {
-            "locations": [],
-            "schemaId": "2bd4ee39-8e6e-4128-9f08-a049cce49f23",
-            "schemaName": "unit",
-            "short": "La R\u00E9publique des Autres",
-            "tags": [
-              "accueil",
-              "programmation",
-              "actu"
-            ],
-            "temporal": [
-              {
-                "date": null,
-                "datetime": "2025-03-11T18:00:00Z",
-                "description": "Concert"
-              },
-              {
-                "date": null,
-                "datetime": "2025-04-16T17:00:00Z",
-                "description": "Installation plastique et sonore"
-              }
-            ],
-            "text": "\u003Cp\u003EDe 2020 \u00E0 2024,\u0026nbsp;\u003Cem\u003EEspaces Vivants\u003C/em\u003E\u0026nbsp;a \u00E9t\u00E9 un laboratoire nomade et inclusif, rassemblant plus de\u0026nbsp;2 300 participant\u00B7e\u00B7s\u0026nbsp;entre le Gard et l\u2019H\u00E9rault, aussi bien sur sc\u00E8ne que dans des centres d\u2019art.\u0026nbsp;\u003C/p\u003E\u003Cp\u003E\u003Ca target=\u0022_blank\u0022 href=\u0022https://space.us10.list-manage.com/track/click?u=0b2288db6750688a467a9eece\u0026amp;id=f8be5c5a19\u0026amp;e=1d7b5c154d\u0022 rel=\u0022noopener noreferrer nofollow\u0022\u003E\u003Cu\u003EN.U\u0026nbsp;Collectif\u003C/u\u003E\u003C/a\u003E, Nos Urgences Collectif\u0026nbsp;prolonge cette dynamique\u0026nbsp;\u003Cstrong\u003Eimmersive et participative\u003C/strong\u003E\u0026nbsp;\u00E0 travers\u0026nbsp;un nouveau cycle de recherche, \u003Cstrong\u003Eune exp\u00E9rience hybride\u003C/strong\u003E\u0026nbsp;o\u00F9 se croisent po\u00E9sie sonore, musique improvis\u00E9e, performance et th\u00E9\u00E2tre instrumental. Cette exploration interroge les impulsions cr\u00E9atives qui pr\u00E9c\u00E8dent le langage et donne naissance \u00E0\u0026nbsp;\u003Cstrong\u003Eun lexique sensible des \u00E9motion\u003C/strong\u003Es.\u003C/p\u003E\u003Cp\u003EEn r\u00E9unissant des adultes porteur\u00B7euse\u00B7s de troubles du spectre autistique, des personnes en situation de vuln\u00E9rabilit\u00E9, leurs proches, des soignant\u00B7e\u00B7s et des habitant\u00B7e\u00B7s,\u0026nbsp;\u003Cstrong\u003Eelle fa\u00E7onne une micro-soci\u00E9t\u00E9\u003C/strong\u003E\u0026nbsp;artistique et sociale en perp\u00E9tuel mouvement.\u003C/p\u003E\u003Cp\u003E\u003Cbr\u003E\u003Cstrong\u003ERETROUVEZ-LES \u00C0 \u00C9CHOTONE !\u003C/strong\u003E\u003C/p\u003E\u003Cul\u003E\u003Cli\u003E\u003Cp\u003E\u003Cstrong\u003EJeudi 27 f\u00E9vrier \u00E0 19h\u003C/strong\u003E - Lecture sonore\u003C/p\u003E\u003C/li\u003E\u003Cli\u003E\u003Cp\u003E\u003Cstrong\u003EMardi 11 mars \u00E0 19h\u003C/strong\u003E \u0026nbsp;- Concert\u003C/p\u003E\u003C/li\u003E\u003Cli\u003E\u003Cp\u003E\u003Cstrong\u003EMercredi 21 mai \u00E0 19h30\u003C/strong\u003E - Installation plastique et sonore\u003C/p\u003E\u003C/li\u003E\u003C/ul\u003E\u003Cp\u003E\u0026nbsp;\u003C/p\u003E\u003Cp\u003EN.U Collectif est accompagn\u00E9s par\u0026nbsp;\u003Ca target=\u0022_blank\u0022 href=\u0022https://space.us10.list-manage.com/track/click?u=0b2288db6750688a467a9eece\u0026amp;id=32e255a271\u0026amp;e=1d7b5c154d\u0022 rel=\u0022noopener noreferrer nofollow\u0022\u003E\u003Cstrong\u003E\u003Cu\u003EAnna Kerekes\u003C/u\u003E\u003C/strong\u003E\u003C/a\u003E\u003Cstrong\u003E,\u003C/strong\u003E\u0026nbsp;critique d\u2019art et commissaire d\u2019exposition, enseignante \u00E0 l\u2019\u00C9cole Sup\u00E9rieure des Beaux-Arts de N\u00EEmes ; et poursuit\u0026nbsp;ses collaborations avec Le\u0026nbsp;\u003Cstrong\u003ELieu de Vie Tentative\u003C/strong\u003E\u0026nbsp;\u00E0 Saint-Hippolyte-du-Fort,\u003Cstrong\u003E\u0026nbsp;\u003C/strong\u003E\u003Ca target=\u0022_blank\u0022 href=\u0022https://space.us10.list-manage.com/track/click?u=0b2288db6750688a467a9eece\u0026amp;id=0200e7377e\u0026amp;e=1d7b5c154d\u0022 rel=\u0022noopener noreferrer nofollow\u0022\u003E\u003Cstrong\u003E\u003Cu\u003ELa Bulle Bleue\u003C/u\u003E\u003C/strong\u003E\u003C/a\u003E, E.S.A.T Artistique et\u0026nbsp;\u003Ca target=\u0022_blank\u0022 href=\u0022https://space.us10.list-manage.com/track/click?u=0b2288db6750688a467a9eece\u0026amp;id=7b53714e27\u0026amp;e=1d7b5c154d\u0022 rel=\u0022noopener noreferrer nofollow\u0022\u003E\u003Cstrong\u003E\u003Cu\u003ELes Ateliers Kennedy\u003C/u\u003E\u003C/strong\u003E\u003C/a\u003E\u0026nbsp;E.S.A.T \u00E0 Montpellier.\u003Cbr\u003E\u003Cbr\u003EAvec pour le \u003Cstrong\u003EN.U Collectif\u003C/strong\u003E,\u0026nbsp;\u003Cstrong\u003EAXELLE CARRUZZO\u003C/strong\u003E, Metteure en sc\u00E8ne et performeuse, \u003Cstrong\u003EMATHIAS BEYLER\u003C/strong\u003E, Metteur en sc\u00E8ne et constructeur sonore, \u003Cstrong\u003EM\u00C9LAINE BLOT\u003C/strong\u003E, Com\u00E9dien - ESAT La Bulle Bleue, \u003Cstrong\u003ES\u00C9BASTIEN LENTH\u00C9RIC\u003C/strong\u003E, Metteur en sc\u00E8ne et performeur, \u003Cstrong\u003EGABRIELE PAUPINI\u003C/strong\u003E,\u0026nbsp;Auteur, \u003Cstrong\u003EAUR\u00C9LIE PIAU\u003C/strong\u003E, Plasticienne,\u0026nbsp;\u003Cstrong\u003EJEAN CAGNARD\u003C/strong\u003E, Auteur, \u003Cstrong\u003EANTHONY GROS-AUDIBERT\u003C/strong\u003E, Performeur - ESAT Ateliers Kennedy, \u003Cstrong\u003ECL\u00C9MENT POTIER\u003C/strong\u003E - ESAT La Bulle Bleue, R\u00E9gisseur lumi\u00E8re,\u0026nbsp;\u003Cstrong\u003EBERTRAND WOLFF\u003C/strong\u003E, Compositeur et musicien, \u003Cstrong\u003EBOLOLIPSUM\u003C/strong\u003E, Musicien et beatmaker.\u003C/p\u003E",
-            "title": "N.U Collectif \u261E R\u00E9sident 2025"
-          },
-          "fr": {
-            "locations": [],
-            "schemaId": "2bd4ee39-8e6e-4128-9f08-a049cce49f23",
-            "schemaName": "unit",
-            "short": "La R\u00E9publique des Autres",
-            "tags": [
-              "accueil",
-              "programmation",
-              "actu"
-            ],
-            "temporal": [
-              {
-                "date": null,
-                "datetime": "2025-03-11T18:00:00Z",
-                "description": "Concert"
-              },
-              {
-                "date": null,
-                "datetime": "2025-04-16T17:00:00Z",
-                "description": "Installation plastique et sonore"
-              }
-            ],
-            "text": "\u003Cp\u003EDe 2020 \u00E0 2024,\u0026nbsp;\u003Cem\u003EEspaces Vivants\u003C/em\u003E\u0026nbsp;a \u00E9t\u00E9 un laboratoire nomade et inclusif, rassemblant plus de\u0026nbsp;2 300 participant\u00B7e\u00B7s\u0026nbsp;entre le Gard et l\u2019H\u00E9rault, aussi bien sur sc\u00E8ne que dans des centres d\u2019art.\u0026nbsp;\u003C/p\u003E\u003Cp\u003E\u003Ca target=\u0022_blank\u0022 href=\u0022https://space.us10.list-manage.com/track/click?u=0b2288db6750688a467a9eece\u0026amp;id=f8be5c5a19\u0026amp;e=1d7b5c154d\u0022 rel=\u0022noopener noreferrer nofollow\u0022\u003E\u003Cu\u003EN.U\u0026nbsp;Collectif\u003C/u\u003E\u003C/a\u003E, Nos Urgences Collectif\u0026nbsp;prolonge cette dynamique\u0026nbsp;\u003Cstrong\u003Eimmersive et participative\u003C/strong\u003E\u0026nbsp;\u00E0 travers\u0026nbsp;un nouveau cycle de recherche, \u003Cstrong\u003Eune exp\u00E9rience hybride\u003C/strong\u003E\u0026nbsp;o\u00F9 se croisent po\u00E9sie sonore, musique improvis\u00E9e, performance et th\u00E9\u00E2tre instrumental. Cette exploration interroge les impulsions cr\u00E9atives qui pr\u00E9c\u00E8dent le langage et donne naissance \u00E0\u0026nbsp;\u003Cstrong\u003Eun lexique sensible des \u00E9motion\u003C/strong\u003Es.\u003C/p\u003E\u003Cp\u003EEn r\u00E9unissant des adultes porteur\u00B7euse\u00B7s de troubles du spectre autistique, des personnes en situation de vuln\u00E9rabilit\u00E9, leurs proches, des soignant\u00B7e\u00B7s et des habitant\u00B7e\u00B7s,\u0026nbsp;\u003Cstrong\u003Eelle fa\u00E7onne une micro-soci\u00E9t\u00E9\u003C/strong\u003E\u0026nbsp;artistique et sociale en perp\u00E9tuel mouvement.\u003C/p\u003E\u003Cp\u003E\u003Cbr\u003E\u003Cstrong\u003ERETROUVEZ-LES \u00C0 \u00C9CHOTONE !\u003C/strong\u003E\u003C/p\u003E\u003Cul\u003E\u003Cli\u003E\u003Cp\u003E\u003Cstrong\u003EJeudi 27 f\u00E9vrier \u00E0 19h\u003C/strong\u003E - Lecture sonore\u003C/p\u003E\u003C/li\u003E\u003Cli\u003E\u003Cp\u003E\u003Cstrong\u003EMardi 11 mars \u00E0 19h\u003C/strong\u003E \u0026nbsp;- Concert\u003C/p\u003E\u003C/li\u003E\u003Cli\u003E\u003Cp\u003E\u003Cstrong\u003EMercredi 21 mai \u00E0 19h30\u003C/strong\u003E - Installation plastique et sonore\u003C/p\u003E\u003C/li\u003E\u003C/ul\u003E\u003Cp\u003E\u0026nbsp;\u003C/p\u003E\u003Cp\u003EN.U Collectif est accompagn\u00E9s par\u0026nbsp;\u003Ca target=\u0022_blank\u0022 href=\u0022https://space.us10.list-manage.com/track/click?u=0b2288db6750688a467a9eece\u0026amp;id=32e255a271\u0026amp;e=1d7b5c154d\u0022 rel=\u0022noopener noreferrer nofollow\u0022\u003E\u003Cstrong\u003E\u003Cu\u003EAnna Kerekes\u003C/u\u003E\u003C/strong\u003E\u003C/a\u003E\u003Cstrong\u003E,\u003C/strong\u003E\u0026nbsp;critique d\u2019art et commissaire d\u2019exposition, enseignante \u00E0 l\u2019\u00C9cole Sup\u00E9rieure des Beaux-Arts de N\u00EEmes ; et poursuit\u0026nbsp;ses collaborations avec Le\u0026nbsp;\u003Cstrong\u003ELieu de Vie Tentative\u003C/strong\u003E\u0026nbsp;\u00E0 Saint-Hippolyte-du-Fort,\u003Cstrong\u003E\u0026nbsp;\u003C/strong\u003E\u003Ca target=\u0022_blank\u0022 href=\u0022https://space.us10.list-manage.com/track/click?u=0b2288db6750688a467a9eece\u0026amp;id=0200e7377e\u0026amp;e=1d7b5c154d\u0022 rel=\u0022noopener noreferrer nofollow\u0022\u003E\u003Cstrong\u003E\u003Cu\u003ELa Bulle Bleue\u003C/u\u003E\u003C/strong\u003E\u003C/a\u003E, E.S.A.T Artistique et\u0026nbsp;\u003Ca target=\u0022_blank\u0022 href=\u0022https://space.us10.list-manage.com/track/click?u=0b2288db6750688a467a9eece\u0026amp;id=7b53714e27\u0026amp;e=1d7b5c154d\u0022 rel=\u0022noopener noreferrer nofollow\u0022\u003E\u003Cstrong\u003E\u003Cu\u003ELes Ateliers Kennedy\u003C/u\u003E\u003C/strong\u003E\u003C/a\u003E\u0026nbsp;E.S.A.T \u00E0 Montpellier.\u003Cbr\u003E\u003Cbr\u003EAvec pour le \u003Cstrong\u003EN.U Collectif\u003C/strong\u003E,\u0026nbsp;\u003Cstrong\u003EAXELLE CARRUZZO\u003C/strong\u003E, Metteure en sc\u00E8ne et performeuse, \u003Cstrong\u003EMATHIAS BEYLER\u003C/strong\u003E, Metteur en sc\u00E8ne et constructeur sonore, \u003Cstrong\u003EM\u00C9LAINE BLOT\u003C/strong\u003E, Com\u00E9dien - ESAT La Bulle Bleue, \u003Cstrong\u003ES\u00C9BASTIEN LENTH\u00C9RIC\u003C/strong\u003E, Metteur en sc\u00E8ne et performeur, \u003Cstrong\u003EGABRIELE PAUPINI\u003C/strong\u003E,\u0026nbsp;Auteur, \u003Cstrong\u003EAUR\u00C9LIE PIAU\u003C/strong\u003E, Plasticienne,\u0026nbsp;\u003Cstrong\u003EJEAN CAGNARD\u003C/strong\u003E, Auteur, \u003Cstrong\u003EANTHONY GROS-AUDIBERT\u003C/strong\u003E, Performeur - ESAT Ateliers Kennedy, \u003Cstrong\u003ECL\u00C9MENT POTIER\u003C/strong\u003E - ESAT La Bulle Bleue, R\u00E9gisseur lumi\u00E8re,\u0026nbsp;\u003Cstrong\u003EBERTRAND WOLFF\u003C/strong\u003E, Compositeur et musicien, \u003Cstrong\u003EBOLOLIPSUM\u003C/strong\u003E, Musicien et beatmaker.\u003C/p\u003E",
-            "title": "N.U Collectif \u261E R\u00E9sident 2025"
-          }
-        }
-      },
-      "editToken": "eyJhIjoiZWNob3RvbmUiLCJzIjoicGFnZSIsImkiOiJkZDNjM2ZlNi0wMTAzLTRmZWEtYjVlOC0xZWE3MTRmMzYzMDgiLCJ1IjoiaHR0cHM6Ly9sYWFiLmRkbnMubmV0OjM4MDgwLyJ9",
-      "id": "dd3c3fe6-0103-4fea-b5e8-1ea714f36308",
-      "isDeleted": false,
-      "lastModified": "2025-03-31T16:56:19Z",
-      "lastModifiedBy": "subject:6798df7c5b784ee7b7cb52e1",
-      "schemaDisplayName": "Page",
-      "schemaId": "d0379b0e-294e-4df6-9b2b-257b807b1467",
-      "schemaName": "page",
-      "status": "Published",
-      "statusColor": "#4bb958",
-      "version": 13
     },
     {
       "_links": {
@@ -1394,104 +1670,6 @@
       "status": "Published",
       "statusColor": "#4bb958",
       "version": 7
-    },
-    {
-      "_links": {
-        "delete": {
-          "href": "/api/content/echotone/page/6cbf1356-f196-4edf-9ce9-a1f9b43d3f66",
-          "method": "DELETE"
-        },
-        "draft/create": {
-          "href": "/api/content/echotone/page/6cbf1356-f196-4edf-9ce9-a1f9b43d3f66/draft",
-          "method": "POST"
-        },
-        "previous": {
-          "href": "/api/content/echotone/page/6cbf1356-f196-4edf-9ce9-a1f9b43d3f66/5",
-          "method": "GET"
-        },
-        "self": {
-          "href": "/api/content/echotone/page/6cbf1356-f196-4edf-9ce9-a1f9b43d3f66",
-          "method": "GET"
-        }
-      },
-      "created": "2025-03-03T20:39:01Z",
-      "createdBy": "subject:6798df7c5b784ee7b7cb52e1",
-      "data": {
-        "id": {
-          "iv": "dorota-buczkowska-residente-2024"
-        },
-        "medias": {
-          "iv": [
-            {
-              "in": true,
-              "medias": [
-                "5e0c7a23-dd11-4fec-a18f-cea263585da0",
-                "8df9bac3-38f2-4957-bc1d-b2e3ea42a55d",
-                "8cb7feec-bc60-4a9b-a5bd-527dc3707c77",
-                "6a56e25f-4d67-48ac-8ae3-6c6944500040",
-                "4b89095f-631a-408c-b991-e95b12e4af8f",
-                "233ce956-c100-44ef-b697-d5b9ab0013c5",
-                "1d8fcca2-a5c2-44b3-b0fe-cf249dd2f8f6",
-                "4aa77dee-7a1e-4d50-9661-0c4541e1ec47",
-                "a12cf3b4-ef2b-4efa-b3a0-b88f0b957963",
-                "08759e09-300f-4c3a-b216-51c3db6a320e",
-                "de7e6c1d-a89b-4bcc-b7e2-85b6ae07d870"
-              ],
-              "schemaId": "1f4e3697-52bc-45d9-a7a8-65862c13ce4b",
-              "schemaName": "carousel"
-            }
-          ]
-        },
-        "unit": {
-          "en": {
-            "locations": [],
-            "schemaId": "2bd4ee39-8e6e-4128-9f08-a049cce49f23",
-            "schemaName": "unit",
-            "short": "Caisse de Ward - Correspondance",
-            "tags": [
-              "programmation"
-            ],
-            "temporal": [
-              {
-                "date": null,
-                "datetime": null,
-                "description": "2025"
-              }
-            ],
-            "text": null,
-            "title": "Dorota Buczkowska \u261E R\u00E9sidente 2024"
-          },
-          "fr": {
-            "locations": [],
-            "schemaId": "2bd4ee39-8e6e-4128-9f08-a049cce49f23",
-            "schemaName": "unit",
-            "short": "Caisse de Ward - Correspondance",
-            "tags": [
-              "programmation"
-            ],
-            "temporal": [
-              {
-                "date": null,
-                "datetime": null,
-                "description": "2025"
-              }
-            ],
-            "text": null,
-            "title": "Dorota Buczkowska \u261E R\u00E9sidente 2024"
-          }
-        }
-      },
-      "editToken": "eyJhIjoiZWNob3RvbmUiLCJzIjoicGFnZSIsImkiOiI2Y2JmMTM1Ni1mMTk2LTRlZGYtOWNlOS1hMWY5YjQzZDNmNjYiLCJ1IjoiaHR0cHM6Ly9sYWFiLmRkbnMubmV0OjM4MDgwLyJ9",
-      "id": "6cbf1356-f196-4edf-9ce9-a1f9b43d3f66",
-      "isDeleted": false,
-      "lastModified": "2025-03-08T21:24:45Z",
-      "lastModifiedBy": "subject:6798dad0167d31fb8ec7cc74",
-      "schemaDisplayName": "Page",
-      "schemaId": "d0379b0e-294e-4df6-9b2b-257b807b1467",
-      "schemaName": "page",
-      "status": "Published",
-      "statusColor": "#4bb958",
-      "version": 6
     }
   ],
   "statuses": [
@@ -1508,5 +1686,5 @@
       "status": "Published"
     }
   ],
-  "total": 14
+  "total": 16
 }
