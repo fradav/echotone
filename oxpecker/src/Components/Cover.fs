@@ -152,7 +152,7 @@ module Cover =
         let caption, pagevideos = getVideos page
         div(class' = "grid justify-center place-items-center gap-10 my-10") {
             if (caption.IsSome) then
-                div() { p(class' = "px-20 text-sm") { caption.Value :?> string } }
+                div() { p(class' = "px-20 text-sm") { caption.Value } }
             else
                 div()
             For(each = Array.ofSeq pagevideos) {
