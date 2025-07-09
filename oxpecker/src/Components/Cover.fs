@@ -32,7 +32,7 @@ module Cover =
 
     let getMediasCover (page: PagesT.Items) =
         page.data.medias.iv
-        |> Seq.filter _.``in``
+        |> Seq.filter(fun x -> not(isNull(x.``in``)))
         |> Seq.collect _.medias
         |> Seq.filter(fun x -> mapSlugAssets[x].``type`` = AssetType.Image)
 
