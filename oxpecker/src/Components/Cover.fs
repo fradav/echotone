@@ -32,7 +32,7 @@ module Cover =
 
     let getMediasCover (page: PagesT.Items) =
         page.data.medias.iv
-        |> Seq.filter _.``in``
+        |> Seq.filter(fun x -> not(isNull(x.``in``)))
         |> Seq.collect _.medias
         |> Seq.filter(fun x -> mapSlugAssets[x].``type`` = AssetType.Image)
 
@@ -152,7 +152,7 @@ module Cover =
         let caption, pagevideos = getVideos page
         div(class' = "grid justify-center place-items-center gap-10 my-10") {
             if (caption.IsSome) then
-                div() { p(class' = "px-20 text-sm") { caption.Value } }
+                div() { p(class' = "px-20 text-sm") { string caption.Value } }
             else
                 div()
             For(each = Array.ofSeq pagevideos) {

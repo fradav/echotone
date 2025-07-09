@@ -43,8 +43,8 @@ let mapSlugAssets =
                     s3slugs?(item.slug)
                 else
                     "medias/" + item.slug
-            width = item.metadata.pixelWidth
-            height = item.metadata.pixelHeight
+            width = item.metadata?pixelWidth
+            height = item.metadata?pixelHeight
             thumbnail = "medias/thumbnails/" + item.slug |> Some
             ``type`` = fileTypeToAssetType item.mimeType
         })
