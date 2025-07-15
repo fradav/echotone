@@ -144,7 +144,14 @@ let getPagesForTopic (taggedtopic: TaggedTopic) =
         pagesForTopic
         |> Seq.filter(fun (_, date) -> date < now)
         |> Seq.sortByDescending(fun (_, date) -> date)
-    Seq.append futureEvents pastEvents |> Seq.map fst
+    let noDatepages =
+        pages.items
+        |> Seq.filter(fun page -> page.data.unit.fr.tags |> Seq.contains(snd navTaggedItems[taggedtopic]))
+        |> Seq.choose(fun page ->
+            match Option.isNone(getPageDate page) with
+            | true -> Some page
+            | false -> None)
+    Seq.append (futureEvents |> Seq.map fst) (Seq.append noDatepages (pastEvents |> Seq.map fst))
 let getPageBySlug (slug: string) =
     pages.items |> Seq.tryFind(fun page -> page.data.id.iv = slug)
 
