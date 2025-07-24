@@ -43,11 +43,18 @@ let taggedPages (taggedtopic: TaggedTopic) () : HtmlElement = Masonry(getPagesFo
 
 [<SolidComponent>]
 let makePage (page: PagesT.Items) : HtmlElement =
-    Fragment() {
-        CoverFlow page
-        SolidUnit page.data.unit.fr
-        Videos page
-    }
+    let noMedia = page |> getMedias |> Seq.isEmpty
+    if noMedia then
+        Fragment() {
+            Videos page
+            SolidUnit page.data.unit.fr
+        }
+    else
+        Fragment() {
+            CoverFlow page
+            SolidUnit page.data.unit.fr
+            Videos page
+        }
 
 let delay, setDelay = createSignal false
 let transition, setTransition = createSignal false

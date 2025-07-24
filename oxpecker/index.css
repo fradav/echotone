@@ -1,4 +1,5 @@
 @import url(https://db.onlinewebfonts.com/c/d02befc8fdd8e5315fb21fa7f38fd55a?family=Shree+Devanagari+714);
+@import url(https://db.onlinewebfonts.com/c/6c8668bcbf5ffda0931f0fedcf2977a9?family=Kohinoor+W00+Demi);
 @import 'tailwindcss';
 @source "src/**/*.jsx";
 @source "src/**/*.fs";
@@ -98,6 +99,10 @@
     }
     p {
       @apply mx-auto text-lg mt-2 max-w-2xl text-justify;
+    }
+    strong {
+      font-family: 'Kohinoor W00 Demi';
+      @apply font-bold;
     }
   }
 
