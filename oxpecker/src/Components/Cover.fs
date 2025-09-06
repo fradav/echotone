@@ -38,7 +38,7 @@ module Cover =
 
     let getMedias (page: PagesT.Items) =
         page.data.medias.iv
-        |> Seq.filter(_.``inslides`` >> not)
+        |> Seq.filter(fun x -> not(unbox<bool> x.``inslides``))
         |> Seq.collect _.medias
         |> Seq.filter(fun x -> mapSlugAssets[x].``type`` = AssetType.Image)
 

@@ -127,6 +127,7 @@ let getPageDate (page: PagesT.Items) =
     page.data.unit.fr.temporal
     |> Array.choose getDateTimeFromTemporal
     |> Array.sort
+    |> Array.rev
     |> Array.tryHead
 
 // Fonctions utiles pour récupérer les pages
