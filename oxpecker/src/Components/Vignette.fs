@@ -58,7 +58,8 @@ module Page =
         | _ -> None
 
     let formatRange (dp: PagesT.Items.Data.Unit.Fr.Temporal array) =
-        match dp with
+        printfn "%A" dp
+        match dp[0..1] with
         | [| d1; d2 |] ->
             let d1 = formatDate d1
             let d2 = formatDate d2
@@ -66,6 +67,19 @@ module Page =
             | Some d1, Some d2 -> Some $"Du {d1} au {d2}"
             | _ -> None
         | _ -> None
+
+    [<SolidComponent>]
+    let ListDates (dates: PagesT.Items.Data.Unit.Fr.Temporal array) : HtmlElement =
+        Fragment() {
+            For(each = (dates |> Array.choose(fun d -> formatSimpleDate d (formatDate d)))) {
+                yield
+                    fun temporal index ->
+                        div(class' = "text-gray-400 temporal") {
+                            // "👁️‍🗨️ " + (temporal?datetime: DateTime).toLocaleDateString(formaDatetOptions)
+                            "👁️‍🗨️ " + temporal
+                        }
+            }
+        }
 
     [<SolidComponent>]
     let Vignette w (page: PagesT.Items) : HtmlElement =
@@ -97,21 +111,9 @@ module Page =
                             // "👁️‍🗨️ " + (temporal?datetime: DateTime).toLocaleDateString(formaDatetOptions)
                             "👁️‍🗨️ " + (formatRange page.data.unit.fr.temporal).Value
                         }
+                        ListDates(page.data.unit.fr.temporal[2..])
                     }
-                    Match(when' = (page |> hasTemporalRange |> not)) {
-                        For(
-                            each =
-                                (page.data.unit.fr.temporal
-                                 |> Array.choose(fun d -> formatSimpleDate d (formatDate d)))
-                        ) {
-                            yield
-                                fun temporal index ->
-                                    div(class' = "text-gray-400 temporal") {
-                                        // "👁️‍🗨️ " + (temporal?datetime: DateTime).toLocaleDateString(formaDatetOptions)
-                                        "👁️‍🗨️ " + temporal
-                                    }
-                        }
-                    }
+                    Match(when' = (page |> hasTemporalRange |> not)) { ListDates(page.data.unit.fr.temporal) }
                 }
             // HyphenatedText() { div(innerHTML = page.data.unit.fr.text) }
             }

@@ -160,5 +160,5 @@ let isToBounce (page: PagesT.Items) =
     page.data.unit.fr.tags |> Seq.contains "actu"
 
 let hasTemporalRange (page: PagesT.Items) =
-    page.data.unit.fr.temporal |> Array.length = 2
+    page.data.unit.fr.temporal |> Array.length >= 2
     && page.data.unit.fr.tags |> Seq.contains "période"
