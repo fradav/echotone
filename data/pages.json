@@ -17,110 +17,6 @@
     {
       "_links": {
         "delete": {
-          "href": "/api/content/echotone/page/167f215a-ba41-450e-95af-61164c71ae16",
-          "method": "DELETE"
-        },
-        "draft/create": {
-          "href": "/api/content/echotone/page/167f215a-ba41-450e-95af-61164c71ae16/draft",
-          "method": "POST"
-        },
-        "previous": {
-          "href": "/api/content/echotone/page/167f215a-ba41-450e-95af-61164c71ae16/26",
-          "method": "GET"
-        },
-        "self": {
-          "href": "/api/content/echotone/page/167f215a-ba41-450e-95af-61164c71ae16",
-          "method": "GET"
-        }
-      },
-      "created": "2025-07-09T10:23:33Z",
-      "createdBy": "subject:6798df7c5b784ee7b7cb52e1",
-      "data": {
-        "id": {
-          "iv": "celine-courtault-capelier-ccc"
-        },
-        "medias": {
-          "iv": [
-            {
-              "caption": "",
-              "in": true,
-              "inslides": true,
-              "medias": [
-                "721b66e4-dfdb-4b50-94ea-aa5ab080aad7"
-              ],
-              "schemaId": "1f4e3697-52bc-45d9-a7a8-65862c13ce4b",
-              "schemaName": "carousel"
-            },
-            {
-              "caption": "Extrait du film-performance de l\u0027expostion FLEUR/JARDIN de C\u00E9line Courtault Capelier, captur\u00E9 sur le temps du vernissage le 6 juin 2025.",
-              "in": null,
-              "inslides": null,
-              "medias": [
-                "20586ef6-38b6-436f-a805-0d925fd51554"
-              ],
-              "schemaId": "1f4e3697-52bc-45d9-a7a8-65862c13ce4b",
-              "schemaName": "carousel"
-            }
-          ]
-        },
-        "unit": {
-          "en": {
-            "locations": [],
-            "schemaId": "2bd4ee39-8e6e-4128-9f08-a049cce49f23",
-            "schemaName": "unit",
-            "short": "Film-performance \u0026 Kl\u00FCb/Fl\u00FCb projections 16mm ",
-            "tags": [
-              "accueil",
-              "programmation",
-              "actu"
-            ],
-            "temporal": [
-              {
-                "date": "2025-07-19T00:00:00Z",
-                "datetime": null,
-                "description": "Au petit temple"
-              }
-            ],
-            "text": "\u003Cp\u003ESoir\u00E9e du 19 juillet 2025 au PETIT TEMPLE* \u00E0 GANGES\u003C/p\u003E\u003Cp\u003E\u003Cstrong\u003E20h - entr\u00E9e libre\u003C/strong\u003E\u003Cbr\u003E\u0026gt; R\u00E9activation du film-performance \u0027FLEUR/JARDIN\u0027\u003Cbr\u003Eavec Sylvia Monnier [musique, dispositif \u00E9lectroaccoustique aux images projet\u00E9es] \u00E9v\u00E8nement propos\u00E9 dans le cadre de l\u0027exposition de C\u00E9line Courtault Capelier.\u003Cbr\u003EExtrait\u0026nbsp;\u003Ca target=\u0022_blank\u0022 href=\u0022//youtu.be/1_4hSjqx-SU,\u0022 rel=\u0022noopener noreferrer nofollow\u0022 data-link-auto=\u0022\u0022\u003E\u003Cu\u003Eyoutu.be/1_4hSjqx-SU,\u003C/u\u003E\u003C/a\u003E\u003Ca target=\u0022_blank\u0022 href=\u0022https://youtu.be/1_4hSjqx-SU\u0022 rel=\u0022noopener noreferrer nofollow\u0022\u003E\u003Cu\u003E\u0026nbsp;\u003C/u\u003E\u003C/a\u003E\u003Cbr\u003E\u0022FLEUR/JARDIN\u0022 Performance \u003Cem\u003Eexpanded cinema\u003C/em\u003E\u003Cbr\u003ECaptation / montage : Laure Marc et Koray Topaktas\u003C/p\u003E\u003Cp\u003EEntracte ...\u003C/p\u003E\u003Cp\u003E\u003Cstrong\u003E21h30 - participation libre\u003C/strong\u003E\u003Cbr\u003E\u0026gt; CINE KL\u00DCB / FL\u00DCB programmation propos\u00E9e par C\u00E9line Courtault Capelier de courts m\u00E9trages en 16 mm en \u00E9cho avec l\u0027exposition \u002B dispositif propos\u00E9 au public (FL\u00DCB)\u003Cbr\u003EPlein air - Parvis du PETIT TEMPLE\u003Cbr\u003EProgrammation sur IG :\u0026nbsp;\u003Ca target=\u0022_blank\u0022 href=\u0022https://www.instagram.com/cine_klub_flub/\u0022 rel=\u0022noopener noreferrer nofollow\u0022 data-link-auto=\u0022\u0022\u003E\u003Cu\u003Ehttps://www.instagram.com/cine_klub_flub/\u003C/u\u003E\u003C/a\u003E\u003C/p\u003E\u003Cp\u003ELe cin\u00E9\u0026nbsp;\u003Cstrong\u003EKl\u00FCb\u0026nbsp;\u003C/strong\u003Epropose une programmation\u0026nbsp;\u00E9clectique de\u0026nbsp;court-m\u00E9trages ou de\u0026nbsp;long [animation, documentaire, exp\u00E9rimental, vid\u00E9o d\u0027art]\u0026nbsp;avec pour objectifs de faire d\u00E9couvrir des films\u0026nbsp;peu diffus\u00E9s et aller \u00E0 la rencontre de nouveaux publics.\u0026nbsp;\u003Cstrong\u003EProjet\u00E9s en\u0026nbsp;pellicule 16 mm,\u003C/strong\u003E\u0026nbsp;les projections ont lieu dans des lieux diff\u00E9rents \u00E0 chaque projection.\u003Cbr\u003ELe\u0026nbsp;\u003Cstrong\u003EFl\u00FCb\u0026nbsp;\u003C/strong\u003Eest un\u003Cstrong\u003E\u0026nbsp;dispositif exp\u00E9rimental,\u003C/strong\u003E\u0026nbsp;int\u00E9gr\u00E9 au cin\u00E9 Kl\u00FCb (court-m\u00E9trages), en\u0026nbsp;deuxi\u00E8me partie\u0026nbsp;\u003Cstrong\u003Eo\u00F9\u0026nbsp;le public\u0026nbsp;est invit\u00E9 \u00E0 improviser la bande son en direct\u003C/strong\u003E\u0026nbsp;(voix, musique, bruitage,...).\u003C/p\u003E\u003Cp\u003EExposition \u0027FLEUR/JARDIN\u0027 ouverte les vendredis et samedis de 10h \u00E0 18h et les dimanches de 10h \u00E0 14h. \u003Cbr\u003EEntr\u00E9e libre et gratuite\u003Cbr\u003E\u002Bd\u2019infos contact @echotone.space - 0677140583\u003Cbr\u003EIG : echotone__\u003Cbr\u003E\u003Cbr\u003E*Le Petit Temple est un lieu de culte protestant qui est confi\u00E9, du mois de juin \u00E0 septembre, \u00E0 l\u0027\u00E9quipe de \u00C9CHOTONE. Il est situ\u00E9 \u00E0 Ganges sur le plan de l\u0027ormeau (le b\u00E2timent est contigu au Grand Temple).\u003Cbr\u003E\u003Ca target=\u0022_blank\u0022 href=\u0022https://maps.app.goo.gl/ivEHoYgsYZQCT8E98\u0022 rel=\u0022noopener noreferrer nofollow\u0022\u003ELien google map\u003C/a\u003E\u003C/p\u003E\u003Cp\u003E\u003C/p\u003E",
-            "title": "C\u00E9line Courtault Capelier, CCC"
-          },
-          "fr": {
-            "locations": [],
-            "schemaId": "2bd4ee39-8e6e-4128-9f08-a049cce49f23",
-            "schemaName": "unit",
-            "short": "Film-performance \u0026 Kl\u00FCb/Fl\u00FCb projections 16mm ",
-            "tags": [
-              "accueil",
-              "programmation",
-              "actu"
-            ],
-            "temporal": [
-              {
-                "date": "2025-07-19T00:00:00Z",
-                "datetime": null,
-                "description": "Au petit temple"
-              }
-            ],
-            "text": "\u003Cp\u003ESoir\u00E9e du 19 juillet 2025 au PETIT TEMPLE* \u00E0 GANGES\u003C/p\u003E\u003Cp\u003E\u003Cstrong\u003E20h - entr\u00E9e libre\u003C/strong\u003E\u003Cbr\u003E\u0026gt; R\u00E9activation du film-performance \u0027FLEUR/JARDIN\u0027\u003Cbr\u003Eavec Sylvia Monnier [musique, dispositif \u00E9lectroaccoustique aux images projet\u00E9es] \u00E9v\u00E8nement propos\u00E9 dans le cadre de l\u0027exposition de C\u00E9line Courtault Capelier.\u003Cbr\u003EExtrait\u0026nbsp;\u003Ca target=\u0022_blank\u0022 href=\u0022//youtu.be/1_4hSjqx-SU,\u0022 rel=\u0022noopener noreferrer nofollow\u0022 data-link-auto=\u0022\u0022\u003E\u003Cu\u003Eyoutu.be/1_4hSjqx-SU,\u003C/u\u003E\u003C/a\u003E\u003Ca target=\u0022_blank\u0022 href=\u0022https://youtu.be/1_4hSjqx-SU\u0022 rel=\u0022noopener noreferrer nofollow\u0022\u003E\u003Cu\u003E\u0026nbsp;\u003C/u\u003E\u003C/a\u003E\u003Cbr\u003E\u0022FLEUR/JARDIN\u0022 Performance \u003Cem\u003Eexpanded cinema\u003C/em\u003E\u003Cbr\u003ECaptation / montage : Laure Marc et Koray Topaktas\u003C/p\u003E\u003Cp\u003EEntracte ...\u003C/p\u003E\u003Cp\u003E\u003Cstrong\u003E21h30 - participation libre\u003C/strong\u003E\u003Cbr\u003E\u0026gt; CINE KL\u00DCB / FL\u00DCB programmation propos\u00E9e par C\u00E9line Courtault Capelier de courts m\u00E9trages en 16 mm en \u00E9cho avec l\u0027exposition \u002B dispositif propos\u00E9 au public (FL\u00DCB)\u003Cbr\u003EPlein air - Parvis du PETIT TEMPLE\u003Cbr\u003EProgrammation sur IG :\u0026nbsp;\u003Ca target=\u0022_blank\u0022 href=\u0022https://www.instagram.com/cine_klub_flub/\u0022 rel=\u0022noopener noreferrer nofollow\u0022 data-link-auto=\u0022\u0022\u003E\u003Cu\u003Ehttps://www.instagram.com/cine_klub_flub/\u003C/u\u003E\u003C/a\u003E\u003C/p\u003E\u003Cp\u003ELe cin\u00E9\u0026nbsp;\u003Cstrong\u003EKl\u00FCb\u0026nbsp;\u003C/strong\u003Epropose une programmation\u0026nbsp;\u00E9clectique de\u0026nbsp;court-m\u00E9trages ou de\u0026nbsp;long [animation, documentaire, exp\u00E9rimental, vid\u00E9o d\u0027art]\u0026nbsp;avec pour objectifs de faire d\u00E9couvrir des films\u0026nbsp;peu diffus\u00E9s et aller \u00E0 la rencontre de nouveaux publics.\u0026nbsp;\u003Cstrong\u003EProjet\u00E9s en\u0026nbsp;pellicule 16 mm,\u003C/strong\u003E\u0026nbsp;les projections ont lieu dans des lieux diff\u00E9rents \u00E0 chaque projection.\u003Cbr\u003ELe\u0026nbsp;\u003Cstrong\u003EFl\u00FCb\u0026nbsp;\u003C/strong\u003Eest un\u003Cstrong\u003E\u0026nbsp;dispositif exp\u00E9rimental,\u003C/strong\u003E\u0026nbsp;int\u00E9gr\u00E9 au cin\u00E9 Kl\u00FCb (court-m\u00E9trages), en\u0026nbsp;deuxi\u00E8me partie\u0026nbsp;\u003Cstrong\u003Eo\u00F9\u0026nbsp;le public\u0026nbsp;est invit\u00E9 \u00E0 improviser la bande son en direct\u003C/strong\u003E\u0026nbsp;(voix, musique, bruitage,...).\u003C/p\u003E\u003Cp\u003EExposition \u0027FLEUR/JARDIN\u0027 ouverte les vendredis et samedis de 10h \u00E0 18h et les dimanches de 10h \u00E0 14h. \u003Cbr\u003EEntr\u00E9e libre et gratuite\u003Cbr\u003E\u002Bd\u2019infos contact @echotone.space - 0677140583\u003Cbr\u003EIG : echotone__\u003Cbr\u003E\u003Cbr\u003E*Le Petit Temple est un lieu de culte protestant qui est confi\u00E9, du mois de juin \u00E0 septembre, \u00E0 l\u0027\u00E9quipe de \u00C9CHOTONE. Il est situ\u00E9 \u00E0 Ganges sur le plan de l\u0027ormeau (le b\u00E2timent est contigu au Grand Temple).\u003Cbr\u003E\u003Ca target=\u0022_blank\u0022 href=\u0022https://maps.app.goo.gl/ivEHoYgsYZQCT8E98\u0022 rel=\u0022noopener noreferrer nofollow\u0022\u003ELien google map\u003C/a\u003E\u003C/p\u003E\u003Cp\u003E\u003C/p\u003E",
-            "title": "C\u00E9line Courtault Capelier, CCC"
-          }
-        }
-      },
-      "editToken": "eyJhIjoiZWNob3RvbmUiLCJzIjoicGFnZSIsImkiOiIxNjdmMjE1YS1iYTQxLTQ1MGUtOTVhZi02MTE2NGM3MWFlMTYiLCJ1IjoiaHR0cHM6Ly9sYWFiLmRkbnMubmV0OjM4MDgwLyJ9",
-      "id": "167f215a-ba41-450e-95af-61164c71ae16",
-      "isDeleted": false,
-      "lastModified": "2025-07-24T10:11:23Z",
-      "lastModifiedBy": "subject:6798dad0167d31fb8ec7cc74",
-      "schemaDisplayName": "Page",
-      "schemaId": "d0379b0e-294e-4df6-9b2b-257b807b1467",
-      "schemaName": "page",
-      "status": "Published",
-      "statusColor": "#4bb958",
-      "version": 27
-    },
-    {
-      "_links": {
-        "delete": {
           "href": "/api/content/echotone/page/8345413a-59a3-4722-af36-5c2c908edfa7",
           "method": "DELETE"
         },
@@ -129,7 +25,7 @@
           "method": "POST"
         },
         "previous": {
-          "href": "/api/content/echotone/page/8345413a-59a3-4722-af36-5c2c908edfa7/16",
+          "href": "/api/content/echotone/page/8345413a-59a3-4722-af36-5c2c908edfa7/29",
           "method": "GET"
         },
         "self": {
@@ -148,13 +44,20 @@
             {
               "caption": null,
               "in": true,
+              "inslides": null,
               "medias": [
                 "d32de003-98c0-44e6-97ed-5a69ff954207",
-                "6d7e9183-36dc-4261-b4fc-6d96ce8b8440",
-                "a25bb99e-80a0-406f-8281-140c7490e93e",
-                "78858c24-cfa6-4e4f-a602-d69510bf30c4",
-                "99c684c7-2b89-4cb2-91f7-d4bc0826dfdc",
-                "5242043b-e5a5-4176-9544-05136a0865c8"
+                "39361fea-8b73-4304-8ec4-3fd3bf052b7a",
+                "7e55b023-e400-4d6b-afd8-a5e245105394",
+                "5242043b-e5a5-4176-9544-05136a0865c8",
+                "1edc5768-2eaf-4dc3-976a-b34c6e53571a",
+                "02a51ed0-2bdd-45cf-8a3b-134d84b01cf4",
+                "ea2cd2d1-7d49-4927-9da5-98c6b959094c",
+                "70c20f87-2e19-40dd-ba19-e1a739e39f52",
+                "1482b376-add0-49fd-b65a-1ad723e486d3",
+                "a00d4cf7-6039-47bc-8b96-d915001423d3",
+                "f5f08369-831f-493d-9e4f-4a07aeecc26d",
+                "5d2ba236-68e4-4226-b860-7db3e434cedf"
               ],
               "schemaId": "1f4e3697-52bc-45d9-a7a8-65862c13ce4b",
               "schemaName": "carousel"
@@ -174,17 +77,22 @@
             ],
             "temporal": [
               {
-                "date": null,
-                "datetime": "2025-08-01T12:30:00Z",
+                "date": "2025-08-01T00:00:00Z",
+                "datetime": null,
                 "description": ""
               },
               {
                 "date": "2025-09-28T00:00:00Z",
                 "datetime": null,
-                "description": null
+                "description": ""
+              },
+              {
+                "date": null,
+                "datetime": "2025-09-28T15:00:00Z",
+                "description": "Visite d\u2019exposition et vernissage"
               }
             ],
-            "text": "\u003Cp\u003E\u003Cstrong\u003EDU 1ER AO\u00DBT AU 28 SEPTEMBRE 2025 au PETIT TEMPLE* \u00E0 GANGES\u003C/strong\u003E\u003C/p\u003E\u003Cp\u003E\u003Cstrong\u003E\u00C0 partir de 14h30 le vendredi 1er ao\u00FBt\u003C/strong\u003E \u003Cbr\u003Eouverture de l\u0027exposition\u003Cstrong\u003E\u003Cem\u003E \u003C/em\u003E\u003C/strong\u003Een pr\u00E9sence des artistes.\u003Cbr\u003E\u003Cbr\u003E\u00C0 l\u2019occasion de cette exposition, \u003Ca target=\u0022_blank\u0022 href=\u0022https://www.rebeccakonforti.com/\u0022 rel=\u0022noopener noreferrer nofollow\u0022\u003E\u003Cu\u003ERebecca Konforti \u003C/u\u003E\u003C/a\u003Eet \u003Ca target=\u0022_blank\u0022 href=\u0022https://romainruizpacouret.tumblr.com/\u0022 rel=\u0022noopener noreferrer nofollow\u0022\u003E\u003Cu\u003ERomain Ruiz-Pacouret\u003C/u\u003E\u003C/a\u003E, ont travaill\u00E9 en duo.\u003Cbr\u003EIls consid\u00E8rent que l\u2019individu doit exister en dehors du collectif, et leurs collaborations fonctionnent toujours comme la \u003Cstrong\u003Erencontre de leurs \u0153uvres respectives\u003C/strong\u003E.\u003Cbr\u003ELeurs m\u00E9diums de pr\u00E9dilection sont la \u003Cstrong\u003Epeinture et le dessin mural \u003C/strong\u003Equ\u0027ils peuvent appliquer sur des supports autonomes, ainsi que la gravure et l\u2019\u00E9criture avec lesquels ils produisent parfois des installations. Ils imaginent le monde comme une \u003Cstrong\u003Econstellation d\u2019espaces\u003C/strong\u003E en relation les uns avec les autres, et utilisent ce m\u00EAme principe d\u2019enchev\u00EAtrement dans leurs \u0153uvres.\u003Cbr\u003E\u003Cbr\u003EEntr\u00E9e libre, \u003Cbr\u003EOuverture de l\u0027exposition :\u003Cbr\u003E\u003Cstrong\u003ELes ven\u00ADdre\u00ADdis et sa\u00ADme\u00ADdis de 10h \u00E0 18h \u0026amp; les di\u00ADmanches de 10h \u00E0 14h.\u003C/strong\u003E\u003Cbr\u003ELes expositions et \u00E9v\u00E9nements du Petit Temple sont organis\u00E9es avec le financement de la ville de Ganges.\u003C/p\u003E\u003Cp\u003E*Le Petit Temple est un lieu de culte protestant qui est confi\u00E9, du mois de juin \u00E0 septembre, \u00E0 l\u0027\u00E9quipe de \u00C9CHOTONE. Il est situ\u00E9 \u00E0 Ganges sur le plan de l\u0027ormeau (le b\u00E2timent est contigu au Grand Temple).\u003Cbr\u003E\u003Ca target=\u0022_blank\u0022 href=\u0022https://maps.app.goo.gl/ivEHoYgsYZQCT8E98\u0022 rel=\u0022noopener noreferrer nofollow\u0022\u003ELien google map\u003C/a\u003E\u003C/p\u003E",
+            "text": "\u003Cp\u003E\u003Cstrong\u003EDU 1ER AO\u00DBT AU 28 SEPTEMBRE 2025 au PETIT TEMPLE* \u00E0 GANGES\u003C/strong\u003E\u003C/p\u003E\u003Cp\u003E\u00C0 partir de\u003Cstrong\u003E 18h samedi 20 septembre\u003C/strong\u003E,\u003Cstrong\u003E vernissage \u003C/strong\u003Een pr\u00E9sence des artistes.\u003Cbr\u003E\u003Cbr\u003E\u00C0 l\u2019occasion de cette exposition, \u003Ca target=\u0022_blank\u0022 href=\u0022https://www.rebeccakonforti.com/\u0022 rel=\u0022noopener noreferrer nofollow\u0022\u003E\u003Cu\u003ERebecca Konforti \u003C/u\u003E\u003C/a\u003Eet \u003Ca target=\u0022_blank\u0022 href=\u0022https://romainruizpacouret.tumblr.com/\u0022 rel=\u0022noopener noreferrer nofollow\u0022\u003E\u003Cu\u003ERomain Ruiz-Pacouret\u003C/u\u003E\u003C/a\u003E, ont travaill\u00E9 en duo.\u003Cbr\u003EIls consid\u00E8rent que l\u2019individu doit exister en dehors du collectif, et leurs collaborations fonctionnent toujours comme la \u003Cstrong\u003Erencontre de leurs \u0153uvres respectives\u003C/strong\u003E.\u003Cbr\u003ELeurs m\u00E9diums de pr\u00E9dilection sont la \u003Cstrong\u003Epeinture et le dessin mural \u003C/strong\u003Equ\u0027ils peuvent appliquer sur des supports autonomes, ainsi que la gravure et l\u2019\u00E9criture avec lesquels ils produisent parfois des installations. Ils imaginent le monde comme une \u003Cstrong\u003Econstellation d\u2019espaces\u003C/strong\u003E en relation les uns avec les autres, et utilisent ce m\u00EAme principe d\u2019enchev\u00EAtrement dans leurs \u0153uvres.\u003Cbr\u003E\u003Cbr\u003EEntr\u00E9e libre, \u003Cbr\u003E\u003Cstrong\u003EOuverture de l\u0027exposition :\u003C/strong\u003E\u003Cbr\u003E\u003Cstrong\u003Eles ven\u00ADdre\u00ADdis et sa\u00ADme\u00ADdis de 10h \u00E0 18h \u0026amp; les di\u00ADmanches de 10h \u00E0 14h.\u003C/strong\u003E\u003Cbr\u003ELes expositions et \u00E9v\u00E9nements du Petit Temple sont organis\u00E9es avec le financement de la ville de Ganges.\u003C/p\u003E\u003Cp\u003E*Le Petit Temple est un lieu de culte protestant qui est confi\u00E9, du mois de juin \u00E0 septembre, \u00E0 l\u0027\u00E9quipe de \u00C9CHOTONE. Il est situ\u00E9 \u00E0 Ganges sur le plan de l\u0027ormeau (le b\u00E2timent est contigu au Grand Temple).\u003Cbr\u003E\u003Ca target=\u0022_blank\u0022 href=\u0022https://maps.app.goo.gl/ivEHoYgsYZQCT8E98\u0022 rel=\u0022noopener noreferrer nofollow\u0022\u003E\u003Cu\u003ELien google map\u003C/u\u003E\u003C/a\u003E\u003C/p\u003E",
             "title": "Rebecca Konforti et Romain Ruiz-Pacouret"
           },
           "fr": {
@@ -199,17 +107,22 @@
             ],
             "temporal": [
               {
-                "date": null,
-                "datetime": "2025-08-01T12:30:00Z",
+                "date": "2025-08-01T00:00:00Z",
+                "datetime": null,
                 "description": ""
               },
               {
                 "date": "2025-09-28T00:00:00Z",
                 "datetime": null,
-                "description": null
+                "description": ""
+              },
+              {
+                "date": null,
+                "datetime": "2025-09-28T15:00:00Z",
+                "description": "Visite d\u2019exposition et vernissage"
               }
             ],
-            "text": "\u003Cp\u003E\u003Cstrong\u003EDU 1ER AO\u00DBT AU 28 SEPTEMBRE 2025 au PETIT TEMPLE* \u00E0 GANGES\u003C/strong\u003E\u003C/p\u003E\u003Cp\u003E\u003Cstrong\u003E\u00C0 partir de 14h30 le vendredi 1er ao\u00FBt\u003C/strong\u003E \u003Cbr\u003Eouverture de l\u0027exposition\u003Cstrong\u003E\u003Cem\u003E \u003C/em\u003E\u003C/strong\u003Een pr\u00E9sence des artistes.\u003Cbr\u003E\u003Cbr\u003E\u00C0 l\u2019occasion de cette exposition, \u003Ca target=\u0022_blank\u0022 href=\u0022https://www.rebeccakonforti.com/\u0022 rel=\u0022noopener noreferrer nofollow\u0022\u003E\u003Cu\u003ERebecca Konforti \u003C/u\u003E\u003C/a\u003Eet \u003Ca target=\u0022_blank\u0022 href=\u0022https://romainruizpacouret.tumblr.com/\u0022 rel=\u0022noopener noreferrer nofollow\u0022\u003E\u003Cu\u003ERomain Ruiz-Pacouret\u003C/u\u003E\u003C/a\u003E, ont travaill\u00E9 en duo.\u003Cbr\u003EIls consid\u00E8rent que l\u2019individu doit exister en dehors du collectif, et leurs collaborations fonctionnent toujours comme la \u003Cstrong\u003Erencontre de leurs \u0153uvres respectives\u003C/strong\u003E.\u003Cbr\u003ELeurs m\u00E9diums de pr\u00E9dilection sont la \u003Cstrong\u003Epeinture et le dessin mural \u003C/strong\u003Equ\u0027ils peuvent appliquer sur des supports autonomes, ainsi que la gravure et l\u2019\u00E9criture avec lesquels ils produisent parfois des installations. Ils imaginent le monde comme une \u003Cstrong\u003Econstellation d\u2019espaces\u003C/strong\u003E en relation les uns avec les autres, et utilisent ce m\u00EAme principe d\u2019enchev\u00EAtrement dans leurs \u0153uvres.\u003Cbr\u003E\u003Cbr\u003EEntr\u00E9e libre, \u003Cbr\u003EOuverture de l\u0027exposition :\u003Cbr\u003E\u003Cstrong\u003ELes ven\u00ADdre\u00ADdis et sa\u00ADme\u00ADdis de 10h \u00E0 18h \u0026amp; les di\u00ADmanches de 10h \u00E0 14h.\u003C/strong\u003E\u003Cbr\u003ELes expositions et \u00E9v\u00E9nements du Petit Temple sont organis\u00E9es avec le financement de la ville de Ganges.\u003C/p\u003E\u003Cp\u003E*Le Petit Temple est un lieu de culte protestant qui est confi\u00E9, du mois de juin \u00E0 septembre, \u00E0 l\u0027\u00E9quipe de \u00C9CHOTONE. Il est situ\u00E9 \u00E0 Ganges sur le plan de l\u0027ormeau (le b\u00E2timent est contigu au Grand Temple).\u003Cbr\u003E\u003Ca target=\u0022_blank\u0022 href=\u0022https://maps.app.goo.gl/ivEHoYgsYZQCT8E98\u0022 rel=\u0022noopener noreferrer nofollow\u0022\u003ELien google map\u003C/a\u003E\u003C/p\u003E",
+            "text": "\u003Cp\u003E\u003Cstrong\u003EDU 1ER AO\u00DBT AU 28 SEPTEMBRE 2025 au PETIT TEMPLE* \u00E0 GANGES\u003C/strong\u003E\u003C/p\u003E\u003Cp\u003E\u00C0 partir de\u003Cstrong\u003E 18h samedi 20 septembre\u003C/strong\u003E,\u003Cstrong\u003E vernissage \u003C/strong\u003Een pr\u00E9sence des artistes.\u003Cbr\u003E\u003Cbr\u003E\u00C0 l\u2019occasion de cette exposition, \u003Ca target=\u0022_blank\u0022 href=\u0022https://www.rebeccakonforti.com/\u0022 rel=\u0022noopener noreferrer nofollow\u0022\u003E\u003Cu\u003ERebecca Konforti \u003C/u\u003E\u003C/a\u003Eet \u003Ca target=\u0022_blank\u0022 href=\u0022https://romainruizpacouret.tumblr.com/\u0022 rel=\u0022noopener noreferrer nofollow\u0022\u003E\u003Cu\u003ERomain Ruiz-Pacouret\u003C/u\u003E\u003C/a\u003E, ont travaill\u00E9 en duo.\u003Cbr\u003EIls consid\u00E8rent que l\u2019individu doit exister en dehors du collectif, et leurs collaborations fonctionnent toujours comme la \u003Cstrong\u003Erencontre de leurs \u0153uvres respectives\u003C/strong\u003E.\u003Cbr\u003ELeurs m\u00E9diums de pr\u00E9dilection sont la \u003Cstrong\u003Epeinture et le dessin mural \u003C/strong\u003Equ\u0027ils peuvent appliquer sur des supports autonomes, ainsi que la gravure et l\u2019\u00E9criture avec lesquels ils produisent parfois des installations. Ils imaginent le monde comme une \u003Cstrong\u003Econstellation d\u2019espaces\u003C/strong\u003E en relation les uns avec les autres, et utilisent ce m\u00EAme principe d\u2019enchev\u00EAtrement dans leurs \u0153uvres.\u003Cbr\u003E\u003Cbr\u003EEntr\u00E9e libre, \u003Cbr\u003E\u003Cstrong\u003EOuverture de l\u0027exposition :\u003C/strong\u003E\u003Cbr\u003E\u003Cstrong\u003Eles ven\u00ADdre\u00ADdis et sa\u00ADme\u00ADdis de 10h \u00E0 18h \u0026amp; les di\u00ADmanches de 10h \u00E0 14h.\u003C/strong\u003E\u003Cbr\u003ELes expositions et \u00E9v\u00E9nements du Petit Temple sont organis\u00E9es avec le financement de la ville de Ganges.\u003C/p\u003E\u003Cp\u003E*Le Petit Temple est un lieu de culte protestant qui est confi\u00E9, du mois de juin \u00E0 septembre, \u00E0 l\u0027\u00E9quipe de \u00C9CHOTONE. Il est situ\u00E9 \u00E0 Ganges sur le plan de l\u0027ormeau (le b\u00E2timent est contigu au Grand Temple).\u003Cbr\u003E\u003Ca target=\u0022_blank\u0022 href=\u0022https://maps.app.goo.gl/ivEHoYgsYZQCT8E98\u0022 rel=\u0022noopener noreferrer nofollow\u0022\u003E\u003Cu\u003ELien google map\u003C/u\u003E\u003C/a\u003E\u003C/p\u003E",
             "title": "Rebecca Konforti et Romain Ruiz-Pacouret"
           }
         }
@@ -217,14 +130,624 @@
       "editToken": "eyJhIjoiZWNob3RvbmUiLCJzIjoicGFnZSIsImkiOiI4MzQ1NDEzYS01OWEzLTQ3MjItYWYzNi01YzJjOTA4ZWRmYTciLCJ1IjoiaHR0cHM6Ly9sYWFiLmRkbnMubmV0OjM4MDgwLyJ9",
       "id": "8345413a-59a3-4722-af36-5c2c908edfa7",
       "isDeleted": false,
-      "lastModified": "2025-07-24T00:03:45Z",
+      "lastModified": "2025-09-15T17:12:54Z",
+      "lastModifiedBy": "subject:6798dad0167d31fb8ec7cc74",
+      "schemaDisplayName": "Page",
+      "schemaId": "d0379b0e-294e-4df6-9b2b-257b807b1467",
+      "schemaName": "page",
+      "status": "Published",
+      "statusColor": "#4bb958",
+      "version": 30
+    },
+    {
+      "_links": {
+        "delete": {
+          "href": "/api/content/echotone/page/3d6c722f-6fd3-44f8-8b1e-0acb8b8bbdc8",
+          "method": "DELETE"
+        },
+        "draft/create": {
+          "href": "/api/content/echotone/page/3d6c722f-6fd3-44f8-8b1e-0acb8b8bbdc8/draft",
+          "method": "POST"
+        },
+        "previous": {
+          "href": "/api/content/echotone/page/3d6c722f-6fd3-44f8-8b1e-0acb8b8bbdc8/4",
+          "method": "GET"
+        },
+        "self": {
+          "href": "/api/content/echotone/page/3d6c722f-6fd3-44f8-8b1e-0acb8b8bbdc8",
+          "method": "GET"
+        }
+      },
+      "created": "2025-09-15T12:31:11Z",
+      "createdBy": "subject:6798df7c5b784ee7b7cb52e1",
+      "data": {
+        "id": {
+          "iv": "8eme-journees-des-ateliers-d-artistes-d-occitanie"
+        },
+        "medias": {
+          "iv": [
+            {
+              "caption": null,
+              "in": true,
+              "inslides": null,
+              "medias": [
+                "04ccad91-774f-4805-8865-5706d854a129",
+                "d24ca473-1a35-4751-a93c-4335f475e89e",
+                "c1b23877-7275-477d-af1b-9fc884813811"
+              ],
+              "schemaId": "1f4e3697-52bc-45d9-a7a8-65862c13ce4b",
+              "schemaName": "carousel"
+            }
+          ]
+        },
+        "unit": {
+          "en": {
+            "locations": [],
+            "schemaId": "2bd4ee39-8e6e-4128-9f08-a049cce49f23",
+            "schemaName": "unit",
+            "short": "#JAA Occitanie",
+            "tags": [
+              "atelier",
+              "accueil"
+            ],
+            "temporal": [
+              {
+                "date": "2025-10-11T00:00:00Z",
+                "datetime": null,
+                "description": null
+              }
+            ],
+            "text": "\u003Cp\u003ESamedi 11 oc\u00ADtobre 2025 de 10h \u00E0 17h, \u00C9CHOTONE vous ouvre ses portes, pour les \u003Cstrong\u003E8\u00E8me Jour\u00ADn\u00E9es des ate\u00ADliers d\u0027ar\u00ADtistes d\u0027Oc\u00ADci\u00ADta\u00ADnie\u003C/strong\u003E avec une exposition de pi\u00E8ces r\u00E9alis\u00E9es sur le temps des ateliers et pour une \u003Cstrong\u003Ed\u00E9\u00ADcou\u00ADverte des ate\u00ADliers\u003C/strong\u003E ouverts \u00E0 tous et toutes sur les lieux : \u003Cbr\u003E\u003Cstrong\u003EL\u0027atelier de gra\u00ADvure\u003C/strong\u003E, men\u00E9 par Lo\u00EFc Peyrani qui aborde plus sp\u00E9\u00ADci\u00ADfi\u00ADque\u00ADment la \u003Cstrong\u003Etech\u00ADnique de la pho\u00ADto\u00ADgra\u00ADvure sur pho\u00ADto\u00ADpo\u00ADly\u00ADm\u00E8re\u003C/strong\u003E. Cet atelier est hebdomadaire, il a lieu tous les vendredis.\u003Cbr\u003EInaugur\u00E9 cette ann\u00E9e, un atelier d\u00E9di\u00E9 \u00E0 la \u003Cstrong\u003Ephotographie argentique et exp\u00E9rimentale\u003C/strong\u003E men\u00E9e par l\u0027artiste C\u00E9line Courtault Capelier. L\u0027atelier aura lieu une fois par mois, sur l\u0027ann\u00E9e (hors vacances scolaires) les mardis ou les mercredis.\u003Cbr\u003E\u003Cbr\u003EDans l\u0027an\u00ADn\u00E9e, l\u0027\u00E9quipe d\u0027ar\u00ADtiste de \u00C9CHO\u00ADTONE \u003Cstrong\u003Epro\u00ADpose des stages\u003C/strong\u003E sur une ou deux jour\u00ADn\u00E9es abor\u00ADdant dif\u00ADf\u00E9\u00ADrentes tech\u00ADniques li\u00E9es \u00E0 la pho\u00ADto\u00ADsen\u00ADsi\u00ADbi\u00ADli\u00ADt\u00E9 comme la \u003Cstrong\u003Edis\u00ADtil\u00ADla\u00ADtions ou les pig\u00ADments vi\u00ADvants \u003C/strong\u003Emen\u00E9 par Sabrina Issa (...).\u003Cbr\u003ECette journ\u00E9e sera \u00E9galement l\u0027occasion de vous pr\u00E9senter certaines de ces techniques.\u003C/p\u003E\u003Cp\u003E\u003C/p\u003E",
+            "title": "8\u00E8me Journ\u00E9es des ateliers d\u0027artistes d\u0027Occitanie"
+          },
+          "fr": {
+            "locations": [],
+            "schemaId": "2bd4ee39-8e6e-4128-9f08-a049cce49f23",
+            "schemaName": "unit",
+            "short": "#JAA Occitanie",
+            "tags": [
+              "atelier",
+              "accueil"
+            ],
+            "temporal": [
+              {
+                "date": "2025-10-11T00:00:00Z",
+                "datetime": null,
+                "description": null
+              }
+            ],
+            "text": "\u003Cp\u003ESamedi 11 oc\u00ADtobre 2025 de 10h \u00E0 17h, \u00C9CHOTONE vous ouvre ses portes, pour les \u003Cstrong\u003E8\u00E8me Jour\u00ADn\u00E9es des ate\u00ADliers d\u0027ar\u00ADtistes d\u0027Oc\u00ADci\u00ADta\u00ADnie\u003C/strong\u003E avec une exposition de pi\u00E8ces r\u00E9alis\u00E9es sur le temps des ateliers et pour une \u003Cstrong\u003Ed\u00E9\u00ADcou\u00ADverte des ate\u00ADliers\u003C/strong\u003E ouverts \u00E0 tous et toutes sur les lieux : \u003Cbr\u003E\u003Cstrong\u003EL\u0027atelier de gra\u00ADvure\u003C/strong\u003E, men\u00E9 par Lo\u00EFc Peyrani qui aborde plus sp\u00E9\u00ADci\u00ADfi\u00ADque\u00ADment la \u003Cstrong\u003Etech\u00ADnique de la pho\u00ADto\u00ADgra\u00ADvure sur pho\u00ADto\u00ADpo\u00ADly\u00ADm\u00E8re\u003C/strong\u003E. Cet atelier est hebdomadaire, il a lieu tous les vendredis.\u003Cbr\u003EInaugur\u00E9 cette ann\u00E9e, un atelier d\u00E9di\u00E9 \u00E0 la \u003Cstrong\u003Ephotographie argentique et exp\u00E9rimentale\u003C/strong\u003E men\u00E9e par l\u0027artiste C\u00E9line Courtault Capelier. L\u0027atelier aura lieu une fois par mois, sur l\u0027ann\u00E9e (hors vacances scolaires) les mardis ou les mercredis.\u003Cbr\u003E\u003Cbr\u003EDans l\u0027an\u00ADn\u00E9e, l\u0027\u00E9quipe d\u0027ar\u00ADtiste de \u00C9CHO\u00ADTONE \u003Cstrong\u003Epro\u00ADpose des stages\u003C/strong\u003E sur une ou deux jour\u00ADn\u00E9es abor\u00ADdant dif\u00ADf\u00E9\u00ADrentes tech\u00ADniques li\u00E9es \u00E0 la pho\u00ADto\u00ADsen\u00ADsi\u00ADbi\u00ADli\u00ADt\u00E9 comme la \u003Cstrong\u003Edis\u00ADtil\u00ADla\u00ADtions ou les pig\u00ADments vi\u00ADvants \u003C/strong\u003Emen\u00E9 par Sabrina Issa (...).\u003Cbr\u003ECette journ\u00E9e sera \u00E9galement l\u0027occasion de vous pr\u00E9senter certaines de ces techniques.\u003C/p\u003E\u003Cp\u003E\u003C/p\u003E",
+            "title": "8\u00E8me Journ\u00E9es des ateliers d\u0027artistes d\u0027Occitanie"
+          }
+        }
+      },
+      "editToken": "eyJhIjoiZWNob3RvbmUiLCJzIjoicGFnZSIsImkiOiIzZDZjNzIyZi02ZmQzLTQ0ZjgtOGIxZS0wYWNiOGI4YmJkYzgiLCJ1IjoiaHR0cHM6Ly9sYWFiLmRkbnMubmV0OjM4MDgwLyJ9",
+      "id": "3d6c722f-6fd3-44f8-8b1e-0acb8b8bbdc8",
+      "isDeleted": false,
+      "lastModified": "2025-09-15T14:59:21Z",
       "lastModifiedBy": "subject:6798df7c5b784ee7b7cb52e1",
       "schemaDisplayName": "Page",
       "schemaId": "d0379b0e-294e-4df6-9b2b-257b807b1467",
       "schemaName": "page",
       "status": "Published",
       "statusColor": "#4bb958",
-      "version": 17
+      "version": 5
+    },
+    {
+      "_links": {
+        "delete": {
+          "href": "/api/content/echotone/page/8d3519b1-5949-4f8f-8c29-7efcd066b682",
+          "method": "DELETE"
+        },
+        "draft/create": {
+          "href": "/api/content/echotone/page/8d3519b1-5949-4f8f-8c29-7efcd066b682/draft",
+          "method": "POST"
+        },
+        "previous": {
+          "href": "/api/content/echotone/page/8d3519b1-5949-4f8f-8c29-7efcd066b682/11",
+          "method": "GET"
+        },
+        "self": {
+          "href": "/api/content/echotone/page/8d3519b1-5949-4f8f-8c29-7efcd066b682",
+          "method": "GET"
+        }
+      },
+      "created": "2025-01-27T16:56:40Z",
+      "createdBy": "subject:6798dad0167d31fb8ec7cc74",
+      "data": {
+        "id": {
+          "iv": "7eme-journees-des-ateliers-d-artistes"
+        },
+        "medias": {
+          "iv": [
+            {
+              "caption": null,
+              "in": true,
+              "inslides": null,
+              "medias": [
+                "a94f31e5-3836-4bfe-a9b6-9fc92851cb8e",
+                "6b519d90-64e0-42a1-8486-87fbc0d6bab8",
+                "8b25f26d-c892-46f9-b714-4715ea3c6f15",
+                "5dfc89a4-e4e0-4239-ac39-85154a0c8ffa"
+              ],
+              "schemaId": "1f4e3697-52bc-45d9-a7a8-65862c13ce4b",
+              "schemaName": "carousel"
+            }
+          ]
+        },
+        "unit": {
+          "en": {
+            "locations": [],
+            "schemaId": "2bd4ee39-8e6e-4128-9f08-a049cce49f23",
+            "schemaName": "unit",
+            "short": "#JAA Occitanie",
+            "tags": [
+              "atelier",
+              "programmation",
+              "p\u00E9riode"
+            ],
+            "temporal": [
+              {
+                "date": "2024-10-19T00:00:00Z",
+                "datetime": null,
+                "description": null
+              },
+              {
+                "date": "2024-10-20T00:00:00Z",
+                "datetime": null,
+                "description": null
+              }
+            ],
+            "text": "\u003Cp\u003EWeek-end du 19/20 octobre 2024, nous ouvrons les portes de \u00C9chotone, pour les \u003Cstrong\u003E7\u00E8me Journ\u00E9es des ateliers d\u0027artistes d\u0027Occitanie\u003C/strong\u003E. Avec la d\u00E9couverte des ateliers de gravures et plus sp\u00E9cifiquement de la technique de la photogravure sur photopolym\u00E8re.\u003Cbr\u003E\u003Cbr\u003EDans l\u0027ann\u00E9e, l\u0027\u00E9quipe d\u0027artiste de \u00C9CHOTONE propose des stages sur une ou deux journ\u00E9es abordant diff\u00E9rentes techniques li\u00E9es \u00E0 la photosensibilit\u00E9: distillations, pigments vivants, papiers botaniques (...)\u003C/p\u003E\u003Cp\u003E\u003Ca target=\u0022_blank\u0022 href=\u0022https://l.facebook.com/l.php?u=https%3A%2F%2Fwww.instagram.com%2F_u%2Fechotone__%3Ffbclid%3DIwZXh0bgNhZW0CMTAAAR2t7rEdA1S9gUiP-WsU2KorfPR1l1e2yYK2ipwhG2ltYobdllCVyrAqSLQ_aem_SaJnO3vYJ5nYMbJtAu0xAA\u0026amp;h=AT1yy5wWhu895DCv5Cs0A-ERNE_eqMdmwHT8YtZP07b3Vpve6Jh_QkzIvNkSgoEaC5rmCb_Gr2EaZW5YYiXpndgHgG059XDvOJHpOLogahm-v_XmEQDRUe3DsboTWV7CYQjqq90\u0026amp;__tn__=-UK-R\u0026amp;c[0]=AT26hBcamzUEPaNJr-lwsJcsK840D8gswmeGXLQucgLWuhUbOOkoaQVLHRkLtzj_c5jdWb3raQWxQapI-u2IinKkhOaxujHKyhm40Zc1vdr95DZhZa-3vZn71t8CFIt61e4ZhTrPMCPmmn-5dv5LIqvR1Hb9GmnQl9XM7ALhEqZJRTaNTNf_whlaIZvZy2rTGF145yabXI8\u0022 rel=\u0022noopener noreferrer nofollow\u0022\u003E\u003Cstrong\u003E@echotone__\u003C/strong\u003E\u003C/a\u003E \u003Ca target=\u0022_blank\u0022 href=\u0022https://www.facebook.com/hashtag/jaaoccitanie2024?__eep__=6\u0026amp;__cft__[0]=AZXhBOwBuCSfqKKolWMWrchcChIroPEPNGfRJ6FdRjY-PeXMWHS79C8YHgCrzlsRjqPO2wSn6MAKd_5a5-mM8gGCBIDkvkQJSeM95_LWcamj2GvoL0VEnJfPbizRi5E1dDxmHVyojpD4XMRUzUpzmFTIry-DNs1mX34dWkUXPz73LY7eMxDIgdvnIc3ZgeLpNcE\u0026amp;__tn__=*NK-R\u0022 rel=\u0022noopener noreferrer nofollow\u0022\u003E\u003Cstrong\u003E#jaaoccitanie2024\u003C/strong\u003E\u003C/a\u003E\u003C/p\u003E",
+            "title": "7\u00E8me Journ\u00E9es des Ateliers d\u0027Artistes"
+          },
+          "fr": {
+            "locations": [],
+            "schemaId": "2bd4ee39-8e6e-4128-9f08-a049cce49f23",
+            "schemaName": "unit",
+            "short": "#JAA Occitanie",
+            "tags": [
+              "atelier",
+              "programmation",
+              "p\u00E9riode"
+            ],
+            "temporal": [
+              {
+                "date": "2024-10-19T00:00:00Z",
+                "datetime": null,
+                "description": null
+              },
+              {
+                "date": "2024-10-20T00:00:00Z",
+                "datetime": null,
+                "description": null
+              }
+            ],
+            "text": "\u003Cp\u003EWeek-end du 19/20 octobre 2024, nous ouvrons les portes de \u00C9chotone, pour les \u003Cstrong\u003E7\u00E8me Journ\u00E9es des ateliers d\u0027artistes d\u0027Occitanie\u003C/strong\u003E. Avec la d\u00E9couverte des ateliers de gravures et plus sp\u00E9cifiquement de la technique de la photogravure sur photopolym\u00E8re.\u003Cbr\u003E\u003Cbr\u003EDans l\u0027ann\u00E9e, l\u0027\u00E9quipe d\u0027artiste de \u00C9CHOTONE propose des stages sur une ou deux journ\u00E9es abordant diff\u00E9rentes techniques li\u00E9es \u00E0 la photosensibilit\u00E9: distillations, pigments vivants, papiers botaniques (...)\u003C/p\u003E\u003Cp\u003E\u003Ca target=\u0022_blank\u0022 href=\u0022https://l.facebook.com/l.php?u=https%3A%2F%2Fwww.instagram.com%2F_u%2Fechotone__%3Ffbclid%3DIwZXh0bgNhZW0CMTAAAR2t7rEdA1S9gUiP-WsU2KorfPR1l1e2yYK2ipwhG2ltYobdllCVyrAqSLQ_aem_SaJnO3vYJ5nYMbJtAu0xAA\u0026amp;h=AT1yy5wWhu895DCv5Cs0A-ERNE_eqMdmwHT8YtZP07b3Vpve6Jh_QkzIvNkSgoEaC5rmCb_Gr2EaZW5YYiXpndgHgG059XDvOJHpOLogahm-v_XmEQDRUe3DsboTWV7CYQjqq90\u0026amp;__tn__=-UK-R\u0026amp;c[0]=AT26hBcamzUEPaNJr-lwsJcsK840D8gswmeGXLQucgLWuhUbOOkoaQVLHRkLtzj_c5jdWb3raQWxQapI-u2IinKkhOaxujHKyhm40Zc1vdr95DZhZa-3vZn71t8CFIt61e4ZhTrPMCPmmn-5dv5LIqvR1Hb9GmnQl9XM7ALhEqZJRTaNTNf_whlaIZvZy2rTGF145yabXI8\u0022 rel=\u0022noopener noreferrer nofollow\u0022\u003E\u003Cstrong\u003E@echotone__\u003C/strong\u003E\u003C/a\u003E \u003Ca target=\u0022_blank\u0022 href=\u0022https://www.facebook.com/hashtag/jaaoccitanie2024?__eep__=6\u0026amp;__cft__[0]=AZXhBOwBuCSfqKKolWMWrchcChIroPEPNGfRJ6FdRjY-PeXMWHS79C8YHgCrzlsRjqPO2wSn6MAKd_5a5-mM8gGCBIDkvkQJSeM95_LWcamj2GvoL0VEnJfPbizRi5E1dDxmHVyojpD4XMRUzUpzmFTIry-DNs1mX34dWkUXPz73LY7eMxDIgdvnIc3ZgeLpNcE\u0026amp;__tn__=*NK-R\u0022 rel=\u0022noopener noreferrer nofollow\u0022\u003E\u003Cstrong\u003E#jaaoccitanie2024\u003C/strong\u003E\u003C/a\u003E\u003C/p\u003E",
+            "title": "7\u00E8me Journ\u00E9es des Ateliers d\u0027Artistes"
+          }
+        }
+      },
+      "editToken": "eyJhIjoiZWNob3RvbmUiLCJzIjoicGFnZSIsImkiOiI4ZDM1MTliMS01OTQ5LTRmOGYtOGMyOS03ZWZjZDA2NmI2ODIiLCJ1IjoiaHR0cHM6Ly9sYWFiLmRkbnMubmV0OjM4MDgwLyJ9",
+      "id": "8d3519b1-5949-4f8f-8c29-7efcd066b682",
+      "isDeleted": false,
+      "lastModified": "2025-09-15T12:33:33Z",
+      "lastModifiedBy": "subject:6798df7c5b784ee7b7cb52e1",
+      "schemaDisplayName": "Page",
+      "schemaId": "d0379b0e-294e-4df6-9b2b-257b807b1467",
+      "schemaName": "page",
+      "status": "Published",
+      "statusColor": "#4bb958",
+      "version": 12
+    },
+    {
+      "_links": {
+        "delete": {
+          "href": "/api/content/echotone/page/e8f9a37a-30e7-425d-8cb0-0e74c66f99cb",
+          "method": "DELETE"
+        },
+        "draft/create": {
+          "href": "/api/content/echotone/page/e8f9a37a-30e7-425d-8cb0-0e74c66f99cb/draft",
+          "method": "POST"
+        },
+        "previous": {
+          "href": "/api/content/echotone/page/e8f9a37a-30e7-425d-8cb0-0e74c66f99cb/9",
+          "method": "GET"
+        },
+        "self": {
+          "href": "/api/content/echotone/page/e8f9a37a-30e7-425d-8cb0-0e74c66f99cb",
+          "method": "GET"
+        }
+      },
+      "created": "2025-03-03T18:41:14Z",
+      "createdBy": "subject:6798df7c5b784ee7b7cb52e1",
+      "data": {
+        "id": {
+          "iv": "photogravure-sur-photopolymere"
+        },
+        "medias": {
+          "iv": [
+            {
+              "caption": null,
+              "in": true,
+              "inslides": null,
+              "medias": [
+                "ee21f846-f1ac-4622-8456-08e13b8b62b9",
+                "8ca3ef9a-b95e-4c85-bf39-b9fd2f2e2179",
+                "9b4e139a-b440-4a0a-b026-0e79c2212e76",
+                "dd10a335-916b-414a-95cc-ade60ba50ec2",
+                "dfeeef1f-bdd7-4293-8724-8489272142c7",
+                "5b87dac2-47be-4a35-8962-8c8fb63bc5b8"
+              ],
+              "schemaId": "1f4e3697-52bc-45d9-a7a8-65862c13ce4b",
+              "schemaName": "carousel"
+            }
+          ]
+        },
+        "unit": {
+          "en": {
+            "locations": [],
+            "schemaId": "2bd4ee39-8e6e-4128-9f08-a049cce49f23",
+            "schemaName": "unit",
+            "short": "Atelier hebdomadaire - les vendredis",
+            "tags": [
+              "atelier"
+            ],
+            "temporal": [
+              {
+                "date": null,
+                "datetime": null,
+                "description": "vendredi 14h-17h"
+              }
+            ],
+            "text": "\u003Cp\u003EAtelier \u003Cstrong\u003Etous les vendredis de 14h \u00E0 17h\u003C/strong\u003E, sauf vacances scolaires.\u003Cbr\u003EParticipation (hors mat\u00E9riel) de 12\u20AC.\u003Cbr\u003EContactez-nous !! \u003Cbr\u003E\u003Cbr\u003ELe proc\u00E9d\u00E9 de photogravure sur photopolym\u00E8re est une technique qui permet d\u2019imprimer en taille douce une photographie en niveau de gris. Il permet aussi de graver des plaques de zinc ; lettrage, dessin, photo au trait ou pixels d\u2019une taille minimum d\u20191mm.\u003C/p\u003E\u003Cp\u003ELes principaux apprentissages au fil des ateliers sont :\u003Cbr\u003E\u2013 Traitement de l\u2019image sur un logiciel photo et son impression sur film transparent.\u003Cbr\u003E\u2013 Laminage du film photopolym\u00E8re sur une plaque aluminium.\u003Cbr\u003E\u2013 Insolation d\u2019une trame d\u2019aquatinte et du film transparent de la photo.\u003Cbr\u003E\u2013 R\u00E9v\u00E9lation du photopolym\u00E8re dans un bain de soude.\u003Cbr\u003E\u2013 Impression en taille douce de la plaque sur papier gravure.\u003Cbr\u003E\u003Cbr\u003EPour l\u0027atelier, pr\u00E9voir des images sur clef usb (haute r\u00E9solution, au moins 300dpi), ou un tirage photo ou un dessin pour un format 10x15cm ou 15x21cm !\u003C/p\u003E",
+            "title": "Photogravure sur photopolym\u00E8re"
+          },
+          "fr": {
+            "locations": [],
+            "schemaId": "2bd4ee39-8e6e-4128-9f08-a049cce49f23",
+            "schemaName": "unit",
+            "short": "Atelier hebdomadaire - les vendredis",
+            "tags": [
+              "atelier"
+            ],
+            "temporal": [
+              {
+                "date": null,
+                "datetime": null,
+                "description": "vendredi 14h-17h"
+              }
+            ],
+            "text": "\u003Cp\u003EAtelier \u003Cstrong\u003Etous les vendredis de 14h \u00E0 17h\u003C/strong\u003E, sauf vacances scolaires.\u003Cbr\u003EParticipation (hors mat\u00E9riel) de 12\u20AC.\u003Cbr\u003EContactez-nous !! \u003Cbr\u003E\u003Cbr\u003ELe proc\u00E9d\u00E9 de photogravure sur photopolym\u00E8re est une technique qui permet d\u2019imprimer en taille douce une photographie en niveau de gris. Il permet aussi de graver des plaques de zinc ; lettrage, dessin, photo au trait ou pixels d\u2019une taille minimum d\u20191mm.\u003C/p\u003E\u003Cp\u003ELes principaux apprentissages au fil des ateliers sont :\u003Cbr\u003E\u2013 Traitement de l\u2019image sur un logiciel photo et son impression sur film transparent.\u003Cbr\u003E\u2013 Laminage du film photopolym\u00E8re sur une plaque aluminium.\u003Cbr\u003E\u2013 Insolation d\u2019une trame d\u2019aquatinte et du film transparent de la photo.\u003Cbr\u003E\u2013 R\u00E9v\u00E9lation du photopolym\u00E8re dans un bain de soude.\u003Cbr\u003E\u2013 Impression en taille douce de la plaque sur papier gravure.\u003Cbr\u003E\u003Cbr\u003EPour l\u0027atelier, pr\u00E9voir des images sur clef usb (haute r\u00E9solution, au moins 300dpi), ou un tirage photo ou un dessin pour un format 10x15cm ou 15x21cm !\u003C/p\u003E",
+            "title": "Photogravure sur photopolym\u00E8re"
+          }
+        }
+      },
+      "editToken": "eyJhIjoiZWNob3RvbmUiLCJzIjoicGFnZSIsImkiOiJlOGY5YTM3YS0zMGU3LTQyNWQtOGNiMC0wZTc0YzY2Zjk5Y2IiLCJ1IjoiaHR0cHM6Ly9sYWFiLmRkbnMubmV0OjM4MDgwLyJ9",
+      "id": "e8f9a37a-30e7-425d-8cb0-0e74c66f99cb",
+      "isDeleted": false,
+      "lastModified": "2025-09-09T14:35:01Z",
+      "lastModifiedBy": "subject:6798df7c5b784ee7b7cb52e1",
+      "schemaDisplayName": "Page",
+      "schemaId": "d0379b0e-294e-4df6-9b2b-257b807b1467",
+      "schemaName": "page",
+      "status": "Published",
+      "statusColor": "#4bb958",
+      "version": 10
+    },
+    {
+      "_links": {
+        "delete": {
+          "href": "/api/content/echotone/page/dd3c3fe6-0103-4fea-b5e8-1ea714f36308",
+          "method": "DELETE"
+        },
+        "draft/create": {
+          "href": "/api/content/echotone/page/dd3c3fe6-0103-4fea-b5e8-1ea714f36308/draft",
+          "method": "POST"
+        },
+        "previous": {
+          "href": "/api/content/echotone/page/dd3c3fe6-0103-4fea-b5e8-1ea714f36308/22",
+          "method": "GET"
+        },
+        "self": {
+          "href": "/api/content/echotone/page/dd3c3fe6-0103-4fea-b5e8-1ea714f36308",
+          "method": "GET"
+        }
+      },
+      "created": "2025-03-03T18:44:15Z",
+      "createdBy": "subject:6798df7c5b784ee7b7cb52e1",
+      "data": {
+        "id": {
+          "iv": "n-u-collectif-resident-2025"
+        },
+        "medias": {
+          "iv": [
+            {
+              "caption": null,
+              "in": true,
+              "inslides": null,
+              "medias": [
+                "0e69d5d8-951c-4350-a52e-a2a6e6ca6bc0",
+                "b1596018-5821-402e-9909-f2888dd2f65a",
+                "cf61351c-c5ab-42ee-a596-656e0ef2b1f5",
+                "4c45b27e-f40b-420b-a3d2-6a4aca32e32f",
+                "9e25e605-1c37-423c-9013-07f7aee9c318",
+                "6117785d-d329-46da-856e-401c4d76682e",
+                "f36bed1c-4a2b-490d-83cd-565ec9765141",
+                "39c0b5eb-5cea-4af1-9332-a3b61446329e",
+                "b49da2df-aa67-42e2-b688-5e2000e90917",
+                "b390d8d0-d339-40e8-b55b-2475aff66e67",
+                "3975e44a-a18e-48cb-b78b-b288eea1d668",
+                "6657e0a8-e235-4fea-9cf8-48298d4cd98d",
+                "a78ca367-5565-4d8c-9f61-2744757ebff1",
+                "9878a251-296f-4929-ac3d-361e2f6c9bb9",
+                "7e109684-5116-4c4a-8f90-472dd211c746",
+                "0387cd83-8346-42c8-ac47-c0cd5b00bde4",
+                "5b4d1a56-7796-4076-b9f6-54e6bb1dc8fd"
+              ],
+              "schemaId": "1f4e3697-52bc-45d9-a7a8-65862c13ce4b",
+              "schemaName": "carousel"
+            }
+          ]
+        },
+        "unit": {
+          "en": {
+            "locations": [],
+            "schemaId": "2bd4ee39-8e6e-4128-9f08-a049cce49f23",
+            "schemaName": "unit",
+            "short": "La R\u00E9publique des Autres",
+            "tags": [
+              "accueil",
+              "programmation"
+            ],
+            "temporal": [
+              {
+                "date": null,
+                "datetime": "2025-05-21T17:30:00Z",
+                "description": "Performance participative"
+              }
+            ],
+            "text": "\u003Cp\u003ENouvelle cr\u00E9ation participative, \u003Cstrong\u003E\u0022La r\u00E9publique des autres\u0022\u003C/strong\u003E\u0026nbsp;a d\u00E9but\u00E9 sa phase de recherche et d\u2019exp\u00E9rimentation \u00E0 \u00C9CHOTONE, de la mi-f\u00E9vrier \u00E0 fin mai.\u003Cbr\u003E\u003Ca target=\u0022_blank\u0022 href=\u0022https://www.nucollectif.com/\u0022 rel=\u0022noopener noreferrer nofollow\u0022\u003E\u003Cstrong\u003E\u003Cu\u003EN.U Collectif\u003C/u\u003E\u003C/strong\u003E\u003C/a\u003E exp\u00E9rimente de nouveaux langages sonores et immersifs, une exp\u00E9rience hybride o\u00F9 se croisent \u003Cstrong\u003Epo\u00E9sie sonore, musique improvis\u00E9e, performance et th\u00E9\u00E2tre instrumental\u003C/strong\u003E. Cette exploration interroge les impulsions cr\u00E9atives qui pr\u00E9c\u00E8dent le langage et donne naissance \u00E0 un lexique sensible des \u00E9motions.\u003Cbr\u003EEn r\u00E9unissant des adultes porteur\u00B7euse\u00B7s de troubles du spectre autistique, des personnes en situation de vuln\u00E9rabilit\u00E9, leurs proches, des soignant\u00B7e\u00B7s et des habitant\u00B7e\u00B7s, elle fa\u00E7onne une micro-soci\u00E9t\u00E9 artistique et sociale en perp\u00E9tuel mouvement.\u003C/p\u003E\u003Cp\u003E\u003Cbr\u003ESUR LE TEMPS DU FESTIVAL LES ESSENTIELLES \u00C0 GANGES\u003Cbr\u003E\u003Cstrong\u003ERETROUVEZ-LES \u00C0 \u00C9CHOTONE !\u003Cbr\u003E\u003Cbr\u003EMercredi 21 mai \u00E0 19h30\u003C/strong\u003E - performance participative\u003Cbr\u003EEntr\u00E9e libre sans r\u00E9servation\u003Cbr\u003EJauge de 30 personnes\u003Cbr\u003E\u003Cbr\u003E\u003Ca target=\u0022_blank\u0022 href=\u0022https://drive.google.com/file/d/1gN56i0cOSy2tj_0-ANpmb_D_lMndX6x2/view?usp=sharing\u0022 rel=\u0022noopener noreferrer nofollow\u0022\u003E\u003Cstrong\u003E\u003Cu\u003ET\u00E9l\u00E9chargez le programme complet du festival\u003C/u\u003E\u003C/strong\u003E\u003C/a\u003E\u003Cstrong\u003E\u003Cu\u003E\u003Cbr\u003E\u003Cbr\u003E\u003C/u\u003E\u003C/strong\u003EN.U Collectif est accompagn\u00E9\u0026nbsp;par\u0026nbsp;\u003Ca target=\u0022_blank\u0022 href=\u0022https://d7c35.r.a.d.sendibm1.com/mk/cl/f/sh/6rqJfgq8dIPRPzfvqZ3pJWLrtYt/_Ig7eNWm4LxL\u0022 rel=\u0022noopener noreferrer nofollow\u0022\u003E\u003Cstrong\u003E\u003Cu\u003EAnna Kerekes\u003C/u\u003E\u003C/strong\u003E\u003C/a\u003E\u003Cstrong\u003E,\u003C/strong\u003E\u0026nbsp;critique d\u2019art et commissaire d\u2019exposition, enseignante \u00E0 l\u2019\u00C9cole Sup\u00E9rieure des Beaux-Arts de N\u00EEmes ; et poursuit\u0026nbsp;ses collaborations avec Le\u0026nbsp;\u003Cstrong\u003ELieu de Vie Tentative\u003C/strong\u003E\u0026nbsp;\u00E0 Saint-Hippolyte-du-Fort,\u003Cstrong\u003E\u0026nbsp;\u003C/strong\u003E\u003Ca target=\u0022_blank\u0022 href=\u0022https://d7c35.r.a.d.sendibm1.com/mk/cl/f/sh/6rqJfgq8dIR6SRy5KsTNF7TnWrv/KNj4QYHMQ1mu\u0022 rel=\u0022noopener noreferrer nofollow\u0022\u003E\u003Cstrong\u003E\u003Cu\u003ELa Bulle Bleue\u003C/u\u003E\u003C/strong\u003E\u003C/a\u003E, E.S.A.T Artistique et\u0026nbsp;\u003Ca target=\u0022_blank\u0022 href=\u0022https://d7c35.r.a.d.sendibm1.com/mk/cl/f/sh/6rqJfgq8dISlUuGEpBsvAibjAAx/Pnn7g6wz7Jwf\u0022 rel=\u0022noopener noreferrer nofollow\u0022\u003E\u003Cstrong\u003E\u003Cu\u003ELes Ateliers Kennedy\u003C/u\u003E\u003C/strong\u003E\u003C/a\u003E\u0026nbsp;E.S.A.T \u00E0 Montpellier et\u0026nbsp;Pep34.\u003Cbr\u003E\u003Cbr\u003EAvec pour le\u0026nbsp;\u003Cstrong\u003ENU Collectif\u003C/strong\u003E\u0026nbsp;,\u0026nbsp;\u003Cstrong\u003EM\u00C9LAINE BLOT\u003C/strong\u003E\u0026nbsp;, Com\u00E9dien - ESAT La Bulle Bleue,\u0026nbsp;\u003Cstrong\u003EANTHONY GROS-AUDIBERT\u003C/strong\u003E\u0026nbsp;, Performeur - ESAT Ateliers Kennedy,\u0026nbsp;\u003Cstrong\u003EAUR\u00C9LIE PIAU\u003C/strong\u003E\u0026nbsp;, Plasticienne,\u0026nbsp;\u003Cstrong\u003EBERTRAND WOLFF\u003C/strong\u003E\u0026nbsp;, Compositeur et musicien,\u0026nbsp;\u003Cstrong\u003EBOLOLIPSUM\u003C/strong\u003E\u0026nbsp;, Musicien et beatmaker,\u0026nbsp;\u003Cstrong\u003EJEAN CAGNARD,\u003C/strong\u003E\u0026nbsp;\u003Cstrong\u003EGABRIELE PAUPINI\u003C/strong\u003E\u0026nbsp;, Auteurs\u0026nbsp;,\u0026nbsp;\u003Cstrong\u003EAXELLE CARRUZZO\u003C/strong\u003E\u0026nbsp;, Metteur en sc\u00E8ne et performeuse,\u0026nbsp;\u003Cstrong\u003EMATHIAS BEYLER\u003C/strong\u003E\u0026nbsp;, Metteur en sc\u00E8ne et constructeur sonore.\u003Cbr\u003E\u003Cbr\u003E1\u00E8re Session : texte / sons - \u003Cstrong\u003Edu mercredi 26 au Vendredi 28 F\u00E9vrier\u0026nbsp;\u003Cbr\u003E\u003C/strong\u003E\u2022 Avec Axelle Carruzzo, Mathias Beyler, Gabriele\u0026nbsp;Paupini\u003Cbr\u003E\u2022 Ouverture publique le 27 f\u00E9vrier 2025 \u00E0 19h - Lecture sonore\u003C/p\u003E\u003Cp\u003E2\u00E8me Session : son \u0026amp; dispositifs sonores -\u003Cstrong\u003E du lundi 10 au mercredi 12 Mars\u003Cbr\u003E\u003C/strong\u003E\u2022 Avec Bertrand Wolff, Bololipsum, Mathias Beyler - Axelle\u0026nbsp;Carruzzo\u003Cbr\u003E\u2022 Ouverture public le 12 mars 2025 au soir - Live\u003C/p\u003E\u003Cp\u003E3\u00E8me Session : installation, accessoires \u0026amp; sc\u00E9nographie - \u003Cstrong\u003Edu lundi 28 au mercredi 30 Avril\u0026nbsp;\u0026nbsp;\u003Cbr\u003E\u003C/strong\u003E\u2022 Avec Axelle Carruzzo, Aur\u00E9lie\u0026nbsp;Piau\u003C/p\u003E\u003Cp\u003E4\u00E8me session : voix, son et protolangage - \u003Cstrong\u003Edu 5 au 7 Mai\u003Cbr\u003E\u003C/strong\u003E\u2022 Avec Axelle Carruzzo, Mathias Beyler, M\u00E9laine Blot, Anthony Gros-Audibert\u003Cbr\u003E\u003C/p\u003E\u003Cp\u003E\u003C/p\u003E",
+            "title": "N.U Collectif \u261E R\u00E9sident 2025"
+          },
+          "fr": {
+            "locations": [],
+            "schemaId": "2bd4ee39-8e6e-4128-9f08-a049cce49f23",
+            "schemaName": "unit",
+            "short": "La R\u00E9publique des Autres",
+            "tags": [
+              "accueil",
+              "programmation"
+            ],
+            "temporal": [
+              {
+                "date": null,
+                "datetime": "2025-05-21T17:30:00Z",
+                "description": "Performance participative"
+              }
+            ],
+            "text": "\u003Cp\u003ENouvelle cr\u00E9ation participative, \u003Cstrong\u003E\u0022La r\u00E9publique des autres\u0022\u003C/strong\u003E\u0026nbsp;a d\u00E9but\u00E9 sa phase de recherche et d\u2019exp\u00E9rimentation \u00E0 \u00C9CHOTONE, de la mi-f\u00E9vrier \u00E0 fin mai.\u003Cbr\u003E\u003Ca target=\u0022_blank\u0022 href=\u0022https://www.nucollectif.com/\u0022 rel=\u0022noopener noreferrer nofollow\u0022\u003E\u003Cstrong\u003E\u003Cu\u003EN.U Collectif\u003C/u\u003E\u003C/strong\u003E\u003C/a\u003E exp\u00E9rimente de nouveaux langages sonores et immersifs, une exp\u00E9rience hybride o\u00F9 se croisent \u003Cstrong\u003Epo\u00E9sie sonore, musique improvis\u00E9e, performance et th\u00E9\u00E2tre instrumental\u003C/strong\u003E. Cette exploration interroge les impulsions cr\u00E9atives qui pr\u00E9c\u00E8dent le langage et donne naissance \u00E0 un lexique sensible des \u00E9motions.\u003Cbr\u003EEn r\u00E9unissant des adultes porteur\u00B7euse\u00B7s de troubles du spectre autistique, des personnes en situation de vuln\u00E9rabilit\u00E9, leurs proches, des soignant\u00B7e\u00B7s et des habitant\u00B7e\u00B7s, elle fa\u00E7onne une micro-soci\u00E9t\u00E9 artistique et sociale en perp\u00E9tuel mouvement.\u003C/p\u003E\u003Cp\u003E\u003Cbr\u003ESUR LE TEMPS DU FESTIVAL LES ESSENTIELLES \u00C0 GANGES\u003Cbr\u003E\u003Cstrong\u003ERETROUVEZ-LES \u00C0 \u00C9CHOTONE !\u003Cbr\u003E\u003Cbr\u003EMercredi 21 mai \u00E0 19h30\u003C/strong\u003E - performance participative\u003Cbr\u003EEntr\u00E9e libre sans r\u00E9servation\u003Cbr\u003EJauge de 30 personnes\u003Cbr\u003E\u003Cbr\u003E\u003Ca target=\u0022_blank\u0022 href=\u0022https://drive.google.com/file/d/1gN56i0cOSy2tj_0-ANpmb_D_lMndX6x2/view?usp=sharing\u0022 rel=\u0022noopener noreferrer nofollow\u0022\u003E\u003Cstrong\u003E\u003Cu\u003ET\u00E9l\u00E9chargez le programme complet du festival\u003C/u\u003E\u003C/strong\u003E\u003C/a\u003E\u003Cstrong\u003E\u003Cu\u003E\u003Cbr\u003E\u003Cbr\u003E\u003C/u\u003E\u003C/strong\u003EN.U Collectif est accompagn\u00E9\u0026nbsp;par\u0026nbsp;\u003Ca target=\u0022_blank\u0022 href=\u0022https://d7c35.r.a.d.sendibm1.com/mk/cl/f/sh/6rqJfgq8dIPRPzfvqZ3pJWLrtYt/_Ig7eNWm4LxL\u0022 rel=\u0022noopener noreferrer nofollow\u0022\u003E\u003Cstrong\u003E\u003Cu\u003EAnna Kerekes\u003C/u\u003E\u003C/strong\u003E\u003C/a\u003E\u003Cstrong\u003E,\u003C/strong\u003E\u0026nbsp;critique d\u2019art et commissaire d\u2019exposition, enseignante \u00E0 l\u2019\u00C9cole Sup\u00E9rieure des Beaux-Arts de N\u00EEmes ; et poursuit\u0026nbsp;ses collaborations avec Le\u0026nbsp;\u003Cstrong\u003ELieu de Vie Tentative\u003C/strong\u003E\u0026nbsp;\u00E0 Saint-Hippolyte-du-Fort,\u003Cstrong\u003E\u0026nbsp;\u003C/strong\u003E\u003Ca target=\u0022_blank\u0022 href=\u0022https://d7c35.r.a.d.sendibm1.com/mk/cl/f/sh/6rqJfgq8dIR6SRy5KsTNF7TnWrv/KNj4QYHMQ1mu\u0022 rel=\u0022noopener noreferrer nofollow\u0022\u003E\u003Cstrong\u003E\u003Cu\u003ELa Bulle Bleue\u003C/u\u003E\u003C/strong\u003E\u003C/a\u003E, E.S.A.T Artistique et\u0026nbsp;\u003Ca target=\u0022_blank\u0022 href=\u0022https://d7c35.r.a.d.sendibm1.com/mk/cl/f/sh/6rqJfgq8dISlUuGEpBsvAibjAAx/Pnn7g6wz7Jwf\u0022 rel=\u0022noopener noreferrer nofollow\u0022\u003E\u003Cstrong\u003E\u003Cu\u003ELes Ateliers Kennedy\u003C/u\u003E\u003C/strong\u003E\u003C/a\u003E\u0026nbsp;E.S.A.T \u00E0 Montpellier et\u0026nbsp;Pep34.\u003Cbr\u003E\u003Cbr\u003EAvec pour le\u0026nbsp;\u003Cstrong\u003ENU Collectif\u003C/strong\u003E\u0026nbsp;,\u0026nbsp;\u003Cstrong\u003EM\u00C9LAINE BLOT\u003C/strong\u003E\u0026nbsp;, Com\u00E9dien - ESAT La Bulle Bleue,\u0026nbsp;\u003Cstrong\u003EANTHONY GROS-AUDIBERT\u003C/strong\u003E\u0026nbsp;, Performeur - ESAT Ateliers Kennedy,\u0026nbsp;\u003Cstrong\u003EAUR\u00C9LIE PIAU\u003C/strong\u003E\u0026nbsp;, Plasticienne,\u0026nbsp;\u003Cstrong\u003EBERTRAND WOLFF\u003C/strong\u003E\u0026nbsp;, Compositeur et musicien,\u0026nbsp;\u003Cstrong\u003EBOLOLIPSUM\u003C/strong\u003E\u0026nbsp;, Musicien et beatmaker,\u0026nbsp;\u003Cstrong\u003EJEAN CAGNARD,\u003C/strong\u003E\u0026nbsp;\u003Cstrong\u003EGABRIELE PAUPINI\u003C/strong\u003E\u0026nbsp;, Auteurs\u0026nbsp;,\u0026nbsp;\u003Cstrong\u003EAXELLE CARRUZZO\u003C/strong\u003E\u0026nbsp;, Metteur en sc\u00E8ne et performeuse,\u0026nbsp;\u003Cstrong\u003EMATHIAS BEYLER\u003C/strong\u003E\u0026nbsp;, Metteur en sc\u00E8ne et constructeur sonore.\u003Cbr\u003E\u003Cbr\u003E1\u00E8re Session : texte / sons - \u003Cstrong\u003Edu mercredi 26 au Vendredi 28 F\u00E9vrier\u0026nbsp;\u003Cbr\u003E\u003C/strong\u003E\u2022 Avec Axelle Carruzzo, Mathias Beyler, Gabriele\u0026nbsp;Paupini\u003Cbr\u003E\u2022 Ouverture publique le 27 f\u00E9vrier 2025 \u00E0 19h - Lecture sonore\u003C/p\u003E\u003Cp\u003E2\u00E8me Session : son \u0026amp; dispositifs sonores -\u003Cstrong\u003E du lundi 10 au mercredi 12 Mars\u003Cbr\u003E\u003C/strong\u003E\u2022 Avec Bertrand Wolff, Bololipsum, Mathias Beyler - Axelle\u0026nbsp;Carruzzo\u003Cbr\u003E\u2022 Ouverture public le 12 mars 2025 au soir - Live\u003C/p\u003E\u003Cp\u003E3\u00E8me Session : installation, accessoires \u0026amp; sc\u00E9nographie - \u003Cstrong\u003Edu lundi 28 au mercredi 30 Avril\u0026nbsp;\u0026nbsp;\u003Cbr\u003E\u003C/strong\u003E\u2022 Avec Axelle Carruzzo, Aur\u00E9lie\u0026nbsp;Piau\u003C/p\u003E\u003Cp\u003E4\u00E8me session : voix, son et protolangage - \u003Cstrong\u003Edu 5 au 7 Mai\u003Cbr\u003E\u003C/strong\u003E\u2022 Avec Axelle Carruzzo, Mathias Beyler, M\u00E9laine Blot, Anthony Gros-Audibert\u003Cbr\u003E\u003C/p\u003E\u003Cp\u003E\u003C/p\u003E",
+            "title": "N.U Collectif \u261E R\u00E9sident 2025"
+          }
+        }
+      },
+      "editToken": "eyJhIjoiZWNob3RvbmUiLCJzIjoicGFnZSIsImkiOiJkZDNjM2ZlNi0wMTAzLTRmZWEtYjVlOC0xZWE3MTRmMzYzMDgiLCJ1IjoiaHR0cHM6Ly9sYWFiLmRkbnMubmV0OjM4MDgwLyJ9",
+      "id": "dd3c3fe6-0103-4fea-b5e8-1ea714f36308",
+      "isDeleted": false,
+      "lastModified": "2025-09-09T14:32:04Z",
+      "lastModifiedBy": "subject:6798df7c5b784ee7b7cb52e1",
+      "schemaDisplayName": "Page",
+      "schemaId": "d0379b0e-294e-4df6-9b2b-257b807b1467",
+      "schemaName": "page",
+      "status": "Published",
+      "statusColor": "#4bb958",
+      "version": 23
+    },
+    {
+      "_links": {
+        "delete": {
+          "href": "/api/content/echotone/page/df209168-9ee7-4bb2-8dfe-8d3fbf1c95fd",
+          "method": "DELETE"
+        },
+        "draft/create": {
+          "href": "/api/content/echotone/page/df209168-9ee7-4bb2-8dfe-8d3fbf1c95fd/draft",
+          "method": "POST"
+        },
+        "previous": {
+          "href": "/api/content/echotone/page/df209168-9ee7-4bb2-8dfe-8d3fbf1c95fd/15",
+          "method": "GET"
+        },
+        "self": {
+          "href": "/api/content/echotone/page/df209168-9ee7-4bb2-8dfe-8d3fbf1c95fd",
+          "method": "GET"
+        }
+      },
+      "created": "2025-03-03T20:02:36Z",
+      "createdBy": "subject:6798df7c5b784ee7b7cb52e1",
+      "data": {
+        "id": {
+          "iv": "geoffrey-badel-resident-2024"
+        },
+        "medias": {
+          "iv": [
+            {
+              "caption": null,
+              "in": true,
+              "inslides": null,
+              "medias": [
+                "f2b729f0-4fca-40d2-ad53-fc6b820f8ab8",
+                "aaf1a448-a8cd-4123-85dd-ff29b8c46709",
+                "f43a6758-329f-42ce-97b9-9a4955f816d6",
+                "9bf5c7b8-f280-4be4-86d4-5b7774f0df38",
+                "763ae557-f1ec-4de1-9478-e0fac4bfe0ca",
+                "4119da02-6943-4dbf-9514-fade19731909",
+                "80266d64-7846-45b2-877a-22eb80235e10",
+                "c8a2b605-c58c-41a8-8d00-e96bd2e540b5"
+              ],
+              "schemaId": "1f4e3697-52bc-45d9-a7a8-65862c13ce4b",
+              "schemaName": "carousel"
+            }
+          ]
+        },
+        "unit": {
+          "en": {
+            "locations": [],
+            "schemaId": "2bd4ee39-8e6e-4128-9f08-a049cce49f23",
+            "schemaName": "unit",
+            "short": "Festival Inou\u00EF ",
+            "tags": [
+              "programmation",
+              "accueil",
+              "p\u00E9riode"
+            ],
+            "temporal": [
+              {
+                "date": "2025-05-02T00:00:00Z",
+                "datetime": null,
+                "description": null
+              },
+              {
+                "date": "2025-05-03T00:00:00Z",
+                "datetime": null,
+                "description": null
+              }
+            ],
+            "text": "\u003Cp\u003EOuverture de l\u0027exposition de 10h \u00E0 17h\u003Cbr\u003EEntr\u00E9e libre et gratuite dans le cadre du Festival INOU\u00CF\u003Cbr\u003E\u003Ca target=\u0022_blank\u0022 href=\u0022https://drive.google.com/file/d/1cKvST66jPU7OxYwj8r9XdDFLkKqAkL-k/view?usp=drive_link\u0022 rel=\u0022noopener noreferrer nofollow\u0022\u003E\u003Cstrong\u003E\u003Cu\u003EPdf programmation du festival INOU\u00CF\u003C/u\u003E\u003C/strong\u003E\u003C/a\u003E\u003Cstrong\u003E\u003Cbr\u003E\u003Cbr\u003E\u003C/strong\u003E\u003Ca target=\u0022_blank\u0022 href=\u0022https://geoffreybadel.wixsite.com/artiste\u0022 rel=\u0022noopener noreferrer nofollow\u0022\u003E\u003Cstrong\u003EGeoffrey Badel\u003C/strong\u003E\u003C/a\u003E est un artiste entendant qui explore les \u003Cstrong\u003Emondes silencieux\u003C/strong\u003E \u00E0 travers des installations immersives sous la forme de dessins, de films, d\u2019installations et de performances. Le temps du festival, l\u2019artiste met en commun ses r\u00E9flexions actuelles sous la forme d\u0027un paysage mental en gestation. Dans un contexte o\u00F9 la langue des signes est au c\u0153ur des \u00E9changes, cette exposition prend un sens tout particulier. Le public est invit\u00E9 \u00E0 d\u00E9couvrir un grand accrochage de dessins, r\u00E9alis\u00E9s ces derni\u00E8res ann\u00E9es jusqu\u0027\u00E0 aujourd\u0027hui, ponctu\u00E9 de fragments de textes, d\u2019images, d\u2019objets \u2014 autant d\u2019\u00E9l\u00E9ments issus de l\u2019univers de l\u2019artiste et de ses recherches. Ce dispositif permet une plong\u00E9e dans le c\u0153ur m\u00EAme de sa pratique, o\u00F9 le silence est habit\u00E9. Une invitation \u00E0 \u003Cstrong\u003Epercevoir autrement\u003C/strong\u003E, \u00E0 travers les sens et au-del\u00E0 des mots, une mani\u00E8re d\u2019entrer en r\u00E9sonance avec les multiples formes que peut prendre la communication humaine.\u003Cbr\u003E\u003Cbr\u003EGeoffrey Badel d\u00E9veloppe actuellement son engagement aupr\u00E8s de la communaut\u00E9 sourde dans l\u0027intention de contribuer \u00E0 l\u0027accessibilit\u00E9 \u00E0 l\u0027art et d\u0027approfondir ses questionnements sur le langage.\u003Cbr\u003E\u003Cbr\u003E\u003C/p\u003E",
+            "title": "Geoffrey Badel \u261E R\u00E9sident 2024"
+          },
+          "fr": {
+            "locations": [],
+            "schemaId": "2bd4ee39-8e6e-4128-9f08-a049cce49f23",
+            "schemaName": "unit",
+            "short": "Festival Inou\u00EF ",
+            "tags": [
+              "programmation",
+              "accueil",
+              "p\u00E9riode"
+            ],
+            "temporal": [
+              {
+                "date": "2025-05-02T00:00:00Z",
+                "datetime": null,
+                "description": null
+              },
+              {
+                "date": "2025-05-03T00:00:00Z",
+                "datetime": null,
+                "description": null
+              }
+            ],
+            "text": "\u003Cp\u003EOuverture de l\u0027exposition de 10h \u00E0 17h\u003Cbr\u003EEntr\u00E9e libre et gratuite dans le cadre du Festival INOU\u00CF\u003Cbr\u003E\u003Ca target=\u0022_blank\u0022 href=\u0022https://drive.google.com/file/d/1cKvST66jPU7OxYwj8r9XdDFLkKqAkL-k/view?usp=drive_link\u0022 rel=\u0022noopener noreferrer nofollow\u0022\u003E\u003Cstrong\u003E\u003Cu\u003EPdf programmation du festival INOU\u00CF\u003C/u\u003E\u003C/strong\u003E\u003C/a\u003E\u003Cstrong\u003E\u003Cbr\u003E\u003Cbr\u003E\u003C/strong\u003E\u003Ca target=\u0022_blank\u0022 href=\u0022https://geoffreybadel.wixsite.com/artiste\u0022 rel=\u0022noopener noreferrer nofollow\u0022\u003E\u003Cstrong\u003EGeoffrey Badel\u003C/strong\u003E\u003C/a\u003E est un artiste entendant qui explore les \u003Cstrong\u003Emondes silencieux\u003C/strong\u003E \u00E0 travers des installations immersives sous la forme de dessins, de films, d\u2019installations et de performances. Le temps du festival, l\u2019artiste met en commun ses r\u00E9flexions actuelles sous la forme d\u0027un paysage mental en gestation. Dans un contexte o\u00F9 la langue des signes est au c\u0153ur des \u00E9changes, cette exposition prend un sens tout particulier. Le public est invit\u00E9 \u00E0 d\u00E9couvrir un grand accrochage de dessins, r\u00E9alis\u00E9s ces derni\u00E8res ann\u00E9es jusqu\u0027\u00E0 aujourd\u0027hui, ponctu\u00E9 de fragments de textes, d\u2019images, d\u2019objets \u2014 autant d\u2019\u00E9l\u00E9ments issus de l\u2019univers de l\u2019artiste et de ses recherches. Ce dispositif permet une plong\u00E9e dans le c\u0153ur m\u00EAme de sa pratique, o\u00F9 le silence est habit\u00E9. Une invitation \u00E0 \u003Cstrong\u003Epercevoir autrement\u003C/strong\u003E, \u00E0 travers les sens et au-del\u00E0 des mots, une mani\u00E8re d\u2019entrer en r\u00E9sonance avec les multiples formes que peut prendre la communication humaine.\u003Cbr\u003E\u003Cbr\u003EGeoffrey Badel d\u00E9veloppe actuellement son engagement aupr\u00E8s de la communaut\u00E9 sourde dans l\u0027intention de contribuer \u00E0 l\u0027accessibilit\u00E9 \u00E0 l\u0027art et d\u0027approfondir ses questionnements sur le langage.\u003Cbr\u003E\u003Cbr\u003E\u003C/p\u003E",
+            "title": "Geoffrey Badel \u261E R\u00E9sident 2024"
+          }
+        }
+      },
+      "editToken": "eyJhIjoiZWNob3RvbmUiLCJzIjoicGFnZSIsImkiOiJkZjIwOTE2OC05ZWU3LTRiYjItOGRmZS04ZDNmYmYxYzk1ZmQiLCJ1IjoiaHR0cHM6Ly9sYWFiLmRkbnMubmV0OjM4MDgwLyJ9",
+      "id": "df209168-9ee7-4bb2-8dfe-8d3fbf1c95fd",
+      "isDeleted": false,
+      "lastModified": "2025-09-09T13:52:42Z",
+      "lastModifiedBy": "subject:6798df7c5b784ee7b7cb52e1",
+      "schemaDisplayName": "Page",
+      "schemaId": "d0379b0e-294e-4df6-9b2b-257b807b1467",
+      "schemaName": "page",
+      "status": "Published",
+      "statusColor": "#4bb958",
+      "version": 16
+    },
+    {
+      "_links": {
+        "delete": {
+          "href": "/api/content/echotone/page/f15b5757-c72a-40fc-aa2d-b51c59e7880f",
+          "method": "DELETE"
+        },
+        "draft/create": {
+          "href": "/api/content/echotone/page/f15b5757-c72a-40fc-aa2d-b51c59e7880f/draft",
+          "method": "POST"
+        },
+        "previous": {
+          "href": "/api/content/echotone/page/f15b5757-c72a-40fc-aa2d-b51c59e7880f/6",
+          "method": "GET"
+        },
+        "self": {
+          "href": "/api/content/echotone/page/f15b5757-c72a-40fc-aa2d-b51c59e7880f",
+          "method": "GET"
+        }
+      },
+      "created": "2025-04-21T18:04:39Z",
+      "createdBy": "subject:6798df7c5b784ee7b7cb52e1",
+      "data": {
+        "id": {
+          "iv": "duo-les-butors-etoiles"
+        },
+        "medias": {
+          "iv": [
+            {
+              "caption": null,
+              "in": true,
+              "inslides": null,
+              "medias": [
+                "c39857e3-febd-4fcd-99dd-f8bf78d10aa3",
+                "09ba346e-4bef-4fa4-8660-67771bfa7884",
+                "d39a408a-446a-4d8a-90d2-34c8a002fab3",
+                "846d78f5-441e-4c07-8067-6783f6cdf448"
+              ],
+              "schemaId": "1f4e3697-52bc-45d9-a7a8-65862c13ce4b",
+              "schemaName": "carousel"
+            }
+          ]
+        },
+        "unit": {
+          "en": {
+            "locations": [],
+            "schemaId": "2bd4ee39-8e6e-4128-9f08-a049cce49f23",
+            "schemaName": "unit",
+            "short": "Concert \u0026 performance de Jean-Claude Gagnieux-Maoudj",
+            "tags": [
+              "programmation",
+              "accueil"
+            ],
+            "temporal": [
+              {
+                "date": null,
+                "datetime": "2025-06-06T18:00:00Z",
+                "description": null
+              }
+            ],
+            "text": "\u003Cp\u003E\u003Cstrong\u003E20h\u003C/strong\u003E\u0026nbsp;|\u0026nbsp;\u003Cstrong\u003EVendredi\u003C/strong\u003E \u003Cstrong\u003E6 juin,\u0026nbsp;performance et concert\u003C/strong\u003E de\u0026nbsp;\u003Ca target=\u0022_blank\u0022 href=\u0022https://www.youtube.com/user/perfophore\u0022 rel=\u0022noopener noreferrer nofollow\u0022\u003E\u003Cstrong\u003E\u003Cu\u003EJean-Claude Gagnieux-Maoudj\u003C/u\u003E\u003C/strong\u003E\u003C/a\u003E \u0026amp;\u0026nbsp;du \u003Ca target=\u0022_blank\u0022 href=\u0022https://www.youtube.com/@butorsetoiles\u0022 rel=\u0022noopener noreferrer nofollow\u0022\u003E\u003Cstrong\u003E\u003Cu\u003EDUO Les Butors \u00E9toil\u00E9s\u003C/u\u003E\u003C/strong\u003E\u003C/a\u003E\u003Cstrong\u003E\u0026nbsp;\u003C/strong\u003Edans le cadre du\u003Cstrong\u003E Festival Les Essentielles.\u003C/strong\u003E\u003C/p\u003E\u003Cp\u003E\u00C0 l\u2019origine de \u003Cstrong\u003Ece r\u00E9jouissant laboratoire \u003C/strong\u003Ede recherches sonores et musicale, un p\u00E8re et son fils. Autour d\u2019un r\u00E9pertoire original qui allie gravit\u00E9 et l\u00E9g\u00E8ret\u00E9, humour, humeur et affects, l\u003Cstrong\u003Ee duo,\u0026nbsp;Les Butors \u00E9toil\u00E9s\u003C/strong\u003E\u0026nbsp;s\u2019amusent avec une in\u00E9puisable \u00E9nergie interactive \u00E0 se surprendre et \u00E0 d\u00E9jouer les pi\u00E8ges de leurs improvisations. Profitant de leur complicit\u00E9, de leur compl\u00E9mentarit\u00E9 instrumentale et leur pratique commune de techniques vocales (chants Inuit, Pygm\u00E9e, Tib\u00E9tain, Mongol\u2026), \u003Cstrong\u003Eces randonneurs des musiques du possible\u003C/strong\u003E, tripotent les sons pour des \u00AB\u0026nbsp;invitations chaleureuses\u0026nbsp;\u00BB, v\u00E9ritable potlatch du temps pr\u00E9sent.\u003Cbr\u003ER\u00EAvons d\u0027une musique utopique, sans origine identifiable mais o\u00F9 chacun, quel que soit son \u00E2ge, son histoire fera la rencontre du duo aux souffles, du duo aux harmonies, du duo aux percussions.\u003C/p\u003E\u003Cp\u003EEntr\u00E9e libre\u003Cbr\u003E\u003Ca target=\u0022_blank\u0022 href=\u0022http://Programmation du festival (pdf)\u0022 rel=\u0022noopener noreferrer nofollow\u0022\u003E\u003Cstrong\u003E\u003Cu\u003EProgrammation du festival (pdf)\u003C/u\u003E\u003C/strong\u003E\u003C/a\u003E\u003C/p\u003E\u003Cp\u003E\u003Ca target=\u0022_blank\u0022 href=\u0022https://www.mobicoop.fr/covoiturages-evenements/7053/Exposition-Fleur--Jardin-de-Celine-Courtault-Capelier\u0022 rel=\u0022noopener noreferrer nofollow\u0022\u003E\u003Cstrong\u003E\u003Cu\u003ELien vers covoiturage de l\u0027\u00E9v\u00E8nement\u003C/u\u003E\u003C/strong\u003E\u003C/a\u003E\u003Cbr\u003EVous venez-de N\u00EEmes ! de Montpellier, vous avez de la place, inscrivez-vous !\u0026nbsp;\u003C/p\u003E",
+            "title": "DUO, Les Butors \u00E9toil\u00E9s"
+          },
+          "fr": {
+            "locations": [],
+            "schemaId": "2bd4ee39-8e6e-4128-9f08-a049cce49f23",
+            "schemaName": "unit",
+            "short": "Concert \u0026 performance de Jean-Claude Gagnieux-Maoudj",
+            "tags": [
+              "programmation",
+              "accueil"
+            ],
+            "temporal": [
+              {
+                "date": null,
+                "datetime": "2025-06-06T18:00:00Z",
+                "description": null
+              }
+            ],
+            "text": "\u003Cp\u003E\u003Cstrong\u003E20h\u003C/strong\u003E\u0026nbsp;|\u0026nbsp;\u003Cstrong\u003EVendredi\u003C/strong\u003E \u003Cstrong\u003E6 juin,\u0026nbsp;performance et concert\u003C/strong\u003E de\u0026nbsp;\u003Ca target=\u0022_blank\u0022 href=\u0022https://www.youtube.com/user/perfophore\u0022 rel=\u0022noopener noreferrer nofollow\u0022\u003E\u003Cstrong\u003E\u003Cu\u003EJean-Claude Gagnieux-Maoudj\u003C/u\u003E\u003C/strong\u003E\u003C/a\u003E \u0026amp;\u0026nbsp;du \u003Ca target=\u0022_blank\u0022 href=\u0022https://www.youtube.com/@butorsetoiles\u0022 rel=\u0022noopener noreferrer nofollow\u0022\u003E\u003Cstrong\u003E\u003Cu\u003EDUO Les Butors \u00E9toil\u00E9s\u003C/u\u003E\u003C/strong\u003E\u003C/a\u003E\u003Cstrong\u003E\u0026nbsp;\u003C/strong\u003Edans le cadre du\u003Cstrong\u003E Festival Les Essentielles.\u003C/strong\u003E\u003C/p\u003E\u003Cp\u003E\u00C0 l\u2019origine de \u003Cstrong\u003Ece r\u00E9jouissant laboratoire \u003C/strong\u003Ede recherches sonores et musicale, un p\u00E8re et son fils. Autour d\u2019un r\u00E9pertoire original qui allie gravit\u00E9 et l\u00E9g\u00E8ret\u00E9, humour, humeur et affects, l\u003Cstrong\u003Ee duo,\u0026nbsp;Les Butors \u00E9toil\u00E9s\u003C/strong\u003E\u0026nbsp;s\u2019amusent avec une in\u00E9puisable \u00E9nergie interactive \u00E0 se surprendre et \u00E0 d\u00E9jouer les pi\u00E8ges de leurs improvisations. Profitant de leur complicit\u00E9, de leur compl\u00E9mentarit\u00E9 instrumentale et leur pratique commune de techniques vocales (chants Inuit, Pygm\u00E9e, Tib\u00E9tain, Mongol\u2026), \u003Cstrong\u003Eces randonneurs des musiques du possible\u003C/strong\u003E, tripotent les sons pour des \u00AB\u0026nbsp;invitations chaleureuses\u0026nbsp;\u00BB, v\u00E9ritable potlatch du temps pr\u00E9sent.\u003Cbr\u003ER\u00EAvons d\u0027une musique utopique, sans origine identifiable mais o\u00F9 chacun, quel que soit son \u00E2ge, son histoire fera la rencontre du duo aux souffles, du duo aux harmonies, du duo aux percussions.\u003C/p\u003E\u003Cp\u003EEntr\u00E9e libre\u003Cbr\u003E\u003Ca target=\u0022_blank\u0022 href=\u0022http://Programmation du festival (pdf)\u0022 rel=\u0022noopener noreferrer nofollow\u0022\u003E\u003Cstrong\u003E\u003Cu\u003EProgrammation du festival (pdf)\u003C/u\u003E\u003C/strong\u003E\u003C/a\u003E\u003C/p\u003E\u003Cp\u003E\u003Ca target=\u0022_blank\u0022 href=\u0022https://www.mobicoop.fr/covoiturages-evenements/7053/Exposition-Fleur--Jardin-de-Celine-Courtault-Capelier\u0022 rel=\u0022noopener noreferrer nofollow\u0022\u003E\u003Cstrong\u003E\u003Cu\u003ELien vers covoiturage de l\u0027\u00E9v\u00E8nement\u003C/u\u003E\u003C/strong\u003E\u003C/a\u003E\u003Cbr\u003EVous venez-de N\u00EEmes ! de Montpellier, vous avez de la place, inscrivez-vous !\u0026nbsp;\u003C/p\u003E",
+            "title": "DUO, Les Butors \u00E9toil\u00E9s"
+          }
+        }
+      },
+      "editToken": "eyJhIjoiZWNob3RvbmUiLCJzIjoicGFnZSIsImkiOiJmMTViNTc1Ny1jNzJhLTQwZmMtYWEyZC1iNTFjNTllNzg4MGYiLCJ1IjoiaHR0cHM6Ly9sYWFiLmRkbnMubmV0OjM4MDgwLyJ9",
+      "id": "f15b5757-c72a-40fc-aa2d-b51c59e7880f",
+      "isDeleted": false,
+      "lastModified": "2025-09-09T13:49:33Z",
+      "lastModifiedBy": "subject:6798df7c5b784ee7b7cb52e1",
+      "schemaDisplayName": "Page",
+      "schemaId": "d0379b0e-294e-4df6-9b2b-257b807b1467",
+      "schemaName": "page",
+      "status": "Published",
+      "statusColor": "#4bb958",
+      "version": 7
     },
     {
       "_links": {
@@ -237,7 +760,7 @@
           "method": "POST"
         },
         "previous": {
-          "href": "/api/content/echotone/page/9d845033-7c8b-465b-8412-2d4107372fee/11",
+          "href": "/api/content/echotone/page/9d845033-7c8b-465b-8412-2d4107372fee/12",
           "method": "GET"
         },
         "self": {
@@ -256,8 +779,8 @@
             {
               "caption": null,
               "in": true,
+              "inslides": null,
               "medias": [
-                "12837fce-9725-47ef-a48b-dc6ddcdf698a",
                 "ff4274fd-6724-4f30-91ad-399252cc519d",
                 "bc62bac4-447e-42e2-a1b3-db2c8b71b178",
                 "89c40a1a-93fa-4335-abe4-c22700030a28",
@@ -332,52 +855,58 @@
       "editToken": "eyJhIjoiZWNob3RvbmUiLCJzIjoicGFnZSIsImkiOiI5ZDg0NTAzMy03YzhiLTQ2NWItODQxMi0yZDQxMDczNzJmZWUiLCJ1IjoiaHR0cHM6Ly9sYWFiLmRkbnMubmV0OjM4MDgwLyJ9",
       "id": "9d845033-7c8b-465b-8412-2d4107372fee",
       "isDeleted": false,
-      "lastModified": "2025-07-23T14:51:30Z",
+      "lastModified": "2025-09-09T12:57:51Z",
       "lastModifiedBy": "subject:6798df7c5b784ee7b7cb52e1",
       "schemaDisplayName": "Page",
       "schemaId": "d0379b0e-294e-4df6-9b2b-257b807b1467",
       "schemaName": "page",
       "status": "Published",
       "statusColor": "#4bb958",
-      "version": 12
+      "version": 13
     },
     {
       "_links": {
         "delete": {
-          "href": "/api/content/echotone/page/e8f9a37a-30e7-425d-8cb0-0e74c66f99cb",
+          "href": "/api/content/echotone/page/167f215a-ba41-450e-95af-61164c71ae16",
           "method": "DELETE"
         },
         "draft/create": {
-          "href": "/api/content/echotone/page/e8f9a37a-30e7-425d-8cb0-0e74c66f99cb/draft",
+          "href": "/api/content/echotone/page/167f215a-ba41-450e-95af-61164c71ae16/draft",
           "method": "POST"
         },
         "previous": {
-          "href": "/api/content/echotone/page/e8f9a37a-30e7-425d-8cb0-0e74c66f99cb/7",
+          "href": "/api/content/echotone/page/167f215a-ba41-450e-95af-61164c71ae16/27",
           "method": "GET"
         },
         "self": {
-          "href": "/api/content/echotone/page/e8f9a37a-30e7-425d-8cb0-0e74c66f99cb",
+          "href": "/api/content/echotone/page/167f215a-ba41-450e-95af-61164c71ae16",
           "method": "GET"
         }
       },
-      "created": "2025-03-03T18:41:14Z",
+      "created": "2025-07-09T10:23:33Z",
       "createdBy": "subject:6798df7c5b784ee7b7cb52e1",
       "data": {
         "id": {
-          "iv": "photogravure-sur-photopolymere"
+          "iv": "celine-courtault-capelier-ccc"
         },
         "medias": {
           "iv": [
             {
-              "caption": null,
+              "caption": "",
               "in": true,
+              "inslides": true,
               "medias": [
-                "ee21f846-f1ac-4622-8456-08e13b8b62b9",
-                "8ca3ef9a-b95e-4c85-bf39-b9fd2f2e2179",
-                "9b4e139a-b440-4a0a-b026-0e79c2212e76",
-                "dd10a335-916b-414a-95cc-ade60ba50ec2",
-                "dfeeef1f-bdd7-4293-8724-8489272142c7",
-                "5b87dac2-47be-4a35-8962-8c8fb63bc5b8"
+                "721b66e4-dfdb-4b50-94ea-aa5ab080aad7"
+              ],
+              "schemaId": "1f4e3697-52bc-45d9-a7a8-65862c13ce4b",
+              "schemaName": "carousel"
+            },
+            {
+              "caption": "Extrait du film-performance de l\u0027expostion FLEUR/JARDIN de C\u00E9line Courtault Capelier, captur\u00E9 sur le temps du vernissage le 6 juin 2025.",
+              "in": null,
+              "inslides": null,
+              "medias": [
+                "20586ef6-38b6-436f-a805-0d925fd51554"
               ],
               "schemaId": "1f4e3697-52bc-45d9-a7a8-65862c13ce4b",
               "schemaName": "carousel"
@@ -389,142 +918,55 @@
             "locations": [],
             "schemaId": "2bd4ee39-8e6e-4128-9f08-a049cce49f23",
             "schemaName": "unit",
-            "short": "Atelier hebdomadaire - les vendredis",
+            "short": "Film-performance \u0026 Kl\u00FCb/Fl\u00FCb projections 16mm ",
             "tags": [
-              "atelier"
+              "accueil",
+              "programmation",
+              "actu"
             ],
             "temporal": [
               {
-                "date": null,
+                "date": "2025-07-19T00:00:00Z",
                 "datetime": null,
-                "description": "vendredi 14h-17h"
+                "description": "Au petit temple"
               }
             ],
-            "text": "\u003Cp\u003EAtelier \u003Cstrong\u003Etous les vendredis de 14h \u00E0 17h\u003C/strong\u003E, sauf vacances scolaires.\u003Cbr\u003EParticipation (hors mat\u00E9riel) de 10\u20AC.\u003Cbr\u003EContactez-nous !! \u003Cbr\u003E\u003Cbr\u003ELe proc\u00E9d\u00E9 de photogravure sur photopolym\u00E8re est une technique qui permet d\u2019imprimer en taille douce une photographie en niveau de gris. Il permet aussi de graver des plaques de zinc ; lettrage, dessin, photo au trait ou pixels d\u2019une taille minimum d\u20191 mm.\u003C/p\u003E\u003Cp\u003ELes principaux apprentissages au fil des ateliers sont :\u003Cbr\u003E\u2013 Traitement de l\u2019image sur un logiciel photo et son impression sur film transparent.\u003Cbr\u003E\u2013 Laminage du film photopolym\u00E8re sur une plaque aluminium.\u003Cbr\u003E\u2013 Insolation d\u2019une trame d\u2019aquatinte et du film transparent de la photo.\u003Cbr\u003E\u2013 R\u00E9v\u00E9lation du photopolym\u00E8re dans un bain de soude.\u003Cbr\u003E\u2013 Impression en taille douce de la plaque sur papier gravure.\u003Cbr\u003E\u003Cbr\u003EPour l\u0027atelier, pr\u00E9voir des images sur clef usb (haute r\u00E9solution, au moins 300dpi), ou un tirage photo ou un dessin pour un format 10x15cm ou  15x21cm !\u003C/p\u003E",
-            "title": "Photogravure sur photopolym\u00E8re"
+            "text": "\u003Cp\u003ESoir\u00E9e du 19 juillet 2025 au PETIT TEMPLE* \u00E0 GANGES\u003C/p\u003E\u003Cp\u003E\u003Cstrong\u003E20h - entr\u00E9e libre\u003C/strong\u003E\u003Cbr\u003E\u0026gt; R\u00E9activation du film-performance \u0027FLEUR/JARDIN\u0027\u003Cbr\u003Eavec Sylvia Monnier [musique, dispositif \u00E9lectroaccoustique aux images projet\u00E9es] \u00E9v\u00E8nement propos\u00E9 dans le cadre de l\u0027exposition de C\u00E9line Courtault Capelier.\u003Cbr\u003EExtrait\u0026nbsp;\u003Ca target=\u0022_blank\u0022 href=\u0022//youtu.be/1_4hSjqx-SU,\u0022 rel=\u0022noopener noreferrer nofollow\u0022 data-link-auto=\u0022\u0022\u003E\u003Cu\u003Eyoutu.be/1_4hSjqx-SU,\u003C/u\u003E\u003C/a\u003E\u003Ca target=\u0022_blank\u0022 href=\u0022https://youtu.be/1_4hSjqx-SU\u0022 rel=\u0022noopener noreferrer nofollow\u0022\u003E\u003Cu\u003E\u0026nbsp;\u003C/u\u003E\u003C/a\u003E\u003Cbr\u003E\u0022FLEUR/JARDIN\u0022 Performance \u003Cem\u003Eexpanded cinema\u003C/em\u003E\u003Cbr\u003ECaptation / montage : Laure Marc et Koray Topaktas\u003C/p\u003E\u003Cp\u003EEntracte ...\u003C/p\u003E\u003Cp\u003E\u003Cstrong\u003E21h30 - participation libre\u003C/strong\u003E\u003Cbr\u003E\u0026gt; CINE KL\u00DCB / FL\u00DCB programmation propos\u00E9e par C\u00E9line Courtault Capelier de courts m\u00E9trages en 16 mm en \u00E9cho avec l\u0027exposition \u002B dispositif propos\u00E9 au public (FL\u00DCB)\u003Cbr\u003EPlein air - Parvis du PETIT TEMPLE\u003Cbr\u003EProgrammation sur IG :\u0026nbsp;\u003Ca target=\u0022_blank\u0022 href=\u0022https://www.instagram.com/cine_klub_flub/\u0022 rel=\u0022noopener noreferrer nofollow\u0022 data-link-auto=\u0022\u0022\u003E\u003Cu\u003Ehttps://www.instagram.com/cine_klub_flub/\u003C/u\u003E\u003C/a\u003E\u003C/p\u003E\u003Cp\u003ELe cin\u00E9\u0026nbsp;\u003Cstrong\u003EKl\u00FCb\u0026nbsp;\u003C/strong\u003Epropose une programmation\u0026nbsp;\u00E9clectique de\u0026nbsp;court-m\u00E9trages ou de\u0026nbsp;long [animation, documentaire, exp\u00E9rimental, vid\u00E9o d\u0027art]\u0026nbsp;avec pour objectifs de faire d\u00E9couvrir des films\u0026nbsp;peu diffus\u00E9s et aller \u00E0 la rencontre de nouveaux publics.\u0026nbsp;\u003Cstrong\u003EProjet\u00E9s en\u0026nbsp;pellicule 16 mm\u003C/strong\u003E,\u0026nbsp;les projections ont lieu dans des lieux diff\u00E9rents \u00E0 chaque projection.\u003Cbr\u003ELe\u0026nbsp;\u003Cstrong\u003EFl\u00FCb\u0026nbsp;\u003C/strong\u003Eest un\u003Cstrong\u003E\u0026nbsp;dispositif exp\u00E9rimental,\u003C/strong\u003E\u0026nbsp;int\u00E9gr\u00E9 au cin\u00E9 Kl\u00FCb (court-m\u00E9trages), en\u0026nbsp;deuxi\u00E8me partie\u0026nbsp;o\u00F9\u0026nbsp;le public\u0026nbsp;est invit\u00E9 \u00E0 improviser la bande son en direct\u0026nbsp;(voix, musique, bruitage,...).\u003C/p\u003E\u003Cp\u003EExposition \u0027FLEUR/JARDIN\u0027 ouverte les vendredis et samedis de 10h \u00E0 18h et les dimanches de 10h \u00E0 14h. \u003Cbr\u003EEntr\u00E9e libre et gratuite\u003Cbr\u003E\u002Bd\u2019infos contact @echotone.space - 0677140583\u003Cbr\u003EIG : echotone__\u003Cbr\u003E\u003Cbr\u003E*Le Petit Temple est un lieu de culte protestant qui est confi\u00E9, du mois de juin \u00E0 septembre, \u00E0 l\u0027\u00E9quipe de \u00C9CHOTONE. Il est situ\u00E9 \u00E0 Ganges sur le plan de l\u0027ormeau (le b\u00E2timent est contigu au Grand Temple).\u003Cbr\u003E\u003Ca target=\u0022_blank\u0022 href=\u0022https://maps.app.goo.gl/ivEHoYgsYZQCT8E98\u0022 rel=\u0022noopener noreferrer nofollow\u0022\u003E\u003Cu\u003ELien google map\u003C/u\u003E\u003C/a\u003E\u003C/p\u003E\u003Cp\u003E\u003C/p\u003E",
+            "title": "C\u00E9line Courtault Capelier, CCC"
           },
           "fr": {
             "locations": [],
             "schemaId": "2bd4ee39-8e6e-4128-9f08-a049cce49f23",
             "schemaName": "unit",
-            "short": "Atelier hebdomadaire - les vendredis",
+            "short": "Film-performance \u0026 Kl\u00FCb/Fl\u00FCb projections 16mm ",
             "tags": [
-              "atelier"
+              "accueil",
+              "programmation",
+              "actu"
             ],
             "temporal": [
               {
-                "date": null,
+                "date": "2025-07-19T00:00:00Z",
                 "datetime": null,
-                "description": "vendredi 14h-17h"
+                "description": "Au petit temple"
               }
             ],
-            "text": "\u003Cp\u003EAtelier \u003Cstrong\u003Etous les vendredis de 14h \u00E0 17h\u003C/strong\u003E, sauf vacances scolaires.\u003Cbr\u003EParticipation (hors mat\u00E9riel) de 10\u20AC.\u003Cbr\u003EContactez-nous !! \u003Cbr\u003E\u003Cbr\u003ELe proc\u00E9d\u00E9 de photogravure sur photopolym\u00E8re est une technique qui permet d\u2019imprimer en taille douce une photographie en niveau de gris. Il permet aussi de graver des plaques de zinc ; lettrage, dessin, photo au trait ou pixels d\u2019une taille minimum d\u20191 mm.\u003C/p\u003E\u003Cp\u003ELes principaux apprentissages au fil des ateliers sont :\u003Cbr\u003E\u2013 Traitement de l\u2019image sur un logiciel photo et son impression sur film transparent.\u003Cbr\u003E\u2013 Laminage du film photopolym\u00E8re sur une plaque aluminium.\u003Cbr\u003E\u2013 Insolation d\u2019une trame d\u2019aquatinte et du film transparent de la photo.\u003Cbr\u003E\u2013 R\u00E9v\u00E9lation du photopolym\u00E8re dans un bain de soude.\u003Cbr\u003E\u2013 Impression en taille douce de la plaque sur papier gravure.\u003Cbr\u003E\u003Cbr\u003EPour l\u0027atelier, pr\u00E9voir des images sur clef usb (haute r\u00E9solution, au moins 300dpi), ou un tirage photo ou un dessin pour un format 10x15cm ou  15x21cm !\u003C/p\u003E",
-            "title": "Photogravure sur photopolym\u00E8re"
+            "text": "\u003Cp\u003ESoir\u00E9e du 19 juillet 2025 au PETIT TEMPLE* \u00E0 GANGES\u003C/p\u003E\u003Cp\u003E\u003Cstrong\u003E20h - entr\u00E9e libre\u003C/strong\u003E\u003Cbr\u003E\u0026gt; R\u00E9activation du film-performance \u0027FLEUR/JARDIN\u0027\u003Cbr\u003Eavec Sylvia Monnier [musique, dispositif \u00E9lectroaccoustique aux images projet\u00E9es] \u00E9v\u00E8nement propos\u00E9 dans le cadre de l\u0027exposition de C\u00E9line Courtault Capelier.\u003Cbr\u003EExtrait\u0026nbsp;\u003Ca target=\u0022_blank\u0022 href=\u0022//youtu.be/1_4hSjqx-SU,\u0022 rel=\u0022noopener noreferrer nofollow\u0022 data-link-auto=\u0022\u0022\u003E\u003Cu\u003Eyoutu.be/1_4hSjqx-SU,\u003C/u\u003E\u003C/a\u003E\u003Ca target=\u0022_blank\u0022 href=\u0022https://youtu.be/1_4hSjqx-SU\u0022 rel=\u0022noopener noreferrer nofollow\u0022\u003E\u003Cu\u003E\u0026nbsp;\u003C/u\u003E\u003C/a\u003E\u003Cbr\u003E\u0022FLEUR/JARDIN\u0022 Performance \u003Cem\u003Eexpanded cinema\u003C/em\u003E\u003Cbr\u003ECaptation / montage : Laure Marc et Koray Topaktas\u003C/p\u003E\u003Cp\u003EEntracte ...\u003C/p\u003E\u003Cp\u003E\u003Cstrong\u003E21h30 - participation libre\u003C/strong\u003E\u003Cbr\u003E\u0026gt; CINE KL\u00DCB / FL\u00DCB programmation propos\u00E9e par C\u00E9line Courtault Capelier de courts m\u00E9trages en 16 mm en \u00E9cho avec l\u0027exposition \u002B dispositif propos\u00E9 au public (FL\u00DCB)\u003Cbr\u003EPlein air - Parvis du PETIT TEMPLE\u003Cbr\u003EProgrammation sur IG :\u0026nbsp;\u003Ca target=\u0022_blank\u0022 href=\u0022https://www.instagram.com/cine_klub_flub/\u0022 rel=\u0022noopener noreferrer nofollow\u0022 data-link-auto=\u0022\u0022\u003E\u003Cu\u003Ehttps://www.instagram.com/cine_klub_flub/\u003C/u\u003E\u003C/a\u003E\u003C/p\u003E\u003Cp\u003ELe cin\u00E9\u0026nbsp;\u003Cstrong\u003EKl\u00FCb\u0026nbsp;\u003C/strong\u003Epropose une programmation\u0026nbsp;\u00E9clectique de\u0026nbsp;court-m\u00E9trages ou de\u0026nbsp;long [animation, documentaire, exp\u00E9rimental, vid\u00E9o d\u0027art]\u0026nbsp;avec pour objectifs de faire d\u00E9couvrir des films\u0026nbsp;peu diffus\u00E9s et aller \u00E0 la rencontre de nouveaux publics.\u0026nbsp;\u003Cstrong\u003EProjet\u00E9s en\u0026nbsp;pellicule 16 mm\u003C/strong\u003E,\u0026nbsp;les projections ont lieu dans des lieux diff\u00E9rents \u00E0 chaque projection.\u003Cbr\u003ELe\u0026nbsp;\u003Cstrong\u003EFl\u00FCb\u0026nbsp;\u003C/strong\u003Eest un\u003Cstrong\u003E\u0026nbsp;dispositif exp\u00E9rimental,\u003C/strong\u003E\u0026nbsp;int\u00E9gr\u00E9 au cin\u00E9 Kl\u00FCb (court-m\u00E9trages), en\u0026nbsp;deuxi\u00E8me partie\u0026nbsp;o\u00F9\u0026nbsp;le public\u0026nbsp;est invit\u00E9 \u00E0 improviser la bande son en direct\u0026nbsp;(voix, musique, bruitage,...).\u003C/p\u003E\u003Cp\u003EExposition \u0027FLEUR/JARDIN\u0027 ouverte les vendredis et samedis de 10h \u00E0 18h et les dimanches de 10h \u00E0 14h. \u003Cbr\u003EEntr\u00E9e libre et gratuite\u003Cbr\u003E\u002Bd\u2019infos contact @echotone.space - 0677140583\u003Cbr\u003EIG : echotone__\u003Cbr\u003E\u003Cbr\u003E*Le Petit Temple est un lieu de culte protestant qui est confi\u00E9, du mois de juin \u00E0 septembre, \u00E0 l\u0027\u00E9quipe de \u00C9CHOTONE. Il est situ\u00E9 \u00E0 Ganges sur le plan de l\u0027ormeau (le b\u00E2timent est contigu au Grand Temple).\u003Cbr\u003E\u003Ca target=\u0022_blank\u0022 href=\u0022https://maps.app.goo.gl/ivEHoYgsYZQCT8E98\u0022 rel=\u0022noopener noreferrer nofollow\u0022\u003E\u003Cu\u003ELien google map\u003C/u\u003E\u003C/a\u003E\u003C/p\u003E\u003Cp\u003E\u003C/p\u003E",
+            "title": "C\u00E9line Courtault Capelier, CCC"
           }
         }
       },
-      "editToken": "eyJhIjoiZWNob3RvbmUiLCJzIjoicGFnZSIsImkiOiJlOGY5YTM3YS0zMGU3LTQyNWQtOGNiMC0wZTc0YzY2Zjk5Y2IiLCJ1IjoiaHR0cHM6Ly9sYWFiLmRkbnMubmV0OjM4MDgwLyJ9",
-      "id": "e8f9a37a-30e7-425d-8cb0-0e74c66f99cb",
+      "editToken": "eyJhIjoiZWNob3RvbmUiLCJzIjoicGFnZSIsImkiOiIxNjdmMjE1YS1iYTQxLTQ1MGUtOTVhZi02MTE2NGM3MWFlMTYiLCJ1IjoiaHR0cHM6Ly9sYWFiLmRkbnMubmV0OjM4MDgwLyJ9",
+      "id": "167f215a-ba41-450e-95af-61164c71ae16",
       "isDeleted": false,
-      "lastModified": "2025-07-15T14:34:48Z",
-      "lastModifiedBy": "subject:6798dad0167d31fb8ec7cc74",
-      "schemaDisplayName": "Page",
-      "schemaId": "d0379b0e-294e-4df6-9b2b-257b807b1467",
-      "schemaName": "page",
-      "status": "Published",
-      "statusColor": "#4bb958",
-      "version": 8
-    },
-    {
-      "_links": {
-        "delete": {
-          "href": "/api/content/echotone/page/f15b5757-c72a-40fc-aa2d-b51c59e7880f",
-          "method": "DELETE"
-        },
-        "draft/create": {
-          "href": "/api/content/echotone/page/f15b5757-c72a-40fc-aa2d-b51c59e7880f/draft",
-          "method": "POST"
-        },
-        "previous": {
-          "href": "/api/content/echotone/page/f15b5757-c72a-40fc-aa2d-b51c59e7880f/5",
-          "method": "GET"
-        },
-        "self": {
-          "href": "/api/content/echotone/page/f15b5757-c72a-40fc-aa2d-b51c59e7880f",
-          "method": "GET"
-        }
-      },
-      "created": "2025-04-21T18:04:39Z",
-      "createdBy": "subject:6798df7c5b784ee7b7cb52e1",
-      "data": {
-        "id": {
-          "iv": "duo-les-butors-etoiles"
-        },
-        "medias": {
-          "iv": [
-            {
-              "caption": null,
-              "in": true,
-              "medias": [
-                "c39857e3-febd-4fcd-99dd-f8bf78d10aa3"
-              ],
-              "schemaId": "1f4e3697-52bc-45d9-a7a8-65862c13ce4b",
-              "schemaName": "carousel"
-            }
-          ]
-        },
-        "unit": {
-          "en": {
-            "locations": [],
-            "schemaId": "2bd4ee39-8e6e-4128-9f08-a049cce49f23",
-            "schemaName": "unit",
-            "short": "Concert \u0026 performance de Jean-Claude Gagnieux-Maoudj",
-            "tags": [
-              "programmation",
-              "accueil"
-            ],
-            "temporal": [
-              {
-                "date": null,
-                "datetime": "2025-06-06T18:00:00Z",
-                "description": null
-              }
-            ],
-            "text": "\u003Cp\u003E\u003Cstrong\u003E20h\u003C/strong\u003E\u0026nbsp;|\u0026nbsp;\u003Cstrong\u003EVendredi\u003C/strong\u003E \u003Cstrong\u003E6 juin,\u0026nbsp;performance et concert\u003C/strong\u003E de\u0026nbsp;\u003Ca target=\u0022_blank\u0022 href=\u0022https://www.youtube.com/user/perfophore\u0022 rel=\u0022noopener noreferrer nofollow\u0022\u003E\u003Cstrong\u003E\u003Cu\u003EJean-Claude Gagnieux-Maoudj\u003C/u\u003E\u003C/strong\u003E\u003C/a\u003E \u0026amp;\u0026nbsp;du \u003Ca target=\u0022_blank\u0022 href=\u0022https://www.youtube.com/@butorsetoiles\u0022 rel=\u0022noopener noreferrer nofollow\u0022\u003E\u003Cstrong\u003E\u003Cu\u003EDUO Les Butors \u00E9toil\u00E9s\u003C/u\u003E\u003C/strong\u003E\u003C/a\u003E\u003Cstrong\u003E\u0026nbsp;\u003C/strong\u003Edans le cadre du\u003Cstrong\u003E Festival Les Essentielles.\u003C/strong\u003E\u003C/p\u003E\u003Cp\u003E\u00C0 l\u2019origine de \u003Cstrong\u003Ece r\u00E9jouissant laboratoire \u003C/strong\u003Ede recherches sonores et musicale, un p\u00E8re et son fils. Autour d\u2019un r\u00E9pertoire original qui allie gravit\u00E9 et l\u00E9g\u00E8ret\u00E9, humour, humeur et affects, l\u003Cstrong\u003Ee duo,\u0026nbsp;Les Butors \u00E9toil\u00E9s\u003C/strong\u003E\u0026nbsp;s\u2019amusent avec une in\u00E9puisable \u00E9nergie interactive \u00E0 se surprendre et \u00E0 d\u00E9jouer les pi\u00E8ges de leurs improvisations. Profitant de leur complicit\u00E9, de leur compl\u00E9mentarit\u00E9 instrumentale et leur pratique commune de techniques vocales (chants Inuit, Pygm\u00E9e, Tib\u00E9tain, Mongol\u2026), \u003Cstrong\u003Eces randonneurs des musiques du possible\u003C/strong\u003E, tripotent les sons pour des \u00AB\u0026nbsp;invitations chaleureuses\u0026nbsp;\u00BB, v\u00E9ritable potlatch du temps pr\u00E9sent.\u003Cbr\u003ER\u00EAvons d\u0027une musique utopique, sans origine identifiable mais o\u00F9 chacun, quel que soit son \u00E2ge, son histoire fera la rencontre du duo aux souffles, du duo aux harmonies, du duo aux percussions.\u003C/p\u003E\u003Cp\u003EEntr\u00E9e libre\u003Cbr\u003E\u003Ca target=\u0022_blank\u0022 href=\u0022http://Programmation du festival (pdf)\u0022 rel=\u0022noopener noreferrer nofollow\u0022\u003E\u003Cstrong\u003E\u003Cu\u003EProgrammation du festival (pdf)\u003C/u\u003E\u003C/strong\u003E\u003C/a\u003E\u003C/p\u003E\u003Cp\u003E\u003Ca target=\u0022_blank\u0022 href=\u0022https://www.mobicoop.fr/covoiturages-evenements/7053/Exposition-Fleur--Jardin-de-Celine-Courtault-Capelier\u0022 rel=\u0022noopener noreferrer nofollow\u0022\u003E\u003Cstrong\u003E\u003Cu\u003ELien vers covoiturage de l\u0027\u00E9v\u00E8nement\u003C/u\u003E\u003C/strong\u003E\u003C/a\u003E\u003Cbr\u003EVous venez-de N\u00EEmes ! de Montpellier, vous avez de la place, inscrivez-vous !\u0026nbsp;\u003C/p\u003E",
-            "title": "DUO, Les Butors \u00E9toil\u00E9s"
-          },
-          "fr": {
-            "locations": [],
-            "schemaId": "2bd4ee39-8e6e-4128-9f08-a049cce49f23",
-            "schemaName": "unit",
-            "short": "Concert \u0026 performance de Jean-Claude Gagnieux-Maoudj",
-            "tags": [
-              "programmation",
-              "accueil"
-            ],
-            "temporal": [
-              {
-                "date": null,
-                "datetime": "2025-06-06T18:00:00Z",
-                "description": null
-              }
-            ],
-            "text": "\u003Cp\u003E\u003Cstrong\u003E20h\u003C/strong\u003E\u0026nbsp;|\u0026nbsp;\u003Cstrong\u003EVendredi\u003C/strong\u003E \u003Cstrong\u003E6 juin,\u0026nbsp;performance et concert\u003C/strong\u003E de\u0026nbsp;\u003Ca target=\u0022_blank\u0022 href=\u0022https://www.youtube.com/user/perfophore\u0022 rel=\u0022noopener noreferrer nofollow\u0022\u003E\u003Cstrong\u003E\u003Cu\u003EJean-Claude Gagnieux-Maoudj\u003C/u\u003E\u003C/strong\u003E\u003C/a\u003E \u0026amp;\u0026nbsp;du \u003Ca target=\u0022_blank\u0022 href=\u0022https://www.youtube.com/@butorsetoiles\u0022 rel=\u0022noopener noreferrer nofollow\u0022\u003E\u003Cstrong\u003E\u003Cu\u003EDUO Les Butors \u00E9toil\u00E9s\u003C/u\u003E\u003C/strong\u003E\u003C/a\u003E\u003Cstrong\u003E\u0026nbsp;\u003C/strong\u003Edans le cadre du\u003Cstrong\u003E Festival Les Essentielles.\u003C/strong\u003E\u003C/p\u003E\u003Cp\u003E\u00C0 l\u2019origine de \u003Cstrong\u003Ece r\u00E9jouissant laboratoire \u003C/strong\u003Ede recherches sonores et musicale, un p\u00E8re et son fils. Autour d\u2019un r\u00E9pertoire original qui allie gravit\u00E9 et l\u00E9g\u00E8ret\u00E9, humour, humeur et affects, l\u003Cstrong\u003Ee duo,\u0026nbsp;Les Butors \u00E9toil\u00E9s\u003C/strong\u003E\u0026nbsp;s\u2019amusent avec une in\u00E9puisable \u00E9nergie interactive \u00E0 se surprendre et \u00E0 d\u00E9jouer les pi\u00E8ges de leurs improvisations. Profitant de leur complicit\u00E9, de leur compl\u00E9mentarit\u00E9 instrumentale et leur pratique commune de techniques vocales (chants Inuit, Pygm\u00E9e, Tib\u00E9tain, Mongol\u2026), \u003Cstrong\u003Eces randonneurs des musiques du possible\u003C/strong\u003E, tripotent les sons pour des \u00AB\u0026nbsp;invitations chaleureuses\u0026nbsp;\u00BB, v\u00E9ritable potlatch du temps pr\u00E9sent.\u003Cbr\u003ER\u00EAvons d\u0027une musique utopique, sans origine identifiable mais o\u00F9 chacun, quel que soit son \u00E2ge, son histoire fera la rencontre du duo aux souffles, du duo aux harmonies, du duo aux percussions.\u003C/p\u003E\u003Cp\u003EEntr\u00E9e libre\u003Cbr\u003E\u003Ca target=\u0022_blank\u0022 href=\u0022http://Programmation du festival (pdf)\u0022 rel=\u0022noopener noreferrer nofollow\u0022\u003E\u003Cstrong\u003E\u003Cu\u003EProgrammation du festival (pdf)\u003C/u\u003E\u003C/strong\u003E\u003C/a\u003E\u003C/p\u003E\u003Cp\u003E\u003Ca target=\u0022_blank\u0022 href=\u0022https://www.mobicoop.fr/covoiturages-evenements/7053/Exposition-Fleur--Jardin-de-Celine-Courtault-Capelier\u0022 rel=\u0022noopener noreferrer nofollow\u0022\u003E\u003Cstrong\u003E\u003Cu\u003ELien vers covoiturage de l\u0027\u00E9v\u00E8nement\u003C/u\u003E\u003C/strong\u003E\u003C/a\u003E\u003Cbr\u003EVous venez-de N\u00EEmes ! de Montpellier, vous avez de la place, inscrivez-vous !\u0026nbsp;\u003C/p\u003E",
-            "title": "DUO, Les Butors \u00E9toil\u00E9s"
-          }
-        }
-      },
-      "editToken": "eyJhIjoiZWNob3RvbmUiLCJzIjoicGFnZSIsImkiOiJmMTViNTc1Ny1jNzJhLTQwZmMtYWEyZC1iNTFjNTllNzg4MGYiLCJ1IjoiaHR0cHM6Ly9sYWFiLmRkbnMubmV0OjM4MDgwLyJ9",
-      "id": "f15b5757-c72a-40fc-aa2d-b51c59e7880f",
-      "isDeleted": false,
-      "lastModified": "2025-06-04T19:09:13Z",
+      "lastModified": "2025-07-29T14:03:09Z",
       "lastModifiedBy": "subject:6798df7c5b784ee7b7cb52e1",
       "schemaDisplayName": "Page",
       "schemaId": "d0379b0e-294e-4df6-9b2b-257b807b1467",
       "schemaName": "page",
       "status": "Published",
       "statusColor": "#4bb958",
-      "version": 6
+      "version": 28
     },
     {
       "_links": {
@@ -618,106 +1060,6 @@
       "status": "Published",
       "statusColor": "#4bb958",
       "version": 4
-    },
-    {
-      "_links": {
-        "delete": {
-          "href": "/api/content/echotone/page/dd3c3fe6-0103-4fea-b5e8-1ea714f36308",
-          "method": "DELETE"
-        },
-        "draft/create": {
-          "href": "/api/content/echotone/page/dd3c3fe6-0103-4fea-b5e8-1ea714f36308/draft",
-          "method": "POST"
-        },
-        "previous": {
-          "href": "/api/content/echotone/page/dd3c3fe6-0103-4fea-b5e8-1ea714f36308/19",
-          "method": "GET"
-        },
-        "self": {
-          "href": "/api/content/echotone/page/dd3c3fe6-0103-4fea-b5e8-1ea714f36308",
-          "method": "GET"
-        }
-      },
-      "created": "2025-03-03T18:44:15Z",
-      "createdBy": "subject:6798df7c5b784ee7b7cb52e1",
-      "data": {
-        "id": {
-          "iv": "n-u-collectif-resident-2025"
-        },
-        "medias": {
-          "iv": [
-            {
-              "caption": null,
-              "in": true,
-              "medias": [
-                "0f4cebd8-4ac8-4981-9191-606f15c0c071",
-                "886d5858-de03-4c6e-98da-af702becb52f",
-                "06e2409b-c114-4c21-a62c-0d54883a1f36",
-                "39259620-aceb-4686-860e-0012c6c224a8",
-                "46663c11-bb31-4898-bc75-14691d775370",
-                "ec577ccc-88ff-4922-a1b0-d438b6c7f380",
-                "a42e073b-789c-420d-932f-d3beee9b24c0",
-                "dbb60eaf-fcb9-4e60-a45a-195209811695",
-                "6bc195a2-26f0-4e18-bfcf-39c18db9775e",
-                "4cb0e23e-4cdd-42c9-8b4f-cccaaa01f7c5"
-              ],
-              "schemaId": "1f4e3697-52bc-45d9-a7a8-65862c13ce4b",
-              "schemaName": "carousel"
-            }
-          ]
-        },
-        "unit": {
-          "en": {
-            "locations": [],
-            "schemaId": "2bd4ee39-8e6e-4128-9f08-a049cce49f23",
-            "schemaName": "unit",
-            "short": "La R\u00E9publique des Autres",
-            "tags": [
-              "accueil",
-              "programmation"
-            ],
-            "temporal": [
-              {
-                "date": null,
-                "datetime": "2025-05-21T17:30:00Z",
-                "description": "Performance participative"
-              }
-            ],
-            "text": "\u003Cp\u003ENouvelle cr\u00E9ation participative, \u003Cstrong\u003E\u0022La r\u00E9publique des autres\u0022\u003C/strong\u003E\u0026nbsp;a d\u00E9but\u00E9 sa phase de recherche et d\u2019exp\u00E9rimentation \u00E0 \u00C9CHOTONE, de la mi-f\u00E9vrier \u00E0 fin mai.\u003Cbr\u003E\u003Ca target=\u0022_blank\u0022 href=\u0022https://www.nucollectif.com/\u0022 rel=\u0022noopener noreferrer nofollow\u0022\u003E\u003Cstrong\u003E\u003Cu\u003EN.U Collectif\u003C/u\u003E\u003C/strong\u003E\u003C/a\u003E exp\u00E9rimente de nouveaux langages sonores et immersifs, une exp\u00E9rience hybride o\u00F9 se croisent \u003Cstrong\u003Epo\u00E9sie sonore, musique improvis\u00E9e, performance et th\u00E9\u00E2tre instrumental\u003C/strong\u003E. Cette exploration interroge les impulsions cr\u00E9atives qui pr\u00E9c\u00E8dent le langage et donne naissance \u00E0 un lexique sensible des \u00E9motions.\u003Cbr\u003EEn r\u00E9unissant des adultes porteur\u00B7euse\u00B7s de troubles du spectre autistique, des personnes en situation de vuln\u00E9rabilit\u00E9, leurs proches, des soignant\u00B7e\u00B7s et des habitant\u00B7e\u00B7s, elle fa\u00E7onne une micro-soci\u00E9t\u00E9 artistique et sociale en perp\u00E9tuel mouvement.\u003C/p\u003E\u003Cp\u003E\u003Cbr\u003ESUR LE TEMPS DU FESTIVAL LES ESSENTIELLES \u00C0 GANGES\u003Cbr\u003E\u003Cstrong\u003ERETROUVEZ-LES \u00C0 \u00C9CHOTONE !\u003Cbr\u003E\u003Cbr\u003EMercredi 21 mai \u00E0 19h30\u003C/strong\u003E - performance participative\u003Cbr\u003EEntr\u00E9e libre sans r\u00E9servation\u003Cbr\u003EJauge de 30 personnes\u003Cbr\u003E\u003Cbr\u003E\u003Ca target=\u0022_blank\u0022 href=\u0022https://drive.google.com/file/d/1gN56i0cOSy2tj_0-ANpmb_D_lMndX6x2/view?usp=sharing\u0022 rel=\u0022noopener noreferrer nofollow\u0022\u003E\u003Cstrong\u003E\u003Cu\u003ET\u00E9l\u00E9chargez le programme complet du festival\u003C/u\u003E\u003C/strong\u003E\u003C/a\u003E\u003Cstrong\u003E\u003Cu\u003E\u003Cbr\u003E\u003Cbr\u003E\u003C/u\u003E\u003C/strong\u003EN.U Collectif est accompagn\u00E9\u0026nbsp;par\u0026nbsp;\u003Ca target=\u0022_blank\u0022 href=\u0022https://d7c35.r.a.d.sendibm1.com/mk/cl/f/sh/6rqJfgq8dIPRPzfvqZ3pJWLrtYt/_Ig7eNWm4LxL\u0022 rel=\u0022noopener noreferrer nofollow\u0022\u003E\u003Cstrong\u003E\u003Cu\u003EAnna Kerekes\u003C/u\u003E\u003C/strong\u003E\u003C/a\u003E\u003Cstrong\u003E,\u003C/strong\u003E\u0026nbsp;critique d\u2019art et commissaire d\u2019exposition, enseignante \u00E0 l\u2019\u00C9cole Sup\u00E9rieure des Beaux-Arts de N\u00EEmes ; et poursuit\u0026nbsp;ses collaborations avec Le\u0026nbsp;\u003Cstrong\u003ELieu de Vie Tentative\u003C/strong\u003E\u0026nbsp;\u00E0 Saint-Hippolyte-du-Fort,\u003Cstrong\u003E\u0026nbsp;\u003C/strong\u003E\u003Ca target=\u0022_blank\u0022 href=\u0022https://d7c35.r.a.d.sendibm1.com/mk/cl/f/sh/6rqJfgq8dIR6SRy5KsTNF7TnWrv/KNj4QYHMQ1mu\u0022 rel=\u0022noopener noreferrer nofollow\u0022\u003E\u003Cstrong\u003E\u003Cu\u003ELa Bulle Bleue\u003C/u\u003E\u003C/strong\u003E\u003C/a\u003E, E.S.A.T Artistique et\u0026nbsp;\u003Ca target=\u0022_blank\u0022 href=\u0022https://d7c35.r.a.d.sendibm1.com/mk/cl/f/sh/6rqJfgq8dISlUuGEpBsvAibjAAx/Pnn7g6wz7Jwf\u0022 rel=\u0022noopener noreferrer nofollow\u0022\u003E\u003Cstrong\u003E\u003Cu\u003ELes Ateliers Kennedy\u003C/u\u003E\u003C/strong\u003E\u003C/a\u003E\u0026nbsp;E.S.A.T \u00E0 Montpellier et\u0026nbsp;Pep34.\u003Cbr\u003E\u003Cbr\u003EAvec pour le\u0026nbsp;\u003Cstrong\u003ENU Collectif\u003C/strong\u003E\u0026nbsp;,\u0026nbsp;\u003Cstrong\u003EM\u00C9LAINE BLOT\u003C/strong\u003E\u0026nbsp;, Com\u00E9dien - ESAT La Bulle Bleue,\u0026nbsp;\u003Cstrong\u003EANTHONY GROS-AUDIBERT\u003C/strong\u003E\u0026nbsp;, Performeur - ESAT Ateliers Kennedy,\u0026nbsp;\u003Cstrong\u003EAUR\u00C9LIE PIAU\u003C/strong\u003E\u0026nbsp;, Plasticienne,\u0026nbsp;\u003Cstrong\u003EBERTRAND WOLFF\u003C/strong\u003E\u0026nbsp;, Compositeur et musicien,\u0026nbsp;\u003Cstrong\u003EBOLOLIPSUM\u003C/strong\u003E\u0026nbsp;, Musicien et beatmaker,\u0026nbsp;\u003Cstrong\u003EJEAN CAGNARD,\u003C/strong\u003E\u0026nbsp;\u003Cstrong\u003EGABRIELE PAUPINI\u003C/strong\u003E\u0026nbsp;, Auteurs\u0026nbsp;,\u0026nbsp;\u003Cstrong\u003EAXELLE CARRUZZO\u003C/strong\u003E\u0026nbsp;, Metteur en sc\u00E8ne et performeuse,\u0026nbsp;\u003Cstrong\u003EMATHIAS BEYLER\u003C/strong\u003E\u0026nbsp;, Metteur en sc\u00E8ne et constructeur sonore.\u003C/p\u003E\u003Cp\u003E\u003C/p\u003E",
-            "title": "N.U Collectif \u261E R\u00E9sident 2025"
-          },
-          "fr": {
-            "locations": [],
-            "schemaId": "2bd4ee39-8e6e-4128-9f08-a049cce49f23",
-            "schemaName": "unit",
-            "short": "La R\u00E9publique des Autres",
-            "tags": [
-              "accueil",
-              "programmation"
-            ],
-            "temporal": [
-              {
-                "date": null,
-                "datetime": "2025-05-21T17:30:00Z",
-                "description": "Performance participative"
-              }
-            ],
-            "text": "\u003Cp\u003ENouvelle cr\u00E9ation participative, \u003Cstrong\u003E\u0022La r\u00E9publique des autres\u0022\u003C/strong\u003E\u0026nbsp;a d\u00E9but\u00E9 sa phase de recherche et d\u2019exp\u00E9rimentation \u00E0 \u00C9CHOTONE, de la mi-f\u00E9vrier \u00E0 fin mai.\u003Cbr\u003E\u003Ca target=\u0022_blank\u0022 href=\u0022https://www.nucollectif.com/\u0022 rel=\u0022noopener noreferrer nofollow\u0022\u003E\u003Cstrong\u003E\u003Cu\u003EN.U Collectif\u003C/u\u003E\u003C/strong\u003E\u003C/a\u003E exp\u00E9rimente de nouveaux langages sonores et immersifs, une exp\u00E9rience hybride o\u00F9 se croisent \u003Cstrong\u003Epo\u00E9sie sonore, musique improvis\u00E9e, performance et th\u00E9\u00E2tre instrumental\u003C/strong\u003E. Cette exploration interroge les impulsions cr\u00E9atives qui pr\u00E9c\u00E8dent le langage et donne naissance \u00E0 un lexique sensible des \u00E9motions.\u003Cbr\u003EEn r\u00E9unissant des adultes porteur\u00B7euse\u00B7s de troubles du spectre autistique, des personnes en situation de vuln\u00E9rabilit\u00E9, leurs proches, des soignant\u00B7e\u00B7s et des habitant\u00B7e\u00B7s, elle fa\u00E7onne une micro-soci\u00E9t\u00E9 artistique et sociale en perp\u00E9tuel mouvement.\u003C/p\u003E\u003Cp\u003E\u003Cbr\u003ESUR LE TEMPS DU FESTIVAL LES ESSENTIELLES \u00C0 GANGES\u003Cbr\u003E\u003Cstrong\u003ERETROUVEZ-LES \u00C0 \u00C9CHOTONE !\u003Cbr\u003E\u003Cbr\u003EMercredi 21 mai \u00E0 19h30\u003C/strong\u003E - performance participative\u003Cbr\u003EEntr\u00E9e libre sans r\u00E9servation\u003Cbr\u003EJauge de 30 personnes\u003Cbr\u003E\u003Cbr\u003E\u003Ca target=\u0022_blank\u0022 href=\u0022https://drive.google.com/file/d/1gN56i0cOSy2tj_0-ANpmb_D_lMndX6x2/view?usp=sharing\u0022 rel=\u0022noopener noreferrer nofollow\u0022\u003E\u003Cstrong\u003E\u003Cu\u003ET\u00E9l\u00E9chargez le programme complet du festival\u003C/u\u003E\u003C/strong\u003E\u003C/a\u003E\u003Cstrong\u003E\u003Cu\u003E\u003Cbr\u003E\u003Cbr\u003E\u003C/u\u003E\u003C/strong\u003EN.U Collectif est accompagn\u00E9\u0026nbsp;par\u0026nbsp;\u003Ca target=\u0022_blank\u0022 href=\u0022https://d7c35.r.a.d.sendibm1.com/mk/cl/f/sh/6rqJfgq8dIPRPzfvqZ3pJWLrtYt/_Ig7eNWm4LxL\u0022 rel=\u0022noopener noreferrer nofollow\u0022\u003E\u003Cstrong\u003E\u003Cu\u003EAnna Kerekes\u003C/u\u003E\u003C/strong\u003E\u003C/a\u003E\u003Cstrong\u003E,\u003C/strong\u003E\u0026nbsp;critique d\u2019art et commissaire d\u2019exposition, enseignante \u00E0 l\u2019\u00C9cole Sup\u00E9rieure des Beaux-Arts de N\u00EEmes ; et poursuit\u0026nbsp;ses collaborations avec Le\u0026nbsp;\u003Cstrong\u003ELieu de Vie Tentative\u003C/strong\u003E\u0026nbsp;\u00E0 Saint-Hippolyte-du-Fort,\u003Cstrong\u003E\u0026nbsp;\u003C/strong\u003E\u003Ca target=\u0022_blank\u0022 href=\u0022https://d7c35.r.a.d.sendibm1.com/mk/cl/f/sh/6rqJfgq8dIR6SRy5KsTNF7TnWrv/KNj4QYHMQ1mu\u0022 rel=\u0022noopener noreferrer nofollow\u0022\u003E\u003Cstrong\u003E\u003Cu\u003ELa Bulle Bleue\u003C/u\u003E\u003C/strong\u003E\u003C/a\u003E, E.S.A.T Artistique et\u0026nbsp;\u003Ca target=\u0022_blank\u0022 href=\u0022https://d7c35.r.a.d.sendibm1.com/mk/cl/f/sh/6rqJfgq8dISlUuGEpBsvAibjAAx/Pnn7g6wz7Jwf\u0022 rel=\u0022noopener noreferrer nofollow\u0022\u003E\u003Cstrong\u003E\u003Cu\u003ELes Ateliers Kennedy\u003C/u\u003E\u003C/strong\u003E\u003C/a\u003E\u0026nbsp;E.S.A.T \u00E0 Montpellier et\u0026nbsp;Pep34.\u003Cbr\u003E\u003Cbr\u003EAvec pour le\u0026nbsp;\u003Cstrong\u003ENU Collectif\u003C/strong\u003E\u0026nbsp;,\u0026nbsp;\u003Cstrong\u003EM\u00C9LAINE BLOT\u003C/strong\u003E\u0026nbsp;, Com\u00E9dien - ESAT La Bulle Bleue,\u0026nbsp;\u003Cstrong\u003EANTHONY GROS-AUDIBERT\u003C/strong\u003E\u0026nbsp;, Performeur - ESAT Ateliers Kennedy,\u0026nbsp;\u003Cstrong\u003EAUR\u00C9LIE PIAU\u003C/strong\u003E\u0026nbsp;, Plasticienne,\u0026nbsp;\u003Cstrong\u003EBERTRAND WOLFF\u003C/strong\u003E\u0026nbsp;, Compositeur et musicien,\u0026nbsp;\u003Cstrong\u003EBOLOLIPSUM\u003C/strong\u003E\u0026nbsp;, Musicien et beatmaker,\u0026nbsp;\u003Cstrong\u003EJEAN CAGNARD,\u003C/strong\u003E\u0026nbsp;\u003Cstrong\u003EGABRIELE PAUPINI\u003C/strong\u003E\u0026nbsp;, Auteurs\u0026nbsp;,\u0026nbsp;\u003Cstrong\u003EAXELLE CARRUZZO\u003C/strong\u003E\u0026nbsp;, Metteur en sc\u00E8ne et performeuse,\u0026nbsp;\u003Cstrong\u003EMATHIAS BEYLER\u003C/strong\u003E\u0026nbsp;, Metteur en sc\u00E8ne et constructeur sonore.\u003C/p\u003E\u003Cp\u003E\u003C/p\u003E",
-            "title": "N.U Collectif \u261E R\u00E9sident 2025"
-          }
-        }
-      },
-      "editToken": "eyJhIjoiZWNob3RvbmUiLCJzIjoicGFnZSIsImkiOiJkZDNjM2ZlNi0wMTAzLTRmZWEtYjVlOC0xZWE3MTRmMzYzMDgiLCJ1IjoiaHR0cHM6Ly9sYWFiLmRkbnMubmV0OjM4MDgwLyJ9",
-      "id": "dd3c3fe6-0103-4fea-b5e8-1ea714f36308",
-      "isDeleted": false,
-      "lastModified": "2025-05-20T14:46:55Z",
-      "lastModifiedBy": "subject:6798df7c5b784ee7b7cb52e1",
-      "schemaDisplayName": "Page",
-      "schemaId": "d0379b0e-294e-4df6-9b2b-257b807b1467",
-      "schemaName": "page",
-      "status": "Published",
-      "statusColor": "#4bb958",
-      "version": 20
     },
     {
       "_links": {
@@ -1063,111 +1405,6 @@
       "status": "Published",
       "statusColor": "#4bb958",
       "version": 9
-    },
-    {
-      "_links": {
-        "delete": {
-          "href": "/api/content/echotone/page/df209168-9ee7-4bb2-8dfe-8d3fbf1c95fd",
-          "method": "DELETE"
-        },
-        "draft/create": {
-          "href": "/api/content/echotone/page/df209168-9ee7-4bb2-8dfe-8d3fbf1c95fd/draft",
-          "method": "POST"
-        },
-        "previous": {
-          "href": "/api/content/echotone/page/df209168-9ee7-4bb2-8dfe-8d3fbf1c95fd/14",
-          "method": "GET"
-        },
-        "self": {
-          "href": "/api/content/echotone/page/df209168-9ee7-4bb2-8dfe-8d3fbf1c95fd",
-          "method": "GET"
-        }
-      },
-      "created": "2025-03-03T20:02:36Z",
-      "createdBy": "subject:6798df7c5b784ee7b7cb52e1",
-      "data": {
-        "id": {
-          "iv": "geoffrey-badel-resident-2024"
-        },
-        "medias": {
-          "iv": [
-            {
-              "caption": null,
-              "in": true,
-              "medias": [
-                "b708adf3-e6a1-43a4-82c7-a9455e21d8e8",
-                "85c83d0c-013c-4aaa-95b1-ff1f698dfb3c",
-                "1069eb14-c864-42db-a2e0-396f8198aa78"
-              ],
-              "schemaId": "1f4e3697-52bc-45d9-a7a8-65862c13ce4b",
-              "schemaName": "carousel"
-            }
-          ]
-        },
-        "unit": {
-          "en": {
-            "locations": [],
-            "schemaId": "2bd4ee39-8e6e-4128-9f08-a049cce49f23",
-            "schemaName": "unit",
-            "short": "Festival Inou\u00EF ",
-            "tags": [
-              "programmation",
-              "accueil",
-              "p\u00E9riode"
-            ],
-            "temporal": [
-              {
-                "date": "2025-05-02T00:00:00Z",
-                "datetime": null,
-                "description": null
-              },
-              {
-                "date": "2025-05-03T00:00:00Z",
-                "datetime": null,
-                "description": null
-              }
-            ],
-            "text": "\u003Cp\u003EOuverture de l\u0027exposition de 10h \u00E0 17h\u003Cbr\u003EEntr\u00E9e libre et gratuite dans le cadre du Festival INOU\u00CF\u003Cbr\u003E\u003Ca target=\u0022_blank\u0022 href=\u0022https://drive.google.com/file/d/1cKvST66jPU7OxYwj8r9XdDFLkKqAkL-k/view?usp=drive_link\u0022 rel=\u0022noopener noreferrer nofollow\u0022\u003E\u003Cstrong\u003E\u003Cu\u003EPdf programmation du festival INOU\u00CF\u003C/u\u003E\u003C/strong\u003E\u003C/a\u003E\u003Cstrong\u003E\u003Cbr\u003E\u003Cbr\u003E\u003C/strong\u003E\u003Ca target=\u0022_blank\u0022 href=\u0022https://geoffreybadel.wixsite.com/artiste\u0022 rel=\u0022noopener noreferrer nofollow\u0022\u003E\u003Cstrong\u003EGeoffrey Badel\u003C/strong\u003E\u003C/a\u003E est un artiste entendant qui explore les \u003Cstrong\u003Emondes silencieux\u003C/strong\u003E \u00E0 travers des installations immersives sous la forme de dessins, de films, d\u2019installations et de performances. Le temps du festival, l\u2019artiste met en commun ses r\u00E9flexions actuelles sous la forme d\u0027un paysage mental en gestation. Dans un contexte o\u00F9 la langue des signes est au c\u0153ur des \u00E9changes, cette exposition prend un sens tout particulier. Le public est invit\u00E9 \u00E0 d\u00E9couvrir un grand accrochage de dessins, r\u00E9alis\u00E9s ces derni\u00E8res ann\u00E9es jusqu\u0027\u00E0 aujourd\u0027hui, ponctu\u00E9 de fragments de textes, d\u2019images, d\u2019objets \u2014 autant d\u2019\u00E9l\u00E9ments issus de l\u2019univers de l\u2019artiste et de ses recherches. Ce dispositif permet une plong\u00E9e dans le c\u0153ur m\u00EAme de sa pratique, o\u00F9 le silence est habit\u00E9. Une invitation \u00E0 \u003Cstrong\u003Epercevoir autrement\u003C/strong\u003E, \u00E0 travers les sens et au-del\u00E0 des mots, une mani\u00E8re d\u2019entrer en r\u00E9sonance avec les multiples formes que peut prendre la communication humaine.\u003Cbr\u003E\u003Cbr\u003EGeoffrey Badel d\u00E9veloppe actuellement son engagement aupr\u00E8s de la communaut\u00E9 sourde dans l\u0027intention de contribuer \u00E0 l\u0027accessibilit\u00E9 \u00E0 l\u0027art et d\u0027approfondir ses questionnements sur le langage.\u003Cbr\u003E\u003Cbr\u003E\u003C/p\u003E",
-            "title": "Geoffrey Badel \u261E R\u00E9sident 2024"
-          },
-          "fr": {
-            "locations": [],
-            "schemaId": "2bd4ee39-8e6e-4128-9f08-a049cce49f23",
-            "schemaName": "unit",
-            "short": "Festival Inou\u00EF ",
-            "tags": [
-              "programmation",
-              "accueil",
-              "p\u00E9riode"
-            ],
-            "temporal": [
-              {
-                "date": "2025-05-02T00:00:00Z",
-                "datetime": null,
-                "description": null
-              },
-              {
-                "date": "2025-05-03T00:00:00Z",
-                "datetime": null,
-                "description": null
-              }
-            ],
-            "text": "\u003Cp\u003EOuverture de l\u0027exposition de 10h \u00E0 17h\u003Cbr\u003EEntr\u00E9e libre et gratuite dans le cadre du Festival INOU\u00CF\u003Cbr\u003E\u003Ca target=\u0022_blank\u0022 href=\u0022https://drive.google.com/file/d/1cKvST66jPU7OxYwj8r9XdDFLkKqAkL-k/view?usp=drive_link\u0022 rel=\u0022noopener noreferrer nofollow\u0022\u003E\u003Cstrong\u003E\u003Cu\u003EPdf programmation du festival INOU\u00CF\u003C/u\u003E\u003C/strong\u003E\u003C/a\u003E\u003Cstrong\u003E\u003Cbr\u003E\u003Cbr\u003E\u003C/strong\u003E\u003Ca target=\u0022_blank\u0022 href=\u0022https://geoffreybadel.wixsite.com/artiste\u0022 rel=\u0022noopener noreferrer nofollow\u0022\u003E\u003Cstrong\u003EGeoffrey Badel\u003C/strong\u003E\u003C/a\u003E est un artiste entendant qui explore les \u003Cstrong\u003Emondes silencieux\u003C/strong\u003E \u00E0 travers des installations immersives sous la forme de dessins, de films, d\u2019installations et de performances. Le temps du festival, l\u2019artiste met en commun ses r\u00E9flexions actuelles sous la forme d\u0027un paysage mental en gestation. Dans un contexte o\u00F9 la langue des signes est au c\u0153ur des \u00E9changes, cette exposition prend un sens tout particulier. Le public est invit\u00E9 \u00E0 d\u00E9couvrir un grand accrochage de dessins, r\u00E9alis\u00E9s ces derni\u00E8res ann\u00E9es jusqu\u0027\u00E0 aujourd\u0027hui, ponctu\u00E9 de fragments de textes, d\u2019images, d\u2019objets \u2014 autant d\u2019\u00E9l\u00E9ments issus de l\u2019univers de l\u2019artiste et de ses recherches. Ce dispositif permet une plong\u00E9e dans le c\u0153ur m\u00EAme de sa pratique, o\u00F9 le silence est habit\u00E9. Une invitation \u00E0 \u003Cstrong\u003Epercevoir autrement\u003C/strong\u003E, \u00E0 travers les sens et au-del\u00E0 des mots, une mani\u00E8re d\u2019entrer en r\u00E9sonance avec les multiples formes que peut prendre la communication humaine.\u003Cbr\u003E\u003Cbr\u003EGeoffrey Badel d\u00E9veloppe actuellement son engagement aupr\u00E8s de la communaut\u00E9 sourde dans l\u0027intention de contribuer \u00E0 l\u0027accessibilit\u00E9 \u00E0 l\u0027art et d\u0027approfondir ses questionnements sur le langage.\u003Cbr\u003E\u003Cbr\u003E\u003C/p\u003E",
-            "title": "Geoffrey Badel \u261E R\u00E9sident 2024"
-          }
-        }
-      },
-      "editToken": "eyJhIjoiZWNob3RvbmUiLCJzIjoicGFnZSIsImkiOiJkZjIwOTE2OC05ZWU3LTRiYjItOGRmZS04ZDNmYmYxYzk1ZmQiLCJ1IjoiaHR0cHM6Ly9sYWFiLmRkbnMubmV0OjM4MDgwLyJ9",
-      "id": "df209168-9ee7-4bb2-8dfe-8d3fbf1c95fd",
-      "isDeleted": false,
-      "lastModified": "2025-05-14T12:38:09Z",
-      "lastModifiedBy": "subject:6798df7c5b784ee7b7cb52e1",
-      "schemaDisplayName": "Page",
-      "schemaId": "d0379b0e-294e-4df6-9b2b-257b807b1467",
-      "schemaName": "page",
-      "status": "Published",
-      "statusColor": "#4bb958",
-      "version": 15
     },
     {
       "_links": {
@@ -1710,112 +1947,6 @@
     {
       "_links": {
         "delete": {
-          "href": "/api/content/echotone/page/8d3519b1-5949-4f8f-8c29-7efcd066b682",
-          "method": "DELETE"
-        },
-        "draft/create": {
-          "href": "/api/content/echotone/page/8d3519b1-5949-4f8f-8c29-7efcd066b682/draft",
-          "method": "POST"
-        },
-        "previous": {
-          "href": "/api/content/echotone/page/8d3519b1-5949-4f8f-8c29-7efcd066b682/10",
-          "method": "GET"
-        },
-        "self": {
-          "href": "/api/content/echotone/page/8d3519b1-5949-4f8f-8c29-7efcd066b682",
-          "method": "GET"
-        }
-      },
-      "created": "2025-01-27T16:56:40Z",
-      "createdBy": "subject:6798dad0167d31fb8ec7cc74",
-      "data": {
-        "id": {
-          "iv": "7eme-journees-des-ateliers-d-artistes"
-        },
-        "medias": {
-          "iv": [
-            {
-              "in": true,
-              "medias": [
-                "a94f31e5-3836-4bfe-a9b6-9fc92851cb8e",
-                "6b519d90-64e0-42a1-8486-87fbc0d6bab8",
-                "8b25f26d-c892-46f9-b714-4715ea3c6f15",
-                "5dfc89a4-e4e0-4239-ac39-85154a0c8ffa",
-                "67ef408d-d649-4293-b4a5-a883dbd68a0b"
-              ],
-              "schemaId": "1f4e3697-52bc-45d9-a7a8-65862c13ce4b",
-              "schemaName": "carousel"
-            }
-          ]
-        },
-        "unit": {
-          "en": {
-            "locations": [],
-            "schemaId": "2bd4ee39-8e6e-4128-9f08-a049cce49f23",
-            "schemaName": "unit",
-            "short": "#JAA Occitanie",
-            "tags": [
-              "atelier",
-              "programmation",
-              "p\u00E9riode"
-            ],
-            "temporal": [
-              {
-                "date": "2024-10-19T00:00:00Z",
-                "datetime": null,
-                "description": null
-              },
-              {
-                "date": "2024-10-20T00:00:00Z",
-                "datetime": null,
-                "description": null
-              }
-            ],
-            "text": "\u003Cp\u003EWeek-end du 19/20 octobre 2024, nous ouvrons les portes de \u00C9chotone, pour les \u003Cstrong\u003E7\u00E8me Journ\u00E9es des ateliers d\u0027artistes d\u0027Occitanie\u003C/strong\u003E. Avec la d\u00E9couverte des ateliers de gravures et plus sp\u00E9cifiquement de la technique de la photogravure sur photopolym\u00E8re.\u003Cbr\u003E\u003Cbr\u003EDans l\u0027ann\u00E9e, l\u0027\u00E9quipe d\u0027artiste de \u00C9CHOTONE propose des stages sur une ou deux journ\u00E9es abordant diff\u00E9rentes techniques li\u00E9es \u00E0 la photosensibilit\u00E9: distillations, pigments vivants, papiers botaniques (...)\u003C/p\u003E\u003Cp\u003E\u003Ca target=\u0022_blank\u0022 href=\u0022https://l.facebook.com/l.php?u=https%3A%2F%2Fwww.instagram.com%2F_u%2Fechotone__%3Ffbclid%3DIwZXh0bgNhZW0CMTAAAR2t7rEdA1S9gUiP-WsU2KorfPR1l1e2yYK2ipwhG2ltYobdllCVyrAqSLQ_aem_SaJnO3vYJ5nYMbJtAu0xAA\u0026amp;h=AT1yy5wWhu895DCv5Cs0A-ERNE_eqMdmwHT8YtZP07b3Vpve6Jh_QkzIvNkSgoEaC5rmCb_Gr2EaZW5YYiXpndgHgG059XDvOJHpOLogahm-v_XmEQDRUe3DsboTWV7CYQjqq90\u0026amp;__tn__=-UK-R\u0026amp;c[0]=AT26hBcamzUEPaNJr-lwsJcsK840D8gswmeGXLQucgLWuhUbOOkoaQVLHRkLtzj_c5jdWb3raQWxQapI-u2IinKkhOaxujHKyhm40Zc1vdr95DZhZa-3vZn71t8CFIt61e4ZhTrPMCPmmn-5dv5LIqvR1Hb9GmnQl9XM7ALhEqZJRTaNTNf_whlaIZvZy2rTGF145yabXI8\u0022 rel=\u0022noopener noreferrer nofollow\u0022\u003E\u003Cstrong\u003E@echotone__\u003C/strong\u003E\u003C/a\u003E \u003Ca target=\u0022_blank\u0022 href=\u0022https://www.facebook.com/hashtag/jaaoccitanie2024?__eep__=6\u0026amp;__cft__[0]=AZXhBOwBuCSfqKKolWMWrchcChIroPEPNGfRJ6FdRjY-PeXMWHS79C8YHgCrzlsRjqPO2wSn6MAKd_5a5-mM8gGCBIDkvkQJSeM95_LWcamj2GvoL0VEnJfPbizRi5E1dDxmHVyojpD4XMRUzUpzmFTIry-DNs1mX34dWkUXPz73LY7eMxDIgdvnIc3ZgeLpNcE\u0026amp;__tn__=*NK-R\u0022 rel=\u0022noopener noreferrer nofollow\u0022\u003E\u003Cstrong\u003E#jaaoccitanie2024\u003C/strong\u003E\u003C/a\u003E\u003C/p\u003E",
-            "title": "7\u00E8me Journ\u00E9es des Ateliers d\u0027Artistes"
-          },
-          "fr": {
-            "locations": [],
-            "schemaId": "2bd4ee39-8e6e-4128-9f08-a049cce49f23",
-            "schemaName": "unit",
-            "short": "#JAA Occitanie",
-            "tags": [
-              "atelier",
-              "programmation",
-              "p\u00E9riode"
-            ],
-            "temporal": [
-              {
-                "date": "2024-10-19T00:00:00Z",
-                "datetime": null,
-                "description": null
-              },
-              {
-                "date": "2024-10-20T00:00:00Z",
-                "datetime": null,
-                "description": null
-              }
-            ],
-            "text": "\u003Cp\u003EWeek-end du 19/20 octobre 2024, nous ouvrons les portes de \u00C9chotone, pour les \u003Cstrong\u003E7\u00E8me Journ\u00E9es des ateliers d\u0027artistes d\u0027Occitanie\u003C/strong\u003E. Avec la d\u00E9couverte des ateliers de gravures et plus sp\u00E9cifiquement de la technique de la photogravure sur photopolym\u00E8re.\u003Cbr\u003E\u003Cbr\u003EDans l\u0027ann\u00E9e, l\u0027\u00E9quipe d\u0027artiste de \u00C9CHOTONE propose des stages sur une ou deux journ\u00E9es abordant diff\u00E9rentes techniques li\u00E9es \u00E0 la photosensibilit\u00E9: distillations, pigments vivants, papiers botaniques (...)\u003C/p\u003E\u003Cp\u003E\u003Ca target=\u0022_blank\u0022 href=\u0022https://l.facebook.com/l.php?u=https%3A%2F%2Fwww.instagram.com%2F_u%2Fechotone__%3Ffbclid%3DIwZXh0bgNhZW0CMTAAAR2t7rEdA1S9gUiP-WsU2KorfPR1l1e2yYK2ipwhG2ltYobdllCVyrAqSLQ_aem_SaJnO3vYJ5nYMbJtAu0xAA\u0026amp;h=AT1yy5wWhu895DCv5Cs0A-ERNE_eqMdmwHT8YtZP07b3Vpve6Jh_QkzIvNkSgoEaC5rmCb_Gr2EaZW5YYiXpndgHgG059XDvOJHpOLogahm-v_XmEQDRUe3DsboTWV7CYQjqq90\u0026amp;__tn__=-UK-R\u0026amp;c[0]=AT26hBcamzUEPaNJr-lwsJcsK840D8gswmeGXLQucgLWuhUbOOkoaQVLHRkLtzj_c5jdWb3raQWxQapI-u2IinKkhOaxujHKyhm40Zc1vdr95DZhZa-3vZn71t8CFIt61e4ZhTrPMCPmmn-5dv5LIqvR1Hb9GmnQl9XM7ALhEqZJRTaNTNf_whlaIZvZy2rTGF145yabXI8\u0022 rel=\u0022noopener noreferrer nofollow\u0022\u003E\u003Cstrong\u003E@echotone__\u003C/strong\u003E\u003C/a\u003E \u003Ca target=\u0022_blank\u0022 href=\u0022https://www.facebook.com/hashtag/jaaoccitanie2024?__eep__=6\u0026amp;__cft__[0]=AZXhBOwBuCSfqKKolWMWrchcChIroPEPNGfRJ6FdRjY-PeXMWHS79C8YHgCrzlsRjqPO2wSn6MAKd_5a5-mM8gGCBIDkvkQJSeM95_LWcamj2GvoL0VEnJfPbizRi5E1dDxmHVyojpD4XMRUzUpzmFTIry-DNs1mX34dWkUXPz73LY7eMxDIgdvnIc3ZgeLpNcE\u0026amp;__tn__=*NK-R\u0022 rel=\u0022noopener noreferrer nofollow\u0022\u003E\u003Cstrong\u003E#jaaoccitanie2024\u003C/strong\u003E\u003C/a\u003E\u003C/p\u003E",
-            "title": "7\u00E8me Journ\u00E9es des Ateliers d\u0027Artistes"
-          }
-        }
-      },
-      "editToken": "eyJhIjoiZWNob3RvbmUiLCJzIjoicGFnZSIsImkiOiI4ZDM1MTliMS01OTQ5LTRmOGYtOGMyOS03ZWZjZDA2NmI2ODIiLCJ1IjoiaHR0cHM6Ly9sYWFiLmRkbnMubmV0OjM4MDgwLyJ9",
-      "id": "8d3519b1-5949-4f8f-8c29-7efcd066b682",
-      "isDeleted": false,
-      "lastModified": "2025-03-31T16:59:45Z",
-      "lastModifiedBy": "subject:6798df7c5b784ee7b7cb52e1",
-      "schemaDisplayName": "Page",
-      "schemaId": "d0379b0e-294e-4df6-9b2b-257b807b1467",
-      "schemaName": "page",
-      "status": "Published",
-      "statusColor": "#4bb958",
-      "version": 11
-    },
-    {
-      "_links": {
-        "delete": {
           "href": "/api/content/echotone/page/878f8298-2802-4c04-894c-a8a9c1067b9f",
           "method": "DELETE"
         },
@@ -2014,5 +2145,5 @@
       "status": "Published"
     }
   ],
-  "total": 19
+  "total": 20
 }
