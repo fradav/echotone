@@ -21,6 +21,437 @@
     {
       "_links": {
         "content": {
+          "href": "/api/assets/echotone/739ef26a-dc53-4daf-b8a2-3b104aa41598/visuel-echomarket.jpg",
+          "method": "GET"
+        },
+        "content/slug": {
+          "href": "/api/assets/echotone/visuel-echomarket.jpg",
+          "method": "GET"
+        },
+        "delete": {
+          "href": "/api/apps/echotone/assets/739ef26a-dc53-4daf-b8a2-3b104aa41598",
+          "method": "DELETE"
+        },
+        "move": {
+          "href": "/api/apps/echotone/assets/739ef26a-dc53-4daf-b8a2-3b104aa41598/parent",
+          "method": "PUT"
+        },
+        "self": {
+          "href": "/api/apps/echotone/assets/739ef26a-dc53-4daf-b8a2-3b104aa41598",
+          "method": "GET"
+        },
+        "update": {
+          "href": "/api/apps/echotone/assets/739ef26a-dc53-4daf-b8a2-3b104aa41598",
+          "method": "PUT"
+        },
+        "upload": {
+          "href": "/api/apps/echotone/assets/739ef26a-dc53-4daf-b8a2-3b104aa41598/content",
+          "method": "PUT"
+        }
+      },
+      "created": "2025-11-24T15:11:57Z",
+      "createdBy": "subject:6798df7c5b784ee7b7cb52e1",
+      "editToken": "eyJhIjoiZWNob3RvbmUiLCJpIjoiNzM5ZWYyNmEtZGM1My00ZGFmLWI4YTItM2IxMDRhYTQxNTk4IiwidSI6Imh0dHBzOi8vbGFhYi5kZG5zLm5ldDozODA4MC8ifQ==",
+      "fileHash": "KeXo957Xmjx7JO5rz7FEPds9CnoNV4aUOKEZhYOKXRo=",
+      "fileName": "visuel-ECHOMARKET.jpg",
+      "fileSize": 291025,
+      "fileType": "jpg",
+      "fileVersion": 0,
+      "id": "739ef26a-dc53-4daf-b8a2-3b104aa41598",
+      "isImage": true,
+      "isProtected": false,
+      "lastModified": "2025-11-24T15:11:57Z",
+      "lastModifiedBy": "subject:6798df7c5b784ee7b7cb52e1",
+      "metadata": {
+        "created": "2025-11-24T15:03:10\u002B00:00",
+        "description": "JFIF File",
+        "imageQuality": 89,
+        "pixelHeight": 1701,
+        "pixelWidth": 1191
+      },
+      "metadataText": "1191x1701px, 284.2 kB",
+      "mimeType": "image/jpeg",
+      "parentId": "00000000-0000-0000-0000-000000000000",
+      "pixelHeight": 1701,
+      "pixelWidth": 1191,
+      "slug": "visuel-echomarket.jpg",
+      "tags": [
+        "type/jpg",
+        "image",
+        "image/large"
+      ],
+      "type": "Image",
+      "version": 0
+    },
+    {
+      "_links": {
+        "content": {
+          "href": "/api/assets/echotone/1290c388-1901-44ef-9cf5-1f6c987b68f8/a3-haut-gauche-echomarket.indd",
+          "method": "GET"
+        },
+        "content/slug": {
+          "href": "/api/assets/echotone/a3-haut-gauche-echomarket.indd",
+          "method": "GET"
+        },
+        "delete": {
+          "href": "/api/apps/echotone/assets/1290c388-1901-44ef-9cf5-1f6c987b68f8",
+          "method": "DELETE"
+        },
+        "move": {
+          "href": "/api/apps/echotone/assets/1290c388-1901-44ef-9cf5-1f6c987b68f8/parent",
+          "method": "PUT"
+        },
+        "self": {
+          "href": "/api/apps/echotone/assets/1290c388-1901-44ef-9cf5-1f6c987b68f8",
+          "method": "GET"
+        },
+        "update": {
+          "href": "/api/apps/echotone/assets/1290c388-1901-44ef-9cf5-1f6c987b68f8",
+          "method": "PUT"
+        },
+        "upload": {
+          "href": "/api/apps/echotone/assets/1290c388-1901-44ef-9cf5-1f6c987b68f8/content",
+          "method": "PUT"
+        }
+      },
+      "created": "2025-11-24T14:43:10Z",
+      "createdBy": "subject:6798df7c5b784ee7b7cb52e1",
+      "editToken": "eyJhIjoiZWNob3RvbmUiLCJpIjoiMTI5MGMzODgtMTkwMS00NGVmLTljZjUtMWY2Yzk4N2I2OGY4IiwidSI6Imh0dHBzOi8vbGFhYi5kZG5zLm5ldDozODA4MC8ifQ==",
+      "fileHash": "DjBONvUPlqLVvoaXJZl6GSz2GtHB7\u002BMM2dq3jqUzvIE=",
+      "fileName": "A3 HAUT GAUCHE-ECHOMARKET.indd",
+      "fileSize": 27029504,
+      "fileType": "indd",
+      "fileVersion": 0,
+      "id": "1290c388-1901-44ef-9cf5-1f6c987b68f8",
+      "isImage": false,
+      "isProtected": false,
+      "lastModified": "2025-11-24T14:43:10Z",
+      "lastModifiedBy": "subject:6798df7c5b784ee7b7cb52e1",
+      "metadata": {},
+      "metadataText": "25.8 MB",
+      "mimeType": "application/octet-stream",
+      "parentId": "00000000-0000-0000-0000-000000000000",
+      "slug": "a3-haut-gauche-echomarket.indd",
+      "tags": [
+        "type/indd"
+      ],
+      "type": "Unknown",
+      "version": 0
+    },
+    {
+      "_links": {
+        "content": {
+          "href": "/api/assets/echotone/4ea29127-2364-48ce-b938-4ebfca6b61d2/publicare-insta-2.jpg",
+          "method": "GET"
+        },
+        "content/slug": {
+          "href": "/api/assets/echotone/publicare-insta-2.jpg",
+          "method": "GET"
+        },
+        "delete": {
+          "href": "/api/apps/echotone/assets/4ea29127-2364-48ce-b938-4ebfca6b61d2",
+          "method": "DELETE"
+        },
+        "move": {
+          "href": "/api/apps/echotone/assets/4ea29127-2364-48ce-b938-4ebfca6b61d2/parent",
+          "method": "PUT"
+        },
+        "self": {
+          "href": "/api/apps/echotone/assets/4ea29127-2364-48ce-b938-4ebfca6b61d2",
+          "method": "GET"
+        },
+        "update": {
+          "href": "/api/apps/echotone/assets/4ea29127-2364-48ce-b938-4ebfca6b61d2",
+          "method": "PUT"
+        },
+        "upload": {
+          "href": "/api/apps/echotone/assets/4ea29127-2364-48ce-b938-4ebfca6b61d2/content",
+          "method": "PUT"
+        }
+      },
+      "created": "2025-11-24T14:12:24Z",
+      "createdBy": "subject:6798df7c5b784ee7b7cb52e1",
+      "editToken": "eyJhIjoiZWNob3RvbmUiLCJpIjoiNGVhMjkxMjctMjM2NC00OGNlLWI5MzgtNGViZmNhNmI2MWQyIiwidSI6Imh0dHBzOi8vbGFhYi5kZG5zLm5ldDozODA4MC8ifQ==",
+      "fileHash": "PDUifEZfru2c4I19xzVhG9qr5aANa6wDv\u002BSY6ZMBNfI=",
+      "fileName": "publicare-insta-2.jpg",
+      "fileSize": 350523,
+      "fileType": "jpg",
+      "fileVersion": 0,
+      "id": "4ea29127-2364-48ce-b938-4ebfca6b61d2",
+      "isImage": true,
+      "isProtected": false,
+      "lastModified": "2025-11-24T14:12:24Z",
+      "lastModifiedBy": "subject:6798df7c5b784ee7b7cb52e1",
+      "metadata": {
+        "description": "JFIF File",
+        "imageQuality": 90,
+        "pixelHeight": 1942,
+        "pixelWidth": 1920
+      },
+      "metadataText": "1920x1942px, 342.3 kB",
+      "mimeType": "image/jpeg",
+      "parentId": "00000000-0000-0000-0000-000000000000",
+      "pixelHeight": 1942,
+      "pixelWidth": 1920,
+      "slug": "publicare-insta-2.jpg",
+      "tags": [
+        "type/jpg",
+        "image",
+        "image/large"
+      ],
+      "type": "Image",
+      "version": 0
+    },
+    {
+      "_links": {
+        "content": {
+          "href": "/api/assets/echotone/844c4402-6201-487b-9a6f-e0c676652bef/publicare-insta-1.jpg",
+          "method": "GET"
+        },
+        "content/slug": {
+          "href": "/api/assets/echotone/publicare-insta-1.jpg",
+          "method": "GET"
+        },
+        "delete": {
+          "href": "/api/apps/echotone/assets/844c4402-6201-487b-9a6f-e0c676652bef",
+          "method": "DELETE"
+        },
+        "move": {
+          "href": "/api/apps/echotone/assets/844c4402-6201-487b-9a6f-e0c676652bef/parent",
+          "method": "PUT"
+        },
+        "self": {
+          "href": "/api/apps/echotone/assets/844c4402-6201-487b-9a6f-e0c676652bef",
+          "method": "GET"
+        },
+        "update": {
+          "href": "/api/apps/echotone/assets/844c4402-6201-487b-9a6f-e0c676652bef",
+          "method": "PUT"
+        },
+        "upload": {
+          "href": "/api/apps/echotone/assets/844c4402-6201-487b-9a6f-e0c676652bef/content",
+          "method": "PUT"
+        }
+      },
+      "created": "2025-11-24T14:12:24Z",
+      "createdBy": "subject:6798df7c5b784ee7b7cb52e1",
+      "editToken": "eyJhIjoiZWNob3RvbmUiLCJpIjoiODQ0YzQ0MDItNjIwMS00ODdiLTlhNmYtZTBjNjc2NjUyYmVmIiwidSI6Imh0dHBzOi8vbGFhYi5kZG5zLm5ldDozODA4MC8ifQ==",
+      "fileHash": "elw1h\u002BlurRUEwrLkHGQkNGlDgm0RcHmPXJgLBZVjwM8=",
+      "fileName": "publicare-insta-1.jpg",
+      "fileSize": 356520,
+      "fileType": "jpg",
+      "fileVersion": 0,
+      "id": "844c4402-6201-487b-9a6f-e0c676652bef",
+      "isImage": true,
+      "isProtected": false,
+      "lastModified": "2025-11-24T14:12:24Z",
+      "lastModifiedBy": "subject:6798df7c5b784ee7b7cb52e1",
+      "metadata": {
+        "description": "JFIF File",
+        "imageQuality": 90,
+        "pixelHeight": 1942,
+        "pixelWidth": 1920
+      },
+      "metadataText": "1920x1942px, 348.2 kB",
+      "mimeType": "image/jpeg",
+      "parentId": "00000000-0000-0000-0000-000000000000",
+      "pixelHeight": 1942,
+      "pixelWidth": 1920,
+      "slug": "publicare-insta-1.jpg",
+      "tags": [
+        "type/jpg",
+        "image",
+        "image/large"
+      ],
+      "type": "Image",
+      "version": 0
+    },
+    {
+      "_links": {
+        "content": {
+          "href": "/api/assets/echotone/d002a90f-226f-42bd-997d-6ea5105498f7/fwdvisuelsdecommunicationfestivalpublicare.zip",
+          "method": "GET"
+        },
+        "content/slug": {
+          "href": "/api/assets/echotone/fwdvisuelsdecommunicationfestivalpublicare.zip",
+          "method": "GET"
+        },
+        "delete": {
+          "href": "/api/apps/echotone/assets/d002a90f-226f-42bd-997d-6ea5105498f7",
+          "method": "DELETE"
+        },
+        "move": {
+          "href": "/api/apps/echotone/assets/d002a90f-226f-42bd-997d-6ea5105498f7/parent",
+          "method": "PUT"
+        },
+        "self": {
+          "href": "/api/apps/echotone/assets/d002a90f-226f-42bd-997d-6ea5105498f7",
+          "method": "GET"
+        },
+        "update": {
+          "href": "/api/apps/echotone/assets/d002a90f-226f-42bd-997d-6ea5105498f7",
+          "method": "PUT"
+        },
+        "upload": {
+          "href": "/api/apps/echotone/assets/d002a90f-226f-42bd-997d-6ea5105498f7/content",
+          "method": "PUT"
+        }
+      },
+      "created": "2025-11-24T14:11:37Z",
+      "createdBy": "subject:6798df7c5b784ee7b7cb52e1",
+      "editToken": "eyJhIjoiZWNob3RvbmUiLCJpIjoiZDAwMmE5MGYtMjI2Zi00MmJkLTk5N2QtNmVhNTEwNTQ5OGY3IiwidSI6Imh0dHBzOi8vbGFhYi5kZG5zLm5ldDozODA4MC8ifQ==",
+      "fileHash": "rGg9RSQhFX1tVNIb9SaQONRV4S9f8cccJs3OBNabhpU=",
+      "fileName": "fwdvisuelsdecommunicationfestivalpublicare.zip",
+      "fileSize": 855148,
+      "fileType": "zip",
+      "fileVersion": 0,
+      "id": "d002a90f-226f-42bd-997d-6ea5105498f7",
+      "isImage": false,
+      "isProtected": false,
+      "lastModified": "2025-11-24T14:11:37Z",
+      "lastModifiedBy": "subject:6798df7c5b784ee7b7cb52e1",
+      "metadata": {},
+      "metadataText": "835.1 kB",
+      "mimeType": "application/zip",
+      "parentId": "00000000-0000-0000-0000-000000000000",
+      "slug": "fwdvisuelsdecommunicationfestivalpublicare.zip",
+      "tags": [
+        "type/zip"
+      ],
+      "type": "Unknown",
+      "version": 0
+    },
+    {
+      "_links": {
+        "content": {
+          "href": "/api/assets/echotone/bf835077-89e4-472e-951e-c7cf9f604190/fond1.png",
+          "method": "GET"
+        },
+        "content/slug": {
+          "href": "/api/assets/echotone/fond1.png",
+          "method": "GET"
+        },
+        "delete": {
+          "href": "/api/apps/echotone/assets/bf835077-89e4-472e-951e-c7cf9f604190",
+          "method": "DELETE"
+        },
+        "move": {
+          "href": "/api/apps/echotone/assets/bf835077-89e4-472e-951e-c7cf9f604190/parent",
+          "method": "PUT"
+        },
+        "self": {
+          "href": "/api/apps/echotone/assets/bf835077-89e4-472e-951e-c7cf9f604190",
+          "method": "GET"
+        },
+        "update": {
+          "href": "/api/apps/echotone/assets/bf835077-89e4-472e-951e-c7cf9f604190",
+          "method": "PUT"
+        },
+        "upload": {
+          "href": "/api/apps/echotone/assets/bf835077-89e4-472e-951e-c7cf9f604190/content",
+          "method": "PUT"
+        }
+      },
+      "created": "2025-11-13T10:55:35Z",
+      "createdBy": "subject:6798df7c5b784ee7b7cb52e1",
+      "editToken": "eyJhIjoiZWNob3RvbmUiLCJpIjoiYmY4MzUwNzctODllNC00NzJlLTk1MWUtYzdjZjlmNjA0MTkwIiwidSI6Imh0dHBzOi8vbGFhYi5kZG5zLm5ldDozODA4MC8ifQ==",
+      "fileHash": "IIGrE3eYqgphREWk4N3hjtjiSGqYgSSQLmquGRfAei8=",
+      "fileName": "fond1.png",
+      "fileSize": 3805739,
+      "fileType": "png",
+      "fileVersion": 0,
+      "id": "bf835077-89e4-472e-951e-c7cf9f604190",
+      "isImage": true,
+      "isProtected": false,
+      "lastModified": "2025-11-13T10:55:35Z",
+      "lastModifiedBy": "subject:6798df7c5b784ee7b7cb52e1",
+      "metadata": {
+        "description": "PNG File",
+        "pixelHeight": 2814,
+        "pixelWidth": 4624
+      },
+      "metadataText": "4624x2814px, 3.6 MB",
+      "mimeType": "image/png",
+      "parentId": "00000000-0000-0000-0000-000000000000",
+      "pixelHeight": 2814,
+      "pixelWidth": 4624,
+      "slug": "fond1.png",
+      "tags": [
+        "type/png",
+        "image",
+        "image/large"
+      ],
+      "type": "Image",
+      "version": 0
+    },
+    {
+      "_links": {
+        "content": {
+          "href": "/api/assets/echotone/dd2fa55c-fe55-4924-99b3-71a031d1dedd/carte-oct-nov-dec.jpg",
+          "method": "GET"
+        },
+        "content/slug": {
+          "href": "/api/assets/echotone/carte-oct-nov-dec.jpg",
+          "method": "GET"
+        },
+        "delete": {
+          "href": "/api/apps/echotone/assets/dd2fa55c-fe55-4924-99b3-71a031d1dedd",
+          "method": "DELETE"
+        },
+        "move": {
+          "href": "/api/apps/echotone/assets/dd2fa55c-fe55-4924-99b3-71a031d1dedd/parent",
+          "method": "PUT"
+        },
+        "self": {
+          "href": "/api/apps/echotone/assets/dd2fa55c-fe55-4924-99b3-71a031d1dedd",
+          "method": "GET"
+        },
+        "update": {
+          "href": "/api/apps/echotone/assets/dd2fa55c-fe55-4924-99b3-71a031d1dedd",
+          "method": "PUT"
+        },
+        "upload": {
+          "href": "/api/apps/echotone/assets/dd2fa55c-fe55-4924-99b3-71a031d1dedd/content",
+          "method": "PUT"
+        }
+      },
+      "created": "2025-11-13T10:55:25Z",
+      "createdBy": "subject:6798df7c5b784ee7b7cb52e1",
+      "editToken": "eyJhIjoiZWNob3RvbmUiLCJpIjoiZGQyZmE1NWMtZmU1NS00OTI0LTk5YjMtNzFhMDMxZDFkZWRkIiwidSI6Imh0dHBzOi8vbGFhYi5kZG5zLm5ldDozODA4MC8ifQ==",
+      "fileHash": "fbv/1RAT3RxZB2mLBK1SyIKPmGMPvcPAFfOfANY93/I=",
+      "fileName": "carte-oct-nov-dec.jpg",
+      "fileSize": 1006616,
+      "fileType": "jpg",
+      "fileVersion": 0,
+      "id": "dd2fa55c-fe55-4924-99b3-71a031d1dedd",
+      "isImage": true,
+      "isProtected": false,
+      "lastModified": "2025-11-13T10:55:25Z",
+      "lastModifiedBy": "subject:6798df7c5b784ee7b7cb52e1",
+      "metadata": {
+        "created": "2025-10-23T12:08:17\u002B00:00",
+        "description": "JFIF File",
+        "imageQuality": 89,
+        "pixelHeight": 2164,
+        "pixelWidth": 1600
+      },
+      "metadataText": "1600x2164px, 983 kB",
+      "mimeType": "image/jpeg",
+      "parentId": "00000000-0000-0000-0000-000000000000",
+      "pixelHeight": 2164,
+      "pixelWidth": 1600,
+      "slug": "carte-oct-nov-dec.jpg",
+      "tags": [
+        "type/jpg",
+        "image",
+        "image/large"
+      ],
+      "type": "Image",
+      "version": 0
+    },
+    {
+      "_links": {
+        "content": {
           "href": "/api/assets/echotone/0181af71-7215-4e69-b312-6de2ca65aa69/ccc14.jpg",
           "method": "GET"
         },
@@ -17663,5 +18094,5 @@
       "version": 0
     }
   ],
-  "total": 270
+  "total": 277
 }
