@@ -24,30 +24,32 @@ let assetsJson: AssetsT = jsNative
 let fileTypeToAssetType (s: string) =
     s
     |> _.Split("/")
-    |> Array.head
+    |> Array.tryHead
     |> function
-        | "image" -> AssetType.Image
-        | "video" -> AssetType.Video
-        | "audio" -> AssetType.Audio
-        | _ -> failwith "Unknown asset type"
+        | Some "image" -> Some AssetType.Image
+        | Some "video" -> Some AssetType.Video
+        | Some "audio" -> Some AssetType.Audio
+        | _ -> None
 
 let s3slugs: obj = importDefault "../../data/s3.json"
 
 let mapSlugAssets =
     assetsJson.items
-    |> Seq.map(fun item ->
-        item.id,
-        {
-            slug =
-                if s3slugs?(item.slug) then
-                    s3slugs?(item.slug)
-                else
-                    "medias/" + item.slug
-            width = item.metadata?pixelWidth
-            height = item.metadata?pixelHeight
-            thumbnail = "medias/thumbnails/" + item.slug |> Some
-            ``type`` = fileTypeToAssetType item.mimeType
-        })
+    |> Seq.choose(fun item ->
+        fileTypeToAssetType item.mimeType
+        |> Option.map(fun assetType ->
+            item.id,
+            {
+                slug =
+                    if s3slugs?(item.slug) then
+                        s3slugs?(item.slug)
+                    else
+                        "medias/" + item.slug
+                width = item.metadata?pixelWidth
+                height = item.metadata?pixelHeight
+                thumbnail = "medias/thumbnails/" + item.slug |> Some
+                ``type`` = assetType
+            }))
     |> Map.ofSeq
 
 let sponsorsLogos =
