@@ -272,7 +272,7 @@ NUGET
       FSharp.Data.Http (>= 6.6) - restriction: >= netstandard2.0
       FSharp.Data.Json.Core (>= 6.6) - restriction: >= netstandard2.0
       FSharp.Data.Runtime.Utilities (>= 6.6) - restriction: >= netstandard2.0
-    FsHttp (15.0.1)
+    FsHttp (15.0.3)
       FSharp.Core (>= 5.0.2) - restriction: >= net6.0
     Microsoft.Bcl.AsyncInterfaces (9.0.3) - restriction: && (< net35) (< netcoreapp3.1) (>= netstandard2.0)
       System.Threading.Tasks.Extensions (>= 4.5.4) - restriction: || (>= net462) (&& (>= netstandard2.0) (< netstandard2.1))

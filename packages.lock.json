@@ -524,8 +524,8 @@
       },
       "FsHttp": {
         "type": "Transitive",
-        "resolved": "15.0.1",
-        "contentHash": "Cl8x98XHSQuAJg0NXCSCFTWCfLYwi1VZ+mHISv7Cm78UJL/aXd/3neCT20GngR0aZVYsbekobDLaRGb3KV78Yw==",
+        "resolved": "15.0.3",
+        "contentHash": "KCw9GFCi/M0VNJIQIvvf4VRMrzfMnBSPOS94xUi4aUZIrDkJGMP9MaIYppguA9v1QmT06buC7KorhpfPmVm4UA==",
         "dependencies": {
           "FSharp.Core": "5.0.2"
         }
@@ -544,7 +544,7 @@
           "FSharp.Data.Runtime.Utilities": "[6.6.0, )",
           "FSharp.Data.WorldBank.Core": "[6.6.0, )",
           "FSharp.Data.Xml.Core": "[6.6.0, )",
-          "FsHttp": "[15.0.1, )",
+          "FsHttp": "[15.0.3, )",
           "SiteUtils": "[1.0.0, )"
         }
       },
@@ -552,7 +552,7 @@
         "type": "Project",
         "dependencies": {
           "FSharp.Core": "[9.0.201, )",
-          "FsHttp": "[15.0.1, )",
+          "FsHttp": "[15.0.3, )",
           "dotenv.net": "[3.2.1, )"
         }
       }
